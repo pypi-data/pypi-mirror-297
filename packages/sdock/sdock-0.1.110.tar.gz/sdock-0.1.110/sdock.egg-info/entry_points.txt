@@ -1,0 +1,3 @@
+[console_scripts]
+mybinary = sdock.cli:main
+
