@@ -1,0 +1,5 @@
+numpy
+scipy==1.13.1
+qdldl
+cvxpy
+matplotlib
