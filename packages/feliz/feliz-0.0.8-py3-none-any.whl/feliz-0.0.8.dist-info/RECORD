@@ -1,0 +1,13 @@
+feliz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feliz/api_tools.py,sha256=IuG8NSMU5m3oEud2XyLo8PQ4IZqcmMPYCN5tRjwiYfs,5105
+feliz/auth_tools.py,sha256=rBxPQhwhSbmrgrc2OvG5AsCcXXK6evVqeKDh_ZVazpI,348
+feliz/file_tools.py,sha256=pZH5n6vg7wDnmiRxlzdTGDHKCcddLfpgJNZVyL2feUM,1860
+feliz/global_tools.py,sha256=5xG5HdPa0-faX2PDEdAcIRjKWoJBZ9yWQaOKWQTI6qg,2063
+feliz/initialware_tools.py,sha256=yI1qI5A9M6osHUpNapcpPkpt8F71eDs7RhDpFEsawDY,14418
+feliz/inspector_tools.py,sha256=mcJG2KzUIIH134Ip8ukVw6PeU36L6MJmBmuiShMPR7o,1360
+feliz/middleware_tools.py,sha256=VScFoqIdhk_QfEktX1MtiIszMPZf1ZkkQ39OoOkq1wA,17816
+feliz-0.0.8.dist-info/LICENSE,sha256=JsjfAJCK5wCUK4AfuzlEvFY3lBQUIwGfmuusHVIbZhE,1071
+feliz-0.0.8.dist-info/METADATA,sha256=FhLNQTYrlky3PX7bHJnZ5CU8o_rtQDN1bE9_1llbymE,11255
+feliz-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+feliz-0.0.8.dist-info/top_level.txt,sha256=h2cTB0D0_-t02uVxzHj1GR7aJd-Hszl8oUrSFySI_Kg,6
+feliz-0.0.8.dist-info/RECORD,,
