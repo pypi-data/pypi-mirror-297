@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: peace-augmentation
+Version: 0.0.1
+Author-email: Nicolás Benjamín Ocampo <nicolasbenjaminocampo@gmail.com>, Greta Damo <greta.damo@inria.fr>, Stéphane Petiot <stephane.petiot@hotmail.fr>
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: flair[word-embeddings]
+Requires-Dist: torch
+Requires-Dist: scipy
