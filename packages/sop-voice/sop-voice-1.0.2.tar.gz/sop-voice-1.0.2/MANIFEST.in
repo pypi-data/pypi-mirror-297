@@ -1,0 +1,1 @@
+recursive-include sop_voice/templates/ *
