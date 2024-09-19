@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gem-suite
+Version: 0.1.6
+Summary: Qiskit Experiments suite for generation of entanglement using measurements.
+Author-email: Naoki Kanazawa <knzwnao@jp.ibm.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pymatching
+Requires-Dist: qiskit>=1.0
+Requires-Dist: qiskit-experiments>=0.7
+Requires-Dist: qiskit-ibm-runtime
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: qiskit-aer; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
