@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+imagecompression8/__init__.py
+imagecompression8/compression_algorithm.py
+imagecompression8.egg-info/PKG-INFO
+imagecompression8.egg-info/SOURCES.txt
+imagecompression8.egg-info/dependency_links.txt
+imagecompression8.egg-info/requires.txt
+imagecompression8.egg-info/top_level.txt
