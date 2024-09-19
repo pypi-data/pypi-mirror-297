@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: redblack_test_1414
+Version: 0.1.1
+Summary: A brief description of your package
+Home-page: https://github.com/test/your-repo
+Author: redblack_test_1414
+Author-email: test.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# MyTestPackage
+
+MyTestPackage is a simple Python package that demonstrates how to publish a package to PyPI.
+
+## Features
+
+- Includes a `hello_world` function that returns a greeting message.
+
+## Installation
+
+```bash
+pip install mytestpackage
