@@ -1,0 +1,3 @@
+[console_scripts]
+quack2tex=quack2tex.cli:run
+
