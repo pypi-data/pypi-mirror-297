@@ -1,0 +1,2 @@
+[console_scripts]
+smoke-test-worker = hive.messaging.test.smoke_test_worker:main
