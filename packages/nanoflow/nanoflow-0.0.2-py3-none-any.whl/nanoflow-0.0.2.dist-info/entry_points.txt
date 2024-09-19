@@ -1,0 +1,3 @@
+[console_scripts]
+nanoflow = nanoflow.__main__:app
+
