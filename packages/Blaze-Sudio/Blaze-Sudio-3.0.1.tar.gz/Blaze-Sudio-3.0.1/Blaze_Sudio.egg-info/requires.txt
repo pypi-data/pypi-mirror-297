@@ -1,0 +1,6 @@
+pygame
+nPerlinNoise
+scikit-image
+matplotlib
+pyperclip
+shapely
