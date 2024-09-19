@@ -1,0 +1,1 @@
+PEXELS_SEARCH_IMAGE_API_ENDPOINT_URL = 'https://api.pexels.com/v1/search'
