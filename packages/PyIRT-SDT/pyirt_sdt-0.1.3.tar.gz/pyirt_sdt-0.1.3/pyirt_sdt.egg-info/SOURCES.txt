@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+pyirt_sdt/__init__.py
+pyirt_sdt/pyirt_sdt.py
+pyirt_sdt.egg-info/PKG-INFO
+pyirt_sdt.egg-info/SOURCES.txt
+pyirt_sdt.egg-info/dependency_links.txt
+pyirt_sdt.egg-info/top_level.txt
