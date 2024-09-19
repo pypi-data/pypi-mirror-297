@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycalfhello
+Version: 0.1.5
+Summary: A simple package to greet users
+Author: Paolo Raffini
+Author-email: paolo_raffini79@protonmail.com
+License-File: LICENSE.txt
+
