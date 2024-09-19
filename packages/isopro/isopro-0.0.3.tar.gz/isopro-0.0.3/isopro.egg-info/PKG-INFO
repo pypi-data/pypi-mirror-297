@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: isopro
+Version: 0.0.3
+Summary: Intelligent Simulation Orchestration for Large Language Models
+Home-page: https://github.com/yourusername/isopro
+Author: Jazmia Henry
+Author-email: isojaz@isoai.co
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://https://github.com/iso-ai/isopro//tree/main/.github/ISSUE_TEMPLATE.md
+Project-URL: Documentation, https://github.com/yourusername/isopro/wiki
+Keywords: LLM AI simulation reinforcement-learning adversarial-attacks NLP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ISOPro: Pro Tools for Intelligent Simulation Orchestration for Large Language Models
+
+ISOPRO is a powerful and flexible Python package designed for creating, managing, and analyzing simulations involving Large Language Models (LLMs). It provides a comprehensive suite of tools for reinforcement learning, conversation simulations, adversarial testing, custom environment creation, and advanced orchestration of multi-agent systems.
+
+## Features
+
+- **Custom Environment Creation**: Easily create and manage custom simulation environments for LLMs. COMING SOON
+- **Conversation Simulation**: Simulate and analyze conversations with AI agents using various user personas. COMING SOON
+- **Adversarial Testing**: Conduct adversarial simulations to test the robustness of LLM-based systems. COMING SOON
+- **Reinforcement Learning**: Implement and experiment with RL algorithms in LLM contexts. COMING SOON
+- **Utility Functions**: Analyze simulation results, calculate LLM metrics, and more.
+- **Flexible Integration**: Works with popular LLM platforms like OpenAI's GPT models, Claude (Anthropic), and Hugging Face models.
+- **Orchestration Simulation**: Manage and execute complex multi-agent simulations with different execution modes. **NOW AVAILABLE**
+
+## Installation
+
+You can install ISOPRO directly from GitHub using pip:
+
+```bash
+pip install git+https://github.com/iso-ai/isopro.git
+```
+
+## Orchestration Simulation
+
+ISOPRO now includes powerful orchestration capabilities for managing complex multi-agent simulations. Here's an example of how to use the orchestration simulation feature:
+
+```python
+from isopro.orchestration_simulation.main import OrchestrationEnv, AgentComponent
+from isopro.orchestration_simulation.utils import setup_logging
+from langchain.agents import create_react_agent
+from langchain_openai import OpenAI
+from langchain.tools import Tool
+
+# Set up logging
+logger = setup_logging(log_file="simulation.log")
+
+# Create tools and agent
+tools = [
+    Tool(name="Search", func=lambda x: "Search result for " + x, description="Search the web"),
+    Tool(name="Calculator", func=lambda x: eval(x), description="Perform calculations")
+]
+llm = OpenAI(temperature=0)
+agent = create_react_agent(llm, tools, "You are a helpful assistant.")
+
+# Create simulation environment
+sim_env = OrchestrationEnv()
+
+# Add agent components
+sim_env.add_component(AgentComponent(agent, tools))
+
+# Run simulations in different modes
+sequence_results = sim_env.run_simulation(mode='sequence', input_data="What is 2+2 and who was the first person on the moon?")
+parallel_results = sim_env.run_simulation(mode='parallel', input_data="Compare the populations of New York and Tokyo.")
+node_results = sim_env.run_simulation(mode='node', input_data="Explain the theory of relativity.")
+
+# Log results
+logger.info(f"Sequence mode results: {sequence_results}")
+logger.info(f"Parallel mode results: {parallel_results}")
+logger.info(f"Node mode results: {node_results}")
+```
+
+This example demonstrates how to set up a multi-agent simulation environment, add agent components, and run simulations in different execution modes (sequence, parallel, and node-based).
+
+For more detailed examples, check out the Jupyter notebooks in the `examples/` directory.
+
+## Documentation
+
+For full documentation, including API references and advanced usage examples, please visit our [GitHub Wiki](https://github.com/iso-ai/isopro/wiki).
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use ISOPRO in your research, please cite it as follows:
+
+```
+@software{isopro2024,
+  author = {Jazmia Henry},
+  title = {ISOPRO: Intelligent Simulation Orchestration for Large Language Models},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/iso-ai/isopro}}
+}
+```
+
+## Contact
+
+For questions or support, please open an issue on our [GitHub issue tracker](https://github.com/iso-ai/isopro/issues).
+
+
