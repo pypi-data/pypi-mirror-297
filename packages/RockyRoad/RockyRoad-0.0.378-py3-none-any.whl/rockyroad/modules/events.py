@@ -1,0 +1,66 @@
+from uplink import (
+    Consumer,
+    get as http_get,
+    post,
+    patch,
+    delete,
+    returns,
+    headers,
+    Body,
+    json,
+    Query,
+)
+
+
+from modules.module_imports import key
+
+
+@headers({"Ocp-Apim-Subscription-Key": key})
+class _Events(Consumer):
+    """Inteface to Events resource for the RockyRoad API."""
+
+    def __init__(self, Resource, *args, **kw):
+        self._base_url = Resource._base_url
+        super().__init__(base_url=Resource._base_url, *args, **kw)
+
+    def sent_emails(self):
+        """Inteface to Sent Emails resource for the RockyRoad API."""
+        return self._Sent_Emails(self)
+
+    @headers({"Ocp-Apim-Subscription-Key": key})
+    class _Sent_Emails(Consumer):
+        """Inteface to Sent Emails resource for the RockyRoad API."""
+
+        def __init__(self, Resource, *args, **kw):
+            self._base_url = Resource._base_url
+            super().__init__(base_url=Resource._base_url, *args, **kw)
+
+        @returns.json
+        @http_get("events/sent-emails")
+        def list(
+            self,
+            recipient: Query = None,
+            reply_to: Query = None,
+            subject: Query = None,
+        ):
+            """This call will return list of Sent Emails."""
+
+        @returns.json
+        @http_get("events/sent-emails/{uid}")
+        def get(self, uid: str):
+            """This call will get the Sent Email for the specified uid."""
+
+        @delete("events/sent-emails/{uid}")
+        def delete(self, uid: str):
+            """This call will delete the Sent Email for the specified uid."""
+
+        @returns.json
+        @json
+        @post("events/sent-emails")
+        def insert(self, sent_email_object: Body):
+            """This call will create the Sent Email with the specified parameters."""
+
+        @json
+        @patch("events/sent-emails/{uid}")
+        def update(self, uid: str, sent_email_object: Body):
+            """This call will update the Sent Email with the specified parameters."""
