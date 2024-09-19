@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: open_observe_tracking_django
+Version: 0.1
+Requires-Dist: requests
+Requires-Dist: Django>=4.1.6
+Requires-Dist: celery
