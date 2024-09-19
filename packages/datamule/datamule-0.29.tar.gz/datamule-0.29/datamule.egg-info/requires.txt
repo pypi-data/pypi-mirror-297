@@ -1,0 +1,8 @@
+aiohttp
+aiolimiter
+tqdm
+requests
+nest_asyncio
+
+[filing_viewer]
+lxml
