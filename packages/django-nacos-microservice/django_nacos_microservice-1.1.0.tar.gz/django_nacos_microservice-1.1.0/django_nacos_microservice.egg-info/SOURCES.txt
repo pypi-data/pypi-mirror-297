@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+django_microservice_nacos/__init__.py
+django_microservice_nacos/nacos.py
+django_microservice_nacos/urls.py
+django_nacos_microservice.egg-info/PKG-INFO
+django_nacos_microservice.egg-info/SOURCES.txt
+django_nacos_microservice.egg-info/dependency_links.txt
+django_nacos_microservice.egg-info/requires.txt
+django_nacos_microservice.egg-info/top_level.txt
