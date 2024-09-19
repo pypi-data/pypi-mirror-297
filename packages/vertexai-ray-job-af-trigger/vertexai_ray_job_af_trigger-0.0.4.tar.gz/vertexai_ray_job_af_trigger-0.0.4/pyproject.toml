@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vertexai_ray_job_af_trigger"
+version = "0.0.4"
+authors = [
+  { name="Ravi Dalal", email="raviabms@gmail.com" },
+]
+description = "An Airflow trigger for monitoring a Ray job running on Ray cluster on Vertex AI"
+requires-python = ">=3.8"
+dependencies = [
+    "asyncio",
+    "ray == 2.33",
+    "apache-airflow"
+]
