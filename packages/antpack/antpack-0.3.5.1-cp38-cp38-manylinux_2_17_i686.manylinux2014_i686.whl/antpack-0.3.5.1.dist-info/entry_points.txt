@@ -1,0 +1,3 @@
+[console_scripts]
+AntPack = antpack:run_cli_interface
+
