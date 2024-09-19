@@ -1,0 +1,8 @@
+htmlbook_docx/__init__.py,sha256=uKcZOt6ADBf7mT80rRJxe_YgByCF92NB2aymL6ncTco,655
+htmlbook_docx/document.py,sha256=SU0sqhtz6_e3UlrTtVKVZGyzbsOTSR3AUQ87Nkl31cI,1279
+htmlbook_docx/elements.py,sha256=lPOPobUWZU8Xtk3cCAU6RJ_yBHPRYhRfs8-aSq7yyU8,7614
+htmlbook_docx/styles.py,sha256=OoCr2aD2fhrmQibz_68veudPdDCxAv49_ivvO4P4TCs,4253
+htmlbook_docx-0.2.0.dist-info/METADATA,sha256=6ldK43BGdvT14loab8HQQvY7PXdp_Qcgtg-C7CH4N2U,2396
+htmlbook_docx-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+htmlbook_docx-0.2.0.dist-info/entry_points.txt,sha256=h1qAIU9gmxwTjOQeo1XAn9N7Y6oLcf-yw6pvpe2HHCU,53
+htmlbook_docx-0.2.0.dist-info/RECORD,,

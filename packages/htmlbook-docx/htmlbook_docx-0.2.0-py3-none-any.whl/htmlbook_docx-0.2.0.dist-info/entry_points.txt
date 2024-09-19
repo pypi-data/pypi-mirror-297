@@ -1,0 +1,2 @@
+[console_scripts]
+htmlbook2docx = htmlbook_docx:main
