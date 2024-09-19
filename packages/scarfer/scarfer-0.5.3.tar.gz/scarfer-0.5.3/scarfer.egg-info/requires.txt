@@ -1,0 +1,8 @@
+PyYAML
+jsonschema
+license_expression
+
+[dev]
+bump2version
+flake8
+pytest
