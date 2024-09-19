@@ -1,0 +1,68 @@
+[tool.poetry]
+name = "mmbse_client"
+version = "1.0.0"
+description = "Python wrapper for the MMBSE Rest API"
+authors = ["Jen kaeske <jens.kaeske@cern.ch>, Konstantinos Diamantis <konstantinos.diamantis@cern.ch>"]
+maintainers = ["Konstantinos Diamantis <konstantinos.diamantis@cern.ch>"]
+license = "MIT" 
+readme = "README.md"
+repository = "https://gitlab.cern.ch/pymbse/mmbse-client"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "mmbse_client" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.13"
+requests = "^2.31.0"
+pre-commit = "^3.6.0"
+setuptools = "^69.0.3"
+faker = "^22.5.0"
+factory-boy = "^3.3.0"
+ruff = "^0.4.3"
+
+
+[tool.ruff]
+lint.ignore = ["F403", "F404", "F405", "F401"]
+
+
+[tool.poetry.group.lint.dependencies]
+mypy = "^0.961"
+types-requests = "^2.28.1"
+flake8 = "^4.0.1"
+black = "^22.6.0"
+
+[tool.poetry.group.test.dependencies]
+toml-cli = "^0.3.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = "^0.18.1"
+sphinx = "^5"
+toml = "^0.10.2"
+sphinx-gallery = "^0.11.1"
+pillow = "^9.4.0"
+nbsphinx = "^0.8.12"
+sphinxcontrib-apidoc = "^0.3.0"
+
+
+
+[tool.mypy]
+ignore_missing_imports = true
+python_version = "3.9"
+exclude = "docs"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+pattern = "default-unprefixed"
