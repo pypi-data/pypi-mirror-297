@@ -1,0 +1,9 @@
+README.md
+aggressor.py
+setup.py
+aggressor.egg-info/PKG-INFO
+aggressor.egg-info/SOURCES.txt
+aggressor.egg-info/dependency_links.txt
+aggressor.egg-info/entry_points.txt
+aggressor.egg-info/requires.txt
+aggressor.egg-info/top_level.txt
