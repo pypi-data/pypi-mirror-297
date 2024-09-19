@@ -1,0 +1,8 @@
+pandas
+numpy
+torch
+torchvision
+pillow
+tqdm
+
+[dev]
