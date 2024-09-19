@@ -1,0 +1,61 @@
+= This is the book/file heading
+
+This file is meant to serve as the source for many of the tests and so on that
+this package will eventually contain. It'll be converted via asciidoctor using
+the https://github.com/oreillymedia/asciidoctor-htmlbook[O'Reilly Asciidoctor to
+Htmlbook backend]. Note the link in this paragraph.
+
+This is body text, a paragraph with _italics_ and *bold* styles, as well as
+`code` in-lines. 
+
+== This is a second-level or "chapter" heading
+
+This is body text.
+
+[NOTE]
+An admonition!
+
+This is more body text.
+
+.An Aside with a Heading
+****
+Some text inside the aside.
+****
+
+Here is body text with a footnote.footnote:[This is a later case.]
+
+=== This is a third-level heading
+
+With some text.
+
+== Lists
+
+Here is an unordered list:
+
+* Apples
+* Oranges
+* Pears
+
+Here is an ordered list:
+
+. One
+. Two
+. Three
+
+Now, let's try a definition list:
+
+Some:: Things.
+
+Are:: Meant.
+
+To:: Be or not to be, that is the question.
+
+== Styles and Roles
+
+[role="example"]
+Another paragraph of text, except this paragraph has a `role` or style appended
+to it. This should come out having a paragraph style of "example."
+
+Here is a paragraph without a style, but which includes text that has an inline
+style, for example, [.example]#this span has an example class on it#.
+
