@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: reflex-intersection-observer
+Version: 0.0.4
+Summary: Reflex custom component intersection-observer
+Author-email: Masen Furer <m_github@0x26.net>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/masenf/reflex-intersection-observer
+Keywords: reflex,reflex-custom-components
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2>=3.1.2
+Requires-Dist: reflex>=0.4.6
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+# intersection-observer
+
+React to a component coming into view using Reflex event handler.
+
+## Installation
+
+```bash
+pip install reflex-intersection-observer
+```
+
+## Usage
+
+```python
+import reflex as rx
+
+from reflex_intersection_observer import intersection_observer
+
+def index():
+    return rx.vstack(
+        rx.box(height="150vh"), 
+        intersection_observer(
+            on_intersect=rx.console.log("Component visible!"),
+        ),
+    )
+```
