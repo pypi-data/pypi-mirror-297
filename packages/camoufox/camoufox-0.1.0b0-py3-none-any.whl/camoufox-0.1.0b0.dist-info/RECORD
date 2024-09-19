@@ -1,0 +1,17 @@
+camoufox/__init__.py,sha256=ZB0ZTJiK1SxzQZhiILZg4mTdk1NeuiC9Y1NVPKHKNhM,222
+camoufox/__main__.py,sha256=Eq1ejIL4_mOPQb27FGgW7gUfW3oqW81V9tp0n88N45o,2898
+camoufox/addons.py,sha256=fgJ5OeQRh1YXpUtwIqMFBXcSs4n5a-4F5Fu512yipqk,5540
+camoufox/async_api.py,sha256=3bXpiUxFAB1TwD-lOBXvEtBJD-h9F8DSWYP6gYIPPRM,3222
+camoufox/browserforge.yaml,sha256=gKtMllYg3Rj0i5r3aYX2qazOMbuIPhR33nhiMbItwbk,2161
+camoufox/exceptions.py,sha256=2FHRtxA174yNt0thb771Rrs41FZGJUwdqQvYlZFMAhA,756
+camoufox/fingerprints.py,sha256=efOBrG_34Ge-Sp14d1jfLmw-a8nZVl5l7LNt2SgL_2c,1475
+camoufox/fonts.json,sha256=piDmmTvGgmjuKcvI_WtncX89ArnqyjaGWqm7ojUCaWw,19415
+camoufox/pkgman.py,sha256=nR7a2OHjTsf5g11nhUZvaIKj0hFiFIJ5iTZz0bBg5QA,10148
+camoufox/setup.cfg,sha256=IhBW4LUUIo1BdAv48Ub6XRH65IB-Ta_VKwEKu7WtZBw,35
+camoufox/sync_api.py,sha256=VWyyEvl0pvM9LEAzzcvm4SCwsIFrxg7uW6vn3rx1rVM,3153
+camoufox/utils.py,sha256=HkK-_5EagdXj7TU3dzmFRhiZw9NUayPQR-M6uxLN6bI,6275
+camoufox/xpi_dl.py,sha256=GVRUDgLZ48hRAV3i2Fe9SDu-fZafK7ha7lOuI6HfDO8,1983
+camoufox-0.1.0b0.dist-info/METADATA,sha256=mPhSNqyVuLty-LqyuWqHOY5_s2v3OUIbWn392Cpnw_Y,4388
+camoufox-0.1.0b0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+camoufox-0.1.0b0.dist-info/entry_points.txt,sha256=eKmJN2iIQFFslbkOCLYUVMcEYn1LpS1NSXjmu-4LbuE,50
+camoufox-0.1.0b0.dist-info/RECORD,,
