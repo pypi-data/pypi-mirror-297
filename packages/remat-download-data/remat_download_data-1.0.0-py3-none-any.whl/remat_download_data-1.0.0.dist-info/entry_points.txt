@@ -1,0 +1,2 @@
+[console_scripts]
+remat-download-data = remat_download_data.download_dataset:main
