@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jinsh
+Version: 0.25
+Summary: tool
+Author: Walter
+Author-email: jinshuhaicc@gmail.com
+License: MIT-0
+Requires-Dist: pillow
+Requires-Dist: oracledb
+Requires-Dist: json5
+Requires-Dist: oci
+Requires-Dist: urllib3
+Requires-Dist: gTTS
+Requires-Dist: SQLAlchemy
+Requires-Dist: PyMySQL
+Requires-Dist: mysql-connector-python
+Requires-Dist: pycryptodome
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: opencv-python-headless
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
