@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ice_estimation
+Version: 1.0.0
+Summary: A package for estimation techniques
+Author-email: Naseem Alsadi <nalsadi01@gmail.com>
+Project-URL: Homepage, https://github.com/nalsadi/ice_estimation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21
+Requires-Dist: scipy>=1.7
+
+# ICE Estimation
+
+```
+pip install ice-estimation
+```
+
+Supported Filters: 
+
+* Sliding Innovation Filter
+* Kalman Filter
+
+```
+from ice_estimation import filters
+
+filters.sif(x, z, u, P, A, B, C, Q, R,delta)
+filters.kf_filter(x, z, u, P, A, B, C, Q, R)
+```
