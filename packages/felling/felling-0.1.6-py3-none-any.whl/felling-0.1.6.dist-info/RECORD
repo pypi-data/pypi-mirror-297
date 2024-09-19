@@ -1,0 +1,11 @@
+felling/README.md,sha256=UG7lSdFCObBzeRqPW8Xqa2xLBzfCEvtI2P2oz3pAR_A,44
+felling/__init__.py,sha256=kVfK_zupqmEP5Cf8d4f1FId-plB_f2UckBNX8CSZ4GY,464
+felling/__main__.py,sha256=3dYjunIFAb3s1UruYJiDMoK99nvYD_bsHWcKd8127do,221
+felling/compare_logs.py,sha256=fc6HYrwriADEIAnav-xVIWXRsnAydQbrx7iLTHuxcWk,4530
+felling/configure_felling.py,sha256=2v3a2lENSUJVPWfGItrInXLPl7j5uvyzMNxoR-m5cqY,6815
+felling/email.py,sha256=mi8677TY2Vd-cATChQNneIC2KAFHXhBopkocoeQNqQc,5435
+felling/resources/logger.json,sha256=-kY3k5daWS1ZeZ09DwSAiQUwTJhoQiPIAZGkfNKNiho,1503
+felling-0.1.6.dist-info/METADATA,sha256=9h4MhrB1G_kSBnXTQaKJs8nEgSq5DLgMsy9Ef1G_13Y,7912
+felling-0.1.6.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+felling-0.1.6.dist-info/licenses/LICENSE,sha256=PzYgiyYMAnbvR5sbOlU77-jxWjg-Gk33ueHEtzpOyj4,1061
+felling-0.1.6.dist-info/RECORD,,
