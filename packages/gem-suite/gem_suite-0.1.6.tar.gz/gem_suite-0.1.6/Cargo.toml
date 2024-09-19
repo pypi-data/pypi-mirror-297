@@ -1,0 +1,28 @@
+[package]
+name = "gem_core"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+license = "Apache-2.0"
+
+[lib]
+name = "gem_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+bitvec = "1.0.1"
+ahash = "0.8.6"
+hashbrown = "0.14.3"
+indexmap = ">=1.9, <3"
+rayon = "1.10"
+petgraph = "0.6.5"
+lazy_static = "1.4"
+itertools = "0.13.0"
+fusion-blossom = "0.2.10"
+
+[dev-dependencies]
+approx = "0.5.1"
+
+[dependencies.pyo3]
+version = "0.22.2"
+features = ["extension-module", "hashbrown"]

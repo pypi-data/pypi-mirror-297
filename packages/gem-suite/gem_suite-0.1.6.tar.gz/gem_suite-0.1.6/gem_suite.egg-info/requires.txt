@@ -1,0 +1,9 @@
+pymatching
+qiskit>=1.0
+qiskit-experiments>=0.7
+qiskit-ibm-runtime
+
+[dev]
+black
+qiskit-aer
+ruff
