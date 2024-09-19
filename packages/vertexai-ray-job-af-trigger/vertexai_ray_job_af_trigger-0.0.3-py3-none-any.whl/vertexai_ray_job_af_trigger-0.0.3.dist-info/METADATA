@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vertexai_ray_job_af_trigger
+Version: 0.0.3
+Summary: An Airflow trigger for monitoring a Ray job running on Ray cluster on Vertex AI
+Author-email: Ravi Dalal <raviabms@gmail.com>
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: asyncio
+Requires-Dist: ray ==2.33
+Requires-Dist: apache-airflow
+
