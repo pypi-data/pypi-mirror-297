@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyflaarum
+Version: 1.3.0
+Summary: A library to interact with flaarum database
+Author-email: Bankole Ojo <ojobankole@gmail.com>
+Project-URL: Homepage, https://sae.ng/flaarumtuts/
+Project-URL: Issues, https://github.com/saenuma/pyflaarum/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyflaarum
+
+a python client for flaarum
+
+## Installation
+
+1. Go to [sae.ng](https://sae.ng/flaarumtuts/install) to get installation instructions for flaarum
+
+1. Make sure you have pip installed.
+
+1. `pip install --upgrade pyflaarum`
+
+## Tutorials
+
+Go to [sae.ng](https://sae.ng/flaarumtuts/intro) for tutorials
