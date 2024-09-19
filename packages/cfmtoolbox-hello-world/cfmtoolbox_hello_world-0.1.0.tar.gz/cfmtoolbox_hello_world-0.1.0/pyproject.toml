@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cfmtoolbox-hello-world"
+version = "0.1.0"
+description = "This is just an example hello world plugin for the CFM Toolbox."
+authors = ["Anna Chen <chenxanna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cfmtoolbox = "<1.0.0"
+
+[tool.poetry.plugins."cfmtoolbox.plugins"]
+hello-world = "cfmtoolbox_hello_world"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
