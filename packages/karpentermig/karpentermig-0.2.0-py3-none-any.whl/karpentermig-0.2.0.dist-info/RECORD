@@ -1,0 +1,12 @@
+karpentermig/__init__.py,sha256=2lfyt4JE74UR7SdaQlI15cFu1JZa_jtBu7C6ZupJrCQ,167
+karpentermig/cli.py,sha256=XGG7gvlrx2qI0kRGFUY3jSjNk5YbjdDuJW8pvzKreKU,848
+karpentermig/discover_cluster.py,sha256=gnA7I7xff1g0NFgCRQ1o-fNL19raUcHO_Q4RCW0wTTI,6485
+karpentermig/generate_karpenter.py,sha256=3BoNe0DWu44yDEu8xO54bQVEDT1ONCAjbsXWWZu0OZw,3196
+test/__init__.py,sha256=93d2w0JzPszS6N2DUv7gjX41ki0oLzOxjoiRJ705ccY,139
+test/test_karpentermig.py,sha256=RRQO6zpjNpwTFAFawTwpmLiUe4vroUfLdA-gXphiM7k,2171
+karpentermig-0.2.0.dist-info/LICENSE,sha256=V2jLMDt6-qz5WJ5TOuGTPhR7NVaVnrO5cUdTSAlNsIw,1068
+karpentermig-0.2.0.dist-info/METADATA,sha256=ZDpdHghuJD-91gfmTk7-nysbduLe-xTgzb-ndngqDyA,1784
+karpentermig-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+karpentermig-0.2.0.dist-info/entry_points.txt,sha256=L2o0XMPmO_INTlvNTuUneoxEKRWhlV04eDc8H3HFxaA,54
+karpentermig-0.2.0.dist-info/top_level.txt,sha256=ZC1SxXdt4R75wflV0dxYRNkHaNQPCknEWt3GRPB3oOE,18
+karpentermig-0.2.0.dist-info/RECORD,,
