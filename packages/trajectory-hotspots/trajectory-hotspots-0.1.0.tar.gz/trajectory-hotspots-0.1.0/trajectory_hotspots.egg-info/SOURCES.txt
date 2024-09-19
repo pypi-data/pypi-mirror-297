@@ -1,0 +1,9 @@
+README.md
+setup.py
+hotspots/__init__.py
+hotspots/hotspots.py
+trajectory_hotspots.egg-info/PKG-INFO
+trajectory_hotspots.egg-info/SOURCES.txt
+trajectory_hotspots.egg-info/dependency_links.txt
+trajectory_hotspots.egg-info/requires.txt
+trajectory_hotspots.egg-info/top_level.txt
