@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graph_mkimoni"
+version = "0.0.1"
+authors = [
+  { name="Alex Kimoni", email="mkimoni@msudenver.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/alexkimoni/dijkstra.git"
