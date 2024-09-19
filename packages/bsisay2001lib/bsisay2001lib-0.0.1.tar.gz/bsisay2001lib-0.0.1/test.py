@@ -1,0 +1,3 @@
+from bsisay2001lib import mod
+
+print(mod.add_one(5))
