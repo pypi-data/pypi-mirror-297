@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pysmatch
+Version: 0.2
+Summary: PSM for Python
+Home-page: https://github.com/mhcone/pysmatch
+Download-URL: https://github.com/mhcone/pysmatch/archive/0.2.tar.gz
+Author: Miao HanCheng
+Author-email: hanchengmiao@gmail.com
+Keywords: logistic,regression,matching,observational,machine learning,inference,pysmatch
+License-File: LICENSE
