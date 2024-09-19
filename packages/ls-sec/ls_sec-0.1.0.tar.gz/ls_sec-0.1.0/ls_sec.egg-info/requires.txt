@@ -1,0 +1,8 @@
+pandas
+aiofiles
+
+[dev]
+pytest>=6.2.2
+black
+flake8
+isort

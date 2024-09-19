@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ls_sec"
+version = "0.1.0"
+description = "ls security open api"
+authors = [
+    { name="Jungwoo Yang", email="jwyang0213@gmail.com" }
+]
+readme = "README.md"
+dependencies = [
+    "pandas",
+    "aiofiles",
+]
+
+[tool.setuptools.packages.find]
+include = ["ls_sec*"]
+#exclude = ["app"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.2.2",
+    "black",
+    "flake8",
+    "isort"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py36', 'py37', 'py38', 'py39']
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+
+[tool.isort]
+profile = "black"

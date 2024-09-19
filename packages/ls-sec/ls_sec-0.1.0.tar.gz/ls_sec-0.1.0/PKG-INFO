@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ls_sec
+Version: 0.1.0
+Summary: ls security open api
+Author-email: Jungwoo Yang <jwyang0213@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: aiofiles
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.2; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+
+# LS-SEC
+
+[LS증권 Open API](https://openapi.ls-sec.co.kr)를 위한 라이브러리입니다.
