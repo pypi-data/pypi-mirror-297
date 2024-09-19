@@ -1,0 +1,4 @@
+pyaqcv.egg-info/PKG-INFO
+pyaqcv.egg-info/SOURCES.txt
+pyaqcv.egg-info/dependency_links.txt
+pyaqcv.egg-info/top_level.txt
