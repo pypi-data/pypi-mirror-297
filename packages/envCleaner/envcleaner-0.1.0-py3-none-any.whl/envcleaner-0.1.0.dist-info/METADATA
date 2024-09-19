@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: envCleaner
+Version: 0.1.0
+Summary: A simple Python tool that helps identify and delete unused virtual environments (venv) in your project folders. This CLI helps keep your system organized and frees up disk space.
+Author: kayqueGovetri
+Author-email: govetriKayque@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Description-Content-Type: text/markdown
+
+# `cleaner`
+
+Pass the path you want to delete the venv
+
+**Usage**:
+
+```console
+$ cleaner [OPTIONS] PATH
+```
+
+**Arguments**:
+
+* `PATH`: [required]
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
