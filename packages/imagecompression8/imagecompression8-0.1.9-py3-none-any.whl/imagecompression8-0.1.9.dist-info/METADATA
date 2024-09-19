@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: imagecompression8
+Version: 0.1.9
+Summary: It is an image compression Python package based on Singular Value Decomposition (SVD) technology. This tool offers an efficient block-based image compression method, reducing the storage requirements of images by dividing them into blocks and applying SVD, while retaining as much visual information as possible.
+Author: Katie Wen-Ling Kuo
+Author-email: katie20030705@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: scipy
+
