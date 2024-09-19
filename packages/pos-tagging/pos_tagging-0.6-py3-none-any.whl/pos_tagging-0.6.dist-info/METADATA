@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: pos_tagging
+Version: 0.6
+Requires-Dist: langchain-google-genai>=2.0.0
+
