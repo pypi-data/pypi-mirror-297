@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: video-effects
+Version: 0.0.2
+Summary: A package for video effects
+Home-page: https://github.com/yourusername/video-effects
+Author: 0xIbra
+Author-email: ibragim.ai95@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: moviepy
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+
