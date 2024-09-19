@@ -1,0 +1,6 @@
+services:
+  cti:
+    build: .
+    restart: always
+    ports:
+      - "8087:7860"
