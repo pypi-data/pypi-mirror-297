@@ -1,0 +1,15 @@
+gufe
+numpy
+rdkit
+networkx
+scikit-mol
+scikit-learn
+ipycytoscape
+
+[dev]
+black
+pre-commit
+
+[test]
+pytest
+pytest-cov[all]
