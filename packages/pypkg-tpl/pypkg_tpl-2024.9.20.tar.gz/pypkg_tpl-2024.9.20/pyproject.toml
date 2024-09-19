@@ -1,0 +1,31 @@
+[project]
+name = "pypkg-tpl"
+description = ""
+authors = [
+    { name = "mikigo", email = "huangmingqiang@uniontech.com" },
+]
+dependencies = [
+    "click",
+]
+dynamic = [
+    "version",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = { text = "GPL2.0" }
+
+[project.scripts]
+pypkg = "pypkg.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch]
+version = { path = "pypkg/__version__.py" }
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "/pypkg",
+]
+
