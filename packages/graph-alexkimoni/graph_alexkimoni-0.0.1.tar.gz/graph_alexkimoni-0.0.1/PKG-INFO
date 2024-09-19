@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: graph_alexkimoni
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/alexkimoni/dijkstra.git
+Author-email: Alex Kimoni <mkimoni@msudenver.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+A Python package that implements Dijkstra's shortest path algorithm and includes Kruskal's minimum spanning tree algorithm.
