@@ -1,0 +1,6 @@
+bs4
+docker
+ebooklib
+nltk
+pydantic
+requests
