@@ -1,0 +1,35 @@
+Metadata-Version: 2.3
+Name: yooink
+Version: 0.0.1
+Summary: A package for accessing OOI data via the m2m protocol
+Project-URL: Homepage, https://github.com/Waveform-Analytics/yooink
+Project-URL: Issues, https://github.com/Waveform-Analytics/yooink/issues
+Author-email: Michelle Weirathmueller <michelle@waveformanalytics.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# yooink
+
+A Python package to access Ocean Observatories Initiative (OOI) data via 
+the m2m (machine to machine) interface. 
+
+## Documentation
+
+For more information about how to install and use yooink, check out the 
+documentation site: *Coming soon!*
+
+## Development
+
+This project is still in early development. To access and work on it, clone 
+this repository. In a terminal window, navigate to the same folder where 
+the pyproject.toml is located, and enter the following command:
+
+```bash
+pip install -e .
+```
+
+*note: The dot at the end is important!*
