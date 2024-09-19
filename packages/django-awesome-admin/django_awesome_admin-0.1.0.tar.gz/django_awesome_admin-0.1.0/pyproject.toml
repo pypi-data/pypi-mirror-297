@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-awesome-admin"
+version = "0.1.0"
+description = "Django Awesome Admin theme"
+authors = ["Alex <globophobe@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/globophobe/django-awesome-admin"
+repository = "https://github.com/globophobe/django-awesome-admin"
+keywords = ["django", "admin", "theme"]
+classifiers = ["Framework :: Django", "Development Status :: 4 - Beta", "Operating System :: OS Independent"]
+packages = [{ include = "awesome_admin" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+django = ">=3.2"
