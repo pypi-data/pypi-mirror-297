@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "reqgenz"
+version = "0.1.2"
+description = "Requirements Generator Tool: Manage requirements, versioning, and virtual environments for Python projects."
+authors = ["Cody Webb <cody.l.webb@gmail.com>"]
+readme = "README.md"
+
+
+
+[tool.poetry.scripts]
+reqgenz = "reqgenz.src.reqgenz:main"
