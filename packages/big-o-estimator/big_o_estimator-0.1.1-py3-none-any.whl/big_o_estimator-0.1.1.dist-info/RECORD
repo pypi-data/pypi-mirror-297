@@ -1,0 +1,11 @@
+big_o_estimator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+big_o_estimator/estimator.py,sha256=f_UySJ8eEUux5xZerWmj52AYXK1p70sicUi66gWKu8g,1909
+big_o_estimator/__pycache__/__init__.cpython-311.pyc,sha256=zXAw9zZndtfDQ4z2KjThCjHqsGSuGLgS_c6rmsn1qJ8,203
+big_o_estimator/__pycache__/estimator.cpython-311.pyc,sha256=rW-grHZ3Ilts2XxiniMBx-0zBJWxxVwJIvTqCXg0x6Y,2789
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_big_o_estimator.py,sha256=smcsWfmrXW-LUUVOfCRUqQe-NsPPNqnhpMT7ZgnYCN0,964
+big_o_estimator-0.1.1.dist-info/LICENSE,sha256=wlBVzR9hIeT6uW9uda06D6aoIup2a8y5285CgOexpY0,487
+big_o_estimator-0.1.1.dist-info/METADATA,sha256=TeaYtsDtm-WwjtwqEZLA6CiZl364sSQrbBT4i0Rc55I,897
+big_o_estimator-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+big_o_estimator-0.1.1.dist-info/top_level.txt,sha256=_Jh3sfMnVTkDnE44sFqXGnysexn3YkC9moYKIt1dNKg,22
+big_o_estimator-0.1.1.dist-info/RECORD,,
