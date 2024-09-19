@@ -1,0 +1,14 @@
+otii_tcp_client/__init__.py,sha256=GlgB3FJzXImRINfLr5U76uacMefvxZDBdaxsY7jWckE,46
+otii_tcp_client/arc.py,sha256=LS719jwq-ySKET8yojzq2CXNqKkd3SZmbQVZMBvNIb4,25067
+otii_tcp_client/battery_emulator.py,sha256=A984kGr-6hta4lYe724LQCRmPaKk5R89BFhncKJXgNk,5543
+otii_tcp_client/otii.py,sha256=3yzEOVQrgF3ajrTj4DJsorHKNg57oCe48X4RI4L6PAU,9255
+otii_tcp_client/otii_connection.py,sha256=XQ3pG51id_fILbK0ipKPpwf-MtW5OJ559qCq5Vc1O4M,4569
+otii_tcp_client/otii_control.py,sha256=mSLDX80XsSk4D05surDatzyo5uVoEfsr4M7-v4NVYiU,2468
+otii_tcp_client/otii_exception.py,sha256=HofqMTqjAjF_mxW_gVAoW7q_9ph_RFt0o1S9MR3S_p4,3613
+otii_tcp_client/project.py,sha256=7DJaZWHWMY8ARNbbS79AKB8ZSN-lvjOj81c61Zsztn8,5358
+otii_tcp_client/recording.py,sha256=ugDY87bJtV4O4VBBCyR0uB_kS5gnt4rYD0z7jws9pGw,13057
+otii_tcp_client-1.0.8.dist-info/LICENSE,sha256=xIgJ-1bcwYxIV_DGUePpDBu9U9Y30GMqlMuj8Rkkz58,1067
+otii_tcp_client-1.0.8.dist-info/METADATA,sha256=mswGRLwpLx1b7DGizY1lOgu2qrJP_0-uyCzfwXMJ6hg,3136
+otii_tcp_client-1.0.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+otii_tcp_client-1.0.8.dist-info/top_level.txt,sha256=tvI0b9S_B6tLySwa1-OVYY8qQgohJW6seG2VqpMsbpc,16
+otii_tcp_client-1.0.8.dist-info/RECORD,,
