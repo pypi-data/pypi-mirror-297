@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-awesome-admin
+Version: 0.1.0
+Summary: Django Awesome Admin theme
+Home-page: https://github.com/globophobe/django-awesome-admin
+License: MIT
+Keywords: django,admin,theme
+Author: Alex
+Author-email: globophobe@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=3.2)
+Project-URL: Repository, https://github.com/globophobe/django-awesome-admin
+Description-Content-Type: text/markdown
+
+
