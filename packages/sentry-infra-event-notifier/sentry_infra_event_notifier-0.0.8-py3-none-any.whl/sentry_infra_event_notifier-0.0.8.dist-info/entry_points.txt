@@ -1,0 +1,2 @@
+[console_scripts]
+infra-event-notifier = infra_event_notifier:main.main
