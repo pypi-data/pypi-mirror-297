@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/khello_world/__init__.py
+src/khello_world/somecode.py
+src/khello_world.egg-info/PKG-INFO
+src/khello_world.egg-info/SOURCES.txt
+src/khello_world.egg-info/dependency_links.txt
+src/khello_world.egg-info/top_level.txt
