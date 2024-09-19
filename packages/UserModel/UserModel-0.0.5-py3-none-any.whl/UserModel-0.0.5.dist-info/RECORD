@@ -1,0 +1,11 @@
+UserModel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UserModel/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+UserModel/apps.py,sha256=Lta7SNEEqGJ2z9V96YvVCT9RPp2mwTdsfvaPlBW1_Jo,268
+UserModel/models.py,sha256=5oqPmfduG2GG1PwWEadqw9PAak7hFXI1e5-tzsgUBZE,2131
+UserModel/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+UserModel/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+UserModel/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UserModel-0.0.5.dist-info/METADATA,sha256=DM8ZCriT3jnLldNHfx6vJLLy8cp2S5YHmdjSBePaKJc,325
+UserModel-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+UserModel-0.0.5.dist-info/top_level.txt,sha256=r7LbL3CHWL4tmW_IXkPaF-bqzP-hLAVvo-tpNH6tiog,10
+UserModel-0.0.5.dist-info/RECORD,,
