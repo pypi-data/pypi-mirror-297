@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tradestation
+Version: 0.1
+Summary: An unofficial SDK for Tradestation!
+Home-page: https://github.com/tastyware/tradestation
+Author: Graeme Holliday
+Author-email: graeme.holliday@pm.me
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.27.0
+
+# tradestation
+An unofficial Python SDK for Tradestation!
