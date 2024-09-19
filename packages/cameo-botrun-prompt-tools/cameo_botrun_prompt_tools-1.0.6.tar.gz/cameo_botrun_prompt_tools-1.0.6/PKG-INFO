@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: cameo_botrun_prompt_tools
+Version: 1.0.6
+Summary: cameo_botrun_prompt_tools
+Home-page: https://github.com/bohachu/cameo_botrun_prompt_tools
+Author: elantievs
+Author-email: elantievs@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# cameo_botrun_prompt_tools
+這個套件提供了一系列工具，方便使用者產生與波特人相關的提示詞。
+
+## 安裝
+使用 pip 安裝套件：
+```
+pip install cameo_botrun_prompt_tools
+```
+
+
+## 使用範例
+
+### print_button() 和 print_link() 函式
+`print_button()` 和 `print_link()` 函式可以用來生成含有@begin @end的按鈕和連結文字。
+
+```python
+from cameo_botrun_prompt_tools import print_button, print_link
+
+print_button("點擊我", "這是一個按鈕")
+print_link("https://www.example.com", "訪問範例網站")
+
+# 上面程式會輸出以下文字
+# @begin button("點擊我") 這是一個按鈕 @end
+# @begin link("https://www.example.com") 訪問範例網站 @end
+```
+
+### print_buttons() 和 print_links() 函式
+`print_buttons()` 和 `print_links()` 函式可以用來生成多個含有@begin @end的按鈕和連結文字。
+
+```python
+from cameo_botrun_prompt_tools import print_buttons, print_links
+
+print_buttons([{"label": "按鈕1", "content": "這是按鈕1"}, {"label": "按鈕2", "content": "這是按鈕2"}])
+print_links([{"url": "https://www.example1.com", "content": "訪問範例網站1"}, {"url": "https://www.example2.com", "content": "訪問範例網站2"}])
+
+# 上面程式會輸出以下文字
+# @begin button("按鈕1") 這是按鈕1 @end
+# @begin button("按鈕2") 這是按鈕2 @end
+# @begin link("https://www.example1.com") 訪問範例網站1 @end
+# @begin link("https://www.example2.com") 訪問範例網站2 @end
+```
+
+### format_info_for_readability() 函式
+`format_info_for_readability()`函式可以藉由LLM將複雜資訊(例如API回傳的資訊)整理成方便人類閱讀的格式輸出。
+
+```python
+from cameo_botrun_prompt_tools import format_info_for_readability
+
+formatted_info = format_info_for_readability(
+    info, prompt="請將以下資訊整理成方便人類閱讀的格式輸出：\n",
+    model="gpt-4o-mini"
+)
+print(formatted_info)
+```
+
+
