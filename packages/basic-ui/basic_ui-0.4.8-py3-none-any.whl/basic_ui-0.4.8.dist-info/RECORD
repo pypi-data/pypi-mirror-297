@@ -1,0 +1,10 @@
+basic_ui/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+basic_ui/main.py,sha256=PtgUQpJfXU-q3WlUER7xEzh3uFU2FzE7CBoKRp-hduQ,8603
+basic_ui/config/aliases.json,sha256=GRZol72rtsrt7rt8EcJDRBZBWfrgOx-LtjhU6Dz3XX0,202
+basic_ui/config/defaults.json,sha256=-35TzwknLsRpjtKWC4VO4wHB8Cql6qRgfYKyVxfeGpQ,258
+basic_ui/config/requirements.json,sha256=2Rh48jjCWpd8URRLYTChkk2SncZN894YTUVWjMIdrvU,209
+basic_ui-0.4.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+basic_ui-0.4.8.dist-info/METADATA,sha256=NVHXrhuNKt5b7KDX4Z0ALeQVKMbNtZ_jVBDAhknrhCE,356
+basic_ui-0.4.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+basic_ui-0.4.8.dist-info/top_level.txt,sha256=7W4VZRWbQYtl1NzRfs8wA3xvyxl6BCXMG6K0CqI8GEA,9
+basic_ui-0.4.8.dist-info/RECORD,,
