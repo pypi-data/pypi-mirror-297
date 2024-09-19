@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: oauth_django
+Version: 0.0.1
+Summary: A package for handling Xecurify authentication
+Author: Romit
+Author-email: romitaherkar@gmail.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: django>=3.0
+Requires-Dist: cryptography
+Requires-Dist: pyjwt
+Requires-Dist: django
+
