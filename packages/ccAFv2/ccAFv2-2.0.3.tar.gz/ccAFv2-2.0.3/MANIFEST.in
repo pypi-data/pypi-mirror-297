@@ -1,0 +1,4 @@
+include ccAFv2/ccAFv2_model.h5
+include ccAFv2/ccAFv2_genes.csv
+include ccAFv2/ccAFv2_classes.txt
+include README.md
