@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perplexity_correlations/__init__.py
+perplexity_correlations.egg-info/PKG-INFO
+perplexity_correlations.egg-info/SOURCES.txt
+perplexity_correlations.egg-info/dependency_links.txt
+perplexity_correlations.egg-info/requires.txt
+perplexity_correlations.egg-info/top_level.txt
+perplexity_correlations/estimation/__init__.py
+perplexity_correlations/estimation/estimation_functions.py
+perplexity_correlations/projection/__init__.py
+perplexity_correlations/projection/projection_functions.py
+tests/__init__.py
+tests/test_estimation.py
+tests/test_projection.py
