@@ -1,0 +1,10 @@
+numpy~=1.26.0
+matplotlib~=3.9.2
+pillow~=10.4.0
+scipy~=1.14.1
+networkx~=3.3
+scikit-learn~=1.5.2
+tikzplotlib~=0.10.1
+tqdm~=4.66.0
+gurobipy~=11.0.3
+prefsampling==0.1.15
