@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graphs_gmather2"
+version = "0.0.1"
+authors = [
+  { name="Gage Mather" },
+]
+description = "The primary purpose of this package is the implementation of Dijkstra's Shortest Path which is an algorithm that finds the shortest path between a source vertex and a target vertex in an undirected graph."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gage53211/Homework_4"
