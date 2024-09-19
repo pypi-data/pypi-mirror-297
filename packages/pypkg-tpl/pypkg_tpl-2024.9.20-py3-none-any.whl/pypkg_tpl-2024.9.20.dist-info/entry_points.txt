@@ -1,0 +1,2 @@
+[console_scripts]
+pypkg = pypkg.cli:cli

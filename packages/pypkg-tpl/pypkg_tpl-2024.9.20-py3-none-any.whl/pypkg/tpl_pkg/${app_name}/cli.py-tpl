@@ -1,0 +1,7 @@
+import click
+
+@click.option("--username", default="", type=click.STRING, help="Username")
+@click.option("--password", default="", type=click.STRING, help="Password")
+def cli(username, password):
+    from ${app_name}.main import Demo
+    Demo(username, password)
