@@ -1,0 +1,114 @@
+rodolf
+======
+
+RDF data production monitoring (RODOLF)
+
+Installation
+------------
+
+Open the project in a terminal and run::
+
+    pip install -e .
+
+This will install the cube in your active virtual environment
+as ``cubicweb-rodolf``.
+
+The following sections indicate additional steps when you
+install this cube as a dependency or as an instance.
+
+As a dependency
+~~~~~~~~~~~~~~~
+
+If you plan to use this cube as a dependency for your own cube,
+add it to your ``__pkginfo__.py`` as follows::
+
+    __depends__ = {
+        # ... Your previous dependencies
+        "cubicweb-rodolf": None,
+    }
+
+If the target cube is already used as an instance, you need to migrate it
+with the help of its python shell (replace ``YOUR_INSTANCE_NAME`` by your instance name)::
+
+    cubicweb-ctl shell YOUR_INSTANCE_NAME
+
+In the python prompt, enter the following command::
+
+    add_cube("rodolf")
+
+Press ``Ctrl-D`` then restart your instance.
+The cube should now be available in your instance.
+
+As an instance
+~~~~~~~~~~~~~~
+
+If you plan to use this cube directly as an instance, create and start
+your instance with the following commands (replace ``rodolf-instance``
+by the name of your choice)::
+
+    cubicweb-ctl create rodolf rodolf-instance
+    cubicweb-ctl start -D rodolf-instance
+
+use docker compose for local developpements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The docker-compose.yaml contains the following containers :
+- rodolf-backend: the cubicweb instance
+- rodolf-frontend: the nextjs front
+- virtuoso: the rdf repository and sparql endpoint
+- minio:  object storage server
+- postgresql: sql database server
+- redis: key value database for session and rq tasks
+
+When starting for the first time you must run following commands:
+
+.. code-block::
+
+    # install node modules in your volumes
+    docker compose run --rm --entrypoint npm rodolf-frontend ci
+
+    # set the localinstall egg in your volume
+    docker compose run --rm --entrypoint pip rodolf-backend install -e /src
+
+    # create the instance
+    docker compose run --entrypoint docker-cubicweb-helper rodolf-backend create-instance
+
+    # init the db
+    docker compose run --rm --entrypoint cubicweb-ctl rodolf-backend db-init instance -a
+
+Then to start the services do:
+
+.. code-block::
+
+    docker compose up --build -d
+
+Then you need to create a new bucket on minio. To do so, open
+http://localhost:9001/, log in with the credentials defined in the
+docker-compose, and create a bucket named according to the value of
+the variable `RODOLF_S3_BUCKET`.
+
+Restart all services and point your browser to::
+
+  # virtuoso
+  http://localhost:8890/
+
+  # rodolf frontend
+  http://localhost:3000/
+
+  # rodolf backend
+  http://localhost:8080/
+
+  # minio
+  http://localhost:9001/
+
+
+
+/!\ for a local use, make sure to configure projects with
+`http://virtuoso:8890` as virtuoso URL, so that the backend can
+communicate with it.
+
+Learn More
+----------
+
+Visit the `official documentation <https://cubicweb.readthedocs.io/en/4.5.2>`_
+to learn more about CubicWeb.

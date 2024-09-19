@@ -1,0 +1,34 @@
+{% set secure = "yes" if CW_BASE_URL.startswith('https://') else "no" -%}
+[main]
+cubicweb.session.secret = {{ PYRAMID_SESSION_SECRET }}
+cubicweb.auth.authtkt.session.secret = {{ PYRAMID_AUTHTKT_SESSION_SECRET }}
+cubicweb.auth.authtkt.session.secure = {{ secure }}
+cubicweb.auth.authtkt.session.path = {{ PYRAMID_AUTHTKT_SESSION_PATH or '/' }}
+cubicweb.auth.authtkt.persistent.secret = {{ PYRAMID_AUTHTKT_PERSISTENT_SECRET }}
+cubicweb.auth.authtkt.persistent.secure = {{ secure }}
+cubicweb.auth.authtkt.persistent.path = {{ PYRAMID_AUTHTKT_SESSION_PATH or '/' }}
+cubicweb_api.enable_login_route = {{ PYRAMID_API_ENABLE_LOGIN_ROUTE or "no" }}
+{% if REDIS_SESSIONS_URL -%}
+rq.redis_url = {{ REDIS_SESSIONS_URL }}
+redis.sessions.url = {{ REDIS_SESSIONS_URL }}
+redis.sessions.secret = {{ REDIS_SESSIONS_SECRET }}
+redis.sessions.timeout = 1200
+redis.sessions.prefix = {{ CW_INSTANCE }}:
+pyramid.includes =
+  pyramid_session_redis
+cubicweb.includes =
+  cubicweb.pyramid.auth
+  cubicweb.pyramid.rest_api.include_rdf
+  cubicweb.pyramid.rest_api.include_download
+  cubicweb_api.auth.routes
+
+{% else %}
+cubicweb.includes =
+  cubicweb.pyramid.auth
+  cubicweb.pyramid.default_session
+  cubicweb.pyramid.rest_api.include_rdf
+  cubicweb.pyramid.rest_api.include_download
+  cubicweb_api.auth.routes
+
+{% endif %}
+pyramid.csrf_trusted_origins = {{ PYRAMID_CSRF_TRUSTED_ORIGINS }}

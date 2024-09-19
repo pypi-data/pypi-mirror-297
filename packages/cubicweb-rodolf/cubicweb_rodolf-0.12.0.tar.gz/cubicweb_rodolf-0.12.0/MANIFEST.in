@@ -1,0 +1,22 @@
+include *.py
+include */*.py
+recursive-include cubicweb_rodolf *.py
+recursive-include cubicweb_rodolf/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_rodolf/i18n *.po
+recursive-include cubicweb_rodolf/wdoc *
+recursive-include test/data bootstrap_cubes *.py
+include *.ini
+include *.ini.j2
+exclude .gitlab-ci.yml
+exclude .gitlab-ci-extended.yml
+exclude .yamllint
+exclude Dockerfile
+recursive-include test/data *.ttl *.rdf
+prune frontend
+exclude docker-compose.yaml
+prune deploy
+exclude CHANGELOG.md
+
+recursive-include doc *.md
+recursive-include doc *.png
+recursive-include assets *.svg

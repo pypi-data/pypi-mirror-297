@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:ov="http://open.vocab.org/terms/" >
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Activity">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Animal" />
+    <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:equivalentClass rdf:resource="http://schema.org/Person" />
+    <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q215627" />
+    <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q5" />
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson" />
+    <rdfs:label xml:lang="es">persona</rdfs:label>
+    <rdfs:label xml:lang="fr">personne</rdfs:label>
+    <rdfs:label xml:lang="ja">人_(法律)</rdfs:label>
+    <rdfs:label xml:lang="ur">شخص</rdfs:label>
+    <rdfs:label xml:lang="ga">duine</rdfs:label>
+    <rdfs:label xml:lang="pt">pessoa</rdfs:label>
+    <rdfs:label xml:lang="de">Person</rdfs:label>
+    <rdfs:label xml:lang="eu">pertsona</rdfs:label>
+    <rdfs:label xml:lang="da">person</rdfs:label>
+    <rdfs:label xml:lang="hy">անձ</rdfs:label>
+    <rdfs:label xml:lang="en">person</rdfs:label>
+    <rdfs:label xml:lang="sl">Oseba</rdfs:label>
+    <rdfs:label xml:lang="it">persona</rdfs:label>
+    <rdfs:label xml:lang="nl">persoon</rdfs:label>
+    <rdfs:label xml:lang="el">Πληροφορίες προσώπου</rdfs:label>
+    <rdfs:label xml:lang="ar">شخص</rdfs:label>
+    <rdfs:label xml:lang="pl">osoba</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/" />
+    <wdrs:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/ontology/Person" />
+    <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/MeanOfTransportation">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/OrganisationMember">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/UnitOfWork">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Tower">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Academic">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Architect">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Astronaut">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Athlete">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/BeautyQueen">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/BusinessPerson">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Chef">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Cleric">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Economist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Engineer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/HorseTrainer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Journalist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Model">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Noble">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/PoliceOfficer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Scientist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Spy">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/restingPlacePosition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/MilitaryPerson">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Youtuber">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/AmericanLeader">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Judge">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Pilot">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/PlayboyPlaymate">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Presenter">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/TimePeriod">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Coach">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/SportsManager">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/spokesperson">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/taoiseach">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/vicePrimeMinister">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/associate">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/clubsRecordGoalscorer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/firstWinner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/managingEditor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/recentWinner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/superintendent">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Artist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Building">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Criminal">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Event">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Mountain">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Philosopher">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Politician">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Religious">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Royalty">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Writer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/academicAdvisor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/alongside">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/appointer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/beatifiedBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/board">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/breeder">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/careerStation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/ceo">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chef">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/citizenship">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/college">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/dean">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/doctoralAdvisor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/doctoralStudent">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/father">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/militaryService">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mother">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/notableIdea">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/notableStudent">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/partner">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/personFunction">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/photographer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/profession">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/relation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/school">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/secretaryGeneral">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/trainer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/agency">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/alumni">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chairperson">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chancellor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chiefEditor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/choreographer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/currentPartner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/formerCoach">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/formerPartner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/governorGeneral">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/head">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/leaderName">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/lieutenant">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/provost">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/rector">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/significantProject">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/vicePresident">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bodyDiscovered">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/showJudge">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bronzeMedalist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/curator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/goldMedalist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/silverMedalist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/viceLeader">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/religiousHead">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/electionDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/allegiance">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activeYears">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/canonizedBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Monarch">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/OfficeHolder">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/administrator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/creatorOfDish">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/firstAscentPerson">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/monarch">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nobelLaureates">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/officerInCharge">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/opponent">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/patronSaint">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/placeOfBurial">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/principal">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/principalEngineer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/viceChancellor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/formerChoreographer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/">
+    <ov:defines rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Archeologist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Aristocrat">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/ConveyorSystem">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/DBpedian">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Egyptologist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Escalator">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Farmer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/FileSystem">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/GeologicalPeriod">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/HistoricalPeriod">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Lawyer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Linguist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Man">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/MemberResistanceMovement">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Mine">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/MovieDirector">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/MovingWalkway">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Nebula">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/On-SiteTransportation">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/PeriodOfArtisticStyle">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Person/height">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Person/weight">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/PoliticianSpouse">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Producer">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/ProtohistoricalPeriod">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Psychologist">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Referee">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/RomanEmperor">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/StarCluster">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/TelevisionDirector">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/TheatreDirector">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Woman">
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/achievement">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/actingHeadteacher">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activeYearsEndDateMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activeYearsEndYearMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activeYearsStartDateMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activeYearsStartYearMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/activity">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/affair">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/announcedFrom">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/apcPresident">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/approach">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/arrestDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/artisticFunction">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/astrologicalSign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/attorneyGeneral">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/aunt">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/awardName">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/badGuy">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bestLap">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bigPoolRecord">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/birthSign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bloodGroup">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bloodType">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bourgmestre">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/britishWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/brother">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bustSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bustWaistHipSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/case">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/catch">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/causeOfDeath">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chaplain">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/circumcised">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/clothSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/clothingSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/coExecutiveProducer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/coProducer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/coalition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/collaboration">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/colleague">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/commandant">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/competitionTitle">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/compiler">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/complexion">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/contest">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/continentalTournament">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/continentalTournamentBronze">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/continentalTournamentGold">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/continentalTournamentSilver">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/convictionDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/copilote">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/costumeDesigner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/cousurper">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/created">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/currentTeamManager">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/custodian">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/danseCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/danseScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/dateOfBurial">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/daughter">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deadInFightDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deadInFightPlace">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deathAge">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/debutWork">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/decoration">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/delegateMayor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/derivedWord">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/detractor">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/diploma">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/dubber">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/educationPlace">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/endCareer">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/endReign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/escalafon">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/ethnicity">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/executiveHeadteacher">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/expedition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/externalOrnament">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/eyeColour">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/familyMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/feat">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/federation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/filmNumber">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/flagBearer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/foot">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/footedness">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/freeDanseScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/freeProgCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/freeProgScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/freeScoreCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/friend">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/fullCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/fullScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/grave">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/guest">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/gymApparatus">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/hairColour">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/hand">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/handedness">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/handisport">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/hasNaturalBust">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/headOfFamily">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/headteacher">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/heir">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/hipSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/homage">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/idNumber">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/iihfHof">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/imposedDanseCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/imposedDanseScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/individualisedPnd">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/juniorYearsEndYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/juniorYearsStartYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/jutsu">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/killedBy">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/lahHof">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/landeshauptmann">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/lastFamilyMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/leadership">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/leagueManager">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/linguisticsTradition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/littlePoolRecord">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/livingPlace">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mainCharacter">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mainDomain">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/makeupArtist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mastersWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/matchPoint">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/measurements">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/medalist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/media">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/member">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/memberOfParliament">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mood">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/mount">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/movie">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTeamMatchPoint">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTeamYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTournament">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTournamentBronze">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTournamentGold">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationalTournamentSilver">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/networth">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nndbId">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nonProfessionalCareer">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/noteOnRestingPlace">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/numberOfRun">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/officialOpenedBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicGames">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicGamesBronze">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicGamesGold">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicGamesSilver">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicGamesWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicOathSwornBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicOathSwornByAthlete">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/olympicOathSwornByJudge">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/orientation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/originalDanseCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/originalDanseScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/otherActivity">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/otherFunction">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/otherMedia">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/otherOccupation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/painter">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/parliamentaryGroup">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/particularSign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/pastMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/pastor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/patent">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/penisLength">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/performer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/pgaWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/piercing">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/playerInTeam">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/playerStatus">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/podium">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/polePosition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/politicalFunction">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/prefaceBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/prefect">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/presidentGeneralCouncil">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/presidentRegionalCouncil">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/primogenitor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/project">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/publication">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/raceWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/radio">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/reffBourgmestre">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/reign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/reignName">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/relatedFunctions">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/restingDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/retirementDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/salary">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/scene">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/seasonManager">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/second">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/seiyu">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/senator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sentence">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/setDesigner">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sexualOrientation">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shipCrew">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shoeNumber">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shoeSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shoot">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shortProgCompetition">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/shortProgScore">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sibling">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sister">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/skinColor">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/solicitorGeneral">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/son">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/specialEffects">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/specialTrial">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/speciality">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sportDiscipline">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sportsFunction">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/spouseName">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/startCareer">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/startReign">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/startWct">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/startWqs">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/stateDelegate">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/statusManager">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/storyEditor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/student">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/tattoo">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/teamManager">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/temple">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/templeYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/tessitura">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/third">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/titleDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/torchBearer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/tvShow">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/uncle">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/usopenWins">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/usurper">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/vicePrincipal">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/victory">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/victoryAsMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/victoryPercentageAsMgr">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/waistSize">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/weddingParentsDate">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/world">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/worldTournament">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/worldTournamentBronze">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/worldTournamentGold">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/worldTournamentSilver">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/حرکت_پذیر_پیدل_چلنے_کا_راستہ">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/پہاڑ">
+    <owl:disjointWith rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/restingPlace">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/stateOfOrigin">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/runningMate">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/birthName">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/birthYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deathYear">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/eyeColor">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/hairColor">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/pseudonym">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/sex">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/signature">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/incumbent">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nominee">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/president">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/generalManager">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/trustee">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/associateEditor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deathCause">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/employer">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/almaMater">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/author">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/bandMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/chairman">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/child">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/cinematography">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/coach">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/commander">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/composer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/coverArtist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/creativeDirector">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/currentMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/deputy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/designer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/director">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/discoverer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/editing">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/education">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/engineer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/executiveProducer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/fastestDriver">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/firstDriver">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/firstLeader">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/firstPopularVote">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/formerBandMember">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/founder">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/fourthCommander">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/gameArtist">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/governor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/headChef">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/illustrator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/keyPerson">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/leader">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/lyrics">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/manager">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/musicBy">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/narrator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/nationality">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/notableCommander">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/parent">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/patron">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/person">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/philosophicalSchool">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/poleDriver">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/presenter">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/previousEditor">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/primeMinister">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/relative">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/residence">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/secondCommander">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/secondDriver">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/secondLeader">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/secondPopularVote">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/spouse">
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/thirdCommander">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/thirdDriver">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/translator">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/voice">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/writer">
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/data/definitions.ttl">
+    <ov:describes rdf:resource="http://dbpedia.org/ontology/Person" />
+  </rdf:Description>
+</rdf:RDF>
