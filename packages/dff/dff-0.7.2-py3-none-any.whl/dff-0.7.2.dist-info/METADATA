@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: dff
+Version: 0.7.2
+Summary: This package has been renamed to Chatsky.
+Home-page: https://deeppavlov.github.io/dialog_flow_framework/index.html
+License: Apache-2.0
+Keywords: chatbots
+Author: Denis Kuznetsov
+Author-email: kuznetsov.den.p@gmail.com
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Provides-Extra: benchmark
+Provides-Extra: json
+Provides-Extra: mongodb
+Provides-Extra: mysql
+Provides-Extra: pickle
+Provides-Extra: postgresql
+Provides-Extra: redis
+Provides-Extra: sqlite
+Provides-Extra: stats
+Provides-Extra: telegram
+Provides-Extra: ydb
+Requires-Dist: aiofiles ; extra == "json" or extra == "pickle"
+Requires-Dist: aiosqlite ; extra == "sqlite"
+Requires-Dist: altair ; extra == "benchmark"
+Requires-Dist: asyncmy ; extra == "mysql"
+Requires-Dist: asyncpg ; extra == "postgresql"
+Requires-Dist: chatsky
+Requires-Dist: colorama
+Requires-Dist: cryptography ; extra == "mysql"
+Requires-Dist: humanize ; extra == "benchmark"
+Requires-Dist: motor ; extra == "mongodb"
+Requires-Dist: nest-asyncio
+Requires-Dist: omegaconf ; extra == "stats"
+Requires-Dist: opentelemetry-exporter-otlp (>=1.20.0) ; extra == "stats"
+Requires-Dist: opentelemetry-instrumentation ; extra == "stats"
+Requires-Dist: pandas ; extra == "benchmark"
+Requires-Dist: pydantic (>=2.0)
+Requires-Dist: pympler ; extra == "benchmark"
+Requires-Dist: pytelegrambotapi ; extra == "telegram"
+Requires-Dist: redis ; extra == "redis"
+Requires-Dist: requests ; extra == "stats"
+Requires-Dist: six ; extra == "ydb"
+Requires-Dist: sqlalchemy[asyncio] ; extra == "sqlite" or extra == "mysql" or extra == "postgresql"
+Requires-Dist: tqdm ; extra == "stats" or extra == "benchmark"
+Requires-Dist: typing-extensions
+Requires-Dist: wrapt
+Requires-Dist: ydb ; extra == "ydb"
+Project-URL: Documentation, https://deeppavlov.github.io/dialog_flow_framework/reference.html
+Project-URL: Examples, https://github.com/deeppavlov/dialog_flow_demo
+Project-URL: Getting Started, https://deeppavlov.github.io/dialog_flow_framework/get_started.html
+Project-URL: Repository, https://github.com/deeppavlov/dialog_flow_framework
+Project-URL: Tutorials, https://deeppavlov.github.io/dialog_flow_framework/tutorials.html
+Project-URL: User Guides, https://deeppavlov.github.io/dialog_flow_framework/user_guides.html
+Description-Content-Type: text/markdown
+
+# Dialog Flow Framework
+
+This package has been renamed.
+Use `pip install chatsky` from now on.
+
+New project: https://pypi.org/project/chatsky
+
