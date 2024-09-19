@@ -1,0 +1,6 @@
+extractous/__init__.py,sha256=vnCMr4ZNS70XTNEJrR1MjN0d1j5mvqvanvcxWnvrcro,87
+extractous/_extractous.abi3.so,sha256=0MosFyRuHceDBVOGii1AbsV1IUftcc1eCWk8ywkNFNM,872544
+extractous/libtika_native.dylib,sha256=CaP-IAPS0FLpbou39LF-IoWgfY51pv549w-aN0MdE9k,125972968
+extractous-0.1.4.dist-info/METADATA,sha256=CriO6JADy75svxzchsOVT_-a4krqfAqvGmYZSQal4Is,1642
+extractous-0.1.4.dist-info/WHEEL,sha256=vxtib1VmSvaVgE5KtqfJVlrq9LuOu8yTiFyHNXGBTTE,102
+extractous-0.1.4.dist-info/RECORD,,
