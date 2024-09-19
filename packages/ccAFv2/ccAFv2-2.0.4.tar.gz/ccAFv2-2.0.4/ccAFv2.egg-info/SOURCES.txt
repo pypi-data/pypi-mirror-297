@@ -1,0 +1,17 @@
+.gitattributes
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ccAFv2/__init__.py
+ccAFv2/ccAFv2.py
+ccAFv2/ccAFv2_classes.txt
+ccAFv2/ccAFv2_genes.csv
+ccAFv2/ccAFv2_model.h5
+ccAFv2.egg-info/PKG-INFO
+ccAFv2.egg-info/SOURCES.txt
+ccAFv2.egg-info/dependency_links.txt
+ccAFv2.egg-info/requires.txt
+ccAFv2.egg-info/top_level.txt
+tests/predict_samples.py
