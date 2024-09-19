@@ -1,0 +1,21 @@
+Metadata-Version: 2.3
+Name: graphs_agriego
+Version: 0.0.1
+Summary: agriego
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Austyn Griego <bohica2154@outlook.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+CS3250 Software Dev Methods and Tools
+Homework #4
+Austyn Griego
+9/18/24
+
+Dijtkas shortest path import
+
+```
