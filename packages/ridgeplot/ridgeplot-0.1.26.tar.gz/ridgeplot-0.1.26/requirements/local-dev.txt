@@ -1,0 +1,25 @@
+# Install python package in editable mode
+-e file:.
+
+# Tox
+tox
+tox-uv
+
+# pre-commit
+pre-commit
+
+# Releases are still a manual process that
+# requires the use of bumpversion locally
+bumpversion
+
+# Various useful utilities for local development
+ipython
+pip-tools
+pipdeptree
+ptpython
+
+# And everything else...
+-r cicd_utils.txt
+-r docs.txt
+-r mypy.txt
+-r tests.txt
