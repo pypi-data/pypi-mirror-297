@@ -1,0 +1,2 @@
+doubutsushogi
+streamlit>=0.63
