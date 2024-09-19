@@ -1,0 +1,8 @@
+meteoswiss_async/__init__.py,sha256=iRiNQB1L1LUYsAw9Cz5r8246EQKdHtJIOMl7bMGQkfY,258
+meteoswiss_async/client.py,sha256=XQqKQs92rdv4l6AaI9du9W9osluBex4xO_7sFFOZtBs,3641
+meteoswiss_async/errors.py,sha256=SdMT6B9Asgf653rgziKJYXs9FXoWm8rHggZgJUYFqXM,270
+meteoswiss_async/model.py,sha256=dD1OfCnCMGnogsrvSuybt_tEZXAyDeR3CEzXYZqun-U,13038
+meteoswiss_async-0.1.0.dist-info/LICENSE,sha256=K8gjBEidmsYSFTb2JrHftFrBuG4QE7R5L3hjpHq8G6c,1071
+meteoswiss_async-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+meteoswiss_async-0.1.0.dist-info/METADATA,sha256=2dK3kqIPH10Fn8vOnfd1y-sXXwDXPhmTQPmmKKRI1Y0,3888
+meteoswiss_async-0.1.0.dist-info/RECORD,,
