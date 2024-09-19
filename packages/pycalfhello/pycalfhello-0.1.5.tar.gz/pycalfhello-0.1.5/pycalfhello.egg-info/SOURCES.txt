@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pycalfhello/__init__.py
+pycalfhello/core.py
+pycalfhello/post_install.py
+pycalfhello.egg-info/PKG-INFO
+pycalfhello.egg-info/SOURCES.txt
+pycalfhello.egg-info/dependency_links.txt
+pycalfhello.egg-info/top_level.txt
