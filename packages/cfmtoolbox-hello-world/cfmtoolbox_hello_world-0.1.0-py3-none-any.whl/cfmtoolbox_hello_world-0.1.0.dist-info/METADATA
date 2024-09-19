@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cfmtoolbox-hello-world
+Version: 0.1.0
+Summary: This is just an example hello world plugin for the CFM Toolbox.
+Author: Anna Chen
+Author-email: chenxanna@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cfmtoolbox (<1.0.0)
+Description-Content-Type: text/markdown
+
+# CFM Toolbox Hello World Plugin
+
+This is just an example hello world plugin for the CFM Toolbox.
+
