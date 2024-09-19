@@ -1,0 +1,10 @@
+stacksmith/__init__.py,sha256=BkxJevHcOfpIylvhZ3QkyD2RamyMASpPHY_0lQo01qc,200
+stacksmith/api.py,sha256=m8wDaZbzlorvLamfulWHcek_z452s-hbV369XtLkFjo,3148
+stacksmith/cli.py,sha256=p0CrAvQvGsvnQOqagkAq_PJW7Lbhyo84yQsF5Hzgq8M,1692
+stacksmith/helpers.py,sha256=M5oJnEQ6ITxhi8U9AHkrje0v7gt7QYwVAEPfSx7oFEY,5875
+stacksmith-0.0.27.dist-info/LICENSE,sha256=ApafwabHA6GUv8smFeHoIzlE0Bdn1OCa1YxyQeIV_D0,1070
+stacksmith-0.0.27.dist-info/METADATA,sha256=VLO_WcsrytyHj7oNT3e7VWE2wXB5qSPWSGutZsRHm3k,4723
+stacksmith-0.0.27.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+stacksmith-0.0.27.dist-info/entry_points.txt,sha256=yHaq--naJaOuZsdHIVN1z18OeKRodlghy9AcndY1Rcs,43
+stacksmith-0.0.27.dist-info/top_level.txt,sha256=54zjsVRoZW_fSdAJlXSH2LCybAYr-VHjmapMLX0CftY,11
+stacksmith-0.0.27.dist-info/RECORD,,
