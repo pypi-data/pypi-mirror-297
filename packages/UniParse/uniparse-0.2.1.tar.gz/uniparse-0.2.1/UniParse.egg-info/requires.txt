@@ -1,0 +1,4 @@
+PyMuPDF>=1.18.0
+python-docx>=0.8.10
+nltk>=3.5
+spacy>=3.0.0
