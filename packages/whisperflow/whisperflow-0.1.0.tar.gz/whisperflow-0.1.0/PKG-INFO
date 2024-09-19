@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: whisperflow
+Version: 0.1.0
+Home-page: https://github.com/dimastatz/whisper-flow
+Author: Dima Statz
+Author-email: dima.statz@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Whisper Flow Project
