@@ -1,0 +1,12 @@
+fastpack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastpack/__main__.py,sha256=B24DNefglHcv0p9qJ_jJc_7KnycxfsK5OmZioPC0oY0,69
+fastpack/cli.py,sha256=P8ArLl_L9zSZeotAYf9cnK8-PL0gcf6JGl1D_KDv9ew,3486
+fastpack/templates/.flake8,sha256=Dj-MhPzvevSeK3G-VOYE6Kfx13b3w683G-CZj0pI-cE,58
+fastpack/templates/.gitignore,sha256=khwwFDPfXInXdTup893bb2tGdDwbwTC_VW8LtVpo9_c,1923
+fastpack/templates/.pre-commit-config.yaml,sha256=Psh0BafaJa_0mvbnvgFS0sBHKHFh888F3w02qApsXaQ,625
+fastpack/templates/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastpack/templates/pyproject.toml,sha256=AAuk6fhXOql_NcmQwwHIRxco5bm_Th0Ta-goZRvh7tk,1154
+fastpack-0.1.1.dist-info/METADATA,sha256=aNRg4Twa6Zw9UYGy4mbK0egkhGlcmcq-7942WxEqp6U,1030
+fastpack-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fastpack-0.1.1.dist-info/entry_points.txt,sha256=HdTZ9pxIDZIYcXyFCWwePtSCPGQUJn682dGMzMwV00k,47
+fastpack-0.1.1.dist-info/RECORD,,
