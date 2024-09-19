@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyflaarum/__init__.py
+src/pyflaarum/objects.py
+src/pyflaarum/statements.py
+src/pyflaarum.egg-info/PKG-INFO
+src/pyflaarum.egg-info/SOURCES.txt
+src/pyflaarum.egg-info/dependency_links.txt
+src/pyflaarum.egg-info/top_level.txt
