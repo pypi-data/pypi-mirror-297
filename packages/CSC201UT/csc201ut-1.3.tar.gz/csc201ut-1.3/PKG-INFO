@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CSC201UT
+Version: 1.3
+Summary: Python utilities used in CSC 201 at UT.
+Author: Dr. Jean Gourd
+Author-email: jgourd@ut.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# CSC201UT
+
+Python utilities used in CSC 201 at UT.
