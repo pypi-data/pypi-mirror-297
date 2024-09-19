@@ -1,0 +1,4 @@
+requests
+click
+tqdm
+python-Levenshtein
