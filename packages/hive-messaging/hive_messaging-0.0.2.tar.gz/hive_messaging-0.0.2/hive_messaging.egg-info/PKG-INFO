@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hive-messaging
+Version: 0.0.2
+Summary: Messaging layer for Hive
+Author-email: Gary Benson <gary@gbenson.net>
+Project-URL: Homepage, https://github.com/gbenson/hive/tree/main/libs/messaging
+Project-URL: Source, https://github.com/gbenson/hive
+Description-Content-Type: text/markdown
+Requires-Dist: hive-config
+Requires-Dist: pika
+Requires-Dist: rstream
+
+[![version badge]](https://pypi.org/project/hive-messaging/)
+
+[version badge]: https://img.shields.io/pypi/v/hive-messaging?color=limegreen
+
+# hive-messaging
+
+Messaging layer for Hive.
+
+## Installation
+
+### With PIP
+
+```sh
+pip install hive-messaging
+```
