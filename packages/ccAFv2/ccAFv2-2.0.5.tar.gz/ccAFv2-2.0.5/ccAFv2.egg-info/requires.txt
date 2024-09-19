@@ -1,0 +1,4 @@
+importlib-resources
+numpy
+pandas
+scipy
