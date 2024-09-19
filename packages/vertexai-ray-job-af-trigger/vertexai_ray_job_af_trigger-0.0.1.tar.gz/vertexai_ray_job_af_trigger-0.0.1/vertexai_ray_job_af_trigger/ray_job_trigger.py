@@ -1,0 +1,38 @@
+# https://cloud.google.com/composer/docs/composer-2/troubleshooting-triggerer#trigger_class_not_found
+
+import asyncio
+from typing import Any, AsyncIterator
+from airflow.triggers.base import BaseTrigger, TriggerEvent
+
+from ray.job_submission import JobSubmissionClient, JobStatus
+
+class RayJobTrigger(BaseTrigger):
+
+    def __init__(
+        self,
+        cluster_resource_name: str,
+        ray_address: str,
+        job_id: str
+    ):
+        super().__init__()
+        self.cluster_resource_name = cluster_resource_name,
+        self.ray_address = ray_address,
+        self.job_id = job_id
+
+    def serialize(self) -> tuple[str, dict[str, Any]]:
+
+        return (
+            "RayJobTrigger", 
+            {
+                "cluster_resource_name": self.cluster_resource_name,
+                "ray_address": self.ray_address,
+                "job_id": self.job_id
+            },
+        )
+
+    # The run method is an async generator that yields TriggerEvents when the desired condition is met
+    async def run(self) -> AsyncIterator[TriggerEvent]:
+        client = JobSubmissionClient(self.ray_address)
+        while client.get_job_status(self.job_id) in (JobStatus.PENDING, JobStatus.RUNNING):
+            await asyncio.sleep(300)
+        yield TriggerEvent(self.serialize())
