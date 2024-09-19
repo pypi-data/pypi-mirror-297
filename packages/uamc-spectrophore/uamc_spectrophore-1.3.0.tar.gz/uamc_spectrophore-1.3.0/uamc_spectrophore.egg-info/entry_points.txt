@@ -1,0 +1,2 @@
+[console_scripts]
+spectrophore = spectrophore.__main__:main

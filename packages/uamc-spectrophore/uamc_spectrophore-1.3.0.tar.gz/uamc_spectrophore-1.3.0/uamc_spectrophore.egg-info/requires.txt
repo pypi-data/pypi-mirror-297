@@ -1,0 +1,10 @@
+numba
+rdkit
+scipy
+numpy
+tqdm
+
+[develop]
+pytest
+pytest-cov
+ruff

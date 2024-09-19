@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spectrophore/__init__.py
+spectrophore/__main__.py
+spectrophore/spectrophore.py
+tests/test_spectrophore.py
+uamc_spectrophore.egg-info/PKG-INFO
+uamc_spectrophore.egg-info/SOURCES.txt
+uamc_spectrophore.egg-info/dependency_links.txt
+uamc_spectrophore.egg-info/entry_points.txt
+uamc_spectrophore.egg-info/requires.txt
+uamc_spectrophore.egg-info/top_level.txt
