@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_csv_reader"
+version = "0.1.0"
+description = "A simple csv reader"
+authors = [
+    { name="Mohit Bhardwaj", email="mohit.bhardwaj1@gmail.com" }
+]
+license = { text="MIT"     }
+
+
