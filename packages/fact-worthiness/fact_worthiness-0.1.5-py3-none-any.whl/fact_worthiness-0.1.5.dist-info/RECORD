@@ -1,0 +1,11 @@
+fact_worthiness/__init__.py,sha256=JXrrUCqsOO3B4BEzgzBJnztfijw11tS9bO00qxJZPzU,203
+fact_worthiness/fact_worthy.py,sha256=RYaZZ0EkASADsxfcR8TSfcugNN7V9h-E8v4kQNLJafg,2751
+fact_worthiness/keyword_check.py,sha256=pz-d99wa9KqvzoOi9mH2iu0tH9TQBJIaKGVN9ETnREQ,1676
+fact_worthiness/len_check.py,sha256=D97gMg9bQOcXfjF8zKYVCL9o01nnFJtONsfaESaAZ2w,1649
+fact_worthiness/ml_check.py,sha256=_XFwGOQS2UlOYPziTnL7qz4EbOdAWxJKlBA6PrHc-do,3600
+fact_worthiness/ner_check.py,sha256=YdYculYgGnpk2HzXCzlwHS9eQc3xLxc6xPtLBSnkgU8,2933
+fact_worthiness-0.1.5.dist-info/METADATA,sha256=bj5DT4Y6YgJ5ubcrBoKn7BLcQINLYeeZ-nxOM2zZ49g,476
+fact_worthiness-0.1.5.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+fact_worthiness-0.1.5.dist-info/entry_points.txt,sha256=NlriDT0rd0W2RjlW8VjAxO-lis3yrxSjOPadN3e2YJw,80
+fact_worthiness-0.1.5.dist-info/top_level.txt,sha256=ZIdZkoNSetWk41U-9OpyTMltJgZJZYgoDYANWNXCWxc,16
+fact_worthiness-0.1.5.dist-info/RECORD,,
