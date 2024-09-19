@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+net_intrusion_detection.egg-info/PKG-INFO
+net_intrusion_detection.egg-info/SOURCES.txt
+net_intrusion_detection.egg-info/dependency_links.txt
+net_intrusion_detection.egg-info/requires.txt
+net_intrusion_detection.egg-info/top_level.txt
+network-intrusion-detection/__init__.py
+network-intrusion-detection/models.py
+network-intrusion-detection/predict.py
+tests/test_model.py
