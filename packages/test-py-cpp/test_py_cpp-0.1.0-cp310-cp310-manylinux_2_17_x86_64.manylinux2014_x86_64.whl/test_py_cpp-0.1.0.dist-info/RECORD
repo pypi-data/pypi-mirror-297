@@ -1,0 +1,5 @@
+test_py_cpp/_core.cpython-310-x86_64-linux-gnu.so,sha256=ior62n2qvYbbFaIc8YwV4z4jLWEbRSFEz-HMdiDz4FY,180088
+test_py_cpp/__init__.py,sha256=NF-bMYdShsw3TtzYt7MHkU77ubG0JTz9gW5b0Cs4T7w,160
+test_py_cpp-0.1.0.dist-info/METADATA,sha256=aOD8Bz_BvpvVbkSFa4hGPS7HrSCVZ5YqpF-V7ypfF8o,673
+test_py_cpp-0.1.0.dist-info/RECORD,,
+test_py_cpp-0.1.0.dist-info/WHEEL,sha256=dKbgzk3dS1tORdHicF1BfO_RjO8HVxypIWSTo34uRIY,156
