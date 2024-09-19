@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: graphs_jpoyner1
+Version: 0.0.1
+Summary: A package to demonstrate proper packaging
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: "Jackson D. Poyner" <jpoyner1@msudenver.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# HWK 4 shortest path
+Jackson D. Poyner
+
+09/16/2024
+
+This assignment is designed to demonstrate my understanding of how to create python packages and how to use git commands effectively.
+
+You can install the package using
+pip3 install graphs_jpoyner1
