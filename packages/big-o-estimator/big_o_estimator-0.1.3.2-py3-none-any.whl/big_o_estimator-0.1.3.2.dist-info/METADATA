@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: big-o-estimator
+Version: 0.1.3.2
+Summary: A package to estimate Big-O complexity of Python functions.
+Home-page: https://github.com/amukherjee1991/big_o_estimator_package
+Author: Arghya 
+Author-email: arghyazzz@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Big-O Estimator
+
+This Python package allows you to estimate the Big-O complexity of Python functions using AST (Abstract Syntax Tree) parsing.
+
+## Installation
+
+You can install the package using:
+
+```bash
+pip install .
+```
+
+Usage
+
+```python
+from big_o_estimator import get_big_o_of_function
+
+def sample_function(n):
+    for i in range(n):
+        pass
+
+print(get_big_o_of_function(sample_function))
+```
