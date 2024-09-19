@@ -1,0 +1,56 @@
+name: Publish Python Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Extract Python version from pyproject.toml
+      - name: Extract Python version
+        id: python_version
+        run: |
+          python_version=$(grep -E '^python = ' pyproject.toml | sed -E "s/^python = '(.*)'\$/\1/")
+          echo "PYTHON_VERSION=$python_version" >> $GITHUB_ENV
+
+      # Set up Python environment using the version from pyproject.toml
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}  # 读取环境变量中的 Python 版本
+
+      # Install dependencies from requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+                    python -m pip install --upgrade pip
+          pip install setuptools setuptools_scm wheel build twine
+          pip install -r requirements.txt
+
+      # Build the package
+      - name: Build the package
+        run: python -m build --sdist --wheel .
+
+      # Publish to PyPI
+      - name: Publish to PyPI
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          python -m twine upload dist/*
+
+      # Create a GitHub Release
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: 'Automatic release based on tag: ${{ github.ref }}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
