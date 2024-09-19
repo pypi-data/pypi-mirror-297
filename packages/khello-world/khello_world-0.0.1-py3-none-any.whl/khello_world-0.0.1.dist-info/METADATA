@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: khello-world
+Version: 0.0.1
+Summary: khello world package hehe
+Project-URL: Homepage, http://example.com/
+Project-URL: Issues, https://github.com/githubtraining/hellogitworld/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Khello-world
+
+I'm learning how to make a pypi package lol.
+
+[Here's](http://example.com/) my website
