@@ -1,0 +1,16 @@
+azure/cognitiveservices/language/spellcheck/__init__.py,sha256=L_-AmWy1vEta24g1Rj5JD-odyU3DPESZZl5HTD0vGyA,700
+azure/cognitiveservices/language/spellcheck/_configuration.py,sha256=mpmCoI9xuygDWwsIZif9ARAQH0mD7PkPjxW2-fRfebQ,1748
+azure/cognitiveservices/language/spellcheck/_spell_check_client.py,sha256=tktxDxITwH6aRtS5eqvP4Os1zp3pFJoyV9cXKtqoAko,1766
+azure/cognitiveservices/language/spellcheck/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/cognitiveservices/language/spellcheck/version.py,sha256=Rx_LOBTszYDgnlwkWOsKbdI52R3qzmh15Xal30zQSIE,493
+azure/cognitiveservices/language/spellcheck/models/__init__.py,sha256=aBKJPFOSGWb1pKBF6g0JGkuCD6SA8Rrjzp-zOPPUjDs,1707
+azure/cognitiveservices/language/spellcheck/models/_models.py,sha256=jJ92ZmzhBPLQnuevWuYGEoyC3AE_1LIJtBTnjdKsIfY,11566
+azure/cognitiveservices/language/spellcheck/models/_models_py3.py,sha256=YvpTg-621MQXG4kBLhV3nMFDWup2xvhZ5tmlIpKZ2kU,11595
+azure/cognitiveservices/language/spellcheck/models/_spell_check_client_enums.py,sha256=6bWIzKp3WU_wU2beNQ18qcKQUeNMQE--Wl4xDb0SIoQ,1536
+azure/cognitiveservices/language/spellcheck/operations/__init__.py,sha256=247Gtzy_V4xuguwk7nm-CstkQ8pJ98QiN5GdZhZl3hw,604
+azure/cognitiveservices/language/spellcheck/operations/_spell_check_client_operations.py,sha256=iXhw70blZ88RB1ZC-Qe-60QYtPhstGjbPY0_CpAK3EA,20823
+azure_cognitiveservices_language_spellcheck-2.0.1.dist-info/LICENSE,sha256=fHekSorNm0H9wgmGSoAWs9QwtdDgkwmBjVt0RDNt90Q,1074
+azure_cognitiveservices_language_spellcheck-2.0.1.dist-info/METADATA,sha256=1tU1esvLoNJgDG-dHVUsx07tIN12dGCY6eN2hHUKP0A,5788
+azure_cognitiveservices_language_spellcheck-2.0.1.dist-info/WHEEL,sha256=M4n4zmFKzQZk4mLCcycNIzIXO7YPKE_b5Cw4PnhHEg8,109
+azure_cognitiveservices_language_spellcheck-2.0.1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_cognitiveservices_language_spellcheck-2.0.1.dist-info/RECORD,,
