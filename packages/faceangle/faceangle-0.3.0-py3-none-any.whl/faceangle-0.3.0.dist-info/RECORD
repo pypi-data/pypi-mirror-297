@@ -1,0 +1,13 @@
+faceangle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faceangle/math.py,sha256=i6iZ5QUL7XVQoIfNDpnRDF8eqLyiXuwwIWTrIX-ijSk,1224
+faceangle/model.py,sha256=uInE1fWWddMB893grSKTzjmw2FginYnH2-wpcjJmI7I,11102
+faceangle/models/6DRepNet360.onnx,sha256=7rOwYRdiTsoj1TosyhwUv2_PrbzoTTyo9AeR_fJwwY8,94007614
+faceangle/models/FaceAngle.onnx,sha256=ZfU-puOKLw3nMEYiQlYnk5F_d96P29VJVgDGVV391uI,225805
+faceangle/models/WHENet.onnx,sha256=erifY_EwR9YdTYlV8zx-Ma9gMK3kIR_F4Hja4tse9fw,17305831
+faceangle/notebook.py,sha256=egBFLQM1kAA-DEdxJHXsl0pnhQKK1641bAWj3spOVBo,4871
+faceangle/pca.py,sha256=UgP6kDwZ5N7aj51dSexBFTSxFbGdOVi7MOc0GGFiJ58,1010
+faceangle/preprocessing.py,sha256=NBacPPpE2WRt3WeU-XAsLign41PoXP0Y8uzxG5cVZgo,1324
+faceangle/visualization.py,sha256=QZrMQMGJoxccKbp6Hy2nCruX1coxatLFezHgL3tusGQ,5107
+faceangle-0.3.0.dist-info/METADATA,sha256=pi9oFsc-nfIQ0EuiZKnTy8arvBNrpr70_0f7fY24WT4,3808
+faceangle-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+faceangle-0.3.0.dist-info/RECORD,,
