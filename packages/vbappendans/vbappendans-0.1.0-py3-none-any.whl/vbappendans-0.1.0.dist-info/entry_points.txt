@@ -1,0 +1,3 @@
+[console_scripts]
+vbappendans=vbappendans.__main__:main
+

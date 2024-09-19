@@ -1,0 +1,14 @@
+vbappendans/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbappendans/__main__.py,sha256=_OZgmg9OdiXirXIUKuuc7w0cKOy9Iy9mRC3ucw7ucII,53
+vbappendans/append_ans.py,sha256=e5YqK6gAc1iIbVF_tjy3A1lS9ZyiND6loSgY8k6Vd2o,4863
+vbappendans/appendfromjson.py,sha256=FTWD3vTIceJDyzuuleH9yybhDKV8e4p9oY4WUd4FbKY,835
+vbappendans/choice_option.py,sha256=0M4rnlTqZBvJPd9KNZ9bwp_b5PCKjLt5be-CMREiP2s,1236
+vbappendans/functions.py,sha256=LW7tFu3v2eswdDTP7IUo9RgSAepoqg4UbkW-y7x3bwE,6074
+vbappendans/gptvision.py,sha256=zbXzPAOrNbGADEJNa8MYzL1I3SGqtiBhdqqBJecBQB4,1953
+vbappendans/main.py,sha256=iHojPJKDcHTG76JE2O5i44Ki2dbIXOLbfyVlG45SUlI,342
+vbappendans/prompts.py,sha256=MBNzajmSv_wzYXUKHm9ogUJw2DxlxzsfahvYaFRWeLc,476
+vbappendans/token_cost_calculations.py,sha256=yYCx4juQtSRCYXofrpeB3ekSHc2qPM7wIXWMaayuRxc,4178
+vbappendans-0.1.0.dist-info/METADATA,sha256=Vxum39wPSSbErk00KjYY8s83d88iIdqqJqpLqF1sxfg,295
+vbappendans-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vbappendans-0.1.0.dist-info/entry_points.txt,sha256=-355E5I5S5rn1vYv-Ps82A_mFZMFwQdLTvFHtp2xMEs,57
+vbappendans-0.1.0.dist-info/RECORD,,
