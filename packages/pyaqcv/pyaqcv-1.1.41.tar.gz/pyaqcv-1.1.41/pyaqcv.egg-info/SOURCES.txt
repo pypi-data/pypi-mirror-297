@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+_pyaqcv.pyd
+aqcv.dll
+geometry.dll
+libomp140.x86_64.dll
+opencv_world3411.dll
+pyaqcv.py
+setup.py
+pyaqcv.egg-info/PKG-INFO
+pyaqcv.egg-info/SOURCES.txt
+pyaqcv.egg-info/dependency_links.txt
+pyaqcv.egg-info/requires.txt
+pyaqcv.egg-info/top_level.txt
