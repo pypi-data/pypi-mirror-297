@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yaml2gcode
+Version: 0.0.1
+Summary: Easily automate generating GCODE from yaml definitions/macros
+Home-page: https://github.com/Mambix/yaml2gcode
+Author: Mambix Ltd.
+Author-email: ledi.mambix@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+Requires-Dist: PyYaml

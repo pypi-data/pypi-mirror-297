@@ -1,0 +1,2 @@
+[console_scripts]
+yaml2gcode = yaml2gcode:main
