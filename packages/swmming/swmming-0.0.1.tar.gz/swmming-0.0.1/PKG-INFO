@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: swmming
+Version: 0.0.1
+Summary: Assemble SWMM inp files.
+Project-URL: Homepage, https://github.com/edsaac/swmming
+Project-URL: Issues, https://github.com/edsaac/swmming/issues
+Author-email: "Edwin Saavedra C." <esaavedrac@u.northwestern.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Provides-Extra: gis
+Requires-Dist: geopandas; extra == 'gis'
+Requires-Dist: rasterio; extra == 'gis'
+Description-Content-Type: text/markdown
+
+# swmming
+Tools to generate inp files for EPA-SWMM 
