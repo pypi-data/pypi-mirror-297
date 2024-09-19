@@ -1,0 +1,5 @@
+setup.py
+devopscommon.egg-info/PKG-INFO
+devopscommon.egg-info/SOURCES.txt
+devopscommon.egg-info/dependency_links.txt
+devopscommon.egg-info/top_level.txt
