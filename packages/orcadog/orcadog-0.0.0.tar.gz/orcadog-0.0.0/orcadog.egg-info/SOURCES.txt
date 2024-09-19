@@ -1,0 +1,5 @@
+setup.py
+orcadog.egg-info/PKG-INFO
+orcadog.egg-info/SOURCES.txt
+orcadog.egg-info/dependency_links.txt
+orcadog.egg-info/top_level.txt
