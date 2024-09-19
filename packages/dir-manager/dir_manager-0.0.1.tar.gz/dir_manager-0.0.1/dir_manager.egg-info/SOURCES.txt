@@ -1,0 +1,9 @@
+setup.py
+dir_manager/__init__.py
+dir_manager/dir_manager.py
+dir_manager.egg-info/PKG-INFO
+dir_manager.egg-info/SOURCES.txt
+dir_manager.egg-info/dependency_links.txt
+dir_manager.egg-info/requires.txt
+dir_manager.egg-info/top_level.txt
+tests/test_dir_manager.py
