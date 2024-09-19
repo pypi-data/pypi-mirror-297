@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: graphs_edjedovi
+Version: 0.0.2
+Summary: Dlijkstra Package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Example Author <author@example.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DIjkstraHW
+
+## Overview
+This project is a Python implementation of Dijkstra's algorithm. It calculates the shortest path from a source node to all other nodes in a graph.
