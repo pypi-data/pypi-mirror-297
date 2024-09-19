@@ -1,0 +1,17 @@
+numpy
+scipy
+tqdm
+
+[benchmarks]
+darts
+torch
+scikit-learn
+pandas
+tsfresh
+nolds
+
+[numba]
+numba
+
+[sde]
+sdeint
