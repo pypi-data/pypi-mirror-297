@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+picoboot3/__init__.py
+picoboot3/cli.py
+picoboot3/picoboot3.py
+picoboot3/picoboot3_i2c.py
+picoboot3/picoboot3_uart.py
+picoboot3.egg-info/PKG-INFO
+picoboot3.egg-info/SOURCES.txt
+picoboot3.egg-info/dependency_links.txt
+picoboot3.egg-info/entry_points.txt
+picoboot3.egg-info/requires.txt
+picoboot3.egg-info/top_level.txt
