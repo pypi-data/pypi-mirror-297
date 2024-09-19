@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: LocalRequirement
+Version: 0.1
+Author: liyaozhong
+Author-email: yun.zhongyue@163.com
+License-File: LICENSE
+Requires-Dist: setuptools
+
