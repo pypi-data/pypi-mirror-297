@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pygsfit-cp
+Version: 0.1.1
+Summary: A python wrpper of the core fitting functionalities of gsFit.
+Author: Yuqian Wei
+Author-email: yw633@njit.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.25.0)
+Requires-Dist: astropy (>=6.0.0)
+Requires-Dist: dask (>=2024.3.0)
+Requires-Dist: h5py (>=3.6.0)
+Requires-Dist: matplotlib (>=3.8.2)
+Requires-Dist: scipy (>=1.12.0)
+Requires-Dist: sunpy (>=5.1.1)
+
+# pygsfit_cp
+A python wrpper of the core fitting functionalities of gsFit.
+
+
