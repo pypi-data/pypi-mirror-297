@@ -1,0 +1,3 @@
+[console_scripts]
+reqgenz=reqgenz.src.reqgenz:main
+
