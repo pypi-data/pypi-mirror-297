@@ -1,0 +1,16 @@
+pillow
+oracledb
+json5
+oci
+urllib3
+gTTS
+SQLAlchemy
+PyMySQL
+mysql-connector-python
+pycryptodome
+openpyxl
+pandas
+opencv-python
+opencv-python-headless
+numpy
+matplotlib
