@@ -1,0 +1,9 @@
+raid/__init__.py,sha256=dYj8vBMZ9AKT0nZqQWzv43XE5hHNdmlIZBx-0014XuQ,105
+raid/_version.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+raid/detect.py,sha256=DCHoLZznTKYUJJ1T1zwCKgp7iJBkIA2uHp1A-KueJCw,503
+raid/evaluate.py,sha256=Rhoq6PpcmbIK8AUOMzx32VxvzpR62ObuhMeCaAMDh-g,7851
+raid/utils.py,sha256=7X5_9-kSLtfzJWGaycTH3kUV-UZKLd9qQwo1cml1KDw,1696
+raid_bench-0.0.9.dist-info/METADATA,sha256=6PmYC2lb_LD5cSgxLATwkuig8-N7VTDyMgWY2qt19Mo,14569
+raid_bench-0.0.9.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+raid_bench-0.0.9.dist-info/licenses/LICENSE,sha256=_8Wq_qW9NzcfmXfpDv3gMnVhFQ1mGagovPa487QjBWA,1068
+raid_bench-0.0.9.dist-info/RECORD,,
