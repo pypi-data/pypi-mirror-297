@@ -1,0 +1,14 @@
+spl_transpiler-0.1.5.dist-info/METADATA,sha256=_bjl8p-zeItzhUl_Xia4ccrtvcOINUTfch6lXhGJXxo,27234
+spl_transpiler-0.1.5.dist-info/WHEEL,sha256=nR-iCKVzqslZ_ctUCwVzfmnK67PzA6bYt7Kz0L0Paj0,95
+spl_transpiler-0.1.5.dist-info/licenses/LICENSE,sha256=ZFMPowOGPwM2Xi4529k1ZJ1XilSLkLI5jFvK_5Dn5uY,1060
+spl_transpiler/live_translator.py,sha256=wZGmNYq34OWyL5bVZsiZMqqJdZulpsKnRKDFZbLKVEM,5121
+spl_transpiler/live_translator.tcss,sha256=IpbxmrECZpP9P2w2HxBByOhyVb9d-JQNbXhcMzWzxLw,221
+spl_transpiler/macros.py,sha256=4cD2O9Vfl9rOWaDEqd4OOM-l2bNWdEeqYoewuBYLDNQ,2824
+spl_transpiler/udfs/cidr_match.py,sha256=xSjAKW4ggVUqEbWhWvqSbAJWQntb54ujsIdn53qgd2E,37
+spl_transpiler/udfs/tonumber.py,sha256=M3qoJFYKtw015uFhCzzb6al81jpPjRDlom6QyINfIU8,57
+spl_transpiler/udfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spl_transpiler/utils.py,sha256=vrd-rUljWyw9pkbI-WsC1H_myb9_sC6CuWVIe7LRZmw,193
+spl_transpiler/__init__.py,sha256=_wHICyUunvmJW64oRSNY8tULPChsdqDCnNBXimzsdl4,423
+spl_transpiler/__main__.py,sha256=lX71vyiv5Yn1Q2uF0Bmr512nJLhQKASDur9G7mQtg6o,325
+spl_transpiler/spl_transpiler.cp311-win_amd64.pyd,sha256=oZNODTUeow23rnxgFEDa9OuM2zBpJdB8gehEWK-2K94,3294208
+spl_transpiler-0.1.5.dist-info/RECORD,,
