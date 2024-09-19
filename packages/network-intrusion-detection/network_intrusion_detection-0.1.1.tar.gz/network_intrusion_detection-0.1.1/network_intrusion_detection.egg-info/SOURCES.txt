@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+network_intrusion_detection/__init__.py
+network_intrusion_detection/cnn_lstm_unsw_finetuned.h5
+network_intrusion_detection/model.py
+network_intrusion_detection/predict.py
+network_intrusion_detection/preprocessing.py
+network_intrusion_detection.egg-info/PKG-INFO
+network_intrusion_detection.egg-info/SOURCES.txt
+network_intrusion_detection.egg-info/dependency_links.txt
+network_intrusion_detection.egg-info/requires.txt
+network_intrusion_detection.egg-info/top_level.txt
+network_intrusion_detection/tests/__init__.py
+network_intrusion_detection/tests/test_predict.py
+network_intrusion_detection/tests/test_preprocessing.py
