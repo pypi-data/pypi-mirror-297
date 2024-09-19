@@ -1,0 +1,10 @@
+pygsfit_cp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygsfit_cp/ndfits.py,sha256=lv2J-pF2YeDRkkd5JNN-wBQYS8CL6k0zV7YkEizsWfU,19625
+pygsfit_cp/pygsfit_cp.py,sha256=x-PHFMbwooGkjoC1Ficd6vkoZBqu0aiWHvbcIJIn2hE,24937
+pygsfit_cp/pygsfit_cp_utils.py,sha256=I-vECFB3hme0l_8yMyaclOxXN1llTngpagjcPogg61Q,8793
+pygsfit_cp/results_convertor.py,sha256=FtZWZI3Xe5ZRcQKCLgCGclQeI9hw3-vFoLXm-8DX53o,13085
+pygsfit_cp-0.1.0.dist-info/LICENSE,sha256=14dWZLNvm9xaUFeRin_gDB_iynn6m604g5GsutxqYsM,1068
+pygsfit_cp-0.1.0.dist-info/METADATA,sha256=rRw-Z6B7gELjSIDghms8697rJep8oI8IcZYTF4c3BGM,707
+pygsfit_cp-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygsfit_cp-0.1.0.dist-info/top_level.txt,sha256=qGSq-YyYRNzISqlG1QwNctBivzPUB7JbsaccraWmkUo,11
+pygsfit_cp-0.1.0.dist-info/RECORD,,
