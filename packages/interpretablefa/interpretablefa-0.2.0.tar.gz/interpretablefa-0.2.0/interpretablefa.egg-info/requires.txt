@@ -1,0 +1,8 @@
+numpy
+pandas
+factor_analyzer
+tensorflow_hub
+scipy
+nlopt
+seaborn
+matplotlib
