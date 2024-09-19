@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: olcf-velocity
+Version: 0.1.0
+Summary: A container build manager
+Project-URL: Homepage, https://github.com/olcf/velocity
+Project-URL: Issues, https://github.com/olcf/velocity/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyyaml
+Requires-Dist: networkx
+Requires-Dist: colorama
+Requires-Dist: loguru
+Requires-Dist: typing-extensions
+
+![icon.drawio.png](misc/artwork/icon_name.drawio.png)
+
+-----------------------------------------------------------
+
+## Description
+A container build manager.
+
+## Documentation
+Run:
+```commandline
+cd docs/build/html
+python3 -m http.server 8080
+```
+And then go to <http://localhost:8080>.
+
+## Installation
+``` commandline
+pip install olcf-velocity
+alias velocity="python3 -m velocity"
+```
