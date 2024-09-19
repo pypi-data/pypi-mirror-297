@@ -1,0 +1,16 @@
+cosmofy/__init__.py,sha256=GvajItLUJcQkyHRKNonFeD62bLaw--AYc1U0B_cCGk8,103
+cosmofy/__main__.py,sha256=UKI4N_D8hUmaIl-SqdQGjmrMU1tu_yQ20Zbr_XIXW1k,1765
+cosmofy/args.py,sha256=or4H-FUVEZISeZgM-MaGSbk-noFT0pwiYRLg1vZClpU,8404
+cosmofy/bundler.py,sha256=WvH0JTO35eYWPEjPppqhR4CN9M33mSzi-5s1-A3DDF8,11065
+cosmofy/downloader.py,sha256=qQY4Er178zOtmgEStDTokepQgnvy7jWNILNmaoC9fJ0,3271
+cosmofy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cosmofy/pythonoid.py,sha256=yVZbToLz5sfrqK_IeMOOIoBA2cdr2xHQXzENeKC9qIA,8494
+cosmofy/receipt.py,sha256=RcnzSIwMzTA1x0HlwWaYRXtAhBjOPAMdqKXRZQC5f9c,5891
+cosmofy/updater.py,sha256=SQh48tHNRkeR2UgOat474qLdH0oPQE7xQxugLS40mlg,2961
+cosmofy/zipfile2.py,sha256=b2ykotC9Yhyipoyto1j_7Xu6OizMXey-azDBZsubreQ,4587
+cosmofy-0.1.0.dist-info/LICENSE.md,sha256=_u_HItLNC8M9WaT9gAOPxI1xt1XXL-KwxHOqYaqIrDM,1052
+cosmofy-0.1.0.dist-info/METADATA,sha256=YdTzyOZLIwm8x2FHTD8w_k3-_jNKw-CzYwrUvdxILYQ,8092
+cosmofy-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+cosmofy-0.1.0.dist-info/entry_points.txt,sha256=RlalhJHrSlX0HUuBNeS-aOIkqzNDsioW_zInV9vkGeE,50
+cosmofy-0.1.0.dist-info/top_level.txt,sha256=ANh_pvg8n7bHRI1uEbgVGtX8Gz0jjDrY8bWE6Fg6mVE,8
+cosmofy-0.1.0.dist-info/RECORD,,
