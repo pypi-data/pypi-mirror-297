@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+sop_utils.egg-info/PKG-INFO
+sop_utils.egg-info/SOURCES.txt
+sop_utils.egg-info/dependency_links.txt
+sop_utils.egg-info/top_level.txt
+static/my_quicksearch.js
+static/my_tab.js
+templates/sop_utils/tools/badge.html
+templates/sop_utils/tools/breadcrumbs.html
+templates/sop_utils/tools/form.html
+templates/sop_utils/tools/site.html
+templates/sop_utils/tools/table.html
