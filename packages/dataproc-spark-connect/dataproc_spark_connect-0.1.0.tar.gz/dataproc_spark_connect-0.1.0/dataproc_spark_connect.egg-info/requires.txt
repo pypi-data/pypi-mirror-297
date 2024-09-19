@@ -1,0 +1,5 @@
+wheel
+websockets
+pyspark>=3.5
+pandas
+pyarrow

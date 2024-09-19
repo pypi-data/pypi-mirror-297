@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dataproc-spark-connect
+Version: 0.1.0
+Summary: Dataproc client library for Spark Connect
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: websockets
+Requires-Dist: pyspark>=3.5
+Requires-Dist: pandas
+Requires-Dist: pyarrow
