@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ginsim
+Version: 0.4.5
+Summary: Python interface to GINsim and BioLQM API
+Home-page: https://github.com/GINsim/GINsim-python
+Author: Aurélien Naldi
+Author-email: aurelien.naldi@gmail.com
+Keywords: computational systems biology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: py4j
+Requires-Dist: colomoto_jupyter>=0.6.3
+
+
+Provides interface to Java API of GINsim and BioLQM
