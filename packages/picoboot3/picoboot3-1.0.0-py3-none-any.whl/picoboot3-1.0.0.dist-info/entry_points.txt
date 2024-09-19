@@ -1,0 +1,2 @@
+[console_scripts]
+picoboot3 = picoboot3:cli
