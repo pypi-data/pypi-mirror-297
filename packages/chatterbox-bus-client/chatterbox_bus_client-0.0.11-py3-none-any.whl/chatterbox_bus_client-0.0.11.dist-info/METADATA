@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: chatterbox-bus-client
+Version: 0.0.11
+Summary: Chatterbox Messagebus Client
+Home-page: https://github.com/HelloChatterbox/chatterbox-bus-client
+Author: Kevin Elgan
+Author-email: kevin@hellochatterbox.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: mycroft-messagebus-client>=0.9.1
+Requires-Dist: pyxdg
+Requires-Dist: combo-lock>=0.1.1
+
+
+# Chatterbox Bus Client
+
+This module is a simple interface for the chatterbox messagebus and can be 
+used to connect to chatterbox, send messages and react to messages sent by the 
+Chatterbox system.
+
+
+## MessageBusClient()
+
+The `MessageBusClient()` If no arguments are provided it will try to connect to a local instance of chatterbox core on the default endpoint and port.
+
+
+## Message()
+
+The `Message` object is a representation of the messagebus message, this will always contain a message type but can also contain data and context. 
+Data is usually real information while the context typically contain information on where the message originated or who the intended recipient is.
+
+```python
+Message('MESSAGE_TYPE', data={'meaning': 42}, context={'origin': 'A.Dent'})
+```
+
+AES encryption is supported by setting a key in `/etc/chatterbox/bus.conf`
+
+## Examples
+
+Below are some a couple of simple cases for sending a message on the bus as well
+as reacting to messages on the bus
+
+### Sending a message on the bus.
+
+```python
+from chatterbox_bus_client import MessageBusClient, Message
+
+print('Setting up client to connect to a local chatterbox instance')
+client = MessageBusClient()
+client.run_in_thread()
+
+print('Sending speak message...')
+client.emit(Message('speak', data={'utterance': 'Hello World'}))
+```
+
+### Catching a message on the messagebus
+
+```python
+from chatterbox_bus_client import MessageBusClient, Message
+
+print('Setting up client to connect to a local chatterbox instance')
+client = MessageBusClient()
+
+
+def print_utterance(message):
+    print('Mycroft said "{}"'.format(message.data.get('utterance')))
+
+
+print('Registering handler for speak message...')
+client.on('speak', print_utterance)
+
+client.run_forever()
+```
+
+
+
