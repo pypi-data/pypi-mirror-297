@@ -1,0 +1,15 @@
+gem_suite/gem_core.pyi,sha256=PGVBbwMSzuzwPkZKVnoZxuOA20hy1Tirg4ET-1nKQOI,2314
+gem_suite/analysis.py,sha256=liNVaAc8Hsm1oZ-nlQsQWonWnEnmFejZyF7Ny9u2tzU,7743
+gem_suite/plaquettes.py,sha256=iW91vUm1f6nfGj3fz9Li2nq5CKXEK3R8sz05WfXBK0I,6397
+gem_suite/__init__.py,sha256=JBSpD_LfhzeG5OwXDp05fSSSCWufZCO6W0maGqJTzXE,767
+gem_suite/gem_core.pypy38-pp73-darwin.so,sha256=wYvC2ACkRD3wUB3aeN0Rp0MkFxgA6x8ikUv7Z5U8iSY,1597320
+gem_suite/experiments.py,sha256=E-rqEYhK5azYnXQQXmwm9UNI50HmHUQo2P79aqa3aDk,6445
+gem_suite/plot_utils.py,sha256=ZJA1t9iJMLT7gC6J_J6MqFk-Yyue4zkaOespLxJt4Uw,4327
+gem_suite/sub_analysis/__init__.py,sha256=xOF9Mpp_zaQt0g12RC4iUmqFr3E4rBZjQ-w8cNv5TWg,860
+gem_suite/sub_analysis/magnetization.py,sha256=PS2b3fbpo8_9SnjZG18fPeGF4q2yNPfJ9NC-fBbvjgA,2705
+gem_suite/sub_analysis/operators.py,sha256=SEog5oxOgwyvsiCLa8zGk3gkQwWazF_mZyuWVv1XKko,13141
+gem_suite-0.1.6.dist-info/RECORD,,
+gem_suite-0.1.6.dist-info/WHEEL,sha256=UdN3Xt-DzO2PnNOLJ2RgjewytMKMbReiuJrfuNwjTeI,116
+gem_suite-0.1.6.dist-info/top_level.txt,sha256=UoVpfpCAx1sWCcLw99T56aAdcCf_bqDsfO599MUsbxk,10
+gem_suite-0.1.6.dist-info/LICENSE.txt,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+gem_suite-0.1.6.dist-info/METADATA,sha256=TNXlpypO0ZO8JwSrUUn88l3B-MAzMm5y_W5pL-Xk2L8,539
