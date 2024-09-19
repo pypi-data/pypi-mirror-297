@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "witlog"
+dynamic = ["version"]
+requires-python = ">= 3.8"
+authors = [
+    {name = "tomorrowdawn", email = "tomorrowdawn@foxmail.com"}
+]
+
+description = "WitLog is a lightweight zero-overhead static structured log library for researchers."
+
+readme = "README.md"
+
+license = {file = "LICENSE"}
+keywords = [
+    "logging",
+    "structured",
+    "zero-overhead",
+    "research",
+]
+
+[tool.setuptools_scm]
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+homepage = "https://github.com/Tomorrowdawn/WitLog"
+repository = "https://github.com/Tomorrowdawn/WitLog"

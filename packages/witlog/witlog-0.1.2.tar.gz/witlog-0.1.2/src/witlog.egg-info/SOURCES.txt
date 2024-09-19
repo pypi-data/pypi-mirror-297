@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/publish.yaml
+src/witlog/__init__.py
+src/witlog/base.py
+src/witlog/static.py
+src/witlog.egg-info/PKG-INFO
+src/witlog.egg-info/SOURCES.txt
+src/witlog.egg-info/dependency_links.txt
+src/witlog.egg-info/top_level.txt
