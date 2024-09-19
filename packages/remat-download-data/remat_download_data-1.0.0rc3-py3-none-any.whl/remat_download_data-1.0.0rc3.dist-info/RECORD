@@ -1,0 +1,10 @@
+remat_download_data/__init__.py,sha256=0whVnHTcMxxQg1I4zNW0i2pmUxg8tJgwgmZQyWubogQ,237
+remat_download_data/_version.py,sha256=ycNGyiWSL_U4dVtUSTwe_m70MXdXM3_AE0nLDQP53_Q,414
+remat_download_data/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+remat_download_data/download_dataset.py,sha256=eOiDTOJYkJGXBcilFZJp_ce9o27J5DNEX_FGvwzADMU,3729
+remat_download_data/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remat_download_data-1.0.0rc3.dist-info/METADATA,sha256=A8k4r3-IATdEoM4q0i_MyqlWeAROO9pnCERbfhnGCa8,7285
+remat_download_data-1.0.0rc3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+remat_download_data-1.0.0rc3.dist-info/entry_points.txt,sha256=GhahIfezubuS1nD8Oj7hFpa_eeF_LFL6jo2h6Hyhoo8,82
+remat_download_data-1.0.0rc3.dist-info/licenses/LICENSE,sha256=3dALHH0x2As3ptYn3AJWexNUAt8zKjXzZDdksf0UMRE,1522
+remat_download_data-1.0.0rc3.dist-info/RECORD,,
