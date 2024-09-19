@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: interpretablefa
+Version: 0.2.0
+Summary: A package for interpretable factor analysis
+Author: Justin Philip Tuazon, Gia Mizrane Abubo
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: factor-analyzer
+Requires-Dist: tensorflow-hub
+Requires-Dist: scipy
+Requires-Dist: nlopt
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+# The interpretablefa package
+This is a package for performing interpretable factor analysis. This implements the priorimax and interpmax rotations and procedures, which are described [here](https://arxiv.org/abs/2409.11525).
+
+It also contains several helper and visualization functions and wraps several functions from the `factor_analyzer` package.
+
+The linked paper provides some documentation to the package and docstrings are available. However, a comprehensive guide or documentation is still under development.
