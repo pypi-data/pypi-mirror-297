@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nebius/spark/connect/__init__.py
+src/nebius/spark/connect/session.py
+src/nebius_connect.egg-info/PKG-INFO
+src/nebius_connect.egg-info/SOURCES.txt
+src/nebius_connect.egg-info/dependency_links.txt
+src/nebius_connect.egg-info/requires.txt
+src/nebius_connect.egg-info/top_level.txt
