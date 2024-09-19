@@ -1,0 +1,8 @@
+setup.py
+dmgeometry/__init__.py
+dmgeometry/circle.py
+dmgeometry/rectangle.py
+dmgeometry.egg-info/PKG-INFO
+dmgeometry.egg-info/SOURCES.txt
+dmgeometry.egg-info/dependency_links.txt
+dmgeometry.egg-info/top_level.txt
