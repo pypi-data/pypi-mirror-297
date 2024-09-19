@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: t3co
+Version: 1.0.1
+Project-URL: Homepage, https://www.nrel.gov/transportation/t3co.html
+Project-URL: Documentation, https://pages.github.com/NREL/T3CO
+Project-URL: Repository, https://github.com/NREL/T3CO
+Project-URL: Bug Tracker, https://github.com/NREL/T3CO/issues
+License-File: LICENSE
+Requires-Dist: fastsim==2.1.1
+Requires-Dist: mkdocs
+Requires-Dist: mkdocstrings
+Requires-Dist: mkdocstrings-python
+Requires-Dist: numpy==1.24.1
+Requires-Dist: pandas==2.0.3
+Requires-Dist: pymoo==0.6.1
+Requires-Dist: scipy==1.10.1
