@@ -1,0 +1,8 @@
+README.md
+setup.py
+notebookManagerPackageNT/__init__.py
+notebookManagerPackageNT/notebook_manager.py
+notebookManagerPackageNT.egg-info/PKG-INFO
+notebookManagerPackageNT.egg-info/SOURCES.txt
+notebookManagerPackageNT.egg-info/dependency_links.txt
+notebookManagerPackageNT.egg-info/top_level.txt
