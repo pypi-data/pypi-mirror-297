@@ -1,0 +1,10 @@
+devops/__init__.py,sha256=vXTtPHcIaRLPYg85hv2NJs9azrrzj6q4X7hGhFURBJw,138
+devops/cicd.py,sha256=7cFrzlAXT9Cnq5FXAq8A2Q_S8Pji73m5gf1ouzeQ3uI,1796
+devops/containers.py,sha256=MI9rXcmMX46MDtrI0UDV97RgYtUPo0gf4MEnTUd6c7s,479
+devops/infra.py,sha256=Otmb5qNerjhu2gRbPF_uutSo3-VlTCgR0mT5hQbEgCU,920
+devops/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devops_automation-0.1.0.dist-info/LICENSE,sha256=sMCEm-e5JUBpAP2J3qset7UWNb4wR9iQ_Cn0lBDJnAM,1080
+devops_automation-0.1.0.dist-info/METADATA,sha256=scgUFbOhdVq2RFGgX0WZO_irqYBtFs_QeJFr7EUwaZs,1985
+devops_automation-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+devops_automation-0.1.0.dist-info/top_level.txt,sha256=qcdbAA3CortK6Ce66IZXkIMR65YMclmS95JKCGGgTv0,7
+devops_automation-0.1.0.dist-info/RECORD,,
