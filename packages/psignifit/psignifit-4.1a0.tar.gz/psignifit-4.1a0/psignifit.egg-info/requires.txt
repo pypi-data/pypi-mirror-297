@@ -1,0 +1,13 @@
+scipy
+matplotlib
+
+[docs]
+sphinx
+sphinx-gallery
+sphinx_rtd_theme
+matplotlib
+
+[tests]
+pytest
+pytest-cov
+flake8
