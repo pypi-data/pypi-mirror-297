@@ -1,0 +1,9 @@
+discordub/__init__.py,sha256=t-8HXo_AKlzZ9flg4B2ymqtDPYTtrf6MROv9N3iv-9A,102
+discordub/auth.py,sha256=zdlpIbTBw0aG1KdzMHs8vbp9h6eQy1XIePKsbUGfcLE,133
+discordub/send_embed.py,sha256=_BIJd4-uc5Ngt6zdKr1OQsnkKWYZl-caXunU5vkC48I,823
+discordub/send_message.py,sha256=gL5dFCszkKrwZF0B97eaksV3pmHuZvPm1TL7DBsZWFs,837
+discordub-0.1.2.dist-info/LICENSE,sha256=vgTuBJGj40QCCkkb8T7i0XjZm68BgjwyN9j4qfEtjX8,1081
+discordub-0.1.2.dist-info/METADATA,sha256=9-E7CiZL8V6rG_MOuM1p6-kBEFwIEHlITnUX1pT3ZJs,938
+discordub-0.1.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+discordub-0.1.2.dist-info/top_level.txt,sha256=PY-Cag-oFEYkmS5iVgnf-mg3XoDNIj4P1GU-7_LQIvs,10
+discordub-0.1.2.dist-info/RECORD,,
