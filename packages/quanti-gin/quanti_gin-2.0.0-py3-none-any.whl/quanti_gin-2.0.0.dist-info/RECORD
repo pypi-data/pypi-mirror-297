@@ -1,0 +1,11 @@
+quanti_gin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quanti_gin/__main__.py,sha256=7QAYT6xAoOF-k8Kd5vnSXntvJJ7MMaGf_MniBeYQWno,41
+quanti_gin/data_generator.py,sha256=Ysm7_tnjDYXKE5xnirSLeWv6YRD-IU3FOlG9I_JP7g8,19429
+quanti_gin/environment.yml,sha256=awnNqO-55dG7HWMdEJvG6w7UyI-4NK2PIKLcP7FMcHY,8852
+quanti_gin/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quanti_gin/examples/custom_method.py,sha256=bswVMlLwafUVs-xmRfke087vm8WKULBFX-l8s17hBgk,1136
+quanti_gin/shared.py,sha256=89cL-El75nSdAx-NefCEuBNVGt0kp8akI1O5Pr3_1YQ,5871
+quanti_gin-2.0.0.dist-info/LICENSE,sha256=BwPp9qW0LJpEs98DiXzZfr-FzgXYX_U4M7ZKpOMctkQ,1072
+quanti_gin-2.0.0.dist-info/METADATA,sha256=E4l2g1-6Jp-C3Uq4lp0c5-pF4ZLz_K0kO-LYZ3zzNBA,1908
+quanti_gin-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quanti_gin-2.0.0.dist-info/RECORD,,
