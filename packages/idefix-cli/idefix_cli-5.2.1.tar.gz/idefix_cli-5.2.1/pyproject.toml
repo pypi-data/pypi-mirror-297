@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idefix_cli"
+description = "A command line utility belt for Idefix"
+authors = [
+    { name = "C.M.T. Robert" },
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "inifix>=4.2.2",
+    "packaging>=21.0",
+    "termcolor>=2.3.0",
+    "typing-extensions>=4.1.0;python_version < '3.11'",
+]
+dynamic = ["version"]
+
+[project.license]
+text = "GPL-3.0"
+
+[project.optional-dependencies]
+isolated = [
+    "inifix==4.2.2",
+    "packaging==21.0",
+    "termcolor==2.3.0",
+    "typing-extensions==4.1.0;python_version < '3.11'",
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.scripts]
+idfx = "idefix_cli.__main__:main"
+baballe = "idefix_cli.__main__:alt_main"
+
+[project.urls]
+Homepage = "https://github.com/neutrinoceros/idefix_cli"
+
+[tool.setuptools]
+license-files = [
+    "LICENSE",
+]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+ version = {attr = "idefix_cli.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.ruff.lint]
+exclude = ["*__init__.py"]
+ignore = ["E501", "ISC001"]
+select = [
+    "E",
+    "F",
+    "W",
+    "C4",  # flake8-comprehensions
+    "B",   # flake8-bugbear
+    "YTT", # flake8-2020
+    "ISC", # flake8-implicit-string-concatenation
+    "I",   # isort
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = ["idefix_cli"]
+
+[tool.mypy]
+python_version = '3.10'
+show_error_codes = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_unreachable = true
+show_error_context = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--doctest-modules"
+filterwarnings = [
+    "error",
+]
