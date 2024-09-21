@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ralf-preprocessing-tools
+Version: 0.1.0
+Summary: 
+Author: Shunsuke KITADA
+Author-email: shunsuke.kitada.0831@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: lama
+Requires-Dist: opencv-python (>=4.8.0.0)
+Requires-Dist: pillow (>=8.0.0)
+Requires-Dist: simple-lama-inpainting (>=0.1.2,<0.2.0) ; extra == "lama"
+Requires-Dist: transformers[torch] (>=4.6.0)
+Description-Content-Type: text/markdown
+
+# `ralfpt`: `Ralf`-based `P`reprocessing `T`ools
+
+[![CI](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/ci.yaml/badge.svg)](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/ci.yaml)
+[![Release](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/release.yaml/badge.svg)](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/release.yaml)
+[![Deploy](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/deploy.yaml/badge.svg)](https://github.com/creative-graphic-design/ralf-preprocessing-tools/actions/workflows/deploy.yaml)
+

@@ -1,0 +1,9 @@
+ralfpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ralfpt/inpainting.py,sha256=Mm5p5xXjEWmuKTeqerSEed85BYvG5n6pR13HfHf-jW8,1913
+ralfpt/saliency_detection.py,sha256=YTOFlWenCCpGdTewCf-V9l7Ju1jvXbkW43q-Qj8sQ5s,2802
+ralfpt/transforms.py,sha256=TDtL0v4Bd87RnsClDFpsdiChM1sWqJlnbni_NeG0GLM,3577
+ralfpt/typehints.py,sha256=eOST_BLA8jt4R9H6mxRY1OMWmj2VMuJoMMK7GfJesA0,357
+ralf_preprocessing_tools-0.1.0.dist-info/LICENSE,sha256=esOMt_wskHO6Kna6D1SVun387uWSkdYz3y9njn58iNc,1084
+ralf_preprocessing_tools-0.1.0.dist-info/METADATA,sha256=EWKSOelh1YW1ncUIJXWeolsy4-mDl1amEeNjFRRJsIY,1332
+ralf_preprocessing_tools-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ralf_preprocessing_tools-0.1.0.dist-info/RECORD,,
