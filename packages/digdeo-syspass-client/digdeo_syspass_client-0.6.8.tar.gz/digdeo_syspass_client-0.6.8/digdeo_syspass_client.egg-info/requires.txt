@@ -1,0 +1,5 @@
+colorama
+six
+PyYAML
+requests
+urllib3
