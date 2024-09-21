@@ -1,0 +1,117 @@
+Metadata-Version: 2.3
+Name: scaling-vin-pytorch
+Version: 0.0.1
+Summary: Scaling Value Iteration Networks
+Project-URL: Homepage, https://pypi.org/project/scaling-vin-pytorch/
+Project-URL: Repository, https://github.com/lucidrains/scaling-vin-pytorch
+Author-email: Phil Wang <lucidrains@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Phil Wang
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: artificial intelligence,deep learning,planning,value iteration network
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Requires-Dist: einops>=0.8.0
+Requires-Dist: einx>=0.3.0
+Requires-Dist: torch>=2.0
+Requires-Dist: x-transformers>=1.35.3
+Provides-Extra: examples
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+<img src="./vin.png" width="400px"></img>
+
+## Scaling Value Iteration Networks (wip)
+
+Exploration into the <a href="https://arxiv.org/abs/2406.08404">Scaling Value Iteration Networks</a> paper, from Schmidhuber's group
+
+## Usage
+
+```python
+import torch
+from scaling_vin_pytorch import ScalableVIN
+
+scalable_vin = ScalableVIN(
+    state_dim = 3,
+    reward_dim = 2,
+    num_actions = 10
+)
+
+state = torch.randn(2, 3, 32, 32)
+reward = torch.randn(2, 2, 32, 32)
+
+agent_positions = torch.randint(0, 32, (2, 2))
+
+target_actions = torch.randint(0, 10, (2,))
+
+loss = scalable_vin(
+    state,
+    reward,
+    agent_positions,
+    target_actions
+)
+
+loss.backward()
+
+action_logits = scalable_vin(
+    state,
+    reward,
+    agent_positions
+)
+```
+
+## Citations
+
+```bibtex
+@article{Wang2024ScalingVI,
+    title   = {Scaling Value Iteration Networks to 5000 Layers for Extreme Long-Term Planning},
+    author  = {Yuhui Wang and Qingyuan Wu and Weida Li and Dylan R. Ashley and Francesco Faccio and Chao Huang and J{\"u}rgen Schmidhuber},
+    journal = {ArXiv},
+    year    = {2024},
+    volume  = {abs/2406.08404},
+    url     = {https://api.semanticscholar.org/CorpusID:270391752}
+}
+```
+
+```bibtex
+@misc{pflueger2018soft,
+    title   = {Soft Value Iteration Networks for Planetary Rover Path Planning},
+    author  = {Max Pflueger and Ali Agha and Gaurav S. Sukhatme},
+    year    = {2018},
+    url     = {https://openreview.net/forum?id=Sktm4zWRb},
+}
+```
+
+```bibtex
+@inproceedings{Tamar2016ValueIN,
+    title   = {Value Iteration Networks},
+    author  = {Aviv Tamar and Sergey Levine and P. Abbeel and Yi Wu and Garrett Thomas},
+    booktitle = {Neural Information Processing Systems},
+    year    = {2016},
+    url     = {https://api.semanticscholar.org/CorpusID:11374605}
+}
+```
