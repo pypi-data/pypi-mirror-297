@@ -1,0 +1,13 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+koji_wrapper = {path = ".", editable = true}
+
+
+[dev-packages]
+koji_wrapper  = {path = ".", extras = ["docs","test","dist"], editable = true}
