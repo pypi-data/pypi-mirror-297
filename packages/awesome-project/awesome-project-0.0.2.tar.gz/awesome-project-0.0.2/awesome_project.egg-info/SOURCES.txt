@@ -1,0 +1,9 @@
+setup.py
+awesome-project/__init__.py
+awesome-project/_main.py
+awesome-project/main.py
+awesome_project.egg-info/PKG-INFO
+awesome_project.egg-info/SOURCES.txt
+awesome_project.egg-info/dependency_links.txt
+awesome_project.egg-info/requires.txt
+awesome_project.egg-info/top_level.txt
