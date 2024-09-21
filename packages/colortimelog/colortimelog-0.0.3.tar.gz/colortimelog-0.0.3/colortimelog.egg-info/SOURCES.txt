@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+colortimelog/__init__.py
+colortimelog/colortimelog.py
+colortimelog/colortimelog_test.py
+colortimelog.egg-info/PKG-INFO
+colortimelog.egg-info/SOURCES.txt
+colortimelog.egg-info/dependency_links.txt
+colortimelog.egg-info/top_level.txt
