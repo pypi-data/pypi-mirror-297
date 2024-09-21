@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Chromasens_Python_SDK"
+version = "2.0.5"
+authors = [
+  { name="Daniel Duerhammer", email="support@chromasens.de" },
+]
+description = "A package that provides python wrappers for Chromasens hardware + software"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+dependencies = [
+  "numpy>=1.20.1",
+  "opencv-python>=4.5.2.52",
+]
+
+keywords = ["camera", "linescan", "allPIXA", "evo", "neo", "GenIcam"]
+
+[project.urls]
+Documentation = "https://docs.chromasens.de/docs/python-api"
+Changelog = "https://docs.chromasens.de/docs/changelog-1"
+Homepage = "https://chromasens.de/en"
+Issues = "https://chromasens.de/en/support/support"
