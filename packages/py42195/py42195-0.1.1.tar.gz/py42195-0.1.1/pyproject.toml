@@ -1,0 +1,26 @@
+[project]
+name = "py42195"
+version = "0.1.1"
+requires-python = ">= 3.10"
+dependencies = []
+authors = [{ name = "Jan Pipek", email = "jan.pipek@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT License" }
+
+[project.urls]
+Homepage = "https://github.com/janpipek/py42195"
+
+[project.optional-dependencies]
+dev = ["pytest", "mypy"]
+
+[build-system]
+requires = ["setuptools >= 72.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+
+[tool.uv]
+dev-dependencies = [
+  "pytest >=8.1.1,<9", "mypy"
+]
