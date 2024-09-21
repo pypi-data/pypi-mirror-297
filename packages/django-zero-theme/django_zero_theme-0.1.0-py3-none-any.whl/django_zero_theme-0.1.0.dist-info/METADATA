@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: django-zero-theme
+Version: 0.1.0
+Summary: A reusable Django app for ...
+Home-page: https://github.com/farjanul/django-zero-theme
+Author: Farjanul Nayem
+Author-email: mr.farjanul@gmail.com
+License: MIT License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=3.2
+Requires-Dist: django-import-export>=4.1.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: black; extra == "dev"
+
+
+# Django Zero Theme
+
+## Project Status
+
+This project is being actively maintained, though with a reduced feature set, we are looking for contributors to help
+maintain and improve the project, please get in touch if you would like to help.
+
+Help needed with:
+
+- Triaging issues
+- Frontend fixes and UI improvements
+- Testing
+- Documentation
+
+Pull requests are welcome, though ive been pre-occupied with other projects lately, so have not been able to review
+them as quickly as I would like, but im trying to get through them all now, hopefully with some outside help.
+
+## Installation
+
+```bash
+pip install django-zero-theme
+```
+
+## Documentation
+Coming soon, This is beta testing version. 
