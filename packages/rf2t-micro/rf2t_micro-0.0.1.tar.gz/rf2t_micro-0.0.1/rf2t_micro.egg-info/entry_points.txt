@@ -1,0 +1,2 @@
+[console_scripts]
+rf2t-micro = rf2t_micro.cli:main
