@@ -1,0 +1,12 @@
+xarray_graph-2024.9.1.dist-info/METADATA,sha256=CW6QJJVBkuhfFdw90_Mgxvk-RNt6L8b6nvwWuY7dDG4,2115
+xarray_graph-2024.9.1.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+xarray_graph-2024.9.1.dist-info/entry_points.txt,sha256=aW9CKuCZREtN_3Mtg4dKrysPMmHc-tQdUCNmzQYE_vA,61
+xarray_graph-2024.9.1.dist-info/licenses/LICENSE,sha256=OE7VkhwkLeFeY8LXi86O-nMXC9B3WsBSILLfPmYGd-8,1077
+xarray_graph/XarrayGraph copy.py,sha256=sKGxIunBTnDXveQc_yfvVScPOxsKHC3ZYKUdFxj0Ysg,135824
+xarray_graph/XarrayGraph.py,sha256=MjfMiH2JZm8lqgDpsOFcNCpYUSYvJD8jGI3miLQ4SuY,119539
+xarray_graph/__init__.py,sha256=1aAM-Fcno60-ou3AnSqt5HKm6UmZrtULGzg2LF34IJE,48
+xarray_graph/__main__.py,sha256=Du7dhoXszdc6gr5aQp4oeN7eP8Hfrr1mjJSZ6SPFSpY,2342
+xarray_graph/heka_reader.py,sha256=Kf3kNdmH-A8ehKFcDI8WWakDCrCLEvBYRwM3vDnrcrE,19388
+xarray_graph/io.py,sha256=PXM3UbSCnkjiq884khJwpAz7C-5SBsBDpXGAkDcY8_I,8514
+xarray_graph/tmp/RegionsManager.py,sha256=0nnrO1e1mqvrs88doO51SJ3JvMNW5wXBKOp2nLQcUFs,1841
+xarray_graph-2024.9.1.dist-info/RECORD,,
