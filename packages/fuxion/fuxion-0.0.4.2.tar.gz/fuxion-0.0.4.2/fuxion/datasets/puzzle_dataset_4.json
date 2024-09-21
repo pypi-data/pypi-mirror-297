@@ -1,0 +1,156 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The 100 Prisoners\n**Description:** 100 prisoners are given the opportunity to leave a room if they can solve a puzzle. The prisoners are lined up single file and each prisoner is given a hat that is either black or white. The prisoners can see the hats of the prisoners in front of them, but not their own hat or the hats of the prisoners behind them. Starting with the prisoner at the back of the line and moving forward, each prisoner must say only one word: 'black' or 'white'. If the prisoner guesses the color of his hat correctly, he is allowed to leave the room. If he guesses incorrectly, he is shot on the spot. The prisoners are allowed to confer before the puzzle begins, but once the first prisoner guesses, they are not allowed to communicate. The prisoners are allowed to strategize before the puzzle begins. What strategy should the prisoners use to maximize the number of prisoners who leave the room?",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The 100 Prisoners\n**Description:** 100 prisoners are given the opportunity to leave a room if they can solve a puzzle. The prisoners are lined up single file and each prisoner is given a hat that is either black or white. The prisoners can see the hats of the prisoners in front of them, but not their own hat or the hats of the prisoners behind them. Starting with the prisoner at the back of the line and moving forward, each prisoner must say only one word: 'black' or 'white'. If the prisoner guesses the color of his hat correctly, he is allowed to leave the room. If he guesses incorrectly, he is shot on the spot. The prisoners are allowed to confer before the puzzle begins, but once the first prisoner guesses, they are not allowed to communicate. The prisoners are allowed to strategize before the puzzle begins. What strategy should the prisoners use to maximize the number of prisoners who leave the room?",
+          "normalized": [
+            {
+              "puzzle_title": "The 100 Prisoners",
+              "description": "100 prisoners are given the opportunity to leave a room if they can solve a puzzle. The prisoners are lined up single file and each prisoner is given a hat that is either black or white. The prisoners can see the hats of the prisoners in front of them, but not their own hat or the hats of the prisoners behind them. Starting with the prisoner at the back of the line and moving forward, each prisoner must say only one word: 'black' or 'white'. If the prisoner guesses the color of his hat correctly, he is allowed to leave the room. If he guesses incorrectly, he is shot on the spot. The prisoners are allowed to confer before the puzzle begins, but once the first prisoner guesses, they are not allowed to communicate. The prisoners are allowed to strategize before the puzzle begins. What strategy should the prisoners use to maximize the number of prisoners who leave the room?",
+              "difficulty": "hard",
+              "puzzle_type": "logic",
+              "solution": {
+                "step_1": "The prisoners agree on a strategy before the puzzle begins.",
+                "step_2": "The strategy involves using parity (even or odd) to communicate information.",
+                "step_3": "The prisoner at the back of the line counts the number of black hats in front of him.",
+                "step_4": "If the number of black hats is even, he says 'white'. If the number of black hats is odd, he says 'black'.",
+                "step_5": "Each subsequent prisoner counts the number of black hats in front of him and compares it to the parity announced by the previous prisoner.",
+                "step_6": "If the parity matches, the prisoner knows his hat is white. If it does not match, the prisoner knows his hat is black.",
+                "step_7": "Each prisoner announces the color of his hat based on this information."
+              },
+              "conclusion": "Using this strategy, at least 99 prisoners can be guaranteed to leave the room safely."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "**Solution:**\n1. **Step 1:** The prisoners agree on a strategy before the guessing begins. The strategy involves using parity (even or odd) to encode information.\n2. **Step 2:** The first prisoner (at the back of the line) will count the number of black hats in front of him. If the number is even, he will say \"black.\" If the number is odd, he will say \"white.\"\n3. **Step 3:** The second prisoner will count the number of black hats in front of him and compare it to what the first prisoner said. If the first prisoner said \"black\" and the second prisoner sees an even number of black hats, he knows his hat is white. If the first prisoner said \"black\" and the second prisoner sees an odd number of black hats, he knows his hat is black. The same logic applies if the first prisoner said \"white.\"\n4. **Step 4:** Each subsequent prisoner will use the information from the previous prisoners' guesses and the number of black hats they see in front of them to deduce the color of their own hat.\n5. **Step 5:** This strategy ensures that the first prisoner has a 50% chance of survival, but every subsequent prisoner will be able to deduce their hat color with 100% accuracy.",
+        "normalized_output": {
+          "puzzle": "**Solution:**\n1. **Step 1:** The prisoners agree on a strategy before the guessing begins. The strategy involves using parity (even or odd) to encode information.\n2. **Step 2:** The first prisoner (at the back of the line) will count the number of black hats in front of him. If the number is even, he will say \"black.\" If the number is odd, he will say \"white.\"\n3. **Step 3:** The second prisoner will count the number of black hats in front of him and compare it to what the first prisoner said. If the first prisoner said \"black\" and the second prisoner sees an even number of black hats, he knows his hat is white. If the first prisoner said \"black\" and the second prisoner sees an odd number of black hats, he knows his hat is black. The same logic applies if the first prisoner said \"white.\"\n4. **Step 4:** Each subsequent prisoner will use the information from the previous prisoners' guesses and the number of black hats they see in front of them to deduce the color of their own hat.\n5. **Step 5:** This strategy ensures that the first prisoner has a 50% chance of survival, but every subsequent prisoner will be able to deduce their hat color with 100% accuracy.",
+          "normalized": [
+            {
+              "puzzle_title": "Prisoners and Hats",
+              "description": "A group of prisoners are lined up in a row, each wearing a hat that is either black or white. They can see the hats of the prisoners in front of them but not their own or those behind them. Starting from the back of the line, each prisoner must guess the color of their own hat. If they guess correctly, they are spared; if not, they are executed. The prisoners can agree on a strategy before the guessing begins.",
+              "difficulty": "Hard",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "The prisoners agree on a strategy before the guessing begins. The strategy involves using parity (even or odd) to encode information.",
+                "step_2": "The first prisoner (at the back of the line) will count the number of black hats in front of him. If the number is even, he will say 'black.' If the number is odd, he will say 'white.'",
+                "step_3": "The second prisoner will count the number of black hats in front of him and compare it to what the first prisoner said. If the first prisoner said 'black' and the second prisoner sees an even number of black hats, he knows his hat is white. If the first prisoner said 'black' and the second prisoner sees an odd number of black hats, he knows his hat is black. The same logic applies if the first prisoner said 'white.'",
+                "step_4": "Each subsequent prisoner will use the information from the previous prisoners' guesses and the number of black hats they see in front of them to deduce the color of their own hat.",
+                "step_5": "This strategy ensures that the first prisoner has a 50% chance of survival, but every subsequent prisoner will be able to deduce their hat color with 100% accuracy."
+              },
+              "conclusion": "By using this strategy, the prisoners maximize their chances of survival, with only the first prisoner having a 50% chance of guessing incorrectly."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "**Conclusion:** Using this strategy, 99 out of the 100 prisoners will definitely guess their hat color correctly, maximizing the number of prisoners who leave the room.",
+        "normalized_output": {
+          "puzzle": "**Conclusion:** Using this strategy, 99 out of the 100 prisoners will definitely guess their hat color correctly, maximizing the number of prisoners who leave the room.",
+          "normalized": [
+            {
+              "puzzle_title": "Prisoners and Hats",
+              "description": "100 prisoners are standing in a line, each wearing a hat that is either red or blue. Each prisoner can see the hats of the prisoners in front of them but not their own hat or the hats of those behind them. Starting from the back of the line, each prisoner must guess the color of their own hat. If they guess correctly, they are set free; if not, they are executed. The prisoners can devise a strategy beforehand to maximize the number of prisoners who guess correctly.",
+              "difficulty": "Hard",
+              "puzzle_type": "Logic",
+              "solution": {
+                "step_1": "The prisoners agree on a strategy where the last prisoner (the one at the back of the line) will use the parity (even or odd) of the number of red hats he sees to determine his guess.",
+                "step_2": "If the number of red hats he sees is even, he will say 'red'. If it is odd, he will say 'blue'.",
+                "step_3": "Each subsequent prisoner will count the number of red hats they see in front of them and compare it to the parity announced by the previous prisoner.",
+                "step_4": "If the parity matches, they guess their hat is the same color as the parity. If it does not match, they guess the opposite color.",
+                "step_5": "This way, each prisoner can deduce their hat color based on the parity and the guesses of the prisoners behind them."
+              },
+              "conclusion": "Using this strategy, 99 out of the 100 prisoners will definitely guess their hat color correctly, maximizing the number of prisoners who leave the room."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "---",
+        "normalized_output": {
+          "puzzle": "---",
+          "normalized": [
+            {
+              "puzzle_title": "The Missing Dollar",
+              "description": "Three friends check into a hotel room that costs $30. They each contribute $10. Later, the hotel realizes the room only costs $25 and gives $5 to the bellboy to return to the friends. The bellboy, however, decides to keep $2 for himself and gives $1 back to each friend. Now, each friend has paid $9, totaling $27. Adding the $2 kept by the bellboy makes $29. Where is the missing dollar?",
+              "difficulty": "Medium",
+              "puzzle_type": "Mathematical",
+              "solution": {
+                "step_1": "Each friend initially pays $10, totaling $30.",
+                "step_2": "The hotel room actually costs $25, so $5 is to be returned.",
+                "step_3": "The bellboy keeps $2 and returns $1 to each friend.",
+                "step_4": "Each friend effectively pays $9 ($10 initially - $1 returned).",
+                "step_5": "The total amount paid by the friends is $27 ($9 * 3).",
+                "step_6": "The $27 includes the $25 for the room and the $2 kept by the bellboy.",
+                "step_7": "There is no missing dollar; the confusion arises from incorrect addition."
+              },
+              "conclusion": "The puzzle tricks you into adding the $2 kept by the bellboy to the $27 paid by the friends, but the $2 is already included in the $27."
+            },
+            {
+              "puzzle_title": "The Two Doors",
+              "description": "You are in a room with two doors. One door leads to freedom, and the other leads to certain death. There are two guards, one in front of each door. One guard always tells the truth, and the other always lies. You can ask one guard one question to determine which door leads to freedom. What do you ask?",
+              "difficulty": "Hard",
+              "puzzle_type": "Logic",
+              "solution": {
+                "step_1": "Ask either guard: 'If I were to ask the other guard which door leads to freedom, which door would they point to?'",
+                "step_2": "If you ask the truth-telling guard, they will tell you the door the lying guard would point to, which is the wrong door.",
+                "step_3": "If you ask the lying guard, they will lie about the door the truth-telling guard would point to, which is also the wrong door.",
+                "step_4": "In both cases, the guard will point to the door that leads to death.",
+                "step_5": "Choose the opposite door to the one indicated by the guard."
+              },
+              "conclusion": "By asking the question, you ensure that the guard points to the door that leads to death, allowing you to choose the door that leads to freedom."
+            },
+            {
+              "puzzle_title": "The River Crossing",
+              "description": "A farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat, but it can only carry him and one other item at a time. If left alone, the wolf will eat the goat, and the goat will eat the cabbage. How does the farmer get everything across the river safely?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic",
+              "solution": {
+                "step_1": "Take the goat across the river and leave it on the other side.",
+                "step_2": "Return alone to the original side.",
+                "step_3": "Take the wolf across the river.",
+                "step_4": "Leave the wolf on the other side and take the goat back to the original side.",
+                "step_5": "Take the cabbage across the river and leave it with the wolf.",
+                "step_6": "Return alone to the original side.",
+                "step_7": "Take the goat across the river one last time."
+              },
+              "conclusion": "By following these steps, the farmer ensures that the goat is never left alone with the wolf or the cabbage, successfully getting all three items across the river."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "### Puzzle Title: The Mysterious Lockers\n**Description:** In a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The Mysterious Lockers\n**Description:** In a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+          "normalized": [
+            {
+              "puzzle_title": "The Mysterious Lockers",
+              "description": "In a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Initially, all 100 lockers are closed.",
+                "step_2": "The first student opens all the lockers.",
+                "step_3": "The second student toggles every second locker (lockers 2, 4, 6, ...).",
+                "step_4": "The third student toggles every third locker (lockers 3, 6, 9, ...).",
+                "step_5": "This process continues until the 100th student toggles the 100th locker.",
+                "step_6": "A locker is toggled once for each of its divisors. For example, locker 12 is toggled on rounds 1, 2, 3, 4, 6, and 12.",
+                "step_7": "A locker ends up open if it is toggled an odd number of times, which happens if it has an odd number of divisors.",
+                "step_8": "Only perfect squares have an odd number of divisors (e.g., 1, 4, 9, 16, 25, 36, 49, 64, 81, 100).",
+                "step_9": "Therefore, the lockers that remain open are those numbered with perfect squares."
+              },
+              "conclusion": "There are 10 lockers that remain open: 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\nGenerate original logic puzzles and brain teasers with step-by-step solutions. Focus on clear, logical reasoning suitable for training language models in chain-of-thought processes.\nprovide the puzzle's title followed by the puzzle's description\n\nInstructions:\n\n1. Puzzle Creation:\n   - Create unique, clearly stated puzzles\n   - Use engaging scenarios\n   - Include various types: deductive reasoning, mathematical, pattern recognition, riddles, lateral thinking\n   - Vary difficulty: Easy, Medium, Hard\n\n2. Solution Format:\n   - Provide step-by-step explanations\n   - Explain reasoning for each step\n   - Ensure accuracy and educational value\n\n3. Structure:\n   - Puzzle Title\n   - Puzzle Description\n   - Solution (in numbered steps)\n   - Conclusion\n\n4. Style:\n   - Use clear, concise language\n   - Write in third person, neutral tone\n   - Avoid sensitive or inappropriate content\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}
