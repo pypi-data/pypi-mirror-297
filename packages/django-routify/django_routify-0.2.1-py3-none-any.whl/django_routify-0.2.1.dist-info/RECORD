@@ -1,0 +1,9 @@
+django_routify/__init__.py,sha256=xOIwGnLrtI-iWLK--uNHgnBz66BoKnQ8AwUomnzKcTg,110
+django_routify/_abstraction.py,sha256=PXvcxbkEWVz3NNTQqvsMcV-Y_PhpATk24vtENoE-1Bo,3130
+django_routify/include.py,sha256=dEz0ld4narKlRjLnT_6p3TjYS-DxS16FFpHWyGUpn7s,478
+django_routify/router.py,sha256=WGMjf3Pm0AmKAX0O-p2BnxK91Ui2MdD4KQDutRSFV94,2693
+django_routify-0.2.1.dist-info/LICENSE,sha256=oD-lvHHTCQ2UvcjhJqFvUPgl-VKzZrW-7gj0ByRuWE8,1070
+django_routify-0.2.1.dist-info/METADATA,sha256=yBq-tAItgfGl-aL5KGX7cIQri5ILF6sOU60vweyNfw4,4628
+django_routify-0.2.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_routify-0.2.1.dist-info/top_level.txt,sha256=ntV4PoF5CelZ6sk30Wty23bS1nmFB4WOYorE3uzcHtU,15
+django_routify-0.2.1.dist-info/RECORD,,
