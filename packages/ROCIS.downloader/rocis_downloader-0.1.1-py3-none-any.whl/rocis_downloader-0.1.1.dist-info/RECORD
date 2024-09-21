@@ -1,0 +1,5 @@
+ROCIS/downloader/__init__.py,sha256=3dGff5_y95DVC5MnzilgB3ntsXLQtP5AmuM1-rckkDM,4197
+ROCIS/downloader/__main__.py,sha256=4FuPrq8OZBrOYQ0oC1B7EX1bRg7pES_UHJPfGMfsAc0,84
+rocis_downloader-0.1.1.dist-info/METADATA,sha256=OAvK1UopFsIi63HtNuFkW7Vy5l-TtceWfaU7Q4Hyx5g,589
+rocis_downloader-0.1.1.dist-info/WHEEL,sha256=xwCvqR_tqJ3Ej9Wez_XdmRPdq9SWEwB8IV-d4ZOwyF0,86
+rocis_downloader-0.1.1.dist-info/RECORD,,
