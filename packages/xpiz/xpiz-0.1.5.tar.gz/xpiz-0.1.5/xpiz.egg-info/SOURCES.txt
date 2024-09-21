@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+xpiz/__init__.py
+xpiz/__main__.py
+xpiz/cli.py
+xpiz.egg-info/PKG-INFO
+xpiz.egg-info/SOURCES.txt
+xpiz.egg-info/dependency_links.txt
+xpiz.egg-info/entry_points.txt
+xpiz.egg-info/requires.txt
+xpiz.egg-info/top_level.txt
