@@ -1,0 +1,35 @@
+# Copyright (C) 2020 Sebastian Pipping <sebastian@pipping.org>
+# Licensed under GPL v2 or later
+
+name: Run the test suite
+
+on:
+- pull_request
+- push
+
+jobs:
+  run-tests:
+    name: Run the test suite
+    strategy:
+      matrix:
+        python-version: [3.9, 3.12]  # no particular need for in-between versions
+        runs-on: [macos-12, ubuntu-22.04]
+    runs-on: ${{ matrix.runs-on }}
+    steps:
+    - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332  # v4.1.7
+    - uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3  # v5.2.0
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Run the test suite
+      run: |
+        set -x
+        python3 --version
+        pip3 install -U setuptools  # for Python >=3.12
+        pip3 install --require-hashes -r requirements.txt
+        pytest -v -s -Wdefault -Werror
+
+    - name: Smoke test the CLI
+      run: |
+        set -x
+        pip3 install -e .
+        resolve-march-native --gcc=gcc-12 --vertical
