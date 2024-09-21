@@ -1,0 +1,31 @@
+name: motile-plugin
+display_name: Motile
+# use 'hidden' to remove plugin from napari hub search results
+visibility: public
+# see https://napari.org/stable/plugins/manifest.html for valid categories
+categories: ["Utilities"]
+contributions:
+  commands:
+    - id: motile-plugin.motile_widget
+      python_name: motile_plugin.widgets.motile.motile_widget:MotileWidget
+      title: "Start the motile widget"
+      short_title: "motile widget"
+    - id: motile-plugin.tree_widget
+      python_name: motile_plugin.widgets.tracks_view.tree_widget:TreeWidget
+      title: "Open the lineage view widget"
+      short_title: "lineage view"
+    - id: motile-plugin.solve
+      python_name: motile_plugin.backend.solve:solve
+      title: "Run motile tracking (backend only)"
+    - id: motile-plugin.Fluo_N2DL_HeLa
+      python_name: motile_plugin.example_data:Fluo_N2DL_HeLa
+      title: "Load Fluo-N2DL-HeLa tracking dataset"
+  widgets:
+    - command: motile-plugin.motile_widget
+      display_name: Motile Tracking
+    - command: motile-plugin.tree_widget
+      display_name: Lineage View
+  sample_data:
+    - command: motile-plugin.Fluo_N2DL_HeLa
+      key: "Fluo-N2DL-HeLa"
+      display_name: "Fluo-N2DL-HeLa"
