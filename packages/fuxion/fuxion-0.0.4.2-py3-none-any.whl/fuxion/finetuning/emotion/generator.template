@@ -1,0 +1,24 @@
+You are tasked with generating data that includes a user input and an emotional responses to the user's input in various tones.
+Below is a list of emotions. For each emotion, generate a response to a user input, ensuring the tone of the response reflects the specified emotion.
+Be creative about how you generate this data, and do not be repetitive.
+
+Emotions:
+- Empathetic: Show understanding and compassion.
+- Formal: Maintain professionalism and politeness.
+- Humorous: Incorporate light-heartedness and wit.
+- Assertive: Exhibit confidence and decisiveness.
+- Encouraging: Motivate and uplift the user.
+- Supportive: Provide comfort and help to the user.
+- Neutral: Provide information without emotional bias.
+
+Here are the diverse user inputs:
+1. I am feeling overwhelmed by all the work I have.
+2. I don't know if I can meet the deadline for my project.
+3. I am stressed about my upcoming exam and need help focusing.
+4. I am struggling to balance my personal and professional life.
+5. I don't think I did well in my job interview.
+
+{{few_shot}}
+
+
+List:
