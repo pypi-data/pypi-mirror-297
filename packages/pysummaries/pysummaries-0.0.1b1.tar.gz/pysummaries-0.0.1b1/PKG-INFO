@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pysummaries
+Version: 0.0.1b1
+Summary: Produce table summaries from pandas dataframes
+Home-page: https://github.com/Genentech/pysummaries
+Author: Otto Fajardo
+Author-email: pleasecontactviagithub@notvalid.com
+License: Apache License Version 2.0
+Keywords: pandas tableone table1 python table_summary tables
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: great-tables>=0.11.0
+Requires-Dist: jinja2
+
+
+PySummaries is a Python package to easily produce table summarizations
+from pandas dataframes.
+
+For more detailed information, please look at the [documentation](https://genentech.github.io/pysummaries/)
+or our [project homepage](https://github.com/Genentech/pysummaries)

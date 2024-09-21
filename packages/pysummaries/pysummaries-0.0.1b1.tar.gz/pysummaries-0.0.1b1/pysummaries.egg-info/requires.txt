@@ -1,0 +1,3 @@
+pandas>=2.0.0
+great-tables>=0.11.0
+jinja2
