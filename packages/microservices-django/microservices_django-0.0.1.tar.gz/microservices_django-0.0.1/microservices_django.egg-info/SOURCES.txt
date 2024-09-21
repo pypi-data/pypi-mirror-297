@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_microservices_package/__init__.py
+django_microservices_package/call_endpoint.py
+microservices_django.egg-info/PKG-INFO
+microservices_django.egg-info/SOURCES.txt
+microservices_django.egg-info/dependency_links.txt
+microservices_django.egg-info/requires.txt
+microservices_django.egg-info/top_level.txt
