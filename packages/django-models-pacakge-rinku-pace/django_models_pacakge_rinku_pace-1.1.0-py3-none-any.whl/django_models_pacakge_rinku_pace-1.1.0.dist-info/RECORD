@@ -1,0 +1,13 @@
+onboarding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onboarding/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+onboarding/apps.py,sha256=9trdkbMVfMDzeZhWrJefXFn39gxMxIvGjd_tjwCupX4,152
+onboarding/models.py,sha256=BJ2UpXZwt6qg7NZGvf8B5tW04dzjAtt-HhxpMVEPwrk,376
+onboarding/tests.py,sha256=QXGGGAhGiRSrj1-HoQYmHiSGz2lF55TEF5suBvW37P0,300
+onboarding/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+onboarding/migrations/0001_initial.py,sha256=KKQu5ktEcu-wv0seLpGLUTFMNXGqhjYu3uhR9jyION4,656
+onboarding/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_models_pacakge_rinku_pace-1.1.0.dist-info/LICENSE,sha256=lNYSo8gW1C6zYJ07leqDN43lE5Q3YxxKvbCUzgQyxYI,1067
+django_models_pacakge_rinku_pace-1.1.0.dist-info/METADATA,sha256=U5W4bXEbIFSuLHP4j46WCAzxacfXOZXIgedqR6R9TvE,2224
+django_models_pacakge_rinku_pace-1.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_models_pacakge_rinku_pace-1.1.0.dist-info/top_level.txt,sha256=2sUyF3XUScEbyckPOAZ_j7RDhw4wnRx0nBZelcR2v5w,11
+django_models_pacakge_rinku_pace-1.1.0.dist-info/RECORD,,
