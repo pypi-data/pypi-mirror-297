@@ -1,0 +1,4 @@
+[console_scripts]
+startout-paths=startout.paths:startout_paths_command
+startout-starter=startout.paths:startout_starter_app
+
