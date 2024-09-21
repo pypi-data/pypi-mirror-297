@@ -1,0 +1,114 @@
+# VARPORT
+
+VARPORT is a Python library to calculate Value at Risk (VaR) of a derivatives portfolio and generate reports .
+
+## Features
+
+- Compute VaR using Monte Carlo simulations
+- Generate PDF reports with portfolio summaries and charts
+- Supports options and futures portfolios
+
+## Installation
+
+```bash
+
+
+#usage
+
+pip install varport
+from varport import ReportGenerator, MainVaRProcessor
+import numpy as np
+
+# Load your portfolio from a CSV file
+portfolio_file = 'C:/xxx/portfolio.csv'
+
+# Example user input for mu and Sigma
+mu = np.array([0.05, 0.03, 0.07, 0.04, 0.06])  # Example mu vector (expected returns)
+Sigma = np.array([[0.1, 0.02, 0.03, 0.01, 0.04],  # Example covariance matrix
+                  [0.02, 0.08, 0.01, 0.03, 0.02],
+                  [0.03, 0.01, 0.09, 0.02, 0.01],
+                  [0.01, 0.03, 0.02, 0.07, 0.02],
+                  [0.04, 0.02, 0.01, 0.02, 0.08]])
+
+# Initialize MainVaRProcessor with the portfolio file path
+var_processor = MainVaRProcessor(filepath=portfolio_file)
+
+# Process the portfolio with user-provided mu and Sigma to calculate VaR and differences
+portfolio, VaR, differences = var_processor.process(mu=mu, Sigma=Sigma)
+
+# Generate the report with the calculated differences and VaR
+report = ReportGenerator(differences=differences, VaR=VaR, portfolio=portfolio)
+
+# Generate and save the PDF report
+report.display_table_and_chart(pdf_filename="VaR_Report_Test.pdf")
+
+print("Report generated successfully!")
+
+
+# Portfolio Management Tool
+
+## Overview
+
+This tool allows users to manage their portfolio of financial instruments such as options and futures. You can upload your portfolio in a CSV file format that follows the required structure outlined below.
+
+---
+
+## Portfolio File Format
+
+The portfolio file should be in `.csv` format and must include the following columns:
+
+### Required Columns:
+
+1. **date** (string, in `dd/mm/yyyy` format):  
+   The date the trade was made.
+   
+2. **instrument_type** (string):  
+   Specifies the type of financial instrument. Supported values:
+   - `option`
+   - `future`
+   
+3. **underlying_asset** (string):  
+   The underlying asset for the trade (e.g., "sugar", "cocoa", "coffee").
+   
+4. **quantity** (integer):  
+   The quantity of the asset in the trade. Positive values for long positions, negative values for short positions.
+   
+5. **lot_size** (integer):  
+   Lot size for the contract. Typically `1`, but may vary.
+   
+6. **option_type** (string, optional for non-option instruments):  
+   Type of option for option instruments. Supported values:
+   - `put`
+   - `call`
+   
+7. **strike_price** (numeric, optional for non-option instruments):  
+   The strike price of the option contract.
+
+8. **implied_volatility** (numeric):  
+   The implied volatility of the option, typically represented as a decimal.
+
+9. **expiry** (string, in `dd/mm/yyyy` format):  
+   The expiration date of the option or future contract.
+   
+10. **underlying_future_expiry** (string, in `dd/mm/yyyy` format, optional for non-futures):  
+    The expiry date of the underlying future, if applicable.
+
+11. **risk_free_rate** (numeric):  
+    The risk-free interest rate assumed in the valuation model, typically expressed as a decimal.
+
+12. **volatility** (numeric):  
+    The actual volatility of the underlying asset, represented as a decimal.
+
+13. **underlying_price** (numeric):  
+    The price of the underlying asset at the time of trade.
+
+---
+
+## Example CSV File
+
+```csv
+date,instrument_type,underlying_asset,quantity,lot_size,option_type,strike_price,implied_volatility,expiry,underlying_future_expiry,risk_free_rate,volatility,underlying_price
+13/04/2023,option,sugar,27,1,put,200,0.478477817,31/10/2025,30/04/2025,0.031413423,0.215497254,429.494494
+15/12/2023,option,cocoa,-83,1,call,300,0.41251842,30/04/2025,31/01/2025,0.019328656,0.17107249,478.6526844
+28/09/2023,future,sugar,-76,1,,,0.472371642,31/08/2025,30/04/2025,0.028958798,0.206371496,467.5348595
+...

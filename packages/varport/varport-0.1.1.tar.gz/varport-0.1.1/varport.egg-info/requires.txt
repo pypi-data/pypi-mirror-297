@@ -1,0 +1,6 @@
+polars>=0.10
+numpy>=1.21
+seaborn>=0.11
+matplotlib>=3.4
+fpdf>=1.7
+scipy>=1.13.1
