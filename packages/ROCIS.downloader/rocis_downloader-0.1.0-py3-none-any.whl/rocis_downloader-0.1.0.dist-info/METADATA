@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: ROCIS.downloader
+Version: 0.1.0
+Author-Email: "Jason R. Coombs" <jaraco@jaraco.com>
+Summary:
+Requires-Python: >= 3.8
+Requires-Dist: pyserial
+Requires-Dist: humanize
+Requires-Dist: tqdm
+Requires-Dist: platformdirs
+Provides-Extra: doc
+Provides-Extra: test
+Project-URL: Source, https://github.com/jaraco/ROCIS.downloader
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+
