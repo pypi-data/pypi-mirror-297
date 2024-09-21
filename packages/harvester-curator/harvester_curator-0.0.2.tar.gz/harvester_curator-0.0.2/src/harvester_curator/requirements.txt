@@ -1,0 +1,8 @@
+cffconvert == 2.0.0
+pydantic == 2.6.1
+PyYAML == 6.0.1
+h5py == 3.10.0
+pyvista == 0.43.3
+vtk == 9.3.0
+python-magic == 0.4.27
+easyDataverse == 0.4.0
