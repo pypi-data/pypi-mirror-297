@@ -1,0 +1,11 @@
+gritholdings/__init__.py,sha256=Xo9k42rTxRINYNFOX_Ys5eEBZXT18NggvQmWtk-CCS4,618
+gritholdings/browser_automation.py,sha256=xvsHzqF10Z0uXrE9NCHwQ2LOoBfyOwbVthRzdzHhDx8,3899
+gritholdings/gmail.py,sha256=m7EyqN4nG7-bumhgEkpHENOeqZ51qSy2gNO62GuICKA,4058
+gritholdings/helpers.py,sha256=W2AA0qQ-ozcty_H7BVOdsNPLSXKC5chqt_lEW_zSUUI,3024
+gritholdings/llm.py,sha256=blhLH7DNna5Xd0juvwSi8PBgWY-ddr2LW5lKTHAb2Es,7445
+gritholdings/local_db.py,sha256=VjuKzIsbRSgzKC6sPDk5SCYLBPS1WdUWxsyCftQIM1I,475
+gritholdings/session.py,sha256=LYKdGAFwKrLV_Skw44PfV3iVFI1X4FtDpW1vOII_dTU,631
+gritholdings-1.1.3.dist-info/METADATA,sha256=qR8kxJ7kf8fgvS8f2rZa_JXpZy-c7xZXwyM8b9D52zM,1362
+gritholdings-1.1.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+gritholdings-1.1.3.dist-info/top_level.txt,sha256=BadS-InddrmcmNez4iADlqgEnNmCBObDVnEgWcH5f-w,13
+gritholdings-1.1.3.dist-info/RECORD,,
