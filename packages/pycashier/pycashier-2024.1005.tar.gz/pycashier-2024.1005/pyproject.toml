@@ -1,0 +1,143 @@
+[project]
+name = "pycashier"
+description = "cash in on expressed barcode tags"
+authors = [{ name = "Daylin Morgan", email = "daylinmorgan@gmail.com" }]
+dependencies = [
+  "rich>=12.0.0",
+  "tomlkit>=0.10.1",
+  "click-rich-help>=22.1.0",
+  "click>=8.1.0",
+  "polars>=1.0.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/brocklab/pycashier/"
+documentation = "https://docs.brocklab.com/pycashier"
+
+[project.scripts]
+pycashier = "pycashier.cli:main"
+
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+disallow_any_unimported = true
+no_implicit_optional = true
+warn_return_any = true
+warn_no_return = false
+warn_unused_ignores = true
+show_error_codes = true
+ignore_missing_imports = true
+
+[tool.ruff]
+select = [
+  # Pyflakes
+  "F",
+  # Pycodestyle
+  "E",
+  "W",
+  # isort
+  "I001",
+]
+# docstrings are longer because of formatting
+# ruff will handle the code formatting for us
+ignore = ["E501"]
+
+[tool.coverage.run]
+omit = ["tests/", "env/"]
+
+[tool.pixi]
+
+[tool.pixi.project]
+name = "pycashier"
+authors = ["Daylin Morgan <daylinmorgan@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+
+[tool.pixi.environments]
+dev = ["base", "bioconda", "dev", "build", "docs", "tutorial", "test"]
+docs = ["base", "docs", "tutorial"]
+prod = ["base", "bioconda", "prod"]
+build = ["base", "build"]
+test = ["base", "bioconda", "dev", "test"]
+test38 = ["base", "bioconda", "dev", "test", "test38"]
+test39 = ["base", "bioconda", "dev", "test", "test39"]
+test310 = ["base", "bioconda", "dev", "test", "test310"]
+
+[tool.pixi.host-dependencies]
+pip = "*"
+
+[tool.pixi.feature.base.dependencies]
+python = ">=3.8,<3.11" # https://bioconda.github.io/faqs.html#what-versions-are-supported
+# when pixi add polars to pypi-dependencies it was trying to build it with cargo
+# adding it here to use pre-built objects from conda-forge
+polars = ">=1.0.0"
+
+[tool.pixi.feature.docs.dependencies]
+sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-copybutton = "*"
+sphinx-tabs = "*"
+myst-parser = "*"
+shibuya = "*"
+
+[tool.pixi.feature.dev.pypi-dependencies]
+pycashier = { path = ".", editable = true }
+
+[tool.pixi.feature.dev.dependencies]
+pre-commit = "<3.0.0,>=2.15.0"
+mypy = ">=0.982"
+
+[tool.pixi.feature.prod.dependencies]
+rich = ">=12.0.0"
+tomlkit = ">=0.10.1"
+click-rich-help = ">=22.1.0"
+click = ">=8.1.0"
+polars = ">=1.0.0"
+
+[tool.pixi.feature.bioconda.dependencies]
+cutadapt = ">=4.6,<5"
+starcode = ">=1.4,<2"
+fastp = ">=0.23.4,<0.24"
+pysam = ">=0.22.0,<0.23"
+
+[tool.pixi.feature.test.dependencies]
+pytest = ">=7.2.0"
+pytest-cov = ">=4.1.0"
+
+[tool.pixi.feature.test.pypi-dependencies]
+pycashier = { path = ".", editable = true }
+
+[tool.pixi.feature.tutorial.dependencies]
+ipykernel = "*"
+
+[tool.pixi.feature.test38.dependencies]
+python = "3.8.*"
+[tool.pixi.feature.test39.dependencies]
+python = "3.9.*"
+[tool.pixi.feature.test310.dependencies]
+python = "3.10.*"
+
+[tool.pixi.feature.build.dependencies]
+python-build = ">=1.2.1,<2"
+setuptools = "*"
+setuptools_scm = "*"
+git = "*"                   # for scm-versioning with setuptools_scm
+
+[tool.pixi.feature.build.tasks]
+build-wheel = "python -m build --no-isolation --wheel ."
+
+[tool.pixi.feature.prod.tasks]
+postinstall-production = "pip install --no-deps --disable-pip-version-check dist/pycashier-*.whl"
