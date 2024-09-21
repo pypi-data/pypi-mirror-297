@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: svglee
+Version: 0.1.2
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# svglee
+
+An experiment in svg creation.
