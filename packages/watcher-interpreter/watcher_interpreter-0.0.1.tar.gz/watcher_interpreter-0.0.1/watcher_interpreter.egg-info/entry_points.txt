@@ -1,0 +1,2 @@
+[console_scripts]
+watcher-interpreter = watcher.main:run_script

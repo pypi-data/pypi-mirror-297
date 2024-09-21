@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+test/sdk-test.py
+watcher/__init__.py
+watcher/main.py
+watcher/sdk.py
+watcher_interpreter.egg-info/PKG-INFO
+watcher_interpreter.egg-info/SOURCES.txt
+watcher_interpreter.egg-info/dependency_links.txt
+watcher_interpreter.egg-info/entry_points.txt
+watcher_interpreter.egg-info/top_level.txt
