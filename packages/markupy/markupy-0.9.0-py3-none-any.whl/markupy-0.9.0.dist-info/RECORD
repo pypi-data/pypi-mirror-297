@@ -1,0 +1,10 @@
+markupy/__init__.py,sha256=lIoJ3stxGxdPFlRBS12sJHIB6ADc9_Z-hdDOyPQMzyU,118
+markupy/attribute.py,sha256=fy_k1EDMmapzFoo2e0EcDJlaacUiUOC1zDXb2JIXagA,4728
+markupy/cli.py,sha256=DzT72y97936MSMyEqF-L0PycpN8XsOCzSmK48Hh_zK8,4406
+markupy/element.py,sha256=bb77NsQj3kqhdsWQGf4HS3sSbDqb14ER84OjgvmGxrA,7491
+markupy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markupy/tag.py,sha256=BZB14j8APOCwdBmnPVmez79IFGdhrj8H81vOtZYxrGE,111
+markupy-0.9.0.dist-info/entry_points.txt,sha256=owDhGGMnGFdjHbUhfHbhlpnyijK-ejku5zkRuXRX3to,49
+markupy-0.9.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+markupy-0.9.0.dist-info/METADATA,sha256=CBO6zCj0GtwbrF4KQPRdiOaKy0vADuxnG7TURaRk094,4517
+markupy-0.9.0.dist-info/RECORD,,
