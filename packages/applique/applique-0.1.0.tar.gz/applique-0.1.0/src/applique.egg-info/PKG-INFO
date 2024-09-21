@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: applique
+Version: 0.1.0
+Summary: Chemical drawing with Python
+Author-email: "Julian M. Kleber" <julian.m.kleber@gmail.com>
+Project-URL: Homepage, https://www.codeberg.org/cap_jmk/inked-surface.git
+Project-URL: Bug Tracker, https://www.codeberg.org/cap_jmk/inked-surface.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: amarium
+
+# applique
+
+
+[![Downloads](https://static.pepy.tech/personalized-badge/amarium?period=total&units=international_system&left_color=orange&right_color=blue&left_text=Downloads)](https://pepy.tech/project/applique)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C-blue)
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![PyPI - Version](https://img.shields.io/pypi/v/applique.svg)](https://pypi.org/project/applique)
+
+`applique` is a simple program that can write xyz file from .mol files. It really is just a missing puzzle piece in the quantum chemistry world, as some molecular editors went corrupt. Now one can use common Quantum Chemistry software again. It mimics Avogadros behaviour.
+
+Nothing special.
+
+## Usage 
+
+So for example you load a molfile like this 
+
+
+```bash
+mol_file_benzene = "tests/molecules/benzene.mol"
+benzene = benzene.from_mol(mol_file_benzene)
+
+```
+Then write like this 
+
+```bash
+file_name_benzene = "./tests/molecules/benzene.xyz"
+coordinates = self.benzene.struct3D() #you can omit if you don't want to preoptimize the structure.
+write_xyz(self.benzene, file_name_benzene)
+
+```
