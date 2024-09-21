@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: groxink-technical-indicators
+Version: 0.1.3
+Summary: Financial technical indicators
+Author-email: Tiny <bugs.feedback@gmail.com>
+License: MIT
+Project-URL: Homepage, https://gitee.com/metameta666/groxink-technical-indicators.git
+Keywords: financial,technical indicators,setuptools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests>=2.25.1
+Requires-Dist: numpy>=1.19.5
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest>=6.0; extra == "test"
+
+# Indicators
+
+This is first version!
