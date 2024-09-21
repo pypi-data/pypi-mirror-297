@@ -1,0 +1,10 @@
+configvars/__init__.py,sha256=sDwiJ2zWcaf6FWwBl1bYRkEYEtYIjZH0YZLKI8S3mUo,2919
+configvars/apps.py,sha256=RdnnHDuEo3Hc-5QoE8KUKFhcpRuPmxJag-3KhQzXAgk,782
+configvars/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configvars/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configvars/management/commands/configvars.py,sha256=xjM5M0gG1YDd1D9eZO4bg2pfTpbTH9-vAc-qxUUTGDU,1203
+django_configvars-0.5.post1.dist-info/METADATA,sha256=Oifvp0HUoKU0-wQ_GZkQ0CjFG9Jwdebpj_CCchA9ZGg,6664
+django_configvars-0.5.post1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_configvars-0.5.post1.dist-info/top_level.txt,sha256=BUjEPOBzxiH6QASGTdvMWskgou9ZILtixutRBvqmtzE,11
+django_configvars-0.5.post1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_configvars-0.5.post1.dist-info/RECORD,,
