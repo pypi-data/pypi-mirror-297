@@ -1,0 +1,17 @@
+ppgs/__init__.py,sha256=X7dbk1Own-3EurwtpfVuanH2MNs7qnbmhsidU7FSnkI,874
+ppgs/__main__.py,sha256=TNNFF-rVZ7M5yQ5t4ZHTSOOwDCT_1Oa_8q2R0OW2eTs,1635
+ppgs/core.py,sha256=10OlQ7c4Os3z5JAQXLmkjsvOyDmICv0MkoTu61B7_qk,24066
+ppgs/load.py,sha256=epn1MYLEgb3HqsCgm_xYALDp4RiUemms5xKZN2atu_g,3931
+ppgs/phonemes.py,sha256=O3qaqp9k9ojlXCw1eGnBWqiKQy57AqiTpt2aq4qbsnQ,3158
+ppgs/assets/balanced_similarity.pt,sha256=HTJhxaZFJKHDpFjIgwpWP0Tq-l5BSYBr4iY0hBTYdxc,7277
+ppgs/assets/phoneme_weights.pt,sha256=1NJV9LvUnWKIi20yjvD_413o6x3tVNBmQhSE2DHuBWI,899
+ppgs/assets/configs/bottleneck.yaml,sha256=yFpHSu0H5l2JRH31ME6xXT6_5S7lLO2uPI4ZGK251Us,3813
+ppgs/assets/configs/ppg-quality-mushra.yaml,sha256=gLG1rpuerq0p8l-cpGJYmk358XkwOGeD0zX3zXfpJog,4559
+ppgs/assets/partitions/arctic.json,sha256=E-X8i5r-o12SwNqsw3mAOe2f8ZiFLcn9L6qALTZffA0,327530
+ppgs/assets/partitions/commonvoice.json.REMOVED.git-id,sha256=gba5LuRcuoV4sU6kMIWJDdjwY1GJeVzI4fglyhKmZyY,40
+ppgs/assets/partitions/timit.json,sha256=EAJVOLPpTtLGoaFykp1SkzIHLsKC7yQV3iaqkmnsRzg,142800
+ppgs-0.0.6.dist-info/LICENSE,sha256=scawa4kd3m-5qhzy9dacyfAcYtffzWlag3gsL1dPGrg,1078
+ppgs-0.0.6.dist-info/METADATA,sha256=BKvKOqeo7ruxwRGsHWAdU_qrK5CoU7JD2PKKALZbVOQ,16518
+ppgs-0.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ppgs-0.0.6.dist-info/top_level.txt,sha256=Sg7pXo71dIqWkyHTARXjR8fM2Rr4qCNcIb6T_4BFHWw,5
+ppgs-0.0.6.dist-info/RECORD,,
