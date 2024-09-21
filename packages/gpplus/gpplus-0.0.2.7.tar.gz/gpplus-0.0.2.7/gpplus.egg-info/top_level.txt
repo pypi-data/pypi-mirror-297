@@ -1,0 +1,11 @@
+bayesian_optimizations
+datasets
+kernels
+likelihoods_noise
+models
+optim
+preprocessing
+priors
+test_functions
+utils
+visual
