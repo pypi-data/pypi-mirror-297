@@ -1,0 +1,3086 @@
+{
+    "Fireball": {
+        "variantId": "Fireball",
+        "gemId": "Metadata/Items/Gems/SkillGemFireball"
+    },
+    "Vaal Fireball": {
+        "variantId": "VaalFireball",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFireball"
+    },
+    "Ice Nova": {
+        "variantId": "IceNova",
+        "gemId": "Metadata/Items/Gems/SkillGemIceNova"
+    },
+    "Ice Nova of Frostbolts": {
+        "variantId": "IceNovaAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIceNova"
+    },
+    "Ice Nova of Deep Freeze": {
+        "variantId": "IceNovaAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemIceNova"
+    },
+    "Icefire": {
+        "variantId": "Icefire",
+        "gemId": "Metadata/Items/Gems/SkillGemIcefire"
+    },
+    "Vaal Ice Nova": {
+        "variantId": "VaalIceNova",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalIceNova"
+    },
+    "Leap Slam": {
+        "variantId": "LeapSlam",
+        "gemId": "Metadata/Items/Gems/SkillGemLeapSlam"
+    },
+    "Leap Slam of Groundbreaking": {
+        "variantId": "LeapSlamAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLeapSlam"
+    },
+    "Riptide": {
+        "variantId": "Riptide",
+        "gemId": "Metadata/Items/Gems/SkillGemRiptide"
+    },
+    "Charged Dash": {
+        "variantId": "ChargedDash",
+        "gemId": "Metadata/Items/Gems/SkillGemChargedDash"
+    },
+    "Blade Flurry": {
+        "variantId": "BladeFlurry",
+        "gemId": "Metadata/Items/Gems/SkillGemChargedAttack"
+    },
+    "Blade Flurry of Incision": {
+        "variantId": "BladeFlurryAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemChargedAttack"
+    },
+    "Sweep": {
+        "variantId": "Sweep",
+        "gemId": "Metadata/Items/Gems/SkillGemSweep"
+    },
+    "Discorectangle Slam": {
+        "variantId": "DiscorectangleSlam",
+        "gemId": "Metadata/Items/Gems/SkillGemDiscorectangleSlam"
+    },
+    "Vaal Sweep": {
+        "variantId": "VaalSweep",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalSweep"
+    },
+    "Wand Teleport": {
+        "variantId": "WandTeleport",
+        "gemId": "Metadata/Items/Gems/SkillGemWandTeleport"
+    },
+    "Ground Slam": {
+        "variantId": "GroundSlam",
+        "gemId": "Metadata/Items/Gems/SkillGemGroundSlam"
+    },
+    "Ground Slam of Earthshaking": {
+        "variantId": "GroundSlamAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemGroundSlam"
+    },
+    "Vaal Ground Slam": {
+        "variantId": "VaalGroundSlam",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalGroundSlam"
+    },
+    "Cleave": {
+        "variantId": "Cleave",
+        "gemId": "Metadata/Items/Gems/SkillGemCleave"
+    },
+    "Cleave of Rage": {
+        "variantId": "CleaveAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemCleave"
+    },
+    "Shield Charge": {
+        "variantId": "ShieldCharge",
+        "gemId": "Metadata/Items/Gems/SkillGemShieldCharge"
+    },
+    "Enduring Cry": {
+        "variantId": "EnduringCry",
+        "gemId": "Metadata/Items/Gems/SkillGemEnduringCry"
+    },
+    "Double Strike": {
+        "variantId": "DoubleStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemDoubleStrike"
+    },
+    "Double Strike of Impaling": {
+        "variantId": "DoubleStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDoubleStrike"
+    },
+    "Double Strike of Momentum": {
+        "variantId": "DoubleStrikeAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemDoubleStrike"
+    },
+    "Vaal Double Strike": {
+        "variantId": "VaalDoubleStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalDoubleStrike"
+    },
+    "Lacerate": {
+        "variantId": "Lacerate",
+        "gemId": "Metadata/Items/Gems/SkillGemLacerate"
+    },
+    "Lacerate of Butchering": {
+        "variantId": "LacerateAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLacerate"
+    },
+    "Lacerate of Haemorrhage": {
+        "variantId": "LacerateAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemLacerate"
+    },
+    "Elemental Hit": {
+        "variantId": "ElementalHit",
+        "gemId": "Metadata/Items/Gems/SkillGemElementalHit"
+    },
+    "Elemental Hit of the Spectrum": {
+        "variantId": "ElementalHitAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemElementalHit"
+    },
+    "Immortal Call": {
+        "variantId": "ImmortalCall",
+        "gemId": "Metadata/Items/Gems/SkillGemImmortalCall"
+    },
+    "Vaal Immortal Call": {
+        "variantId": "VaalImmortalCall",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalImmortalCall"
+    },
+    "Dual Strike": {
+        "variantId": "DualStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemDualStrike"
+    },
+    "Dual Strike of Ambidexterity": {
+        "variantId": "DualStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDualStrike"
+    },
+    "Whirling Blades": {
+        "variantId": "WhirlingBlades",
+        "gemId": "Metadata/Items/Gems/SkillGemWhirlingBlades"
+    },
+    "Frenzy": {
+        "variantId": "Frenzy",
+        "gemId": "Metadata/Items/Gems/SkillGemFrenzy"
+    },
+    "Frenzy of Onslaught": {
+        "variantId": "FrenzyAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrenzy"
+    },
+    "Detonate Dead": {
+        "variantId": "DetonateDead",
+        "gemId": "Metadata/Items/Gems/SkillGemDetonateDead"
+    },
+    "Detonate Dead of Scavenging": {
+        "variantId": "DetonateDeadAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDetonateDead"
+    },
+    "Detonate Dead of Chain Reaction": {
+        "variantId": "DetonateDeadAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemDetonateDead"
+    },
+    "Vaal Detonate Dead": {
+        "variantId": "VaalDetonateDead",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalDetonateDead"
+    },
+    "Volatile Dead": {
+        "variantId": "VolatileDead",
+        "gemId": "Metadata/Items/Gems/SkillGemVolatileDead"
+    },
+    "Volatile Dead of Confinement": {
+        "variantId": "VolatileDeadAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemVolatileDead"
+    },
+    "Volatile Dead of Seething": {
+        "variantId": "VolatileDeadAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemVolatileDead"
+    },
+    "Unearth": {
+        "variantId": "Unearth",
+        "gemId": "Metadata/Items/Gems/SkillGemBoneLance"
+    },
+    "Split Arrow": {
+        "variantId": "SplitArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemSplitArrow"
+    },
+    "Split Arrow of Splitting": {
+        "variantId": "SplitArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSplitArrow"
+    },
+    "Added Fire Damage Support": {
+        "variantId": "SupportAddedFireDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedFireDamage"
+    },
+    "Faster Attacks Support": {
+        "variantId": "SupportFasterAttacks",
+        "gemId": "Metadata/Items/Gems/SupportGemFasterAttack"
+    },
+    "Greater Multiple Projectiles Support": {
+        "variantId": "SupportGreaterMultipleProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles"
+    },
+    "Lesser Multiple Projectiles Support": {
+        "variantId": "SupportLesserMultipleProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemLesserMultipleProjectiles"
+    },
+    "Faster Projectiles Support": {
+        "variantId": "SupportFasterProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemFasterProjectiles"
+    },
+    "Added Cold Damage Support": {
+        "variantId": "SupportAddedColdDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedColdDamage"
+    },
+    "Additional Accuracy Support": {
+        "variantId": "SupportAdditionalAccuracy",
+        "gemId": "Metadata/Items/Gems/SupportGemAdditionalAccuracy"
+    },
+    "Increased Area of Effect Support": {
+        "variantId": "SupportIncreasedAreaOfEffect",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect"
+    },
+    "Added Lightning Damage Support": {
+        "variantId": "SupportAddedLightningDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedLightningDamage"
+    },
+    "Cold Snap": {
+        "variantId": "ColdSnap",
+        "gemId": "Metadata/Items/Gems/SkillGemColdSnap"
+    },
+    "Cold Snap of Power": {
+        "variantId": "ColdSnapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemColdSnap"
+    },
+    "Vaal Cold Snap": {
+        "variantId": "VaalColdSnap",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalColdSnap"
+    },
+    "Raise Zombie": {
+        "variantId": "RaiseZombie",
+        "gemId": "Metadata/Items/Gems/SkillGemRaiseZombie"
+    },
+    "Raise Zombie of Slamming": {
+        "variantId": "RaiseZombieAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemRaiseZombie"
+    },
+    "Raise Zombie of Falling": {
+        "variantId": "RaiseZombieAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemRaiseZombie"
+    },
+    "Caustic Arrow": {
+        "variantId": "CausticArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemPoisonArrow"
+    },
+    "Caustic Arrow of Poison": {
+        "variantId": "CausticArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPoisonArrow"
+    },
+    "Damage Infusion": {
+        "variantId": "DamageInfusion",
+        "gemId": "Metadata/Items/Gems/SkillGemDamageInfusion"
+    },
+    "Blood Rage": {
+        "variantId": "BloodRage",
+        "gemId": "Metadata/Items/Gems/SkillGemBloodRage"
+    },
+    "Ignite": {
+        "variantId": "Ignite",
+        "gemId": "Metadata/Items/Gems/SkillGemIgnite"
+    },
+    "Righteous Fire": {
+        "variantId": "RighteousFire",
+        "gemId": "Metadata/Items/Gems/SkillGemRighteousFire"
+    },
+    "Righteous Fire of Arcane Devotion": {
+        "variantId": "RighteousFireAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemRighteousFire"
+    },
+    "Vaal Righteous Fire": {
+        "variantId": "VaalRighteousFire",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalRighteousFire"
+    },
+    "Fire Weapon": {
+        "variantId": "FireWeapon",
+        "gemId": "Metadata/Items/Gems/SkillGemFireWeapon"
+    },
+    "Discharge": {
+        "variantId": "Discharge",
+        "gemId": "Metadata/Items/Gems/SkillGemDischarge"
+    },
+    "Discharge of Misery": {
+        "variantId": "DischargeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDischarge"
+    },
+    "Portal": {
+        "variantId": "Portal",
+        "gemId": "Metadata/Items/Gems/SkillGemPortal"
+    },
+    "Vaal Breach": {
+        "variantId": "VaalBreach",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalPortal"
+    },
+    "Inspiration Support": {
+        "variantId": "SupportInspiration",
+        "gemId": "Metadata/Items/Gems/SupportGemReducedMana"
+    },
+    "Increased Critical Strikes Support": {
+        "variantId": "SupportIncreasedCriticalStrikes",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedCriticalStrikes"
+    },
+    "Increased Critical Damage Support": {
+        "variantId": "SupportIncreasedCriticalDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedCriticalDamage"
+    },
+    "Knockback Support": {
+        "variantId": "SupportKnockback",
+        "gemId": "Metadata/Items/Gems/SupportGemKnockback"
+    },
+    "Life Leech Support": {
+        "variantId": "SupportLifeLeech",
+        "gemId": "Metadata/Items/Gems/SupportGemLifeLeech"
+    },
+    "Mana Leech Support": {
+        "variantId": "SupportManaLeech",
+        "gemId": "Metadata/Items/Gems/SupportGemManaLeech"
+    },
+    "Added Chaos Damage Support": {
+        "variantId": "SupportAddedChaosDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedChaosDamage"
+    },
+    "Backstab": {
+        "variantId": "Backstab",
+        "gemId": "Metadata/Items/Gems/SkillGemBackstab"
+    },
+    "Flicker Strike": {
+        "variantId": "FlickerStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemFlickerStrike"
+    },
+    "Flicker Strike of Power": {
+        "variantId": "FlickerStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFlickerStrike"
+    },
+    "Vaal Flicker Strike": {
+        "variantId": "VaalFlickerStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFlickerStrike"
+    },
+    "Spark": {
+        "variantId": "Spark",
+        "gemId": "Metadata/Items/Gems/SkillGemSpark"
+    },
+    "Spark of the Nova": {
+        "variantId": "SparkAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSpark"
+    },
+    "Spark of Unpredictability": {
+        "variantId": "SparkAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSpark"
+    },
+    "Vaal Spark": {
+        "variantId": "VaalSpark",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalSpark"
+    },
+    "WIP Support": {
+        "variantId": "SupportCastLinkedCursesOnCurse",
+        "gemId": "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse"
+    },
+    "Stun Support": {
+        "variantId": "SupportStun",
+        "gemId": "Metadata/Items/Gems/SupportGemStun"
+    },
+    "Ice Spear": {
+        "variantId": "IceSpear",
+        "gemId": "Metadata/Items/Gems/SkillGemIceSpear"
+    },
+    "Ice Spear of Splitting": {
+        "variantId": "IceSpearAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIceSpear"
+    },
+    "Pierce Support": {
+        "variantId": "SupportPierce",
+        "gemId": "Metadata/Items/Gems/SupportGemPierce"
+    },
+    "Trap Support": {
+        "variantId": "SupportTrap",
+        "gemId": "Metadata/Items/Gems/SupportGemTrap"
+    },
+    "Raise Spectre": {
+        "variantId": "RaiseSpectre",
+        "gemId": "Metadata/Items/Gems/SkillGemRaiseSpectre"
+    },
+    "Raise Spectre of Transience": {
+        "variantId": "RaiseSpectreAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemRaiseSpectre"
+    },
+    "Infernal Blow": {
+        "variantId": "InfernalBlow",
+        "gemId": "Metadata/Items/Gems/SkillGemInfernalBlow"
+    },
+    "Infernal Blow of Immolation": {
+        "variantId": "InfernalBlowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemInfernalBlow"
+    },
+    "Glacial Hammer": {
+        "variantId": "GlacialHammer",
+        "gemId": "Metadata/Items/Gems/SkillGemGlacialHammer"
+    },
+    "Glacial Hammer of Shattering": {
+        "variantId": "GlacialHammerAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemGlacialHammer"
+    },
+    "Vaal Glacial Hammer": {
+        "variantId": "VaalGlacialHammer",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalGlacialHammer"
+    },
+    "Frost Wall": {
+        "variantId": "FrostWall",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostWall"
+    },
+    "Freezing Pulse": {
+        "variantId": "FreezingPulse",
+        "gemId": "Metadata/Items/Gems/SkillGemFreezingPulse"
+    },
+    "Shock Nova": {
+        "variantId": "ShockNova",
+        "gemId": "Metadata/Items/Gems/SkillGemShockNova"
+    },
+    "New Shock Nova": {
+        "variantId": "NewShockNova",
+        "gemId": "Metadata/Items/Gems/SkillGemNewShockNova"
+    },
+    "Viper Strike": {
+        "variantId": "ViperStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemViperStrike"
+    },
+    "Viper Strike of the Mamba": {
+        "variantId": "ViperStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemViperStrike"
+    },
+    "Phase Run": {
+        "variantId": "PhaseRun",
+        "gemId": "Metadata/Items/Gems/SkillGemPhaseRun"
+    },
+    "Melee Physical Damage Support": {
+        "variantId": "SupportMeleePhysicalDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemMeleePhysicalDamage"
+    },
+    "Item Quantity Support": {
+        "variantId": "SupportItemQuantity",
+        "gemId": "Metadata/Items/Gems/SupportGemItemQuantity"
+    },
+    "Item Rarity Support": {
+        "variantId": "SupportItemRarity",
+        "gemId": "Metadata/Items/Gems/SupportGemItemRarity"
+    },
+    "Faster Casting Support": {
+        "variantId": "SupportFasterCasting",
+        "gemId": "Metadata/Items/Gems/SupportGemFasterCast"
+    },
+    "Explosive Arrow": {
+        "variantId": "ExplosiveArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemExplosiveArrow"
+    },
+    "Temporal Chains": {
+        "variantId": "TemporalChains",
+        "gemId": "Metadata/Items/Gems/SkillGemTemporalChains"
+    },
+    "Elemental Weakness": {
+        "variantId": "ElementalWeakness",
+        "gemId": "Metadata/Items/Gems/SkillGemElementalWeakness"
+    },
+    "Warlord's Mark": {
+        "variantId": "WarlordsMark",
+        "gemId": "Metadata/Items/Gems/SkillGemWarlordsMark"
+    },
+    "Punishment": {
+        "variantId": "Punishment",
+        "gemId": "Metadata/Items/Gems/SkillGemPunishment"
+    },
+    "NewPunishment": {
+        "variantId": "NewPunishment",
+        "gemId": "Metadata/Items/Gems/SkillGemNewPunishment"
+    },
+    "Enfeeble": {
+        "variantId": "Enfeeble",
+        "gemId": "Metadata/Items/Gems/SkillGemEnfeeble"
+    },
+    "Assassin's Mark": {
+        "variantId": "AssassinsMark",
+        "gemId": "Metadata/Items/Gems/SkillGemCriticalWeakness"
+    },
+    "Sniper's Mark": {
+        "variantId": "SnipersMark",
+        "gemId": "Metadata/Items/Gems/SkillGemProjectileWeakness"
+    },
+    "Despair": {
+        "variantId": "Despair",
+        "gemId": "Metadata/Items/Gems/SkillGemVulnerability"
+    },
+    "Lightning Warp": {
+        "variantId": "LightningWarp",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningWarp"
+    },
+    "Vaal Lightning Warp": {
+        "variantId": "VaalLightningWarpInstant",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalLightningWarp"
+    },
+    "Summon Skeletons": {
+        "variantId": "SummonSkeletons",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonSkeletons"
+    },
+    "Summon Skeletons of Archers": {
+        "variantId": "SummonSkeletonsAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonSkeletons"
+    },
+    "Summon Skeletons of Mages": {
+        "variantId": "SummonSkeletonsAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonSkeletons"
+    },
+    "Vaal Summon Skeletons": {
+        "variantId": "VaalSummonSkeletons",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalSummonSkeletons"
+    },
+    "Heavy Strike": {
+        "variantId": "HeavyStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemHeavyStrike"
+    },
+    "Vaal Heavy Strike": {
+        "variantId": "VaalHeavyStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalHeavyStrike"
+    },
+    "Dominating Blow": {
+        "variantId": "DominatingBlow",
+        "gemId": "Metadata/Items/Gems/SkillGemDominatingBlow"
+    },
+    "Dominating Blow of Inspiring": {
+        "variantId": "DominatingBlowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDominatingBlow"
+    },
+    "Rain of Arrows": {
+        "variantId": "RainOfArrows",
+        "gemId": "Metadata/Items/Gems/SkillGemRainOfArrows"
+    },
+    "Rain of Arrows of Artillery": {
+        "variantId": "RainOfArrowsAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemRainOfArrows"
+    },
+    "Rain of Arrows of Saturation": {
+        "variantId": "RainOfArrowsAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemRainOfArrows"
+    },
+    "Vaal Rain of Arrows": {
+        "variantId": "VaalRainOfArrows",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalRainOfArrows"
+    },
+    "Concentrated Effect Support": {
+        "variantId": "SupportConcentratedEffect",
+        "gemId": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+    },
+    "Minion Damage Support": {
+        "variantId": "SupportMinionDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemMinionDamage"
+    },
+    "More Duration Support": {
+        "variantId": "SupportMoreDuration",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedDuration"
+    },
+    "Cold to Fire Support": {
+        "variantId": "SupportColdToFire",
+        "gemId": "Metadata/Items/Gems/SupportGemColdToFire"
+    },
+    "Combustion Support": {
+        "variantId": "SupportCombustion",
+        "gemId": "Metadata/Items/Gems/SupportGemChanceToIgnite"
+    },
+    "Minion Speed Support": {
+        "variantId": "SupportMinionSpeed",
+        "gemId": "Metadata/Items/Gems/SupportGemMinionSpeed"
+    },
+    "Minion Life Support": {
+        "variantId": "SupportMinionLife",
+        "gemId": "Metadata/Items/Gems/SupportGemMinionLife"
+    },
+    "Elemental Damage with Attacks Support": {
+        "variantId": "SupportElementalDamageWithAttacks",
+        "gemId": "Metadata/Items/Gems/SupportGemWeaponElementalDamage"
+    },
+    "Bloodlust Support": {
+        "variantId": "SupportBloodlust",
+        "gemId": "Metadata/Items/Gems/SupportGemBloodlust"
+    },
+    "Life Gain on Hit Support": {
+        "variantId": "SupportLifeGainOnHit",
+        "gemId": "Metadata/Items/Gems/SupportGemLifeGainOnHit"
+    },
+    "Firestorm": {
+        "variantId": "Firestorm",
+        "gemId": "Metadata/Items/Gems/SkillGemFirestorm"
+    },
+    "Firestorm of Meteors": {
+        "variantId": "FirestormAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFirestorm"
+    },
+    "Firestorm of Pelting": {
+        "variantId": "FirestormAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemFirestorm"
+    },
+    "Lightning Strike": {
+        "variantId": "LightningStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningStrike"
+    },
+    "Lightning Strike of Arcing": {
+        "variantId": "LightningStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningStrike"
+    },
+    "Vaal Lightning Strike": {
+        "variantId": "VaalLightningStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalLightningStrike"
+    },
+    "Tempest Shield": {
+        "variantId": "TempestShield",
+        "gemId": "Metadata/Items/Gems/SkillGemTempestShield"
+    },
+    "Molten Shell": {
+        "variantId": "MoltenShell",
+        "gemId": "Metadata/Items/Gems/SkillGemMoltenShell"
+    },
+    "Vaal Molten Shell": {
+        "variantId": "VaalMoltenShell",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalMoltenShell"
+    },
+    "Power Siphon": {
+        "variantId": "PowerSiphon",
+        "gemId": "Metadata/Items/Gems/SkillGemPowerSiphon"
+    },
+    "Power Siphon of the Archmage": {
+        "variantId": "PowerSiphonAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPowerSiphon"
+    },
+    "Vaal Power Siphon": {
+        "variantId": "VaalPowerSiphon",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalPowerSiphon"
+    },
+    "Puncture": {
+        "variantId": "Puncture",
+        "gemId": "Metadata/Items/Gems/SkillGemPuncture"
+    },
+    "Puncture of Shanking": {
+        "variantId": "PunctureAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPuncture"
+    },
+    "Lightning Arrow": {
+        "variantId": "LightningArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningArrow"
+    },
+    "Lightning Arrow of Electrocution": {
+        "variantId": "LightningArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningArrow"
+    },
+    "Haste": {
+        "variantId": "Haste",
+        "gemId": "Metadata/Items/Gems/SkillGemHaste"
+    },
+    "Vaal Haste": {
+        "variantId": "VaalHaste",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalHaste"
+    },
+    "Purity of Elements": {
+        "variantId": "PurityOfElements",
+        "gemId": "Metadata/Items/Gems/SkillGemPurity"
+    },
+    "Vitality": {
+        "variantId": "Vitality",
+        "gemId": "Metadata/Items/Gems/SkillGemVitality"
+    },
+    "Discipline": {
+        "variantId": "Discipline",
+        "gemId": "Metadata/Items/Gems/SkillGemDiscipline"
+    },
+    "Vaal Discipline": {
+        "variantId": "VaalDiscipline",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalDiscipline"
+    },
+    "Grace": {
+        "variantId": "Grace",
+        "gemId": "Metadata/Items/Gems/SkillGemGrace"
+    },
+    "Vaal Grace": {
+        "variantId": "VaalGrace",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalGrace"
+    },
+    "Determination": {
+        "variantId": "Determination",
+        "gemId": "Metadata/Items/Gems/SkillGemDetermination"
+    },
+    "Anger": {
+        "variantId": "Anger",
+        "gemId": "Metadata/Items/Gems/SkillGemAnger"
+    },
+    "Hatred": {
+        "variantId": "Hatred",
+        "gemId": "Metadata/Items/Gems/SkillGemHatred"
+    },
+    "Wrath": {
+        "variantId": "Wrath",
+        "gemId": "Metadata/Items/Gems/SkillGemWrath"
+    },
+    "Burning Arrow": {
+        "variantId": "BurningArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemBurningArrow"
+    },
+    "Burning Arrow of Vigour": {
+        "variantId": "BurningArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBurningArrow"
+    },
+    "Vaal Burning Arrow": {
+        "variantId": "VaalBurningArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalBurningArrow"
+    },
+    "Elemental Proliferation Support": {
+        "variantId": "SupportElementalProliferation",
+        "gemId": "Metadata/Items/Gems/SupportGemElementalProliferation"
+    },
+    "Arrogance Support": {
+        "variantId": "SupportArrogance",
+        "gemId": "Metadata/Items/Gems/SupportGemBloodMagic"
+    },
+    "Clarity": {
+        "variantId": "Clarity",
+        "gemId": "Metadata/Items/Gems/SkillGemClarity"
+    },
+    "Vaal Clarity": {
+        "variantId": "VaalClarity",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalClarity"
+    },
+    "Culling Strike Support": {
+        "variantId": "SupportCullingStrike",
+        "gemId": "Metadata/Items/Gems/SupportGemCullingStrike"
+    },
+    "Point Blank Support": {
+        "variantId": "SupportPointBlank",
+        "gemId": "Metadata/Items/Gems/SupportGemPointBlank"
+    },
+    "Iron Grip Support": {
+        "variantId": "SupportIronGrip",
+        "gemId": "Metadata/Items/Gems/SupportGemIronGrip"
+    },
+    "Iron Will Support": {
+        "variantId": "SupportIronWill",
+        "gemId": "Metadata/Items/Gems/SupportGemIronWill"
+    },
+    "Damage on Full Life Support": {
+        "variantId": "SupportDamageOnFullLife",
+        "gemId": "Metadata/Items/Gems/SupportGemMeleeDamageOnFullLife"
+    },
+    "Spell Totem Support": {
+        "variantId": "SupportSpellTotem",
+        "gemId": "Metadata/Items/Gems/SupportGemSpellTotem"
+    },
+    "Blastchain Mine Support": {
+        "variantId": "SupportBlastchainMine",
+        "gemId": "Metadata/Items/Gems/SupportGemRemoteMine"
+    },
+    "Detonate Mines": {
+        "variantId": "GemDetonateMines",
+        "gemId": "Metadata/Items/Gems/SkillGemDetonateMines"
+    },
+    "Shockwave Totem": {
+        "variantId": "ShockwaveTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemShockwaveTotem"
+    },
+    "Rejuvenation Totem": {
+        "variantId": "RejuvenationTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemRejuvenationTotem"
+    },
+    "Icicle Mine": {
+        "variantId": "IcicleMine",
+        "gemId": "Metadata/Items/Gems/SkillGemFreezeMine"
+    },
+    "Icicle Mine of Fanning": {
+        "variantId": "IcicleMineAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFreezeMine"
+    },
+    "Icicle Mine of Sabotage": {
+        "variantId": "IcicleMineAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemFreezeMine"
+    },
+    "Conversion Trap": {
+        "variantId": "ConversionTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemConversionTrap"
+    },
+    "Bear Trap": {
+        "variantId": "BearTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemBearTrap"
+    },
+    "Bear Trap of Skewers": {
+        "variantId": "BearTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBearTrap"
+    },
+    "Chance to Flee Support": {
+        "variantId": "SupportChanceToFlee",
+        "gemId": "Metadata/Items/Gems/SupportGemChanceToFlee"
+    },
+    "Fire Trap": {
+        "variantId": "FireTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemFireTrap"
+    },
+    "Fire Trap of Blasting": {
+        "variantId": "FireTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFireTrap"
+    },
+    "Vaal FireTrap": {
+        "variantId": "VaalFireTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFireTrap"
+    },
+    "Decoy Totem": {
+        "variantId": "DecoyTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemDecoyTotem"
+    },
+    "Devouring Totem": {
+        "variantId": "DevouringTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemDevouringTotem"
+    },
+    "Ethereal Knives": {
+        "variantId": "EtherealKnives",
+        "gemId": "Metadata/Items/Gems/SkillGemEtherealKnives"
+    },
+    "Ethereal Knives of Lingering Blades": {
+        "variantId": "EtherealKnivesAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemEtherealKnives"
+    },
+    "Ethereal Knives of the Massacre": {
+        "variantId": "EtherealKnivesAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemEtherealKnives"
+    },
+    "Blind Support": {
+        "variantId": "SupportBlind",
+        "gemId": "Metadata/Items/Gems/SupportGemBlind"
+    },
+    "Ice Shot": {
+        "variantId": "IceShot",
+        "gemId": "Metadata/Items/Gems/SkillGemIceShot"
+    },
+    "Ice Shot of Penetration": {
+        "variantId": "IceShotAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIceShot"
+    },
+    "Creeping Frost": {
+        "variantId": "CreepingFrost",
+        "gemId": "Metadata/Items/Gems/SkillGemArcticBreath"
+    },
+    "Arc": {
+        "variantId": "Arc",
+        "gemId": "Metadata/Items/Gems/SkillGemArc"
+    },
+    "Arc of Surging": {
+        "variantId": "ArcAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemArc"
+    },
+    "Arc of Oscillating": {
+        "variantId": "ArcAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemArc"
+    },
+    "Vaal Arc": {
+        "variantId": "VaalArc",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalArc"
+    },
+    "Arctic Armour": {
+        "variantId": "ArcticArmour",
+        "gemId": "Metadata/Items/Gems/SkillGemArcticArmour"
+    },
+    "Vaal Arctic Armour": {
+        "variantId": "VaalArcticArmour",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalArcticArmour"
+    },
+    "Holy Flame Totem": {
+        "variantId": "HolyFlameTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameTotem"
+    },
+    "Holy Flame Totem of Ire": {
+        "variantId": "HolyFlameTotemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameTotem"
+    },
+    "Ballista Totem Support": {
+        "variantId": "SupportBallistaTotem",
+        "gemId": "Metadata/Items/Gems/SupportGemRangedAttackTotem"
+    },
+    "Fire Penetration Support": {
+        "variantId": "SupportFirePenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemFirePenetration"
+    },
+    "Cold Penetration Support": {
+        "variantId": "SupportColdPenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemColdPenetration"
+    },
+    "Lightning Penetration Support": {
+        "variantId": "SupportLightningPenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemLightningPenetration"
+    },
+    "Elemental Penetration Support": {
+        "variantId": "SupportElementalPenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemElementalPenetration"
+    },
+    "Chain Support": {
+        "variantId": "SupportChain",
+        "gemId": "Metadata/Items/Gems/SupportGemChain"
+    },
+    "Split Projectiles Support": {
+        "variantId": "SupportSplitProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemSplit"
+    },
+    "Fork Support": {
+        "variantId": "SupportFork",
+        "gemId": "Metadata/Items/Gems/SupportGemFork"
+    },
+    "Returning Projectiles Support": {
+        "variantId": "SupportReturningProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemReturningProjectiles"
+    },
+    "Flammability": {
+        "variantId": "Flammability",
+        "gemId": "Metadata/Items/Gems/SkillGemFlammability"
+    },
+    "Frostbite": {
+        "variantId": "Frostbite",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostbite"
+    },
+    "Conductivity": {
+        "variantId": "Conductivity",
+        "gemId": "Metadata/Items/Gems/SkillGemConductivity"
+    },
+    "Storm Burst": {
+        "variantId": "StormBurst",
+        "gemId": "Metadata/Items/Gems/SkillGemStormBurst"
+    },
+    "Incinerate": {
+        "variantId": "Incinerate",
+        "gemId": "Metadata/Items/Gems/SkillGemIncinerate"
+    },
+    "Incinerate of Expanse": {
+        "variantId": "IncinerateAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIncinerate"
+    },
+    "Incinerate of Venting": {
+        "variantId": "IncinerateAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemIncinerate"
+    },
+    "Cyclone": {
+        "variantId": "Cyclone",
+        "gemId": "Metadata/Items/Gems/SkillGemCyclone"
+    },
+    "Cyclone of Tumult": {
+        "variantId": "CycloneAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemCyclone"
+    },
+    "Vaal Cyclone": {
+        "variantId": "VaalCyclone",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalCyclone"
+    },
+    "Multistrike Support": {
+        "variantId": "SupportMultistrike",
+        "gemId": "Metadata/Items/Gems/SupportGemMultistrike"
+    },
+    "Spell Echo Support": {
+        "variantId": "SupportSpellEcho",
+        "gemId": "Metadata/Items/Gems/SupportGemMulticast"
+    },
+    "Melee Splash Support": {
+        "variantId": "SupportMeleeSplash",
+        "gemId": "Metadata/Items/Gems/SupportGemMeleeSplash"
+    },
+    "Power Charge On Critical Support": {
+        "variantId": "SupportPowerChargeOnCritical",
+        "gemId": "Metadata/Items/Gems/SupportGemPowerChargeOnCrit"
+    },
+    "Searing Bond": {
+        "variantId": "SearingBond",
+        "gemId": "Metadata/Items/Gems/SkillGemSearingBond"
+    },
+    "Burning Damage Support": {
+        "variantId": "SupportBurningDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedBurningDamage"
+    },
+    "Elemental Army Support": {
+        "variantId": "SupportElementalArmy",
+        "gemId": "Metadata/Items/Gems/SupportGemSummonElementalResistance"
+    },
+    "Hextouch Support": {
+        "variantId": "SupportHextouch",
+        "gemId": "Metadata/Items/Gems/SupportGemCurseOnHit"
+    },
+    "Reave": {
+        "variantId": "Reave",
+        "gemId": "Metadata/Items/Gems/SkillGemReave"
+    },
+    "Reave of Refraction": {
+        "variantId": "ReaveAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemReave"
+    },
+    "Vaal Reave": {
+        "variantId": "VaalReave",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalReave"
+    },
+    "Cast On Critical Strike Support": {
+        "variantId": "SupportCastOnCriticalStrike",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnCrit"
+    },
+    "Cast on Melee Kill Support": {
+        "variantId": "SupportCastOnMeleeKill",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnKill"
+    },
+    "Multiple Traps Support": {
+        "variantId": "SupportMultipleTraps",
+        "gemId": "Metadata/Items/Gems/SupportGemMultiTrap"
+    },
+    "Empower Support": {
+        "variantId": "SupportEmpower",
+        "gemId": "Metadata/Items/Gems/SupportGemAdditionalLevel"
+    },
+    "Lightning Trap": {
+        "variantId": "LightningTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTrap"
+    },
+    "Lightning Trap of Sparking": {
+        "variantId": "LightningTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTrap"
+    },
+    "Vaal Lightning Trap": {
+        "variantId": "VaalLightningTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalLightningTrap"
+    },
+    "Smoke Mine": {
+        "variantId": "SmokeMine",
+        "gemId": "Metadata/Items/Gems/SkillGemSmokeMine"
+    },
+    "Endurance Charge on Melee Stun Support": {
+        "variantId": "SupportEnduranceChargeOnMeleeStun",
+        "gemId": "Metadata/Items/Gems/SupportGemEnduranceChargeOnMeleeStun"
+    },
+    "Animate Guardian": {
+        "variantId": "AnimateGuardian",
+        "gemId": "Metadata/Items/Gems/SkillGemAnimateArmour"
+    },
+    "Animate Guardian of Smiting": {
+        "variantId": "AnimateGuardianAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemAnimateArmour"
+    },
+    "Spectral Shield Throw": {
+        "variantId": "SpectralShieldThrow",
+        "gemId": "Metadata/Items/Gems/SkillGemThrownShieldProjectile"
+    },
+    "Spectral Shield Throw of Shattering": {
+        "variantId": "SpectralShieldThrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemThrownShieldProjectile"
+    },
+    "Spectral Throw": {
+        "variantId": "SpectralThrow",
+        "gemId": "Metadata/Items/Gems/SkillGemThrownWeapon"
+    },
+    "Spectral Throw of Materialising": {
+        "variantId": "SpectralThrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemThrownWeapon"
+    },
+    "Vaal Spectral Throw": {
+        "variantId": "VaalSpectralThrow",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalThrownWeapon"
+    },
+    "Slower Projectiles Support": {
+        "variantId": "SupportSlowerProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemSlowerProjectiles"
+    },
+    "Less Duration Support": {
+        "variantId": "SupportLessDuration",
+        "gemId": "Metadata/Items/Gems/SupportGemReducedDuration"
+    },
+    "Cast on Death Support": {
+        "variantId": "SupportCastOnDeath",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnDeath"
+    },
+    "Cast when Damage Taken Support": {
+        "variantId": "SupportCastWhenDamageTaken",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnDamageTaken"
+    },
+    "Cast when Stunned Support": {
+        "variantId": "SupportCastWhenStunned",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnStunned"
+    },
+    "Animate Weapon": {
+        "variantId": "AnimateWeapon",
+        "gemId": "Metadata/Items/Gems/SkillGemAnimateWeapon"
+    },
+    "Animate Weapon of Self Reflection": {
+        "variantId": "AnimateWeaponAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemAnimateWeapon"
+    },
+    "Animate Weapon of Ranged Arms": {
+        "variantId": "AnimateWeaponAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemAnimateWeapon"
+    },
+    "Enhance Support": {
+        "variantId": "SupportEnhance",
+        "gemId": "Metadata/Items/Gems/SupportGemAdditionalQuality"
+    },
+    "Purity of Fire": {
+        "variantId": "PurityOfFire",
+        "gemId": "Metadata/Items/Gems/SkillGemFireResistAura"
+    },
+    "Vaal Impurity of Fire": {
+        "variantId": "VaalImpurityOfFire",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFireResistAura"
+    },
+    "Purity of Ice": {
+        "variantId": "PurityOfIce",
+        "gemId": "Metadata/Items/Gems/SkillGemColdResistAura"
+    },
+    "Vaal Impurity of Ice": {
+        "variantId": "VaalImpurityOfIce",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalColdResistAura"
+    },
+    "Purity of Lightning": {
+        "variantId": "PurityOfLightning",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningResistAura"
+    },
+    "Vaal Impurity of Lightning": {
+        "variantId": "VaalImpurityOfLightning",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalLightningResistAura"
+    },
+    "Storm Call": {
+        "variantId": "StormCall",
+        "gemId": "Metadata/Items/Gems/SkillGemStormCall"
+    },
+    "Vaal Storm Call": {
+        "variantId": "VaalStormCall",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalStormCall"
+    },
+    "Flameblast": {
+        "variantId": "Flameblast",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameblast"
+    },
+    "Flameblast of Celerity": {
+        "variantId": "FlameblastAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameblast"
+    },
+    "Flameblast of Contraction": {
+        "variantId": "FlameblastAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameblast"
+    },
+    "Vaal Flameblast": {
+        "variantId": "VaalFlameblast",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFlameblast"
+    },
+    "Barrage": {
+        "variantId": "Barrage",
+        "gemId": "Metadata/Items/Gems/SkillGemBarrage"
+    },
+    "Barrage of Volley Fire": {
+        "variantId": "BarrageAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBarrage"
+    },
+    "Ball Lightning": {
+        "variantId": "BallLightning",
+        "gemId": "Metadata/Items/Gems/SkillGemBallLightning"
+    },
+    "Ball Lightning of Orbiting": {
+        "variantId": "BallLightningAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBallLightning"
+    },
+    "Ball Lightning of Static": {
+        "variantId": "BallLightningAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBallLightning"
+    },
+    "Vortex Mine": {
+        "variantId": "VortexOld",
+        "gemId": "Metadata/Items/Gems/SkillGemVortexMine"
+    },
+    "Wildfire": {
+        "variantId": "InfernalSwarm",
+        "gemId": "Metadata/Items/Gems/SkillGemInfernalSwarm"
+    },
+    "Vicious Projectiles Support": {
+        "variantId": "SupportViciousProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage"
+    },
+    "Summon Raging Spirit": {
+        "variantId": "SummonRagingSpirit",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRagingSpirit"
+    },
+    "Summon Raging Spirit of Enormity": {
+        "variantId": "SummonRagingSpiritAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRagingSpirit"
+    },
+    "Flame Surge": {
+        "variantId": "FlameSurge",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameWhip"
+    },
+    "Flame Surge of Combusting": {
+        "variantId": "FlameSurgeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameWhip"
+    },
+    "Enlighten Support": {
+        "variantId": "SupportEnlighten",
+        "gemId": "Metadata/Items/Gems/SupportGemAdditionalXP"
+    },
+    "Desecrate": {
+        "variantId": "Desecrate",
+        "gemId": "Metadata/Items/Gems/SkillGemDesecrate"
+    },
+    "Flesh Offering": {
+        "variantId": "FleshOffering",
+        "gemId": "Metadata/Items/Gems/SkillGemFleshOffering"
+    },
+    "Bone Offering": {
+        "variantId": "BoneOffering",
+        "gemId": "Metadata/Items/Gems/SkillGemBoneOffering"
+    },
+    "Spirit Offering": {
+        "variantId": "SpiritOffering",
+        "gemId": "Metadata/Items/Gems/SkillGemSpiritOffering"
+    },
+    "Glacial Cascade": {
+        "variantId": "GlacialCascade",
+        "gemId": "Metadata/Items/Gems/SkillGemGlacialCascade"
+    },
+    "Glacial Cascade of the Fissure": {
+        "variantId": "GlacialCascadeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemGlacialCascade"
+    },
+    "Block Chance Reduction Support": {
+        "variantId": "SupportBlockChanceReduction",
+        "gemId": "Metadata/Items/Gems/SupportGemBlockChanceReduction"
+    },
+    "Molten Strike": {
+        "variantId": "MoltenStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemMoltenStrike"
+    },
+    "Molten Strike of the Zenith": {
+        "variantId": "MoltenStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemMoltenStrike"
+    },
+    "Convocation": {
+        "variantId": "Convocation",
+        "gemId": "Metadata/Items/Gems/SkillGemConvocationNew"
+    },
+    "...": {
+        "variantId": "ComboStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemComboStrike"
+    },
+    "Pyroclast Mine": {
+        "variantId": "PyroclastMine",
+        "gemId": "Metadata/Items/Gems/SkillGemFireNovaMine"
+    },
+    "Pyroclast Mine of Sabotage": {
+        "variantId": "PyroclastMineAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFireNovaMine"
+    },
+    "Tornado Shot": {
+        "variantId": "TornadoShot",
+        "gemId": "Metadata/Items/Gems/SkillGemTornadoShot"
+    },
+    "Tornado Shot of Cloudburst": {
+        "variantId": "TornadoShotAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemTornadoShot"
+    },
+    "Generosity Support": {
+        "variantId": "SupportGenerosity",
+        "gemId": "Metadata/Items/Gems/SupportGemGenerosity"
+    },
+    "Herald of Ash": {
+        "variantId": "HeraldOfAsh",
+        "gemId": "Metadata/Items/Gems/SkillGemHeraldOfAsh"
+    },
+    "Herald of Ice": {
+        "variantId": "HeraldOfIce",
+        "gemId": "Metadata/Items/Gems/SkillGemHeraldOfIce"
+    },
+    "Herald of Thunder": {
+        "variantId": "HeraldOfThunder",
+        "gemId": "Metadata/Items/Gems/SkillGemHeraldOfThunder"
+    },
+    "Herald of Agony": {
+        "variantId": "HeraldOfAgony",
+        "gemId": "Metadata/Items/Gems/SkillGemHeraldOfAgony"
+    },
+    "Herald of Purity": {
+        "variantId": "HeraldOfPurity",
+        "gemId": "Metadata/Items/Gems/SkillGemHeraldOfPurity"
+    },
+    "Poacher's Mark": {
+        "variantId": "PoachersMark",
+        "gemId": "Metadata/Items/Gems/SkillGemPoachersMark"
+    },
+    "Lightning Tendrils": {
+        "variantId": "LightningTendrils",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTendrilsChannelled"
+    },
+    "Lightning Tendrils of Eccentricity": {
+        "variantId": "LightningTendrilsAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTendrils"
+    },
+    "Lightning Tendrils of Escalation": {
+        "variantId": "LightningTendrilsAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTendrils"
+    },
+    "Lightning Circle": {
+        "variantId": "LightningCircle",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningCircle"
+    },
+    "Lightning Channel": {
+        "variantId": "LightningChannel",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningChannel"
+    },
+    "Kinetic Blast": {
+        "variantId": "KineticBlast",
+        "gemId": "Metadata/Items/Gems/SkillGemKineticBlast"
+    },
+    "Kinetic Blast of Clustering": {
+        "variantId": "KineticBlastAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemKineticBlast"
+    },
+    "Touch of God": {
+        "variantId": "DoryanisTouch",
+        "gemId": "Metadata/Items/Gems/SkillGemTouchOfGod"
+    },
+    "Blink Arrow": {
+        "variantId": "BlinkArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemBlinkArrow"
+    },
+    "Blink Arrow of Bombarding Clones": {
+        "variantId": "BlinkArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBlinkArrow"
+    },
+    "Blink Arrow of Prismatic Clones": {
+        "variantId": "BlinkArrowAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBlinkArrow"
+    },
+    "Mirror Arrow": {
+        "variantId": "MirrorArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemMirrorArrow"
+    },
+    "Mirror Arrow of Bombarding Clones": {
+        "variantId": "MirrorArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemMirrorArrow"
+    },
+    "Mirror Arrow of Prismatic Clones": {
+        "variantId": "MirrorArrowAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemMirrorArrow"
+    },
+    "Glacial Shield Swipe": {
+        "variantId": "GlacialShieldSwipe",
+        "gemId": "Metadata/Items/Gems/SkillGemRiposte"
+    },
+    "Swordstorm": {
+        "variantId": "Swordstorm",
+        "gemId": "Metadata/Items/Gems/SkillGemReckoning"
+    },
+    "Eviscerate": {
+        "variantId": "Eviscerate",
+        "gemId": "Metadata/Items/Gems/SkillGemEviscerate"
+    },
+    "Static Strike": {
+        "variantId": "StaticStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemStaticStrike"
+    },
+    "Physical to Lightning Support": {
+        "variantId": "SupportPhysicalToLightning",
+        "gemId": "Metadata/Items/Gems/SupportGemPhysicalToLightning"
+    },
+    "Crushing Fist": {
+        "variantId": "CrushingFist",
+        "gemId": "Metadata/Items/Gems/SkillGemVengeance"
+    },
+    "Divine Retribution": {
+        "variantId": "DivineRetribution",
+        "gemId": "Metadata/Items/Gems/SkillGemDivineRetribution"
+    },
+    "Vengeful Cry": {
+        "variantId": "VengefulCry",
+        "gemId": "Metadata/Items/Gems/SkillGemVengefulCry"
+    },
+    "Summon Chaos Golem": {
+        "variantId": "SummonChaosGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonChaosGolem"
+    },
+    "Summon Chaos Golem of Hordes": {
+        "variantId": "SummonChaosGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonChaosGolem"
+    },
+    "Summon Chaos Golem of the Maelstr\u00f6m": {
+        "variantId": "SummonChaosGolemAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonChaosGolem"
+    },
+    "Summon Ice Golem": {
+        "variantId": "SummonIceGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonIceGolem"
+    },
+    "Summon Ice Golem of Hordes": {
+        "variantId": "SummonIceGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonIceGolem"
+    },
+    "Summon Ice Golem of Shattering": {
+        "variantId": "SummonIceGolemAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonIceGolem"
+    },
+    "Summon Flame Golem": {
+        "variantId": "SummonFlameGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonFlameGolem"
+    },
+    "Summon Flame Golem of Hordes": {
+        "variantId": "SummonFlameGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonFlameGolem"
+    },
+    "Summon Flame Golem of the Meteor": {
+        "variantId": "SummonFlameGolemAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonFlameGolem"
+    },
+    "Summon Lightning Golem": {
+        "variantId": "SummonLightningGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonLightningGolem"
+    },
+    "Summon Lightning Golem of Hordes": {
+        "variantId": "SummonLightningGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonLightningGolem"
+    },
+    "Blasphemy Support": {
+        "variantId": "SupportBlasphemy",
+        "gemId": "Metadata/Items/Gems/SupportGemBlasphemy"
+    },
+    "Ice Crash": {
+        "variantId": "IceCrash",
+        "gemId": "Metadata/Items/Gems/SkillGemIceCrash"
+    },
+    "Ice Crash of Cadence": {
+        "variantId": "IceCrashAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIceCrash"
+    },
+    "Rallying Cry": {
+        "variantId": "RallyingCry",
+        "gemId": "Metadata/Items/Gems/SkillGemRallyingCry"
+    },
+    "Infernal Cry": {
+        "variantId": "InfernalCry",
+        "gemId": "Metadata/Items/Gems/SkillGemAbyssalCry"
+    },
+    "Flame Dash": {
+        "variantId": "FlameDash",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameDash"
+    },
+    "Flame Dash of Return": {
+        "variantId": "FlameDashAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameDash"
+    },
+    "Vigilant Strike": {
+        "variantId": "VigilantStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVigilantStrike"
+    },
+    "Fortify Support": {
+        "variantId": "SupportFortify",
+        "gemId": "Metadata/Items/Gems/SupportGemFortify"
+    },
+    "Frost Blades": {
+        "variantId": "FrostBlades",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBlades"
+    },
+    "Frost Blades of Katabasis": {
+        "variantId": "FrostBladesAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBlades"
+    },
+    "Ice Bite Support": {
+        "variantId": "SupportIceBite",
+        "gemId": "Metadata/Items/Gems/SupportGemFrenzyChargeOnSlayingFrozenEnemy"
+    },
+    "Hypothermia Support": {
+        "variantId": "SupportHypothermia",
+        "gemId": "Metadata/Items/Gems/SupportGemDamageAgainstChilled"
+    },
+    "Innervate Support": {
+        "variantId": "SupportInnervate",
+        "gemId": "Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy"
+    },
+    "Rolling Magma": {
+        "variantId": "RollingMagma",
+        "gemId": "Metadata/Items/Gems/SkillGemMagmaOrb"
+    },
+    "Trap and Mine Damage Support": {
+        "variantId": "SupportTrapAndMineDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemTrapAndMineDamage"
+    },
+    "Wild Strike": {
+        "variantId": "WildStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemWildStrike"
+    },
+    "Wild Strike of Extremes": {
+        "variantId": "WildStrikeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemWildStrike"
+    },
+    "Ice Trap": {
+        "variantId": "IceTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemIceTrap"
+    },
+    "Ice Trap of Hollowness": {
+        "variantId": "IceTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemIceTrap"
+    },
+    "Blast Rain": {
+        "variantId": "BlastRain",
+        "gemId": "Metadata/Items/Gems/SkillGemBlastRain"
+    },
+    "Galvanic Arrow": {
+        "variantId": "GalvanicArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelShot"
+    },
+    "Galvanic Arrow of Energy": {
+        "variantId": "GalvanicArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelShot"
+    },
+    "Galvanic Arrow of Surging": {
+        "variantId": "GalvanicArrowAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelShot"
+    },
+    "Static Tether": {
+        "variantId": "StaticTether",
+        "gemId": "Metadata/Items/Gems/SkillGemStaticTether"
+    },
+    "Bladefall": {
+        "variantId": "Bladefall",
+        "gemId": "Metadata/Items/Gems/SkillGemBladefall"
+    },
+    "Bladefall of Volleys": {
+        "variantId": "BladefallAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBladefall"
+    },
+    "Bladefall of Impaling": {
+        "variantId": "BladefallAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBladefall"
+    },
+    "Blade Vortex": {
+        "variantId": "BladeVortex",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeVortex"
+    },
+    "Blade Vortex of the Scythe": {
+        "variantId": "BladeVortexAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeVortex"
+    },
+    "Vaal Blade Vortex": {
+        "variantId": "VaalBladeVortex",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalBladeVortex"
+    },
+    "New Blade Vortex": {
+        "variantId": "NewNewBladeVortex",
+        "gemId": "Metadata/Items/Gems/SkillGemNewBladeVortex"
+    },
+    "Frost Bomb": {
+        "variantId": "FrostBomb",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBomb"
+    },
+    "Frost Bomb of Instability": {
+        "variantId": "FrostBombAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBomb"
+    },
+    "Frost Bomb of Forthcoming": {
+        "variantId": "FrostBombAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBomb"
+    },
+    "Siege Ballista": {
+        "variantId": "SiegeBallista",
+        "gemId": "Metadata/Items/Gems/SkillGemSiegeBallista"
+    },
+    "Siege Ballista of Splintering": {
+        "variantId": "SiegeBallistaAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSiegeBallista"
+    },
+    "Orb of Storms": {
+        "variantId": "OrbOfStorms",
+        "gemId": "Metadata/Items/Gems/SkillGemOrbOfStorms"
+    },
+    "Summon Stone Golem": {
+        "variantId": "SummonStoneGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRockGolem"
+    },
+    "Summon Stone Golem of Hordes": {
+        "variantId": "SummonStoneGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRockGolem"
+    },
+    "Summon Stone Golem of Safeguarding": {
+        "variantId": "SummonStoneGolemAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRockGolem"
+    },
+    "Righteous Lightning": {
+        "variantId": "RighteousLightning",
+        "gemId": "Metadata/Items/Gems/SkillGemRighteousLightning"
+    },
+    "Earthquake": {
+        "variantId": "Earthquake",
+        "gemId": "Metadata/Items/Gems/SkillGemEarthquake"
+    },
+    "Earthquake of Amplification": {
+        "variantId": "EarthquakeAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemEarthquake"
+    },
+    "Critical Strike Affliction Support": {
+        "variantId": "SupportCriticalStrikeAffliction",
+        "gemId": "Metadata/Items/Gems/SupportGemPoison"
+    },
+    "Contagion": {
+        "variantId": "Contagion",
+        "gemId": "Metadata/Items/Gems/SkillGemContagion"
+    },
+    "Contagion of Subsiding": {
+        "variantId": "ContagionAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemContagion"
+    },
+    "Contagion of Transference": {
+        "variantId": "ContagionAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemContagion"
+    },
+    "Wither": {
+        "variantId": "Wither",
+        "gemId": "Metadata/Items/Gems/SkillGemWither"
+    },
+    "Blight": {
+        "variantId": "Blight",
+        "gemId": "Metadata/Items/Gems/SkillGemBlight"
+    },
+    "Blight of Contagion": {
+        "variantId": "BlightAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBlight"
+    },
+    "Blight of Atrophy": {
+        "variantId": "BlightAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBlight"
+    },
+    "Essence Drain": {
+        "variantId": "EssenceDrain",
+        "gemId": "Metadata/Items/Gems/SkillGemEssenceDrain"
+    },
+    "Essence Drain of Desperation": {
+        "variantId": "EssenceDrainAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemEssenceDrain"
+    },
+    "Essence Drain of Wickedness": {
+        "variantId": "EssenceDrainAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemEssenceDrain"
+    },
+    "Shadow Blades": {
+        "variantId": "ShadowBlades",
+        "gemId": "Metadata/Items/Gems/SkillGemShadowBlades"
+    },
+    "Void Manipulation Support": {
+        "variantId": "SupportVoidManipulation",
+        "gemId": "Metadata/Items/Gems/SupportGemVoidManipulation"
+    },
+    "Controlled Destruction Support": {
+        "variantId": "SupportControlledDestruction",
+        "gemId": "Metadata/Items/Gems/SupportGemControlledDestruction"
+    },
+    "Swift Affliction Support": {
+        "variantId": "SupportSwiftAffliction",
+        "gemId": "Metadata/Items/Gems/SupportGemRapidDecay"
+    },
+    "Cluster Traps Support": {
+        "variantId": "SupportClusterTraps",
+        "gemId": "Metadata/Items/Gems/SupportGemClusterTrap"
+    },
+    "Ancestral Protector": {
+        "variantId": "AncestralProtector",
+        "gemId": "Metadata/Items/Gems/SkillGemMeleeTotem"
+    },
+    "Ancestral Blademaster": {
+        "variantId": "AncestorTotemSlash",
+        "gemId": "Metadata/Items/Gems/SkillGemSlashTotem"
+    },
+    "Ancestral Warchief": {
+        "variantId": "AncestralWarchief",
+        "gemId": "Metadata/Items/Gems/SkillGemAncestralWarchief"
+    },
+    "Sunder": {
+        "variantId": "Sunder",
+        "gemId": "Metadata/Items/Gems/SkillGemSunder"
+    },
+    "Sunder of Earthbreaking": {
+        "variantId": "SunderAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSunder"
+    },
+    "Frostbolt": {
+        "variantId": "FrostBolt",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBolt"
+    },
+    "Vortex": {
+        "variantId": "Vortex",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBoltNova"
+    },
+    "Vortex of Projection": {
+        "variantId": "VortexAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostBoltNova"
+    },
+    "Elemental Focus Support": {
+        "variantId": "SupportElementalFocus",
+        "gemId": "Metadata/Items/Gems/SupportGemElementalFocus"
+    },
+    "Minefield Support": {
+        "variantId": "SupportMinefield",
+        "gemId": "Metadata/Items/Gems/SupportGemMinefield"
+    },
+    "Advanced Traps Support": {
+        "variantId": "SupportAdvancedTraps",
+        "gemId": "Metadata/Items/Gems/SupportGemTrapCooldown"
+    },
+    "Elemental Projectiles": {
+        "variantId": "ElementalProjectiles",
+        "gemId": "Metadata/Items/Gems/SkillGemElementalProjectiles"
+    },
+    "Dark Pact": {
+        "variantId": "DarkPact",
+        "gemId": "Metadata/Items/Gems/SkillGemDarkPact"
+    },
+    "Scorching Ray": {
+        "variantId": "ScorchingRay",
+        "gemId": "Metadata/Items/Gems/SkillGemFireBeam"
+    },
+    "Scorching Ray of Immolation": {
+        "variantId": "ScorchingRayAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFireBeam"
+    },
+    "Cast while Channelling Support": {
+        "variantId": "SupportCastWhileChannelling",
+        "gemId": "Metadata/Items/Gems/SupportGemCastWhileChannelling"
+    },
+    "Vaal Soul Harvesting": {
+        "variantId": "SupportVaalSoulHarvesting",
+        "gemId": "Metadata/Items/Gems/SupportGemVaalSoulHarvesting"
+    },
+    "Summon Skeletons Channelled": {
+        "variantId": "SummonSkeletonsChannelled",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled"
+    },
+    "Ignite Proliferation Support": {
+        "variantId": "SupportIgniteProliferation",
+        "gemId": "Metadata/Items/Gems/SupportGemIgniteProliferation"
+    },
+    "Chance to Bleed Support": {
+        "variantId": "SupportChanceToBleed",
+        "gemId": "Metadata/Items/Gems/SupportGemChanceToBleed"
+    },
+    "Chance to Poison Support": {
+        "variantId": "SupportChanceToPoison",
+        "gemId": "Metadata/Items/Gems/SupportGemLesserPoison"
+    },
+    "Deadly Ailments Support": {
+        "variantId": "SupportDeadlyAilments",
+        "gemId": "Metadata/Items/Gems/SupportGemDeadlyAilments"
+    },
+    "Lesser Reduced Mana Cost Support": {
+        "variantId": "SupportLesserReducedManaCost",
+        "gemId": "Metadata/Items/Gems/SupportGemTemporaryForTutorial"
+    },
+    "Decay Support": {
+        "variantId": "SupportDecay",
+        "gemId": "Metadata/Items/Gems/SupportGemDecay"
+    },
+    "Efficacy Support": {
+        "variantId": "SupportEfficacy",
+        "gemId": "Metadata/Items/Gems/SupportGemEfficacy"
+    },
+    "Vile Toxins Support": {
+        "variantId": "SupportVileToxins",
+        "gemId": "Metadata/Items/Gems/SupportGemVileToxins"
+    },
+    "Maim Support": {
+        "variantId": "SupportMaim",
+        "gemId": "Metadata/Items/Gems/SupportGemMaim"
+    },
+    "Immolate Support": {
+        "variantId": "SupportImmolate",
+        "gemId": "Metadata/Items/Gems/SupportGemImmolate"
+    },
+    "Unbound Ailments Support": {
+        "variantId": "SupportUnboundAilments",
+        "gemId": "Metadata/Items/Gems/SupportGemUnboundAilments"
+    },
+    "Brutality Support": {
+        "variantId": "SupportBrutality",
+        "gemId": "Metadata/Items/Gems/SupportGemBrutality"
+    },
+    "Ruthless Support": {
+        "variantId": "SupportRuthless",
+        "gemId": "Metadata/Items/Gems/SupportGemRuthless"
+    },
+    "Momentum Support": {
+        "variantId": "SupportMomentum",
+        "gemId": "Metadata/Items/Gems/SupportGemOnslaught"
+    },
+    "Arcane Surge Support": {
+        "variantId": "SupportArcaneSurge",
+        "gemId": "Metadata/Items/Gems/SupportGemArcaneSurge"
+    },
+    "Infernal Sweep": {
+        "variantId": "InfernalSweep",
+        "gemId": "Metadata/Items/Gems/SkillGemInfernalSweep"
+    },
+    "Cremation": {
+        "variantId": "Cremation",
+        "gemId": "Metadata/Items/Gems/SkillGemCorpseEruption"
+    },
+    "Cremation of Exhuming": {
+        "variantId": "CremationAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemCorpseEruption"
+    },
+    "Cremation of the Volcano": {
+        "variantId": "CremationAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemCorpseEruption"
+    },
+    "Bodyswap": {
+        "variantId": "Bodyswap",
+        "gemId": "Metadata/Items/Gems/SkillGemCorpseWarp"
+    },
+    "Bodyswap of Sacrifice": {
+        "variantId": "BodyswapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemCorpseWarp"
+    },
+    "Spectral Spinning Weapon": {
+        "variantId": "SpectralSpinningWeapon",
+        "gemId": "Metadata/Items/Gems/SkillGemSpectralSpinningWeapon"
+    },
+    "Tectonic Slam": {
+        "variantId": "TectonicSlam",
+        "gemId": "Metadata/Items/Gems/SkillGemTectonicSlam"
+    },
+    "Tectonic Slam of Cataclysm": {
+        "variantId": "TectonicSlamAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemTectonicSlam"
+    },
+    "Infused Channelling Support": {
+        "variantId": "SupportInfusedChannelling",
+        "gemId": "Metadata/Items/Gems/SupportGemStormBarrier"
+    },
+    "Volley Support": {
+        "variantId": "SupportVolley",
+        "gemId": "Metadata/Items/Gems/SupportGemParallelProjectiles"
+    },
+    "Spell Cascade Support": {
+        "variantId": "SupportSpellCascade",
+        "gemId": "Metadata/Items/Gems/SupportGemSpellCascade"
+    },
+    "Ancestral Call Support": {
+        "variantId": "SupportAncestralCall",
+        "gemId": "Metadata/Items/Gems/SupportGemSpiritStrike"
+    },
+    "Summon Phantasm Support": {
+        "variantId": "SupportSummonPhantasm",
+        "gemId": "Metadata/Items/Gems/SupportGemSummonGhostOnKill"
+    },
+    "Mirage Archer Support": {
+        "variantId": "SupportMirageArcher",
+        "gemId": "Metadata/Items/Gems/SupportGemMirageArcher"
+    },
+    "Vulnerability": {
+        "variantId": "Vulnerability",
+        "gemId": "Metadata/Items/Gems/SkillGemNewVulnerability"
+    },
+    "Capture Monster": {
+        "variantId": "CaptureMonster",
+        "gemId": "Metadata/Items/Gems/SkillGemCaptureMonster"
+    },
+    "Explosive Trap": {
+        "variantId": "ExplosiveTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelTrap"
+    },
+    "Explosive Trap of Shrapnel": {
+        "variantId": "ExplosiveTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelTrap"
+    },
+    "Explosive Trap of Magnitude": {
+        "variantId": "ExplosiveTrapAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelTrap"
+    },
+    "Siphoning Trap": {
+        "variantId": "SiphoningTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemIceSiphonTrap"
+    },
+    "Flamethrower Trap": {
+        "variantId": "FlamethrowerTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemFlamethrowerTrap"
+    },
+    "Lightning Spire Trap": {
+        "variantId": "LightningSpireTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTowerTrap"
+    },
+    "Lightning Spire Trap of Zapping": {
+        "variantId": "LightningSpireTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTowerTrap"
+    },
+    "Lightning Spire Trap of Overloading": {
+        "variantId": "LightningSpireTrapAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningTowerTrap"
+    },
+    "Seismic Trap": {
+        "variantId": "SeismicTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemPhysCascadeTrap"
+    },
+    "Seismic Trap of Swells": {
+        "variantId": "SeismicTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPhysCascadeTrap"
+    },
+    "Vaal Flesh Offering": {
+        "variantId": "VaalFleshOffering",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFleshOffering"
+    },
+    "Vaal Earthquake": {
+        "variantId": "VaalEarthquake",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalEarthquake"
+    },
+    "Vaal Blight": {
+        "variantId": "VaalBlight",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalBlight"
+    },
+    "Charged Traps Support": {
+        "variantId": "SupportChargedTraps",
+        "gemId": "Metadata/Items/Gems/SupportGemFrenzyPowerOnTrapTrigger"
+    },
+    "Charged Mines Support": {
+        "variantId": "SupportChargedMines",
+        "gemId": "Metadata/Items/Gems/SupportGemChargedMines"
+    },
+    "Vaal Ancestral Warchief": {
+        "variantId": "VaalAncestralWarchief",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalAncestralWarchief"
+    },
+    "Consecrated Path": {
+        "variantId": "ConsecratedPath",
+        "gemId": "Metadata/Items/Gems/SkillGemConsecratedPath"
+    },
+    "Consecrated Path of Endurance": {
+        "variantId": "ConsecratedPathAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemConsecratedPath"
+    },
+    "Smite": {
+        "variantId": "Smite",
+        "gemId": "Metadata/Items/Gems/SkillGemSmite"
+    },
+    "Smite of Divine Judgement": {
+        "variantId": "SmiteAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSmite"
+    },
+    "Scourge Arrow": {
+        "variantId": "ScourgeArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemScourgeArrow"
+    },
+    "Scourge Arrow of Menace": {
+        "variantId": "ScourgeArrowAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemScourgeArrow"
+    },
+    "Toxic Rain": {
+        "variantId": "ToxicRain",
+        "gemId": "Metadata/Items/Gems/SkillGemToxicRain"
+    },
+    "Toxic Rain of Sporeburst": {
+        "variantId": "ToxicRainAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemToxicRain"
+    },
+    "Toxic Rain of Withering": {
+        "variantId": "ToxicRainAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemToxicRain"
+    },
+    "Summon Holy Relic": {
+        "variantId": "SummonHolyRelic",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRelic"
+    },
+    "Summon Holy Relic of Conviction": {
+        "variantId": "SummonHolyRelicAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonRelic"
+    },
+    "Withering Touch Support": {
+        "variantId": "SupportWitheringTouch",
+        "gemId": "Metadata/Items/Gems/SupportGemChaosAttacks"
+    },
+    "Bonechill Support": {
+        "variantId": "SupportBonechill",
+        "gemId": "Metadata/Items/Gems/SupportGemBonechill"
+    },
+    "Winter Orb": {
+        "variantId": "WinterOrb",
+        "gemId": "Metadata/Items/Gems/SkillGemWinterOrb"
+    },
+    "Rending Steel": {
+        "variantId": "RendingSteel",
+        "gemId": "Metadata/Items/Gems/SkillGemRendingSteel"
+    },
+    "Lancing Steel": {
+        "variantId": "LancingSteel",
+        "gemId": "Metadata/Items/Gems/SkillGemLancingSteel"
+    },
+    "Lancing Steel of Spraying": {
+        "variantId": "LancingSteelAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLancingSteel"
+    },
+    "Storm Brand": {
+        "variantId": "StormBrand",
+        "gemId": "Metadata/Items/Gems/SkillGemStormBrand"
+    },
+    "Storm Brand of Indecision": {
+        "variantId": "StormBrandAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemStormBrand"
+    },
+    "War Banner": {
+        "variantId": "WarBanner",
+        "gemId": "Metadata/Items/Gems/SkillGemWarBanner"
+    },
+    "Dread Banner": {
+        "variantId": "DreadBanner",
+        "gemId": "Metadata/Items/Gems/SkillGemDreadBanner"
+    },
+    "Shattering Steel": {
+        "variantId": "ShatteringSteel",
+        "gemId": "Metadata/Items/Gems/SkillGemShatteringSteel"
+    },
+    "Shattering Steel of Ammunition": {
+        "variantId": "ShatteringSteelAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemShatteringSteel"
+    },
+    "Multiple Totems Support": {
+        "variantId": "SupportMultipleTotems",
+        "gemId": "Metadata/Items/Gems/SupportGemMultiTotem"
+    },
+    "Armageddon Brand": {
+        "variantId": "ArmageddonBrand",
+        "gemId": "Metadata/Items/Gems/SkillGemArmageddonBrand"
+    },
+    "Armageddon Brand of Volatility": {
+        "variantId": "ArmageddonBrandAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemArmageddonBrand"
+    },
+    "Armageddon Brand of Recall": {
+        "variantId": "ArmageddonBrandAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemArmageddonBrand"
+    },
+    "Brand Recall": {
+        "variantId": "BrandRecall",
+        "gemId": "Metadata/Items/Gems/SkillGemRecallBrands"
+    },
+    "Purifying Flame": {
+        "variantId": "PurifyingFlame",
+        "gemId": "Metadata/Items/Gems/SkillGemSanctify"
+    },
+    "Purifying Flame of Revelations": {
+        "variantId": "PurifyingFlameAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSanctify"
+    },
+    "Soulrend": {
+        "variantId": "Soulrend",
+        "gemId": "Metadata/Items/Gems/SkillGemSoulrend"
+    },
+    "Soulrend of Reaping": {
+        "variantId": "SoulrendAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSoulrend"
+    },
+    "Soulrend of the Spiral": {
+        "variantId": "SoulrendAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSoulrend"
+    },
+    "Bane": {
+        "variantId": "Bane",
+        "gemId": "Metadata/Items/Gems/SkillGemDarkRitual"
+    },
+    "Bane of Condemnation": {
+        "variantId": "BaneAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDarkRitual"
+    },
+    "Energy Leech Support": {
+        "variantId": "SupportEnergyLeech",
+        "gemId": "Metadata/Items/Gems/SupportGemEnergyShieldLeech"
+    },
+    "Wave of Conviction": {
+        "variantId": "WaveOfConviction",
+        "gemId": "Metadata/Items/Gems/SkillGemPurge"
+    },
+    "Zealotry": {
+        "variantId": "Zealotry",
+        "gemId": "Metadata/Items/Gems/SkillGemSpellDamageAura"
+    },
+    "Divine Ire": {
+        "variantId": "DivineIre",
+        "gemId": "Metadata/Items/Gems/SkillGemDivineTempest"
+    },
+    "Divine Ire of Holy Lightning": {
+        "variantId": "DivineIreAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemDivineTempest"
+    },
+    "Divine Ire of Disintegration": {
+        "variantId": "DivineIreAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemDivineTempest"
+    },
+    "Malevolence": {
+        "variantId": "Malevolence",
+        "gemId": "Metadata/Items/Gems/SkillGemDamageOverTimeAura"
+    },
+    "Intensify Support": {
+        "variantId": "SupportIntensify",
+        "gemId": "Metadata/Items/Gems/SupportGemHandcastSpellBoost"
+    },
+    "Unleash Support": {
+        "variantId": "SupportUnleash",
+        "gemId": "Metadata/Items/Gems/SupportGemHandcastAnticipation"
+    },
+    "Steelskin": {
+        "variantId": "QuickGuard",
+        "gemId": "Metadata/Items/Gems/SkillGemSteelskin"
+    },
+    "Dash": {
+        "variantId": "Dash",
+        "gemId": "Metadata/Items/Gems/SkillGemDash"
+    },
+    "Bladestorm": {
+        "variantId": "Bladestorm",
+        "gemId": "Metadata/Items/Gems/SkillGemBladestorm"
+    },
+    "Bladestorm of Uncertainty": {
+        "variantId": "BladestormAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBladestorm"
+    },
+    "Blood and Sand": {
+        "variantId": "BloodAndSand",
+        "gemId": "Metadata/Items/Gems/SkillGemBloodAndSand"
+    },
+    "Berserk": {
+        "variantId": "Berserk",
+        "gemId": "Metadata/Items/Gems/SkillGemBerserk"
+    },
+    "Perforate": {
+        "variantId": "Perforate",
+        "gemId": "Metadata/Items/Gems/SkillGemPerforate"
+    },
+    "Perforate of Duality": {
+        "variantId": "PerforateAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPerforate"
+    },
+    "Perforate of Bloodshed": {
+        "variantId": "PerforateAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemPerforate"
+    },
+    "Chain Hook": {
+        "variantId": "ChainHook",
+        "gemId": "Metadata/Items/Gems/SkillGemChainHook"
+    },
+    "Close Combat Support": {
+        "variantId": "SupportCloseCombat",
+        "gemId": "Metadata/Items/Gems/SupportGemCloseCombat"
+    },
+    "Shockwave Support": {
+        "variantId": "SupportShockwave",
+        "gemId": "Metadata/Items/Gems/SupportGemShockwave"
+    },
+    "Frostblink": {
+        "variantId": "Frostblink",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostblink"
+    },
+    "Frostblink of Wintry Blast": {
+        "variantId": "FrostblinkAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostblink"
+    },
+    "Precision": {
+        "variantId": "Precision",
+        "gemId": "Metadata/Items/Gems/SkillGemPrecision"
+    },
+    "Flesh and Stone": {
+        "variantId": "FleshAndStone",
+        "gemId": "Metadata/Items/Gems/SkillGemFleshAndStone"
+    },
+    "Impale Support": {
+        "variantId": "SupportImpale",
+        "gemId": "Metadata/Items/Gems/SupportGemImpale"
+    },
+    "Pride": {
+        "variantId": "Pride",
+        "gemId": "Metadata/Items/Gems/SkillGemPride"
+    },
+    "Pulverise Support": {
+        "variantId": "SupportPulverise",
+        "gemId": "Metadata/Items/Gems/SupportGemPulverise"
+    },
+    "Rage Support": {
+        "variantId": "SupportRage",
+        "gemId": "Metadata/Items/Gems/SupportGemRage"
+    },
+    "Cobra Lash": {
+        "variantId": "CobraLash",
+        "gemId": "Metadata/Items/Gems/SkillGemCobraLash"
+    },
+    "Summon Carrion Golem": {
+        "variantId": "SummonCarrionGolem",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonCarrionGolem"
+    },
+    "Summon Carrion Golem of Hordes": {
+        "variantId": "SummonCarrionGolemAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonCarrionGolem"
+    },
+    "Summon Carrion Golem of Scavenging": {
+        "variantId": "SummonCarrionGolemAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonCarrionGolem"
+    },
+    "Withering Step": {
+        "variantId": "WitheringStep",
+        "gemId": "Metadata/Items/Gems/SkillGemWitheringStep"
+    },
+    "Plague Bearer": {
+        "variantId": "PlagueBearer",
+        "gemId": "Metadata/Items/Gems/SkillGemPlagueBearer"
+    },
+    "Feeding Frenzy Support": {
+        "variantId": "SupportFeedingFrenzy",
+        "gemId": "Metadata/Items/Gems/SupportGemFeedingFrenzy"
+    },
+    "Predator Support": {
+        "variantId": "SupportPredator",
+        "gemId": "Metadata/Items/Gems/SupportGemDeathmark"
+    },
+    "Nightblade Support": {
+        "variantId": "SupportNightblade",
+        "gemId": "Metadata/Items/Gems/SupportGemNightblade"
+    },
+    "Meat Shield Support": {
+        "variantId": "SupportMeatShield",
+        "gemId": "Metadata/Items/Gems/SupportGemMeatShield"
+    },
+    "Stormblast Mine": {
+        "variantId": "StormblastMine",
+        "gemId": "Metadata/Items/Gems/SkillGemStormblastMine"
+    },
+    "Summon Skitterbots": {
+        "variantId": "SummonSkitterbots",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonSkitterbots"
+    },
+    "High-Impact Mine Support": {
+        "variantId": "SupportHighImpactMine",
+        "gemId": "Metadata/Items/Gems/SupportGemHighImpactMineSupport"
+    },
+    "Infernal Legion Support": {
+        "variantId": "SupportInfernalLegion",
+        "gemId": "Metadata/Items/Gems/SupportGemInfernalLegion"
+    },
+    "Pestilent Strike": {
+        "variantId": "PestilentStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemPestilentStrike"
+    },
+    "Venom Gyre": {
+        "variantId": "VenomGyre",
+        "gemId": "Metadata/Items/Gems/SkillGemVenomGyre"
+    },
+    "Swift Assembly Support": {
+        "variantId": "SupportSwiftAssembly",
+        "gemId": "Metadata/Items/Gems/SupportGemSwiftAssembly"
+    },
+    "Shrapnel Ballista": {
+        "variantId": "ShrapnelBallista",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelBallista"
+    },
+    "Shrapnel Ballista of Steel": {
+        "variantId": "ShrapnelBallistaAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemShrapnelBallista"
+    },
+    "Arrow Nova Support": {
+        "variantId": "SupportArrowNova",
+        "gemId": "Metadata/Items/Gems/SupportGemArrowNova"
+    },
+    "Barrage Support": {
+        "variantId": "SupportBarrage",
+        "gemId": "Metadata/Items/Gems/SupportGemBarrage"
+    },
+    "Ensnaring Arrow": {
+        "variantId": "EnsnaringArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemEnsnaringArrow"
+    },
+    "Artillery Ballista": {
+        "variantId": "ArtilleryBallista",
+        "gemId": "Metadata/Items/Gems/SkillGemArtilleryBallista"
+    },
+    "Artillery Ballista of Cross Strafe": {
+        "variantId": "ArtilleryBallistaAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemArtilleryBallista"
+    },
+    "Artillery Ballista of Focus Fire": {
+        "variantId": "ArtilleryBallistaAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemArtilleryBallista"
+    },
+    "Greater Volley Support": {
+        "variantId": "SupportGreaterVolley",
+        "gemId": "Metadata/Items/Gems/SupportGemGreaterVolley"
+    },
+    "Awakened Added Fire Damage Support": {
+        "variantId": "SupportAwakenedAddedFireDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedFireDamagePlus"
+    },
+    "Awakened Ancestral Call Support": {
+        "variantId": "SupportAwakenedAncestralCall",
+        "gemId": "Metadata/Items/Gems/SupportGemAncestralCallPlus"
+    },
+    "Awakened Brutality Support": {
+        "variantId": "SupportAwakenedBrutality",
+        "gemId": "Metadata/Items/Gems/SupportGemBrutalityPlus"
+    },
+    "Awakened Burning Damage Support": {
+        "variantId": "SupportAwakenedBurningDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemBurningDamagePlus"
+    },
+    "Awakened Elemental Damage with Attacks Support": {
+        "variantId": "SupportAwakenedElementalDamageWithAttacks",
+        "gemId": "Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus"
+    },
+    "Awakened Fire Penetration Support": {
+        "variantId": "SupportAwakenedFirePenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemFirePenetrationPlus"
+    },
+    "Awakened Generosity Support": {
+        "variantId": "SupportAwakenedGenerosity",
+        "gemId": "Metadata/Items/Gems/SupportGemGenerosityPlus"
+    },
+    "Awakened Melee Physical Damage Support": {
+        "variantId": "SupportAwakenedMeleePhysicalDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemMeleePhysicalDamagePlus"
+    },
+    "Awakened Melee Splash Support": {
+        "variantId": "SupportAwakenedMeleeSplash",
+        "gemId": "Metadata/Items/Gems/SupportGemMeleeSplashPlus"
+    },
+    "Awakened Multistrike Support": {
+        "variantId": "SupportAwakenedMultistrike",
+        "gemId": "Metadata/Items/Gems/SupportGemMultistrikePlus"
+    },
+    "Awakened Added Cold Damage Support": {
+        "variantId": "SupportAwakenedAddedColdDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedColdDamagePlus"
+    },
+    "Awakened Arrow Nova Support": {
+        "variantId": "SupportAwakenedArrowNova",
+        "gemId": "Metadata/Items/Gems/SupportGemArrowNovaPlus"
+    },
+    "Awakened Cast On Critical Strike Support": {
+        "variantId": "SupportAwakenedCastOnCriticalStrike",
+        "gemId": "Metadata/Items/Gems/SupportGemCastOnCritPlus"
+    },
+    "Awakened Chain Support": {
+        "variantId": "SupportAwakenedChain",
+        "gemId": "Metadata/Items/Gems/SupportGemChainPlus"
+    },
+    "Awakened Cold Penetration Support": {
+        "variantId": "SupportAwakenedColdPenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemColdPenetrationPlus"
+    },
+    "Awakened Deadly Ailments Support": {
+        "variantId": "SupportAwakenedDeadlyAilments",
+        "gemId": "Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus"
+    },
+    "Awakened Fork Support": {
+        "variantId": "SupportAwakenedFork",
+        "gemId": "Metadata/Items/Gems/SupportGemForkPlus"
+    },
+    "Awakened Greater Multiple Projectiles Support": {
+        "variantId": "SupportAwakenedGreaterMultipleProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemGreaterMultipleProjectilesPlus"
+    },
+    "Awakened Swift Affliction Support": {
+        "variantId": "SupportAwakenedSwiftAffliction",
+        "gemId": "Metadata/Items/Gems/SupportGemSwiftAfflictionPlus"
+    },
+    "Awakened Void Manipulation Support": {
+        "variantId": "SupportAwakenedVoidManipulation",
+        "gemId": "Metadata/Items/Gems/SupportGemVoidManipulationPlus"
+    },
+    "Awakened Vicious Projectiles Support": {
+        "variantId": "SupportAwakenedViciousProjectiles",
+        "gemId": "Metadata/Items/Gems/SupportGemViciousProjectilesPlus"
+    },
+    "Awakened Added Chaos Damage Support": {
+        "variantId": "SupportAwakenedAddedChaosDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedChaosDamagePlus"
+    },
+    "Awakened Added Lightning Damage Support": {
+        "variantId": "SupportAwakenedAddedLightningDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemAddedLightningDamagePlus"
+    },
+    "Awakened Blasphemy Support": {
+        "variantId": "SupportAwakenedBlasphemy",
+        "gemId": "Metadata/Items/Gems/SupportGemBlasphemyPlus"
+    },
+    "Awakened Cast While Channelling Support": {
+        "variantId": "SupportAwakenedCastWhileChannelling",
+        "gemId": "Metadata/Items/Gems/SupportGemCastWhileChannellingPlus"
+    },
+    "Awakened Controlled Destruction Support": {
+        "variantId": "SupportAwakenedControlledDestruction",
+        "gemId": "Metadata/Items/Gems/SupportGemControlledDestructionPlus"
+    },
+    "Awakened Hextouch Support": {
+        "variantId": "SupportAwakenedHextouch",
+        "gemId": "Metadata/Items/Gems/SupportGemCurseOnHitPlus"
+    },
+    "Awakened Elemental Focus Support": {
+        "variantId": "SupportAwakenedElementalFocus",
+        "gemId": "Metadata/Items/Gems/SupportGemElementalFocusPlus"
+    },
+    "Awakened Increased Area of Effect Support": {
+        "variantId": "SupportAwakenedIncreasedAreaofEffect",
+        "gemId": "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectPlus"
+    },
+    "Awakened Lightning Penetration Support": {
+        "variantId": "SupportAwakenedLightningPenetration",
+        "gemId": "Metadata/Items/Gems/SupportGemLightningPenetrationPlus"
+    },
+    "Awakened Minion Damage Support": {
+        "variantId": "SupportAwakenedMinionDamage",
+        "gemId": "Metadata/Items/Gems/SupportGemMinionDamagePlus"
+    },
+    "Awakened Spell Cascade Support": {
+        "variantId": "SupportAwakenedSpellCascade",
+        "gemId": "Metadata/Items/Gems/SupportGemSpellCascadePlus"
+    },
+    "Awakened Spell Echo Support": {
+        "variantId": "SupportAwakenedSpellEcho",
+        "gemId": "Metadata/Items/Gems/SupportGemSpellEchoPlus"
+    },
+    "Awakened Unbound Ailments Support": {
+        "variantId": "SupportAwakenedUnboundAilments",
+        "gemId": "Metadata/Items/Gems/SupportGemUnboundAilmentsPlus"
+    },
+    "Awakened Unleash Support": {
+        "variantId": "SupportAwakenedUnleash",
+        "gemId": "Metadata/Items/Gems/SupportGemUnleashPlus"
+    },
+    "Awakened Empower Support": {
+        "variantId": "SupportAwakenedEmpower",
+        "gemId": "Metadata/Items/Gems/SupportGemEmpowerPlus"
+    },
+    "Awakened Enlighten Support": {
+        "variantId": "SupportAwakenedEnlighten",
+        "gemId": "Metadata/Items/Gems/SupportGemEnlightenPlus"
+    },
+    "Awakened Enhance Support": {
+        "variantId": "SupportAwakenedEnhance",
+        "gemId": "Metadata/Items/Gems/SupportGemEnhancePlus"
+    },
+    "Arcane Cloak": {
+        "variantId": "ArcaneCloak",
+        "gemId": "Metadata/Items/Gems/SkillGemArcaneCloak"
+    },
+    "Stormbind": {
+        "variantId": "Stormbind",
+        "gemId": "Metadata/Items/Gems/SkillGemStormBind"
+    },
+    "Stormbind of Teleportation": {
+        "variantId": "StormbindAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemStormBind"
+    },
+    "Kinetic Bolt": {
+        "variantId": "KineticBolt",
+        "gemId": "Metadata/Items/Gems/SkillGemKineticBolt"
+    },
+    "Kinetic Bolt of Fragmentation": {
+        "variantId": "KineticBoltAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemKineticBolt"
+    },
+    "Blade Blast": {
+        "variantId": "BladeBlast",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeBlast"
+    },
+    "Blade Blast of Unloading": {
+        "variantId": "BladeBlastAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeBlast"
+    },
+    "Blade Blast of Dagger Detonation": {
+        "variantId": "BladeBlastAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeBlast"
+    },
+    "Spellslinger": {
+        "variantId": "Spellslinger",
+        "gemId": "Metadata/Items/Gems/SkillGemSpellslinger"
+    },
+    "Archmage Support": {
+        "variantId": "SupportArchmage",
+        "gemId": "Metadata/Items/Gems/SupportGemArchmage"
+    },
+    "Second Wind Support": {
+        "variantId": "SupportSecondWind",
+        "gemId": "Metadata/Items/Gems/SupportGemSecondWind"
+    },
+    "Arcanist Brand": {
+        "variantId": "BrandSupport",
+        "gemId": "Metadata/Items/Gems/SkillGemArcanistBrand"
+    },
+    "Intimidating Cry": {
+        "variantId": "IntimidatingCry",
+        "gemId": "Metadata/Items/Gems/SkillGemIntimidatingCry"
+    },
+    "Seismic Cry": {
+        "variantId": "SeismicCry",
+        "gemId": "Metadata/Items/Gems/SkillGemSeismicCry"
+    },
+    "Ancestral Cry": {
+        "variantId": "AncestralCry",
+        "gemId": "Metadata/Items/Gems/SkillGemAncestralCry"
+    },
+    "Penance Brand": {
+        "variantId": "PenanceBrand",
+        "gemId": "Metadata/Items/Gems/SkillGemPenanceBrand"
+    },
+    "Penance Brand of Dissipation": {
+        "variantId": "PenanceBrandAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPenanceBrand"
+    },
+    "Penance Brand of Conduction": {
+        "variantId": "PenanceBrandAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemPenanceBrand"
+    },
+    "Wintertide Brand": {
+        "variantId": "WintertideBrand",
+        "gemId": "Metadata/Items/Gems/SkillGemWintertideBrand"
+    },
+    "Earthshatter": {
+        "variantId": "Earthshatter",
+        "gemId": "Metadata/Items/Gems/SkillGemEarthshatter"
+    },
+    "Earthshatter of Fragility": {
+        "variantId": "EarthshatterAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemEarthshatter"
+    },
+    "Earthshatter of Prominence": {
+        "variantId": "EarthshatterAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemEarthshatter"
+    },
+    "General's Cry": {
+        "variantId": "GeneralsCry",
+        "gemId": "Metadata/Items/Gems/SkillGemGeneralsCry"
+    },
+    "Fist of War Support": {
+        "variantId": "SupportFistofWar",
+        "gemId": "Metadata/Items/Gems/SupportGemFistOfWar"
+    },
+    "Swiftbrand Support": {
+        "variantId": "SupportSwiftbrand",
+        "gemId": "Metadata/Items/Gems/SupportGemSwiftbrand"
+    },
+    "Urgent Orders Support": {
+        "variantId": "SupportUrgentOrders",
+        "gemId": "Metadata/Items/Gems/SupportGemUrgentOrders"
+    },
+    "Blazing Salvo": {
+        "variantId": "BlazingSalvo",
+        "gemId": "Metadata/Items/Gems/SkillGemBlazingSalvo"
+    },
+    "Void Sphere": {
+        "variantId": "VoidSphere",
+        "gemId": "Metadata/Items/Gems/SkillGemVoidSphere"
+    },
+    "Void Sphere of Rending": {
+        "variantId": "VoidSphereAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemVoidSphere"
+    },
+    "Crackling Lance": {
+        "variantId": "CracklingLance",
+        "gemId": "Metadata/Items/Gems/SkillGemCracklingLance"
+    },
+    "Crackling Lance of Branching": {
+        "variantId": "CracklingLanceAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemCracklingLance"
+    },
+    "Crackling Lance of Disintegration": {
+        "variantId": "CracklingLanceAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemCracklingLance"
+    },
+    "Frost Shield": {
+        "variantId": "FrostShield",
+        "gemId": "Metadata/Items/Gems/SkillGemFrostShield"
+    },
+    "Splitting Steel": {
+        "variantId": "SplittingSteel",
+        "gemId": "Metadata/Items/Gems/SkillGemSplittingSteel"
+    },
+    "Splitting Steel of Ammunition": {
+        "variantId": "SplittingSteelAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSplittingSteel"
+    },
+    "Sigil of Power": {
+        "variantId": "SigilOfPower",
+        "gemId": "Metadata/Items/Gems/SkillGemSigilOfPower"
+    },
+    "Flame Wall": {
+        "variantId": "FlameWall",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameWall"
+    },
+    "Impending Doom Support": {
+        "variantId": "SupportImpendingDoom",
+        "gemId": "Metadata/Items/Gems/SupportGemImpendingDoom"
+    },
+    "Hexblast": {
+        "variantId": "Hexblast",
+        "gemId": "Metadata/Items/Gems/SkillGemHexblast"
+    },
+    "Hexblast of Contradiction": {
+        "variantId": "HexblastAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemHexblast"
+    },
+    "Hexblast of Havoc": {
+        "variantId": "HexblastAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemHexblast"
+    },
+    "Pinpoint Support": {
+        "variantId": "SupportPinpoint",
+        "gemId": "Metadata/Items/Gems/SupportGemPinpoint"
+    },
+    "Flammable Shot": {
+        "variantId": "OilArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemFlammableShot"
+    },
+    "Hydrosphere": {
+        "variantId": "Hydrosphere",
+        "gemId": "Metadata/Items/Gems/SkillGemHydrosphere"
+    },
+    "Trinity Support": {
+        "variantId": "SupportTrinity",
+        "gemId": "Metadata/Items/Gems/SupportGemTrinity"
+    },
+    "Death Aura": {
+        "variantId": "DeathAura",
+        "gemId": "Metadata/Items/Gems/SkillGemDeathAura"
+    },
+    "Envy": {
+        "variantId": "Envy",
+        "gemId": "Metadata/Items/Gems/SkillGemEnvy"
+    },
+    "Gluttony of Elements": {
+        "variantId": "GluttonyOfElements",
+        "gemId": "Metadata/Items/Gems/SkillGemGluttonyOfElements"
+    },
+    "Blinding Aura": {
+        "variantId": "BlindingAura",
+        "gemId": "Metadata/Items/Gems/SkillGemBlindingAura"
+    },
+    "Exsanguinate": {
+        "variantId": "Exsanguinate",
+        "gemId": "Metadata/Items/Gems/SkillGemExsanguinate"
+    },
+    "Exsanguinate of Transmission": {
+        "variantId": "ExsanguinateAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemExsanguinate"
+    },
+    "Corrupting Fever": {
+        "variantId": "CorruptingFever",
+        "gemId": "Metadata/Items/Gems/SkillGemCorruptingFever"
+    },
+    "Bloodthirst Support": {
+        "variantId": "SupportBloodthirst",
+        "gemId": "Metadata/Items/Gems/SupportGemBloodthirst"
+    },
+    "Reap": {
+        "variantId": "Reap",
+        "gemId": "Metadata/Items/Gems/SkillGemBloodreap"
+    },
+    "Petrified Blood": {
+        "variantId": "PetrifiedBlood",
+        "gemId": "Metadata/Items/Gems/SkillGemPetrifiedBlood"
+    },
+    "Cruelty Support": {
+        "variantId": "SupportCruelty",
+        "gemId": "Metadata/Items/Gems/SupportGemCruelty"
+    },
+    "Lifetap Support": {
+        "variantId": "SupportLifetap",
+        "gemId": "Metadata/Items/Gems/SupportGemLifetap"
+    },
+    "Defiance Banner": {
+        "variantId": "DefianceBanner",
+        "gemId": "Metadata/Items/Gems/SkillGemDefianceBanner"
+    },
+    "Voltaxic Burst": {
+        "variantId": "VoltaxicBurst",
+        "gemId": "Metadata/Items/Gems/SkillGemVoltaxicBurst"
+    },
+    "Rage Vortex": {
+        "variantId": "RageVortex",
+        "gemId": "Metadata/Items/Gems/SkillGemRageVortex"
+    },
+    "Rage Vortex of Berserking": {
+        "variantId": "RageVortexAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemRageVortex"
+    },
+    "Spectral Helix": {
+        "variantId": "SpectralHelix",
+        "gemId": "Metadata/Items/Gems/SkillGemSpectralHelix"
+    },
+    "Battlemage's Cry": {
+        "variantId": "BattlemagesCry",
+        "gemId": "Metadata/Items/Gems/SkillGemBattlemagesCry"
+    },
+    "Earthbreaker Support": {
+        "variantId": "SupportEarthbreaker",
+        "gemId": "Metadata/Items/Gems/SupportGemEarthbreaker"
+    },
+    "Absolution": {
+        "variantId": "Absolution",
+        "gemId": "Metadata/Items/Gems/SkillGemAbsolution"
+    },
+    "Absolution of Inspiring": {
+        "variantId": "AbsolutionAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemAbsolution"
+    },
+    "Forbidden Rite": {
+        "variantId": "ForbiddenRite",
+        "gemId": "Metadata/Items/Gems/SkillGemForbiddenRite"
+    },
+    "Forbidden Rite of Soul Sacrifice": {
+        "variantId": "ForbiddenRiteAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemForbiddenRite"
+    },
+    "Ambush": {
+        "variantId": "Ambush",
+        "gemId": "Metadata/Items/Gems/SkillGemAmbush"
+    },
+    "Manabond": {
+        "variantId": "Manabond",
+        "gemId": "Metadata/Items/Gems/SkillGemManabond"
+    },
+    "Blade Trap": {
+        "variantId": "BladeTrap",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeTrap"
+    },
+    "Blade Trap of Greatswords": {
+        "variantId": "BladeTrapAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeTrap"
+    },
+    "Blade Trap of Laceration": {
+        "variantId": "BladeTrapAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBladeTrap"
+    },
+    "Storm Rain": {
+        "variantId": "StormRain",
+        "gemId": "Metadata/Items/Gems/SkillGemStormRain"
+    },
+    "Storm Rain of the Conduit": {
+        "variantId": "StormRainAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemStormRain"
+    },
+    "Storm Rain of the Fence": {
+        "variantId": "StormRainAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemStormRain"
+    },
+    "Shield Crush": {
+        "variantId": "ShieldCrush",
+        "gemId": "Metadata/Items/Gems/SkillGemShieldCrush"
+    },
+    "Shield Crush of the Chieftain": {
+        "variantId": "ShieldCrushAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemShieldCrush"
+    },
+    "Blood Offering": {
+        "variantId": "BloodOffering",
+        "gemId": "Metadata/Items/Gems/SkillGemBloodOffering"
+    },
+    "Focused Ballista Support": {
+        "variantId": "SupportFocusedBallista",
+        "gemId": "Metadata/Items/Gems/SupportGemFocusedBallista"
+    },
+    "Summon Reaper": {
+        "variantId": "SummonReaper",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonReaper"
+    },
+    "Summon Reaper of Revenants": {
+        "variantId": "SummonReaperAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonReaper"
+    },
+    "Summon Reaper of Eviscerating": {
+        "variantId": "SummonReaperAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemSummonReaper"
+    },
+    "Behead Support": {
+        "variantId": "SupportBehead",
+        "gemId": "Metadata/Items/Gems/SupportGemBehead"
+    },
+    "Boneshatter": {
+        "variantId": "Boneshatter",
+        "gemId": "Metadata/Items/Gems/SkillGemBoneshatter"
+    },
+    "Boneshatter of Complex Trauma": {
+        "variantId": "BoneshatterAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemBoneshatter"
+    },
+    "Boneshatter of Carnage": {
+        "variantId": "BoneshatterAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemBoneshatter"
+    },
+    "Explosive Concoction": {
+        "variantId": "ExplosiveConcoction",
+        "gemId": "Metadata/Items/Gems/SkillGemExplosiveConcoction"
+    },
+    "Explosive Concoction of Destruction": {
+        "variantId": "ExplosiveConcoctionAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemExplosiveConcoction"
+    },
+    "Eye of Winter": {
+        "variantId": "EyeOfWinter",
+        "gemId": "Metadata/Items/Gems/SkillGemEyeOfWinter"
+    },
+    "Eye of Winter of Finality": {
+        "variantId": "EyeOfWinterAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemEyeOfWinter"
+    },
+    "Eye of Winter of Transience": {
+        "variantId": "EyeOfWinterAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemEyeOfWinter"
+    },
+    "Poisonous Concoction": {
+        "variantId": "PoisonousConcoction",
+        "gemId": "Metadata/Items/Gems/SkillGemPoisonousConcoction"
+    },
+    "Poisonous Concoction of Bouncing": {
+        "variantId": "PoisonousConcoctionAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemPoisonousConcoction"
+    },
+    "[DNT] Call of the Wild": {
+        "variantId": "CallOfTheWild",
+        "gemId": "Metadata/Items/Gems/SkillGemCallOfTheWild"
+    },
+    "Temporal Rift": {
+        "variantId": "TemporalRift",
+        "gemId": "Metadata/Items/Gems/SkillGemTemporalRift"
+    },
+    "Tornado": {
+        "variantId": "Tornado",
+        "gemId": "Metadata/Items/Gems/SkillGemTornado"
+    },
+    "Tornado of Elemental Turbulence": {
+        "variantId": "TornadoAltY",
+        "gemId": "Metadata/Items/Gems/SkillGemTornado"
+    },
+    "Energy Blade": {
+        "variantId": "EnergyBlade",
+        "gemId": "Metadata/Items/Gems/SkillGemEnergyBlade"
+    },
+    "Soul Link": {
+        "variantId": "SoulLink",
+        "gemId": "Metadata/Items/Gems/SkillGemSoulLink"
+    },
+    "Flame Link": {
+        "variantId": "FlameLink",
+        "gemId": "Metadata/Items/Gems/SkillGemFlameLink"
+    },
+    "Vampiric Link": {
+        "variantId": "VampiricLink",
+        "gemId": "Metadata/Items/Gems/SkillGemVampiricLink"
+    },
+    "Protective Link": {
+        "variantId": "ProtectiveLink",
+        "gemId": "Metadata/Items/Gems/SkillGemProtectiveLink"
+    },
+    "Intuitive Link": {
+        "variantId": "IntuitiveLink",
+        "gemId": "Metadata/Items/Gems/SkillGemIntuitiveLink"
+    },
+    "Destructive Link": {
+        "variantId": "DestructiveLink",
+        "gemId": "Metadata/Items/Gems/SkillGemDestructiveLink"
+    },
+    "Divine Blessing Support": {
+        "variantId": "SupportDivineBlessing",
+        "gemId": "Metadata/Items/Gems/SupportGemDivineBlessing"
+    },
+    "Mark On Hit Support": {
+        "variantId": "SupportMarkOnHit",
+        "gemId": "Metadata/Items/Gems/SupportGemMarkOnHit"
+    },
+    "Eternal Blessing Support": {
+        "variantId": "SupportEternalBlessing",
+        "gemId": "Metadata/Items/Gems/SupportGemEternalBlessing"
+    },
+    "Overcharge Support": {
+        "variantId": "SupportOvercharge",
+        "gemId": "Metadata/Items/Gems/SupportGemOvercharge"
+    },
+    "Lightning Conduit": {
+        "variantId": "LightningConduit",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningConduit"
+    },
+    "Lightning Conduit of the Heavens": {
+        "variantId": "LightningConduitAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemLightningConduit"
+    },
+    "Galvanic Field": {
+        "variantId": "GalvanicField",
+        "gemId": "Metadata/Items/Gems/SkillGemGalvanicField"
+    },
+    "Galvanic Field of Intensity": {
+        "variantId": "GalvanicFieldAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemGalvanicField"
+    },
+    "Alchemist's Mark": {
+        "variantId": "AlchemistsMark",
+        "gemId": "Metadata/Items/Gems/SkillGemAlchemistsMark"
+    },
+    "Volcanic Fissure": {
+        "variantId": "VolcanicFissure",
+        "gemId": "Metadata/Items/Gems/SkillGemVolcanicFissure"
+    },
+    "Volcanic Fissure of Snaking": {
+        "variantId": "VolcanicFissureAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemVolcanicFissure"
+    },
+    "Vaal Volcanic Fissure": {
+        "variantId": "VaalVolcanicFissure",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalVolcanicFissure"
+    },
+    "Frozen Legion": {
+        "variantId": "FrozenLegion",
+        "gemId": "Metadata/Items/Gems/SkillGemFrozenLegion"
+    },
+    "Frozen Legion of Rallying": {
+        "variantId": "FrozenLegionAltX",
+        "gemId": "Metadata/Items/Gems/SkillGemFrozenLegion"
+    },
+    "Vaal Cleave": {
+        "variantId": "VaalCleave",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalCleave"
+    },
+    "Vaal Caustic Arrow": {
+        "variantId": "VaalCausticArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalCausticArrow"
+    },
+    "Vaal Molten Strike": {
+        "variantId": "VaalMoltenStrike",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalMoltenStrike"
+    },
+    "Cursed Ground Support": {
+        "variantId": "SupportCursedGround",
+        "gemId": "Metadata/Items/Gems/SupportGemCursedGround"
+    },
+    "Hex Bloom Support": {
+        "variantId": "SupportHexBloom",
+        "gemId": "Metadata/Items/Gems/SupportGemHexBloom"
+    },
+    "Vaal Venom Gyre": {
+        "variantId": "VaalVenomGyre",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalVenomGyre"
+    },
+    "Vaal Smite": {
+        "variantId": "VaalSmite",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalSmite"
+    },
+    "Vaal Blade Flurry": {
+        "variantId": "VaalBladeFlurry",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalChargedAttack"
+    },
+    "Vaal Reap": {
+        "variantId": "VaalReap",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalReap"
+    },
+    "Vaal Animate Weapon": {
+        "variantId": "VaalAnimateWeapon",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalAnimateWeapon"
+    },
+    "Vaal Lightning Arrow": {
+        "variantId": "VaalLightningArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalLightningArrow"
+    },
+    "Vaal Absolution": {
+        "variantId": "VaalAbsolution",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalAbsolution"
+    },
+    "Vaal Domination": {
+        "variantId": "VaalDomination",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalDomination"
+    },
+    "Vaal Ice Shot": {
+        "variantId": "VaalIceShot",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalIceShot"
+    },
+    "Vaal Firestorm": {
+        "variantId": "VaalFirestorm",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalFirestorm"
+    },
+    "Vaal Rejuvenation Totem": {
+        "variantId": "VaalRejuvenationTotem",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalRejuvenationTotem"
+    },
+    "Vaal Split Arrow": {
+        "variantId": "VaalSplitArrow",
+        "gemId": "Metadata/Items/Gems/SkillGemVaalSplitArrow"
+    },
+    "Manaforged Arrows Support": {
+        "variantId": "SupportManaforgedArrows",
+        "gemId": "Metadata/Items/Gems/SupportGemManaforgedArrows"
+    },
+    "Prismatic Burst Support": {
+        "variantId": "SupportPrismaticBurst",
+        "gemId": "Metadata/Items/Gems/SupportGemPrismaticBurst"
+    },
+    "Snipe": {
+        "variantId": "Snipe",
+        "gemId": "Metadata/Items/Gems/SkillGemChannelledSnipe"
+    },
+    "Quickstep": {
+        "variantId": "QuickstepHardMode",
+        "gemId": "Metadata/Items/Gems/SkillGemQuickstep"
+    },
+    "Trauma Support": {
+        "variantId": "SupportTrauma",
+        "gemId": "Metadata/Items/Gems/SupportGemTrauma"
+    },
+    "Spellblade Support": {
+        "variantId": "SupportSpellblade",
+        "gemId": "Metadata/Items/Gems/SupportGemSpellblade"
+    },
+    "Devour Support": {
+        "variantId": "SupportDevour",
+        "gemId": "Metadata/Items/Gems/SupportGemDevour"
+    },
+    "Fresh Meat Support": {
+        "variantId": "SupportFreshMeat",
+        "gemId": "Metadata/Items/Gems/SupportGemFreshMeat"
+    },
+    "Flamewood Support": {
+        "variantId": "SupportFlamewood",
+        "gemId": "Metadata/Items/Gems/SupportGemFlamewood"
+    },
+    "Corrupting Cry Support": {
+        "variantId": "SupportCorruptingCry",
+        "gemId": "Metadata/Items/Gems/SupportGemCorruptingCry"
+    },
+    "Guardian's Blessing Support": {
+        "variantId": "SupportGuardiansBlessing",
+        "gemId": "Metadata/Items/Gems/SupportGemGuardiansBlessing"
+    },
+    "Sacrifice Support": {
+        "variantId": "SupportSacrifice",
+        "gemId": "Metadata/Items/Gems/SupportGemSacrifice"
+    },
+    "Frigid Bond Support": {
+        "variantId": "SupportFrigidBond",
+        "gemId": "Metadata/Items/Gems/SupportGemFrigidBond"
+    },
+    "Locus Mine Support": {
+        "variantId": "SupportLocusMine",
+        "gemId": "Metadata/Items/Gems/SupportGemLocusMine"
+    },
+    "Sadism Support": {
+        "variantId": "SupportSadism",
+        "gemId": "Metadata/Items/Gems/SupportGemSadism"
+    },
+    "Controlled Blaze Support": {
+        "variantId": "SupportControlledBlaze",
+        "gemId": "Metadata/Items/Gems/SupportGemControlledBlaze"
+    },
+    "Volatility Support": {
+        "variantId": "SupportVolatility",
+        "gemId": "Metadata/Items/Gems/SupportGemVolatility"
+    },
+    "Automation": {
+        "variantId": "Automation",
+        "gemId": "Metadata/Items/Gems/SkillGemAutomation"
+    },
+    "Autoexertion": {
+        "variantId": "Autoexertion",
+        "gemId": "Metadata/Items/Gems/SkillGemCallToArms"
+    },
+    "Sacred Wisps Support": {
+        "variantId": "SupportSacredWisps",
+        "gemId": "Metadata/Items/Gems/SupportGemSacredWisps"
+    },
+    "Overexertion Support": {
+        "variantId": "SupportOverexertion",
+        "gemId": "Metadata/Items/Gems/SupportGemOverexertion"
+    },
+    "Expert Retaliation Support": {
+        "variantId": "SupportExpertRetaliation",
+        "gemId": "Metadata/Items/Gems/SupportGemExpertRetaliation"
+    },
+    "Rupture Support": {
+        "variantId": "SupportRupture",
+        "gemId": "Metadata/Items/Gems/SupportGemRupture"
+    }
+}
