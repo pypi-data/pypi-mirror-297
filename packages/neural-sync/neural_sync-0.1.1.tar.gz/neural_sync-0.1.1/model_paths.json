@@ -1,0 +1,10 @@
+{
+    "distil-whisper": "distil-whisper/distil-large-v2",
+    "nemo_asr": "nvidia/parakeet-rnnt-1.1b",
+    "sd_medium3": "stabilityai/stable-diffusion-3-medium-diffusers",
+    "pyannote": "pyannote/speaker-diarization-3.1",
+    "agentlm": "/mnt/ssd/Models/Agentlm 7b",
+    "openai-whisper": "openai/whisper-large-v3"
+
+}
+

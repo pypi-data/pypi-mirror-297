@@ -1,0 +1,11 @@
+﻿include parent/interface.py
+include parent/factory.py
+include main.py
+include __init__.py
+include model_paths.json
+include LICENSE.txt
+include README.md
+include setup.py
+include requirements.txt
+recursive-include child *
+recursive-include parent *
