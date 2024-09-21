@@ -1,0 +1,18 @@
+[project]
+name = "discordub"
+version = "0.1.7"
+authors = [
+  { name="qloha", email="sirfigaloha@gmail.com" },
+]
+description = "A python package that controls the discord user. Not to be confused with discord bots."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/qloha/dub"
+Issues = "https://github.com/qloha/dub/issues"
