@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+updns/__init__.py
+updns/updns.py
+updns.egg-info/PKG-INFO
+updns.egg-info/SOURCES.txt
+updns.egg-info/dependency_links.txt
+updns.egg-info/entry_points.txt
+updns.egg-info/requires.txt
+updns.egg-info/top_level.txt
+updns.egg-info/zip-safe
