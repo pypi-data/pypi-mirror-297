@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: solidipes-core-plugin
+Version: 0.0.1
+Summary: Core plugin for Solidipes with essential modular components
+License: GPL-3.0-or-later
+Author: Son Pham-Ba
+Author-email: son.phamba@epfl.ch
+Requires-Python: >=3.9.12,<3.13
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Requires-Dist: build (>=1.0.3,<2.0.0) ; extra == "dev"
+Requires-Dist: ipython (>=8.18.1,<9.0.0)
+Requires-Dist: nbconvert (>=7.16.4,<8.0.0)
+Requires-Dist: pre-commit (>=3.0.4,<4.0.0) ; extra == "dev"
+Requires-Dist: pytest (>=8.1.1,<9.0.0) ; extra == "dev"
+Requires-Dist: solidipes (>=1.0.1,<2.0.0)
+Requires-Dist: streamlit (>=1.37.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+Core plugin for Solidipes with essential modular components.
+
+Meant to be used with [Solidipes](https://gitlab.com/solidipes/solidipes).
+
+
+# Installation for development
+
+```bash
+git clone https://gitlab.com/solidipes/solidipes-core-plugin.git
+cd solidipes-core-plugin
+pip install -e .[dev]
+pre-commit install
+```
+
