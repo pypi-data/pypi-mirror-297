@@ -1,0 +1,81 @@
+[package]
+name = "stac"
+version = "0.10.0"
+authors = ["Pete Gadomski <pete.gadomski@gmail.com>"]
+edition = "2021"
+description = "Rust library for the SpatioTemporal Asset Catalog (STAC) specification"
+homepage = "https://github.com/stac-utils/stac-rs"
+repository = "https://github.com/stac-utils/stac-rs"
+license = "MIT OR Apache-2.0"
+keywords = ["geospatial", "stac", "metadata", "geo", "raster"]
+categories = ["science", "data-structures"]
+readme = "README.md"
+
+[features]
+gdal = ["dep:gdal", "dep:gdal-sys"]
+geo = ["dep:geo"]
+geoarrow = [
+    "dep:geoarrow",
+    "dep:arrow-array",
+    "dep:arrow-cast",
+    "dep:arrow-json",
+    "dep:arrow-schema",
+    "dep:geo-types",
+]
+geoparquet = ["geoarrow", "geoarrow/parquet", "dep:parquet"]
+geoparquet-compression = [
+    "geoparquet",
+    "geoarrow/parquet_compression",
+    "parquet/snap",
+    "parquet/brotli",
+    "parquet/flate2",
+    "parquet/lz4",
+    "parquet/zstd",
+]
+object-store = ["dep:object_store"]
+object-store-aws = ["object-store", "object_store/aws"]
+object-store-azure = ["object-store", "object_store/azure"]
+object-store-gcp = ["object-store", "object_store/gcp"]
+object-store-http = ["object-store", "object_store/http"]
+object-store-all = [
+    "object-store-aws",
+    "object-store-azure",
+    "object-store-gcp",
+    "object-store-http",
+]
+reqwest = ["dep:reqwest"]
+
+[dependencies]
+arrow-array = { version = "52", optional = true }
+arrow-cast = { version = "52", optional = true }
+arrow-json = { version = "52", optional = true }
+arrow-schema = { version = "52", optional = true }
+bytes = "1"
+chrono = { version = "0.4", features = ["serde"] }
+gdal = { version = "0.17", optional = true }
+gdal-sys = { version = "0.10", optional = true }
+geo = { version = "0.28", optional = true }
+geo-types = { version = "0.7", optional = true }
+geoarrow = { version = "0.3", optional = true }
+geojson = "0.24"
+log = "0.4"
+mime = "0.3"
+object_store = { version = "0.11", optional = true }
+parquet = { version = "52", default-features = false, optional = true }
+reqwest = { version = "0.12", optional = true, features = ["json", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+thiserror = "1"
+url = "2"
+
+[dev-dependencies]
+assert-json-diff = "2"
+bytes = "1"
+rstest = "0.22"
+tempdir = "0.3"
+tokio = "1"
+tokio-test = "0.4"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
