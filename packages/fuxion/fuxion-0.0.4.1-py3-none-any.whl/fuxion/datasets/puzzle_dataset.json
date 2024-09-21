@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The Three Hats Riddle",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The Three Hats Riddle",
+          "normalized": [
+            {
+              "puzzle_title": "The Three Hats Riddle",
+              "description": "Three people are standing in a line, each wearing a hat that is either red or blue. Each person can see the hats of the people in front of them but not their own hat or the hats of those behind them. The person at the back of the line can see the hats of the two people in front, the person in the middle can see the hat of the person in front, and the person at the front can't see any hats. They are asked to guess the color of their own hat starting from the back of the line. If they guess correctly, they live; if they guess incorrectly, they die. How can they ensure that at least one person survives?",
+              "difficulty": "medium",
+              "puzzle_type": "logic",
+              "solution": {
+                "step_1": "The person at the back of the line (Person C) counts the number of red hats they see.",
+                "step_2": "If Person C sees an even number of red hats, they guess their own hat is blue. If they see an odd number of red hats, they guess their own hat is red.",
+                "step_3": "Person B, hearing Person C's guess, uses this information along with the hat they see in front of them (Person A's hat) to deduce their own hat color.",
+                "step_4": "Person A, hearing both Person C's and Person B's guesses, can deduce their own hat color based on the previous guesses and the hat colors they see."
+              },
+              "conclusion": "By using a strategy based on parity (even or odd number of red hats), at least one person can always guess their hat color correctly, ensuring that at least one person survives."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Puzzle Description:\nThree people are standing in a line, one behind the other. Each person can see the hats of the people in front of them but not their own hat or the hats of those behind them. The hats are either red or blue. The person at the back of the line can see the hats of the two people in front, the person in the middle can see the hat of the person in front, and the person at the front cannot see any hats. Each person is asked to guess the color of their own hat starting from the back of the line. If they guess correctly, they are freed; if not, they remain in the line. What strategy should they use to maximize the number of correct guesses?",
+        "normalized_output": {
+          "puzzle": "#### Puzzle Description:\nThree people are standing in a line, one behind the other. Each person can see the hats of the people in front of them but not their own hat or the hats of those behind them. The hats are either red or blue. The person at the back of the line can see the hats of the two people in front, the person in the middle can see the hat of the person in front, and the person at the front cannot see any hats. Each person is asked to guess the color of their own hat starting from the back of the line. If they guess correctly, they are freed; if not, they remain in the line. What strategy should they use to maximize the number of correct guesses?",
+          "normalized": [
+            {
+              "puzzle_title": "Hat Color Guessing Strategy",
+              "description": "Three people are standing in a line, one behind the other. Each person can see the hats of the people in front of them but not their own hat or the hats of those behind them. The hats are either red or blue. The person at the back of the line can see the hats of the two people in front, the person in the middle can see the hat of the person in front, and the person at the front cannot see any hats. Each person is asked to guess the color of their own hat starting from the back of the line. If they guess correctly, they are freed; if not, they remain in the line. What strategy should they use to maximize the number of correct guesses?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "The person at the back (Person C) will count the number of red hats they see in front of them (Person A and Person B).",
+                "step_2": "If Person C sees an even number of red hats, they will guess their own hat is blue. If they see an odd number of red hats, they will guess their own hat is red.",
+                "step_3": "Person B, who can see Person A's hat, will use Person C's guess to deduce their own hat color. If Person C guessed blue and Person B sees a red hat on Person A, Person B will guess their own hat is red (since the total number of red hats must be even). If Person C guessed red and Person B sees a red hat on Person A, Person B will guess their own hat is blue (since the total number of red hats must be odd).",
+                "step_4": "Person A, who cannot see any hats, will use the guesses of Person C and Person B to deduce their own hat color. If Person B guessed correctly, Person A can determine their own hat color based on the previous guesses and the visible hats."
+              },
+              "conclusion": "Using this strategy, at least two out of the three people will guess their hat color correctly, maximizing the number of correct guesses."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\n\nGenerate a collection of original logic puzzles and brain teasers, each accompanied by a detailed, step-by-step solution. The content should be suitable for training a language model in chain-of-thought reasoning, emphasizing logical progression and clarity in explanations.\n\nInstructions:\n\nPuzzle Creation:\n\nOriginality: Create unique puzzles that are not direct copies of existing ones.\nClarity: Ensure each puzzle is clearly stated with all necessary information provided.\nEngagement: Use intriguing scenarios to capture interest.\nVariety: Include different types of puzzles, such as:\nDeductive reasoning puzzles\nMathematical brain teasers\nPattern recognition challenges\nRiddles\nLateral thinking problems\nDifficulty Levels:\nEasy: Simple puzzles requiring basic logic.\nMedium: Puzzles that require intermediate reasoning skills.\nHard: Complex puzzles that involve multiple steps and advanced logic.\nSolution Development:\n\nStep-by-Step Explanation: Break down the solution into clear, logical steps.\nReasoning: Explain the thought process at each step, highlighting why certain conclusions are made.\nAccuracy: Ensure all solutions are correct and free from errors.\nEducational Value: Aim to teach the reasoning process, not just provide the answer.\nFormatting Guidelines:\n\nStructure:\nStart with the Puzzle Title (e.g., \"The Three Hats Riddle\").\nPresent the Puzzle Description.\nFollow with the Solution heading.\nProvide the step-by-step Solution Explanation.\n\nLanguage:\nUse clear and concise language.\nAvoid ambiguity and ensure clarity in instructions and explanations.\n\nStyle:\nWrite in the third person, maintaining a neutral and informative tone.\nUse bullet points or numbered lists for steps in the solution.\n\nContent Restrictions:\nAppropriateness: Avoid sensitive, offensive, or inappropriate topics.\nCompliance: Do not include any disallowed content such as personal data, harassment, hate speech, or copyrighted material.\nAnonymity: Do not use real names or specific personal identifiers.\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}
