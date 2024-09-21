@@ -1,0 +1,5 @@
+include flask_crud/templates/*
+include flask_crud/templates/comps/*
+include flask_crud/static/*
+include flask_crud/static/css/*
+include flask_crud/static/js/*
