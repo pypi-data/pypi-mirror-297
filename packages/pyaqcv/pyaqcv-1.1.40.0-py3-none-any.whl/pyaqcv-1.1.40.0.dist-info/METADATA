@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyaqcv
+Version: 1.1.40.0
+Summary: Aqcv package
+Home-page: 
+Author: aqrose
+Author-email: developer@aqrose.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+Aqcv package

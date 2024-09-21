@@ -1,0 +1,12 @@
+pyaqcv/__init__.py,sha256=WGkhZ2usM8GiirC4iQapB6nTO9Db4x8CR8gLsliMvtA,21
+pyaqcv/_pyaqcv.pyd,sha256=ZC4_nIPaGi-P668d3ZWvTn7IkuuxrRohEI5hsec6NZs,13874176
+pyaqcv/aqcv.dll,sha256=0BZCxNmJKBH78SIq2sVMshuYAMZj5CVfQBDIMW3tfz0,41426432
+pyaqcv/geometry.dll,sha256=pFPPbr0347vh75zllb1UPX3pF6FcMcTZvd36FeO6WNs,25221632
+pyaqcv/libomp140.x86_64.dll,sha256=eijW5dlXSLCtB7aY7CPfneIPsHV5vDlNZwY9BXFCJL4,1665968
+pyaqcv/opencv_world3411.dll,sha256=eBE4WZyunpq8HdNTUYY1pt9AxEDUBI8jPiOA_nAR_ag,56187904
+pyaqcv/pyaqcv.py,sha256=FkU_a7l-RITofK6Q-dUfl6R7JNHPTet7lDXgkn8web0,597801
+pyaqcv-1.1.40.0.dist-info/LICENSE.txt,sha256=jDhAhcffq3QKkJPRsbQcAu7QgJnI1CEvw4xVaR2Ah9I,1094
+pyaqcv-1.1.40.0.dist-info/METADATA,sha256=Ro6EzBHqIu-B6qgPunpsW6A2DQ0k8DRBPIz5DPXdZkk,424
+pyaqcv-1.1.40.0.dist-info/WHEEL,sha256=7vEhBWFkkJPZIzBrjWTYfLFfHbrZMkNPiDNhZ5SnRnY,99
+pyaqcv-1.1.40.0.dist-info/top_level.txt,sha256=dzYnRbMoyjCjgNaRYTyDXGVYblhOrdkw2uz4it4ptbI,7
+pyaqcv-1.1.40.0.dist-info/RECORD,,
