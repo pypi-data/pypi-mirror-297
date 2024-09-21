@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+simple-math-engine/__init__.py
+simple-math-engine/advanced_operations.py
+simple-math-engine/basic_operations.py
+simple_math_engine.egg-info/PKG-INFO
+simple_math_engine.egg-info/SOURCES.txt
+simple_math_engine.egg-info/dependency_links.txt
+simple_math_engine.egg-info/top_level.txt
