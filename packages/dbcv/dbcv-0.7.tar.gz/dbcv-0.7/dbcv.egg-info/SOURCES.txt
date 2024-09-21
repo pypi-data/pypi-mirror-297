@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+dbcv/__init__.py
+dbcv/_dbcv_float32np.py
+dbcv/_dbcv_float32p.py
+dbcv/_dbcv_float64np.py
+dbcv/_dbcv_float64p.py
+dbcv/main.py
+dbcv/setup_script.py
+dbcv/utils.py
+dbcv.egg-info/PKG-INFO
+dbcv.egg-info/SOURCES.txt
+dbcv.egg-info/dependency_links.txt
+dbcv.egg-info/requires.txt
+dbcv.egg-info/top_level.txt
