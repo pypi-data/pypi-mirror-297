@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+aiohttp
+firebase-admin
+pydicom
+python-multipart
+werkzeug
+python-dotenv

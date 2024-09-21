@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: easiofy-data-anonymization
+Version: 2.5
+Summary: A FastAPI application for DICOM data anonymization.
+Author: Easiofy Pvt Ltd
+Author-email: info@easiofy.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: aiohttp
+Requires-Dist: firebase-admin
+Requires-Dist: pydicom
+Requires-Dist: python-multipart
+Requires-Dist: werkzeug
+Requires-Dist: python-dotenv
+
+# Data Anonymization
+
+A FastAPI application for DICOM data anonymization.
+
+## Features
+
+- Fetch and manage DICOM files from Orthanc server
+- Anonymize DICOM files
+- Upload files to Firebase storage
+
+
+## Installation
+
+```sh
+pip install easiofy-data-anonymization

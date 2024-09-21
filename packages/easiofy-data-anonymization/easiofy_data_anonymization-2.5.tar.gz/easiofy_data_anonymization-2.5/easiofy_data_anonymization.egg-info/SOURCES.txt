@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+easiofy_data_anonymization/__init__.py
+easiofy_data_anonymization/api.py
+easiofy_data_anonymization/encrypted_creds.txt
+easiofy_data_anonymization.egg-info/PKG-INFO
+easiofy_data_anonymization.egg-info/SOURCES.txt
+easiofy_data_anonymization.egg-info/dependency_links.txt
+easiofy_data_anonymization.egg-info/entry_points.txt
+easiofy_data_anonymization.egg-info/requires.txt
+easiofy_data_anonymization.egg-info/top_level.txt
