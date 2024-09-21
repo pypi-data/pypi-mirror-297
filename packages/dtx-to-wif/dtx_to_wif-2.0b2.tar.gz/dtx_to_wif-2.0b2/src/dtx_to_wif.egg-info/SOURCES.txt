@@ -1,0 +1,28 @@
+.gitignore
+.pre-commit-config.yaml
+ReadMe.md
+license.txt
+pyproject.toml
+setup.cfg
+src/dtx_to_wif/__init__.py
+src/dtx_to_wif/drawdown_data.py
+src/dtx_to_wif/dtx_reader.py
+src/dtx_to_wif/run_dtx_to_wif.py
+src/dtx_to_wif/version.py
+src/dtx_to_wif/wif_reader.py
+src/dtx_to_wif/wif_writer.py
+src/dtx_to_wif.egg-info/PKG-INFO
+src/dtx_to_wif.egg-info/SOURCES.txt
+src/dtx_to_wif.egg-info/dependency_links.txt
+src/dtx_to_wif.egg-info/entry_points.txt
+src/dtx_to_wif.egg-info/top_level.txt
+tests/test_dtx_to_wif.py
+tests/test_wif_reader.py
+tests/data/expected wifs/many color single treadles.wif
+tests/data/expected wifs/two color liftplan.wif
+tests/data/expected wifs/two color multiple treadles.wif
+tests/data/expected wifs/two color single treadles.wif
+tests/data/level1/many color single treadles.dtx
+tests/data/level1/level2/two color liftplan.dtx
+tests/data/level1/level2/two color multiple treadles.dtx
+tests/data/level1/level2/two color single treadles.dtx
