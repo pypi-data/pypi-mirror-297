@@ -1,0 +1,9 @@
+structure_clustering/__init__.py,sha256=uNjt5VYfW2_rRevujh-GZmbyF4xwTdyLyBpmAuBNK7s,217
+structure_clustering/__main__.py,sha256=j3G5dTB3x1ypd8Laz2k-dYh1D4HcnDl2yfOGsA5LBq4,4449
+structure_clustering/_core.cp312-win_amd64.pyd,sha256=BJo7MnS-ZDEYWuXiGiosbfX1BxCprvmeDzPlXT3PcF4,242176
+structure_clustering/import_multi_xyz.py,sha256=Y2iDmc7-3WcdQW5P_mCp7_F3jc902PxOTSYUhbjm6rs,2863
+structure_clustering-1.1.2.dist-info/METADATA,sha256=mopbv6HUj6WP84qysd4qAqc-EwIdkIckYBS7nWqUCcI,6648
+structure_clustering-1.1.2.dist-info/WHEEL,sha256=K3JbDcnQCyQ5GzlWXlnxiomcfeI_QIcFOP-5uY6yaSM,106
+structure_clustering-1.1.2.dist-info/entry_points.txt,sha256=ymksg02skwQtst2sAz5VNlDQvtc9ccGYbbMndfp_bvA,77
+structure_clustering-1.1.2.dist-info/licenses/LICENSE,sha256=zymnasymi6agR6Naf0tB5bmdHk3jZZL1Jh3WLoMb4Nc,1091
+structure_clustering-1.1.2.dist-info/RECORD,,
