@@ -1,0 +1,64 @@
+#!/usr/bin/env python
+import argparse
+import logging
+import sys
+
+from pyshover import Pushover, PushoverException
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+log = logging.getLogger("pushover")
+log.setLevel(logging.WARNING)
+ERR = 1
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Send notifications using Pushover API"
+    )
+    parser.add_argument(
+        "--app_token",
+        help="Pushover app token. If unset, will attempt to use PUSHOVER_APP_TOKEN from environment",
+    )
+    parser.add_argument(
+        "--user_token",
+        help="Pushover user token. If unset, will attempt to use PUSHOVER_USER_TOKEN from environment",
+    )
+    parser.add_argument(
+        "--device_token",
+        help="Pushover device token. If unset, will attempt to use PUSHOVER_DEVICE_TOKEN from environment",
+    )
+    parser.add_argument("--title", "-t", help="Title of the message", default=None)
+    parser.add_argument("--message", "-m", help="Message to send", default=None)
+
+    args = parser.parse_args()
+
+    if args.title is None:
+        print("No title provided via '--title' or '-t'", file=sys.stderr)
+        sys.exit(ERR)
+    if args.message is None:
+        print("No message provided via '--message' or '-m'", file=sys.stderr)
+        sys.exit(ERR)
+
+    try:
+        pushover = Pushover(
+            app_token=args.app_token,
+            user_token=args.user_token,
+            device_token=args.device_token,
+            title=args.title,
+            message=args.message,
+        )
+
+        response = pushover.send()
+        log.info(f"Message sent successfully. Response: {response}")
+
+    except PushoverException as e:
+        log.error(f"Error sending message: {e}")
+        sys.exit(ERR)
+
+
+if __name__ == "__main__":
+    main()
