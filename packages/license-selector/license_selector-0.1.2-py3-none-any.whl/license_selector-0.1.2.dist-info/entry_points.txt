@@ -1,0 +1,2 @@
+[console_scripts]
+license-selector = license_selector:run_selector
