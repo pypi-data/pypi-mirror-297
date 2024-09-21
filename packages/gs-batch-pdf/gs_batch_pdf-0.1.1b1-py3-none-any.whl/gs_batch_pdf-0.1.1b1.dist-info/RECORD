@@ -1,0 +1,7 @@
+gs_batch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_batch/gs_batch.py,sha256=3xkrs3vqYQNrM2EpC8WA5YhTYnCzT67rbZN1nt1hRH0,8391
+gs_batch_pdf-0.1.1b1.dist-info/entry_points.txt,sha256=jntThOsbCi-m0iIId3q1stQUrAOYdAhZ005SGVCWRQQ,86
+gs_batch_pdf-0.1.1b1.dist-info/LICENSE,sha256=SwjRCeQIU-0Y8E7i2NE8xEgSFBs0SHjah1d9vQUYZ50,1082
+gs_batch_pdf-0.1.1b1.dist-info/METADATA,sha256=47qC1wx_eZV9etk5EXfgVntXwXiT--OUJqeKzl19MUE,3904
+gs_batch_pdf-0.1.1b1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gs_batch_pdf-0.1.1b1.dist-info/RECORD,,
