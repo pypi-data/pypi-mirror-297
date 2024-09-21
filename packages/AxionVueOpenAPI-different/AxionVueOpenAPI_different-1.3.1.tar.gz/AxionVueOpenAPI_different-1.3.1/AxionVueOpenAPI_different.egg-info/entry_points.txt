@@ -1,0 +1,2 @@
+[console_scripts]
+AxionVueOpenAPI_different = AxionVueOpenAPI.cli:__init__
