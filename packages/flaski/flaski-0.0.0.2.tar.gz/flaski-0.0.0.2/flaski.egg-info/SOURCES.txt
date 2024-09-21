@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+flask_crud/__init__.py
+flask_crud/manage.py
+flask_crud/view.py
+flaski.egg-info/PKG-INFO
+flaski.egg-info/SOURCES.txt
+flaski.egg-info/dependency_links.txt
+flaski.egg-info/requires.txt
+flaski.egg-info/top_level.txt
