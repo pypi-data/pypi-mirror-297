@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/gradio_customradiocard.egg-info/PKG-INFO
+src/gradio_customradiocard.egg-info/SOURCES.txt
+src/gradio_customradiocard.egg-info/dependency_links.txt
+src/gradio_customradiocard.egg-info/entry_points.txt
+src/gradio_customradiocard.egg-info/requires.txt
+src/gradio_customradiocard.egg-info/top_level.txt
+tests/test_simple.py
