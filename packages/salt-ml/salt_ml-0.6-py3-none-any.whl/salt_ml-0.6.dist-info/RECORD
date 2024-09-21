@@ -1,0 +1,10 @@
+salt/__init__.py,sha256=ncKOhmMshkKH0hADIDc1EohSZbPVhx6HkN9Q9lGRlpc,20
+salt/main.py,sha256=k080VQ4T6Qt7tFOwFnuDZeIEKf5x9Yyr9Zx7kDr99v0,849
+salt/modelwrapper.py,sha256=rxL6hk7tTiEpLKmADqfH0wC9_b-eGRs2cb3IsQxr9D8,8849
+salt/stypes.py,sha256=YrnZOfdpYNFrpanHeQEKc0oHAyiyXFMtpJr3T18INoc,249
+salt_ml-0.6.dist-info/LICENSE,sha256=xhKDC68K3tkxStAz7NqUflkVqfvXR_Zw4nsWbsisXq8,1052
+salt_ml-0.6.dist-info/METADATA,sha256=XOI1YNi7hA77jnm1jNKZvS1Q4ZBxkFARBlI-3-4BKAU,1089
+salt_ml-0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+salt_ml-0.6.dist-info/entry_points.txt,sha256=U3e3HaUskBtZQMhevO_XNhXDZyxP4DNVpe9USQZIVEE,317
+salt_ml-0.6.dist-info/top_level.txt,sha256=BqSzl_xwRerFJ8Kuw_9GzuXOMAFsdg8jjCbnmQL-Z7Y,5
+salt_ml-0.6.dist-info/RECORD,,
