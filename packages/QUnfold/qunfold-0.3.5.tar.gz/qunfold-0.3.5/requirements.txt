@@ -1,0 +1,7 @@
+numpy
+scipy
+jax
+matplotlib
+dwave-ocean-sdk
+scikit-learn
+tqdm
