@@ -1,0 +1,3 @@
+[console_scripts]
+marshal_hi=marshal_hi.cli:run
+
