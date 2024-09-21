@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nblock
+Version: 0.0.6
+Summary: nblock for nsearch
+Home-page: 
+Maintainer-email: fredzenobius@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: selenium==3.141.0
+Requires-Dist: urllib3==1.26.12
+Requires-Dist: requests
+Requires-Dist: pyperclip
+Requires-Dist: chromedriver-autoinstaller
+Requires-Dist: fake-useragent
+Requires-Dist: tqdm
+
+# nblock
+
+## Installaion (설치)
+
+cmd창을 열어서 하단의 코드를 입력 후 실행.
+
+```bash
+pip install nblock
+```
