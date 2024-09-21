@@ -1,0 +1,1 @@
+# modgeosys-fast-graph-algorithms: Generic CPU-parallelization- and CUDA-GPU-acceleratable navigation algorithms
