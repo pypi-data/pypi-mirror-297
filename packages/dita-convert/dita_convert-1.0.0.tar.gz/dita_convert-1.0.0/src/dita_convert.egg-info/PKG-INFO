@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dita-convert
+Version: 1.0.0
+Summary: Convert a generic DITA topic to a specialized concept, task, or reference.
+Author-email: Jaromir Hradilek <jhradilek@gmail.com>
+Project-URL: Homepage, https://github.com/jhradilek/dita-custom-xslt
+Project-URL: Repository, https://github.com/jhradilek/dita-custom-xslt
+Project-URL: Issues, https://github.com/jhradilek/dita-custom-xslt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Documentation
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: lxml>=4.9.2
