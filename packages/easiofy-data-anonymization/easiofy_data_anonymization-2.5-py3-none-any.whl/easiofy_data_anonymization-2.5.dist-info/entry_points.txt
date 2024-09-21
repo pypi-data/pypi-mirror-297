@@ -1,0 +1,2 @@
+[console_scripts]
+easiofy-data-anonymization = easiofy_data_anonymization.api:main
