@@ -1,0 +1,2 @@
+[console_scripts]
+trivy-to-google-sheets = trivy_to_google_sheets.trivy_to_google_sheets:main

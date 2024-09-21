@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+trivy_to_google_sheets/__init__.py
+trivy_to_google_sheets/trivy_to_google_sheets.py
+trivy_to_google_sheets.egg-info/PKG-INFO
+trivy_to_google_sheets.egg-info/SOURCES.txt
+trivy_to_google_sheets.egg-info/dependency_links.txt
+trivy_to_google_sheets.egg-info/entry_points.txt
+trivy_to_google_sheets.egg-info/requires.txt
+trivy_to_google_sheets.egg-info/top_level.txt
