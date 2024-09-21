@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: substack-python
+Version: 0.1.0rc1
+Summary: An unofficial Python Package to interact with Substack.
+Author-email: Aayushshah196 <aayushshah196@gmail.com>
+License: MIT License
+License-File: LICENSE
+Keywords: substack,substack automation,substack-api,substack-python,substack-wrapper
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: loguru==0.6.0
+Requires-Dist: markdown>=3.7
+Requires-Dist: pydantic==2.7.4
+Requires-Dist: requests==2.26.0
+Description-Content-Type: text/markdown
+
+# substack-python
