@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: libttp
+Version: 0.1.43
+Summary: Libraries for reading the data from time-tagging module (BrightEyes-TTM, https://github.com/VicidominiLab/BrightEyes-TTM)
+Home-page: https://github.com/VicidominiLab/libttp
+Author: Mattia Donato
+Author-email: mattia.donato@iit.it
+License: CC-BY-NC-4.0
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+UNKNOWN
+

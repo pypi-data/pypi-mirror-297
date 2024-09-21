@@ -1,0 +1,6 @@
+cython>=0.29.30
+matplotlib
+numpy>=1.22.0
+pandas
+scipy
+tdqm
