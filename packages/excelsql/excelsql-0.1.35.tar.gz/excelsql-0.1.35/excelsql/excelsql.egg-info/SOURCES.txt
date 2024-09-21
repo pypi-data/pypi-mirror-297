@@ -1,0 +1,8 @@
+README.md
+setup.py
+excelsql/excelsql.egg-info/PKG-INFO
+excelsql/excelsql.egg-info/SOURCES.txt
+excelsql/excelsql.egg-info/dependency_links.txt
+excelsql/excelsql.egg-info/requires.txt
+excelsql/excelsql.egg-info/top_level.txt
+test/test.py
