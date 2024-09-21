@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rightnow
+Version: 1.0.2
+Summary: Default template for PDM package
+Author-email: j25ng <jsan2861@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pytz>=2024.2
+
+# rightnow
+
+### usage
+```bash
+$ pdm add rightnow
+```
+```py
+from rightnow import time
+
+time.now()
+```
