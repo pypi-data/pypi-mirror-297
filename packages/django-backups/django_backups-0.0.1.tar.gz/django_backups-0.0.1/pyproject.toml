@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-backups"
+version = "0.0.1"
+authors = [
+
+]
+description = "Django package for backing up databases."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Django",
+    "boto3",
+    "celery",
+    "psycopg2",
+    "python-dotenv",
+
+    "amqp",
+    "asgiref",
+    "billiard",
+    "botocore",
+    "click",
+    "click-didyoumean",
+    "click-plugins",
+    "click-repl",
+    "jmespath",
+    "kombu",
+    "prompt_toolkit",
+    "python-dateutil",
+    "s3transfer",
+    "six",
+    "sqlparse",
+    "tzdata",
+    "urllib3",
+    "vine",
+    "wcwidth",
+]
