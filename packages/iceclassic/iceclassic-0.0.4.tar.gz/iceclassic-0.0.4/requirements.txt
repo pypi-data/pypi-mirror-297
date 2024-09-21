@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+scipy
+plotly
+seaborn
+geopandas
+datetime 
+io
+request

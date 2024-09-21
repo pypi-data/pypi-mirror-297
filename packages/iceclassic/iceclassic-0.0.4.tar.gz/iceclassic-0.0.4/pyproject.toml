@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build" 
+[project]
+name = "iceclassic"
+authors = [{ name="Gabriel Follet", email="g.f.follet@tudelft.nl" },]
+description = "A small example package for the iceclassic challenge during MUDE course"
+readme = "README.md"
+version = "0.0.4"
+license = { file = "LICENSE.md" } 
+requires-python = ">=3.8"
+dependecies=[
+    "matplotlib>=3.5,<3.6",
+    "numpy>=1.21,<1.22",
+    "pandas>=1.3,<1.4",
+    "scipy>=1.7,<1.8",
+    "plotly>=5.3,<5.4",
+    "requests>=2.26,<2.27",
+    "seaborn>=0.11,<0.12",
+    "geopandas>=0.10,<0.11",
+    "datetime",
+    "io",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Intended Audience :: Education",
+    "Development Status :: 1 - Planning",
+    "Operating System :: OS Independent",]
+
+[project.urls]
+Homepage = "https://github.com/iceclassic/iceclassic"
+Issues = "https://github.com/iceclassic/iceclassic/issues"
+
+
+ 
+[tool.hatch.build.targets.wheel]
+packages = ["src/iceclassic"]
