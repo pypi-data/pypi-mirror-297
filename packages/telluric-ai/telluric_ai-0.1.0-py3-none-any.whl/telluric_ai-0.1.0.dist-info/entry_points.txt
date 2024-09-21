@@ -1,0 +1,2 @@
+[console_scripts]
+my_project_cli = my_project.your_module:main
