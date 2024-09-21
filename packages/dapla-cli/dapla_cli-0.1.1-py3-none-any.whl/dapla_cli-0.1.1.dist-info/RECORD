@@ -1,0 +1,14 @@
+dp/__init__.py,sha256=Rt5DsAxzPReDfx-lnEEhRi8rIm4v0AR9-kgahVEeFvY,17
+dp/__main__.py,sha256=4jbaY8JZQBE4fRhTZX-_MduQX3cHy5eIR8ACgwWTTWQ,43
+dp/annotations.py,sha256=cgx02eOrUnuG6RXt1i44anSt-9ktm6KoqSV9fPr7kZQ,729
+dp/auth.py,sha256=z3Llda2FUHi4VRgoLKtpOO5PKBPKD-EgQfZ7wicusmc,9042
+dp/config.py,sha256=UH2WcfBH786NSXOvItl0GB_UwgWhw1m1eu-aHsaIjeU,1660
+dp/lab.py,sha256=pzgWBOuyPql6GOdvezhCZcSyDbUUDI9RNPVXCdrrsaA,15356
+dp/main.py,sha256=9igeQcL9V1Jlp4ILeCaGe4kqRghVvD3JZ75ioe9UJUM,897
+dp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dp/utils.py,sha256=JpX2QeSpRuLGX3Yu0CGY-b3xJ5GQoV8TsECsFOXJij4,2595
+dapla_cli-0.1.1.dist-info/LICENSE,sha256=np3IfD5m0ZUofn_kVzDZqliozuiO6wrktw3LRPjyEiI,1073
+dapla_cli-0.1.1.dist-info/METADATA,sha256=qGJfwAsDnoD-GHdkbpFmasevOs12x-OKt3t70voHYFU,4700
+dapla_cli-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dapla_cli-0.1.1.dist-info/entry_points.txt,sha256=4ZSo_W3yW2ovPYkQo2wiJPLPD_mOHiitbgun4uvBZPE,34
+dapla_cli-0.1.1.dist-info/RECORD,,
