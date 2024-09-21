@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: TOOLS-IDM
+Version: 2.1.1
+Summary: Script ESS:)
+Home-page: https://github.com/username/repo
+Author: Nama Anda
+Author-email: email@domain.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
