@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+django_unmanaged_assistant/__init__.py
+django_unmanaged_assistant/apps.py
+django_unmanaged_assistant.egg-info/PKG-INFO
+django_unmanaged_assistant.egg-info/SOURCES.txt
+django_unmanaged_assistant.egg-info/dependency_links.txt
+django_unmanaged_assistant.egg-info/top_level.txt
+django_unmanaged_assistant/management/__init__.py
+django_unmanaged_assistant/management/commands/__init__.py
+django_unmanaged_assistant/management/commands/create_databases.py
+django_unmanaged_assistant/management/commands/create_unmanaged_tables.py
+requirements/base.txt
