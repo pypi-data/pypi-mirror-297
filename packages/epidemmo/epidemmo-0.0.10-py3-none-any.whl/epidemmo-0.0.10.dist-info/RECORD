@@ -1,0 +1,12 @@
+epidemmo/__init__.py,sha256=5ivDsozZysp6DdJVYiWEbqXJAxnUCNhVm1nG-LDsl_A,100
+epidemmo/builder.py,sha256=jaddr_WKvemvTouVgzZB7x7z3G7EVcZWoKuWAri7jWA,8781
+epidemmo/factor.py,sha256=CjoPZhKu7Kg-MRrlNebL6nnypYdNGMPrFbGTGs642pI,5368
+epidemmo/flow.py,sha256=lhyhvNtAZiUl46A5wJWPX1FaAiTuLds0ToXp0ipMHjQ,8600
+epidemmo/model.py,sha256=Ge2EDDfGZ0VEvJbFRAV4k6DOteOGMYimRy7kQPQU-Ik,10422
+epidemmo/model_io.py,sha256=vsvBQlDjIS2J1e3rrkcuH9gblmmPWA_F6F5b_7ZRZWg,3636
+epidemmo/stage.py,sha256=vzNW5XRBtRA37dhIlANhVDtP4TBY74PFHm0cdC_tyBI,4551
+epidemmo/template.py,sha256=EQAFHCt-WHzLMQmjYj74OUKw-IlsLa8s9847dHBsNSY,2640
+epidemmo-0.0.10.dist-info/METADATA,sha256=Hw0fSLIaa-K3zzUclV_-nWe8NbXrYaYQqEghIFnYEv4,5259
+epidemmo-0.0.10.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+epidemmo-0.0.10.dist-info/licenses/LICENSE,sha256=sxpCTO5z0upc4zJ-z_DqQZfvuaCgFvJ17VkEloMG7Lc,1093
+epidemmo-0.0.10.dist-info/RECORD,,
