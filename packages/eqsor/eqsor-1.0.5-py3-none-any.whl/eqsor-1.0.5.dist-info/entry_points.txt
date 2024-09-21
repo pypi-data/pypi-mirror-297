@@ -1,0 +1,2 @@
+[console_scripts]
+eqsor = eqsor.cli:main
