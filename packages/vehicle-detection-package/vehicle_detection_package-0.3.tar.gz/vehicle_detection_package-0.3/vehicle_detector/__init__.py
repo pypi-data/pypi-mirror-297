@@ -1,0 +1,1 @@
+from vehicle_detection import test_model_on_rtsp_stream
