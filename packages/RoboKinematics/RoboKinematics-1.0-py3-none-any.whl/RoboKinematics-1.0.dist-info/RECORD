@@ -1,0 +1,15 @@
+Examples/2DOF.py,sha256=144I-J4f1QQqqyDd9Q8iScdb-gU4pVnetm41hO0WTfc,2131
+Examples/4DOF.py,sha256=IfVldYdh_BRVGJzbqwf3_rmAJ9BTABwDmPC1wQwlmCw,2400
+Examples/6DOF.py,sha256=gR1N6Z9hPSxESV-WoYRgYKikhrcJfKsj26-t-dlqh9M,2776
+Examples/Puma560.py,sha256=fY2A-LCMdiUBj1qs52eQaUBT7w2T5VReLdb-WnDP1Bs,2528
+Examples/SCARA.py,sha256=kcbayPAPG-esZoZOaxZv5B9CC_kygEg6rwg3Qwfj5A4,2357
+Examples/SCARA4DOF.py,sha256=kCMDPz-S30eIy_wFwSu7O4MwooRk4j2jWptlr01ZNZA,2414
+Examples/SCARACLIENT.py,sha256=j4jmiFbAIzGHhR7_iouJ5hduIxWu_YiZZGUiHnq10rE,3190
+Examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/RoboKinematics.py,sha256=7UDthK66SgiRFUMtY1zJys0ahB8IjnVpPepMBxBs_xU,25846
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RoboKinematics-1.0.dist-info/LICENSE,sha256=p9ajVV5wskkaO8L6kq0TRuT3nsf0OqQ7Mm2v-kEi7mI,11344
+RoboKinematics-1.0.dist-info/METADATA,sha256=ChFAZiNqIsFE_ZegXLLSyDRCYGQ3vo7OtdvVt0UjWZ0,675
+RoboKinematics-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+RoboKinematics-1.0.dist-info/top_level.txt,sha256=g4SOelMOfN8gTtlrLT_8KDC_EzzUGZ2WvVBw3dcHbvo,13
+RoboKinematics-1.0.dist-info/RECORD,,
