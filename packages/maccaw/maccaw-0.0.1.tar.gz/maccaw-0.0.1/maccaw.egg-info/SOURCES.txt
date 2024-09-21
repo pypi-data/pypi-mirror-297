@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+maccaw/__init__.py
+maccaw/maccaw.py
+maccaw/main.py
+maccaw.egg-info/PKG-INFO
+maccaw.egg-info/SOURCES.txt
+maccaw.egg-info/dependency_links.txt
+maccaw.egg-info/requires.txt
+maccaw.egg-info/top_level.txt
