@@ -1,0 +1,12 @@
+{
+  "citation":{
+    "authors":{
+      "name": ["given-names", "family-names"]
+    }
+  },
+  "codeMeta20":{
+    "software_requirements":{
+      "softwareRequirements": ["name","version"]
+    }
+  }
+}
