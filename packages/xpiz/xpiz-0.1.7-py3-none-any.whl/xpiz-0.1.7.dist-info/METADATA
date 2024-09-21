@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xpiz
+Version: 0.1.7
+Summary: My short description for my project.
+Home-page: https://github.com/franceme/xpiz
+Author: Miles Frantz
+Author-email: frantzme@vt.edu
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: mystring ; extra == 'tests'
+Requires-Dist: unittest ; extra == 'tests'
+Requires-Dist: ephfile ; extra == 'tests'
+Requires-Dist: hugg ; extra == 'tests'
+
+# PythonTemplate
+
+Simple Template
