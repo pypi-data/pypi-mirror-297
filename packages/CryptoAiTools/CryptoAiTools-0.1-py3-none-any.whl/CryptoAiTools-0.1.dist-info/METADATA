@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CryptoAiTools
+Version: 0.1
+Summary: A Python toolkit to create and manage crypto trading bots
+Author: CryptoAi
+Requires-Dist: ccxt
+Requires-Dist: pandas
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: pillow (==10.3.0)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: PyQt5 (==5.15.10)
+Requires-Dist: pyzipper (==0.3.6)
+
