@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ChemTraYzer
+Version: 3.0.0b3
+Summary: Reaction models from molecular dynamics simulations.
+Keywords: molecular dynamics,reaction mechanism,chemistry,reaction mechanism generation,quantum mechanics,automated workflows,reaction network,reaction kinetics
+Maintainer-Email: The ChemTraYzer Maintainers <chemtrayzer@ltt.rwth-aachen.de>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Project-URL: Repository, https://git-ce.rwth-aachen.de/ltt/chemtrayzer/
+Project-URL: Documentation, https://ltt.pages.git-ce.rwth-aachen.de/chemtrayzer/
+Requires-Python: >=3.10
+Requires-Dist: numpy<3,>=1.20
+Requires-Dist: scipy<2,>=1.8
+Requires-Dist: networkx<4,>=3.0
+Requires-Dist: tomli>=2.0.1; python_version < "3.11"
+Requires-Dist: plams==1.5.1
+Requires-Dist: rdkit>=2022.9.1
+Requires-Dist: sphinx<7.0; extra == "doc"
+Requires-Dist: sphinx-rtd-theme; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: somesy>=0.3.1; extra == "doc"
+Requires-Dist: pytest<8,>=7.1.2; extra == "dev"
+Requires-Dist: chemtrayzer[doc]; extra == "dev"
+Provides-Extra: doc
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# ChemTraYzer 3.0
+
+Documentation: https://ltt.pages.git-ce.rwth-aachen.de/ChemTraYzer/
+
+Versions 1.X can be found [on sourceforge](https://sourceforge.net/projects/chemtrayzer/) while
+version 2 is implemented as [AMS Workflow](https://www.scm.com/doc/Workflows/ChemTraYzer2/ChemTraYzer2.html).
+
