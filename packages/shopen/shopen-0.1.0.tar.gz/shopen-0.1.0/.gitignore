@@ -1,0 +1,15 @@
+/src/shopen/_version.py
+
+*.pyc
+build/
+dist/
+shopen.egg-info
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ropeproject/
+.ruff_cache/
+.env/
+.venv/
+
+/.jj/
