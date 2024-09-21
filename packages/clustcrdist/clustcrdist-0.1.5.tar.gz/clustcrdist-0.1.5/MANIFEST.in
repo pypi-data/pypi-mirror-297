@@ -1,0 +1,3 @@
+recursive-include clustcrdist/constants/data *.tsv *.csv *.txt
+recursive-include clustcrdist/constants/modules *
+recursive-include clustcrdist/data/ *
