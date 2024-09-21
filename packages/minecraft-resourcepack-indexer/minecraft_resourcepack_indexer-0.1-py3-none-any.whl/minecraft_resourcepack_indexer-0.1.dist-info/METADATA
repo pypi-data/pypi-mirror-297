@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: minecraft_resourcepack_indexer
+Version: 0.1
+Requires-Dist: argparse
+Requires-Dist: os
+Requires-Dist: shutil
+Requires-Dist: tempfile
+Requires-Dist: zipfile
+

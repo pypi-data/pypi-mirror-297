@@ -1,0 +1,2 @@
+[console_scripts]
+minecraft_resourcepack_indexer = minecraft_resourcepack_indexer.main:main
