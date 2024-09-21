@@ -1,0 +1,3 @@
+[console_scripts]
+marshal-cli-tool = my_cli_tool.cli:main
+
