@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aiowpi
+Version: 0.1.0
+Summary: Async Python client for the World of Warships API.
+Author-email: INTMAX <INT_MAX@hotmail.com>
+License: MIT
+Keywords: async,wows,api,client,aiolimiter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiolimiter
+
