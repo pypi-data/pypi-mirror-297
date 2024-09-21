@@ -1,0 +1,14 @@
+keplertools/CyKeplerSTM.cp312-win_amd64.pyd,sha256=1GkXjelggEFAws_VWgJ6EsDRkeQohB56bMl_abZzUaE,69120
+keplertools/CyRV.cp312-win_amd64.pyd,sha256=4KlzD1AsiDQJd3DBpWd9Jh1x_q8BZaXO6N0mdYpTxHM,78848
+keplertools/Cyeccanom.cp312-win_amd64.pyd,sha256=z5mVRKDHWSbgQt5q7fiRbsOEO38EeGFTAvW5hSJ910Y,74240
+keplertools/__init__.py,sha256=FVq004pBZ4Y2xZuTlXB_Ae38iHRW5v-j8XJAPNOQ-To,45
+keplertools/fun.py,sha256=aqNGvMOi74zGfQ1gVpn1OLgKb9CKOxGkTk8TV8K_7Zo,47773
+keplertools/keplerSTM.py,sha256=vNNyeGjW3xnhDa9kv47P9Z_QqLvPxnZIf_OeE0PLvUc,12643
+keplertools/KeplerSTM_C/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keplertools/RV_C/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keplertools/eccanom_C/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keplertools-1.1.1.dist-info/LICENSE,sha256=6QjmKemvuXXfKNDNn1xVe71qe6U14ZacUjW5oJxuNJE,1587
+keplertools-1.1.1.dist-info/METADATA,sha256=a_AicjfWPL0uR2ammVYgRHkl6yBnC5pLbBQR95yBbu0,1641
+keplertools-1.1.1.dist-info/WHEEL,sha256=3vidnDuZ-QSnHIxLhNbI1gIM-KgyEcMHuZuv1mWPd_Q,101
+keplertools-1.1.1.dist-info/top_level.txt,sha256=Pqf1pdICh9rrFzMp_fSvclTq25UyeGihupTHd5-CLB4,12
+keplertools-1.1.1.dist-info/RECORD,,
