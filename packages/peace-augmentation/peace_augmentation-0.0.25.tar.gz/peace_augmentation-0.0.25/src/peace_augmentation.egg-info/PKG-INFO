@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: peace-augmentation
+Version: 0.0.25
+Summary: PEACE method Augmentation package
+Author-email: Nicolás Benjamín Ocampo <nicolasbenjaminocampo@gmail.com>, Greta Damo <greta.damo@inria.fr>, Stéphane Petiot <stephane.petiot@hotmail.fr>
+Maintainer-email: Nicolás Benjamín Ocampo <nicolasbenjaminocampo@gmail.com>, Greta Damo <greta.damo@inria.fr>, Stéphane Petiot <stephane.petiot@hotmail.fr>
+Project-URL: Homepage, https://github.com/StephanePetiot/peace-augmentation
+Project-URL: Issues, https://github.com/StephanePetiot/peace-augmentation/issues
+Keywords: peace,augmentation,peace-augmentation,hate,hate speech,Providing Explanation and Analysis for Combating Hate Expressions
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: flair[word-embeddings]
+Requires-Dist: torch
+Requires-Dist: scipy
+
+# peace-augmentation
+PEACE Method Augmentation package
