@@ -1,0 +1,22 @@
+xpmtd
+lmtracker
+looming_spots
+daq_loader
+magicgui
+napari[all]
+
+[:platform_system == "Linux"]
+PyQt5==5.14
+
+[:platform_system == "Windows"]
+PyQt5
+
+[dev]
+pytest
+pytest-cov
+coverage
+tox
+mypy
+pre-commit
+ruff
+setuptools_scm
