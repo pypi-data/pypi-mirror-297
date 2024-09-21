@@ -1,0 +1,57 @@
+Metadata-Version: 2.3
+Name: levelz
+Version: 0.1.1
+Summary: Python bindings for the LevelZ File Format
+Project-URL: Homepage, https://github.com/LevelZ-File/py-bindings
+Project-URL: Issues, https://github.com/LevelZ-File/py-bindings/issues/new/choose
+Author: Calculus Games
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# levelz-py
+
+> Python bindings & API for the LevelZ File Format
+
+![GitHub Release](https://img.shields.io/github/v/release/LevelZ-File/py-bindings)
+
+## Overview
+
+Provides Python Parsing/Support for the LevelZ File Format. 
+
+## Download
+
+```bash
+pip install levelz
+```
+
+## Usage
+
+```py
+from levelz import Coordiante2D
+
+coord = Coordiante2D(1, 2)
+print(coord)
+```
+
+```py
+from levelz import parse_lines, Level2D
+
+lines = [
+    "@type 2",
+    "@spawn default",
+    "---",
+    "grass: [0, 0]*[0, 1]"
+]
+
+level: Level2D = parse_lines(lines)
+```
+
+```py
+from levelz import parse_file
+
+level = parse_file("level.lvlz")
+print(level)
+```

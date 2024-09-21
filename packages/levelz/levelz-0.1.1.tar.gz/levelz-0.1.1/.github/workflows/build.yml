@@ -1,0 +1,62 @@
+name: Build Project
+
+on:
+  push:
+    branches: [ master, ver/* ]
+  pull_request:
+    branches: [ master, ver/* ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10' 
+        cache: 'pip'
+    - name: Build Project
+      run: python -m compileall levelz
+    
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - name: Run Tests
+      run: |
+        pip install pytest pytest-cov
+        pytest --cov=levelz test/ --cov-report term-missing
+  
+  deploy:
+    needs: test
+    if: ${{ github.event_name != 'pull_request' && github.ref_name == 'master' }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - name: Install Sphinx
+      run: |
+        pip install -U sphinx
+        pip install sphinx-autoapi sphinx_favicon sphinx_mdinclude
+    - name: Build Docs
+      run: sphinx-build docs docs/build
+    - name: Deploy Docs
+      run: bash sphinx.sh ${GITHUB_SHA::7}
