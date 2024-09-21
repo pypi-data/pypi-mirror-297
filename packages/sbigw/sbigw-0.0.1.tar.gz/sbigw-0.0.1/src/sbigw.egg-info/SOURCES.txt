@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/sbigw/__init__.py
+src/sbigw/example.py
+src/sbigw.egg-info/PKG-INFO
+src/sbigw.egg-info/SOURCES.txt
+src/sbigw.egg-info/dependency_links.txt
+src/sbigw.egg-info/top_level.txt
