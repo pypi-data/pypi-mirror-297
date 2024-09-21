@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: h2lib-tests
+Version: 13.1.504
+Summary: Tests and test_files for test h2lib (13.1.5+4-g20eca1a)
+Download-URL: 
+Author: Mads M Pedersen
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: hipersim
+Requires-Dist: wetb
+Requires-Dist: h2lib
+
