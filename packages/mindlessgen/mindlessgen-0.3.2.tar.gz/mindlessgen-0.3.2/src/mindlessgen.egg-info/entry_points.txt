@@ -1,0 +1,2 @@
+[console_scripts]
+mindlessgen = mindlessgen:console_entry_point
