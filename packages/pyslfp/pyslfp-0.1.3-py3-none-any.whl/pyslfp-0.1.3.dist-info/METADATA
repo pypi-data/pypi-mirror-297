@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyslfp
+Version: 0.1.3
+Summary: Library for computing elastic sea level fingerprints
+License: MIT
+Author: David Al-Attar
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Cartopy (>=0.23.0,<0.24.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1.1,<3.0.0)
+Requires-Dist: pyshtools (>=4.13.1,<5.0.0)
+Requires-Dist: scipy (>=1.14.1,<2.0.0)
+Requires-Dist: xarray (>=2024.9.0,<2025.0.0)
+Description-Content-Type: text/markdown
+
+
