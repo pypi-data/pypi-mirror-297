@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tests/test_peer_manager.py
+yggpeer/__init__.py
+yggpeer/peer_manager.py
+yggpeer.egg-info/PKG-INFO
+yggpeer.egg-info/SOURCES.txt
+yggpeer.egg-info/dependency_links.txt
+yggpeer.egg-info/top_level.txt
