@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip";
+}
+
+
+
+[data-md-color-scheme="default"] {
+  --md-hue: 210; 
+  --md-primary-fg-color:        #3b332c;
+  --md-default-bg-color: #eee3c7;
+  /* --md-accent-fg-color: #FF0000; */
+  
+}
+[data-md-color-scheme="slate"] {
+  --md-hue: 210; 
+  --md-primary-fg-color:        #231e1a;
+  --md-default-bg-color: #002b36;
+  /* --md-accent-fg-color: #FF0000; */
+  
+}
+/* Slate theme */
+[data-md-color-scheme=slate] .md-tabs {
+  background-color: #231e1a;
+}
+
+/* Slate theme */
+[data-md-color-scheme=slate] .md-nav__item .md-nav__link--active {
+  color: #b519af;
+}
+
+/* Light theme */
+[data-md-color-scheme=default] .md-nav__item .md-nav__link--active {
+  color: #c462c1;
+}
+
+
+:root > * {
+  --md-code-font: "JetBrainsMono Nerd Font";
+  --md-code-hl-variable-color : #c88174;
+  
+
+
+}
+
+.md-typeset table:not([class]) th:not([align]){text-align:left}.md-typeset table:not([class]) th{
+min-width:10rem;
+padding:1.2rem 1.6rem;
+background-color:rgba(0, 0, 0, 1);
+color:#fff;
+vertical-align:top
+}
+
+.md-typeset a {
+color: var(--md-accent-fg-color);
+}
+
+article a:hover {
+text-decoration: underline;
+}
+
+
+
+/* Force header height and color */
+/* .md-header {
+  height: 50px;
+  background-color: #222;
+} */
+
+.md-header-nav__button.md-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.md-header-nav__button.md-logo img, .md-nav__button img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Sets the width of the center column a bit wider than default, so tables render better. */
+
+.md-grid {
+  max-width: 90rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.7rem;
+}
+
+
+/* Button Styles */
+
+/* Base styles for buttons under both themes, using CSS variables for theme consistency */
+button, .md-button {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  padding: 0.8em 1.2em;
+  border: 2px solid var(--md-default-bg-color); /* Consistent border color based on the theme */
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--md-default-bg-color); /* Default background color based on theme */
+  color: var(--md-text-color-on-background); /* Text color based on theme */
+  transition: background 0.3s ease;
+}
+
+/* Defining gradient start and end colors for each theme */
+[data-md-color-scheme="default"] {
+  --button-gradient-start: rgba(253, 246, 227, 0.8); /* Light theme gradient start */
+  --button-gradient-end: #fdf6e3; /* Light theme gradient end */
+}
+
+[data-md-color-scheme="slate"] {
+  --button-gradient-start: rgba(7, 54, 66, 0.8); /* Dark theme gradient start */
+  --button-gradient-end: #073642; /* Dark theme gradient end */
+}
+
+
+/* Blinking Cursor Animation */
+
+h1:first-of-type .text-char, h1:first-of-type .prefix {
+  opacity: 0; /* Start characters as invisible */
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for opacity and background */
+  background-color: transparent; /* Start with transparent background */
+  color: #839496; /* Solarized Base0 - default text color */
+  padding: 0 2px; /* Adds padding around each character */
+  border-radius: 2px; /* Rounded corners for the background */
+}
+
+h1:first-of-type .blinking-underscore {
+  display: inline-block;
+  width: 8px;
+  animation: blink 1s infinite step-end;
+  color: red; /* Distinct color for the blinking underscore */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}

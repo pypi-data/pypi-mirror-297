@@ -1,0 +1,2 @@
+recursive-include mkdocs_solarized/overrides *
+recursive-include mkdocs_solarized/templates *

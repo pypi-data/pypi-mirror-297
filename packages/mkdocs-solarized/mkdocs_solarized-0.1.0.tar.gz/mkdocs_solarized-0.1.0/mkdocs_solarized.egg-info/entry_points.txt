@@ -1,0 +1,5 @@
+[console_scripts]
+mkdocs-solarized-init = mkdocs_solarized.cli:main
+
+[mkdocs.themes]
+solarized = mkdocs_solarized
