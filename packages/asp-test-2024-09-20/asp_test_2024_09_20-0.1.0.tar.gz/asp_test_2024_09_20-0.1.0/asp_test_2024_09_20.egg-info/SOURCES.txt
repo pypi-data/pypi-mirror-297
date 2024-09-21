@@ -1,0 +1,5 @@
+setup.py
+asp_test_2024_09_20.egg-info/PKG-INFO
+asp_test_2024_09_20.egg-info/SOURCES.txt
+asp_test_2024_09_20.egg-info/dependency_links.txt
+asp_test_2024_09_20.egg-info/top_level.txt
