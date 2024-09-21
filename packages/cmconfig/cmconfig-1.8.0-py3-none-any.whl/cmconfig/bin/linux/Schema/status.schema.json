@@ -1,0 +1,175 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ports": {
+      "oneOf": [
+        { "$ref": "#/definitions/ClassicModulePorts" },
+        { "$ref": "#/definitions/ModularModulePorts" }
+      ]
+    },
+    "timeStamp": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "ports"
+  ],
+  "definitions": {
+    "ClassicModulePorts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "port": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "integer"
+          },
+          "linkup": {
+            "type": "boolean"
+          },
+          "linkQuality": {
+            "type": "integer"
+          },
+          "speed": {
+            "type": "string"
+          },
+          "txMsgs": {
+            "type": "integer"
+          },
+          "rxMsgs": {
+            "type": "integer"
+          },
+          "errMsgs": {
+            "type": "integer"
+          },
+          "sfpIsInserted": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "port",
+          "type",
+          "txMsgs",
+          "rxMsgs",
+          "errMsgs"
+        ]
+      }
+    },
+    "ModularModulePortStatus": {
+      "type": "object",
+      "properties": {
+        "inserted": {
+          "type": "boolean"
+        },
+        "linkup": {
+          "type": "boolean"
+        },
+        "linkQuality": {
+          "type": "integer"
+        },
+        "speed": {
+          "type": "integer"
+        },
+        "master": {
+          "type": "boolean"
+        },
+        "full": {
+          "type": "boolean"
+        },
+        "stats": {
+          "description": "Used by HS/LS variants",
+          "patternProperties": {
+            "^rx_cnt|tx_cnt|err$": {
+              "$corvusTypeName": "CountStats",
+              "type": "integer"
+            },
+            "^config_": { "type": "boolean" },
+            "^frame_": {
+              "$corvusTypeName": "FramesStats",
+              "type": "array",
+              "items": { "type": "integer" }
+            },
+            "^i2c1_": { "type": "integer" },
+            "^gpio_": { "type": "integer" }
+          }
+        },
+        "statistics": {
+          "description": "Used by EES and LORIS",
+          "type": "object",
+          "properties": {
+            "bytes": {
+              "$ref": "#/definitions/StatisticsCount"
+            },
+            "packets": {
+              "$ref": "#/definitions/StatisticsCount"
+            }
+          },
+          "required": [
+            "bytes",
+            "packets",
+            "link"
+          ]
+        }
+      }
+    },
+    "ModularModulePorts": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "base.schema.json#/definitions/PortType"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/ModularModulePortStatus"
+        }
+      }
+    },
+    "StatisticsCount": {
+      "oneOf": [
+        {
+          "description": "ees",
+          "type": "object",
+          "properties": {
+            "totaltx": {
+              "type": "integer"
+            },
+            "totalrx": {
+              "type": "integer"
+            },
+            "totalbadrx": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "totaltx",
+            "totalrx",
+            "totalbadrx"
+          ]
+        },
+        {
+          "description": "loris",
+          "type": "object",
+          "properties": {
+            "total_tx": {
+              "type": "integer"
+            },
+            "total_rx": {
+              "type": "integer"
+            },
+            "total_bad_rx": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "total_tx",
+            "total_rx",
+            "total_bad_rx"
+          ]
+        }
+      ]
+    }
+  }
+}
