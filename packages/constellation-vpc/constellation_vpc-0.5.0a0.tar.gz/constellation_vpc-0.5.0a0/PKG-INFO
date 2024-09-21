@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: constellation_vpc
+Version: 0.5.0a0
+Summary: The VPC Module for constellation-aws
+License: MIT
+Author: Coulter Stutz
+Author-email: coulterstutz@gmail.com
+Requires-Python: >=3.9.19
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# constallation-vpc
+## Version 0.5.0a0
+### **<span style="color:red;">Warning | Do Not Use for anything important</span>**
+**The version _0.5.0a0 is a package from the alpha stages and also pre-release** and has **undergone very minimal testing.** This version was built on `08/10/2024` Please use something more modern and closer to latest as this package is not secure for any actual use and its release serves archival means. 
+
+***
+### Changelist
+- #### **<span style="color:red;">0.5.0a0</span>**
+  - Added Peering Connection funcs to _vpc base class
+  - Created `PeeringConnection` class
