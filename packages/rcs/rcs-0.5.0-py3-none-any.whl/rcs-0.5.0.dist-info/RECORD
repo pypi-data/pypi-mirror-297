@@ -1,0 +1,6 @@
+rcs/__init__.py,sha256=oZTJBC0MuY8EluqE4HVQWMMPneYP_de66mfxdATBY0A,210
+rcs/main.py,sha256=PvqsJ_2e3kcVKR-iCj92Fh6kuedb8_VzKC2FjpoHmeQ,5967
+rcs/rcs_types.py,sha256=uDmbIeimANReAK8--T9aOoOpR-SEcOc0MC5WCQgxbEo,17852
+rcs-0.5.0.dist-info/METADATA,sha256=qDbmZsoHBlHEO0ZVoFxYkIwNJ72BbsPQh0EZuxuYt6M,1215
+rcs-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rcs-0.5.0.dist-info/RECORD,,
