@@ -1,0 +1,6 @@
+setup.py
+tharanitry/__init__.py
+tharanitry.egg-info/PKG-INFO
+tharanitry.egg-info/SOURCES.txt
+tharanitry.egg-info/dependency_links.txt
+tharanitry.egg-info/top_level.txt
