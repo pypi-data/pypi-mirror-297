@@ -1,0 +1,3 @@
+[console_scripts]
+my_demo=marshal_poetry_demo.main:run
+
