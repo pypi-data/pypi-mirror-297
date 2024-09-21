@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tkshadowfy/__init__.py
+tkshadowfy/shadow.py
+tkshadowfy.egg-info/PKG-INFO
+tkshadowfy.egg-info/SOURCES.txt
+tkshadowfy.egg-info/dependency_links.txt
+tkshadowfy.egg-info/requires.txt
+tkshadowfy.egg-info/top_level.txt
