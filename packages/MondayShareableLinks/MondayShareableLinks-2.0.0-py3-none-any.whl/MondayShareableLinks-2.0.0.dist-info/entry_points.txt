@@ -1,0 +1,3 @@
+[console_scripts]
+MondayShareableLinks = MondayShareableLinks.DisableShareLinks:main
+
