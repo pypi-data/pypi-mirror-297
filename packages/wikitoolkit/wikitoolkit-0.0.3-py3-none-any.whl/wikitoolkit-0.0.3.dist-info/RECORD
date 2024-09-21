@@ -1,0 +1,13 @@
+wikitoolkit/__init__.py,sha256=bFWIhLaP8EA7_8fmiH9woqfe1BJQd7mlakKzqm5g25U,203
+wikitoolkit/api.py,sha256=9NhOTH37Vq-bzdru_Ka2cY7TfByUNvo5Es876UUnpF0,11583
+wikitoolkit/links.py,sha256=LarsqxR-J8d8MdNn5fAF5x3WS5Sk9XATmGG7ifuX-p4,10994
+wikitoolkit/pageviews.py,sha256=nTmk-ce-u-UoptMAAKn67_h9YtCY6BcJmbhGwARinEs,5984
+wikitoolkit/quality.py,sha256=nFYppikw9VCKYFTIeXxDrjrgJMqAWxnF7ABCUO3TTT4,11099
+wikitoolkit/redirects.py,sha256=Z0gYHZ8aLqNboqYeibiMt1wthfqJ1VvxAXXIvCexIGw,18383
+wikitoolkit/revisions.py,sha256=LRTYn_R7we3mJsu1Y9H-PXsJTHUA2fkMjPUswrjzcv0,12255
+wikitoolkit/tools.py,sha256=bg5wnSA0z4cTNgqzyuld8PM6ORNpLvn-pGf5FD83WaU,2081
+wikitoolkit/topics.py,sha256=lJn1ax9D6al2U3CY9lRPap5ffzWN-qkZTZladOmYXOg,6520
+wikitoolkit-0.0.3.dist-info/METADATA,sha256=JYYPgWzKKvRCHBoCtFEPNGnNEEiMjNUCIuMyYmTFIfo,668
+wikitoolkit-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+wikitoolkit-0.0.3.dist-info/top_level.txt,sha256=B2cLbFw3_fqX9YKk60JZdLoe1NqF1f3MwLnGfA57N6w,12
+wikitoolkit-0.0.3.dist-info/RECORD,,
