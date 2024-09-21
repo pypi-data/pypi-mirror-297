@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RoboKinematics
+Version: 1.0.0
+Summary: A Python package for robotic applications, offering tools for forward and inverse kinematics, manipulator Jacobian calculations, and trajectory generation.
+Author: Silas Udofia
+Author-email: <silasudofia469@gmail.com>
+Keywords: python,kinematics package,forward kinematics,inverse kinematics,jacobian,trajectory
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+A Python package for robotic applications, offering tools for forward and inverse kinematics, manipulator Jacobian calculations, and trajectory generation.
