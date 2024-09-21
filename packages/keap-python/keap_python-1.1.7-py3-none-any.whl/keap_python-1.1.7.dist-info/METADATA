@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keap-python
+Version: 1.1.7
+Summary: Python SDK for Keap API with Django Integration
+Home-page: https://bitbucket.org/theapiguys/keap-python
+Author: Brandon @ TheAPIGuys
+Author-email: brandon@theapiguys.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: requests
+
+UNKNOWN
+
