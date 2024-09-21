@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: backendcommon
+Version: 0.0.1
+Summary: Empty package to prevent dependency confusion
+Author: Your Name
+Author-email: your.email@example.com
