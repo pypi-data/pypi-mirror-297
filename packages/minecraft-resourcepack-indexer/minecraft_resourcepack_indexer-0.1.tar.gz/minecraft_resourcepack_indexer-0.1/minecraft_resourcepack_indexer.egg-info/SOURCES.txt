@@ -1,0 +1,7 @@
+setup.py
+minecraft_resourcepack_indexer.egg-info/PKG-INFO
+minecraft_resourcepack_indexer.egg-info/SOURCES.txt
+minecraft_resourcepack_indexer.egg-info/dependency_links.txt
+minecraft_resourcepack_indexer.egg-info/entry_points.txt
+minecraft_resourcepack_indexer.egg-info/requires.txt
+minecraft_resourcepack_indexer.egg-info/top_level.txt
