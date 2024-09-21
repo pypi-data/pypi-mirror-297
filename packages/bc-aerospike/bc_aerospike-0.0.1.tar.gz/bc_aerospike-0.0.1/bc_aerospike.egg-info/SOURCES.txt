@@ -1,0 +1,6 @@
+setup.py
+bc-aerospike/__init__.py
+bc_aerospike.egg-info/PKG-INFO
+bc_aerospike.egg-info/SOURCES.txt
+bc_aerospike.egg-info/dependency_links.txt
+bc_aerospike.egg-info/top_level.txt
