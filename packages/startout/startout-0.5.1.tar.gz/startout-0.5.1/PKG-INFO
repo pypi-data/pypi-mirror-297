@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: startout
+Version: 0.5.1
+Summary: Draft version of the StartOut CLI'
+Author: Trenton Yo
+Author-email: askstartout@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: parameterized (>=0.9.0,<0.10.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.2,<7.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: schema (>=0.7.7,<0.8.0)
+Requires-Dist: typer (>=0.12.3,<0.13.0)
+Description-Content-Type: text/markdown
+
+# Golden Paths
+
+[![Coverage Status](https://coveralls.io/repos/github/Start-Out/golden-paths/badge.svg?branch=dev)](https://coveralls.io/github/Start-Out/golden-paths?branch=dev)
+
+## StartOut-Supported Paths (official)
+
+### Web
+
+- [postgresql-express-react](https://github.com/Start-Out/path-postgresql-express-react)
+
