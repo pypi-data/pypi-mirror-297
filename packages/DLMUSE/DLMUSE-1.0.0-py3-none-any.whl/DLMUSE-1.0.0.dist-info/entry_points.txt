@@ -1,0 +1,2 @@
+[console_scripts]
+DLMUSE = src.__main__:main
