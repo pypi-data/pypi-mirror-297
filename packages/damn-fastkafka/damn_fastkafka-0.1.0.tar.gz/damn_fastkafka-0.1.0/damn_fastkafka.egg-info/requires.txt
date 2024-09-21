@@ -1,0 +1,3 @@
+aiokafka>=0.7.2
+aiologger>=0.6.0
+pydantic>=1.8

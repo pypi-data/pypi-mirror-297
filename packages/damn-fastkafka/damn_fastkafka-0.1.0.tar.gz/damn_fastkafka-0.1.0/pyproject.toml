@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "damn_fastkafka"
+version = "0.1.0"
+description = "A Kafka library for registering endpoints and sending messages."
+authors = ["Madiyar <mniyazkhanov@gmail.com"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "package"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiokafka = "^0.7.2"
+pydantic = "^1.8"
+aiologger = "^0.6.0"
+fastavro = { version = "^1.4.10", optional = true }
+protobuf = { version = "^3.20.0", optional = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+avro = ["fastavro"]
+protobuf = ["protobuf"]

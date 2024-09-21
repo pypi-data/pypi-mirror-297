@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+damn_fastkafka/__init__.py
+damn_fastkafka/decorators.py
+damn_fastkafka/exceptions.py
+damn_fastkafka/kafka.py
+damn_fastkafka/logger.py
+damn_fastkafka/schemas.py
+damn_fastkafka/serialization.py
+damn_fastkafka.egg-info/PKG-INFO
+damn_fastkafka.egg-info/SOURCES.txt
+damn_fastkafka.egg-info/dependency_links.txt
+damn_fastkafka.egg-info/requires.txt
+damn_fastkafka.egg-info/top_level.txt
