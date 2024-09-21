@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-random-choice
+Version: 0.1.0
+Summary: 帮助选择困难的群友选择
+Author-email: ChenXu233 <Woyerpa@outlook.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: nonebot2>=2.3.3
+Requires-Dist: nonebot-plugin-cesaa>=0.4.1
+
+# nonebot-plugin-random-choice
