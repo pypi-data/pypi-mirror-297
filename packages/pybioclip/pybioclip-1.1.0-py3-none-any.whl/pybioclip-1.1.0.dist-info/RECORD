@@ -1,0 +1,9 @@
+bioclip/__about__.py,sha256=nx3ulqcOGAqe8JLVyQ1KGj_i_i5Mh4LTXsCxgnn81s4,135
+bioclip/__init__.py,sha256=_rayQdGXEEdsDqGCiIbOJbQ4m7p5qioz7cfjW-KChVM,262
+bioclip/__main__.py,sha256=eTJR82jpNhA_qyGZTigfutude1DJPl95rqPvMwZHDFw,7176
+bioclip/predict.py,sha256=FlyuWl8X8JBQVSHummQ6J-TjVxQPFF7BP_l_qQ_OQ44,14200
+pybioclip-1.1.0.dist-info/METADATA,sha256=05PvksITxPZlE1EEvMZBxiW0hlc5Nqp7acrWPKKH__o,12738
+pybioclip-1.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pybioclip-1.1.0.dist-info/entry_points.txt,sha256=TKIH6g6E8rpwulDlkhZjAnDJCsnfWb9YO3VJSgaHVq8,50
+pybioclip-1.1.0.dist-info/licenses/LICENSE,sha256=TYS7225tY2gTI6vKCyzC_9hbVfw_OmNuLAfdDvpS-eI,1069
+pybioclip-1.1.0.dist-info/RECORD,,
