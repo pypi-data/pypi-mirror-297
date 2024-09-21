@@ -1,0 +1,9 @@
+lightlog/__init__.py,sha256=Z9QGGr6YCvdOMrhqvD33fTrViSRuCEr5rZEkxMfKyCQ,327
+lightlog/cpplightlog.cp38-win_amd64.pyd,sha256=eBPGtazRsWzqCrR2XS_PPsi5PHTkjG9Zz5mhcIZeHRE,146944
+lightlog/decorator.py,sha256=AKELoHVTPaU8kt6NM_S9IEtkJiB3WbqeQZeop5QUgnc,3595
+lightlog/levelsvalue.py,sha256=eXFN1rwIEyVgshDgd4n9SkSQGlGFLZ3wemyMkLOLdhk,76
+lightlog/pylightlog.py,sha256=q7AagkcrZo1CrC0EoXeEfucZogyukKmoKP8Vpfo7nNE,27949
+lightlog-0.1.0.dist-info/METADATA,sha256=to4CUPtmg0MUZbz4OJ5R34jT_UOSZAWtb9UT7SDVqXo,18118
+lightlog-0.1.0.dist-info/WHEEL,sha256=UbVlwiZDGQxa8scCrLI_i5XYOEPPbzP6AL-ZVrjp7nk,104
+lightlog-0.1.0.dist-info/licenses/LICENSE,sha256=T4FeuPpdui7Pi9nOTLCDbe8w4nVstI5OmKohz33yeqQ,1084
+lightlog-0.1.0.dist-info/RECORD,,
