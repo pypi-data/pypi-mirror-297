@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "llm-tool-store"
+version = "0.1.1"
+description = "Library for interacting with the LLM Tool Store API"
+authors = ["Yanael Barbier <st3w4r@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.6"
+toml = "^0.10.2"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.urls]
+Homepage = "https://partial.sh/"
+Repository = "https://github.com/partial-sh/llm-tool-store"
