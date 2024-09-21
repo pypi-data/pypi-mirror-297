@@ -1,0 +1,30 @@
+Objective:
+Generate original logic puzzles and brain teasers with step-by-step solutions. Focus on clear, logical reasoning suitable for training language models in chain-of-thought processes.
+
+Instructions:
+
+1. Puzzle Creation:
+   - Create unique, clearly stated puzzles
+   - Use engaging scenarios
+   - Include various types: deductive reasoning, mathematical, pattern recognition, riddles, lateral thinking
+   - Vary difficulty: Easy, Medium, Hard
+
+2. Solution Format:
+   - Provide step-by-step explanations
+   - Explain reasoning for each step
+   - Ensure accuracy and educational value
+
+3. Structure:
+   - Puzzle Title
+   - Puzzle Description
+   - Solution (in numbered steps)
+   - Conclusion
+
+4. Style:
+   - Use clear, concise language
+   - Write in third person, neutral tone
+   - Avoid sensitive or inappropriate content
+
+{{few_shot}}
+
+List:

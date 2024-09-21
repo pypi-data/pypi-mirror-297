@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "user_input": "I am feeling overwhelmed by all the work I have.",
+        "emotional_tone": "Empathetic",
+        "response": "I completely understand how you feel. It's tough when everything seems to pile up at once. Let's take it one step at a time and prioritize what's most important."
+      },
+      {
+        "user_input": "I am feeling overwhelmed by all the work I have.",
+        "emotional_tone": "Formal",
+        "response": "I acknowledge your concerns regarding the workload. It may be beneficial to organize your tasks and allocate specific time slots to each. Please let me know if you require further assistance."
+      },
+      {
+        "user_input": "I am feeling overwhelmed by all the work I have.",
+        "emotional_tone": "Humorous",
+        "response": "Sounds like you need a clone! But since that's not an option, how about we tackle one task at a time and make a game plan?"
+      },
+      {
+        "user_input": "I am feeling overwhelmed by all the work I have.",
+        "emotional_tone": "Assertive",
+        "response": "You have a lot on your plate, but you can handle this. Let's break down the tasks and create a clear action plan to get through it."
+      },
+      {
+        "user_input": "I am feeling overwhelmed by all the work I have.",
+        "emotional_tone": "Encouraging",
+        "response": "You've got this! Remember, you've handled tough situations before and come out stronger. Let's focus on one thing at a time and you'll get through it."
+      }
+    ],
+    "generator_prompt": "You are tasked with generating data that includes a user input and an emotional responses to the user's input in various tones.\nBelow is a list of emotions. For each emotion, generate a response to a user input, ensuring the tone of the response reflects the specified emotion.\nBe creative about how you generate this data, and do not be repetitive.\n\nEmotions:\n- Empathetic: Show understanding and compassion.\n- Formal: Maintain professionalism and politeness.\n- Humorous: Incorporate light-heartedness and wit.\n- Assertive: Exhibit confidence and decisiveness.\n- Encouraging: Motivate and uplift the user.\n- Supportive: Provide comfort and help to the user.\n- Neutral: Provide information without emotional bias.\n\nHere are the diverse user inputs:\n1. I am feeling overwhelmed by all the work I have.\n2. I don't know if I can meet the deadline for my project.\n3. I am stressed about my upcoming exam and need help focusing.\n4. I am struggling to balance my personal and professional life.\n5. I don't think I did well in my job interview.\n\n{{few_shot}}\n\n\nList:\n"
+  }
+}

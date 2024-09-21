@@ -1,0 +1,106 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The River Crossing",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The River Crossing",
+          "normalized": [
+            {
+              "puzzle_title": "The River Crossing",
+              "description": "Three people need to cross a river using a boat that can only hold two people at a time. How can they all get across the river?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic",
+              "solution": {
+                "step_1": "Person A and Person B cross the river.",
+                "step_2": "Person A returns with the boat.",
+                "step_3": "Person C crosses the river with Person A.",
+                "step_4": "Person B returns with the boat.",
+                "step_5": "Person A and Person B cross the river again."
+              },
+              "conclusion": "All three people have successfully crossed the river."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Puzzle Description:\nA farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat that can only carry himself and one other item at a time. If left alone, the wolf would eat the goat, and the goat would eat the cabbage. How can the farmer get everything across the river safely?",
+        "normalized_output": {
+          "puzzle": "#### Puzzle Description:\nA farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat that can only carry himself and one other item at a time. If left alone, the wolf would eat the goat, and the goat would eat the cabbage. How can the farmer get everything across the river safely?",
+          "normalized": [
+            {
+              "puzzle_title": "Farmer, Wolf, Goat, and Cabbage",
+              "description": "A farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat that can only carry himself and one other item at a time. If left alone, the wolf would eat the goat, and the goat would eat the cabbage. How can the farmer get everything across the river safely?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "The farmer takes the goat across the river and leaves it on the other side.",
+                "step_2": "The farmer returns alone to the original side.",
+                "step_3": "The farmer takes the wolf across the river.",
+                "step_4": "The farmer leaves the wolf on the other side but takes the goat back with him to the original side.",
+                "step_5": "The farmer takes the cabbage across the river and leaves it with the wolf.",
+                "step_6": "The farmer returns alone to the original side.",
+                "step_7": "The farmer takes the goat across the river one last time."
+              },
+              "conclusion": "By following these steps, the farmer successfully gets the wolf, goat, and cabbage across the river without any of them being eaten."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Solution:",
+        "normalized_output": { "puzzle": "#### Solution:", "normalized": [] }
+      },
+      {
+        "generated_input": "1. **Step 1:** The farmer takes the goat across the river first.\n   - **Reasoning:** This prevents the wolf from eating the goat or the goat from eating the cabbage, as neither is left alone with the other.",
+        "normalized_output": {
+          "puzzle": "1. **Step 1:** The farmer takes the goat across the river first.\n   - **Reasoning:** This prevents the wolf from eating the goat or the goat from eating the cabbage, as neither is left alone with the other.",
+          "normalized": [
+            {
+              "puzzle_title": "The Farmer, the Goat, the Wolf, and the Cabbage",
+              "description": "A farmer needs to transport a goat, a wolf, and a cabbage across a river using a boat. The boat can only carry the farmer and one other item at a time. The challenge is to figure out how the farmer can get all three items across the river without any of them being eaten.",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "The farmer takes the goat across the river first.",
+                "step_2": "The farmer returns alone to the original side.",
+                "step_3": "The farmer takes the wolf across the river.",
+                "step_4": "The farmer returns with the goat to the original side.",
+                "step_5": "The farmer takes the cabbage across the river.",
+                "step_6": "The farmer returns alone to the original side.",
+                "step_7": "The farmer takes the goat across the river again."
+              },
+              "conclusion": "By following these steps, the farmer successfully transports the goat, the wolf, and the cabbage across the river without any of them being eaten."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "2. **Step 2:** The farmer returns alone to the original side.\n   - **Reasoning:** The goat is safe on the other side, and the farmer needs to transport the remaining items.",
+        "normalized_output": {
+          "puzzle": "2. **Step 2:** The farmer returns alone to the original side.\n   - **Reasoning:** The goat is safe on the other side, and the farmer needs to transport the remaining items.",
+          "normalized": [
+            {
+              "puzzle_title": "The Farmer, the Goat, the Wolf, and the Cabbage",
+              "description": "A farmer needs to transport a goat, a wolf, and a cabbage across a river using a boat. The boat can only carry the farmer and one other item at a time. The farmer cannot leave the goat alone with the wolf, or the goat alone with the cabbage. How can the farmer transport all three items across the river safely?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "The farmer takes the goat across the river and leaves it on the other side.",
+                "step_2": "The farmer returns alone to the original side.",
+                "step_3": "The farmer takes the wolf across the river.",
+                "step_4": "The farmer leaves the wolf on the other side and takes the goat back to the original side.",
+                "step_5": "The farmer takes the cabbage across the river and leaves it with the wolf.",
+                "step_6": "The farmer returns alone to the original side.",
+                "step_7": "The farmer takes the goat across the river one last time."
+              },
+              "conclusion": "All three items are safely transported across the river without any of them being left alone with another that could cause harm."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\n\nGenerate a collection of original logic puzzles and brain teasers, each accompanied by a detailed, step-by-step solution. The content should be suitable for training a language model in chain-of-thought reasoning, emphasizing logical progression and clarity in explanations.\n\nInstructions:\n\nPuzzle Creation:\n\nOriginality: Create unique puzzles that are not direct copies of existing ones.\nClarity: Ensure each puzzle is clearly stated with all necessary information provided.\nEngagement: Use intriguing scenarios to capture interest.\nVariety: Include different types of puzzles, such as:\nDeductive reasoning puzzles\nMathematical brain teasers\nPattern recognition challenges\nRiddles\nLateral thinking problems\nDifficulty Levels:\nEasy: Simple puzzles requiring basic logic.\nMedium: Puzzles that require intermediate reasoning skills.\nHard: Complex puzzles that involve multiple steps and advanced logic.\nSolution Development:\n\nStep-by-Step Explanation: Break down the solution into clear, logical steps.\nReasoning: Explain the thought process at each step, highlighting why certain conclusions are made.\nAccuracy: Ensure all solutions are correct and free from errors.\nEducational Value: Aim to teach the reasoning process, not just provide the answer.\nFormatting Guidelines:\n\nStructure:\nStart with the Puzzle Title (e.g., \"The Three Hats Riddle\").\nPresent the Puzzle Description.\nFollow with the Solution heading.\nProvide the step-by-step Solution Explanation.\n\nLanguage:\nUse clear and concise language.\nAvoid ambiguity and ensure clarity in instructions and explanations.\n\nStyle:\nWrite in the third person, maintaining a neutral and informative tone.\nUse bullet points or numbered lists for steps in the solution.\n\nContent Restrictions:\nAppropriateness: Avoid sensitive, offensive, or inappropriate topics.\nCompliance: Do not include any disallowed content such as personal data, harassment, hate speech, or copyrighted material.\nAnonymity: Do not use real names or specific personal identifiers.\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}

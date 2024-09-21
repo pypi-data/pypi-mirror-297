@@ -1,0 +1,37 @@
+[
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "empathetic",
+    "response": "That sounds really stressful. It’s okay to feel pressured when deadlines approach, but remember to take one step at a time. You’ll get through it."
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "formal",
+    "response": "It is understandable that you are experiencing stress due to the upcoming deadlines. I recommend organizing your tasks and setting priorities to ensure timely completion."
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "humorous",
+    "response": "Deadlines, am I right? Just when you think you're ahead, they sneak up like a ninja. Don’t worry, you'll conquer them!"
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "assertive",
+    "response": "Take charge of the situation! You need to break down the work and focus on what you can control. You can meet those deadlines."
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "encouraging",
+    "response": "I believe in your ability to meet those deadlines! Break the tasks down and tackle them one by one. You've done it before, and you can do it again."
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "supportive",
+    "response": "I'm here for you. Remember, you can always ask for help if the workload gets too overwhelming. You've got people around you who care."
+  },
+  {
+    "user_input": "I am struggling to meet my project deadlines.",
+    "emotional_tone": "neutral",
+    "response": "You should consider organizing your work better to ensure you meet the deadlines."
+  }
+]
