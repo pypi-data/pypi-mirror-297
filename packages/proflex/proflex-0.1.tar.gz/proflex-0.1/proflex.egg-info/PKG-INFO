@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: proflex
+Version: 0.1
+Summary: A package for ProFlex creation adn manipulation
+Author: Damian Magill
+Author-email: damian.magill@iff.com
+Requires-Dist: numpy
+Provides-Extra: pdb-analysis
+Requires-Dist: prody; extra == "pdb-analysis"
+Provides-Extra: biopython-tools
+Requires-Dist: biopython; extra == "biopython-tools"
+Provides-Extra: visualization
+Requires-Dist: pymol2; extra == "visualization"
