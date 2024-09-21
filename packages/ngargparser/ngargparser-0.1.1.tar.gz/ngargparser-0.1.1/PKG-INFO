@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ngargparser
+Version: 0.1.1
+Summary: This is a standardized parser framework for CLI tools. This class will enforce certain properties or abstract methods to be implemented to properly create an Argument Parser class for other CLI tools.
+Home-page: https://github.com/IEDB/NGArgParser
+Author: Haeuk Kim
+Author-email: hkim@lji.org
+License: MIT
+Download-URL: https://github.com/IEDB/NGArgParser/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: iedb,nextgen,argumentparser,iedb tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
