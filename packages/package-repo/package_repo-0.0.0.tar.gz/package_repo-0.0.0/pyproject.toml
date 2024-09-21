@@ -1,0 +1,235 @@
+[tool.poetry]
+name = "package_repo"
+version = "0.0.1"
+description = "A short description of the package."
+authors = ["Klim Mikhailov <k.mikhailov@rotterdam.nl>"]
+readme = "README.md"
+packages = [{ include = "package_repo", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry-plugin-export = "^1.6.0"
+ipykernel = "^6.21.0"
+python-dotenv = "^0.21.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "2.19.0"
+pytest = "7.1.2"
+wheel = "^0.38.4"
+pylint = "2.13.8"
+pyyaml = "^6.0"
+azureml = "^0.2.7"
+azure-identity = "^1.12.0"
+pydocstyle = "^6.3.0"
+tomli = "^2.0.1"
+
+[tool.poetry.group.test.dependencies]
+codecov = "^2.1.13"
+mock = "^5.1.0"
+pandas = "^2.2.1"
+pyodbc = "^5.1.0"
+pytest = "7.1.2"
+pytest-cov = "^4.0.0"
+pytest-azurepipelines = "^1.0.4"
+sqlalchemy = "^2.0.28"
+
+[tool.mypy]
+exclude = [".mypy_cache", ".tox", ".venv", "lib", "notebooks", "tests"]
+disable_error_code = [
+  # "name-defined",
+  "import",
+  # "type-arg",
+  # "arg-type",
+  # "misc"
+]
+disallow_any_decorated = true
+disallow_any_generics = true
+ignore_missing_imports = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_return_any = true
+warn_redundant_casts = true
+strict_equality = true
+warn_unused_configs = true
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+fix = true
+output-format = "full"
+exclude = [".mypy_cache", ".tox", ".venv", "lib", "notebooks", "tests"]
+include = ["src", "*.py"]
+
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+# linter settings of ruff (default = E & F only)
+# Advisable: Start with a small set of rules (e.g. E & F) and add a category at-a-time (e.g. add B)
+select = [
+# Pyflakes: checks Python source files for errors
+  "F",
+# pycodestyle: check your Python code against some of the style conventions in PEP 8
+  "E",
+  "W",
+# mccabe: McCabe cyclomatic complexity (number of  linearly independent paths through program's source code)
+  "C90",
+# isort: sort imports alphabetically and automatically separate into sections and by type
+  "I",
+# pep8-naming: Check your code against PEP 8 naming conventions
+  "N",
+# pydocstyle: checking compliance with Python docstring conventions
+  "D",
+# pyupgrade: automatically upgrade (type hinting) syntax for newer versions of the python language
+  "UP", # NOTE(Caspar) required py>=3.10
+# flake8-2020: checks for misuse of sys.version or sys.version_info
+  "YTT",
+# flake8-annotations: detects the absence of PEP 3107-style function annotations
+  "ANN",
+# flake8-async: checks for bad async / asyncio practices
+  "ASYNC",
+# flake8-trio: highly opinionated flake8 plugin for Trio-related problems
+#   "TRIO",
+# flake8-bandit: Automated security testing built right into your workflow (dus losse bandit hooks niet nodig)
+  "S",
+# flake8-blind-except: checks for blind, catch-all "except:" and "except Exception:" statements
+  "BLE",
+# flake8-boolean-trap:detect boolean traps (untransparent use of boolean arguments in functions)
+#   "FBT",
+# flake8-bugbear: finding likely bugs and design problems in your program
+  "B",
+# flake8-builtins: check for python builtins being used as variables or parameters
+  "A",
+# flake8-commas: automatically add trailing commas to calls and literals
+  "COM",
+# flake8-copyright: checks for copyright notices in all python files
+#   "CPY",
+# flake8-comprehensions: helps you write better list/set/dict comprehensions
+  "C4",
+# flake8-datetimez: ban the usage of unsafe naive datetime class (explicitly define timezone)
+  "DTZ",
+# flake8-debugger: check for pdb;idbp imports and set traces
+#   "T10",
+# flake8-django: detect bad practices on Django projects
+#   "DJ",
+# flake8-errmsg: helps format nice error messages
+  "EM",
+# flake8-executable: ensures the executable permissions and shebangs of Python files are correctly set
+#   "EXE",
+# flake8-future-annotations: verifies python 3.7+ files use from __future__ import for PEP 563
+  "FA",
+# flake8-implicit-str-concat: encourage correct string literal concatenation
+  "ISC",
+# flake8-import-conventions: how certain packages should be imported or aliased
+  "ICN",
+# flake8-logging-format: validate (lack of) logging format strings
+  "G",
+# flake8-no-pep420: ban PEP-420 implicit namespace packages
+  "INP",
+# flake8-pie: extension that implements miscellaneous lints
+  "PIE",
+# flake8-print: check for Print statements in python files
+  "T20",
+# flake8-pyi: provides specializations for type hinting stub files, especially interesting for linting typeshed
+  "PYI",
+# flake8-pytest-style: checking common style issues or inconsistencies with pytest-based tests
+  "PT",
+# flake8-quotes: use double-quotes and not single-quotes
+  "Q",
+# flake8-raise: finds improvements for raise statements
+  "RSE",
+# flake8-return: checks return values
+  "RET",
+# flake8-self: private member access linting
+  "SLF",
+# flake8-slots: require __slots__ to be defined for subclasses of immutable types
+  "SLOT",
+# flake8-simplify: helps you simplify your code
+  "SIM",
+# flake8-tidy-imports: helps you write tidier imports
+  "TID",
+# flake8-type-checking: lets you know which imports to move in or out of type-checking blocks
+  "TCH",
+# flake8-gettext: gettext fixes & warnings
+  "INT",
+# flake8-unused-arguments: checks for unused function arguments
+  "ARG",
+# flake8-use-pathlib: finding use of functions that can be replaced by pathlib module
+#   "PTH", # good to enable in the future, we now use LOTS of os.path
+# flake8-todos: check TODOs in the project
+  "TD",
+# flake8-fixme: check for FIXME, TODO and other temporary developer notes
+  "FIX",
+# eradicate: removes commented-out code from Python files
+#   "ERA",
+# pandas-vet: provides opinionated linting for pandas code
+  "PD",
+# pygrep-hooks: fast, cheap, regex based pre-commit hooks (for checking hooks and in-file expections)
+  "PGH",
+# Pylint: checks for errors, enforces coding standard, looks for code smells, makes refactoring suggestions
+  "PL",
+# tryceratops: clean try/except blocks
+  "TRY",
+# flynt: convert old "%-formatted" strings into "f-strings"
+  "FLY",
+# NumPy-specific rules: auto-replaces numpy-deprecated code with current numpy-code
+  "NPY",
+# Airflow: fixes for Airflow: a platform to programmatically author, schedule, and monitor workflows
+#   "AIR",
+# Perflint: a Linter for performance anti-patterns
+  "PERF",
+# refurb: refurbishing and modernizing Python codebases (requires enabling preview)
+#   "FURB",
+# flake8-logging: checks for issues using the standard library logging module
+  "LOG",
+# Ruff-specific rules: miscellaneous additional rules
+  "RUF",
+]
+ignore = [
+# incompatible with a formatter
+  "COM812", "ISC001",
+# deprecated:
+  "ANN101", "ANN003",
+# suppress warning if dataframe is called "df"
+  "PD901", "PD002",
+# be reminded of TODO's
+  "TD003", "FIX002",
+# warn for unused method arguments
+  "ARG002",
+# variable name 'X' hoeft helemaal niet lowercase te zijn voor mathematische formules
+  "N806",
+# disable RET504: result = a * b; return result -> return a*b
+  "RET504",
+# vereisen "create your own exception" enigzins overdreven
+  "TRY002", "BLE001",
+# timezone argument verplichten te overdreven
+  "DTZ005",
+# onnodig afdwingen "else" gebruik icm "continue"
+  "TRY300",
+]
+
+[tool.ruff.lint.flake8-annotations]
+allow-star-arg-any = true
+suppress-dummy-args = true
+suppress-none-returning = true
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+split-on-trailing-comma = false
+
+[tool.ruff.lint.mccabe]
+# Flag errors (`C901`) whenever the complexity level exceeds 8.
+max-complexity = 8
+
+[tool.ruff.lint.pydocstyle]
+# docstring format to use (alternatives: PEP, NUMPY)
+convention = "google"
+
+[tool.ruff.lint.pylint]
+max-args = 8

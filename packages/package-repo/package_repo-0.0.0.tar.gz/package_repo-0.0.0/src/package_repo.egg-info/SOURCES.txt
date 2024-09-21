@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/package_repo/__init__.py
+src/package_repo/__version__.py
+src/package_repo/_api.py
+src/package_repo/example_etl.py
+src/package_repo/example_sql_connection.py
+src/package_repo/examples.py
+src/package_repo/logger.py
+src/package_repo.egg-info/PKG-INFO
+src/package_repo.egg-info/SOURCES.txt
+src/package_repo.egg-info/dependency_links.txt
+src/package_repo.egg-info/top_level.txt
