@@ -1,0 +1,9 @@
+README.md
+setup.py
+aws_cdk_helloworld/__init__.py
+aws_cdk_helloworld/aws_cdk_helloworld_stack.py
+aws_cdk_helloworld.egg-info/PKG-INFO
+aws_cdk_helloworld.egg-info/SOURCES.txt
+aws_cdk_helloworld.egg-info/dependency_links.txt
+aws_cdk_helloworld.egg-info/requires.txt
+aws_cdk_helloworld.egg-info/top_level.txt
