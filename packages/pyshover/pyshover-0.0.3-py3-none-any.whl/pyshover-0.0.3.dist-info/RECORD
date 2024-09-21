@@ -1,0 +1,8 @@
+pyshover/__init__.py,sha256=IYNIvkeA6gNbvtm_tQWsQB6doLnejDDtOQIi4OwvyAI,131
+pyshover/cli.py,sha256=LWRLDhnt6njVfzm7qG4j3EcQtEWnmtWLUbsG0OlhJ80,1828
+pyshover/pushover.py,sha256=BuUhp1L9qf_A_vZ13FxgO_U0tu6-r6PP90-WUOmJM-k,5173
+pyshover-0.0.3.dist-info/METADATA,sha256=-pT4KAYb1oDw_KKBGSIwv5wv_WJVoaK0sYDv8D-p4FU,1456
+pyshover-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyshover-0.0.3.dist-info/entry_points.txt,sha256=dqV_ueKWldkhzs_7ECdhVQwsT9nFa-19x098pCNupq0,47
+pyshover-0.0.3.dist-info/top_level.txt,sha256=1Ajkfi0c9n1uEK5Df-MuQyZHWDZeP2iPEo_SA7dSs_U,9
+pyshover-0.0.3.dist-info/RECORD,,
