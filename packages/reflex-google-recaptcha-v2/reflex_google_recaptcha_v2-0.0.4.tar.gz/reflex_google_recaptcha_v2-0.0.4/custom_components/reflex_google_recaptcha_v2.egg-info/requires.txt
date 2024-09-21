@@ -1,0 +1,6 @@
+httpx>=0.25.1
+reflex>=0.4.6
+
+[dev]
+build
+twine
