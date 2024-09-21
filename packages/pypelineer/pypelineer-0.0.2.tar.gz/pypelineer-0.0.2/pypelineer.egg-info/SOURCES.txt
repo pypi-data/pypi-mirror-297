@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pypelineer/__init__.py
+pypelineer.egg-info/PKG-INFO
+pypelineer.egg-info/SOURCES.txt
+pypelineer.egg-info/dependency_links.txt
+pypelineer.egg-info/top_level.txt
+pypelineer/cores/__init__.py
+pypelineer/nodes/__init__.py
+pypelineer/prefabs/__init__.py
+pypelineer/prefabs/_impl/__init__.py
+pypelineer/tasks/__init__.py

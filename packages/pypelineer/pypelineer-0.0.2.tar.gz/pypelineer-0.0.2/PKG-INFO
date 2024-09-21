@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pypelineer
+Version: 0.0.2
+Summary: Simplistic library for building pipelines efficiently and fast.
+Home-page: https://github.com/sadigaxund/pypeliner
+Author: Sadig Akhund
+Author-email: sadigaxund@gmail.com
+Project-URL: Bug Tracker, https://github.com/sadigaxund/pypeliner/issues
+Project-URL: Documentation, https://github.com/sadigaxund/pypeliner/blob/main/README.md
+Project-URL: Source Code, https://github.com/sadigaxund/pypeliner
+Keywords: your keywords here
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pypeliner
+
+* Enables users to construct ETL pipelines with high efficiency and structured methodology.
+* Leverages the in-memory capabilities of the Python programming language to optimize
+* ETL processes for big data applications.
+* Includes prefabricated modules for Apache Kafka and API providers like Apify, enabling cleaner code and accelerating development times.
+* Harnesses Python's seamless context manager protocol for more reliable resource management.
