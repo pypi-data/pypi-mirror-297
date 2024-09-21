@@ -1,0 +1,2 @@
+[console_scripts]
+pos_tagging = pos_tagging:tagging
