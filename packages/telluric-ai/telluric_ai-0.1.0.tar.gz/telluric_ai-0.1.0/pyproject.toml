@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telluric-ai"  # Your package name (must be unique on PyPI)
+version = "0.1.0"
+description = "A simple example Python project"
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+keywords = ["example", "tutorial", "package"]
+
+# List your dependencies
+dependencies = [
+    "requests>=2.25.0"
+]
+
+# Classifiers (optional but recommended for categorization)
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# If you want to expose command-line scripts
+[project.scripts]
+my_project_cli = "my_project.your_module:main"

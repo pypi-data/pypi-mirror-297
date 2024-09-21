@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: telluric-ai
+Version: 0.1.0
+Summary: A simple example Python project
+Author-email: Your Name <your.email@example.com>
+License: 
+        #### 6. `LICENSE`
+        
+        An example of an MIT License:
+        
+        ```plaintext
+        MIT License
+        
+        Copyright (c) 2024 Your Name
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+        
+Keywords: example,tutorial,package
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.0
+
+# My Project
+
+A simple Python package example.
+
+## Installation
+
+You can install this package with:
+
+```bash
+pip install my_project

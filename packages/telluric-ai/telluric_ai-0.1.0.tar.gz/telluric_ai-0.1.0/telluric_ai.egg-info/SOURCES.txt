@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+telluric/__init__.py
+telluric/main.py
+telluric_ai.egg-info/PKG-INFO
+telluric_ai.egg-info/SOURCES.txt
+telluric_ai.egg-info/dependency_links.txt
+telluric_ai.egg-info/entry_points.txt
+telluric_ai.egg-info/requires.txt
+telluric_ai.egg-info/top_level.txt
