@@ -1,0 +1,5 @@
+include README.md
+include LICENSE.txt
+recursive-include mydataviewer *.py
+recursive-include mydataviewer/assets *
+recursive-include mydataviewer/docs *
