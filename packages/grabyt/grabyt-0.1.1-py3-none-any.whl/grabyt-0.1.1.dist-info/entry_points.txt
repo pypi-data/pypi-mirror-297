@@ -1,0 +1,3 @@
+[console_scripts]
+grabyt=ytdl.cli:main
+
