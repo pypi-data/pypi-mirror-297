@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dbcv
+Version: 0.1
+Summary: This library allows you to compute the DBCV clustering metric quickly and with low memory consumption
+Home-page: https://github.com/boyfws/DBCV
+Author: db.boy
+Author-email: minkin.d.d@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba==0.60.0
+Requires-Dist: numpy>=1.19.5
+
+Hello world
