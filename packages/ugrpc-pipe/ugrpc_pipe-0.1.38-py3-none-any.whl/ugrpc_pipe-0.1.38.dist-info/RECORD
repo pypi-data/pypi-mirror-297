@@ -1,0 +1,8 @@
+ugrpc_pipe/__init__.py,sha256=zXC3yyd___Pc0dS0GQzwXbnc8vpEOZSaL1JPo9fvmCg,14163
+ugrpc_pipe/ugrpc_pipe_pb2.py,sha256=d1K3ibfr0Tp03CClFh_vRktQBGRW9mVWDQXONkIT_hU,7632
+ugrpc_pipe/ugrpc_pipe_pb2_grpc.py,sha256=2V2Xd771b5Ix9QFIXzhjFst-WCQaIbWPRKfaNSozBmw,10965
+ugrpc_pipe-0.1.38.dist-info/LICENSE,sha256=6fvBel8pLEGXeD2RmR0JNR3qXlYD4L3Qj4X2mI-1Kp4,1070
+ugrpc_pipe-0.1.38.dist-info/METADATA,sha256=FD62-qFlZ5FHvGTf-oD82D4DnRKTB5dvqxRrv4EiHiw,608
+ugrpc_pipe-0.1.38.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ugrpc_pipe-0.1.38.dist-info/top_level.txt,sha256=hMzX80IUo-XiKmg7QvafpUNCBRcfIjCY70HL_wimPjY,11
+ugrpc_pipe-0.1.38.dist-info/RECORD,,
