@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyscfadlib
+Version: 0.1.7
+Summary: Support library for PySCFAD
+Author-Email: Xing Zhang <zhangxing.nju@gmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Homepage, https://github.com/fishjojo/pyscfad
+Project-URL: Repository, https://github.com/fishjojo/pyscfad
+Project-URL: Documentation, https://fishjojo.github.io/pyscfad/index.html
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.17
+Requires-Dist: nanobind
+Requires-Dist: jaxlib>=0.4.14
+Description-Content-Type: text/markdown
+
+pyscfadlib is the support library for PySCFAD.
+It contains most of the C optimized code for derivative calculations.
