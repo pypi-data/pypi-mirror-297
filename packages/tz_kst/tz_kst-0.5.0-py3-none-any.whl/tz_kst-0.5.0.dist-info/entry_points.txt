@@ -1,0 +1,2 @@
+[console_scripts]
+now = tz_kst.kst:now
