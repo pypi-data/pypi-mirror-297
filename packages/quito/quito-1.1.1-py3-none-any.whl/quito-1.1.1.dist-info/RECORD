@@ -1,0 +1,11 @@
+demos/SWAP.py,sha256=Rgx7sDLPaBpcoUPBaK6ExQ_ZzlySx1RyCHTFov98EwE,96
+demos/__init__.py,sha256=gQuMePF5hCj3BvbBl9Hy_LRswA13cpFUdR-budL6Ffo,2325
+demos/quito_test.py,sha256=Sxx1ukLaVYgl_tj0rQEr7iHcCekcKZGGM23UP8TB_Pg,109
+quito/__init__.py,sha256=WQofLnXgfhXxDVb2EgK0p2KKR2hU5gxtTPNF53T_yJs,2541
+quito/quito_coverage.py,sha256=BGHyxd369LkJ5QlW6i2oJEMK4AIc72ZJhnOnwb51Mgw,43213
+quito-1.1.1.dist-info/LICENSE.py,sha256=7_6I14pUM8DOT-3d4h5P6dYf9z3kjW1x1sjBJ_S9TD4,1048
+quito-1.1.1.dist-info/METADATA,sha256=dWFfxH_c6PyHRXEAh2nQndw3-Pa8m24ETJ5kqC-umdU,5191
+quito-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quito-1.1.1.dist-info/entry_points.txt,sha256=XFkuJWBnwbMZI_9H2w_vkFOFjk-kOxriD3GOH4--wVg,37
+quito-1.1.1.dist-info/top_level.txt,sha256=0L9xsu4NGPn8UI-AUoXz7HwWL3CuqRPCQcN4cR1qA4g,12
+quito-1.1.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+quito = quito:help
