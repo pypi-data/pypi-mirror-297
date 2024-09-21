@@ -1,0 +1,26 @@
+[project]
+name = "rdkit-stubs"
+version = "0.8"
+requires-python = ">=3.10"
+authors = [
+  { name = "Andrew Dirksen", email = "andrew@dirksen.com" },
+  { name = "Ryan Rightmer", email = "rrightmer@gmail.com" },
+  { name = "K. Yanagisawa" },
+]
+description = "type stubs for rdkit"
+readme = "README.md"
+license = { text = "MIT OR Apache-2.0" }
+keywords = ["stubs", "rdkit", "typing"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Typing :: Stubs Only",
+  "Programming Language :: Python :: 3.10",
+]
+urls.Homepage = "https://github.com/postera-ai/rdkit-stubs"
+
+[tool.setuptools.package-data]
+"*" = ["*.pyi"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
