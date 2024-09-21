@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: OnlyDay
+Version: 0.1.0
+Summary: Library that introduces a Day datatype that is universal across every year
+Author-email: "Christopher O. Tubbs" <christopherotubbs@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Chris Tubbs
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/christophertubbs/OnlyDay
+Project-URL: Issues, https://github.com/christophertubbs/OnlyDay/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# OnlyDay
+Python library that introduces a Day datatype that is universal across every year.
+
+A day representing November 3rd will represent the same year-less day across every year. A `Day` object representing
+November 3rd is valid for both 2020-11-03 and 2022-11-03.
+
+
+```python
+from datetime import datetime
+
+from onlyday import Day
+
+first_date = datetime(year=2022, month=11, day=3)
+
+first_day = Day(first_date)
+second_day = Day("1999-11-03")
+
+assert first_day == second_day
+assert first_day == first_date
+assert second_day == first_date
+```
+
+[Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) are both supported but aren't necessary.
