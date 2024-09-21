@@ -1,0 +1,2 @@
+[console_scripts]
+wuodan = wuodan.wuodan:main
