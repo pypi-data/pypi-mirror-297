@@ -1,0 +1,12 @@
+django_nice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nice/config.py,sha256=R8wUqoQVDf2i5XpO_bmlcF5n0oefDt_OwL3wsLxIvhU,1683
+django_nice/frontend.py,sha256=NuxumQo7QpItoBwWZ_GkdVCYimZu3zVDp-XTPzdosI8,2430
+django_nice/signals.py,sha256=YpMxIticU7OYSXWQTePIp-LfOUIAsdcNYGQxQUiZ4ac,680
+django_nice/sse.py,sha256=R2P9uE3OEZfBMNfGS2CcHLlzzT_RnDQ93Uox8f2z9WU,2191
+django_nice/urls.py,sha256=-TD6LvI2LMDmarEp5YZIc9mAQE9WV2rlJocCT1MkIsg,780
+django_nice/views.py,sha256=7kUQdaGN1z2X6JFfioA9Jxmf1V9W_4FKZsZGCBnikNw,1663
+django_nice-0.3.988.dist-info/LICENSE,sha256=dVM3cYTVrwW6dkb45D3XWjTk2WvtH9f9QSyXamr_1OQ,1066
+django_nice-0.3.988.dist-info/METADATA,sha256=OMyF6glYOxKOKEhhSx6GhGj6WhyINrgZHFQ98UjUXGU,4478
+django_nice-0.3.988.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_nice-0.3.988.dist-info/top_level.txt,sha256=V6GW8bvDCiipQkdTcWEMxsuNHezJM17EkI4o5kE0Wmo,12
+django_nice-0.3.988.dist-info/RECORD,,
