@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+prettyprintplus.egg-info/PKG-INFO
+prettyprintplus.egg-info/SOURCES.txt
+prettyprintplus.egg-info/dependency_links.txt
+prettyprintplus.egg-info/top_level.txt
