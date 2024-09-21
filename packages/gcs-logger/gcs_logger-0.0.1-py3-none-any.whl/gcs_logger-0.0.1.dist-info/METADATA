@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gcs-logger
+Version: 0.0.1
+Summary: Logging tool for GameChange Solar projects
+License: MIT
+Author: GameChangeSolar Software Team
+Author-email: software@gamechangesolar.com
+Maintainer: David Aviles
+Maintainer-email: david.aviles@gamechangesolar.com
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# GCS Logger
+
+This is a simple logger to be used for logging across projects. 
