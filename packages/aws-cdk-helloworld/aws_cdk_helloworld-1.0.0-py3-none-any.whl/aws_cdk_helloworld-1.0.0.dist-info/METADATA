@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aws_cdk_helloworld
+Version: 1.0.0
+Author: Neo
+Author-email: neo@acme.com
+Requires-Dist: aws-cdk
+
