@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: maccaw
+Version: 0.0.1
+Summary: A very light weight library to create and run agents, with any LLM supported openai spec, Claude, Mistral.
+Author: Karthik G Kumar
+Author-email: karthikgkumar2002@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic >=2.6.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: mistralai
+Requires-Dist: anthropic
+Requires-Dist: semantic-text-splitter
+Requires-Dist: openai
+Requires-Dist: pydub
+
+A longer description, possibly with usage examples
