@@ -1,0 +1,3 @@
+include LICENSE.txt
+include mydataviewer/assets/icon.ico
+recursive-include mydataviewer/docs/images *.png

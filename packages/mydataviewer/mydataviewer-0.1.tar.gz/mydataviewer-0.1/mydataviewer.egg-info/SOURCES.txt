@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+mydataviewer.egg-info/PKG-INFO
+mydataviewer.egg-info/SOURCES.txt
+mydataviewer.egg-info/dependency_links.txt
+mydataviewer.egg-info/entry_points.txt
+mydataviewer.egg-info/requires.txt
+mydataviewer.egg-info/top_level.txt
+mydataviewer/assets/icon.ico
+mydataviewer/docs/images/image_light.png
+mydataviewer/docs/images/image_solarized.png
