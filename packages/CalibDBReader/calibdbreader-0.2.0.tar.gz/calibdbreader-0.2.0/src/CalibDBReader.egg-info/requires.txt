@@ -1,0 +1,10 @@
+gitpython
+pandas
+PyYaml
+numpy
+
+[:python_version > "3.11"]
+importlib-metadata
+
+[docs]
+sphinx
