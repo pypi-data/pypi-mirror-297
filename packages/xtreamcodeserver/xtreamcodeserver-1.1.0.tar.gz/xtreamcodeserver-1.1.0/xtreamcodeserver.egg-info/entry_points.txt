@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = xtreamcodeserver.__main__:main
