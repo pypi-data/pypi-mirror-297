@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/crimson/nbval_coverage/__init__.py
+src/crimson/nbval_coverage/generate_tests.py
+src/crimson_nbval_coverage.egg-info/PKG-INFO
+src/crimson_nbval_coverage.egg-info/SOURCES.txt
+src/crimson_nbval_coverage.egg-info/dependency_links.txt
+src/crimson_nbval_coverage.egg-info/requires.txt
+src/crimson_nbval_coverage.egg-info/top_level.txt
+test/test_example.py
