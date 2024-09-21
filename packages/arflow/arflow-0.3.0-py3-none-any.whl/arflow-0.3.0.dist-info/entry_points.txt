@@ -1,0 +1,3 @@
+[console_scripts]
+serve=arflow.serve:serve
+
