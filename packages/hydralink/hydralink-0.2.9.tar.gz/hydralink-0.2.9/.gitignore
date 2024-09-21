@@ -1,0 +1,10 @@
+build/\*
+dist/\*
+\*/__pycache__
+\*.egg-info
+build
+dist
+hydralink.egg-info
+.idea
+.venv
+hydralink/__pycache__
