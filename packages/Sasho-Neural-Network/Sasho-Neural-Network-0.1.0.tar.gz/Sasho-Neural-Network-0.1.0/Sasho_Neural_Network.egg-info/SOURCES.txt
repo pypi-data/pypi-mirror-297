@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Sasho_Neural_Network.egg-info/PKG-INFO
+Sasho_Neural_Network.egg-info/SOURCES.txt
+Sasho_Neural_Network.egg-info/dependency_links.txt
+Sasho_Neural_Network.egg-info/top_level.txt
