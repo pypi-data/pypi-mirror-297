@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+psychos/__init__.py
+psychos/__version__.py
+psychos/types.py
+psychos.egg-info/PKG-INFO
+psychos.egg-info/SOURCES.txt
+psychos.egg-info/dependency_links.txt
+psychos.egg-info/requires.txt
+psychos.egg-info/top_level.txt
+psychos/utils/__init__.py
+psychos/utils/colors.py
+psychos/utils/coordinates.py
+psychos/visual/__init__.py
+psychos/visual/text.py
+psychos/visual/window.py

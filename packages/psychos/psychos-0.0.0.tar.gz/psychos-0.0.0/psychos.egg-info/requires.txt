@@ -1,0 +1,7 @@
+lazy_loader
+webcolors>=1.11
+pyglet
+
+[docs]
+sphinx
+pydata-sphinx-theme

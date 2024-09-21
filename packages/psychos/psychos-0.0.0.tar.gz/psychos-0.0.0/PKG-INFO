@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: psychos
+Version: 0.0.0
+Summary: Library
+Author-email: Dynamics of Memory Formation Group <llfuentemilla@ub.edu>, Pablo Marcos-Manchón <pmarcos@ub.edu>
+License: MIT
+Project-URL: repository, https://github.com/memory-formation/psychos
+Keywords: psychology,behavioural,experiments,neuroscience,research,python,pyglet
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lazy_loader
+Requires-Dist: webcolors>=1.11
+Requires-Dist: pyglet
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: pydata-sphinx-theme; extra == "docs"
+
+
+<p align="center">
+  <a href="https://github.com/memory-formation/psychos">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/memory-formation/psychos/raw/main/docs/assets/psychos-dark.svg">
+        <img alt="dmf-utils" src="https://github.com/memory-formation/psychos/raw/main/docs/assets/psychos.svg">
+    </picture>
+  </a>
+</p>
