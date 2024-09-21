@@ -1,0 +1,3 @@
+ally-ai-chroma>=0.3.0
+umap-learn
+matplotlib

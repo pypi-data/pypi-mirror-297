@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ally-ai-chroma-visualise
+Version: 0.1.0
+Summary: visualise package for ally chroma
+Author-email: Tugbay Atilla <tugbayatilla@gmail.com>
+Project-URL: Homepage, https://github.com/users/tugbayatilla/projects/3/
+Project-URL: Issues, https://github.com/users/tugbayatilla/projects/3/views/8
+Project-URL: Repository, https://github.com/tugbayatilla/ally_ai.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ally-ai-chroma>=0.3.0
+Requires-Dist: umap-learn
+Requires-Dist: matplotlib
+
+# Ally AI Chroma Visualise
+
+## How to use
+
+
+### Initialize
+
+```python
+from ally_ai_chroma.ChromaEmbeddingsVisualisation import Chroma, ChromaEmbeddingsVisualisation
+
+chroma = Chroma()
+visualise = ChromaEmbeddingsVisualisation(chroma=chroma, limit=100)
+query = 'what is an ally?'
+visualise(query=query)
+```
+
+
+
