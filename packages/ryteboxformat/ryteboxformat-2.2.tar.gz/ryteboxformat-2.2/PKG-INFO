@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ryteboxformat
+Version: 2.2
+Summary: File converter to translate specific income file formats in the RyteBox standard format
+Author: Paul Velicky
+Requires-Python: >=3.7.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openpyxl (==3.1.3)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: python_dateutil (==2.8.2)
+Requires-Dist: wxPython (==4.2.1)
+Requires-Dist: xls2xlsx (==0.2.0)
+Requires-Dist: xlsxwriter (==3.2.0)
+Description-Content-Type: text/markdown
+
+RyteBoxFormat allows user to 
+select xls or xlsx files, 
+select the tab to process, 
+enter last working record and header row, 
+and to select the income statement file type to inform mapping logic. 
+
+RyteBoxFormat then translates the file provided into the RyteBox Royalty System standard format and creates a new spreadsheet from it. 
