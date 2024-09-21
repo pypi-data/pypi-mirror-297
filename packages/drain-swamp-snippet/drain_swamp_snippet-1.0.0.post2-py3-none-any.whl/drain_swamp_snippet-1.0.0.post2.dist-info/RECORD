@@ -1,0 +1,15 @@
+drain_swamp_snippet/__init__.py,sha256=tGB_Fnn8A9QptZVAt1nNHkPjVoZZIfLVvwmtJ8NkiN4,207
+drain_swamp_snippet/__init__.pyi,sha256=tGB_Fnn8A9QptZVAt1nNHkPjVoZZIfLVvwmtJ8NkiN4,207
+drain_swamp_snippet/check_type.py,sha256=8JtAnx4c0Gp1B92J_6AaXOcCzS2Nya9TeDM46ETD9Fs,683
+drain_swamp_snippet/check_type.pyi,sha256=gwya06Ojga7bKuxbH31U1sl5LPgbazMBHIRudHR2a3I,87
+drain_swamp_snippet/constants.py,sha256=jFTSA2LoCZUmnxB0r_pYmZpdB9NhUPWsvMSnhaLlQZA,239
+drain_swamp_snippet/constants.pyi,sha256=oPVTnzyTpJsF13sv98gJcCF0LHjmKNk-JxJudg_tV34,76
+drain_swamp_snippet/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drain_swamp_snippet/snip.py,sha256=bWnKHNSSx-IjQnUopQKtlHJ2LwBT8ULyvgjpchvlTcU,26525
+drain_swamp_snippet/snip.pyi,sha256=YgyQ1SnZ2bXrnCX-SWzKmFP3yDsT2cwOinTB73sPI3A,1486
+drain_swamp_snippet-1.0.0.post2.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+drain_swamp_snippet-1.0.0.post2.dist-info/METADATA,sha256=4s2gC8O_Pj3OHCbpGncMtdw1uz_V0Na04a35Uoc6znk,46623
+drain_swamp_snippet-1.0.0.post2.dist-info/NOTICE.txt,sha256=lzWo9UDXQQE6N7CHb1MOh_yDyZnna6R7SzoDDTymV_0,674
+drain_swamp_snippet-1.0.0.post2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+drain_swamp_snippet-1.0.0.post2.dist-info/top_level.txt,sha256=Z-bdrr1Kfvp2seu91d5exV3sCZPoX7aLBRpzuLfBUG0,20
+drain_swamp_snippet-1.0.0.post2.dist-info/RECORD,,
