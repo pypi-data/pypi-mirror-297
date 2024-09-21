@@ -1,0 +1,26 @@
+================================== test - 09/20/24 15:13:32
+==================== PARAM
+JOB TAG      : test
+HOSTNAME     : l380
+==================== TIME
+DATE GEN     : 09/20/24 : 15:13:32
+DATE RUN     : 09/20/24 : 15:13:32
+==================== SLURM
+JOB ID       : LOCAL
+JOB NAME     : LOCAL
+JOB NODE     : LOCAL
+==================== RUN: version
+Python 3.10.12
+==================== RUN: hello
+enter script
+enter script
+    ARGUMENT = hello world!
+    VARWORLD = Welcome to everyone
+exit script
+==================== RUN: goodbye
+enter script
+enter script
+    ARGUMENT = goodbye world!
+    VARWORLD = Welcome to everyone
+exit script
+================================== test - 09/20/24 15:13:32
