@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: pyplexos
+Version: 0.1.1
+Summary: PLEXOS interface
+Requires-Python: >=3.12
+Requires-Dist: ibis-framework[duckdb]>=9.5.0
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: panel>=1.5.0
+Requires-Dist: pythonnet>=3.0.3
