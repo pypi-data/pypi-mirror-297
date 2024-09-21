@@ -1,0 +1,8 @@
+palanteer_rocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+palanteer_rocker/palanteer_extension.py,sha256=ePYswpr0QGPUGe0W410GJNbrx5eWaBX0cmCcH9erSb8,775
+palanteer_rocker/templates/palanteer_snippet.Dockerfile,sha256=88y0Bcb8hUChrx8KOrYj_B54qc9Ppf_q4RGgCC5egSo,516
+palanteer_rocker-0.0.1.dist-info/METADATA,sha256=ntHD-UKvWPEtfVwLpnPZeH14yX9L-ia-FXD50ozaC6M,3247
+palanteer_rocker-0.0.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+palanteer_rocker-0.0.1.dist-info/entry_points.txt,sha256=Wj3ra46WY5FQhBdPC0aOWO6peG3etuWRMm8-r9Zl-qM,98
+palanteer_rocker-0.0.1.dist-info/licenses/LICENSE,sha256=BELp7Z_UlGhotfEDzDkWiCw7MtJ12i7B3rhIjebfk0k,1075
+palanteer_rocker-0.0.1.dist-info/RECORD,,

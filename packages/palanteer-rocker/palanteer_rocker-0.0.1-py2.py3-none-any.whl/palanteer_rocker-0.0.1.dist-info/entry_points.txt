@@ -1,0 +1,2 @@
+[rocker.extensions]
+palanteer_extension = palanteer_rocker.palanteer_extension:PalanteerExtension
