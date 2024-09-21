@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poseidon-hash-lib-from-circom
+Version: 0.1.0
+Summary: Poseidon Hash Library
+Home-page: https://github.com/erdoganishe/python3-poseidon-hash-lib
+Author: erdognishe
+Author-email: khotyanmisha@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+Python3 Poseidon lib implementation
+
+Cloned from iden3 circomlib by https://github.com/Sdoba16/Circom-DL-course.
+
