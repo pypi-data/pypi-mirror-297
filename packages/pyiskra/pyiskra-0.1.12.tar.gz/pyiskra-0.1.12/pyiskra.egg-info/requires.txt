@@ -1,0 +1,4 @@
+aiohttp
+pymodbus
+psutil
+ipaddress
