@@ -1,0 +1,15 @@
+syspassclient/__init__.py,sha256=442ujky6-3WBeRZ6EU5afWkSW1ifMe3XYKiUMTSLPQE,1340
+syspassclient/api.py,sha256=WIroJMUT5lSxmdnG2RK3xmFlUYgZcHwZLm2ChCZz_kQ,5902
+syspassclient/check_type.py,sha256=3rflbs90UA1K5ZTlV1FKmhUYBoUVexEpn-mDvzqMt4k,3640
+syspassclient/config.py,sha256=P-Pd6fOxHjj9WPLqaLTehTZ-jatpXkknh7sMLf8VER0,16412
+syspassclient/constants.py,sha256=W5yLQrO_wiNAgeSEVqsKsKM_TwPyPO1TppnkCZrqIEA,4836
+syspassclient/libs.py,sha256=gsJsg1k5vGD8VOOnhldQQx4EN5VAlrQiRj2yuvS66AU,11064
+syspassclient/object.py,sha256=6deAyIF-Plv2W0hkiAIwMnIaIFjcAB6YTnrGUfCD_h0,6241
+syspassclient/syspassclient.py,sha256=TLMqVVpHrI9xcds1p2sfEIKY7fxkr2jCxA9oEtdOJtw,36391
+syspassclient/api_definition/3.0.yaml,sha256=g727So8BFxsZ6F8EqOoWCjKA5szrDzYIl-ffY_VQgGg,11749
+syspassclient/api_definition/3.1.yaml,sha256=KVqpyB-7oU8A0t0OHz6tjF9rg8TvWQ2UQPciMQsfRMU,11751
+digdeo_syspass_client-0.6.8.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+digdeo_syspass_client-0.6.8.dist-info/METADATA,sha256=qzhGKH6g6az1CShC4ixhTzxoxHczGjr6uhNypD24HAw,5669
+digdeo_syspass_client-0.6.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+digdeo_syspass_client-0.6.8.dist-info/top_level.txt,sha256=x_3afIX8qoP98F_PuYzrJa2Vfli8bl9mZhM78m0iLj4,14
+digdeo_syspass_client-0.6.8.dist-info/RECORD,,
