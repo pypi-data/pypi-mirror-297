@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sgvb_psd
+Version: 0.0.2
+Summary: A python package for estimating the power spectral density (PSD) of correlated multivariate detector noise using variational inference (VI).
+Author-email: Jianan Liu <jliu812@aucklanduni.ac.nz>, Avi Vajpeyi <avi.vajpeyi@gmail.com>
+Project-URL: Homepage, https://github.com/nz-gravity/sgvb_psd
+Project-URL: Bug Reports, https://github.com/nz-gravity/sgvb_psd
+Project-URL: Source, https://github.com/nz-gravity/sgvb_psd
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow-probability >=0.24.0
+Requires-Dist: tf-keras
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: hyperopt
+Requires-Dist: colorama
+Provides-Extra: dev
+Requires-Dist: pytest >=6.0 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 >=5.0.4 ; extra == 'dev'
+Requires-Dist: black >=22.12.0 ; extra == 'dev'
+Requires-Dist: jupyter-book ; extra == 'dev'
+Requires-Dist: sphinx-inline-tabs ; extra == 'dev'
+
+[![Coverage Status](https://coveralls.io/repos/github/nz-gravity/sgvb_psd/badge.svg?branch=main)](https://coveralls.io/github/nz-gravity/sgvb_psd?branch=main)
+
+# SGVB PSD Estimator
+
+This repository contains the code for the paper 
+"Fast PSD estimation for correlated multivariate detector noise using VI" by Jianan Liu at al. 2024
+
+Documentation is available at https://nz-gravity.github.io/sgvb_psd/
+
+
+
+
+## Development
+
+Install in editable mode with dev dependencies
+```
+pip install -e ".[dev]"
+pre-commit install
+```
+
+Ensure unit tests are passing locally and on the CI!
+```
+pytest tests/
+```
+
+*Releasing to PyPI*
+
+1. Manually change the version number in `pyproject.toml`  (has to be higher than previous)
+1. Create a tagged commit with the version number
+2. Push the tag to GitHub
+
+```
+git tag -a v0.1.0 -m "v0.1.0"
+git push origin v0.1.0
+```
