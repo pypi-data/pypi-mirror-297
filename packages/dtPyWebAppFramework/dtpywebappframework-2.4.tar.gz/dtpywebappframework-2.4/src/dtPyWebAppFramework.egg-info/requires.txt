@@ -1,0 +1,3 @@
+dtPyAppFramework>=1.5
+flask
+Jinja2
