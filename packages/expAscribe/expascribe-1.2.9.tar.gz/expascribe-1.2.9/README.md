@@ -1,0 +1,142 @@
+# Team ZJU-China 2024 Software Tool                           
+
+![](https://tinypic.host/images/2024/09/18/_2024-08-30_042234-removebg-preview.png)
+![Static Badge](https://img.shields.io/badge/expAscribe-1.2.1-green)
+![](https://badgen.net/static/Python/3.10/blue)
+![Static Badge](https://img.shields.io/badge/Streamlit-1.38.0-red)
+![Static Badge](https://img.shields.io/badge/GPL-v2.0-blue)
+
+
+ExpAscribe: a causal inference framework for quantitative experiment ascription and its derivative process, with python library and portable webapp provided by Team ZJU-China 2024.
+
+## Description
+
+### Features
+
+- User-friendly UI and B/S Implemented [WebApp](https://expascrib3-c4ehb6b6b4e0gsdm.westeurope-01.azurewebsites.net)
+- API easy to distribute, with Python library provided. [Pypi](https://pypi.org/project/expAscribe/#history) [Docs](https://seabirdshore.github.io/EAdocs/)
+- Quantitative ascription-validation-intervention-optimization closed loop, equipped with state-of-the-art ML studies
+- Validated by experimental work
+- Compatible with existing database formats, i.e. GEO and ArrayExpress 
+- Detailed documentation, example notebooks and tutorial videos
+
+For more information, please visit our [Wiki](https://2024.igem.wiki/zju-china/software).
+
+## Installation
+
+### Supported Platforms
+
+|    Windows     |  Linux   |  macOS   |
+| :------------: | :------: | :------: |
+| ✅(wsl2, amd64) | ✅(amd64) | ✅(amd64) |
+
+
+
+## Install Python library
+```shell
+pip install expAscribe
+```
+
+If you encounter dependent version conflicts during the installation process.
+You can try to create a virtual environment and install it.
+
+```shell
+pip install virtualenv
+virtualenv <your_env>
+source <your_env>/bin/activate # Linux/macOS
+<your_env>\Scripts\activate  # Windows
+pip install expAscribe
+```
+
+Since the installation of this way requires conda, please install [Anaconda](https://www.anaconda.com/download) first.
+
+```shell
+conda create -n <your_env> python=3.10
+conda activate <your_env>
+pip install expAscribe
+```
+
+Here is a way in Linux to install Anaconda.
+
+```shell
+wget https://repo.anaconda.com/archive/Anaconda3-2023.10-Linux-x86_64.sh
+bash Anaconda3-2023.10-Linux-x86_64.sh
+source ~/.bashrc
+export PATH="$HOME/anaconda3/bin:$PATH"
+source ~/.bashrc
+```
+
+## Install Web App
+
+This project requires docker for deployment, so please install [docker](https://www.docker.com/) first!
+
+```shell
+git clone https://gitlab.igem.org/2024/software-tools/zju-china
+cd zju-china/web
+docker build -t <your-docker-image-name> .
+docker run -p 8501:8501 <your-docker-image-name>
+```
+
+After that app will be running at http://127.0.0.1:8501.
+
+Or you can use the following command to run the app.
+
+```shell
+git clone https://gitlab.igem.org/2024/software-tools/zju-china
+cd zju-china/web
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+If you encounter dependent version conflicts during the installation process.
+You can try to create a virtual environment or use conda as above.
+
+
+## Usage
+
+For more information on Usage, please visit our [wiki](https://2024.igem.wiki/zju-china/software/) which holds docs and tutorial videos. As for the usage examples, please visit `notebooks` folder in this repository.
+
+## Team-Related Specialty
+
+Software development echoes team theme--"NeovioDye", and specially made an app prototype of user-defined picture drawing. With the support of hardware optical control projection, user-defined fashion printing and dyeing patterns were realized. 
+
+In our vision, user-defined patterns are not replicable. At present, we achieve this through public key cryptography and picture steganography, which is too classical and rigid. In our vision, a more innovative and interesting protocol can be achieved through blockchain NFT(Non-Fungible Token) technology
+
+```shell
+git clone https://gitlab.igem.org/2024/software-tools/zju-china
+cd zju-china/UniDye
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Contributing
+
+We greatly appreciate and encourage contributions to this project. To ensure a smooth process, please follow the steps below when submitting your pull requests.
+
+### Pull Requests
+
+1. Fork the repository and create a new branch from the `main` branch.
+2. If you’ve added new functionality, ensure you include appropriate tests.
+3. For any changes to the API, be sure to update the documentation accordingly.
+4. Ensure that your code passes all linting checks before submission.
+
+Once you’ve completed these steps, feel free to submit your pull request. If you'd like to discuss any details or require assistance, you can reach me via 3220105728 at zju dot edu dot cn.
+
+### Issues
+
+To report bugs or request new features, please use the [GitLab issues tracker](https://gitlab.igem.org/2024/software-tools/zju-china/-/issues). Be sure to provide a clear description and detailed instructions for reproducing the issue to help us address it effectively.
+
+## Authors and Acknowledgments
+
+### Author
+
+- Xiao Sibo, dev and algorithm design @College of Computer Science and Technology, Zhejiang University
+
+### Acknowledgments
+
+I would like to express my deepest gratitude to the following individuals and organizations for their invaluable contributions...
+- He Yichen, Liu Haoyang and Fu Jinyuan, bioinformatics design, experimental verification and data gathering
+- Kun Kuang, Deputy head of the Department of Artificial Intelligence, Zhejiang University
+- Microsoft, Azure sponsorship for Student, supporting webapp debugging and deployment
+
+
