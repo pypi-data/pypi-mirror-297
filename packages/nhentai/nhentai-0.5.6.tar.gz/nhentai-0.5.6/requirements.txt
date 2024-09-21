@@ -1,0 +1,6 @@
+requests
+soupsieve
+BeautifulSoup4
+tabulate
+iso8601
+urllib3
