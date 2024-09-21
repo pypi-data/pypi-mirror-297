@@ -1,0 +1,3 @@
+[console_scripts]
+festar = festar.cli.cli:main
+
