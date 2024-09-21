@@ -1,0 +1,14 @@
+LICENCE
+README.md
+setup.py
+ai_address_lib/__init__.py
+ai_address_lib/bert_layer.py
+ai_address_lib/class_names_layer.py
+ai_address_lib/model_loader.py
+ai_address_lib/predictions.py
+ai_address_lib/tokenizer_utils.py
+ai_address_lib.egg-info/PKG-INFO
+ai_address_lib.egg-info/SOURCES.txt
+ai_address_lib.egg-info/dependency_links.txt
+ai_address_lib.egg-info/requires.txt
+ai_address_lib.egg-info/top_level.txt
