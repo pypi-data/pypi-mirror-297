@@ -1,0 +1,15 @@
+pystow
+click
+more_click
+bioversions
+lxml
+
+[docs]
+sphinx<8
+sphinx-rtd-theme
+sphinx-click
+sphinx_automodapi
+
+[tests]
+pytest
+coverage
