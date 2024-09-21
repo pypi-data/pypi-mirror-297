@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: readability-scores
+Version: 0.1.0
+Summary: 
+Author: dylangotlearning
+Author-email: dylan@gotlearning.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyphen (>=0.16.0,<0.17.0)
+Requires-Dist: spacy (==3.7.5)
+Description-Content-Type: text/markdown
+
+# readibility-scores
+spaCy v3.0 pipeline component adding text readibility metadata to Doc 
