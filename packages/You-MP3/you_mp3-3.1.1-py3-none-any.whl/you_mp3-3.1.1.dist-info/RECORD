@@ -1,0 +1,10 @@
+you_mp3/__init__.py,sha256=0pWP0rQ-Ch5FxYiEev42i11ScVXFw2hdATtlRlsMmW8,871
+you_mp3/__main__.py,sha256=pAdVOdFexvE1wgKYbx4uDBsrFezwtZsdApYkcPKSq30,4437
+you_mp3/__utils.py,sha256=rJtN659IhDAh6tmCQnuPOmeSSgZeo6Zd2SMUZ7irHJE,2139
+you_mp3/downloader.py,sha256=RkWlogjbckJjlr7XfVhfY9xBf7K9eUftxsiQ4ENEFsg,3282
+you_mp3/metadata.py,sha256=XVQQ2Dc2jkYfVHd_tGYRXhDKVbi5Zx5luG7ngg99VwI,4880
+you_mp3-3.1.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+you_mp3-3.1.1.dist-info/METADATA,sha256=w3oos68ZvBD1Rho4KibfH-ahy7Pwxz9PG-LIOyl0hDw,3379
+you_mp3-3.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+you_mp3-3.1.1.dist-info/entry_points.txt,sha256=Rzc8ydXE3TwdEkeepq63EjbZuua_BdgzX77FrWftXi4,49
+you_mp3-3.1.1.dist-info/RECORD,,
