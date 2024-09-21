@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: random_algorithm
+Version: 1.1.0
+Summary: A random number generator based on shuffled English words, their ASCII values, and the current epoch time to create highly randomized outputs
+Home-page: https://github.com/EDM115/random-algorithm
+Author: EDM115
+Author-email: EDM115 <dev@edm115.eu.org>
+License: MIT License
+        
+        Copyright (c) 2024 EDM115
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/EDM115/random-algorithm
+Project-URL: Bug Tracker, https://github.com/EDM115/random-algorithm/issues
+Project-URL: Funding, https://github.com/EDM115#support-me-
+Keywords: random,number,generator,ascii,english,algorithm
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# random_algorithm
+A very simple yet original random algo made while overthinking about randomness
+![PyPI - Version](https://img.shields.io/pypi/v/random_algorithm) ![PyPI - Downloads](https://img.shields.io/pypi/dm/random_algorithm) ![Pepy Total Downlods](https://img.shields.io/pepy/dt/random_algorithm)
+
+`random_algorithm` is a Python library that generates random numbers using a novel approach based on English words and the current epoch time. It utilizes ASCII values of shuffled words, reduces them to single digits, and combines these digits to generate a random number of a specified size. This implementation attempts to get as close as possible to true randomness by using time-based factors and word shuffling.
+
+## Features
+
+- Generates random numbers based on shuffled English words.
+- ASCII values of each word are reduced to single digits.
+- Supports dynamic generation of random numbers of any specified size.
+- Includes special logic to generate lower numbers (like `0` or `1`), which can sometimes be difficult to produce with traditional randomization methods.
+- Provides functions to extract seeds based on time and to reduce any number to a single digit.
+
+## Usage
+
+Install the package in your repo
+
+```bash
+pip install random_algorithm
+```
+
+**If you use a requirements file, add this line to it :**
+
+```bash
+random_algorithm==1.1.0
+```
+
+You can import and use the library in your Python code like this :
+
+```python
+from random_algorithm import gen_random
+```
+
+Example :  
+> Generate a random number with a desired size of 5 digits
+
+```python
+random_number = gen_random(desired_size=5)
+print(f"Generated random number : {random_number}")
+```
+
+You can also use the following internal functions :
+- `ascii_reduce(word, index)` :
+   - Takes a word (ex `"github"`) and an index (can be any positive number) as input.
+   - Reduces the word to a single digit (returns an `int`).
+- `reduce_to_single_digit(n)` :
+   - Reduces any integer `n` to a single digit by summing its digits repeatedly until one digit remains.
+   - For example, `reduce_to_single_digit(9875)` would return `2`.
+- `get_time_seed()` :
+   - Generates a seed based on the current time and ASCII reduction of character permutations.
+
+### Handling errors
+
+`gen_random()` will raise the following exceptions if invalid inputs are provided :
+- **`TypeError`** : Raised when `desired_size` is not an integer.
+- **`ValueError`** : Raised when `desired_size` is less than 1.
+
+> [!WARNING]  
+> The code works fine but isn't the most optimized ever.  
+> Generating huge numbers will take a lot of time ! I you really need a big random number, call the function multiple times with low numbers (ex 1 or 2) and concatenate the results
+
+## How it works
+
+1. **Word shuffling** : The words from `wordlist.txt` are shuffled on each call to ensure randomness.
+2. **Random index** : The current epoch time is used to generate a random index into the shuffled word list.
+3. **ASCII reduction** : Each word's ASCII values are reduced to single digits and then summed to produce a random number.
+4. **Low numbers handling** : A special condition ensures that numbers like `0` and `1` can be generated using the current epoch time modulo operations.
+5. 5. **Time Seed**: `get_time_seed()` creates a seed value based on permutations of characters from the current time.
+
+## Contributing
+
+Feel free to open an [issue](https://github.com/EDM115/random-algorithm/issues) or a [pull request](https://github.com/EDM115/random-algorithm/pulls) if you want to contribute to this project
+
+### How to build ?
+
+```bash
+py -m pip install --upgrade pip build twine setuptools wheel
+py -m build
+py -m twine check dist/*
+# Optional : publish to test.pypi.org
+py -m twine upload --repository testpypi dist/*
+# Or to pypi.org
+py -m twine upload dist/*
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.  
+The wordlist comes from from https://github.com/dwyl/english-words.
+
+## Authors
+
+- **[EDM115](https://github.com/EDM115)** - *Initial work*
