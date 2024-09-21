@@ -1,0 +1,3 @@
+[console_scripts]
+roy=out_of_the_box.main:run_app
+
