@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: drjournal
+Version: 0.1.4
+Summary: dnd-based journal
+Author: David Priver
+License: Propietary
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Requires-Dist: pydndc
+
