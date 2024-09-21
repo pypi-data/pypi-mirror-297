@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: midas-dlpdata
+Version: 2.0.0a1
+Summary: A Midas module for commercial buildings datasets.
+Author-email: Stephan Balduin <stephan.balduin@offis.de>
+Project-URL: Documentation, https://midas-mosaik.gitlab.io/midas
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: midas-powerseries >=2.0.0a3
+Requires-Dist: wget
+Requires-Dist: xlrd
+
