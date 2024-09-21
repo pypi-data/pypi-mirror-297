@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PoBExporter
+Version: 3.25.9
+Summary: Python library to generate Path of Building exports directly from PoE API without running PoB headless
+Home-page: https://github.com/Liberatorist/PoBExporter
+Author: Liberatorist
+Author-email: 
+License: proprietary
+Requires-Python: >=3.11.0
+
