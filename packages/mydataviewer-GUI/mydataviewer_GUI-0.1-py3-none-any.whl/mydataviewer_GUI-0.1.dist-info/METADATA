@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: mydataviewer_GUI
+Version: 0.1
+Summary: A Lightweight Real-Time Interactive Data Viewer for Python
+Home-page: https://github.com/MohsenAskar
+Author: Mohsen Askar
+Author-email: ceaser198511@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pyqt5
+Requires-Dist: qtconsole
+Requires-Dist: ipykernel
+Requires-Dist: jupyter-client
+
+## ` My DataViewer` package overview 
+
+**`My DataViewer` : A Lightweight Real-Time Interactive Data Viewer IDE for Python**
+
+Inspired by the Stata `browser`,`My DataViewer` is a lightweight, interactive data viewer IDE for Pyhton built with `PyQt5`, designed for real-time manipulation and exploration of pandas DataFrames. Featuring real-time reflection of changes to your datasets, `My DataViewer` offers a lightweight, intuitive way to explore and analyze full dataframes.  
+
+**Integrated features:**
+
+- **Real-time dataset updates:** Automatically reflects changes in the DataFrame as you manipulate it.
+- **Embedded `IPython console`:** Execute Python code and interact with your data directly within the viewer.
+- **Search and filter dataframe:** Easily search and filter your data, with results reflected in real time.
+- **Check and scroll through the whole dataframe:** Allows the user to inspect the whole dataframe ensuring the changes are correctly executed.
+- **Custom themes and fonts:** Switch between selected themes and fonts for a personalized experience.
+- **Split-view layout:** Includes a variable table and the main data view, allowing for easy navigation of variables and their types.
+
+## 1. ` My DataViewer` package installation
+
+Install from PyPI using `pip`
+
+
+```python
+!pip install mydataviewer
+```
+
+## 2. Package dependencies
+
+- Python 3.6 or newer
+- Pandas
+- PyQt5
+- qtconsole
+- ipykernel
+- jupyter_client
+
+## 3. How to start `My DataViewer`
+
+### A. Running the Package from the Terminal using `viewdata` a command
+
+After installing the package using `pip install mydataviewer`, you can launch the `My DataViewer` directly from the terminal using the command-line interface (CLI).
+
+#### Steps:
+
+1. Open a terminal window.
+2. Activate the environment in which `My DataViewer` is installed, `conda activate my_env`.
+3. Run the following command to start the `My DataViewer`:
+
+
+```python
+viewdata
+```
+
+### B. Running ` My DataViewer` from the terminal using a python file
+
+You can also launch the `My DataViewer` directly from the terminal by running a custom python file.
+
+#### Steps:
+
+1. Create a python file, for example: 'my_file.py' or any name the user chooses.
+2. In the file type these lines:
+
+
+```python
+from mydataviewer.view_dataframe import view_dataframe
+view_dataframe()
+```
+
+3. In a terminal window, navigate to the directory of 'my_file.py'.
+4. Type 'python my_file.py', and the package will start.
+
+### C. Running ` My DataViewer` from VS Code
+
+You can also run the package from VS Code using the terminal.
+
+1. Open your project in VS Code.
+2. Open the integrated terminal by going to View > Terminal.
+3. Type the `viewdata` and press `Enter`:
+
+This will start the `My DataViewer` like in a regular terminal.
+
+## 4. Interacting with the `My DataViewer`
+
+After running the `viewdata` command, a data import box will open allowing the user to locate and open the dataframe from `Import Dataframe` menu. After choosing the dataframe, the `My DataViewer` GUI window will open, displaying the DataFrame. The window includes:
+
+- **Table View**: Displays the DataFrame in a table format.
+- **Sidebar**: Shows variable names and data types.
+- **Search Bar**: Allows you to search within the DataFrame.
+- **Interactive Console**: An embedded IPython console at the bottom, enabling you to manipulate the DataFrame and reflect the changes in real-time.
+
+## 5. Customizing `My DataViewer`
+
+
+
+**Themes and Fonts**
+- The `My DataViewer` includes `themes` and `fonts` menu options for changing fonts and themes. Access these from the menu bar at the top of the DataViewer window.
+
+**Themes**
+- Light Theme (Default)
+- Dark Theme
+- Solarized Dark Theme
+- Solarized Light Theme
+- Monokai Theme
+- Shades of Purple Theme
+- Vue Theme
+
+**Fonts**
+- Arial
+- Courier New
+- Times New Roman
+- Georgia
+- Verdana
+- Consolas
+
+## 6. Working with Jupyter QtConsole 
+
+
+
+- As stated in its documentation "The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more."
+- The embedded IPython console provides an interactive environment to manipulate your DataFrame. You can perform operations such as filtering rows, applying transformations, or generating statistics directly from within the console. Any changes made in the console are immediately reflected in the table view, ensuring real-time feedback
+- The user can activate the desired environment using `conda activate`.
+- By default the loaded dataframe is named `df`.
+- See the documentaion here: https://qtconsole.readthedocs.io/en/stable/
+
+## 7. Additional Resources
+
+
+- PyQt5 Documentation: https://www.riverbankcomputing.com/static/Docs/PyQt5/
+- qtconsole Documentation: https://qtconsole.readthedocs.io/en/latest/
+
+### Watch My Dataviewer video demo: 
+
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/1Anf4SENqOo/maxresdefault.jpg)](https://www.youtube.com/watch?v=1Anf4SENqOo)
+
+## License
+
+Released under the MIT License:
+Copyright (C) 2024 mydataviewer
+
+Developed by: Mohsen Askar <ceaser198511@gmail.com>
