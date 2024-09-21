@@ -1,0 +1,9 @@
+pyremotedata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyremotedata/config.py,sha256=M09vEtdScUoZx4l3IxqSA4Y8K_MFx71Zaft5tgoFpQo,6892
+pyremotedata/dataloader.py,sha256=DbDOZtGVf91FhWEtPau4HUcRN8V0Y1weeUlCbUrySuI,21639
+pyremotedata/implicit_mount.py,sha256=_3KHmhM9iIf0MfJRJjTUBxEnF3AtFsRmCdf_8AKtxIU,63455
+pyremotedata/pyremotedata_config.yaml,sha256=hhugHlHEZMAv5fl84G_i5iEH8WwGbNK9rWLoz7xJT4s,2354
+pyremotedata-0.0.35.dist-info/METADATA,sha256=rbSY7LisLvw_hEfGpibpBUp1SB-xwGWkIwaA-ln658E,4852
+pyremotedata-0.0.35.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+pyremotedata-0.0.35.dist-info/licenses/LICENSE,sha256=fJh5sqGqeT5GPacO9vGFknVC7lHyIWkuCzNAjLbTkGY,1073
+pyremotedata-0.0.35.dist-info/RECORD,,
