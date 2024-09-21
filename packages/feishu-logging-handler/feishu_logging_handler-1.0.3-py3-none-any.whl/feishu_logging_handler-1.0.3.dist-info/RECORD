@@ -1,0 +1,11 @@
+feishu_logging/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+feishu_logging/handler.py,sha256=RrojyN4wG7LvyiWAcptm3qJ3KwaxBGYeFcRntl96xSE,3943
+feishu_logging/handler_test.py,sha256=viM2lQcWuq72YfuxYOXa3pnpZVjAaCPFjG38xo49GfU,3473
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test copy.py,sha256=KhjXuiYHCsfVtoaQu2UjYVqjIK545aEU5rrfYPM9wQc,647
+test/test.py,sha256=Ejx5_usJT-ixB0FqUo5ZA51ZVch987ZJS_NWw_tUdMg,643
+feishu_logging_handler-1.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+feishu_logging_handler-1.0.3.dist-info/METADATA,sha256=lvCYANY-V2_0swTQ0kRv2dD8aQHHmHp0bRytzxTm4FU,1368
+feishu_logging_handler-1.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+feishu_logging_handler-1.0.3.dist-info/top_level.txt,sha256=9455HNyqR9crdX5V1V3ECZ_lQrxwOUju8YzfeSyWhJQ,20
+feishu_logging_handler-1.0.3.dist-info/RECORD,,
