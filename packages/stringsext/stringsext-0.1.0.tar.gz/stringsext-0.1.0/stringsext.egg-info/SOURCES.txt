@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+stringsext/__init__.py
+stringsext/core.py
+stringsext/encoding.py
+stringsext/parse.py
+stringsext/utils.py
+stringsext.egg-info/PKG-INFO
+stringsext.egg-info/SOURCES.txt
+stringsext.egg-info/dependency_links.txt
+stringsext.egg-info/top_level.txt
