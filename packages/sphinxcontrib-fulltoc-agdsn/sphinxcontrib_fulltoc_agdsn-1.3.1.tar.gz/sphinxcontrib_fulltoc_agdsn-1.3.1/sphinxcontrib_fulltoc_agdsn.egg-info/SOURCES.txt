@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+sphinxcontrib_fulltoc_agdsn.egg-info/PKG-INFO
+sphinxcontrib_fulltoc_agdsn.egg-info/SOURCES.txt
+sphinxcontrib_fulltoc_agdsn.egg-info/dependency_links.txt
+sphinxcontrib_fulltoc_agdsn.egg-info/requires.txt
+sphinxcontrib_fulltoc_agdsn.egg-info/top_level.txt
