@@ -1,0 +1,14 @@
+chocopearl/__init__.py,sha256=h13IQUtuKL6x50oSn5LAqqNsnykfzhzgsctWIouYRRY,2176
+chocopearl/corsika.py,sha256=gUh9ZIo6z9LHtHJJFWGqHEaMqHspl3VKNAdiQhlGe8A,8874
+chocopearl/datascience.py,sha256=jDdq2_1ERXxrYKVtmOunkMGDlKqbn65SwnBfVtAD8fc,2341
+chocopearl/dirac.py,sha256=a2ZAAMCqcapnMfZmJsccvsWC0t751FKaMCDttmbs34w,2644
+chocopearl/general.py,sha256=_kVAqNNxWQ2_mnIUmmDHL7-9SOQavg3uSw4NdlW6aus,1857
+chocopearl/nummath.py,sha256=AT4mcxd3JGUxi92NI4DWI2CSUXxPkEIb9-hQgD2Z5Yo,674
+chocopearl/osfunc.py,sha256=8iN-R-iWosOS-hbIloJLpv0LmQ83mKo1wjC2I-Dou-0,1651
+chocopearl/particle.py,sha256=mNIOJ_jmerI50aXpV7ks5tp8BQJ88WRNDThzNLOuhfg,6603
+chocopearl/relativity.py,sha256=cYg6y7z5Dn0gXDLs-UE5gAYUzAqbvfCpUCYP-Vhu-ac,580
+chocopearl-1.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+chocopearl-1.1.0.dist-info/METADATA,sha256=qSvWZ8677WEoJsUqmEKWh_FVgD9aivUu8Sl7qZbvxRw,789
+chocopearl-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chocopearl-1.1.0.dist-info/top_level.txt,sha256=3ZXuDD4Tz2WplhsCFBjgXW6NDwpC5XeLN_kCzY_sG10,11
+chocopearl-1.1.0.dist-info/RECORD,,
