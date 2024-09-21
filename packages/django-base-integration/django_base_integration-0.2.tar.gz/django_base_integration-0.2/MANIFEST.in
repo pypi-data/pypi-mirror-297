@@ -1,0 +1,2 @@
+recursive-include django_base_integration/static *
+recursive-include django_base_integration/docker *
