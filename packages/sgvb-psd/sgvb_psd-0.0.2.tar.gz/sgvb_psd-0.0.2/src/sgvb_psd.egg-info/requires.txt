@@ -1,0 +1,16 @@
+tensorflow-probability>=0.24.0
+tf-keras
+pandas
+numpy
+matplotlib
+hyperopt
+colorama
+
+[dev]
+pytest>=6.0
+pytest-cov>=4.1.0
+pre-commit
+flake8>=5.0.4
+black>=22.12.0
+jupyter-book
+sphinx-inline-tabs
