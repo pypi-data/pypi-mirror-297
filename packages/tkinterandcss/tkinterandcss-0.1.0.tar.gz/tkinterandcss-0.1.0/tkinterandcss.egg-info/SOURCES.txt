@@ -1,0 +1,9 @@
+README.md
+setup.py
+tkinterandcss/__init__.py
+tkinterandcss/css_parser.py
+tkinterandcss.egg-info/PKG-INFO
+tkinterandcss.egg-info/SOURCES.txt
+tkinterandcss.egg-info/dependency_links.txt
+tkinterandcss.egg-info/requires.txt
+tkinterandcss.egg-info/top_level.txt
