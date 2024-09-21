@@ -1,0 +1,10 @@
+solo_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solo_server/cli.py,sha256=Q_scX3zeIA1-0TFz-D3SDwS3WiqztgM3wgKNVsDBQdA,474
+solo_server/utils.py,sha256=M5vG4buEUiI50OI-p0YVrNzf-nWQTEzWPmlJMFosAAU,401
+solo_server/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solo_server/commands/init.py,sha256=jhy9EA9vpHHpYBmtVKrm_cMUANqCknZMzpPDzhhY8X4,1231
+solo_server-0.1.1.dist-info/METADATA,sha256=TAT2xbIM5aCZXJf4wP-HtQH4PxcFkE9tOtG_tOC4R1Q,5627
+solo_server-0.1.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+solo_server-0.1.1.dist-info/entry_points.txt,sha256=vht4K6v-IKvEagCv8vkNOmA1TxuX-wv6zaZ5l192Zz8,53
+solo_server-0.1.1.dist-info/top_level.txt,sha256=LNfqG-IPSmI8A5VXdJNsHqgfEXZhsg1xaB_bk7MDXIA,12
+solo_server-0.1.1.dist-info/RECORD,,
