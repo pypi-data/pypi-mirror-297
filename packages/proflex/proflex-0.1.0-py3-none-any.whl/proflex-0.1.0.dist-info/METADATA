@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: proflex
+Version: 0.1.0
+Summary: A package for proflex creation and manipulation
+Author: Damian Magill
+Author-email: Damian Magill <damian.magill@iff.com>
+License: MIT
+Project-URL: homepage, https://github.com/DamianJM/proflex
+Project-URL: documentation, https://github.com/DamianJM/proflex
+Project-URL: repository, https://github.com/DamianJM/proflex
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Provides-Extra: biopython_tools
+Requires-Dist: biopython ; extra == 'biopython_tools'
+Provides-Extra: pdb_analysis
+Requires-Dist: prody ; extra == 'pdb_analysis'
+Provides-Extra: visualization
+Requires-Dist: pymol2 ; extra == 'visualization'
+
