@@ -1,0 +1,38 @@
+chainalysis package
+===================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   chainalysis.sql
+   chainalysis.utils
+
+Submodules
+----------
+
+chainalysis.constants module
+----------------------------
+
+.. automodule:: chainalysis.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+chainalysis.data\_solutions module
+----------------------------------
+
+.. automodule:: chainalysis.data_solutions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: chainalysis
+   :members:
+   :undoc-members:
+   :show-inheritance:
