@@ -1,0 +1,5 @@
+qt_slurm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qt_slurm/parallel_slurm.py,sha256=ZSNvdXXi9TVxuqMfi2qhXxzpAjSimNU8bQa7Hu9grVQ,20359
+qt_slurm-1.4.0.dist-info/METADATA,sha256=ACEiOaycfrFnbZAdkxytEHgku3aKVvKqPkIZmAuAMRc,8490
+qt_slurm-1.4.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+qt_slurm-1.4.0.dist-info/RECORD,,
