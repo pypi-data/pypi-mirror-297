@@ -1,0 +1,4 @@
+midas_powerseries>=2.0.0a1
+tables
+pandas
+numpy<2
