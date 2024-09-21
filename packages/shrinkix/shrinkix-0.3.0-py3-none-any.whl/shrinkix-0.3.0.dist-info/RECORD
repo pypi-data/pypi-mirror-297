@@ -1,0 +1,12 @@
+shrinkix/__init__.py,sha256=un4Jfm7qYv5fCpaOMSrafkbmfWmgh76DUdP-3bwwfaY,366
+shrinkix/__main__.py,sha256=xl7ARfjEsQGMfRDP93DNIP4U1nFSYOL_mNNN8cHr-fM,362
+shrinkix/cli.py,sha256=t3ALX1HOOVEPTP6Ya38DzjNzf_c9loP1_E3-nS71wYo,3226
+shrinkix/core.py,sha256=Py1HBZtqOgUEhGkQQYjT60IQWzin0FJMrv9X0BAholA,475
+shrinkix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shrinkix/shrinker.py,sha256=nOFzRiRFPspnwYiYtiPInzq_FiE4WuXFO-K3ICDpP7Q,6709
+shrinkix/utils.py,sha256=59GjmljdoFSYzqE2-qe5Zu9Dv1xpEO31n-R6Y8RYicE,930
+shrinkix-0.3.0.dist-info/LICENSE,sha256=kYRz570GVPktzhJxWtaencsrsjdKSetpe5WISlDrvnY,1093
+shrinkix-0.3.0.dist-info/METADATA,sha256=uPEBL8JUqrEI97Mci7wO_XE0xdRTDzKfldWRhHm_Eso,8500
+shrinkix-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+shrinkix-0.3.0.dist-info/entry_points.txt,sha256=T_jgrGjV5llXOikSXji9hfHIkRJhwCpDUib8LfQzO_k,52
+shrinkix-0.3.0.dist-info/RECORD,,
