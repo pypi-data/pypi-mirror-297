@@ -1,0 +1,10 @@
+pymembercli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymembercli/__main__.py,sha256=uM7MqnQ-0aIvIbBo5E0IVu0uMF0I_bMKVZ8jEaip7no,71
+pymembercli/cmds.py,sha256=eMIsk-P2wdpyHCTNqcTvK1I-tuLvxVfO840vdQJFWTk,1898
+pymembercli/pymember.py,sha256=cWuJhDLxkIqoGwZ1zPSDv0c3y6VvwMrUrDu5GV3Y-KE,3145
+pymembercli/task_item.py,sha256=R5vYyKS62eIiE30X81bo9xwZuVJdz8JJAtw_6c77_Ho,948
+pymembercli/util.py,sha256=I-XhY8IDcU5jZ4wRZgrvm-cL2xQ8PsPtIGOoRdouneY,1172
+pymembercli-0.3.2.dist-info/METADATA,sha256=mE3LoTmK-SWV9WcezSFXamqTmjzxpvRfy9laaXHJdO0,810
+pymembercli-0.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pymembercli-0.3.2.dist-info/entry_points.txt,sha256=r3W-dI-mhvy_G6Dq1uXbqsnIpYucyYQ28xtX7QrHx3M,54
+pymembercli-0.3.2.dist-info/RECORD,,
