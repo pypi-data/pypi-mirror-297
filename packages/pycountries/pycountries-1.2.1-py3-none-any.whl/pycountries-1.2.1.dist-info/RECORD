@@ -1,0 +1,12 @@
+pycountries/__init__.py,sha256=3ND1gCr81ES11yqrSM4TrotzesZDrduRo7ti0kpQ1Ks,718
+pycountries/_base.py,sha256=lF5hhGsdcUhQ2o2eCcxoUSMcEZqLoYyO-10-Ad9fEIo,584
+pycountries/countries.py,sha256=7HrllWfu0QxxgFnKDe08es7i0TDQxrFvtfD4jDAgR8k,47400
+pycountries/currencies.py,sha256=jC-sJ8viCrNWiufYVrqrc2jWH6N8xeIrutlRWJlVI7g,30999
+pycountries/languages.py,sha256=yCqEydrIhsLIiob9v1QA3YNrrJNQW7N6Jv35jZ0ss6k,85139
+pycountries/macro_languages.py,sha256=SRLu2FIAhnrhNaGreb02QAaPS2G2412AoiSbv0XDnjk,39040
+pycountries/phones.py,sha256=QGIERXokcRT9kI64mhiLPrdNJmIwdPM1ZvwdGFVLyoE,43126
+pycountries-1.2.1.dist-info/LICENSE.md,sha256=3Ti7zIecO7y1NJP_cu1onuqCszlnRyaK7T_CbDnCfJQ,1070
+pycountries-1.2.1.dist-info/METADATA,sha256=Wtpa730_vzmUNeiWJFeRyurR0_DlzS7P_6pxmWowBoY,5961
+pycountries-1.2.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pycountries-1.2.1.dist-info/top_level.txt,sha256=n85R-l8jYWeKX2aYrNRaDHVib15T9pvPEwOMrn9Awmo,12
+pycountries-1.2.1.dist-info/RECORD,,
