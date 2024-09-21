@@ -1,0 +1,13 @@
+diffCheck/__init__.py,sha256=IE2BgPfJA3KZx8ITkeVbKVloNFhHkmO6EUX-z_ALPdw,398
+diffCheck/df_cvt_bindings.py,sha256=lnnV_eg2lqkNU_TvBL6vf-J6fJ9U42S3FdfImVsKcQc,8706
+diffCheck/df_error_estimation.py,sha256=AMqR7MvFmfGU-AgbSwHDdGmnmr7soSOaN942i05ztfw,6227
+diffCheck/df_geometries.py,sha256=Fg5SLBL6gDc7UZWkNryGn5je_Ar1C1wS_4YfLhFB0a4,16605
+diffCheck/df_joint_detector.py,sha256=hBrpLH8nGk7XX-MGByPpMut4x1qyG4J8ZDWtXNYO718,3540
+diffCheck/df_transformations.py,sha256=IKC8F4iPxyCDkwWb_0WUOOm1Ej0M86du4DY_Keck0A8,4610
+diffCheck/df_util.py,sha256=vWxC014p0z-5VYqaI9T5DmC3YVp0oLJ5Iaeac_YsSA8,5106
+diffCheck/df_visualization.py,sha256=xGMZnkXOJpfFKXFKU_7CZXy0gBUrFlFyhBt7eLKYo-0,8879
+diffCheck/diffcheck_bindings.cp39-win_amd64.pyd,sha256=lOG_dqDfrI0m11GehGJ9_KX3Er_DEtS_Wg7-PFTHB34,265728
+diffCheck-0.0.33.dist-info/METADATA,sha256=fulul7hLdvxvr83kEaD9VAVhdCgzNe_SNmCcnmezYo8,1541
+diffCheck-0.0.33.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+diffCheck-0.0.33.dist-info/top_level.txt,sha256=E3UbltVp-yr21RtlaZIGVKY7k57TZxtYIA6ERGBIpzY,10
+diffCheck-0.0.33.dist-info/RECORD,,
