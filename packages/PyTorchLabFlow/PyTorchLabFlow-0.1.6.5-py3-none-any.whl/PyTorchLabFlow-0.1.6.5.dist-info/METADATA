@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PyTorchLabFlow
+Version: 0.1.6.5
+Summary: A lightweight module to manage all components during experiments on a AI project
+Home-page: https://github.com/BBEK-Anand/PyTorchLabFlow
+Author: BBEK-Anand
+Author-email: 
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+*PyTorchLabFlow*is your go-to offlinesolution for managingPyTorch experimentswith ease. Run experiments securely on your local machine, no data sharing with 3rd parties. Need more power? Seamlesslytrasfer your setup to a high-end system without any reconfiguration. Wheather you are on a laptop or a workstation, PyTorchLabFlow ensures flexibility and privacy, allowingyou to experiment anywhere, anytime, without internet dependency. [Read more at github](https://github.com/BBEK-Anand/PyTorchLabFlow)
+
+
+# License
+This project is licensed under the MIT License.
