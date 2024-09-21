@@ -1,0 +1,6 @@
+[console_scripts]
+webstage=pytest_webstage.tools:webstage
+
+[pytest11]
+webstage=pytest_webstage.plugin
+
