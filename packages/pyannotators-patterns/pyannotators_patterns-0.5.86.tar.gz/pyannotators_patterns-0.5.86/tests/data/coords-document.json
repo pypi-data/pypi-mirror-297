@@ -1,0 +1,86 @@
+{
+  "text": "    Coordonnées degrés décimaux, référence devant :\n    Exemple : N85,8598654 W150,589654\n\n\n    Coordonnées degrés décimaux, référence derrière  : \n    Exemple 85,8598654N 150,589654W",
+  "metadata": {
+    "language": "fr"
+  },
+  "annotations": [
+    {
+      "start": 66,
+      "end": 77,
+      "labelName": "coordonnees_geographiques",
+      "text": "N85,8598654",
+      "score": 0.9,
+      "properties": {
+        "analysis_explanation": {
+          "recognizer": "PatternRecognizer",
+          "pattern_name": "ref_lat",
+          "pattern": "\\b(?P<ref_lat>N|S|n|s)[0-9,]+\\b",
+          "original_score": 0.9,
+          "score": 0.9,
+          "score_context_improvement": 0,
+          "supportive_context_word": "",
+          "regex_flags": 26
+        }
+      }
+    },
+    {
+      "start": 78,
+      "end": 89,
+      "labelName": "coordonnees_geographiques",
+      "text": "W150,589654",
+      "score": 0.9,
+      "properties": {
+        "analysis_explanation": {
+          "recognizer": "PatternRecognizer",
+          "pattern_name": "ref_long",
+          "pattern": "\\b(?P<ref_long>E|O|w|e|o)[0-9,]+\\b",
+          "original_score": 0.9,
+          "score": 0.9,
+          "score_context_improvement": 0,
+          "supportive_context_word": "",
+          "regex_flags": 26
+        }
+      }
+    },
+    {
+      "start": 160,
+      "end": 171,
+      "labelName": "coordonnees_geographiques",
+      "text": "85,8598654N",
+      "score": 0.9,
+      "properties": {
+        "analysis_explanation": {
+          "recognizer": "PatternRecognizer",
+          "pattern_name": "ref_lat_DEVANT",
+          "pattern": "\\b[0-9,]+(?P<ref_lat>N|S|n|s)\\b",
+          "original_score": 0.9,
+          "score": 0.9,
+          "score_context_improvement": 0,
+          "supportive_context_word": "",
+          "regex_flags": 26
+        }
+      }
+    },
+    {
+      "start": 172,
+      "end": 183,
+      "labelName": "coordonnees_geographiques",
+      "text": "150,589654W",
+      "score": 0.9,
+      "properties": {
+        "analysis_explanation": {
+          "recognizer": "PatternRecognizer",
+          "pattern_name": "ref_long_DEVANT",
+          "pattern": "\\b[0-9,]+(?P<ref_long>E|O|w|e|o)\\b",
+          "original_score": 0.9,
+          "score": 0.9,
+          "score_context_improvement": 0,
+          "supportive_context_word": "",
+          "regex_flags": 26
+        }
+      }
+    }
+  ],
+  "identifier": "c8ecc5153c542c4f6a07fbe813384842",
+  "title": "unknown test document"
+}
