@@ -1,0 +1,9 @@
+latentforce/__init__.py,sha256=yVVjj9DqHVF7sCxI5LNgUHz9rEo5xFaDsuIx8C0vqys,135
+latentforce/agentforce.py,sha256=LInFRmolx_skdLxdGe4xOKW-9TZ8IQRYNIRrQihepoE,1693
+latentforce/config.py,sha256=VWaOzij8itFVr_drqXrewWOBBkexbeRGYZX2eQ_R6_U,42
+latentforce/logger.py,sha256=P2m0vdjXIa741I9NBgWT0vA7zIzDWRWBpIeJhhPwm0k,2052
+latentforce/modelforce.py,sha256=ksKPDU3a43GPVc1ohBUsII4MbXE3jAJtxVyx-AJz5Ko,1337
+latentforce-0.5.0.dist-info/METADATA,sha256=rngDSBXj9VUS6KGN-a6yIlg8QFi1RuPxqjodo2Y5j2w,13658
+latentforce-0.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+latentforce-0.5.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+latentforce-0.5.0.dist-info/RECORD,,
