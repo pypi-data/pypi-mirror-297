@@ -1,0 +1,10 @@
+README.md
+setup.py
+license_selector/__init__.py
+license_selector/licence.py
+license_selector.egg-info/PKG-INFO
+license_selector.egg-info/SOURCES.txt
+license_selector.egg-info/dependency_links.txt
+license_selector.egg-info/entry_points.txt
+license_selector.egg-info/requires.txt
+license_selector.egg-info/top_level.txt
