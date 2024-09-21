@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: LLM00
+Version: 0.0.0
+Summary: An interface that allows you to use LLMs in an ultra-simple way
+Author-email: bib_inf <contact.bibinf@gmail.com>
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+        
+        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+        
+        You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+        
+        In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.
+        
+        Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.
+        
+        When using or citing the work, you should not imply endorsement by the author or the affirmer.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ezpip
+Requires-Dist: sout>=1.2.1
+Requires-Dist: relpath
+Requires-Dist: fies>=1.4.0
+
+# SLLM - 説明執筆中 (under construction)
+
+## simple LLM interface
+```python
+import SLLM
+
+print(SLLM("ずばり簡潔に、タコの足は何本？"))
+```
+
+## 概要
+- 非常にシンプルなコードでLLMが使えるツール
+
+## 最も基本的な使い方
+```python
+import SLLM
+
+print(SLLM("ずばり簡潔に、タコの足は何本？"))
+```
+
+## 名前の意味
+- Simple-LLM-interfaceの意
