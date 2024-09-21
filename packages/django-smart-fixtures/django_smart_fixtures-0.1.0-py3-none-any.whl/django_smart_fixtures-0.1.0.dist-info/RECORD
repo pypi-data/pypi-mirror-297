@@ -1,0 +1,10 @@
+django_smart_fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_smart_fixtures/apps.py,sha256=WMpapsIfZpN-8DBmgFAAYCTXJoO33pIbjzCZkhAoxJk,172
+django_smart_fixtures/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_smart_fixtures/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_smart_fixtures/management/commands/load_fixtures.py,sha256=S3YvB_ImWiGm3icqzfse-pUnxHkGwseeSjYJju8RnJE,2485
+django_smart_fixtures/tests.py,sha256=OKtOLLL11gzOAzxTDEbwrSRkJboSGH7dYRSfzAOlL_0,6038
+django_smart_fixtures-0.1.0.dist-info/LICENSE,sha256=nT3q5gOVJGZEL_nz-9LewstDEI2nZ7d--VxAubDDPvs,1071
+django_smart_fixtures-0.1.0.dist-info/METADATA,sha256=124e96LB07F-pk-lLOzvuWMaJWz5Ci61G9zcmomYUcE,3669
+django_smart_fixtures-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_smart_fixtures-0.1.0.dist-info/RECORD,,
