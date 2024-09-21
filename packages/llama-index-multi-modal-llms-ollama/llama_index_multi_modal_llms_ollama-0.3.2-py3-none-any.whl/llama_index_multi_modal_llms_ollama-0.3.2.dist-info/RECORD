@@ -1,0 +1,5 @@
+llama_index/multi_modal_llms/ollama/__init__.py,sha256=ZxZNwBQLc2JCbv-65lcgOR0Hm3Tpzx6e9otIOqGOdgc,102
+llama_index/multi_modal_llms/ollama/base.py,sha256=insjnh1WPcQqGs7PWd7BN4nDiLipFRuH_h6ttp5ptOY,9882
+llama_index_multi_modal_llms_ollama-0.3.2.dist-info/METADATA,sha256=MHnGn55hpRtXYFIPbnlbul_nkWqvU7pe7rN-CNH0RwU,704
+llama_index_multi_modal_llms_ollama-0.3.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_index_multi_modal_llms_ollama-0.3.2.dist-info/RECORD,,
