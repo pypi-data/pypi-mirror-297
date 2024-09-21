@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Flastel/__init__.py
+Flastel/methods.py
+Flatel.egg-info/PKG-INFO
+Flatel.egg-info/SOURCES.txt
+Flatel.egg-info/dependency_links.txt
+Flatel.egg-info/requires.txt
+Flatel.egg-info/top_level.txt
