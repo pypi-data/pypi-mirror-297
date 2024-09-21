@@ -1,0 +1,3 @@
+[console_scripts]
+structure_clustering = structure_clustering.__main__:main
+
