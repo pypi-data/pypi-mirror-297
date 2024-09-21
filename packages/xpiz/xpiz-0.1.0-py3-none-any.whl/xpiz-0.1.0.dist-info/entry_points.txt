@@ -1,0 +1,2 @@
+[console_scripts]
+mybinary = xpiz.__init__:main
