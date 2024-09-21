@@ -1,0 +1,3 @@
+[console_scripts]
+sstr=sstr.cli:cli
+
