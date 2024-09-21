@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: synthex
+Version: 0.1.0
+Summary: This library is designed to help with LLM synthetic data generation
+Home-page: https://github.com/yourusername/your-library  # Replace with your repo URL
+Author: TalosTanos
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
