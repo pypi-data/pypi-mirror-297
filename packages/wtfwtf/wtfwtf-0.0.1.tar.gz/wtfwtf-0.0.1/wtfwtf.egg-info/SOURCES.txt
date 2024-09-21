@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wtfwtf/__init__.py
+wtfwtf.egg-info/PKG-INFO
+wtfwtf.egg-info/SOURCES.txt
+wtfwtf.egg-info/dependency_links.txt
+wtfwtf.egg-info/requires.txt
+wtfwtf.egg-info/top_level.txt
