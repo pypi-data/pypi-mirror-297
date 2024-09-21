@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+memocache/__init__.py
+memocache/evictor.py
+memocache/file_manager.py
+memocache/memo.py
+memocache/serializer.py
+memocache/strategies.py
+memocache/sync.py
+memocache.egg-info/PKG-INFO
+memocache.egg-info/SOURCES.txt
+memocache.egg-info/dependency_links.txt
+memocache.egg-info/top_level.txt
