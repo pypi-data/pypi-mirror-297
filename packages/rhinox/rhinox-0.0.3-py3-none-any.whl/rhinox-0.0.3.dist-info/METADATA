@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rhinox
+Version: 0.0.3
+Summary: http://api.rhinox.io/api/documentation
+Home-page: https://pypi.org/project/rhinox/
+Author: Alejo Prieto Dávalos
+Author-email: alejoprietodavalos@gmail.com
+Project-URL: Source, https://github.com/AlejoPrietoDavalos/rhinox/
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.32
+Requires-Dist: pydantic>=2.8
+
+### http://api.rhinox.io/api/documentation
