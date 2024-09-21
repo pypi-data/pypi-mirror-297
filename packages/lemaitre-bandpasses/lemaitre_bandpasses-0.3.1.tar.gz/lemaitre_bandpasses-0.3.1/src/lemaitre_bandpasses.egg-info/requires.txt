@@ -1,0 +1,10 @@
+astropy
+bbf>=0.4
+h5py
+matplotlib
+numpy
+pandas
+requests
+scikit-sparse
+scipy
+sncosmo
