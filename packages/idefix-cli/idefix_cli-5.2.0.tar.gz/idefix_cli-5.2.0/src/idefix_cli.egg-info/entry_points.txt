@@ -1,0 +1,3 @@
+[console_scripts]
+baballe = idefix_cli.__main__:alt_main
+idfx = idefix_cli.__main__:main

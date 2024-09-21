@@ -1,0 +1,14 @@
+inifix>=4.2.2
+packaging>=21.0
+termcolor>=2.3.0
+
+[:python_version < "3.11"]
+typing-extensions>=4.1.0
+
+[isolated]
+inifix==4.2.2
+packaging==21.0
+termcolor==2.3.0
+
+[isolated:python_version < "3.11"]
+typing-extensions==4.1.0
