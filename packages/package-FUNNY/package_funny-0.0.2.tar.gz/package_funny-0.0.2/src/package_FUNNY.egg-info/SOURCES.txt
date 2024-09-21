@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/package_FUNNY.egg-info/PKG-INFO
+src/package_FUNNY.egg-info/SOURCES.txt
+src/package_FUNNY.egg-info/dependency_links.txt
+src/package_FUNNY.egg-info/not-zip-safe
+src/package_FUNNY.egg-info/requires.txt
+src/package_FUNNY.egg-info/top_level.txt
+src/package_FUNNY/c_code/matrix_library.c
+src/package_FUNNY/c_code/matrix_library.h

@@ -1,0 +1,2 @@
+include src/package_FUNNY/c_code/*.c
+include src/package_FUNNY/c_code/*.h
