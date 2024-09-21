@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zcurvepy
+Version: 1.2.0
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: biopython

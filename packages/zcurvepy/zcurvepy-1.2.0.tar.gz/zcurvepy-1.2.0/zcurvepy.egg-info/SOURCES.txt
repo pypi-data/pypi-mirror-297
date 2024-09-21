@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+zcurvepy.cpp
+zcurvepy.egg-info/PKG-INFO
+zcurvepy.egg-info/SOURCES.txt
+zcurvepy.egg-info/dependency_links.txt
+zcurvepy.egg-info/requires.txt
+zcurvepy.egg-info/top_level.txt
