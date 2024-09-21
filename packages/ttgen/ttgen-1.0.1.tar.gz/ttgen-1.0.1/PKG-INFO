@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: ttgen
+Version: 1.0.1
+Summary: Efficient algorithm for generating all unique k-combinations of a set with duplicates, based on the algorithm by Tadao Takaoka (2015, O(1) Time Generation of Adjacent Multiset Combinations)
+Project-URL: Homepage, https://github.com/jajetloh/ttgen
+Project-URL: Issues, https://github.com/jajetloh/ttgen/issues
+Author-email: Ja-Jet Loh <jajet.codes@gmail.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# TTGen
+
+Efficient algorithm for generating all unique k-combinations of a set with duplicates, based on the algorithm by Tadao Takaoka [(2015, O(1) Time Generation of Adjacent Multiset Combinations)](https://arxiv.org/abs/1503.00067).
+
+This is a pure Python implementation of the Pascal code provided by Tadao Takaoka in the linked article.
+
+## Installation
+
+Via ``pip``
+```
+pip install ttgen
+```
+
+Locally for development via
+```
+pip install -e .
+```
+
+## Publishing
+
+Remember to increment the version number in ``pyproject.toml`` first.
+
+```
+python -m build
+python -m twine upload dist/ttgen-X.Y.Z*
+```
+
+## Maintenance
+
+- ``pytest`` to run unit tests
