@@ -1,0 +1,3 @@
+[console_scripts]
+rag-classic-ml=rag_classic_ml.__main__:main
+
