@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools~=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kontur_http_toolkit_core"
+description = "Библиотека для создания HTTP-клиентов к различным сервисам на основе HTTPX"
+readme = "README.md"
+requires-python = ">=3.8, <3.13"
+dependencies = ["httpx~=0.24.1"]
+dynamic = ["version"] # Версия импортируется из атрибута модуля указанного в разделе [tool.setuptools.dynamic]
+
+[project.entry-points.opentelemetry_instrumentor]
+httptoolkit-httpx = "kontur.httptoolkitcoreopentelemetry:OtelHttpxTransportInstrumentor"
+
+[project.optional-dependencies]
+instruments = ["httpx~=0.24.1"]
+opentelemetry = ["opentelemetry-instrumentation-httpx"]
+test = ["pytest==7.0.0", "pytest-cov==3.0.0", "testfixtures==6.18.3", "pytest-asyncio==0.18.3", "pytest-httpx==0.22.0"]
+
+[project.urls]
+homepage = "https://github.com/skbkontur/http_toolkit"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+
+[tool.flake8]
+max-line-length = 119
+exclude = ".svn,CVS,.bzr,.hg,.git,__pycache__,.tox,.eggs,*.egg,.venv,env,venv,build"
+extend-ignore = ["E203"]
+tee = true
+
+[tool.black]
+line-length = 119
+target-version = ["py37"]
+
+[tool.mypy]
+ignore_missing_imports = true
+explicit_package_bases = true
+install_types = true
+non_interactive = true
+exclude = ["env", "venv", "build"]
+
+[tool.setuptools.packages.find]
+include = ["kontur.*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "kontur.httptoolkitcore._version.__version__"}

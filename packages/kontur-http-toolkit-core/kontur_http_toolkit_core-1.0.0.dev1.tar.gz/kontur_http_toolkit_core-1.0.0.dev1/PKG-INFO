@@ -1,0 +1,195 @@
+Metadata-Version: 2.1
+Name: kontur_http_toolkit_core
+Version: 1.0.0.dev1
+Summary: Библиотека для создания HTTP-клиентов к различным сервисам на основе HTTPX
+Project-URL: homepage, https://github.com/skbkontur/http_toolkit
+Requires-Python: <3.13,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: httpx~=0.24.1
+Provides-Extra: instruments
+Requires-Dist: httpx~=0.24.1; extra == "instruments"
+Provides-Extra: opentelemetry
+Requires-Dist: opentelemetry-instrumentation-httpx; extra == "opentelemetry"
+Provides-Extra: test
+Requires-Dist: pytest==7.0.0; extra == "test"
+Requires-Dist: pytest-cov==3.0.0; extra == "test"
+Requires-Dist: testfixtures==6.18.3; extra == "test"
+Requires-Dist: pytest-asyncio==0.18.3; extra == "test"
+Requires-Dist: pytest-httpx==0.22.0; extra == "test"
+
+# kontur_http_toolkit_core
+Библиотека для создания HTTP-клиентов к различным сервисам.
+
+## HTTPX_Service
+
+Если не нужно использовать сконфигурированный транспорт, используйте HTTPXService (для async -> AsyncHttpxService)
+
+```python
+from kontur.httptoolkitcore import HttpxService
+from kontur.httptoolkitcore import Header
+
+headers = (
+    Header(name="My-Header", value="my-value", is_sensitive=False),
+)
+httpbin = HttpxService("http://httpbin.org", headers=headers)
+httpbin.get("/get")
+httpbin.post("/post")
+```
+
+## Service
+
+Если нужно использовать сконфигурированный transport, используйте Service. (Service -> HttpxTransport, AsyncService -> AsyncHttpxTransport)
+
+```python
+### Sync
+
+from kontur.httptoolkitcore import Service, Header
+from kontur.httptoolkitcore.transport import HttpxTransport
+
+
+class DummyService(Service):
+    pass
+
+
+DummyService(
+    headers=(Header(name="ServiceHeader", value="service-header", is_sensitive=False),),
+    transport=HttpxTransport(base_url="https://example.com:4321", proxies={"http://": "http://10.10.1.10:3128"}),
+    ## base_url в таком случае передается в transport
+)
+```
+
+```python
+### Async
+
+from kontur.httptoolkitcore import AsyncService, Header
+from kontur.httptoolkitcore.transport import AsyncHttpxTransport
+
+
+class DummyService(AsyncService):
+    pass
+
+
+DummyService(
+    headers=(Header(name="ServiceHeader", value="service-header", is_sensitive=False),),
+    transport=AsyncHttpxTransport(base_url="https://example.com:4321", proxies={"http://": "http://10.10.1.10:3128"}),
+    ## base_url в таком случае передается в transport
+)
+```
+
+### Отправка запроса
+
+```python
+### Async
+
+from kontur.httptoolkitcore import Service, Header, HttpMethod
+from kontur.httptoolkitcore.transport import HttpxTransport
+from kontur.httptoolkitcore.request import Request
+
+
+class DummyService(Service):
+    pass
+
+
+service = DummyService(
+    headers=(Header(name="ServiceHeader", value="service-header", is_sensitive=False),),
+    transport=HttpxTransport(base_url="https://example.com:4321", proxies={"http://": "http://10.10.1.10:3128"}),
+    ## base_url в таком случае передается в transport
+)
+
+# По методу
+service.post(
+    path="/somewhere",
+    headers=(Header(name="SuperSecret", value="big_secret", is_sensitive=True, create_mask=lambda value: value[-4:])),
+    params={"over": "the rainbow"},
+    body="Something",
+)
+
+# По request
+service.request(Request(method=HttpMethod.POST, body="Request", params={}, path=""))
+```
+
+### Отправка особых типов
+
+```python
+from kontur.httptoolkitcore import Service, Header, HttpMethod
+from kontur.httptoolkitcore.transport import HttpxTransport
+from kontur.httptoolkitcore.request import Request
+
+
+class DummyService(Service):
+    pass
+
+
+service = DummyService(
+    headers=(Header(name="ServiceHeader", value="service-header", is_sensitive=False),),
+    transport=HttpxTransport(base_url="https://example.com:4321", proxies={"http://": "http://10.10.1.10:3128"}),
+    ## base_url в таком случае передается в transport
+)
+
+# Отправить JSON (json_encoder задан по-умолчанию, но можно его поменять в transport)
+# Не отправлять вместе с body и с files
+service.post(
+    path="/somewhere",
+    headers=(Header(name="SuperSecret", value="big_secret", is_sensitive=True, create_mask=lambda value: value[-4:])),
+    params={"over": "the rainbow"},
+    json={
+        "param1": 1,
+        "param2": 2,
+    },
+)
+
+# Отправить multipart-files в формате Dict[str, Union[BinaryIO, Tuple[str, BinaryIO, str]]]
+# Можно отправлять вместе с body, но нельзя с json
+service.post(
+    path="/somewhere",
+    headers=(Header(name="SuperSecret", value="big_secret", is_sensitive=True, create_mask=lambda value: value[-4:]),),
+    params={"over": "the rainbow"},
+    files={"upload-file": open("report.xls", "rb")},
+    # другой формат files = {'upload-file': ('report.xls', open('report.xls', 'rb'), 'application/vnd.ms-excel')} 
+)
+```
+
+## Имя логгера библиотеки
+
+kontur.httptoolkitcore
+
+## Уровень логирования по-умолчанию
+
+logging.INFO
+
+## Пример настройки логирования
+
+```python
+import logging
+import kontur.httptoolkitcore
+
+logging.basicConfig(level="INFO")
+
+
+class MyService(kontur.httptoolkit.HttpxService):
+    def test(self):
+        self.get("/")
+
+
+service = MyService("https://test.ru")
+
+service.test()
+```
+## Вывод
+```python
+INFO:kontur.httptoolkitcore.transport._sync:Sending GET https://test.ru/
+```
+
+Доп.информация
+- [HttpxService](docs/QUICKSTART.md#httpxservice)
+- [Service](docs/QUICKSTART.md#service)
+- [Отправка запросов](docs/QUICKSTART.md#отправка-запроса)
+- [Отправка Json или Files](docs/QUICKSTART.md#отправка-особых-типов)
+- [Пример логирования](docs/QUICKSTART.md#пример-настройки-логирования)
+
+Все про Transport
+- [HttpxTransport](docs/TRANSPORT.md#transport)
+- [Создание собственного Transport](docs/TRANSPORT.md#transport-не-от-httpx)
+
+OpenTelemetry
+- [OpenTelemetry](kontur/httptoolkitcoreopentelemetry/README.md)
