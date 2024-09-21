@@ -1,0 +1,3 @@
+[console_scripts]
+matrix-content-scanner=matrix_content_scanner.mcs:main
+
