@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: torchac_cuda
+Version: 0.2.5
+Summary: GPU based arithmetic coding for LLM KV compression
+Author: Yihua Cheng
+Author-email: yihua98@uchicago.edu
+Requires-Dist: torch>=2.1.0
