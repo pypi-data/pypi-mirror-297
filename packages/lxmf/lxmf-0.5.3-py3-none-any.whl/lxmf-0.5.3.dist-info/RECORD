@@ -1,0 +1,15 @@
+LXMF/Handlers.py,sha256=xHTcMr5nZzYc5y-IOkMS77TH6KPHwLKiNYzsJ9YHYmE,2543
+LXMF/LXMF.py,sha256=slUdHTqFtFjVjuJXksM9ctwLOsj3zNq6Ej3Jq9jljrA,4600
+LXMF/LXMPeer.py,sha256=HSeugWIrMnj2eHh9Ufe7rEDwMFS63KSVjW9LDYz0WUo,14401
+LXMF/LXMRouter.py,sha256=d_FlJyIwbNAbVMalb-4POVakaESbkDxB5IN9QxNRISg,99945
+LXMF/LXMessage.py,sha256=VcBs4tx9r06XxQBhLenwcDp7Zj070oaPB8Qt4Dt2mkI,32632
+LXMF/LXStamper.py,sha256=vh3y6fPmex_agT-GS7UMqqbb2HnK2PxOVyhODP2VYio,8779
+LXMF/__init__.py,sha256=A9YPNRucI_edacQkY9mLWkeW14QGJM8vccAqa_ZI7rE,286
+LXMF/_version.py,sha256=tgzuqHKcEdKBaP57F5oXxq4XlW2n9J4Fj8ZGu7nGOZg,22
+LXMF/Utilities/lxmd.py,sha256=o_C2V8hkAaFSgZm17cRjuwBGeUKqIEg-mjgDe4NN0S4,22838
+lxmf-0.5.3.dist-info/LICENSE,sha256=4Flvutyi2SRX9i58mVdmKw1bBlRyxhOBtUTmsk_M2l4,1081
+lxmf-0.5.3.dist-info/METADATA,sha256=1th_5nsybgpe7BEQJO0mnJGRIQ4Rf2CwOThmtsme2lM,12230
+lxmf-0.5.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lxmf-0.5.3.dist-info/entry_points.txt,sha256=oHSC664-MexpGBF7QRF1hcoW0GVj-b0md9tZp2zC8Ww,50
+lxmf-0.5.3.dist-info/top_level.txt,sha256=ym0CzFeFciFeKD8jRXI0MmHLGgGf2kCM8vvYUYCsQt0,5
+lxmf-0.5.3.dist-info/RECORD,,
