@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: poorlib
+Version: 0.0.5
+Summary: Python library for poor-man
+Author: Farhan Purdi
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: cryptography==43.0.1
+
