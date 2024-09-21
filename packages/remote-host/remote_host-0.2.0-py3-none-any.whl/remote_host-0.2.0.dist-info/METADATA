@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: remote-host
+Version: 0.2.0
+Summary: An API for administering remote hosts.
+Author-Email: Julius Koenig <info@bastelquartier.de>
+License: GPL-3.0
+Requires-Python: >=3.9
+Requires-Dist: wiederverwendbar>=0.5.5
+Requires-Dist: paramiko>=3.5.0
+Requires-Dist: pypsexec>=0.3.0
+Requires-Dist: pysmb>=1.2.9.1
+Description-Content-Type: text/markdown
+
+# remote-host
