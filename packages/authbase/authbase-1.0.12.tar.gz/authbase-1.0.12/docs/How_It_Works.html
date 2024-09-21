@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuthBase</title>
+    <link href="https://commonmarkwebsite.org/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AuthBase</h1>
+<p>Email-only authentication for FastAPI webapps.</p>
+
+        </header>
+
+        
+
+        <section id="overview">
+<h2>Overview</h2>
+<p>Authbase a provides authentication for FastAPI/SQLAlchemy webapps.</p>
+<p>It doesn't use passwords for authentication, instead it relies on users
+clicking a link that was sent to their email address. The logic behind this is
+that usually there is a reset password option that sends an email anyway, so in
+theory it is a system that has the same or a similar level of security.</p>
+<p>AuthBase also provides a function for emailing users.</p>
+</section>
+<section id="setup">
+<h2>Setup</h2>
+<pre><code>pip install authbase
+</code></pre>
+<p>Then in your FastAPI webapp:</p>
+<pre><code>from fastapi import FastAPI
+from sqlalchemy import create_engine
+from authbase import setup_authbase
+
+app = FastAPI()
+engine = create_engine('sqlite:///example.db')
+setup_authbase(app, engine)
+
+# ... the rest of your code goes here ...
+</code></pre>
+<p>Then edit config.py in the root directory of your project to contain:</p>
+<pre><code># Name of your webapp.
+WEBAPP_NAME='My Example App'
+
+# Email settings.
+SMTP_HOST='smtp.example.org'
+SMTP_PORT=587
+SMTP_USERNAME='username'
+SMTP_PASSWORDD='password'
+SENDER_ADDRESS='My Example App &lt;no-reply@example.org&gt;'
+
+# Redirct URL where users are sent after they successfully confirm their email
+# address or sign in.
+REDIRECT_URL='https://example.org/signed-in'
+</code></pre>
+</section>
+<section id="api">
+<h2>API</h2>
+<h3>POST /auth</h3>
+<p>Signs up a new user or initiates the sign in process.</p>
+<p>This endpoint takes a single parameter, <strong>email</strong>, which should be the email
+address of the user signing up or signing in.</p>
+<p>The response is HTML with a message instructing the user to check their email
+for a confirmation link or a link to sign in.</p>
+<p>The response sets a <strong>session_id</strong> cookie.</p>
+<p>Here's an example JS snippet that you can attach to a form submit event:</p>
+<pre><code>const form = document.getElementById("my-sign-in-form")
+form.addEventListener("submit", event =&gt; {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    fetch("https://api.example.org/auth", {
+        method: "POST",
+        body: formData,
+        credentials: "include",
+    }).then(... handle response ...);
+});
+</code></pre>
+<h3>POST /sign_out</h3>
+<p>This endpoint takes no parameters and signs out the user associated with the
+<strong>session_id</strong> cookie.</p>
+<p>Here's an example JS snippet that makes this request:</p>
+<pre><code>await fetch('https://api.example.org/sign_out', {
+    method: 'POST',
+    credentials: 'include',
+}); 
+</code></pre>
+<h3>GET /me</h3>
+<p>Gets information about the currently signed in user.</p>
+<p>The request should send the <strong>session_id</strong> cookie.</p>
+<p>The response is A JSON object with two fields, <strong>id</strong>, and <strong>email_address</strong>.</p>
+<p>This response returns error 401 (Unauthenticated) if the user has not signed in.</p>
+<p>Here's an example JS snippet that makes this request:</p>
+<pre><code>fetch('https://api.example.org/me', {
+    method: 'GET',
+    credentials: 'include',
+}).then(... handle response ...);
+</code></pre>
+<h3>GET /sign_in/{</h3>
+<p>This endpoint is for internal use only.</p>
+</section>
+
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+
+</html>
