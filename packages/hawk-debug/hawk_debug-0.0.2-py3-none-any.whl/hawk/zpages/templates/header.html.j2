@@ -1,0 +1,26 @@
+<header class="container">
+    <nav>
+        <ul>
+            <li class="page-description">
+                <img class="logo" loading="lazy" src="https://raw.githubusercontent.com/roma-glushko/hawk/main/assets/logo/hawk-debug.png" alt="Hawk Debug Logo">
+                <hgroup>
+                    <h1>{{ title }}</h1>
+                    {% if description %}
+                    <p>{{ description }}</p>
+                    {% endif %}
+                </hgroup>
+            </li>
+        </ul>
+        {% include "theme_toggle.html.j2" %}
+    </nav>
+</header>
+<style>
+    .logo {
+        height: 4rem;
+        margin-right: 0.5rem;
+    }
+    .page-description {
+        display: flex;
+        align-items: center;
+    }
+</style>
