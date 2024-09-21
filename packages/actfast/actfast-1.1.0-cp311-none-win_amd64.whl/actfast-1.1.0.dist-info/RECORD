@@ -1,0 +1,8 @@
+actfast-1.1.0.dist-info/METADATA,sha256=M4Ae7uFBYnsZAwbVo4_nxcj4N_uKKH0qPQyIsXwlovA,4215
+actfast-1.1.0.dist-info/WHEEL,sha256=nR-iCKVzqslZ_ctUCwVzfmnK67PzA6bYt7Kz0L0Paj0,95
+actfast-1.1.0.dist-info/licenses/LICENSE,sha256=vR9kyetxuwIai8oAz3pL-ATpcvweHxxvJFUb3rooX9Q,1082
+actfast/__init__.py,sha256=o7LhoSkjnh17TnbjkKo3N9NlJS3njg0-sOxJhCVfVSk,111
+actfast/__init__.pyi,sha256=spJc0i3FwtpRALJiO8Slsk6sRaXEb__Oi6t4IwDi9Wo,1749
+actfast/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+actfast/actfast.cp311-win_amd64.pyd,sha256=ZVitUXUt3cg4tMOXJVA7ZIdEvVR_iMF2e0oObhTXdJQ,519680
+actfast-1.1.0.dist-info/RECORD,,
