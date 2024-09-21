@@ -1,0 +1,7 @@
+pip_compile_cross_platform/__init__.py,sha256=rVTGwp1acdpto6g8vIAFn54i1eCzV25X46Ps2994bQk,6605
+pip_compile_cross_platform/__main__.py,sha256=94UQ_TSQG84jbKqCQVPHy2DkQiYV1GjA_NJrFH-COqs,107
+pip_compile_cross_platform-1.4.2.dist-info/entry_points.txt,sha256=ns60X7PDgvABxCKTbnv0iLQYgr_pX2Z4lwh8ODfIdWc,77
+pip_compile_cross_platform-1.4.2.dist-info/LICENSE,sha256=u2P9ePDxlf7fMlWsWIwyVslIQMAwOHHlJMAsw2FuLVE,33006
+pip_compile_cross_platform-1.4.2.dist-info/METADATA,sha256=hBVEQLOXvq2Jsjni12Ja7kkkXXPlYPVBVPaPJkZXA44,7909
+pip_compile_cross_platform-1.4.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pip_compile_cross_platform-1.4.2.dist-info/RECORD,,
