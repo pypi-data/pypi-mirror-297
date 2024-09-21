@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+tests/test_xail_xursparks_fw.py
+xursparks/__init__.py
+xursparks.egg-info/PKG-INFO
+xursparks.egg-info/SOURCES.txt
+xursparks.egg-info/dependency_links.txt
+xursparks.egg-info/requires.txt
+xursparks.egg-info/top_level.txt
