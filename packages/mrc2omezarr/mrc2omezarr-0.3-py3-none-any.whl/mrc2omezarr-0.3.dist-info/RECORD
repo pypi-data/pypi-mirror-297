@@ -1,0 +1,14 @@
+mrc2omezarr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mrc2omezarr/_version.py,sha256=70EL5Ao5qU0eh0IaEutgBVj2leAtBIrWHEMJbXxWg5s,406
+mrc2omezarr/cli.py,sha256=HPHXZWMi6MewIx3Thsc-Rr7AXL2CrOdIiJ5wurOJfSg,2559
+mrc2omezarr/convert.py,sha256=aCA7YMBA-P6BAPX3QUKpF9J0gLsWhrAZJFwJmrHbnTA,3648
+mrc2omezarr/header.py,sha256=3xXiRktaFTwqmqIesFc2Vlmk8ql0q_dpt4RuNaxP0UQ,2233
+mrc2omezarr/proc.py,sha256=5wgIDKS7HvgMbaUNfXLxoiWTzov_WEqBXDNMni7Bsl8,1722
+mrc2omezarr/read.py,sha256=PE8y_rOHUrkD3MsrTuvUfmasiAPXzu_MOAXSwrtYu58,755
+mrc2omezarr/util.py,sha256=rqBT4bJvTlAyAJBybBn5E3BdJtDVvwRkjCrp9IQI4M8,323
+mrc2omezarr/write.py,sha256=TUk3uQqJnRFvc150KdCg8_jJsQjEk9uagdhLCYHWtLQ,1370
+mrc2omezarr-0.3.dist-info/METADATA,sha256=gTjcJbEeI5Qj1s8HVG8OGoHiop3E19Tv5Zt5gDsoZTo,4481
+mrc2omezarr-0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+mrc2omezarr-0.3.dist-info/entry_points.txt,sha256=m5eu1y-V1twc-o74hxHXvkXb0yklgsaVLuVnp5hYquI,56
+mrc2omezarr-0.3.dist-info/licenses/LICENSE,sha256=kMUqIiwGHvfOICzuDiSyfrMkYu0agqg9_km8w9PCwj8,1069
+mrc2omezarr-0.3.dist-info/RECORD,,

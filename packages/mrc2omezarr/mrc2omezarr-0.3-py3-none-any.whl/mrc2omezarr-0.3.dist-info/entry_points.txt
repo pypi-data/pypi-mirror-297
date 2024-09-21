@@ -1,0 +1,2 @@
+[console_scripts]
+mrc2omezarr = mrc2omezarr.cli:convert
