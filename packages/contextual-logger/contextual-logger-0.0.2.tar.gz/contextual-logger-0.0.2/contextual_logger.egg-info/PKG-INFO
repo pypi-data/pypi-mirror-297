@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: contextual-logger
+Version: 0.0.2
+Summary: Contextual Logger
+Home-page: https://github.com/blester125/contextual-logger
+Download-URL: https://github.com/blester125/contextual-logger/archive/0.0.2.tar.gz
+Author: blester125
+Author-email: blester125@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# Contextual Logger
+
+## Usage
+
+``` python
+import logging
+import contextual_logger
+
+logger = logging.getLogger("name")
+
+def process_example(ex):
+  logger.info("Processing example by doing ...")
+  return ex
+
+data = ...
+
+with logger(dataset="SST2"):
+  data = [process_example(d) for d in data]
+```
+
+``` json
+{
+  "level_name": "INFO",
+  "timestamp": "...",
+  "logger": "demo",
+  "message": "Processing example by doing ...",
+  "dataset": "SST2"
+}
+{
+  "level_name": "INFO",
+  "timestamp": "...",
+  "logger": "demo",
+  "message": "Processing example by doing ...",
+  "dataset": "SST2"
+}
+```
