@@ -1,0 +1,5 @@
+sdb_connector-0.2.5.dist-info/METADATA,sha256=ZYP_y0O0rS_AjcchZCcUGWycaIGmsmUA_tqUhzznVt4,605
+sdb_connector-0.2.5.dist-info/WHEEL,sha256=VAD3gneY1-V3gCdb8jq7aPNjtxpzi25wwbbLsT7XIgI,109
+sdb_connector/__init__.py,sha256=UzAYKiUjPFgg70IM1ias-dv3PsLMxmssFIP7kIv1D_M,135
+sdb_connector/sdb_connector.cpython-311-aarch64-linux-gnu.so,sha256=zDOY6Smdf4usc-NlAflvG0dn2W2ls6iWyEs_poCNTls,16204576
+sdb_connector-0.2.5.dist-info/RECORD,,
