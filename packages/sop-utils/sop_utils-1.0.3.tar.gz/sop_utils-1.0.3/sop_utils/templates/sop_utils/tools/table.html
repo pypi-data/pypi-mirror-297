@@ -1,0 +1,115 @@
+{% load buttons %}
+{% load helpers %}
+{% load i18n %}
+{% load plugins %}
+{% load static %}
+
+
+<div class="tab-pane show active" id="object-list" role="tabpanel" aria-labelledby="object-list-tab">
+
+
+    <div class="row">
+    {# Custom quicksearch for SDA List #}
+
+    {% if search %}
+        <div class="col-auto d-print-none">
+            <div class="input-group input-group-flat me-2 quicksearch" hx-disinherit="hx-select hx-swap">
+                <input type="search" name="q" class="form-control" id="quick-search" placeholder="Quick search numbers" />
+            </div>
+        </div>
+        
+        {# /Custom quicksearch for SDA List #}
+        <div class="row mb-2">
+        </div>
+    {% else %}
+        
+        {# Object table controls #}
+        
+        {% with table_modal="ObjectTable_config" %}
+        <div class="row mb-3">
+            <div class="col-auto ms-auto d-print-none">
+                {% if request.user.is_authenticated and table_modal %}
+                <div class="table-configure input-group">
+                    <button type="button" data-bs-toggle="modal" title="{% trans "Configure Table" %}" data-bs-target="#{{ table_modal }}" class="btn">
+                        <i class="mdi mdi-cog"></i>{% trans "Configure Table" %}
+                    </button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endwith %}
+    {% endif %}
+        
+    {# /Object table controls #}
+    </div>
+
+
+    <form method="post" class="form form-horizontal">
+        {% csrf_token %}
+        {# "Select all" form #}
+        {% if table.paginator.num_pages > 1 %}
+        <div id="select-all-box" class="d-none card d-print-none">
+            <div class="form col-md-12">
+            <div class="card-body d-flex justify-content-between">
+                <div class="form-check">
+                <input type="checkbox" id="select-all" name="_all" class="form-check-input" />
+                <label for="select-all" class="form-check-label">
+                    {% blocktrans trimmed with count=table.page.paginator.count object_type_plural=table.data.verbose_name_plural %}
+                    Select <strong>all <span class="total-object-count">{{ count }}</span> {{ object_type_plural }}</strong> matching query
+                    {% endblocktrans %}
+                </label>
+                </div>
+                <div class="bulk-action-buttons">
+                {% if 'bulk_edit' in actions %}
+                    {% bulk_edit_button model query_params=request.GET %}
+                {% endif %}
+                {% if 'bulk_delete' in actions %}
+                    {% bulk_delete_button model query_params=request.GET %}
+                {% endif %}
+                </div>
+            </div>
+            </div>
+        </div>
+        {% endif %}
+        {# /"Select all" form #}
+
+
+        {# Objects table #}
+        <div class="card">
+            <div class="htmx-container table-responsive" id="object_list">
+              <div class="custom-table", id="{{ table|meta:"model"|meta:"verbose_name" }}">
+                {% include 'htmx/table.html' %}
+              </div>
+            </div>
+        </div>
+        {# /Objects table #}
+
+
+        {# Form buttons #}
+        {% if table.data %}
+        <div class="btn-list d-print-none mt-2">
+            {% block bulk_buttons %}
+            <div class="bulk-action-buttons">
+                {% if 'bulk_edit' in actions %}
+                {% bulk_edit_button model query_params=request.GET %}
+                {% endif %}
+                {% if 'bulk_delete' in actions %}
+                {% bulk_delete_button model query_params=request.GET %}
+                {% endif %}
+            </div>
+            {% endblock %}
+        </div>
+        <div class="row mb-3">
+        </div>
+        {% endif %}
+        {# /Form buttons #}
+
+    </form>
+
+</div>
+
+{% if not search %}
+{% block modals %}
+    {% table_config_form table table_name="ObjectTable" %}
+{% endblock modals %}
+{% endif %}
