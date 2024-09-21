@@ -1,0 +1,7 @@
+[project]
+name = "stringsext"
+version = "0.1.1"
+description = "Python subprocess wrapper around the Rust `stringsext` crate."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
