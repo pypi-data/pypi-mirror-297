@@ -1,0 +1,12 @@
+startnewproject-0.1.6.dist-info/METADATA,sha256=zJ4XvL2u4axkSQMG8l2Y4b_RswRAFYxA7CZbAx_Gy7g,2941
+startnewproject-0.1.6.dist-info/WHEEL,sha256=rSwsxJWe3vzyR5HCwjWXQruDgschpei4h_giTm0dJVE,90
+startnewproject-0.1.6.dist-info/entry_points.txt,sha256=0IckY5fU4mDRPAyWzEYJv1KihczhlAuI_d5tHjI70Do,63
+startnewproject-0.1.6.dist-info/licenses/LICENSE,sha256=Sx-dX1QyPDd3yHNnh20Ot7ZGSGI9Yo4y905zj42g5EM,1074
+startnewproject/__init__.py,sha256=qhmLjkr3krHqJ72BfiFE87fuitT-rtLo6Bmv_EfGeRc,89
+startnewproject/main.py,sha256=uqPm5fsvZ2wpzGANTKMdFWVVVhba4tKGPqE1ve_zAs0,13063
+startnewproject/templates/README.html,sha256=P-MlDhZtL6AeM3bTwz-rp6qprHllNnRqOFplF9Wf7to,718
+startnewproject/templates/README.md,sha256=F5I4jADvm4d_1CUno5y228Us_Xrf-bOhJwgmhwx5aSw,129
+startnewproject/templates/README.txt,sha256=DFFT0ekByBwJjRpPQqX1h-sGP8JwD-nO5b6KkE4TAa8,119
+startnewproject/templates/config.json,sha256=eoRv8NusJsrfiszTOPDGcIS-eJuL8dZk9V0LGysO5JA,2400
+startnewproject/version.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+startnewproject-0.1.6.dist-info/RECORD,,
