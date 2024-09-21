@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lokesh
+Version: 0.1
+Summary: A simple machine learning package by Lokesh
+Home-page: https://github.com/2002lokesh
+Author: Lokesh
+Author-email: lokeshkcse314@gmail.com
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
