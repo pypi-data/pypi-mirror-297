@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "constellation_vpc"
+version = "0.5.0a2"
+description = "The VPC Module for constellation-aws"
+authors = ["Coulter Stutz <coulterstutz@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9.19"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
