@@ -1,0 +1,14 @@
+sop_utils/__init__.py,sha256=3Z7bmNiVlrgj4KxpTGbuF7ZHagwqt5SJceH6uGMEuA4,323
+sop_utils/models.py,sha256=Z8ACYEss1IBmZg1Rx00_6CMksoQgL7Tsxdhqy6fePoo,622
+sop_utils/utils.py,sha256=r3gEtRXptJk4NBZzcm_BpWzPukRvoH8sy2BT7LA-RRg,10449
+sop_utils/static/my_quicksearch.js,sha256=UjnS_qJYcUtXglk0zuVqxZm_GCr3VTCYR0EIivFXRQU,3771
+sop_utils/static/my_tab.js,sha256=ttrA_fgKrMGyCqumxLJyM649BXgrzNgELdrwJ9QBdMw,328
+sop_utils/templates/sop_utils/tools/badge.html,sha256=ZN8CI1UqpAX0bYP5uYjY6UeWW0vBEcsvIJEbdl52OQY,416
+sop_utils/templates/sop_utils/tools/breadcrumbs.html,sha256=fYwhqN8CoHbnGcVgQmFIWhTJNMkZdQb0L9YR1nIxbPA,750
+sop_utils/templates/sop_utils/tools/form.html,sha256=5bNWXsPgPL7acWGf3qTdDTiaB1Fge7sDb17NI4ig9tg,1585
+sop_utils/templates/sop_utils/tools/site.html,sha256=evX1dVuHhL4ea7hjdKh5Sh-blgbdseWbE6o_e9gljvU,992
+sop_utils/templates/sop_utils/tools/table.html,sha256=alnt8q9i9_t4_FVZUtnL5oQmXynCh9vLm6G-wgoBxa0,3998
+sop_utils-1.0.2.dist-info/METADATA,sha256=cmLbR-E1xi11m8gp1gDJC8Sg4uO8QMq8vwfjKAbLbno,237
+sop_utils-1.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sop_utils-1.0.2.dist-info/top_level.txt,sha256=Ux_VRaxifStu2ggohSgfkG-GQIN8KnyujA6tMj0y6eE,10
+sop_utils-1.0.2.dist-info/RECORD,,
