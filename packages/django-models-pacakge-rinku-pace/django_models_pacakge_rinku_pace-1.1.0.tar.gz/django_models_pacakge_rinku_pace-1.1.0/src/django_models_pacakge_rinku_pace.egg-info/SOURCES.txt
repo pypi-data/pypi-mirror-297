@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+src/django_models_pacakge_rinku_pace.egg-info/PKG-INFO
+src/django_models_pacakge_rinku_pace.egg-info/SOURCES.txt
+src/django_models_pacakge_rinku_pace.egg-info/dependency_links.txt
+src/django_models_pacakge_rinku_pace.egg-info/requires.txt
+src/django_models_pacakge_rinku_pace.egg-info/top_level.txt
+src/onboarding/__init__.py
+src/onboarding/admin.py
+src/onboarding/apps.py
+src/onboarding/models.py
+src/onboarding/tests.py
+src/onboarding/views.py
+src/onboarding/migrations/0001_initial.py
+src/onboarding/migrations/__init__.py
