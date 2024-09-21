@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyHBB"
+version = "0.1.0"
+description = "testing py package."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Waqar Hassan Khan", email = "wkhan17@asu.edu"}]
+requires-python = ">=3.6"
+dependencies = [
+    "huffpress>=1.0.54",
+]
+
+[project.urls]
+homepage = "https://github.com/Waqar-107/testPyHHB"
