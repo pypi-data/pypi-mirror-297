@@ -1,0 +1,2 @@
+[console_scripts]
+LocalRequirement = local_requirement.local_requirement:main
