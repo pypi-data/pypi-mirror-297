@@ -1,0 +1,303 @@
+Metadata-Version: 2.1
+Name: fastapi-pydentity
+Version: 0.1.2
+Summary: 
+License: MIT
+Author: udachin077
+Author-email: pypi.udachin@yandex.ru
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: sqlalchemy
+Provides-Extra: tortoise
+Requires-Dist: PyJWT (==2.9.0)
+Requires-Dist: fastapi (==0.114.*)
+Requires-Dist: pydenticore (>=0.1.2,<0.2.0)
+Requires-Dist: pydentity-db-sqlalchemy (==0.1.*) ; extra == "sqlalchemy"
+Requires-Dist: pydentity-db-tortoise (==0.1.*) ; extra == "tortoise"
+Requires-Dist: python-multipart (>=0.0.9,<0.0.10)
+Description-Content-Type: text/markdown
+
+<h1 align="center">FastAPI-Pydentity</h1>
+
+# Installation
+
+First you have to install `fastapi-pydentity` like this:
+
+    pip install fastapi-pydentity
+
+You can also install with your db adapter:
+
+For SQLAlchemy:
+
+    pip install fastapi-pydentity[sqlalchemy]
+
+For Tortoise ORM:
+
+    pip install fastapi-pydentity[tortoise]
+
+## Example
+
+```python
+from typing import Annotated
+
+from fastapi import Depends, HTTPException
+from pydenticore import SignInManager, UserManager, RoleManager
+
+from examples.app import app
+from examples.models import User
+from examples.schemes import RegisterInputModel, LoginInputModel
+from examples.stores import UserStore, RoleStore
+from fastapi_pydentity import PydentityBuilder
+from fastapi_pydentity.authentication import use_authentication
+from fastapi_pydentity.authorization import use_authorization, Authorize
+
+builder = PydentityBuilder()
+builder.add_default_identity(UserStore, RoleStore)
+builder.add_authorization()
+builder.build()
+
+use_authentication(app)
+use_authorization(app)
+
+
+@app.post("/register")
+async def register(
+        model: Annotated[RegisterInputModel, Depends()],
+        user_manager: Annotated[UserManager, Depends()],
+        signin_manager: Annotated[SignInManager, Depends()],
+):
+    if model.password.get_secret_value() != model.confirm_password.get_secret_value():
+        raise HTTPException(status_code=400, detail=["Passwords don't match."])
+
+    user = User(email=model.email, username=model.email)
+    result = await user_manager.create(user, model.password.get_secret_value())
+
+    if result.succeeded:
+        await signin_manager.sign_in(user, is_persistent=False)
+    else:
+        raise HTTPException(status_code=400, detail=[err.description for err in result.errors])
+
+
+@app.post("/register-admin")
+async def register_admin(user_manager: Annotated[UserManager, Depends()], ):
+    user = User(email="admin@example.com", username="admin@example.com")
+    result = await user_manager.create(user, "P@ssw0rd")
+
+    if not result.succeeded:
+        raise HTTPException(status_code=400, detail=[err.description for err in result.errors])
+
+    await user_manager.add_to_roles(user, "admin")
+
+
+@app.post("/login")
+async def login(model: Annotated[LoginInputModel, Depends()], signin_manager: Annotated[SignInManager, Depends()], ):
+    result = await signin_manager.password_sign_in(
+        model.email,
+        model.password.get_secret_value(),
+        model.remember_me
+    )
+
+    if not result.succeeded:
+        raise HTTPException(status_code=401, detail="Invalid login attempt.")
+
+
+@app.post("/logout", dependencies=[Authorize()])
+async def logout(signin_manager: Annotated[SignInManager, Depends()], ):
+    await signin_manager.sign_out()
+
+
+@app.get("/users", dependencies=[Authorize()])
+async def get_users(user_manager: Annotated[UserManager, Depends()], ):
+    return [user.email for user in await user_manager.all()]
+
+
+@app.get("/roles", dependencies=[Authorize("admin")])
+async def get_roles(role_manager: Annotated[RoleManager, Depends()], ):
+    return [role.name for role in await role_manager.all()]
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app)
+
+```
+
+## Configure identity options
+
+```python
+from pydenticore import IdentityOptions
+
+from examples.stores import UserStore, RoleStore
+from fastapi_pydentity import PydentityBuilder
+
+
+def configure_options(options: IdentityOptions):
+    options.signin.required_confirmed_account = False
+    options.password.required_unique_chars = 4
+    options.password.required_length = 12
+
+
+builder = PydentityBuilder()
+builder.add_default_identity(UserStore, RoleStore).configure_options(configure_options)
+# builder.add_identity(UserStore, RoleStore, configure_options)
+```
+
+## Authentication
+
+### Cookie
+
+```python
+from typing import Annotated
+
+from fastapi import Depends, HTTPException
+from pydenticore import SignInManager
+
+from examples.app import app
+from examples.schemes import LoginInputModel
+from examples.stores import UserStore, RoleStore
+from fastapi_pydentity import PydentityBuilder
+from fastapi_pydentity.authentication import use_authentication
+from fastapi_pydentity.authorization import use_authorization
+
+builder = PydentityBuilder()
+builder.add_default_identity(UserStore, RoleStore)
+builder.add_authorization()
+builder.build()
+
+use_authentication(app)
+use_authorization(app)
+
+
+@app.post("/login")
+async def login(model: Annotated[LoginInputModel, Depends()], signin_manager: Annotated[SignInManager, Depends()], ):
+    result = await signin_manager.password_sign_in(
+        model.email,
+        model.password.get_secret_value(),
+        model.remember_me
+    )
+
+    if not result.succeeded:
+        raise HTTPException(status_code=401, detail="Invalid login attempt.")
+```
+
+### JWT Bearer
+
+```python
+from typing import Annotated
+
+from fastapi import Depends, HTTPException
+from pydenticore import SignInManager
+
+from examples.app import app
+from examples.schemes import LoginInputModel
+from examples.stores import UserStore, RoleStore
+from fastapi_pydentity import PydentityBuilder
+from fastapi_pydentity.authentication import use_authentication
+from fastapi_pydentity.authentication.bearer import TokenValidationParameters, JWTSecurityToken
+from fastapi_pydentity.authorization import use_authorization
+
+builder = PydentityBuilder()
+builder.add_default_identity(UserStore, RoleStore)
+builder.add_authentication("Bearer").add_jwt_bearer(
+    validation_parameters=TokenValidationParameters(
+        issuer_signing_key="<SECRETKEY>",
+        valid_algorithms=["HS256"],
+    )
+)
+builder.add_authorization()
+builder.build()
+
+use_authentication(app)
+use_authorization(app)
+
+
+@app.post("/login")
+async def login(model: Annotated[LoginInputModel, Depends()], signin_manager: Annotated[SignInManager, Depends()], ):
+    user = await signin_manager.user_manager.find_by_email(model.email)
+    result = await signin_manager.check_password_sign_in(
+        user,
+        model.password.get_secret_value(),
+        model.remember_me
+    )
+
+    if result.succeeded:
+        principal = await signin_manager.create_user_principal(user)
+        token = JWTSecurityToken(
+            signin_key="<SECRETKEY>",
+            claims=principal.claims,
+        )
+        return {"access_token": token.encode()}
+
+    raise HTTPException(status_code=401, detail="Invalid login attempt.")
+```
+
+## Configure policy
+
+First we add the policies:
+
+```python
+from pydenticore.authorization import AuthorizationPolicyBuilder
+
+from examples.app import app
+from fastapi_pydentity import PydentityBuilder
+from fastapi_pydentity.authentication import use_authentication
+from fastapi_pydentity.authorization import use_authorization
+
+location_policy_builder = AuthorizationPolicyBuilder("LocationPolicy")
+location_policy_builder.require_claim("location", "London")
+location_policy = location_policy_builder.build()
+
+builder = PydentityBuilder()
+builder.add_authorization().add_policy("LocationPolicy", location_policy)
+# authorization_builder = builder.add_authorization()
+# authorization_builder += location_policy
+builder.build()
+
+use_authentication(app)
+use_authorization(app)
+```
+
+After that, they can be used in the route:
+
+```python
+from fastapi import APIRouter
+
+from fastapi_pydentity.authorization import Authorize
+
+router = APIRouter(prefix="/secure")
+
+
+@router.get("/data-1", dependencies=[Authorize(policy="LocationPolicy")])
+async def get_secure_data():
+    return "This is protected data-1."
+
+
+@router.get("/data-2", dependencies=[Authorize(policy="LocationPolicy")])
+async def get_secure_data():
+    return "This is protected data-2."
+```
+
+or in `APIRouter`:
+
+```python
+from fastapi import APIRouter
+
+from fastapi_pydentity.authorization import Authorize
+
+router = APIRouter(prefix="/secure", dependencies=[Authorize(policy="LocationPolicy")])
+
+
+@router.get("/data-1")
+async def get_secure_data():
+    return "This is protected data-1."
+
+
+@router.get("/data-2")
+async def get_secure_data():
+    return "This is protected data-2."
+```
+
+
