@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+poseidon_hash_lib_from_circom.egg-info/PKG-INFO
+poseidon_hash_lib_from_circom.egg-info/SOURCES.txt
+poseidon_hash_lib_from_circom.egg-info/dependency_links.txt
+poseidon_hash_lib_from_circom.egg-info/top_level.txt
