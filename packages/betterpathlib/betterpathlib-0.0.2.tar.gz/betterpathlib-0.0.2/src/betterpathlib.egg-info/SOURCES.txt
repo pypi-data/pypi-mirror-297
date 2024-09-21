@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/betterpathlib/__init__.py
+src/betterpathlib/main.py
+src/betterpathlib/utils.py
+src/betterpathlib.egg-info/PKG-INFO
+src/betterpathlib.egg-info/SOURCES.txt
+src/betterpathlib.egg-info/dependency_links.txt
+src/betterpathlib.egg-info/requires.txt
+src/betterpathlib.egg-info/top_level.txt
