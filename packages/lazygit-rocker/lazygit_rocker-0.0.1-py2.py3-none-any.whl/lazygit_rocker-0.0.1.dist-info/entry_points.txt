@@ -1,0 +1,2 @@
+[rocker.extensions]
+lazygit = lazygit_rocker.lazygit_rocker:LazygitExtension

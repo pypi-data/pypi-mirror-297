@@ -1,0 +1,8 @@
+lazygit_rocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lazygit_rocker/lazygit_rocker.py,sha256=wWSJUnAuFZBQxb8wcpN3x6QpGbaYcd5lUp1x0O77Z24,1608
+lazygit_rocker/templates/lazygit_snippet.Dockerfile,sha256=TFzJAudIlNZDjQntLYXRf-hQ30WxPNtgfvz4kUNeHS8,673
+lazygit_rocker-0.0.1.dist-info/METADATA,sha256=QqDAfFrwi3hCPEvjZVueA9GoeM0RyiQqZUcspJWEL5Q,2665
+lazygit_rocker-0.0.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+lazygit_rocker-0.0.1.dist-info/entry_points.txt,sha256=lSQUBi_h_3ul9TJF0AqplInfJSJ7Q5e3wF1_P0muAxg,77
+lazygit_rocker-0.0.1.dist-info/licenses/LICENSE,sha256=BELp7Z_UlGhotfEDzDkWiCw7MtJ12i7B3rhIjebfk0k,1075
+lazygit_rocker-0.0.1.dist-info/RECORD,,
