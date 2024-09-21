@@ -1,0 +1,10 @@
+out_of_the_box/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+out_of_the_box/bounding_boxes.py,sha256=Y5kt0w7XXpTtc6T-FcxbW8g576uClaVCSq3lt8u7TJA,11904
+out_of_the_box/containment_checking.py,sha256=CISxCDj9EzsG6LRD3jJz5JRBtKFFdHnypMlG_RlngD4,1467
+out_of_the_box/main.py,sha256=8giE97Hyy14yJTnkz4DpSryXue4GwxCFVK2wZ7987gA,280
+out_of_the_box/roi_selector.py,sha256=qgm1ygqLb1Sc5pyIo6LoO7DMi8bq5knRfqqZ5nQAUKo,19191
+out_of_the_box-1.2.0.dist-info/entry_points.txt,sha256=uW8fezyxNoinaZYKriksRkMyAzyvHGB5eAGtErxGYTs,51
+out_of_the_box-1.2.0.dist-info/LICENSE,sha256=PViM-l6IaI9ZaE9feovs9G_GgDyNF-Gcvg5P9l7iTbI,1088
+out_of_the_box-1.2.0.dist-info/METADATA,sha256=vhhMeCbISYLHB9hcxaWDsA2cwY0GU2nOKr3hg6NYSmg,4358
+out_of_the_box-1.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+out_of_the_box-1.2.0.dist-info/RECORD,,
