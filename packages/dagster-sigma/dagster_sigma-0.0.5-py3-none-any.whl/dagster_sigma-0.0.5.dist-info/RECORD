@@ -1,0 +1,9 @@
+dagster_sigma/__init__.py,sha256=Uz13AIGLtXu26TkStN0csX9KT_N6ByCCrTzERma1Lek,502
+dagster_sigma/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+dagster_sigma/resource.py,sha256=4lMSzgRbGYTWjaIESp8YC-njy9uO3OBFmeLPc1cyuT4,12703
+dagster_sigma/translator.py,sha256=09Y_xGuMdQiw-vc0z-zrtNuhXqb3awPAM3UVNSdUFcg,3984
+dagster_sigma-0.0.5.dist-info/LICENSE,sha256=lY5yc1KHX4HoXjlWnIPGcCAsnNney2rb8M8ccT6NzRQ,11347
+dagster_sigma-0.0.5.dist-info/METADATA,sha256=WCvNFqR9jhhnVfF3IYau83wSB5qRDYz6vL8pDDncsB0,748
+dagster_sigma-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+dagster_sigma-0.0.5.dist-info/top_level.txt,sha256=524252hWIiUn-r5vuFmAqYt0dBi1fAfxzNDOnemRouM,14
+dagster_sigma-0.0.5.dist-info/RECORD,,
