@@ -1,0 +1,6 @@
+setup.py
+servercommon/__init__.py
+servercommon.egg-info/PKG-INFO
+servercommon.egg-info/SOURCES.txt
+servercommon.egg-info/dependency_links.txt
+servercommon.egg-info/top_level.txt
