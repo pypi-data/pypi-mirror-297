@@ -1,0 +1,17 @@
+wavify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wavify/stt.py,sha256=WI4idN9ez_Jd2Zp_3ReemnCfTqsrSYqYafEEoDvHjw4,2831
+wavify/types.py,sha256=5F8V7EGn90w_BZRyZCu-Rb96y1P3gEuPRfJQvtF6jn8,435
+wavify/utils.py,sha256=M_prMeB4bw6PTeCxSIuQkU9EAwPAcxknZpcxXgYpSjM,2912
+wavify/wakeword.py,sha256=5Pcwfx0e0IBLBd2TWmRqUif8TntpnUjq1LvEakc5r6Y,2629
+wavify/lib/aarch64-apple-darwin/libtensorflowlite_c.dylib,sha256=gjYFfm5faSOUruA6SVKFdD2cTB5zIQk_33TRiyNCuNk,3685608
+wavify/lib/aarch64-apple-darwin/libwavify_core.dylib,sha256=zaeECJqXZ6AJirratczBZWIt8IPHoce_QD6Qc4ITlvI,13081944
+wavify/lib/aarch64-unknown-linux-gnu/libtensorflowlite_c.so,sha256=_DANesTbhnemm7vJIX5vs92QOj7PYiVMNASdUBlb39I,3465632
+wavify/lib/aarch64-unknown-linux-gnu/libwavify_core.so,sha256=qnkxXE2bcMucbki6AFHU_1ifmTn-tk2psJsSSzif8Z8,19084000
+wavify/lib/x86_64-pc-windows-gnu/tensorflowlite_c.dll,sha256=XyfPUF8RvY7U2VQxbNABxa0Z9N9EV--Ck0PeHktqZ-Q,3019264
+wavify/lib/x86_64-pc-windows-gnu/wavify_core.dll,sha256=lMqdLwQIvFbd4SYD8vBhPkoB-magd6H5i_ylDnev4Sc,27478719
+wavify/lib/x86_64-unknown-linux-gnu/libtensorflowlite_c.so,sha256=BG-bSURfx8sZM6i4h2YA2zmvBfZHcuAs1r8fiBa7KLQ,3448880
+wavify/lib/x86_64-unknown-linux-gnu/libwavify_core.so,sha256=2TPooYJZHsdFQjScNJqvdmiPAcklq7nyD3QPxgMSm5g,19664680
+wavify-0.0.17.dist-info/METADATA,sha256=_cFBGHIwQNHCHdDMPYBQCrNmLor7pfffOzR1Oo_Fuk8,13543
+wavify-0.0.17.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+wavify-0.0.17.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wavify-0.0.17.dist-info/RECORD,,
