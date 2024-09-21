@@ -1,0 +1,7 @@
+python-magic
+pytest
+
+[dev]
+pytest
+black
+flake8
