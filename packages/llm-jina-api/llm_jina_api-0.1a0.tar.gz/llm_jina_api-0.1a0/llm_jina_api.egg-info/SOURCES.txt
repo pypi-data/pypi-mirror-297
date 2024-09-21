@@ -1,0 +1,11 @@
+LICENSE
+README.md
+llm_jina_api.py
+pyproject.toml
+llm_jina_api.egg-info/PKG-INFO
+llm_jina_api.egg-info/SOURCES.txt
+llm_jina_api.egg-info/dependency_links.txt
+llm_jina_api.egg-info/entry_points.txt
+llm_jina_api.egg-info/requires.txt
+llm_jina_api.egg-info/top_level.txt
+tests/test_jina_api.py
