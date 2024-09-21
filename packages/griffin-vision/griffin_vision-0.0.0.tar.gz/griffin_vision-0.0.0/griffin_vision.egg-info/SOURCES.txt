@@ -1,0 +1,14 @@
+README.md
+setup.py
+Core/__init__.py
+Core/griffin_vision.py
+Core/__Engines/__init__.py
+Core/__Engines/image_embeddings.py
+Core/__Engines/text_embeddings.py
+Core/__VectorStores/__init__.py
+Core/__VectorStores/qdrantvectorstore.py
+griffin_vision.egg-info/PKG-INFO
+griffin_vision.egg-info/SOURCES.txt
+griffin_vision.egg-info/dependency_links.txt
+griffin_vision.egg-info/requires.txt
+griffin_vision.egg-info/top_level.txt
