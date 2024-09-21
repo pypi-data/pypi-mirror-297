@@ -1,0 +1,11 @@
+giclient/__init__.py,sha256=ZP3XDMGVOwp_gq4idoJHv0mXvTv9NDm69ZCF_-4fNwI,644
+giclient/authentication.py,sha256=-TzkQ_DBKu7Lh3uOB7KZcd1owsIOvemHCi6o3hDWVUE,5608
+giclient/client.py,sha256=59m7EUK-YptnyvhTK-76t8QkXcRGWrvUX2uVgcKuyT4,6070
+giclient/event_hooks.py,sha256=PMsbD276FpepjVqZQG12pTRidESLF6zQDvIEmeLzF1w,1077
+giclient/manager.py,sha256=etomPf_EX9Kfxyq_aPFgAtc1DCENll_k-c9I0pSKUAw,5107
+giclient/transport.py,sha256=bgL-RUF_Ov48yFFdgaiHlLQDqBky5LULjHAfEymYrOg,2139
+python_greeninvoice_client-0.1.1.dist-info/LICENSE,sha256=Sevnfqn1MbgKCCAOM64G6Z1DGfgWDhVebmpLCTArGC4,1086
+python_greeninvoice_client-0.1.1.dist-info/METADATA,sha256=fidbDbX7FR4dv11uIjxXKRES_XE22jZ4jbeOIFJDdW8,1892
+python_greeninvoice_client-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+python_greeninvoice_client-0.1.1.dist-info/top_level.txt,sha256=zSDCy9ejQ7SW6Ny-cBa3FUBaQjR5gtEnmnKbKtdItJw,9
+python_greeninvoice_client-0.1.1.dist-info/RECORD,,
