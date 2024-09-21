@@ -1,0 +1,22 @@
+[project]
+name = "nonebot-plugin-random-choice"
+version = "0.1.0"
+description = "帮助选择困难的群友选择"
+authors = [
+    {name = "ChenXu233", email = "Woyerpa@outlook.com"},
+]
+dependencies = [
+    "nonebot2>=2.3.3",
+    "nonebot-plugin-cesaa>=0.4.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true

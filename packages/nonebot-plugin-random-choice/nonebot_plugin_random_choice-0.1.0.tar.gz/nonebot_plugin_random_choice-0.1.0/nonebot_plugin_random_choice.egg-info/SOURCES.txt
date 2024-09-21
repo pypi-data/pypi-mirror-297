@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+nonebot_plugin_random_choice/__init__.py
+nonebot_plugin_random_choice/config.py
+nonebot_plugin_random_choice.egg-info/PKG-INFO
+nonebot_plugin_random_choice.egg-info/SOURCES.txt
+nonebot_plugin_random_choice.egg-info/dependency_links.txt
+nonebot_plugin_random_choice.egg-info/requires.txt
+nonebot_plugin_random_choice.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+nonebot2>=2.3.3
+nonebot-plugin-cesaa>=0.4.1
