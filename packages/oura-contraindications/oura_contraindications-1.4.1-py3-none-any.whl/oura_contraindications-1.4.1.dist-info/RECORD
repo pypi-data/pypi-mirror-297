@@ -1,0 +1,16 @@
+oura_contraindications/__init__.py,sha256=GXhOOi6B39MQJSiRr4HElyZx-fTv29NxGpM6_SOz-t8,416
+oura_contraindications/auth.py,sha256=YLTZmMF7AI1YjwiM4kK6JDa3J75cbVWrezv8MoXTjHs,4199
+oura_contraindications/client.py,sha256=387jlYs-aIHXqp1hBTagxU5tGs3g3O2sCpgdEApOpgI,4500
+oura_contraindications/client_pandas.py,sha256=TZBrysOs5P8eRtUFPDjj4JWqppo0OgGqWigtmnz3LR8,7532
+oura_contraindications/converters.py,sha256=rhZ5wGa81PCSQcKeEOnpcEoMjFoyBobtdIneh3mHUMY,4030
+oura_contraindications/exceptions.py,sha256=NjLNo_ypsJfKxrY84hdb1B1XbS9pbegJgL3uzuE1Aas,2079
+oura_contraindications/export/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oura_contraindications/export/writers.py,sha256=iuKBbC3lRO1z_aMJkbH5HQVlFbHlGtMqqGd7R1_P-CY,1556
+oura_contraindications/v2/__init__.py,sha256=JQX6ZkWLnXc13tHHXBLhVQUd0xC1V52F5vgMYubYw3Q,82
+oura_contraindications/v2/client.py,sha256=rEYfyvgNg2rJBsj5Zvooo8G0QbCQJVTX_8lQmJoZuC8,5288
+oura_contraindications/v2/client_pandas.py,sha256=kkybieZdWzSPbO6CiXaf3g_Bt81zrUDv0A8zH3iHAag,3249
+oura_contraindications-1.4.1.dist-info/LICENSE,sha256=pebds694OgLqzISMvjCcwJQLSFmsZT6bGi4hpP6iJVI,1056
+oura_contraindications-1.4.1.dist-info/METADATA,sha256=LdYa9LuS8Jxt7HpugDIZNIZIr4NmMNYNkOeV425Jg0c,5085
+oura_contraindications-1.4.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+oura_contraindications-1.4.1.dist-info/top_level.txt,sha256=q2TgLun7BWZOsMX_z2qC7PxHROrc5kvSQ4QnW7pQwAI,23
+oura_contraindications-1.4.1.dist-info/RECORD,,
