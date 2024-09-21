@@ -1,0 +1,5 @@
+psutil
+mss
+tqdm
+pymem
+yara-python
