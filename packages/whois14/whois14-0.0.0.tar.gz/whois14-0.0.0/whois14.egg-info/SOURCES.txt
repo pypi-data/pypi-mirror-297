@@ -1,0 +1,5 @@
+setup.py
+whois14.egg-info/PKG-INFO
+whois14.egg-info/SOURCES.txt
+whois14.egg-info/dependency_links.txt
+whois14.egg-info/top_level.txt
