@@ -1,0 +1,4 @@
+[console_scripts]
+build=mkdocs.commands.build:build
+serve=mkdocs.commands.serve:serve
+
