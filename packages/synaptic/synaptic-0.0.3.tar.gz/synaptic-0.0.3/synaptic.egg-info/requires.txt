@@ -1,0 +1,12 @@
+eclipse-zenoh>=0.11.0
+fastapi>=0.115.0
+mbodied>=1.2.1
+mbpy>=1.0.1
+more-itertools>=10.5.0
+msgpack>=1.0.2
+numpy==1.26.4
+pydantic-settings>=2.5.2
+pytest>=8.3.3
+requests>=2.32.3
+uvicorn>=0.30.6
+websockets>=10.0
