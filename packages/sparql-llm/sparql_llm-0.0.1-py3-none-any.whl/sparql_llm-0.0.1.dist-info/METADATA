@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: sparql-llm
+Version: 0.0.1
+Summary: Reusable components and complete webapp to improve Large Language Models (LLMs) capabilities when generating SPARQL queries for a given set of endpoints, using Retrieval-Augmented Generation (RAG) and SPARQL query validation from the endpoint schema.
+Project-URL: Homepage, https://github.com/sib-swiss/sparql-llm
+Project-URL: Documentation, https://github.com/sib-swiss/sparql-llm
+Project-URL: History, https://github.com/sib-swiss/sparql-llm/releases
+Project-URL: Tracker, https://github.com/sib-swiss/sparql-llm/issues
+Project-URL: Source, https://github.com/sib-swiss/sparql-llm
+Author-email: Vincent Emonet <vincent.emonet@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: Expasy,KGQA,LLM,SPARQL
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: bs4
+Requires-Dist: curies-rs>=0.1.3
+Requires-Dist: fastapi
+Requires-Dist: fastembed
+Requires-Dist: langchain
+Requires-Dist: langchain-core
+Requires-Dist: openai
+Requires-Dist: pydantic-settings
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: qdrant-client
+Requires-Dist: rdflib
+Requires-Dist: requests
+Provides-Extra: gpu
+Requires-Dist: fastembed-gpu; extra == 'gpu'
+Requires-Dist: onnxruntime-gpu; extra == 'gpu'
+Provides-Extra: test
+Requires-Dist: ipykernel; extra == 'test'
+Requires-Dist: mypy; extra == 'test'
+Requires-Dist: pandas; extra == 'test'
+Requires-Dist: pip-tools; extra == 'test'
+Requires-Dist: pyright; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: python-dotenv; extra == 'test'
+Requires-Dist: ruff; extra == 'test'
+Requires-Dist: sparqlwrapper; extra == 'test'
+Provides-Extra: web
+Requires-Dist: fastapi; extra == 'web'
+Requires-Dist: qdrant-client; extra == 'web'
