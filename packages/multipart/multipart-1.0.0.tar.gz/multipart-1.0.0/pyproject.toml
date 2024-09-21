@@ -1,0 +1,48 @@
+[build-system]
+requires = ["flit_core >=3.9,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "multipart"
+requires-python = ">=3.5"
+dynamic = ["version"]
+license = {file = "LICENSE"}
+description = "Parser for multipart/form-data"
+readme = "README.rst"
+authors = [
+  {name = "Marcel Hellkamp", email = "marc@gsites.de"},
+]
+
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries",
+    "Topic :: Internet :: WWW/HTTP :: WSGI",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/multipart/"
+Repository = "https://github.com/defnull/multipart"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "build",
+    "twine",
+]
+
+[tool.flit.sdist]
+include = [
+  "test/*.py",
+  "MAINTAINERS.rst"
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = [ "test" ]
+
