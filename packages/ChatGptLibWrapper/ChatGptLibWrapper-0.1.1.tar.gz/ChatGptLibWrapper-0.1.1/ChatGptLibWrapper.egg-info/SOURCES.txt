@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ChatGptLibWrapper.egg-info/PKG-INFO
+ChatGptLibWrapper.egg-info/SOURCES.txt
+ChatGptLibWrapper.egg-info/dependency_links.txt
+ChatGptLibWrapper.egg-info/requires.txt
+ChatGptLibWrapper.egg-info/top_level.txt
