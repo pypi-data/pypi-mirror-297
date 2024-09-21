@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "drt-sdk-cli"
+version = "0.0.1"
+authors = [{ name = "Dharitri" }]
+license = "MIT"
+description = "Dharitri Smart Contracts Tools"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+]
+
+dependencies = [
+  "toml>=0.10.2",
+  "requests",
+  "prettytable",
+  "ledgercomm[hid]",
+  "semver",
+  "requests-cache",
+  "rich==13.3.4",
+  "drt-sdk-network-providers>=0.0.1,<0.1.0",
+  "drt-sdk-wallet>=0.0.1,<0.1.0",
+  "drt-sdk-core>=0.0.1,<0.1.0",
+]
+
+[project.scripts]
+drtpy = "drt_sdk_cli.cli:main"
+
+[tool.hatch.build]
+include = ["drt_sdk_cli/**"]
+exclude = [".github", "drt_sdk_cli/tests/**"]
+
+[project.urls]
+"Homepage" = "https://github.com/DharitriOne/drt-sdk-py-cli"
