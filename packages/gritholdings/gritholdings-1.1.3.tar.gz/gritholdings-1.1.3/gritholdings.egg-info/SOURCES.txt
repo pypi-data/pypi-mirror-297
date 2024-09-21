@@ -1,0 +1,14 @@
+README.md
+setup.py
+gritholdings/__init__.py
+gritholdings/browser_automation.py
+gritholdings/gmail.py
+gritholdings/helpers.py
+gritholdings/llm.py
+gritholdings/local_db.py
+gritholdings/session.py
+gritholdings.egg-info/PKG-INFO
+gritholdings.egg-info/SOURCES.txt
+gritholdings.egg-info/dependency_links.txt
+gritholdings.egg-info/requires.txt
+gritholdings.egg-info/top_level.txt
