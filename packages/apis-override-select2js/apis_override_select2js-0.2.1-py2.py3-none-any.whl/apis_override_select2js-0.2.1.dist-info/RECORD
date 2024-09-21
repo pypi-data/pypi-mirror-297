@@ -1,0 +1,7 @@
+apis_override_select2js/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apis_override_select2js/apps.py,sha256=qMW1AtwiekCHKzYtDuceA-7lJtlfgSFXQJoLzYnRF5A,176
+apis_override_select2js/static/autocomplete_light/select2.js,sha256=f8lEhk15GuUTDkyJI08RljCMtiTM5zJneH1239-P6e4,4949
+apis_override_select2js/static/autocomplete_light/select2.min.js,sha256=9dDL1rbR_08aEBGxNiDtJHFtJk0jFiLm_BEs7t3vwQc,2083
+apis_override_select2js-0.2.1.dist-info/METADATA,sha256=AylGhZjGkaxyWe9qXdnX_xJc4w5p7lRlnfHsGgxQrcg,2228
+apis_override_select2js-0.2.1.dist-info/WHEEL,sha256=IrRNNNJ-uuL1ggO5qMvT1GGhQVdQU54d6ZpYqEZfEWo,92
+apis_override_select2js-0.2.1.dist-info/RECORD,,
