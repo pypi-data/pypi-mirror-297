@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: acasoenrichmentlib
+Version: 0.1.0
+Summary: A library for enriching data with LinkedIn and Google Search API
+Author: Acaso
+Author-email: team@acaso.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: googlesearch-python
+Requires-Dist: proxycurl
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
