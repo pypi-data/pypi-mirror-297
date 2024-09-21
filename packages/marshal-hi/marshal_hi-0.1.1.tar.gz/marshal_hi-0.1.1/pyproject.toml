@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "marshal-hi"
+version = "0.1.1"
+description = ""
+authors = ["Marshal Wu <marshal.wu@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+marshal_hi = 'marshal_hi.cli:run'
