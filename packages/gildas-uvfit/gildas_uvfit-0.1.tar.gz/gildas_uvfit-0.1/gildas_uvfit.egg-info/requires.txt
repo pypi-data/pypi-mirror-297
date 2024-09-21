@@ -1,0 +1,15 @@
+astropy>=4.0
+numpy>=1.16
+
+[docs]
+sphinx
+sphinx-automodapi
+
+[specutils]
+specutils
+
+[test]
+pytest
+pytest-doctestplus
+pytest-cov
+specutils
