@@ -1,0 +1,8 @@
+stacrs-0.1.0.dist-info/METADATA,sha256=6TJgf_DdHyk30qvMsbTJpCHFmUzV0KFbYLQ6DVnJ8iU,3957
+stacrs-0.1.0.dist-info/WHEEL,sha256=86tUE1omVQZ850pxNbyKGcYh4R05yEdrZN4_NhAWsYg,106
+stacrs/pystac.py,sha256=JtdPqwRGOQhixdHVNfAH3V2FSjTzsY0fwA470yeTu_o,9038
+stacrs/__init__.py,sha256=LpbCStmEkXcw-4XCTN8msEDAbIk4XzM_Xy_viUmGpD4,465
+stacrs/stacrs.pyi,sha256=5tpSG2cQ_-wvDmhq2bOAOkhJl16g-QSOqWNbj7_8sR8,1919
+stacrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacrs/stacrs.cpython-311-darwin.so,sha256=odskBH2PYuEURm7vFZ3aV-GDntI6sjbLt4qLeKuA0Ls,29326360
+stacrs-0.1.0.dist-info/RECORD,,
