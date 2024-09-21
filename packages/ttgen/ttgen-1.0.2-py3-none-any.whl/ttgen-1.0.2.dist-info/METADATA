@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: ttgen
+Version: 1.0.2
+Summary: Efficient algorithm for generating all unique k-combinations of a set with duplicates, based on the algorithm by Tadao Takaoka (2015, O(1) Time Generation of Adjacent Multiset Combinations)
+Project-URL: Homepage, https://github.com/jajetloh/ttgen
+Project-URL: Issues, https://github.com/jajetloh/ttgen/issues
+Author-email: Ja-Jet Loh <jajet.codes@gmail.com>
+License-File: LICENCE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: plotly; extra == 'dev'
+Requires-Dist: polars; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# TTGen
+
+Efficient algorithm for generating all unique k-combinations of a set with duplicates, based on the algorithm by Tadao Takaoka [(2015, O(1) Time Generation of Adjacent Multiset Combinations)](https://arxiv.org/abs/1503.00067).
+
+This is a pure Python implementation of the Pascal code provided by Tadao Takaoka in the linked article.
+
+## Performance
+
+This implementation provides incredible speed-up compared to the default itertools implementation when generating multiset combinations with many duplicated elements (up to 5000× speed-up in the best tested case).
+
+For cases where all elements are distinct, the default itertools implementation is consistently faster.
+
+![Graph of benchmarking data](benchmarking/benchmarks.png)
+
+## Installation
+
+Via ``pip``
+```
+pip install ttgen
+```
+
+Locally for development via
+```
+pip install -e .[dev]
+```
+
+## Publishing
+
+Remember to increment the version number in ``pyproject.toml`` first.
+
+```
+python -m build
+python -m twine upload dist/ttgen-X.Y.Z*
+```
+
+## Maintenance
+
+- ``pytest`` to run unit tests
