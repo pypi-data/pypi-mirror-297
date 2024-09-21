@@ -1,0 +1,47 @@
+from epidemmo import Standard, ModelBuilder
+
+# sir = Standard.get_SIR_builder().build()
+# seir = Standard.get_SEIR_builder().build()
+# sird = Standard.get_SIRD_builder().build()
+# sirs = Standard.get_SIRS_builder().build()
+# seirds = Standard.get_SEIRDS_builder().build()
+#
+# for model in [sir, seir, sird, sirs, seirds]:
+#     model.set_relativity_factors(True)
+#
+# sir_latex = sir.get_latex()
+# sir_latex_simple = sir.get_latex(simplified=True)
+# seir_latex = seir.get_latex()
+# seir_latex_simple = seir.get_latex(simplified=True)
+# sird_latex = sird.get_latex()
+# sird_latex_simple = sird.get_latex(simplified=True)
+# sirs_latex = sirs.get_latex()
+# sirs_latex_simple = sirs.get_latex(simplified=True)
+# seirds_latex = seirds.get_latex()
+# seirds_latex_simple = seirds.get_latex(simplified=True)
+#
+# print(sir_latex, end='\n\n')
+# print(sir_latex_simple, end='\n\n')
+# print(seir_latex, end='\n\n')
+# print(seir_latex_simple, end='\n\n')
+# print(sird_latex, end='\n\n')
+# print(sird_latex_simple, end='\n\n')
+# print(sirs_latex, end='\n\n')
+# print(sirs_latex_simple, end='\n\n')
+# print(seirds_latex, end='\n\n')
+# print(seirds_latex_simple, end='\n\n')
+
+from epidemmo import Standard, ModelBuilder
+
+builder = ModelBuilder()
+builder.add_stage('S', 100).add_stage('I', 1).add_stage('R')
+builder.add_factor('beta', 0.4, latex_repr=r'\beta').add_factor('gamma', 0.1, latex_repr=r'\gamma')
+builder.add_flow('S', 'I', 'beta', 'I').add_flow('I', 'R', 'gamma')
+
+model = builder.build()
+
+latex_str = model.get_latex()
+print(latex_str)
+
+latex_str_simplified = model.get_latex(simplified=True)
+print(latex_str_simplified)
