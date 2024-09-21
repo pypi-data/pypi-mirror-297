@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: Flask-Url-Patterns
+Version: 0.1.0
+Summary: A simple Flask extension to manage URL patterns. In a Django kind of way.
+Author: Quentin Boudinel
+Author-email: quentin.boudinel@atelier-26.net
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Flask URL Patterns
+
+## Example
+
+```python
+from flask import Flask
+from flask_url_patterns import URLPatterns
+
+from . import views
+
+app = Flask(__name__)
+
+urlpatterns = UrlPatterns(urlpatterns=[
+    {
+        "path": "/",
+        "name": "index",
+        "view": views.index,
+        "children": [
+            {
+                "path": "/api",
+                "name": "api",
+                "children": [
+                    {
+                        "path": "/resources",
+                        "view": views.ResourceViewSet.as_view({ # Using as implemented by [Flask-ViewSets](https://pypi.org/project/Flask-Viewsets/) 
+                            "get": "list",
+                            "post": "create",
+                        }),
+                        "children": [
+                            {
+                                "path": "/<int:id>",
+                                "view": views.ResourceViewSet.as_view({ 
+                                    "get": "retrieve",
+                                    "put": "update",
+                                    "patch": "partial_update",
+                                    "delete": "destroy",
+                                }),
+                            },
+                        ],
+                    },
+                ]
+            },
+        ],
+    },
+])
+
+urlpatterns.init_app(app)
+```
