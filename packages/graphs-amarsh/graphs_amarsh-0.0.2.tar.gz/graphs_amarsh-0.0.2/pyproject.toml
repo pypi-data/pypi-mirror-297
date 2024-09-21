@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graphs_amarsh"
+version = "0.0.2"
+authors = [
+  { name="Artem Marsh", email="marshartem@gmail.com" },
+]
+description = "A small program that solves Dijkstra's shortest path problem"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/art3mchik/cs3250hw4artem"
+"Bug Tracker" = "https://github.com/art3mchik/cs3250hw4artem/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/graphs_amarsh"]
