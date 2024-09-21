@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ann_backpropagation_algorithm
+Version: 0.1.0
+Summary: A neural network implementation using backpropagation.
+Author: arasu
+Author-email: arasu6262@gmail.com
+
