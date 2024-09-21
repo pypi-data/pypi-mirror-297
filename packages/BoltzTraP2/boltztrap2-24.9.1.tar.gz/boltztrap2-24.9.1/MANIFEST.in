@@ -1,0 +1,7 @@
+include .clang-format
+include .gitignore
+include BoltzTraP2/sphere/*end.*
+include examples/*.py
+graft external/spglib-1.9.9
+graft external/eigen-eigen-3215c06819b9
+prune tests
