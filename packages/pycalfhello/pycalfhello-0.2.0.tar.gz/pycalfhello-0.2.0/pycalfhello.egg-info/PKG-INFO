@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycalfhello
+Version: 0.2.0
+Summary: A harmless package to test and prevent exploitation on PyPi
+Author: Paolo Raffini
+Author-email: noway@outcommle.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
