@@ -1,0 +1,13 @@
+pyperclip
+pywinauto
+chardet
+pygetwindow
+pyautogui
+unittest
+paho-mqtt
+pandas
+pywin32
+PySide6
+korean_lunar_calendar
+screeninfo
+zipfile
