@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dropdown-filters
+Version: 0.1
+Summary: Reusable Django admin filters
+Home-page: https://github.com/DiegoP2001/Dropdown_filters
+Author: Diego Piedra
+Author-email: diego@dieveloper.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
