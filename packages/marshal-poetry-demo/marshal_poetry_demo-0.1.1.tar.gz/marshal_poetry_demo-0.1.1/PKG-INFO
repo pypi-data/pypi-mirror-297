@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: marshal-poetry-demo
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Marshal Wu
+Author-email: marshal.wu@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: streamlit (>=1.38.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Poetry Demo
