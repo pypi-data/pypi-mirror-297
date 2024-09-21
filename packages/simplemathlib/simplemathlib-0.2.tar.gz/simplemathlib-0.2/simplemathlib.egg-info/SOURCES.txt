@@ -1,0 +1,8 @@
+setup.py
+simplemathlib/__init__.py
+simplemathlib/operations.py
+simplemathlib.egg-info/PKG-INFO
+simplemathlib.egg-info/SOURCES.txt
+simplemathlib.egg-info/dependency_links.txt
+simplemathlib.egg-info/top_level.txt
+tests/test_operations.py
