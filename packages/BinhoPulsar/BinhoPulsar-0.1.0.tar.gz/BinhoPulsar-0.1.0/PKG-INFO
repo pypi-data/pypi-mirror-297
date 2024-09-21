@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: BinhoPulsar
+Version: 0.1.0
+Summary: Basic SDK for Binho Pulsar
+Home-page: https://github.com/binhollc/PulsarSDK
+Author: Binho LLC
+Author-email: support@binho.io
+License: Private
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# PulsarSDK  
+Pulsar SDK is a simple wrapper of the SupernovaSDK but adapted to support Pulsar operations in I2C, SPI, GPIO and UART.  
+
+This package is for private internal usage
