@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "damn_fastkafka"
+version = "0.1.0"
+description = "A Kafka library for registering endpoints and sending messages."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "package"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiokafka = "^0.7.2"
+pydantic = "^1.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
