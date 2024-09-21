@@ -1,0 +1,7 @@
+jdlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdlib/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jdlib/django/fields.py,sha256=KOJpwHB8pgTpArG7xUIx_Ew0LZvR2W3B5EmatE_lnT4,1108
+jdlib/django/models.py,sha256=aLTHQCO5NLv3EupCcgUPH7Ppt-y6l2Lnj4INb8N4Tgc,520
+jdlib-1.0.1.dist-info/METADATA,sha256=_DDijdgtW-kPUcVUz18sUjxquxH-ErUtP9V8tYBpVxc,293
+jdlib-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+jdlib-1.0.1.dist-info/RECORD,,
