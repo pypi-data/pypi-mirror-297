@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+manual_installation.py
+setup.cfg
+setup.py
+SAMBA_ilum.egg-info/PKG-INFO
+SAMBA_ilum.egg-info/SOURCES.txt
+SAMBA_ilum.egg-info/dependency_links.txt
+SAMBA_ilum.egg-info/entry_points.txt
+SAMBA_ilum.egg-info/requires.txt
+SAMBA_ilum.egg-info/top_level.txt
