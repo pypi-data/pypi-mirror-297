@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+synthex/synthex.egg-info/PKG-INFO
+synthex/synthex.egg-info/SOURCES.txt
+synthex/synthex.egg-info/dependency_links.txt
+synthex/synthex.egg-info/top_level.txt
