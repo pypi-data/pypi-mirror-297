@@ -1,0 +1,13 @@
+multimelt/T_S_profile_functions.py,sha256=c1An_8JWa08uAp5NBt9_YWwFSHammnkvww4sEgjNzs4,11449
+multimelt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multimelt/box_functions.py,sha256=Kq46mcGsOamw5WhjUpsXCEaBmiMiUjdBzUAIvC859FA,16843
+multimelt/constants.py,sha256=GFnTR7sOQJcerGeTmVENOGKW7NpWg-hPJcrDwED9-iM,1890
+multimelt/create_isf_mask_functions.py,sha256=T7CvgY-jehjUg2b27gBjU9sjnSzqYi2taqKDWNMYOBM,69045
+multimelt/melt_functions.py,sha256=sFSlmND7jTmzoejE6R8RA-mq2sudhwj1cqdpVa3ycgk,93979
+multimelt/plume_functions.py,sha256=PchhdncYPbEa6MySMtVA8LoYDBzMCKvsra0bvHFiaGE,54996
+multimelt/useful_functions.py,sha256=CiIIOpM9zEcXw-Qkeq6W6Mj6A-pOS-1EYzEji2TlaUc,2302
+multimelt-0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+multimelt-0.4.dist-info/METADATA,sha256=1HbW4zAJRgFXGvveZF_LEM4vqlOhqJ08QLBgwRnukNI,3584
+multimelt-0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+multimelt-0.4.dist-info/top_level.txt,sha256=O4nfofTbtAlWNB037ch99zSesVcNKNSv8V4gNGd2QU0,10
+multimelt-0.4.dist-info/RECORD,,
