@@ -1,0 +1,10 @@
+[Unit]
+Description=TESStractor reader
+Documentation=https://github.com/guaix-ucm/tesstractor/wiki
+Requires=network.target
+
+[Service]
+ExecStart=/usr/bin/tesstractor -c /etc/tesstractor/config.ini
+
+[Install]
+WantedBy=multi-user.target

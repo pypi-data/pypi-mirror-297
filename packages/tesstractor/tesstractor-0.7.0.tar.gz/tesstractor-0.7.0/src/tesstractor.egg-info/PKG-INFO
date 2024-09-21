@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: tesstractor
+Version: 0.7.0
+Summary: TESS photometer reading software
+Author-email: Sergio Pascual <sergiopr@fis.ucm.es>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/guaix-ucm/tesstractor
+Project-URL: Repository, https://github.com/guaix-ucm/tesstractor.git
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pytz
+Requires-Dist: tzlocal
+Requires-Dist: pyserial
+Requires-Dist: paho-mqtt
+Requires-Dist: attrs>=17.4.0
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: astroplan
+Requires-Dist: astropy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2563065.svg)](https://doi.org/10.5281/zenodo.2563065)
+
+# TESStractor #
+
+Tesstractor is a software designed to read data from
+TESS photometers (http://tess.stars4all.eu/).
+
+This software reads data also from Unihedron SQM-LU photometers.
+
+## Licensing ##
+
+Tesstractor is distributed under GNU GPL, either version 3 of the License,
+or (at your option) any later version. See the file LICENSE.txt for details.
+
+## Authors ##
+
+Webpage: https://github.com/guaix-ucm/tesstractor
+Maintainer: sergiopr@fis.ucm.es
+
