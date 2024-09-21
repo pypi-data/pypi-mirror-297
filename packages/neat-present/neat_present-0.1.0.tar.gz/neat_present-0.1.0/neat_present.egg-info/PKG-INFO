@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: neat-present
+Version: 0.1.0
+Summary: An image presentation tool
+Home-page: https://github.com/yourusername/neat-present
+Author: Lluc Simo
+Author-email: lluc.simo@protonmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PySide6
+
+# neat-present - Image Presentation Tool
+Welcome to **Neat**, an image presentation tool.
+
+**Linux only**, at least for now.
+
+## Purpose
+Take an image and make a presentation out of it. Useful for diagrams, flowcharts, etc. 
+The output file format of the app is just a json with the image base64 encoded and the coordinates of the points for the presentation.
+
+## Installation
+Create a virtual environment, activate it and run:
+```bash
+pip install neat
+neat
+```
+Then it will create a desktop entry in ~/.local/share/applications/. 
+
+## License
+This project is licensed under the MIT License.
