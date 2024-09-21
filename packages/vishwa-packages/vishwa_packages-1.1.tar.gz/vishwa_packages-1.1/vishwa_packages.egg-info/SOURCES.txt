@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+vishwa_packages/__init__.py
+vishwa_packages/mass_prince.py
+vishwa_packages/mass_study.py
+vishwa_packages/mass_vishwa.py
+vishwa_packages.egg-info/PKG-INFO
+vishwa_packages.egg-info/SOURCES.txt
+vishwa_packages.egg-info/dependency_links.txt
+vishwa_packages.egg-info/top_level.txt
