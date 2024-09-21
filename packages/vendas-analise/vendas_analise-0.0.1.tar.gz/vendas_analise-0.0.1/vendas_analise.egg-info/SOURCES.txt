@@ -1,0 +1,8 @@
+README.md
+setup.py
+vendas_analise/__init__.py
+vendas_analise/vendas.py
+vendas_analise.egg-info/PKG-INFO
+vendas_analise.egg-info/SOURCES.txt
+vendas_analise.egg-info/dependency_links.txt
+vendas_analise.egg-info/top_level.txt
