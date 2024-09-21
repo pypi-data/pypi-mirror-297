@@ -1,0 +1,9 @@
+pyaudiotoolslib/__init__.py,sha256=MMX9zKMSvFCDxB9ThqZivzxZSZbnWtd_PckN_Lpt0oY,44
+pyaudiotoolslib/utils.cp311-win32.pyd,sha256=BnfP8tckTSFNOXT9GSI5jdz62WDQJI7hZREx3lGtAIc,582656
+pyaudiotoolslib/utils.pyi,sha256=Qpb8Dcv77NWTKmbXRQ6JpaJBVyMOxHyX4xYfN80mRMA,688
+pyaudiotoolslib/wavfile.cp311-win32.pyd,sha256=cXR0eMTBlfIfAYfBMRK1zo7RJrV5gbdtubOM1tLLb6U,582656
+pyaudiotoolslib/wavfile.pyi,sha256=TbE-iGLYh77B7xFEuYA-LO5UBMiZmJpZSV3QENgrTeU,630
+pyaudiotoolslib-0.0.1.dist-info/METADATA,sha256=rGdCprtT7BxmplggRaIf3zY4og55LcL3YlDK0hrR_N0,41964
+pyaudiotoolslib-0.0.1.dist-info/WHEEL,sha256=zIBwU2_7uSzF2heAH-f6ABNsx7xCvWTdzB3YL7-rwlo,102
+pyaudiotoolslib-0.0.1.dist-info/licenses/LICENSE,sha256=HBZ4N0qYoIQFFl7Kt_TIEBfPwjbHCSrRcImdAMT2yaY,35799
+pyaudiotoolslib-0.0.1.dist-info/RECORD,,
