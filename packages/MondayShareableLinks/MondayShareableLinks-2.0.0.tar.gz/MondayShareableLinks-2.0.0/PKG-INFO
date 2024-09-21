@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MondayShareableLinks
+Version: 2.0.0
+Summary: A package for disabling Monday Shareable links
+Home-page: UNKNOWN
+Author: Chamundeshwawri
+Author-email: chamsund@cisco.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# MondayShareableLink
+

@@ -1,0 +1,10 @@
+README.md
+setup.py
+MondayShareableLinks/DisableShareLinks.py
+MondayShareableLinks/__init__.py
+MondayShareableLinks.egg-info/PKG-INFO
+MondayShareableLinks.egg-info/SOURCES.txt
+MondayShareableLinks.egg-info/dependency_links.txt
+MondayShareableLinks.egg-info/entry_points.txt
+MondayShareableLinks.egg-info/requires.txt
+MondayShareableLinks.egg-info/top_level.txt
