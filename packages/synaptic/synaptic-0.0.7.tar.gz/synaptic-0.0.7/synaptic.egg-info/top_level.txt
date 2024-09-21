@@ -1,0 +1,13 @@
+_internal
+assets
+client
+dist
+docs
+embodied-agents
+example
+experiments
+gh-submodulize
+resources
+synaptic
+test
+zenoh-python
