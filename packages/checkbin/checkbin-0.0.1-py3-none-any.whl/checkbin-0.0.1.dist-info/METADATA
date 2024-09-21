@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: checkbin
+Version: 0.0.1
+Summary: Observability SDK
+Project-URL: Documentation, https://github.com/synth-inc/checkbin-python#readme
+Project-URL: Issues, https://github.com/synth-inc/checkbin-python/issues
+Project-URL: Source, https://github.com/synth-inc/checkbin-python
+Author-email: Jay Swanson <jay@synth.inc>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: azure-storage-blob
+Requires-Dist: boto3
+Requires-Dist: cv2
+Requires-Dist: google-cloud-storage
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+# Checkbin
+
+[![PyPI - Version](https://img.shields.io/pypi/v/checkbin.svg)](https://pypi.org/project/checkbin)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/checkbin.svg)](https://pypi.org/project/checkbin)
+
+---
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install checkbin
+```
+
+## License
+
+`checkbin` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
