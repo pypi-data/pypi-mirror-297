@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: image_processor_alexsva
+Version: 0.1.0
+Summary: Python package to perform various image processing tasks
+Author: Alex Silva
+Author-email: alex.paulo100@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: contourpy
+Requires-Dist: cycler
+Requires-Dist: fonttools
+Requires-Dist: imageio
+Requires-Dist: kiwisolver
+Requires-Dist: lazy_loader
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: pillow
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: ruff
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: tifffile
+Requires-Dist: twine
+Requires-Dist: wheel
+Requires-Dist: zipp
+
+# Image Processor
+
+Image Processor is a Python package for performing various image processing tasks, including resizing images, finding differences between images, and transferring histograms.
+
+## Features
+
+- **Resize Images**: Adjust the dimensions of images to a specified size.
+- **Find Differences**: Compare two images and calculate their structural similarity.
+- **Transfer Histograms**: Match the histogram of one image to another for enhanced visualization.
+
+## Installation
+
+You can install this package using pip. Make sure to have Python installed on your machine.
+
+```bash
+pip install image-processor
