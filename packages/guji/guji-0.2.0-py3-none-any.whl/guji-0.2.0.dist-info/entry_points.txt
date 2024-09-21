@@ -1,0 +1,2 @@
+[console_scripts]
+guji = guji.guji:now
