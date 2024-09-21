@@ -1,0 +1,4 @@
+requests==2.31.0
+psutil==6.0.0
+GPUtil==1.4.0
+Cython==3.0.11

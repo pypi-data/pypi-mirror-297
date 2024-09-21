@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.py
+qd_machine_hk/MachineLogAnalytics.py
+qd_machine_hk/ParentMachineInterface.c
+qd_machine_hk/SystemInfo.py
+qd_machine_hk/__init__.py
+qd_machine_hk.egg-info/PKG-INFO
+qd_machine_hk.egg-info/SOURCES.txt
+qd_machine_hk.egg-info/dependency_links.txt
+qd_machine_hk.egg-info/requires.txt
+qd_machine_hk.egg-info/top_level.txt
