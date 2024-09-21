@@ -1,0 +1,15 @@
+classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classes/googlesearch.py,sha256=5qE5qnKYDzynr_M-sKcGQkNhOsL1-dmVgcrDrpUQLyc,1907
+classes/openai.py,sha256=tDCnYCFVP61VRSZc0v5cFXQFk1XFJ6_NaDGe8Gj3WNI,4693
+classes/proxycurl.py,sha256=u7M3nUEQ1LNRKYVi4JjfvXowKL8V3RpaHolt1k3lNJU,3492
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/functions.py,sha256=7is3iSP6yfM1tG7pZrGGYloJaMpeomy1MQ_ZB6dD-kk,850
+linkedframe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linkedframe/enrichment.py,sha256=6mOHgJDfgyiHJ-faxCowWAD420Bru1qDfKSnOb_02Vk,1697
+processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_enrichment.py,sha256=Bonox0uvggW08ON71DnKEzbhGNSPwnsZdO_FkP8VbcA,1943
+linkedframe-1.0.1.dist-info/METADATA,sha256=o58HWt0elgGnp33uo2KdbuUywKMf6TeRFasdYHKM7xg,2631
+linkedframe-1.0.1.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+linkedframe-1.0.1.dist-info/top_level.txt,sha256=WDzQnD8Cb-IijkxM5FH2chWt1YRrNgiEjzwl7Gh8TII,40
+linkedframe-1.0.1.dist-info/RECORD,,

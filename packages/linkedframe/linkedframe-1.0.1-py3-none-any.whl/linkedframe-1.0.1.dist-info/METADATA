@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: linkedframe
+Version: 1.0.1
+Summary: A library for enriching data with LinkedIn and Google Search API and Proxy Curl
+Author: Nitin Kapoor
+Author-email: officialnitinkapoor@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: googlesearch-python
+Requires-Dist: proxycurl
+Requires-Dist: openai
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+# LinkedFrame
+
+LinkedFrame is a Python library designed to enrich data using LinkedIn, Google Search API, and Proxy Curl. It provides tools to fetch and process LinkedIn data, making it easier to integrate and analyze professional information.
+
+## Features
+
+- **Google Search Integration**: Search for LinkedIn profiles using email addresses.
+- **Proxy Curl Integration**: Fetch detailed LinkedIn profile data.
+- **Data Enrichment**: Enhance LinkedIn data with additional information such as educational level, work field, and profile language using OpenAI.
+
+## Installation
+
+To install LinkedFrame, use pip:
+
+```bash
+pip install linkedframe
+```
+
+## Usage
+
+To get started with LinkedFrame, follow these steps:
+
+**Step 1: Import the necessary modules**
+```python
+from linkedframe.enrichment import LinkedInDataEnrichmentProcessor
+```
+
+**Step 2: Initialize the `LinkedInDataEnrichmentProcessor` with your API keys**
+```python
+df_processor = LinkedInDataEnrichmentProcessor(
+    cse_id="your_cse_id",
+    google_console_api_key="your_google_console_api_key",
+    openai_key="your_openai_key",
+    proxycurl_api_key="your_proxycurl_api_key"
+)
+```
+
+**Step 3: Prepare your DataFrame with email addresses**
+```python
+df = pd.DataFrame({'email': ['example@example.com']})
+```
+
+**Step 4: Process the emails to enrich the DataFrame with LinkedIn data**
+```python
+processed_df = df_processor.process_emails(df, email_col='email')
+```
+
+**Step 5: Analyze and use the enriched data as needed**
+```python
+print(processed_df)
+```
+
+This is a basic example to demonstrate how to use LinkedFrame for data enrichment.
+
+To use LinkedFrame, you will need the following API keys:
+- Google Custom Search Engine (CSE) ID
+- Google Console API Key
+- OpenAI API Key
+- ProxyCurl API Key
+
+These API keys are required to initialize the `LinkedInDataEnrichmentProcessor` and utilize the library's features.
+
