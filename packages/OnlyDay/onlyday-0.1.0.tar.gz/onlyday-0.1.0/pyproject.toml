@@ -1,0 +1,36 @@
+[project]
+name = "OnlyDay"
+version = "0.1.0"
+description = "Library that introduces a Day datatype that is universal across every year"
+readme = "README.md"
+authors = [{ name = "Christopher O. Tubbs", email = "christopherotubbs@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries"
+]
+requires-python = ">=3.6"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/christophertubbs/OnlyDay"
+Issues = "https://github.com/christophertubbs/OnlyDay/issues"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pip",
+]
+build-backend = "setuptools.build_meta"
