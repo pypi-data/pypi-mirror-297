@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: demo-hformat
+Version: 0.0.1
+Summary: Reformats files to stdout
+Author: Herve Habonimana
+Author-email: habonimanah@gmail.com
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: pandas
