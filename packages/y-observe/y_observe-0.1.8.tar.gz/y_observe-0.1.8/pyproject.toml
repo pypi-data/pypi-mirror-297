@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "y-observe"
+version = "0.1.8"
+description = "Making observability easy for everyone"
+authors = ["Arjun Chatterjee <arjun.chatterjee.196@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "observe" },
+]
+keywords = [
+    "open-telemetry",
+    "logging",
+    "loguru",
+    "observability",
+    "monitoring",
+    "tracing",
+]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+loguru = "^0.7.2"
+opentelemetry-distro = "^0.44b0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.23.0"
+opentelemetry-exporter-otlp-proto-http = "^1.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

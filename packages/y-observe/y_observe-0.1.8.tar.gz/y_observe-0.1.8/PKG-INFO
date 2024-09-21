@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: y-observe
+Version: 0.1.8
+Summary: Making observability easy for everyone
+Keywords: open-telemetry,logging,loguru,observability,monitoring,tracing
+Author: Arjun Chatterjee
+Author-email: arjun.chatterjee.196@gmail.com
+Requires-Python: ==3.10.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: opentelemetry-distro (>=0.44b0,<0.45)
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc (>=1.23.0,<2.0.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-http (>=1.23.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Observe
+
+
