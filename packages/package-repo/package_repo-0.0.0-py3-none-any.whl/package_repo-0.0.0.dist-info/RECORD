@@ -1,0 +1,11 @@
+package_repo/__init__.py,sha256=-qJBQS8mn88n0-p0xmZln9M1ePDKN555JrssQD82jOw,99
+package_repo/__version__.py,sha256=oN5X2cmDXhbslVgpcHvqBg_mY3NdT5Eml_IKoW05u1c,435
+package_repo/_api.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_repo/example_etl.py,sha256=ifIR82zo6waF8DfD17MwVseweZEy_ks34y_Vsx4fwxo,3352
+package_repo/example_sql_connection.py,sha256=xFOOBMEAAa32T2pkbOusB8G12Ccc4r9tPlGMJ2MdvIs,1180
+package_repo/examples.py,sha256=iSsvxwoYmgGGl6Jwpi3kTx7i67_n00ztav6rU96I-CM,403
+package_repo/logger.py,sha256=0FsNsaPlwQOf3IT_9mBcl_wHNXnXYt_AXZU0bDzt_EQ,422
+package_repo-0.0.0.dist-info/METADATA,sha256=gv14iLV7_xeEWyRgzvBU4_lqil9o7V83Szt77Elzrrw,57
+package_repo-0.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+package_repo-0.0.0.dist-info/top_level.txt,sha256=5HrvOB0QOxHfFLBsll_iWOSThG0mTjENSOO3PleMSz8,13
+package_repo-0.0.0.dist-info/RECORD,,
