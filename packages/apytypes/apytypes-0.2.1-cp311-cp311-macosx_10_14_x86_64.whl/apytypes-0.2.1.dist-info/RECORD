@@ -1,0 +1,12 @@
+apytypes-0.2.1.dist-info/RECORD,,
+apytypes-0.2.1.dist-info/WHEEL,sha256=XOBoNd4ZoR8VU4L_jvTp1We6geQCOlT9c-_2P9ddyB4,95
+apytypes-0.2.1.dist-info/METADATA,sha256=twod3B5uI48aWXxiaaVvGoCj-OcVJkuz7lNOzBiNt_M,4150
+apytypes/_typing.py,sha256=ccyYe2tSvCJKVp1I1nDpTZCv12fvHZhvqur2aRfGSvQ,351
+apytypes/__init__.pyi,sha256=YGxt6PfTj01MY8KURQETuLpNXxcLcAN_nNPbUTrm8I8,2137
+apytypes/_version.py,sha256=Ui79YHRxRfg2Yk8f7S1RGQcYuTAo3-YJSMGCUb8i3gI,18
+apytypes/_array_functions.pyi,sha256=NmCbV2SxaPcWJ-HdT-sTg4H31ugaq5JRz3QMHsjgeNw,20362
+apytypes/_apytypes.cpython-311-darwin.so,sha256=ud3m85WvenDVJq4JtRFOZVGBkK76i-EITbFGB07Y0U4,1559904
+apytypes/__init__.py,sha256=SU7OH5Ft-Eliz6aVuE5VvRAsOkAT5BVERR22EvMPstc,9885
+apytypes/_array_functions.py,sha256=3Cb8fF9WaJbg8HtMUCbwtlYI0qAzAGNc7QuVZSXhP7g,31822
+apytypes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apytypes/_apytypes.pyi,sha256=noYOqxxh5hW1K4S9DkKRqb-pArH1b-SKRKpQKxhjf4Q,104075
