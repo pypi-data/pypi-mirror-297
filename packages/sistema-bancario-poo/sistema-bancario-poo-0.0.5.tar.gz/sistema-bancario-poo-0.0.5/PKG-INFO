@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sistema-bancario-poo
+Version: 0.0.5
+Summary: Processamento e comparação de similaridade entre imagens.
+Home-page: https://github.com/DanielyFX/sistema-bancario-poo
+Author: Daniely de Faria Xavier
+Author-email: danixavier815@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Sistema bancÃ¡rio ðŸŒŸ
+
+Atividade lab proposta pela DIO para treinar e reforÃ§ar os conhecimentos em POO e a modularizaÃ§Ã£o do cÃ³digo. O projeto tenta seguir algumas boas prÃ¡ticas de arquitetura limpa (ainda em treinamento) para reforÃ§ar conhecimentos adquiridos em outras vivÃªncias.
+# DiretÃ³rios ðŸ“–
+/src/doamin/entities -> mantem as classes, seus atributos essenciais e funÃ§Ãµes getters e setters alÃ©m de outras especificaÃ§Ãµes.
+
+/src/domain/repository -> mantem as entidades para execuÃ§Ã£o das tarefas e interaÃ§Ãµes necessÃ¡rias para o sistema
+
+/main.py -> Arquivo responsÃ¡vel por executar toda a lÃ³gica criada no repositÃ³rio.
