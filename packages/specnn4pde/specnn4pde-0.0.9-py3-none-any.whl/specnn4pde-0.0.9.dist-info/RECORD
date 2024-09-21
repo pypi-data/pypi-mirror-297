@@ -1,0 +1,11 @@
+specnn4pde/__init__.py,sha256=aI1eLKa594sUNElsmAQFJXAiN_KDcUX3IaqNxNwf-b8,64
+specnn4pde/linalg.py,sha256=jQpSfvXjbvCB-rXn8Majq4ma4RsZfY_4U03BvpmhOF8,7059
+specnn4pde/nn.py,sha256=bWAhHuMnLU5gcVEupVnfPugN1Qmll4QsktHnJu_eQHM,9192
+specnn4pde/npde.py,sha256=TWkEQqRv88CbahBgEYn6otrN7FgnVFY4Q9ZZxiTitGE,12617
+specnn4pde/spectral.py,sha256=8t2a6WPYGm0UZGHQlb3IVNBADbt7MlwHD-0ZFPkOVXs,16405
+specnn4pde/utils.py,sha256=zmGEQqi1Qt1lRPAdx1Qh2vnjvJjx4priY9S0EyLLQiI,23153
+specnn4pde-0.0.9.dist-info/LICENSE,sha256=9tZg7MJu1ISWOuSfR85POKrnVpqeuSCk-1yc6iJOFfg,1091
+specnn4pde-0.0.9.dist-info/METADATA,sha256=bB69EvQ6ylsj8aK0ux4CxfmIq6y0x6Bb9E8Y-lJM9A0,3154
+specnn4pde-0.0.9.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+specnn4pde-0.0.9.dist-info/top_level.txt,sha256=fKk-8IFaXpUmX3oazaH2Solv2v9peikEL3WO_ek5lGk,11
+specnn4pde-0.0.9.dist-info/RECORD,,
