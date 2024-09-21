@@ -1,0 +1,15 @@
+qgis_server_light/interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qgis_server_light/interface/dispatcher.py,sha256=luKFbDdbJIb70DfgE9C1D1WL1-NmU6SuhF4UEXHRLds,3005
+qgis_server_light/interface/job.py,sha256=JBprmPghsmXYlqAtMktXs9dUqsg8LQy4uj4erQsURwk,5200
+qgis_server_light/interface/qgis.py,sha256=AHFG8xM6vQmuX-Xb7J_b0TzBEIlT5PBOVqY3FSMJaCk,13415
+qgis_server_light/worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qgis_server_light/worker/engine.py,sha256=LgHuQBHPEYNfQwKnYIPciqpYNA2Pvl_RFW7Z9joWmuo,1694
+qgis_server_light/worker/image_utils.py,sha256=rZYw2S4J2AbBf0cXwL1-9VHW5wHLhOecP7C3jQK6EAI,1034
+qgis_server_light/worker/qgis.py,sha256=Mmv3H5-yEZeFPQhoQS15GWgnITW3RnHikZUx98d_uv4,1700
+qgis_server_light/worker/redis.py,sha256=0Ewly5r_7LljRtzuXfdFuBtu_hfcjUcnRYvExYxLS4o,5803
+qgis_server_light/worker/runner.py,sha256=4G-faLaNbD8nJDX-GKbSzufx1zCODXYYNYb-XDt2Bcg,11481
+qgis_server_light-0.0.1.dist-info/LICENSE,sha256=kJRlx_8wxEcsxP1Lm5V17Sg-EFoJa4K1muqg3vLVmBk,1067
+qgis_server_light-0.0.1.dist-info/METADATA,sha256=HLg4u68FGVFhvQLWEWF0s_oRhM95V6lKf-4LBcE0z7E,1563
+qgis_server_light-0.0.1.dist-info/WHEEL,sha256=WDDPHYzpiOIm6GP1C2_8y8W6q16ICddAgOHlhTje9Qc,109
+qgis_server_light-0.0.1.dist-info/top_level.txt,sha256=8MXYpmEt73cFAODYbH92ViJeWIJPb3lD5uM5lfg1i5A,122
+qgis_server_light-0.0.1.dist-info/RECORD,,

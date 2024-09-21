@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: qgis_server_light
+Version: 0.0.1
+Summary: qgis renderer as a python process
+Home-page: https://github.com/opengisch/qgis-server-light
+Author: Clemens Rudert (OPENGIS.ch)
+Author-email: clemens@opengis.ch
+Project-URL: Documentation, https://github.com/opengisch/qgis-server-light
+Project-URL: Changelog, https://github.com/opengisch/qgis-server-light/blob/master/CHANGES.md
+Project-URL: Issue Tracker, https://github.com/opengisch/qgis-server-light/issues
+Keywords: web worker qgis qgis-server processing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Typing :: Typed
+License-File: LICENSE
+
+# QGIS-Server-Light
+
+QGIS-Server-light is a python worker process which uses pyqgis
+to render a set of layers into an image. It is backed by Redis
+as a queue system.
+All configuration happens at runtime through a lean interface.
+
+## Quick start
+
+```shell
+docker run --rm -d -p 1234:6379 --name georama-redis redis
+```
+
+```shell
+docker run --rm -e QSL_REDIS_URL=redis://localhost:1234 --net host ghcr.io/opengisch/qgis-server-light:latest
+```
+
+## Quick start DEV
+
+Create an .env file and put the content of [.env.example](.env.example) into it. Adapt as needed.
+
+```shell
+docker compose up -d
+```
+
+## Documentation
+
+For further details and a better understanding please refer to the
+[documentation](https://opengisch.github.io/qgis-server-light).
+
+
+Test
