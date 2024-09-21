@@ -1,0 +1,99 @@
+name: docs-build
+
+on:
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    docs-build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                python-version: ["3.12"]
+
+        defaults:
+            run:
+                shell: bash -el {0}
+
+        env:
+            PLANET_API_KEY: ${{ secrets.PLANET_API_KEY }}
+            USE_FOLIUM: ${{ secrets.USE_FOLIUM }}
+            USE_MKDOCS: ${{ secrets.USE_MKDOCS }}
+            MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+            EARTHDATA_USERNAME: ${{ secrets.EARTHDATA_USERNAME }}
+            EARTHDATA_PASSWORD: ${{ secrets.EARTHDATA_PASSWORD }}
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+            - name: Setup Python
+              uses: conda-incubator/setup-miniconda@v3
+              with:
+                  auto-activate-base: true
+                  python-version: ${{ matrix.python-version }}
+                  channels: conda-forge,defaults
+                  channel-priority: true
+                  miniconda-version: latest
+
+            - name: Cache dependencies
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/pip
+                  key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+                  restore-keys: |
+                      ${{ runner.os }}-pip-
+
+            - name: Testing conda
+              run: |
+                  conda info
+                  conda list
+
+            - name: Install GDAL
+              run: |
+                  # conda install -c conda-forge mamba --yes
+                  # mamba install -c conda-forge gdal pyproj --yes
+                  pip install --no-cache-dir Cython
+                  pip install --find-links=https://girder.github.io/large_image_wheels --no-cache GDAL
+
+            - name: Test GDAL installation
+              run: |
+                  python -c "from osgeo import gdal"
+                  gdalinfo --version
+
+            - name: Install dependencies
+              run: |
+                  pip install -U pip
+                  pip install --no-cache-dir Cython PyYAML==6.0.1 boto3
+                  pip install -r requirements.txt -r requirements_dev.txt
+                  pip install .
+
+            - name: PKG-TEST
+              run: python -m unittest discover tests/
+
+            - name: Install mkdocs
+              run: |
+                  pip install -r requirements_docs.txt
+                  mkdocs build
+
+            - name: Deploy to Netlify
+              uses: nwtgck/actions-netlify@v3.0
+              with:
+                  publish-dir: "./site"
+                  production-branch: master
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  deploy-message: "Deploy from GitHub Actions"
+                  enable-pull-request-comment: true
+                  enable-commit-comment: false
+                  overwrites-pull-request-comment: true
+              env:
+                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+            - name: Cleanup
+              if: always()
+              run: |
+                  echo "Cleaning up resources."
