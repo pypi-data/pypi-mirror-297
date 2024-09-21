@@ -1,0 +1,6 @@
+[console_scripts]
+meds-torch-eval = meds_torch.eval:main
+meds-torch-finetune = meds_torch.finetune:main
+meds-torch-latest-dir = meds_torch.latest_dir:main
+meds-torch-train = meds_torch.train:main
+meds-torch-tune = meds_torch.tune:main
