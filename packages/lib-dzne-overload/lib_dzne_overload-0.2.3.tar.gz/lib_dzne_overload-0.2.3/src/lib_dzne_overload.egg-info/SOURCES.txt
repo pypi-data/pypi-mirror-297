@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/lib_dzne_overload/__init__.py
+src/lib_dzne_overload.egg-info/PKG-INFO
+src/lib_dzne_overload.egg-info/SOURCES.txt
+src/lib_dzne_overload.egg-info/dependency_links.txt
+src/lib_dzne_overload.egg-info/top_level.txt
+src/lib_dzne_overload/tests/__init__.py
+src/lib_dzne_overload/tests/test_1984.py
