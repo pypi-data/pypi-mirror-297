@@ -1,0 +1,23 @@
+[project]
+name = "limalight"
+version = "0.1.1"
+description = "A flexible display library for the Limonada Journaling Project, supporting both OLED hardware and terminal output."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=10.4.0",
+    "typer>=0.12.5",
+]
+
+[project.optional-dependencies]
+rpi = [
+    "adafruit-circuitpython-ssd1306>=2.12.17",
+    "rpi-gpio>=0.7.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+limalight = "limalight.cli:app"
