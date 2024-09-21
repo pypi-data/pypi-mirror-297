@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hive-service
+Version: 0.0.1
+Summary: Common code for Hive services
+Author-email: Gary Benson <gary@gbenson.net>
+Project-URL: Homepage, https://github.com/gbenson/hive/tree/main/libs/service
+Project-URL: Source, https://github.com/gbenson/hive
+Description-Content-Type: text/markdown
+
+[![version badge]](https://pypi.org/project/hive-service/)
+
+[version badge]: https://img.shields.io/pypi/v/hive-service?color=limegreen
+
+# hive-service
+
+Common code for Hive services
+
+## Installation
+
+### With PIP
+
+```sh
+pip install hive-service
+```
