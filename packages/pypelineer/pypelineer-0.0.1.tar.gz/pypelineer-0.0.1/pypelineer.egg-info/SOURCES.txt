@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pypelineer.egg-info/PKG-INFO
+pypelineer.egg-info/SOURCES.txt
+pypelineer.egg-info/dependency_links.txt
+pypelineer.egg-info/top_level.txt
