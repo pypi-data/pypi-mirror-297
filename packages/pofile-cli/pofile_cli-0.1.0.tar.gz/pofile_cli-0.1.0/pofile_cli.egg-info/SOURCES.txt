@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+client/__init__.py
+client/pofile.py
+pofile_cli.egg-info/PKG-INFO
+pofile_cli.egg-info/SOURCES.txt
+pofile_cli.egg-info/dependency_links.txt
+pofile_cli.egg-info/entry_points.txt
+pofile_cli.egg-info/requires.txt
+pofile_cli.egg-info/top_level.txt
+tests/__init__.py
+tests/test_api_urls.py
+tests/test_find.py
+tests/test_validation.py
