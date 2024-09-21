@@ -1,0 +1,515 @@
+2024-09-18 16:13:25,361 - corpus-loader - INFO - Logger started
+2024-09-18 16:13:28,279 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 16:13:29,177 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 16:13:30,863 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 16:13:30,885 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 75, in get_dataframe
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 30, in _apply_selected_dtypes
+    return df.astype(dtype=dtypes)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6620, in astype
+    res_col = col.astype(dtype=cdt, copy=copy, errors=errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 110, in _astype_nansafe
+    dta = DatetimeArray._from_sequence(arr, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 327, in _from_sequence
+    return cls._from_sequence_not_strict(scalars, dtype=dtype, copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 379, in _from_sequence_not_strict
+    _validate_tz_from_dtype(dtype, tz, explicit_tz_none)
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 2615, in _validate_tz_from_dtype
+    raise ValueError(
+ValueError: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+
+2024-09-18 16:13:30,886 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+2024-09-18 16:17:24,489 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 16:17:24,511 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 75, in get_dataframe
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 30, in _apply_selected_dtypes
+    return df.astype(dtype=dtypes)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6620, in astype
+    res_col = col.astype(dtype=cdt, copy=copy, errors=errors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 110, in _astype_nansafe
+    dta = DatetimeArray._from_sequence(arr, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 327, in _from_sequence
+    return cls._from_sequence_not_strict(scalars, dtype=dtype, copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 379, in _from_sequence_not_strict
+    _validate_tz_from_dtype(dtype, tz, explicit_tz_none)
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/arrays/datetimes.py", line 2615, in _validate_tz_from_dtype
+    raise ValueError(
+ValueError: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+
+2024-09-18 16:17:24,511 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: cannot supply both a tz and a timezone-naive dtype (i.e. datetime64[ns]): Error while type casting for column 'created_at'
+2024-09-18 16:27:50,150 - corpus-loader - INFO - Logger started
+2024-09-18 16:27:53,442 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 16:27:54,333 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 16:27:55,393 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 16:27:55,412 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    raise Exception(str(df.dtypes))
+Exception: tweet_id                 object
+created_at               object
+retrieved_at             object
+user_id                  object
+username                 object
+text                     object
+retweeted_tweet_id       object
+retweeted_user_id        object
+retweeted_user_name      object
+in_reply_to_tweet_id     object
+in_reply_to_user_id      object
+in_reply_to_user_name    object
+quoted_tweet_id          object
+quoted_user_id           object
+quoted_user_name         object
+dtype: object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: tweet_id                 object
+created_at               object
+retrieved_at             object
+user_id                  object
+username                 object
+text                     object
+retweeted_tweet_id       object
+retweeted_user_id        object
+retweeted_user_name      object
+in_reply_to_tweet_id     object
+in_reply_to_user_id      object
+in_reply_to_user_name    object
+quoted_tweet_id          object
+quoted_user_id           object
+quoted_user_name         object
+dtype: object
+
+2024-09-18 16:27:55,412 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: tweet_id                 object
+created_at               object
+retrieved_at             object
+user_id                  object
+username                 object
+text                     object
+retweeted_tweet_id       object
+retweeted_user_id        object
+retweeted_user_name      object
+in_reply_to_tweet_id     object
+in_reply_to_user_id      object
+in_reply_to_user_name    object
+quoted_tweet_id          object
+quoted_user_id           object
+quoted_user_name         object
+dtype: object
+2024-09-18 16:28:35,585 - corpus-loader - INFO - Logger started
+2024-09-18 16:28:39,029 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 16:28:39,898 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 16:28:43,358 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 16:28:43,379 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    raise Exception(str(df['created_at']))
+Exception: 0       2020-10-16 15:20:22.000 +0000
+1       2020-10-16 15:21:23.000 +0000
+2       2020-10-16 15:21:43.000 +0000
+3       2020-10-16 15:22:16.000 +0000
+4       2020-10-16 15:24:03.000 +0000
+                    ...              
+2375    2020-11-02 20:37:58.000 +0000
+2376    2020-11-02 20:39:24.000 +0000
+2377    2020-11-02 20:47:27.000 +0000
+2378    2020-11-02 21:13:56.000 +0000
+2379    2020-11-02 21:16:47.000 +0000
+Name: created_at, Length: 2380, dtype: object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: 0       2020-10-16 15:20:22.000 +0000
+1       2020-10-16 15:21:23.000 +0000
+2       2020-10-16 15:21:43.000 +0000
+3       2020-10-16 15:22:16.000 +0000
+4       2020-10-16 15:24:03.000 +0000
+                    ...              
+2375    2020-11-02 20:37:58.000 +0000
+2376    2020-11-02 20:39:24.000 +0000
+2377    2020-11-02 20:47:27.000 +0000
+2378    2020-11-02 21:13:56.000 +0000
+2379    2020-11-02 21:16:47.000 +0000
+Name: created_at, Length: 2380, dtype: object
+
+2024-09-18 16:28:43,379 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: 0       2020-10-16 15:20:22.000 +0000
+1       2020-10-16 15:21:23.000 +0000
+2       2020-10-16 15:21:43.000 +0000
+3       2020-10-16 15:22:16.000 +0000
+4       2020-10-16 15:24:03.000 +0000
+                    ...              
+2375    2020-11-02 20:37:58.000 +0000
+2376    2020-11-02 20:39:24.000 +0000
+2377    2020-11-02 20:47:27.000 +0000
+2378    2020-11-02 21:13:56.000 +0000
+2379    2020-11-02 21:16:47.000 +0000
+Name: created_at, Length: 2380, dtype: object
+2024-09-18 17:02:01,140 - corpus-loader - INFO - Logger started
+2024-09-18 17:02:03,519 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 17:02:04,407 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 17:02:07,655 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:02:07,680 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 39, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 231, in astype_array_safe
+    dtype = pandas_dtype(dtype)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/common.py", line 1645, in pandas_dtype
+    npdtype = np.dtype(dtype)
+              ^^^^^^^^^^^^^^^
+TypeError: Cannot interpret '<DataType.TEXT: 'string'>' as a data type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Cannot interpret '<DataType.TEXT: 'string'>' as a data type
+
+2024-09-18 17:02:07,680 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Cannot interpret '<DataType.TEXT: 'string'>' as a data type
+2024-09-18 17:02:30,694 - corpus-loader - INFO - Logger started
+2024-09-18 17:02:39,987 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 17:02:40,904 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 17:02:41,797 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:02:41,836 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 39, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype.value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'barriecassidy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: could not convert string to float: 'barriecassidy'
+
+2024-09-18 17:02:41,836 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: could not convert string to float: 'barriecassidy'
+2024-09-18 17:03:33,545 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:03:33,576 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 39, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype.value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'barriecassidy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: could not convert string to float: 'barriecassidy'
+
+2024-09-18 17:03:33,577 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: could not convert string to float: 'barriecassidy'
+2024-09-18 17:07:18,186 - corpus-loader - INFO - Logger started
+2024-09-18 17:07:20,171 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 17:07:21,057 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 17:07:23,519 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:07:23,555 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 41, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype.value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'barriecassidy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 43, in _apply_selected_dtypes
+    raise FileLoadError(f"Could not case value from {header.name} to {header.datatype.value}. Try modifying the selected datatype")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Could not case value from in_reply_to_user_name to float64. Try modifying the selected datatype
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not case value from in_reply_to_user_name to float64. Try modifying the selected datatype
+
+2024-09-18 17:07:23,555 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not case value from in_reply_to_user_name to float64. Try modifying the selected datatype
+2024-09-18 17:07:55,740 - corpus-loader - INFO - Logger started
+2024-09-18 17:07:57,835 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/qldelection2020_candidate_tweets.csv']
+2024-09-18 17:07:58,720 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-18 17:08:01,269 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:08:01,304 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 41, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype.value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'barriecassidy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 67, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 43, in _apply_selected_dtypes
+    raise FileLoadError(f"Could not cast value from {header.name} to {header.datatype.name}. Try modifying the selected datatype")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+
+2024-09-18 17:08:01,304 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+2024-09-18 17:08:16,644 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-18 17:08:16,685 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-18 17:08:16,685 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-18 17:08:16,692 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-18 17:08:17,213 - corpus-loader - DEBUG - All files unloaded
+2024-09-18 17:08:17,265 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-09-18 17:08:16.678809 built successfully
+2024-09-18 17:08:17,271 - corpus-loader - DEBUG - All files unloaded
