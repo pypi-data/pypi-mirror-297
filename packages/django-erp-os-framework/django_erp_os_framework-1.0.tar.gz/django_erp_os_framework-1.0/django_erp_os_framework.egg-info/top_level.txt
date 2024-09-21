@@ -1,0 +1,4 @@
+applications
+design
+django-erp-os-framework
+kernel

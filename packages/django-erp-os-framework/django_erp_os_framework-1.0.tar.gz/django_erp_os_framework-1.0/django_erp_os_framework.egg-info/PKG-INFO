@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: django-erp-os-framework
+Version: 1.0
+Requires-Dist: django>=4.2

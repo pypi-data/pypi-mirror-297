@@ -1,0 +1,2 @@
+[console_scripts]
+startproject_with_erp_os = apps.design.management.commands.startproject_with_erp_os:Command.handle
