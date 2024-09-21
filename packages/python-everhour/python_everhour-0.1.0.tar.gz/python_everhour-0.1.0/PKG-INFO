@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: python-everhour
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.32.3
+Description-Content-Type: text/markdown
+
+[Everhour API mock data](https://everhour.docs.apiary.io/#reference/0/expenses/get-current-user?console=1)

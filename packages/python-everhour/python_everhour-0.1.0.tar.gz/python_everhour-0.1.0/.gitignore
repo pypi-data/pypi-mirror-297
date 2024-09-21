@@ -1,0 +1,22 @@
+*.pyc
+
+# Packages
+/dist/*
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+/docs/site/*
+.mypy_cache
+
+.venv
+/poetry.toml
+
+# temporary until we can scrub out data we don't want to expose
+tests/cassettes

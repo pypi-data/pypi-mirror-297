@@ -1,0 +1,21 @@
+[project]
+name = "python-everhour"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "black>=24.8.0",
+    "isort>=5.13.2",
+    "pytest>=8.3.3",
+    "pytest-recording>=0.13.2",
+]
