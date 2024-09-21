@@ -1,0 +1,15 @@
+mkdocs_solarized/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_solarized/cli.py,sha256=U8zUabEAVKYN1gK5EZBfAhOwHiYRZ0DQdyrcOBjfWng,1258
+mkdocs_solarized/overrides/main.html,sha256=HuBKCMKEgSZ_mWXw8bNrPUXEVMpovsyEzi3YDz4EXq4,286
+mkdocs_solarized/overrides/extra/refresh_on_toggle_dark_light.js,sha256=s22Bu72cxal4VMJ6Mww6Ju9OqDwG4fEODwWMxNOHEhk,294
+mkdocs_solarized/overrides/javascripts/gradient-animation.js,sha256=59F3qi7KwXGYSO_MuTeJOcdCpAvXHfMOfV6gNdeBL_M,1389
+mkdocs_solarized/overrides/javascripts/mathjax.js,sha256=9yKMl63dUAXAm-8bVbDfFxww3uKfvFUyefR6x7PIpcY,300
+mkdocs_solarized/overrides/javascripts/tablesort.js,sha256=zZuzlLLYspXngQLeXdEDf9wyflLPC7VhPi35ldmtmpI,197
+mkdocs_solarized/overrides/javascripts/typing-animation.js,sha256=dSMBfxP_ZmWF7ycZyG2ego9pzf5bqQURDUjrW-8Ry1Y,1974
+mkdocs_solarized/overrides/stylesheets/extra.css,sha256=AqlUeMUqkQzoXyEmfDq4013aVW_UnKW8WiZS1Aa7piE,3508
+mkdocs_solarized/templates/mkdocs.yml,sha256=HGPr9Y82kXiigWTcwCALtJVybTMEnVb8pKN9DK43iUs,3841
+mkdocs_solarized-0.1.0.dist-info/METADATA,sha256=nckxIeAwoL2m0KLV3pJmNCv3S1fALEAP9ucuB6qtKyU,1975
+mkdocs_solarized-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mkdocs_solarized-0.1.0.dist-info/entry_points.txt,sha256=nPA5uH4Dv22aQcet3n4COMnPeGFxoM7WhoaKbb7a6n0,114
+mkdocs_solarized-0.1.0.dist-info/top_level.txt,sha256=ZWa91Nk_kXnUQ41XGMU_rRBZry6LWglXESy9H6ZbeYg,17
+mkdocs_solarized-0.1.0.dist-info/RECORD,,

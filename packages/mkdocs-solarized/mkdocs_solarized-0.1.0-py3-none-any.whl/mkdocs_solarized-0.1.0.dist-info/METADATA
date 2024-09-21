@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: mkdocs_solarized
+Version: 0.1.0
+Summary: A custom MkDocs theme with solarized styles and overrides
+Home-page: https://github.com/yourusername/mkdocs_solarized
+Author: Andrzej Zahorski
+Author-email: your.email@example.com
+Classifier: Framework :: MkDocs
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: ansi2html ==1.9.2
+Requires-Dist: attrs ==24.2.0
+Requires-Dist: babel ==2.16.0
+Requires-Dist: beautifulsoup4 ==4.12.3
+Requires-Dist: bracex ==2.5
+Requires-Dist: certifi ==2024.8.30
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: cli-exit-tools ==1.2.6
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: ghp-import ==2.1.0
+Requires-Dist: idna ==3.10
+Requires-Dist: igittigitt ==2.1.4
+Requires-Dist: Jinja2 ==3.1.4
+Requires-Dist: lib-detect-testenv ==2.0.8
+Requires-Dist: Markdown ==3.7
+Requires-Dist: markdown-ansi ==0.1.0
+Requires-Dist: markdown-exec ==1.9.3
+Requires-Dist: MarkupSafe ==2.1.5
+Requires-Dist: mergedeep ==1.3.4
+Requires-Dist: mkdocs ==1.6.1
+Requires-Dist: mkdocs-file-filter-plugin ==0.2.0
+Requires-Dist: mkdocs-get-deps ==0.2.0
+Requires-Dist: mkdocs-literate-nav ==0.6.1
+Requires-Dist: mkdocs-markmap ==2.4.3
+Requires-Dist: mkdocs-material ==9.5.35
+Requires-Dist: mkdocs-material-extensions ==1.3.1
+Requires-Dist: mkdocs-roamlinks-plugin ==0.3.2
+Requires-Dist: packaging ==24.1
+Requires-Dist: paginate ==0.5.7
+Requires-Dist: pathspec ==0.12.1
+Requires-Dist: platformdirs ==4.3.6
+Requires-Dist: Pygments ==2.18.0
+Requires-Dist: pymdown-extensions ==10.9
+Requires-Dist: python-dateutil ==2.9.0.post0
+Requires-Dist: PyYAML ==6.0.2
+Requires-Dist: pyyaml-env-tag ==0.1
+Requires-Dist: regex ==2024.9.11
+Requires-Dist: requests ==2.32.3
+Requires-Dist: schema ==0.7.7
+Requires-Dist: six ==1.16.0
+Requires-Dist: soupsieve ==2.6
+Requires-Dist: urllib3 ==2.2.3
+Requires-Dist: watchdog ==5.0.2
+Requires-Dist: wcmatch ==9.0
+

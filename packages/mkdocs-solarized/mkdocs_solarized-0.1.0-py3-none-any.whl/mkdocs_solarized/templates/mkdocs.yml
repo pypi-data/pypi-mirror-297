@@ -1,0 +1,177 @@
+#  Project information
+site_name: 'CV of andynameistaken'
+site_description: 'test'
+site_author: 'Andrzej Zahorski'
+site_url: https://codenotes.dev/
+
+
+# Repository
+# repo_name: ''
+# repo_url: ''
+
+# Copyright
+copyright: 'Copyright &copy; 2023 Andrzej Zahorski'
+
+# Plugins
+plugins:
+  - search
+  - file-filter:
+     filter_nav: true # default value
+     exclude_regex:
+        - '^\.'
+  - markmap
+  - roamlinks 
+  - markdown-exec # run python code blocks
+
+
+
+  # - obsidian-bridge
+#  - mknotebooks:
+#      enable_default_jupyter_cell_styling: false
+# - blogging:
+#      dirs: # The directories to be included
+#        - blog
+#      paging: false      # Disable paging
+
+  # - mkdocs-jupyter:
+  #     # execute: True
+  #     include_source: True
+  #     theme: dark
+  #     # theme: slate
+  #     # include_source: True
+
+  - literate-nav:
+      nav_file: SUMMARY.md
+     
+  # - encryptcontent:
+  #     global_password: 'clear'
+  #     remember_keys: true
+  #     remember_password: true
+  #     search_index: 'clear'
+  #     title_prefix: ''
+
+      # encrypted_something:
+      #     md-footer__inner: [nav, class]
+      #     md-nav: [nav, class]
+
+
+## Extensions
+markdown_extensions:    
+  - footnotes
+  - pymdownx.highlight:
+      linenums: true           
+  - pymdownx.inlinehilite  
+  - pymdownx.keys
+  - pymdownx.snippets  
+  - admonition
+  - pymdownx.details  
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
+  - md_in_html
+
+  # - mdx_truly_sane_lists
+
+  # LaTeX
+  - pymdownx.arithmatex:
+      generic: true
+      # make exceptions to highlighting of code:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+ 
+  # - attr_list
+  # - pymdownx.arithmatex
+  # - pymdownx.details
+  # - pymdownx.magiclink
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+
+  - toc:
+      permalink: true
+
+# ================================================
+#         THEME                                  #
+# ================================================
+
+theme:
+  name: material
+  font:
+    # text: Sarala
+    text: Montserrat
+  features:
+    # - navigation.top
+    - search.suggest    
+    - search.highlight     
+    - search.share        
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.tabs
+    - header.autohide
+    - content.code.annotate
+    # - navigation.tabs.sticky
+  custom_dir: overrides
+
+
+
+
+
+
+  language: 'en'
+  # logo: 'images/logo.png'
+  # favicon: 'images/logo.png'
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: red
+      primary: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+# Customisation
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/andynameistaken
+  generator: false
+
+  extra_files: 
+  - '../CNAME'
+
+    
+
+
+
+extra_javascript:
+  # custom button animations
+  - javascripts/gradient-animation.js
+  - javascripts/typing-animation.js
+
+  # LaTeX support
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # Mermaid Graph
+  # - extra/refresh_on_toggle_dark_light.js         # deprecated
+  # - https://unpkg.com/mermaid/dist/mermaid.min.js # deprecated
+  # sortable data tables
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - /javascripts/tablesort.js
+extra_css:
+  - 'stylesheets/extra.css'  
