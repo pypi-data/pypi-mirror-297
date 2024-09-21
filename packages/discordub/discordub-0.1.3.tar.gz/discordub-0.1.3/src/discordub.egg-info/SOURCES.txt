@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/discordub/__init__.py
+src/discordub/send_embed.py
+src/discordub/send_message.py
+src/discordub.egg-info/PKG-INFO
+src/discordub.egg-info/SOURCES.txt
+src/discordub.egg-info/dependency_links.txt
+src/discordub.egg-info/top_level.txt
