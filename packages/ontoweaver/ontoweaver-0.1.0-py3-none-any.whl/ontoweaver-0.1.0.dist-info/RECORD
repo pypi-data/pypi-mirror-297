@@ -1,0 +1,9 @@
+ontoweaver/__init__.py,sha256=KOoLnOvJk4WPC5nEAi_pUG7ODK-dfylIhGWL7SXbuBE,273
+ontoweaver/base.py,sha256=5p9lSw5A9ClMo3VpIMbNEmrqg7ZyDAxphQXy55-WDPo,10611
+ontoweaver/tabular.py,sha256=E5sxQO55Fs0C7IXujqkDysVpbMFmqS1PkFIg3bYhGKM,26111
+ontoweaver/transformer.py,sha256=GyPJR1ICLz_pB_m6gBMKKz4TqIJ8yHyx48QTGav1hUY,6860
+ontoweaver/types.py,sha256=wdvwL18YOWNBoEmQiBjSS3Udb0Iy_Myaw-KmP0DkLN4,140
+ontoweaver-0.1.0.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+ontoweaver-0.1.0.dist-info/METADATA,sha256=5XNF1TYOGgogR33FuJ1teH4L6Qcdc7m1bCJxvWF3V9w,19976
+ontoweaver-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ontoweaver-0.1.0.dist-info/RECORD,,
