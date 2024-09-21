@@ -1,0 +1,8 @@
+sigma/backends/sentinelone_pq/__init__.py,sha256=05eWoef_5WUqNZcNkXzTl1-7OYOEa5-Qd9hCwnX6Vt8,107
+sigma/backends/sentinelone_pq/sentinelone_pq.py,sha256=39WyqcjYyL6-uFY0ybttMC8QyLzi9tVNALFZ1qGFQOM,5691
+sigma/pipelines/sentinelone_pq/__init__.py,sha256=yRJPVbXtBsli4RUCPIJNm0mS0dmjOCZzs1VV4wCymLE,120
+sigma/pipelines/sentinelone_pq/sentinelone_pq.py,sha256=deIDggTfvvnvxKuYPNUQ8bEfryTyarnFvwLcpcs15Eo,15088
+pysigma_backend_sentinelone_pq-0.1.4.dist-info/LICENSE,sha256=CMQbLQrUP3S15vNrZJBjbGo8UBx3bWYGl9rGyCs7H3M,1067
+pysigma_backend_sentinelone_pq-0.1.4.dist-info/METADATA,sha256=ng_eUiwT5yV0PQjlXhzYf9XwBuGRHOs8epxh2fMa4Yg,708
+pysigma_backend_sentinelone_pq-0.1.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pysigma_backend_sentinelone_pq-0.1.4.dist-info/RECORD,,
