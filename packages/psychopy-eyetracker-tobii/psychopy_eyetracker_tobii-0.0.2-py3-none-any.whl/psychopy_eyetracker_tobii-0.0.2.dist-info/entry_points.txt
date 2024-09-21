@@ -1,0 +1,2 @@
+[psychopy.iohub.devices.eyetracker]
+tobii = psychopy_eyetracker_tobii.tobii
