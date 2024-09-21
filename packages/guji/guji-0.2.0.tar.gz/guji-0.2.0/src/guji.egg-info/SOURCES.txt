@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/guji/__init__.py
+src/guji/guji.py
+src/guji.egg-info/PKG-INFO
+src/guji.egg-info/SOURCES.txt
+src/guji.egg-info/dependency_links.txt
+src/guji.egg-info/entry_points.txt
+src/guji.egg-info/requires.txt
+src/guji.egg-info/top_level.txt
