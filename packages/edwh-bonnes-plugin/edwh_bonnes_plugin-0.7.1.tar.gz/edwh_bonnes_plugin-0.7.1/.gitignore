@@ -1,0 +1,9 @@
+*.pyc
+.idea
+venv*
+dist/
+build/
+.env
+.bonnes-jsons/
+test/
+.bonnes-assets/screenshots/*
