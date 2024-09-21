@@ -1,0 +1,10 @@
+tobii_research
+
+[docs]
+psychopy
+sphinx
+furo
+
+[tests]
+psychopy
+pytest

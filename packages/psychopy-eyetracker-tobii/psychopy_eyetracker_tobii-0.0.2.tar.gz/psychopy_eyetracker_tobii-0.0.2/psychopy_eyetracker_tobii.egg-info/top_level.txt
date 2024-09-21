@@ -1,0 +1,5 @@
+dist
+docs_src
+psychopy_eyetracker_tobii
+tests
+tobii
