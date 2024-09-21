@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "superstore"
+description = "Data generation"
+version = "0.2.6"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+authors = [
+    { name = "Tim Paine", email = "t.paine154@gmail.com" },
+]
+keywords = [
+    "Jupyter",
+    "JupyterLab",
+    "Notebook",
+    "Notebooks",
+    "Report",
+    "Reports",
+    "Reporting",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+dependencies = [
+    "coolname",
+    "Faker>=1.0.1",
+    "pandas>=0.23.4",
+]
+
+[project.optional-dependencies]
+develop = [
+    "bump-my-version",
+    "check-manifest",
+    "isort>=5,<6",
+    "ruff>=0.3,<0.5",
+    # test
+    "csp",
+    "pytest",
+    "pytest-cov",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.urls]
+repository = "https://github.com/timkpaine/superstore"
+homepage = "https://github.com/timkpaine/superstore"
+
+[tool.bumpversion]
+current_version = "0.2.6"
+commit = true
+tag = false
+
+[[tool.bumpversion.files]]
+filename = "superstore/__init__.py"
+search = '__version__ = "{current_version}"'
+replace = '__version__ = "{new_version}"'
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
+
+[tool.isort]
+combine_as_imports = true
+include_trailing_comma = true
+line_length = 150
+profile = "black"
+
+default_section = "THIRDPARTY"
+sections = "FUTURE,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+known_first_party = "superstore"
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+testpaths = "superstore/tests"
+
+[tool.ruff]
+line-length = 150
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403"]
