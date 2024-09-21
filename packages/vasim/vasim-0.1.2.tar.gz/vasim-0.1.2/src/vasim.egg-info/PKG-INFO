@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: vasim
+Version: 0.1.2
+Summary: Vertical Autoscaler Simulator Toolkit
+Maintainer-email: VASim Maintainers <vasim-maintainers@service.microsoft.com>
+License:     MIT License
+        
+            Copyright (c) Microsoft Corporation.
+        
+            Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the "Software"), to deal
+            in the Software without restriction, including without limitation the rights
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+            copies of the Software, and to permit persons to whom the Software is
+            furnished to do so, subject to the following conditions:
+        
+            The above copyright notice and this permission notice shall be included in all
+            copies or substantial portions of the Software.
+        
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+            SOFTWARE
+        
+Project-URL: Repository, https://github.com/microsoft/vasim
+Project-URL: Issues, https://github.com/microsoft/vasim/issues
+Keywords: data analysis,visualization
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: System
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cvxpy~=1.5.2
+Requires-Dist: jsonargparse~=4.21.0
+Requires-Dist: matplotlib~=3.7.1
+Requires-Dist: numpy~=1.24.2
+Requires-Dist: pandas~=1.5.3
+Requires-Dist: plotnine~=0.12.2
+Requires-Dist: python-dateutil~=2.8.2
+Requires-Dist: requests~=2.32.0
+Requires-Dist: sktime~=0.16.1
+Provides-Extra: dev
+Requires-Dist: autopep8; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pydocstringformatter; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+# VASIM
+
+[![Build](https://github.com/microsoft/vasim/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/microsoft/vasim/actions/workflows/pythonapp.yml)
+[![coverage](https://codecov.io/gh/microsoft/vasim/branch/main/graph/badge.svg)](https://codecov.io/github/microsoft/vasim?branch=main)
+
+VASIM (**V**ertical **A**utoscaling **SIM**ulator) is a tool designed to address the complexities involved in assessing autoscaling algorithms.
+
+VASIM is designed for testing recommendation algorithms, with a particular focus on CPU usage in VMs and Kubernetes pods. The toolkit
+replicates common components found in autoscaler architectures, including the controller, metrics collector, recommender, and
+resource updater. It enables a comprehensive simulation of the entire autoscaling system’s behavior, with the flexibility to customize
+various parameters.
+
+If you are writing an academic paper, you can cite [this work](https://www.microsoft.com/en-us/research/publication/vasim-vertical-autoscaling-simulator-toolkit/) as:
+
+```bibtex
+@inproceedings{pavlenko2024vasim,
+  author = {Pavlenko, Anna and Saur, Karla and Zhu, Yiwen and Kroth, Brian and Cahoon, Joyce and Camacho-Rodríguez, Jesús},
+  title = {VASIM: Vertical Autoscaling Simulator Toolkit},
+  booktitle = {IEEE International Conference on Data Engineering (ICDE 2024)},
+  year = {2024},
+  month = {May},
+}
+```
+
+## Start here!
+
+Our documentation and working example is in our [notebook](examples/using_vasim.ipynb) that shows how to get started simulating your data traces and tuning parameters.  Our example provides the 3 things needed to run VASim: (1) a data csv file, (2) an autoscaling algorithm, and (3) a metadata.json file of parameters. Details of all of these can be found in the notebook.
+
+#### Additionally:
+
+* Within each folder, there is a README explaining the code.
+  * [simulator](simulator/README.md)
+  * [recommender](recommender/README.md)
+  * [forecasting](recommender/forecasting/README.md)
+  * [cluster state](recommender/cluster_state_provider/README.md)
+  * [tests](tests/README.md)
+
+* For additional usage examples, see any test in the [tests](tests) folder that starts with `test_e2e`.
+
+* Please see our [blog post](https://www.microsoft.com/en-us/research/blog/enhanced-autoscaling-with-vasim-vertical-autoscaling-simulator-toolkit/?msockid=0d2280e91b2c6ea41f32935e1a9f6f36) or [research paper](https://www.microsoft.com/en-us/research/publication/vasim-vertical-autoscaling-simulator-toolkit/) for more details!
+
+
+## Authors
+
+* Anna Pavlenko ([@apavlen](https://github.com/apavlen), primary implementation)
+* Karla Saur ([@ksaur](https://github.com/ksaur), editing, maintaining)
+* Yiwen Zhu ([@zyw400](https://github.com/zyw400))
+* Brian Kroth ([@bpkroth](https://github.com/bpkroth))
+* Joyce Cahoon ([@jyuu](https://github.com/jyuu))
+* Jesús Camacho Rodríguez ([@jcamachor](https://github.com/jcamachor))
+
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for techinical details.
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
