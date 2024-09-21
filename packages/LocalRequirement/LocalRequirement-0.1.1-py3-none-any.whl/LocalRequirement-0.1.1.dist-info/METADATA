@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: LocalRequirement
+Version: 0.1.1
+Summary: A tool to update requirements.txt with locally installed package versions
+Home-page: https://github.com/liyaozhong/LocalRequirementsVersion
+Author: liyaozhong
+Author-email: yun.zhongyue@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+
+# LocalRequirement
+
+LocalRequirement is a Python tool that updates the versions of packages in a `requirements.txt` file to match the versions installed locally on your machine.
+
+## Installation
+
+You can install LocalRequirement using pip:
+
+```bash
+pip install LocalRequirement
+```
+
+## Usage
+
+After installation, you can use LocalRequirement from the command line:
+
+```bash
+localrequirement [project_path]
+```
+
+If `project_path` is not provided, the current working directory will be used.
