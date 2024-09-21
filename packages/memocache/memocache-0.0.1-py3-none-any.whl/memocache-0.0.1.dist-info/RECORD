@@ -1,0 +1,12 @@
+memocache/__init__.py,sha256=usVNC2gROMUwqkA7N9fAVYLRE07fe8onAy5xvQjg9YI,22
+memocache/evictor.py,sha256=dQHpZPYAnP6WwMsuxhiAbmT-nPOWUsTQMwOlVhidjUc,211
+memocache/file_manager.py,sha256=giuVlCPdr3dWJFG_X4NC86IfOjcQRP3JA57nM8FTM6o,635
+memocache/memo.py,sha256=qzU_6PwNqlX_yyV73kUkEJj0gOqOzyFZ7NkoAC2Sw5U,3804
+memocache/serializer.py,sha256=tN0aXe5GrlQaoJitZE6hJ0VKaUVAygz_fajyFhX-FDU,127
+memocache/strategies.py,sha256=AgUIkHvSs3mHKavgzIewLmGIzDhj5q5e9XR9wFkyeWs,2790
+memocache/sync.py,sha256=sitMuMtyFPBOU0rgl4cSiEmOr3FkWdXubr6tZtMIY58,239
+memocache-0.0.1.dist-info/LICENSE,sha256=MqfLJOgXj2dpRNELogvLMWVj1uP4vm-eYOnSdp0i4VQ,1096
+memocache-0.0.1.dist-info/METADATA,sha256=Iekvh97PpZo30pG17pqdo1iAex_JOQTXN-Mawi7znLg,1801
+memocache-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+memocache-0.0.1.dist-info/top_level.txt,sha256=UDVEbLVq_gGI7-4HWuL1SjrtANGRG-Iw3k9g8cK6T8Q,10
+memocache-0.0.1.dist-info/RECORD,,
