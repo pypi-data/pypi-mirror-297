@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gempaterkini/__init__.py
+latestearthquake_indonesia_sokawera.egg-info/PKG-INFO
+latestearthquake_indonesia_sokawera.egg-info/SOURCES.txt
+latestearthquake_indonesia_sokawera.egg-info/dependency_links.txt
+latestearthquake_indonesia_sokawera.egg-info/requires.txt
+latestearthquake_indonesia_sokawera.egg-info/top_level.txt
