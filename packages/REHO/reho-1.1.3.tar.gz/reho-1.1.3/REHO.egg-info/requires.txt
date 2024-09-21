@@ -1,0 +1,30 @@
+amplpy
+ampl_module_base
+ampl_module_highs
+coloredlogs
+geopandas<1.0.0
+kaleido
+matplotlib
+numpy
+openpyxl
+pandas<2.0.0
+plotly
+pvlib
+pyclustering
+pyproj
+python-dotenv
+pytest
+qmcpy
+requests
+SALib
+scipy
+setuptools
+shapely
+sqlalchemy<2.0.0
+urllib3
+
+[:platform_system != "Windows"]
+psycopg2<3.0.0
+
+[:platform_system == "Windows"]
+psycopg2-binary<3.0.0
