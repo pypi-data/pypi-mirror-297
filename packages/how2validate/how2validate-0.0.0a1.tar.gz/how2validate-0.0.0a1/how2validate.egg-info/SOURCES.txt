@@ -1,0 +1,10 @@
+setup.py
+how2validate/__init__.py
+how2validate/validator.py
+how2validate.egg-info/PKG-INFO
+how2validate.egg-info/SOURCES.txt
+how2validate.egg-info/dependency_links.txt
+how2validate.egg-info/entry_points.txt
+how2validate.egg-info/requires.txt
+how2validate.egg-info/top_level.txt
+how2validate/../requirements.txt
