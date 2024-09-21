@@ -1,0 +1,142 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The Mysterious Lockers",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The Mysterious Lockers",
+          "normalized": [
+            {
+              "puzzle_title": "The Mysterious Lockers",
+              "description": "There are 100 lockers in a row, all initially closed. A person walks through the lockers 100 times, toggling the state of each locker (open or closed) based on certain rules. On the first pass, they toggle every locker. On the second pass, they toggle every second locker. On the third pass, every third locker, and so on, until the 100th pass. Which lockers remain open at the end?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Understand that a locker is toggled every time its number is a multiple of the pass number.",
+                "step_2": "Realize that a locker will end up open if it is toggled an odd number of times.",
+                "step_3": "Determine that a locker is toggled once for each of its divisors.",
+                "step_4": "Recognize that only perfect squares have an odd number of divisors.",
+                "step_5": "Identify the perfect squares between 1 and 100: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.",
+                "step_6": "Conclude that the lockers that remain open are those numbered with perfect squares."
+              },
+              "conclusion": "The lockers that remain open are 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "**Description:**  \nIn a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+        "normalized_output": {
+          "puzzle": "**Description:**  \nIn a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+          "normalized": [
+            {
+              "puzzle_title": "The Locker Problem",
+              "description": "In a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Understand that a locker will be toggled each time a student whose number is a divisor of the locker number passes by.",
+                "step_2": "Realize that a locker ends up open if it is toggled an odd number of times.",
+                "step_3": "A locker number has an odd number of divisors if and only if it is a perfect square.",
+                "step_4": "Identify the perfect squares between 1 and 100: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.",
+                "step_5": "Count the perfect squares to determine how many lockers remain open."
+              },
+              "conclusion": "There are 10 lockers open, specifically lockers numbered 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "**Solution:**",
+        "normalized_output": {
+          "puzzle": "**Solution:**",
+          "normalized": [
+            {
+              "puzzle_title": "The Missing Dollar Riddle",
+              "description": "Three friends check into a hotel room that costs $30. They each contribute $10. Later, the hotel manager realizes the room only costs $25 and gives $5 to the bellboy to return to the friends. The bellboy, however, decides to keep $2 for himself and gives $1 back to each friend. Now, each friend has paid $9 (totaling $27), and the bellboy has $2, which adds up to $29. Where is the missing dollar?",
+              "difficulty": "Medium",
+              "puzzle_type": "Riddle",
+              "solution": {
+                "step_1": "Understand that the total amount paid by the friends is $27, which includes the $25 for the room and the $2 kept by the bellboy.",
+                "step_2": "Realize that the $27 should not be added to the $2 kept by the bellboy, but rather that the $27 already includes the bellboy's $2.",
+                "step_3": "Conclude that there is no missing dollar; the confusion arises from misrepresenting the total costs."
+              },
+              "conclusion": "The riddle plays on the misdirection of adding unrelated amounts, leading to the illusion of a missing dollar."
+            },
+            {
+              "puzzle_title": "The Two Doors Riddle",
+              "description": "You are in a room with two doors. One door leads to certain death, and the other leads to freedom. You don't know which is which. There are two guards, one in front of each door. One guard always tells the truth, and the other always lies. You can ask one guard one question. What do you ask?",
+              "difficulty": "Hard",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Choose one of the guards to ask a question.",
+                "step_2": "Ask the chosen guard, 'If I were to ask the other guard which door leads to freedom, what would he say?'",
+                "step_3": "Go through the opposite door of what the guard indicates."
+              },
+              "conclusion": "This question forces the lying guard to point to the door that leads to death, while the truth-telling guard will also point to the door that leads to death, allowing you to choose the other door."
+            },
+            {
+              "puzzle_title": "The River Crossing Puzzle",
+              "description": "A farmer needs to cross a river with a wolf, a goat, and a cabbage. He can only take one at a time. If left alone together, the wolf will eat the goat, and the goat will eat the cabbage. How does the farmer get everything across safely?",
+              "difficulty": "Medium",
+              "puzzle_type": "River Crossing Puzzle",
+              "solution": {
+                "step_1": "Take the goat across the river first and leave it on the other side.",
+                "step_2": "Return alone and take the wolf across the river.",
+                "step_3": "Leave the wolf on the other side but take the goat back with you.",
+                "step_4": "Leave the goat on the original side and take the cabbage across.",
+                "step_5": "Leave the cabbage with the wolf and return alone to get the goat.",
+                "step_6": "Finally, take the goat across the river."
+              },
+              "conclusion": "By carefully managing the crossings, the farmer ensures that neither the goat is left with the wolf nor the goat with the cabbage at any point."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "1. **Understanding the Process:**\n   - Each locker is toggled (opened or closed) by each student whose number is a divisor of the locker number.\n   - For example, locker 12 is toggled by students 1, 2, 3, 4, 6, and 12.",
+        "normalized_output": {
+          "puzzle": "1. **Understanding the Process:**\n   - Each locker is toggled (opened or closed) by each student whose number is a divisor of the locker number.\n   - For example, locker 12 is toggled by students 1, 2, 3, 4, 6, and 12.",
+          "normalized": [
+            {
+              "puzzle_title": "Locker Problem",
+              "description": "In a school, there are 100 lockers that are all initially closed. There are 100 students, and each student toggles the lockers whose numbers are divisors of their own student number. For example, student 1 toggles all lockers, student 2 toggles every second locker, student 3 toggles every third locker, and so on. The puzzle is to determine which lockers remain open after all students have toggled the lockers.",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Understand that a locker will be toggled for every divisor it has.",
+                "step_2": "Realize that most numbers have an even number of divisors, but perfect squares have an odd number of divisors.",
+                "step_3": "Identify the perfect squares between 1 and 100: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100.",
+                "step_4": "Conclude that the lockers corresponding to these perfect squares will remain open."
+              },
+              "conclusion": "The lockers that remain open are 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "2. **Determining the Final State of Each Locker:**\n   - A locker ends up open if it is toggled an odd number of times.\n   - A locker is toggled once for each of its divisors. Most numbers have an even number of divisors because they come in pairs (e.g., for 12: (1,12), (2,6), (3,4)).\n   - However, perfect squares have an odd number of divisors because one of the divisors is repeated (e.g., for 9: (1,9), (3,3)).",
+        "normalized_output": {
+          "puzzle": "2. **Determining the Final State of Each Locker:**\n   - A locker ends up open if it is toggled an odd number of times.\n   - A locker is toggled once for each of its divisors. Most numbers have an even number of divisors because they come in pairs (e.g., for 12: (1,12), (2,6), (3,4)).\n   - However, perfect squares have an odd number of divisors because one of the divisors is repeated (e.g., for 9: (1,9), (3,3)).",
+          "normalized": [
+            {
+              "puzzle_title": "Determining the Final State of Each Locker",
+              "description": "A locker ends up open if it is toggled an odd number of times. A locker is toggled once for each of its divisors. Most numbers have an even number of divisors because they come in pairs (e.g., for 12: (1,12), (2,6), (3,4)). However, perfect squares have an odd number of divisors because one of the divisors is repeated (e.g., for 9: (1,9), (3,3)).",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Identify that a locker is toggled for each of its divisors.",
+                "step_2": "Recognize that most numbers have an even number of divisors due to pairing.",
+                "step_3": "Understand that perfect squares have an odd number of divisors because one divisor is repeated.",
+                "step_4": "Conclude that only lockers corresponding to perfect square numbers will remain open."
+              },
+              "conclusion": "Therefore, the lockers that remain open are those numbered with perfect squares."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\n\nGenerate a collection of original logic puzzles and brain teasers, each accompanied by a detailed, step-by-step solution. The content should be suitable for training a language model in chain-of-thought reasoning, emphasizing logical progression and clarity in explanations.\n\nInstructions:\n\nPuzzle Creation:\n\nOriginality: Create unique puzzles that are not direct copies of existing ones.\nClarity: Ensure each puzzle is clearly stated with all necessary information provided.\nEngagement: Use intriguing scenarios to capture interest.\nVariety: Include different types of puzzles, such as:\nDeductive reasoning puzzles\nMathematical brain teasers\nPattern recognition challenges\nRiddles\nLateral thinking problems\nDifficulty Levels:\nEasy: Simple puzzles requiring basic logic.\nMedium: Puzzles that require intermediate reasoning skills.\nHard: Complex puzzles that involve multiple steps and advanced logic.\nSolution Development:\n\nStep-by-Step Explanation: Break down the solution into clear, logical steps.\nReasoning: Explain the thought process at each step, highlighting why certain conclusions are made.\nAccuracy: Ensure all solutions are correct and free from errors.\nEducational Value: Aim to teach the reasoning process, not just provide the answer.\nFormatting Guidelines:\n\nStructure:\nStart with the Puzzle Title (e.g., \"The Three Hats Riddle\").\nPresent the Puzzle Description.\nFollow with the Solution heading.\nProvide the step-by-step Solution Explanation.\n\nLanguage:\nUse clear and concise language.\nAvoid ambiguity and ensure clarity in instructions and explanations.\n\nStyle:\nWrite in the third person, maintaining a neutral and informative tone.\nUse bullet points or numbered lists for steps in the solution.\n\nContent Restrictions:\nAppropriateness: Avoid sensitive, offensive, or inappropriate topics.\nCompliance: Do not include any disallowed content such as personal data, harassment, hate speech, or copyrighted material.\nAnonymity: Do not use real names or specific personal identifiers.\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}

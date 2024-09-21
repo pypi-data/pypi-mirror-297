@@ -1,0 +1,118 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The Mysterious Safe",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The Mysterious Safe",
+          "normalized": [
+            {
+              "puzzle_title": "The Mysterious Safe",
+              "description": "You find a safe with a 4-digit combination lock. The only clue is a note that says: 'The sum of the digits is 10. The first digit is twice the second digit. The third digit is the sum of the first and second digits. The fourth digit is the difference between the third and second digits.'",
+              "difficulty": "Medium",
+              "puzzle_type": "Logic Puzzle",
+              "solution": {
+                "step_1": "Let the digits be represented as A, B, C, and D.",
+                "step_2": "From the clue, we have the following equations: A + B + C + D = 10, A = 2B, C = A + B, D = C - B.",
+                "step_3": "Substitute A = 2B into the equations: 2B + B + (2B + B) + (2B + B - B) = 10.",
+                "step_4": "Simplify the equation: 2B + B + 3B + 2B = 10, which simplifies to 8B = 10.",
+                "step_5": "Solve for B: B = 10 / 8 = 1.25. Since B must be an integer, re-evaluate the constraints.",
+                "step_6": "Reconsider the constraints and try different values for B. If B = 1, then A = 2, C = 3, and D = 2.",
+                "step_7": "Check if the sum of the digits is 10: 2 + 1 + 3 + 4 = 10.",
+                "step_8": "The combination that satisfies all conditions is 2, 1, 3, 4."
+              },
+              "conclusion": "The combination to the safe is 2134."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Puzzle Description:\nA detective finds a safe in a suspect's house. The safe has a digital keypad with numbers from 0 to 9. The detective discovers a note nearby that reads: \"The code is the smallest number that is a multiple of 3, 4, and 5, and is greater than 100.\" What is the code to open the safe?",
+        "normalized_output": {
+          "puzzle": "#### Puzzle Description:\nA detective finds a safe in a suspect's house. The safe has a digital keypad with numbers from 0 to 9. The detective discovers a note nearby that reads: \"The code is the smallest number that is a multiple of 3, 4, and 5, and is greater than 100.\" What is the code to open the safe?",
+          "normalized": [
+            {
+              "puzzle_title": "Safe Code Puzzle",
+              "description": "A detective finds a safe in a suspect's house. The safe has a digital keypad with numbers from 0 to 9. The detective discovers a note nearby that reads: 'The code is the smallest number that is a multiple of 3, 4, and 5, and is greater than 100.' What is the code to open the safe?",
+              "difficulty": "Medium",
+              "puzzle_type": "Mathematical",
+              "solution": {
+                "step_1": "Identify the least common multiple (LCM) of the numbers 3, 4, and 5.",
+                "step_2": "Calculate the LCM of 3, 4, and 5. The LCM is the smallest number that all three numbers divide into without leaving a remainder.",
+                "step_3": "The LCM of 3, 4, and 5 is 60.",
+                "step_4": "Find the smallest multiple of 60 that is greater than 100.",
+                "step_5": "The smallest multiple of 60 greater than 100 is 120."
+              },
+              "conclusion": "The code to open the safe is 120."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Solution:\n1. **Identify the Least Common Multiple (LCM):**\n   - To find the smallest number that is a multiple of 3, 4, and 5, we need to calculate the LCM of these numbers.\n   - The prime factorization of 3 is \\(3\\).\n   - The prime factorization of 4 is \\(2^2\\).\n   - The prime factorization of 5 is \\(5\\).",
+        "normalized_output": {
+          "puzzle": "#### Solution:\n1. **Identify the Least Common Multiple (LCM):**\n   - To find the smallest number that is a multiple of 3, 4, and 5, we need to calculate the LCM of these numbers.\n   - The prime factorization of 3 is \\(3\\).\n   - The prime factorization of 4 is \\(2^2\\).\n   - The prime factorization of 5 is \\(5\\).",
+          "normalized": [
+            {
+              "puzzle_title": "Finding the Least Common Multiple",
+              "description": "Calculate the smallest number that is a multiple of 3, 4, and 5.",
+              "difficulty": "Medium",
+              "puzzle_type": "Mathematical",
+              "solution": {
+                "step_1": "Identify the Least Common Multiple (LCM).",
+                "step_2": "To find the smallest number that is a multiple of 3, 4, and 5, we need to calculate the LCM of these numbers.",
+                "step_3": "The prime factorization of 3 is 3.",
+                "step_4": "The prime factorization of 4 is 2^2.",
+                "step_5": "The prime factorization of 5 is 5."
+              },
+              "conclusion": "The LCM of 3, 4, and 5 is the smallest number that is a multiple of all three numbers."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "2. **Calculate the LCM:**\n   - The LCM is found by taking the highest power of each prime number that appears in the factorizations.\n   - For 3, the highest power is \\(3^1\\).\n   - For 4, the highest power is \\(2^2\\).\n   - For 5, the highest power is \\(5^1\\).\n   - Therefore, the LCM is \\(2^2 \\times 3^1 \\times 5^1 = 4 \\times 3 \\times 5 = 60\\).",
+        "normalized_output": {
+          "puzzle": "2. **Calculate the LCM:**\n   - The LCM is found by taking the highest power of each prime number that appears in the factorizations.\n   - For 3, the highest power is \\(3^1\\).\n   - For 4, the highest power is \\(2^2\\).\n   - For 5, the highest power is \\(5^1\\).\n   - Therefore, the LCM is \\(2^2 \\times 3^1 \\times 5^1 = 4 \\times 3 \\times 5 = 60\\).",
+          "normalized": [
+            {
+              "puzzle_title": "Calculate the LCM",
+              "description": "Find the least common multiple (LCM) of the numbers 3, 4, and 5 by taking the highest power of each prime number that appears in their factorizations.",
+              "difficulty": "Medium",
+              "puzzle_type": "Mathematical",
+              "solution": {
+                "step_1": "Identify the prime factors of each number: 3 (3^1), 4 (2^2), 5 (5^1).",
+                "step_2": "Take the highest power of each prime number: 3^1, 2^2, 5^1.",
+                "step_3": "Multiply these highest powers together: 2^2 * 3^1 * 5^1.",
+                "step_4": "Calculate the product: 4 * 3 * 5 = 60."
+              },
+              "conclusion": "The LCM of 3, 4, and 5 is 60."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "3. **Find the Smallest Multiple Greater than 100:**\n   - The smallest multiple of 60 that is greater than 100 can be found by dividing 100 by 60 and rounding up to the next whole number.\n   - \\(100 \\div 60 \\approx 1.67\\), rounding up gives 2.\n   - Multiply 60 by 2 to get \\(60 \\times 2 = 120\\).",
+        "normalized_output": {
+          "puzzle": "3. **Find the Smallest Multiple Greater than 100:**\n   - The smallest multiple of 60 that is greater than 100 can be found by dividing 100 by 60 and rounding up to the next whole number.\n   - \\(100 \\div 60 \\approx 1.67\\), rounding up gives 2.\n   - Multiply 60 by 2 to get \\(60 \\times 2 = 120\\).",
+          "normalized": [
+            {
+              "puzzle_title": "Find the Smallest Multiple Greater than 100",
+              "description": "The smallest multiple of 60 that is greater than 100 can be found by dividing 100 by 60 and rounding up to the next whole number.",
+              "difficulty": "Easy",
+              "puzzle_type": "Mathematical",
+              "solution": {
+                "step_1": "Divide 100 by 60 to get approximately 1.67.",
+                "step_2": "Round up 1.67 to the next whole number, which is 2.",
+                "step_3": "Multiply 60 by 2 to get 120."
+              },
+              "conclusion": "The smallest multiple of 60 that is greater than 100 is 120."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\nGenerate original logic puzzles and brain teasers with step-by-step solutions. Focus on clear, logical reasoning suitable for training language models in chain-of-thought processes.\nreturn the puzzle's title, description, and solution in one output. use the following instructions to guide your generation.\n\nInstructions:\n\n1. Puzzle Creation:\n   - Create unique, clearly stated puzzles\n   - Use engaging scenarios\n   - Include various types: deductive reasoning, mathematical, pattern recognition, riddles, lateral thinking\n   - Vary difficulty: Easy, Medium, Hard\n\n2. Solution Format:\n   - Provide step-by-step explanations\n   - Explain reasoning for each step\n   - Ensure accuracy and educational value\n\n3. Structure:\n   - Puzzle Title\n   - Puzzle Description\n   - Solution (in numbered steps)\n   - Conclusion\n\n4. Style:\n   - Use clear, concise language\n   - Write in third person, neutral tone\n   - Avoid sensitive or inappropriate content\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}

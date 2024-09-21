@@ -1,0 +1,22 @@
+{
+  "examples": [
+    {
+      "puzzle description": "In a school hallway, there are 100 closed lockers numbered from 1 to 100. A student walks down the hallway and opens every locker. Then, a second student walks down the hallway and toggles (closes it if it is open, opens it if it is closed) every second locker starting with locker number 2. A third student does the same for every third locker starting with locker number 3, and so on, until 100 students have walked down the hallway. After all the students have taken their turn, how many lockers are open and which ones are they?"
+    },
+    {
+      "puzzle description": "A farmer needs to cross a river with a wolf, a goat, and a cabbage. He has a boat that can only carry himself and one other item at a time. If left alone, the wolf would eat the goat, and the goat would eat the cabbage. How can the farmer get everything across the river safely?"
+    },
+    {
+      "puzzle description": "There are three pegs and a number of disks of different sizes which can slide onto any peg. The puzzle starts with the disks neatly stacked in order of size on one peg, smallest at the top, thus making a conical shape. The objective of the puzzle is to move the entire stack to another peg, obeying the following rules: Only one disk can be moved at a time. Each move consists of taking the upper disk from one of the pegs and sliding it onto another peg, on top of the other disks that may already be present on that peg. No larger disk may be placed on top of a smaller disk. How many moves are required to move a tower of n disks?"
+    },
+    {
+      "puzzle description": "100 prisoners are given the opportunity to leave a room if they can solve a puzzle. The prisoners are lined up single file and each prisoner is given a hat that is either black or white. The prisoners can see the hats of the prisoners in front of them, but not their own hat or the hats of the prisoners behind them. Starting with the prisoner at the back of the line and moving forward, each prisoner must say only one word: 'black' or 'white'. If the prisoner guesses the color of his hat correctly, he is allowed to leave the room. If he guesses incorrectly, he is shot on the spot. The prisoners are allowed to confer before the puzzle begins, but once the first prisoner guesses, they are not allowed to communicate. The prisoners are allowed to strategize before the puzzle begins. What strategy should the prisoners use to maximize the number of prisoners who leave the room?"
+    },
+    {
+      "puzzle description": "A game show contestant is presented with three doors. Behind one door is a car, and behind the other two doors are goats. The contestant picks a door, and the host, who knows what is behind each door, opens one of the other two doors to reveal a goat. The contestant is then given the opportunity to switch to the other unopened door. Should the contestant switch doors to maximize the chance of winning the car?"
+    },
+    {
+      "puzzle description": "On an island, there are 100 blue-eyed people and 100 brown-eyed people. The islanders are not allowed to communicate with each other, but they can see the eye color of every other islander. One day, a visitor comes to the island and announces that at least one person on the island has blue eyes. The visitor also says that if any islander can deduce the color of their own eyes, they must leave the island at dawn the next day. What happens?"
+    }
+  ]
+}

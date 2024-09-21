@@ -1,0 +1,110 @@
+{
+  "dataset": {
+    "outputs": [
+      {
+        "generated_input": "### Puzzle Title: The Mysterious Number Sequence",
+        "normalized_output": {
+          "puzzle": "### Puzzle Title: The Mysterious Number Sequence",
+          "normalized": [
+            {
+              "puzzle_title": "The Mysterious Number Sequence",
+              "description": "You are given the following sequence of numbers: 2, 4, 8, 16, 32, ?. What number should replace the question mark?",
+              "difficulty": "Easy",
+              "puzzle_type": "Number Sequence",
+              "solution": {
+                "step_1": "Observe the given sequence: 2, 4, 8, 16, 32.",
+                "step_2": "Notice that each number is double the previous number.",
+                "step_3": "To find the next number, double the last number in the sequence: 32 * 2 = 64."
+              },
+              "conclusion": "The number that should replace the question mark is 64."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Puzzle Description:\nYou come across a sequence of numbers: 2, 6, 12, 20, 30, ?. What is the next number in the sequence, and what is the pattern that determines the sequence?",
+        "normalized_output": {
+          "puzzle": "#### Puzzle Description:\nYou come across a sequence of numbers: 2, 6, 12, 20, 30, ?. What is the next number in the sequence, and what is the pattern that determines the sequence?",
+          "normalized": [
+            {
+              "puzzle_title": "Number Sequence Puzzle",
+              "description": "You come across a sequence of numbers: 2, 6, 12, 20, 30, ?. What is the next number in the sequence, and what is the pattern that determines the sequence?",
+              "difficulty": "Medium",
+              "puzzle_type": "Number Sequence",
+              "solution": {
+                "step_1": "Observe the differences between consecutive numbers: 6-2=4, 12-6=6, 20-12=8, 30-20=10.",
+                "step_2": "Notice that the differences themselves form a sequence: 4, 6, 8, 10.",
+                "step_3": "The differences increase by 2 each time.",
+                "step_4": "To find the next number, add the next difference (12) to the last number in the sequence (30).",
+                "step_5": "30 + 12 = 42."
+              },
+              "conclusion": "The next number in the sequence is 42, and the pattern is that the difference between consecutive numbers increases by 2 each time."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "#### Solution:\n1. **Identify the Sequence Pattern:**\n   - First, observe the differences between consecutive numbers in the sequence.\n   - 6 - 2 = 4\n   - 12 - 6 = 6\n   - 20 - 12 = 8\n   - 30 - 20 = 10",
+        "normalized_output": {
+          "puzzle": "#### Solution:\n1. **Identify the Sequence Pattern:**\n   - First, observe the differences between consecutive numbers in the sequence.\n   - 6 - 2 = 4\n   - 12 - 6 = 6\n   - 20 - 12 = 8\n   - 30 - 20 = 10",
+          "normalized": [
+            {
+              "puzzle_title": "Identify the Sequence Pattern",
+              "description": "Given a sequence of numbers, identify the pattern in the differences between consecutive numbers.",
+              "difficulty": "Medium",
+              "puzzle_type": "Sequence",
+              "solution": {
+                "step_1": "Observe the differences between consecutive numbers in the sequence.",
+                "step_2": "Calculate the differences: 6 - 2 = 4, 12 - 6 = 6, 20 - 12 = 8, 30 - 20 = 10.",
+                "step_3": "Identify the pattern in the differences: the differences increase by 2 each time."
+              },
+              "conclusion": "The pattern in the sequence is that the differences between consecutive numbers increase by 2."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "2. **Analyze the Differences:**\n   - The differences between consecutive numbers are: 4, 6, 8, 10.\n   - Notice that these differences themselves form an arithmetic sequence with a common difference of 2.",
+        "normalized_output": {
+          "puzzle": "2. **Analyze the Differences:**\n   - The differences between consecutive numbers are: 4, 6, 8, 10.\n   - Notice that these differences themselves form an arithmetic sequence with a common difference of 2.",
+          "normalized": [
+            {
+              "puzzle_title": "Analyze the Differences",
+              "description": "The differences between consecutive numbers are: 4, 6, 8, 10. Notice that these differences themselves form an arithmetic sequence with a common difference of 2.",
+              "difficulty": "Medium",
+              "puzzle_type": "Arithmetic Sequence",
+              "solution": {
+                "step_1": "Identify the differences between consecutive numbers: 4, 6, 8, 10.",
+                "step_2": "Observe that these differences form an arithmetic sequence.",
+                "step_3": "Determine the common difference of the sequence, which is 2."
+              },
+              "conclusion": "The differences between the numbers form an arithmetic sequence with a common difference of 2."
+            }
+          ]
+        }
+      },
+      {
+        "generated_input": "3. **Predict the Next Difference:**\n   - The next difference in the sequence should be 10 + 2 = 12.",
+        "normalized_output": {
+          "puzzle": "3. **Predict the Next Difference:**\n   - The next difference in the sequence should be 10 + 2 = 12.",
+          "normalized": [
+            {
+              "puzzle_title": "Predict the Next Difference",
+              "description": "Given a sequence, predict the next difference in the sequence.",
+              "difficulty": "Easy",
+              "puzzle_type": "Sequence",
+              "solution": {
+                "step_1": "Identify the current difference in the sequence, which is 10.",
+                "step_2": "Add 2 to the current difference.",
+                "step_3": "The next difference in the sequence should be 10 + 2 = 12."
+              },
+              "conclusion": "The next difference in the sequence is 12."
+            }
+          ]
+        }
+      }
+    ],
+    "generator_prompt": "Objective:\nGenerate original logic puzzles and brain teasers with step-by-step solutions. Focus on clear, logical reasoning suitable for training language models in chain-of-thought processes.\nreturn the puzzle's title, description, and solution in one output. use the following instructions to guide your generation.\n\nInstructions:\n\n1. Puzzle Creation:\n   - Create unique, clearly stated puzzles\n   - Use engaging scenarios\n   - Include various types: deductive reasoning, mathematical, pattern recognition, riddles, lateral thinking\n   - Vary difficulty: Easy, Medium, Hard\n\n2. Solution Format:\n   - Provide step-by-step explanations\n   - Explain reasoning for each step\n   - Ensure accuracy and educational value\n\n3. Structure:\n   - Puzzle Title\n   - Puzzle Description\n   - Solution (in numbered steps)\n   - Conclusion\n\n4. Style:\n   - Use clear, concise language\n   - Write in third person, neutral tone\n   - Avoid sensitive or inappropriate content\n\n{{few_shot}}\n\nList:\n",
+    "normalizer_prompt": "Format the following logic puzzle or brain teaser as a list of python dictionaries of the form:\n[\n    {\n        \"puzzle_title\": str,\n        \"description\": str,\n        \"difficulty\": str,\n        \"puzzle_type\": str,\n         \"solution\": {\n            \"step_1\": str,\n            \"step_2\": str,\n            \"step_3\": str,\n            ...\n        },\n        \"conclusion\": str\n    }\n].\n\nBe sure to handle multiple puzzle types correctly. If the difficulty or puzzle type is not explicitly stated, infer it from the content.\n\nInput:\n\"{{puzzle}}\"\n\nOutput:\n[{\n"
+  }
+}
