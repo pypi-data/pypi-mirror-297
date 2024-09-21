@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Code/Mdsocial.egg-info/PKG-INFO
+Code/Mdsocial.egg-info/SOURCES.txt
+Code/Mdsocial.egg-info/dependency_links.txt
+Code/Mdsocial.egg-info/top_level.txt
+Code/Social/__init__.py
+Code/Social/social.py
