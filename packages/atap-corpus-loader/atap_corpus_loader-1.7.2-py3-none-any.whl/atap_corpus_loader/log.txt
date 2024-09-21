@@ -1,0 +1,213 @@
+2024-09-20 15:21:07,878 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 15:21:07,930 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 41, in _apply_selected_dtypes
+    df[header.name] = df[header.name].astype(header.datatype.value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/generic.py", line 6643, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 430, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/managers.py", line 363, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/internals/blocks.py", line 758, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 237, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 182, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/core/dtypes/astype.py", line 133, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'barriecassidy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 150, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/CSVLoaderStrategy.py", line 66, in get_dataframe
+    dtypes_applied_df: DataFrame = FileLoaderStrategy._apply_selected_dtypes(df, headers)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/FileLoaderStrategy.py", line 43, in _apply_selected_dtypes
+    raise FileLoadError(f"Could not cast value from {header.name} to {header.datatype.name}. Try modifying the selected datatype")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 114, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 154, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+
+2024-09-20 15:21:07,931 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/qldelection2020_candidate_tweets.csv: Could not cast value from in_reply_to_user_name to DECIMAL. Try modifying the selected datatype
+2024-09-20 15:29:04,149 - corpus-loader - INFO - Logger started
+2024-09-20 15:29:09,297 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:29:09,902 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:29:11,750 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 15:29:14,144 - corpus-loader - INFO - Logger started
+2024-09-20 15:29:38,241 - corpus-loader - INFO - Logger started
+2024-09-20 15:29:46,800 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:29:47,397 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:30:09,922 - corpus-loader - INFO - Logger started
+2024-09-20 15:30:15,082 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:30:15,685 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:30:17,562 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 15:30:20,115 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:30:20,662 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:30:22,056 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 15:30:34,535 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:30:35,098 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:30:37,743 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 15:59:33,770 - corpus-loader - INFO - Logger started
+2024-09-20 15:59:38,990 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:59:39,590 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:59:41,739 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 15:59:43,400 - corpus-loader - ERROR - Error displayed: strategy argument should be a value in the HeaderStrategy enum, instead got header
+2024-09-20 15:59:43,917 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 15:59:44,462 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 15:59:45,636 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:05,406 - corpus-loader - INFO - Logger started
+2024-09-20 16:02:08,423 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:09,027 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:09,824 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:11,876 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:12,467 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:13,988 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:16,021 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:16,528 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:17,244 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:18,494 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:19,054 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:19,975 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 16:02:19,994 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-20 16:02:19,994 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-20 16:02:19,997 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-20 16:02:20,331 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:20,599 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-09-20 16:02:19.991943 built successfully
+2024-09-20 16:02:20,607 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:23,902 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:26,642 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:27,234 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:28,070 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 16:02:28,090 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-20 16:02:28,090 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-20 16:02:28,092 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-20 16:02:28,490 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:28,771 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-09-20 16:02:28.087755 built successfully
+2024-09-20 16:02:28,780 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:31,980 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:35,585 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:36,171 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:43,056 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:02:45,518 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.csv']
+2024-09-20 16:02:46,107 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:02:46,934 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:12:47,052 - corpus-loader - INFO - Logger started
+2024-09-20 16:12:49,520 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:12:50,251 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:12:52,759 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:12:55,269 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:12:55,904 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:12:57,979 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:13:00,471 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:13:01,111 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:13:05,867 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:13:06,861 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:13:07,459 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:13:08,120 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 16:13:08,179 - corpus-loader - ERROR - Exception while building corpus: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/python_parser.py", line 607, in _handle_usecols
+    col_indices.append(usecols_key.index(col))
+                       ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'Data_1' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 166, in _get_concatenated_dataframe
+    path_df: DataFrame = file_loader.get_dataframe(headers, header_strategy)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/file_loader_strategy/concrete_strategies/XLSXLoaderStrategy.py", line 61, in get_dataframe
+    df = read_excel(file_buf, header=None, dtype=object, usecols=included_headers)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 508, in read_excel
+    data = io.parse(
+           ^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1616, in parse
+    return self._reader.parse(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 916, in parse
+    raise err
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 878, in parse
+    parser = TextParser(
+             ^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 2053, in TextParser
+    return TextFileReader(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/python_parser.py", line 133, in __init__
+    ) = self._infer_columns()
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/python_parser.py", line 551, in _infer_columns
+    columns = self._handle_usecols(columns, columns[0], ncols)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/python_parser.py", line 609, in _handle_usecols
+    self._validate_usecols_names(self.usecols, usecols_key)
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/venv/lib/python3.11/site-packages/pandas/io/parsers/base_parser.py", line 979, in _validate_usecols_names
+    raise ValueError(
+ValueError: Usecols do not match columns, columns expected but not found: ['Data_1', 'Data_3', 'Data_2', 'Data_4', 'Data_0', 'Data_5'] (sheet: 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 165, in build_corpus
+    corpus = self.loader_service.build_corpus(corpus_id, self.corpus_headers,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 129, in build_corpus
+    corpus_df: DataFrame = self._get_concatenated_dataframe(corpus_files, corpus_headers, self.header_strategy,
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/loader_service/LoaderService.py", line 170, in _get_concatenated_dataframe
+    raise FileLoadError(f"Error loading file at {ref.get_path()}: {e}")
+atap_corpus_loader.controller.loader_service.FileLoadError.FileLoadError: Error loading file at corpus_data/candidate_info.xlsx: Usecols do not match columns, columns expected but not found: ['Data_1', 'Data_3', 'Data_2', 'Data_4', 'Data_0', 'Data_5'] (sheet: 0)
+
+2024-09-20 16:13:08,180 - corpus-loader - ERROR - Error displayed: Error loading file at corpus_data/candidate_info.xlsx: Usecols do not match columns, columns expected but not found: ['Data_1', 'Data_3', 'Data_2', 'Data_4', 'Data_0', 'Data_5'] (sheet: 0)
+2024-09-20 16:13:40,787 - corpus-loader - INFO - Logger started
+2024-09-20 16:13:51,339 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:13:52,063 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:13:52,927 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 16:13:52,980 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-20 16:13:52,980 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-20 16:13:52,983 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-20 16:13:53,405 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:13:53,597 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-09-20 16:13:52.978699 built successfully
+2024-09-20 16:13:53,601 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:13:57,038 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:13:59,293 - corpus-loader - DEBUG - Files loaded as corpus: ['corpus_data/candidate_info.xlsx']
+2024-09-20 16:13:59,961 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-20 16:14:00,664 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-09-20 16:14:00,719 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-20 16:14:00,720 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-20 16:14:00,722 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-20 16:14:01,225 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:14:01,435 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-09-20 16:14:00.718147 built successfully
+2024-09-20 16:14:01,442 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:14:06,569 - corpus-loader - DEBUG - All files unloaded
+2024-09-20 16:19:56,628 - corpus-loader - INFO - Logger started
