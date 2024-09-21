@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: utility_toolkit
+Version: 0.1.1
+Summary: A comprehensive toolkit for AWS operations, database handling, and general utilities.
+Author-email: Eslam Hasanen <Eslamspot@gmail.com>
+Project-URL: Homepage, https://github.com/yourusername/utility_toolkit
+Project-URL: Bug Tracker, https://github.com/yourusername/utility_toolkit/issues
+Keywords: tools_box,tools,utilities,toolkit
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: python-magic
+Requires-Dist: pytest
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
