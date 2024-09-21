@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: kedro-sumz-utils
+Version: 0.0.1
+Summary: Utility functions and kedro datasets for Data projects.
+Author-email: Juan Barreto <juan.barreto@sumz.co>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: kedro[spark] <0.19.0,>=0.18.0
+Requires-Dist: kedro-mlflow ==0.11.10
+
