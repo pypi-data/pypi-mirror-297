@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.TXT
+MANIFEST.in
+README.txt
+setup.py
+mageshbasiccalculator/__init__.py
+mageshbasiccalculator.egg-info/PKG-INFO
+mageshbasiccalculator.egg-info/SOURCES.txt
+mageshbasiccalculator.egg-info/dependency_links.txt
+mageshbasiccalculator.egg-info/top_level.txt
