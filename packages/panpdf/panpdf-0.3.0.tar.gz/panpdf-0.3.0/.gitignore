@@ -1,0 +1,8 @@
+*.pdf
+.coverage
+.ipynb_checkpoints
+.venv/
+__pycache__/
+dist/
+lcov.info
+uv.lock
