@@ -1,0 +1,4 @@
+PyQt5>=5.15.0
+pexpect>=4.8.0
+psutil>=5.8.0
+wifi>=0.3.8
