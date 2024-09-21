@@ -1,0 +1,13 @@
+reflex_magic_link_auth/__init__.py,sha256=SnubTOUV4CSdre8C0cd2YyJCs1WymUFZgLczsI7Z4SM,382
+reflex_magic_link_auth/constants.py,sha256=cYjxYKJgCLPyDhyeDivG5PUrYY_XQ4dtdZMfQT9rp7w,205
+reflex_magic_link_auth/page.py,sha256=CCRmDpT7XmnV4qBP7FetxBYgj6-z29yXTgnyxXJgE7Q,1175
+reflex_magic_link_auth/state.py,sha256=QbsiJIA-ZhQDYPfhrUYR3RLGJQh5nkoC9MtsCpHgYJI,7205
+reflex_magic_link_auth/models/__init__.py,sha256=qLZTYHgp9vXusbWur6m77NG678Ct_4AJXnKaP2hQzAs,141
+reflex_magic_link_auth/models/record.py,sha256=SvXIrHVoAp_97DfbnwXEk4uSbC6bX9hseAiQihNdWAs,2216
+reflex_magic_link_auth/models/session.py,sha256=BWcgHvWGEHWmsk5s_foinu1KCKTurI7Xsrmtuw5hupU,1434
+reflex_magic_link_auth/providers/__init__.py,sha256=uj_4AE2rAIU_HcgDBMeCDK0FZYuPzvMZpHYnyPT-_HM,84
+reflex_magic_link_auth/providers/mailgun.py,sha256=l_f9fIS9f2p2efxl6t8agaSEYTU145BjV2oZV2Ju7Kw,1542
+reflex_magic_link_auth-0.0.4.dist-info/METADATA,sha256=yWvEt0WwlzJRiMSn52LpTWfOYk-txlaLXieXNbr6IFc,3425
+reflex_magic_link_auth-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+reflex_magic_link_auth-0.0.4.dist-info/top_level.txt,sha256=X1zgDsXAvZEYFUZ1S3-Cud6AqgXgXFfVnWFlTznjLvQ,23
+reflex_magic_link_auth-0.0.4.dist-info/RECORD,,
