@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "drt-sdk-network-providers"
+version = "0.0.1"
+authors = [
+  { name="Dharitri" },
+]
+license = "MIT"
+description = "Network providers for Dharitri Python SDK."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests==2.31.0",
+  "drt-sdk-core>=0.0.1,<0.1.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DharitriOne/drt-sdk-py-network-providers"
