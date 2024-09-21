@@ -1,0 +1,8 @@
+llm_context_generator/__init__.py,sha256=X53p7xoCIbtVDAcU3SVFj_LZc3EI85ZN-NF22U6UEEs,119
+llm_context_generator/cli.py,sha256=eNAp_NR0KSXeYQOcPMjfCgAhw2AZ6YiIRFtHKjRgcYA,5123
+llm_context_generator/core.py,sha256=CsssOM5cyYz4yYJkDM7psH8wm9thb9vZ6j5Pn_F3ZpA,8043
+llm_context_generator-1.0.0.dist-info/LICENSE.txt,sha256=ohSQSF8BWR1DVD1xw-6B6n5GYY-JI2qc58VXjJukkHQ,1108
+llm_context_generator-1.0.0.dist-info/METADATA,sha256=LUUGiMopR0Qg2y6am4Bu3VPmhKdbIeM_74Huk2iSyo0,2957
+llm_context_generator-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llm_context_generator-1.0.0.dist-info/entry_points.txt,sha256=5e2D3GGmk8UDKaxnfMgSkXy0WyBYXo540h4MFt2StXo,95
+llm_context_generator-1.0.0.dist-info/RECORD,,

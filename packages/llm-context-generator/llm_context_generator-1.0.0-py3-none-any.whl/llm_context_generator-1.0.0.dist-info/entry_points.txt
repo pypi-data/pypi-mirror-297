@@ -1,0 +1,4 @@
+[console_scripts]
+ctx=llm_context_generator.cli:cli
+llm-context=llm_context_generator.cli:cli
+
