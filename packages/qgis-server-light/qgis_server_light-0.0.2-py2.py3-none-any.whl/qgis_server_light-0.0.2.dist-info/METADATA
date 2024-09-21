@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: qgis_server_light
+Version: 0.0.2
+Summary: qgis renderer as a python process
+Home-page: https://github.com/opengisch/qgis-server-light
+Author: Clemens Rudert (OPENGIS.ch)
+Author-email: clemens@opengis.ch
+Project-URL: Documentation, https://github.com/opengisch/qgis-server-light
+Project-URL: Changelog, https://github.com/opengisch/qgis-server-light/blob/master/CHANGES.md
+Project-URL: Issue Tracker, https://github.com/opengisch/qgis-server-light/issues
+Keywords: web worker qgis qgis-server processing
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Typing :: Typed
+License-File: LICENSE
+
+Interface library to communicate with QGIS-Server light
+
+Test
