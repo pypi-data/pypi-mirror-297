@@ -1,0 +1,10 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+poseidon-hash-lib-from-circom/__init__.py
+poseidon-hash-lib-from-circom/poseidon_constants.py
+poseidon_hash_lib_from_circom.egg-info/PKG-INFO
+poseidon_hash_lib_from_circom.egg-info/SOURCES.txt
+poseidon_hash_lib_from_circom.egg-info/dependency_links.txt
+poseidon_hash_lib_from_circom.egg-info/top_level.txt

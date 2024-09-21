@@ -1,0 +1,4 @@
+include LICENSE
+include *.md
+include *.py
+recursive-include poseidon_hash_lib_from_circom *.py
