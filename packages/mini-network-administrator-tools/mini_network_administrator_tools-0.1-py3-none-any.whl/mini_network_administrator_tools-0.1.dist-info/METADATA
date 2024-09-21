@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mini-network-administrator-tools
+Version: 0.1
+Summary: Un package Python exemple
+Home-page: https://github.com/toncompte/mon_package
+Author: Ton Nom
+Author-email: ayenaaurel15@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENCE
+Requires-Dist: scapy
+
