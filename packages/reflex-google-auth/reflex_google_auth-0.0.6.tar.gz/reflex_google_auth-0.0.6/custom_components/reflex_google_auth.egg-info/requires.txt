@@ -1,0 +1,6 @@
+reflex>=0.4.6
+google-auth[requests]
+
+[dev]
+build
+twine
