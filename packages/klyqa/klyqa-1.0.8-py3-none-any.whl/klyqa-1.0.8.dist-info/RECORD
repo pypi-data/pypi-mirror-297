@@ -1,0 +1,10 @@
+klyqa/__init__.py,sha256=WcycAqnc6sxPOZF0ROR4hnMDS4W8tbGCpSUWnxwjmfY,336
+klyqa/cloud.py,sha256=HdDFrhmpnqQbSSSc8fW1KIJAQo5MgtqKD3Ii_Qo56Jo,3012
+klyqa/device.py,sha256=s54udGEg_7tlmda2YV5TBQecjXc9T-2toy-FdeVq_BE,10429
+klyqa/exceptions.py,sha256=LS8oiYM5gN4z9yFwSND5Vebj4cbUecOivlZYC-CzedY,287
+klyqa/models.py,sha256=ywBnbJIZKCeQwKCU8R4ERAjh1dal8cttiPwwG-_fhko,7714
+klyqa-1.0.8.dist-info/LICENSE,sha256=TIEHDF1TU4U3kU8Uedy_jpeF6BoV2RYlulckBIDBWA4,1064
+klyqa-1.0.8.dist-info/METADATA,sha256=7KlebhmRk2SkgL8IW6AaMDvd3kjjnzPGVXCTBrrYtFo,5184
+klyqa-1.0.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+klyqa-1.0.8.dist-info/top_level.txt,sha256=kyQ8f-aBPB-I7uZft9qvCE25wboNSZ4gCUeBfU0acP0,6
+klyqa-1.0.8.dist-info/RECORD,,
