@@ -1,0 +1,10 @@
+Django>=3.2
+django-sse
+nicegui
+requests
+json
+
+[dev]
+pytest
+black
+flake8
