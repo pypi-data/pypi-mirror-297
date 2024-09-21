@@ -1,0 +1,1 @@
+# Pygments NiteCode lexer
