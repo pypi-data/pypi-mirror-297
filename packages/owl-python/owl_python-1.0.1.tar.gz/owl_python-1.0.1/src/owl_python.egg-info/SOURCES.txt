@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/owl/__init__.py
+src/owl/core/eda.py
+src/owl/core/utils.py
+src/owl/detection/applications.py
+src/owl/detection/tools.py
+src/owl_python.egg-info/PKG-INFO
+src/owl_python.egg-info/SOURCES.txt
+src/owl_python.egg-info/dependency_links.txt
+src/owl_python.egg-info/requires.txt
+src/owl_python.egg-info/top_level.txt

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "owl-python"
+version = "1.0.1"
+authors = [
+  { name="Lazy Learn", email="lazylearn.ai@gmail.com" },
+]
+description = "ML library for image analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "plotly",
+    "tensorflow",
+    "pandas",
+    "seaborn",
+    "opencv-python",
+    "scikit-learn",
+    "tqdm",
+    "ultralytics",
+    "matplotlib",
+    "numpy",
+    "albumentations",
+    "pillow",
+    "scipy",
+    "ipywidgets"
+]
