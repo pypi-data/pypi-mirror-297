@@ -1,0 +1,2 @@
+[console_scripts]
+drtpy = drt_sdk_cli.cli:main
