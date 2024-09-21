@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ee_multi
+Version: 0.1.0
+Summary: A library to distribute Google Earth Engine processing across multiple accounts.
+Author: Hakimali Datardi
+Author-email: datardihakim440@gmail.com
+Requires-Dist: earthengine-api
+
