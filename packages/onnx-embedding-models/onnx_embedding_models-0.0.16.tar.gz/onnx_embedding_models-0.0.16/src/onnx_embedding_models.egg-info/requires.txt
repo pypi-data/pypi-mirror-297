@@ -1,0 +1,6 @@
+tqdm
+onnxruntime
+numpy<2
+transformers>=4.44.0
+huggingface_hub
+scipy
