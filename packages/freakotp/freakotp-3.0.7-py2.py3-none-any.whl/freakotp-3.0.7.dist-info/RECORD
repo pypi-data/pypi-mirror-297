@@ -1,0 +1,12 @@
+freakotp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freakotp/cli.py,sha256=zw5pwXPrwdMAvHhUzhDRMKrMJIdrMiWY01sOOT5tloI,20909
+freakotp/secret.py,sha256=NlGzc2gheuISDXy3CjYwvkNqfTJOr2EuSkDov-LUV_k,2481
+freakotp/sql.py,sha256=giKFDSAIUrb-u50z_DdM7M8zibfNsH0XtkC2Q7wIFqI,2275
+freakotp/token.py,sha256=priSqggHXHmSi0UZc0oSfr-1jnyEhxu0kpzl4VJTRkI,16296
+freakotp-3.0.7.dist-info/LICENSE,sha256=qoHNoK_5eh2owUdAdaAoUWOoJnJhIRT4818KelcReiM,1106
+freakotp-3.0.7.dist-info/METADATA,sha256=T8p2M_Fg7D-AFfhq73_dYqL1q-kRjmQfZQzAzRQBEtY,12581
+freakotp-3.0.7.dist-info/WHEEL,sha256=AHX6tWk3qWuce7vKLrj7lnulVHEdWoltgauo8bgCXgU,109
+freakotp-3.0.7.dist-info/entry_points.txt,sha256=Whvijt1YUyQur5bIoSp4OVHypWzshcus1f3yp-yk2B8,47
+freakotp-3.0.7.dist-info/top_level.txt,sha256=FOb2-oTynlfHCBxGSythzK1bcBLjXEuaxs311znuSis,9
+freakotp-3.0.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+freakotp-3.0.7.dist-info/RECORD,,
