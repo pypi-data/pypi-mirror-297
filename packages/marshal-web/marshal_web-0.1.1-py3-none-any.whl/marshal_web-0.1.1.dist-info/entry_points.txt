@@ -1,0 +1,3 @@
+[console_scripts]
+marshal_web=marshal_web.main:run
+
