@@ -1,0 +1,96 @@
+[build-system]
+requires = ["setuptools>=60", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posit-sdk"
+description = "Posit SDK for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["posit", "sdk"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed",
+]
+dynamic = ["version"]
+dependencies = ["requests>=2.31.0,<3"]
+
+[project.urls]
+Source = "https://github.com/posit-dev/posit-sdk-py"
+Issues = "https://github.com/posit-dev/posit-sdk-py/issues"
+
+[tool.pyright]
+include = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["--import-mode=importlib"]
+
+[tool.setuptools_scm]
+version_file = "src/posit/_version.py"
+
+[tool.ruff]
+extend-exclude = ["integration/resources"]
+line-length = 99
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
+
+[tool.ruff.lint]
+select = [
+    # flake8-builtins
+    # https://docs.astral.sh/ruff/rules/#flake8-builtins-a
+    #
+    # Check for builtin shadowing (i.e., naming a variable 'for', which is a builtin.)
+    "A",
+
+    # pydocstyle
+    # https://docs.astral.sh/ruff/rules/#pydocstyle-d
+    # https://docs.astral.sh/ruff/faq/#does-ruff-support-numpy-or-google-style-docstrings
+    #
+    # Check docstring formatting. Many of these rules are intentionally ignored below.
+    "D",
+
+    # pyflakes - unused-import
+    # https://docs.astral.sh/ruff/rules/unused-import/
+    #
+    # Check for unused imports.
+    "F401",
+
+    # isort
+    # https://docs.astral.sh/ruff/rules/#isort-i
+    #
+    # Sort imports.
+    "I"
+]
+ignore = [
+    # NumPy style docstring convention with noted exceptions.
+    # https://docs.astral.sh/ruff/faq/#does-ruff-support-numpy-or-google-style-docstrings
+    #
+    # This docstring style works with [quartodoc](https://machow.github.io/quartodoc/get-started/overview.html).
+    #
+    'D101', # TODO(#135) implement docstring for public class
+    'D103', # TODO(#135) implement docstring for public functions
+    'D104', # TODO(#135) implement docstring for public package
+    'D105', # TODO(#135) implement docstring for magic methods
+    'D100', # TODO(#135) implement docstring for public modules
+    'D102', # TODO(#135) implement docstring for public methods
+    'D401', # TODO(#135) fix imperative mood warnings
+
+    'D418', # D418 contradicts the overload convention used in this project to describe different endpoints across Connect versions.
+]
+
+[tool.ruff.lint.per-file-ignores]
+"examples/*" = ["D"]
+"tests/*" = ["D"]
+
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
