@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: snip-lab
+Version: 0.0.1
+Summary: Placeholder for the snip package
+Author-email: "Sebastian B. Mohr" <sebastianbernd.mohr@uni-goettingen.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Snip
+
+## Description
+This is a placeholder README file for the snip project. The project is currently under development, and more details will be added as the project progresses.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+**Note:** This README is a placeholder and will be updated with more detailed information as the project evolves.

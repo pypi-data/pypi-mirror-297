@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "snip-lab"
+version = "0.0.1"
+authors = [
+    { name = "Sebastian B. Mohr", email = "sebastianbernd.mohr@uni-goettingen.de" },
+]
+description = "Placeholder for the snip package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/snip"]
