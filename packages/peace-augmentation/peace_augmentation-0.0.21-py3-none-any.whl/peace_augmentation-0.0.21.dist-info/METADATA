@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: peace-augmentation
+Version: 0.0.21
+Summary: PEACE method Augmentation package
+Author-email: Nicolás Benjamín Ocampo <nicolasbenjaminocampo@gmail.com>, Greta Damo <greta.damo@inria.fr>, Stéphane Petiot <stephane.petiot@hotmail.fr>
+Maintainer-email: Nicolás Benjamín Ocampo <nicolasbenjaminocampo@gmail.com>, Greta Damo <greta.damo@inria.fr>, Stéphane Petiot <stephane.petiot@hotmail.fr>
+Project-URL: Homepage, https://github.com/StephanePetiot/peace-augmentation
+Project-URL: Issues, https://github.com/StephanePetiot/peace-augmentation/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk
+Requires-Dist: flair[word-embeddings]
+Requires-Dist: torch
+Requires-Dist: scipy
+
+# peace-augmentation
+PEACE Method Augmentation package
