@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: vishwa_packages
+Version: 1.1
+Summary: A simple utility package.
+Author: Mass Prince 
+Author-email: vishwa.automationhub@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+def floor(a, b):
+    """
+    Returns the floor division of a by b.
+
+    Parameters:
+    a (int or float): The dividend.
+    b (int or float): The divisor.
+
+    Returns:
+    int: The floor division of a by b.
+
+    Example:
+    >>> floor(10, 3)
+    3
+    """
+    return a // b
+
+def pow(a, b):
+    """
+    Returns the value of a raised to the power of b.
+
+    Parameters:
+    a (int or float): The base.
+    b (int or float): The exponent.
+
+    Returns:
+    int or float: The value of a raised to the power of b.
+
+    Example:
+    >>> pow(2, 3)
+    8
+    """
+    return a ** b
+
+def add(a, b):
+    """
+    Returns the sum of a and b.
+
+    Parameters:
+    a (int or float): The first operand.
+    b (int or float): The second operand.
+
+    Returns:
+    int or float: The sum of a and b.
+
+    Example:
+    >>> add(5, 3)
+    8
+    """
+    return a + b
+
+def sub(a, b):
+    """
+    Returns the difference of a and b.
+
+    Parameters:
+    a (int or float): The minuend.
+    b (int or float): The subtrahend.
+
+    Returns:
+    int or float: The difference of a and b.
+
+    Example:
+    >>> sub(5, 3)
+    2
+    """
+    return a - b
+
+def mul(a, b):
+    """
+    Returns the product of a and b.
+
+    Parameters:
+    a (int or float): The first factor.
+    b (int or float): The second factor.
+
+    Returns:
+    int or float: The product of a and b.
+
+    Example:
+    >>> mul(5, 3)
+    15
+    """
+    return a * b
+
+def div(a, b):
+    """
+    Returns the division of a by b.
+
+    Parameters:
+    a (int or float): The dividend.
+    b (int or float): The divisor.
+
+    Returns:
+    float: The division of a by b.
+
+    Example:
+    >>> div(10, 3)
+    3.3333333333333335
+    """
+    return a / b
+
+def mod(a, b):
+    """
+    Returns the remainder of the division of a by b.
+
+    Parameters:
+    a (int or float): The dividend.
+    b (int or float): The divisor.
+
+    Returns:
+    int or float: The remainder of the division of a by b.
+
+    Example:
+    >>> mod(10, 3)
+    1
+    """
+    return a % b
