@@ -1,0 +1,92 @@
+LLMs:
+  gpt-4:
+    api_type: litellm_azure
+    model: gpt-4
+    context_length: 32000
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: 65f7969f79e4442d946eb5f482d4d861
+    api_version: 2023-03-15-preview
+    endpoint: https://gpt4advanceden5909611361.openai.azure.com/
+
+  gpt-4o:
+    api_type: litellm_azure
+    model: gpt-4o
+    context_length: 32000
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: 65f7969f79e4442d946eb5f482d4d861
+    api_version: 2023-03-15-preview
+    endpoint: https://gpt4advanceden5909611361.openai.azure.com/
+
+  gpt-4o-mini:
+    api_type: litellm_azure
+    model: gpt-4o-mini
+    context_length: 32000
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: bba29643e8af4969a55ab7129973ad11
+    api_version: 2023-03-15-preview
+    endpoint: https://gpt-mimde.cognitiveservices.azure.com/
+
+  gpt-35-turbo-16k:
+    api_type: litellm_azure
+    model: gpt-35-turbo-16k
+    context_length: 16384
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: bba29643e8af4969a55ab7129973ad11
+    api_version: 2023-03-15-preview
+    endpoint: https://gpt-mimde.cognitiveservices.azure.com/
+
+  llama-3-1-405B-instruct:
+    api_type: litellm_azure
+    model: Meta-Llama-3-1-405B-Instruct-cjw
+    context_length: 2048
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: CkVFaEo0HfjDe165RA88tfX136DDMztx
+    api_version: 2024-02-15-preview
+    endpoint: https://Meta-Llama-3-1-405B-Instruct-cjw.eastus.models.ai.azure.com/v1/chat/completions
+
+  llama-3-70b-instruct:
+    api_type: litellm_azure
+    model: Meta-Llama-3-70B-Instruct-noyjk
+    context_length: 8192
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: QeV5Gw4110edFNxAKeB839KlsAe44Jwm
+    api_version: 2024-02-15-preview
+    endpoint: https://Meta-Llama-3-70B-Instruct-noyjk.eastus.models.ai.azure.com/v1/chat/completions
+
+  llama-2-70b-chat:
+    api_type: litellm_azure
+    model: Llama-2-70b-chat-rcazl
+    context_length: 4096
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: JUyjSFNr6ZcjqytVrOakdo4BNvXTjKzY
+    api_version: 2024-02-15-preview
+    endpoint: https://Llama-2-70b-chat-rcazl.eastus.models.ai.azure.com/v1/chat/completions
+
+
+  llama-3-8b-instruct:
+    api_type: litellm_azure
+    model: Meta-Llama-3-8B-Instruct-vlviw
+    context_length: 2048
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: 7GjPpmWHooPtqfivOlZd45bBBogRShL8
+    api_version: 2024-02-15-preview
+    endpoint: https://Meta-Llama-3-8B-Instruct-vlviw.eastus.models.ai.azure.com/v1/chat/completions
+
+  llama-2-7b-chat:
+    api_type: litellm_azure
+    model: Llama-2-7b-chat-apkgt
+    context_length: 2048
+    input_cost: 0.009
+    output_cost: 0.025
+    api_key: siKV6cj4gYYHfurqdPKJbpoxcdUFQd7U
+    api_version: 2024-02-15-preview
+    endpoint: https://Llama-2-7b-chat-apkgt.eastus.models.ai.azure.com/v1/chat/completions
+
