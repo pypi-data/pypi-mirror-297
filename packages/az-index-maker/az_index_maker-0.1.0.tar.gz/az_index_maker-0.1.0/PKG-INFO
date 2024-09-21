@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: az_index_maker
+Version: 0.1.0
+Summary: A package to extract data from PDFs and upload to Azure Cognitive Search
+Author: Ronak Verma
+Author-email: Ronak Verma <ronakvermagpt@gmail.com>
+License: MIT
+Keywords: azure,formrecognizer,pdf,search,cognitive services
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license
+Requires-Dist: pandas
+Requires-Dist: PyPDF2
+Requires-Dist: openai
+Requires-Dist: azure-core
+Requires-Dist: azure-ai-formrecognizer
+Requires-Dist: azure-search-documents
+Requires-Dist: requests
+
+this is a package.

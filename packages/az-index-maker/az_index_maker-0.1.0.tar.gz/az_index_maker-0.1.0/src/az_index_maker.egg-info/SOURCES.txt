@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+license
+pyproject.toml
+readme.md
+setup.py
+src/az_index_maker/__init__.py
+src/az_index_maker/az_index_maker.py
+src/az_index_maker.egg-info/PKG-INFO
+src/az_index_maker.egg-info/SOURCES.txt
+src/az_index_maker.egg-info/dependency_links.txt
+src/az_index_maker.egg-info/requires.txt
+src/az_index_maker.egg-info/top_level.txt
+tests/test_azure_index_maker.py

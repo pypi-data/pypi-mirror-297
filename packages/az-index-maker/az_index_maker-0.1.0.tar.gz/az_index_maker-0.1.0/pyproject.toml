@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "twine"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "az_index_maker"
+version = "0.1.0"
+description = "A package to extract data from PDFs and upload to Azure Cognitive Search"
+authors = [{name = "Ronak Verma", email = "ronakvermagpt@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["azure", "formrecognizer", "pdf", "search", "cognitive services"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = [
+    "pandas",
+    "PyPDF2",
+    "openai",
+    "azure-core",
+    "azure-ai-formrecognizer",
+    "azure-search-documents",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+az_index_maker = ["*.txt", "*.md"]
+
+[tool.twine]
+repository = "https://upload.pypi.org/legacy/"
+repository-test = "https://test.pypi.org/legacy/"

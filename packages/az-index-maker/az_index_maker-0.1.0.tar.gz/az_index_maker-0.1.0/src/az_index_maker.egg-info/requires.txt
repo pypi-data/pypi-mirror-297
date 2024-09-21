@@ -1,0 +1,7 @@
+pandas
+PyPDF2
+openai
+azure-core
+azure-ai-formrecognizer
+azure-search-documents
+requests
