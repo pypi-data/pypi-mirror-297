@@ -1,0 +1,11 @@
+Core/__init__.py,sha256=mPIKdkhm9n3RlONF1YoHf8NTitv6mIjMoYhsaQwjH0E,62
+Core/griffin_vision.py,sha256=jSh6I36m-N2v8TCEmFCBja_HlS5G8rniUPFfT8mvq4Y,3126
+Core/__Engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/__Engines/image_embeddings.py,sha256=1HiqyrHEwhEveezmfADqoHKpQXfMUYg6DWKOpZzPDU0,2019
+Core/__Engines/text_embeddings.py,sha256=227JVGOyO6O7p7blmAgTHSNCamnj_3G3Tg_aYN30OZE,1470
+Core/__VectorStores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Core/__VectorStores/qdrantvectorstore.py,sha256=QpiZm6sVDEWnzzJqHZhNlxoWSIYazif8VoLUbXkNFBA,1067
+griffin_vision-0.0.0.dist-info/METADATA,sha256=cQnaaFn0oxc1V6sztJBSXiX05dh0fNWG9utT9kHnRHs,1627
+griffin_vision-0.0.0.dist-info/WHEEL,sha256=GUeE9LxUgRABPG7YM0jCNs9cBsAIx0YAkzCB88PMLgc,109
+griffin_vision-0.0.0.dist-info/top_level.txt,sha256=Rg6clN9kHXQZebLs4-Kn2iif1iFgSEaSxEDPv9heoYQ,5
+griffin_vision-0.0.0.dist-info/RECORD,,
