@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+pyshover/__init__.py
+pyshover/cli.py
+pyshover/pushover.py
+pyshover.egg-info/PKG-INFO
+pyshover.egg-info/SOURCES.txt
+pyshover.egg-info/dependency_links.txt
+pyshover.egg-info/entry_points.txt
+pyshover.egg-info/top_level.txt
