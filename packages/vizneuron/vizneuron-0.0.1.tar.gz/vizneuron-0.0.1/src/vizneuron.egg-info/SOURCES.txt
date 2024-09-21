@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/vizneuron/__init__.py
+src/vizneuron/callback.py
+src/vizneuron/memory_usage.py
+src/vizneuron/monitor.py
+src/vizneuron.egg-info/PKG-INFO
+src/vizneuron.egg-info/SOURCES.txt
+src/vizneuron.egg-info/dependency_links.txt
+src/vizneuron.egg-info/requires.txt
+src/vizneuron.egg-info/top_level.txt
