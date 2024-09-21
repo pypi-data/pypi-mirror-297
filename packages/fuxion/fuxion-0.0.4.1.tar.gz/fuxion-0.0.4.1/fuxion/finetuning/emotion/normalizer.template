@@ -1,0 +1,16 @@
+Format the following address as a list of python dictionaries of the form:
+[
+    {
+        "user_input":str,
+        "emotional_tone": str,
+        "response":str
+    }
+].
+
+Be sure to handle multiple authors, keywords and fields correctly
+
+Input:
+"{{emotion}}"
+
+Output:
+[{
