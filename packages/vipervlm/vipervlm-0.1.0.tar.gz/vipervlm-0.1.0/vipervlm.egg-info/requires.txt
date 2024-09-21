@@ -1,0 +1,15 @@
+evaluate
+gradio
+huggingface_hub
+nltk
+numpy
+packaging
+pandas
+Pillow
+requests
+scipy
+timm
+tokenizers
+torch
+tqdm
+transformers
