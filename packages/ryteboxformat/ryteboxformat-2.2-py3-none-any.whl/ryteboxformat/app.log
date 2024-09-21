@@ -1,0 +1,25 @@
+2024-09-20 00:50:03,725 - DEBUG - Main: calling UI code... 
+2024-09-20 00:50:03,747 - DEBUG - UI: UI started...
+2024-09-20 00:50:12,429 - DEBUG - UI: Converting the income statement selected from an .TSV file to an XLSX file: MLC_2024May.tsv
+2024-09-20 00:50:13,964 - DEBUG - UI: Performing TSV file translation to protected XLSX
+2024-09-20 00:50:50,367 - DEBUG - UI: .TSV  conversion succeeded. New file is: MLC_2024May.xlsx
+2024-09-20 00:50:59,883 - DEBUG - UI: Getting the tab name that was selected
+2024-09-20 00:51:19,537 - DEBUG - PD row count = 43990
+2024-09-20 00:51:19,537 - DEBUG - UI: Getting the Header row number if possible. Assumes all file have a column header called "MRI Song ID" or "MLC Song Code"
+2024-09-20 00:51:34,577 - DEBUG - UI: Getting the number of rows if possble; this would be the last row of data to be transformed. Assumes every file has a "Total" row
+2024-09-20 00:51:40,175 - DEBUG - UI: Performing validations...
+2024-09-20 00:51:41,379 - DEBUG - UI: dir the user chose where the data files are and where the output files will be written: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/MLC datafiles/MLC Input TSV Files
+2024-09-20 00:51:41,380 - DEBUG - UI: abspath or path given a file to that file /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/RyteBoxFormat
+2024-09-20 00:51:41,380 - DEBUG - UI: Path being passed to the FM call is: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/RyteBoxFormat\MRI_to_RyteBox_Formatter_082224.py
+2024-09-20 00:51:41,380 - DEBUG - UI: argument being passed to Formst is /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/MLC datafiles/MLC Input TSV Files
+2024-09-20 00:51:41,380 - DEBUG - UI: attempting to call the Format py now...
+2024-09-20 00:51:41,380 - DEBUG - FM Code: config_file_path from Arg passed in: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/MLC datafiles/MLC Input TSV Files
+2024-09-20 00:51:41,386 - DEBUG - FM: WORKING DIR: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/RyteBoxFormat
+2024-09-20 00:51:41,386 - DEBUG - FM: NEW Mapping File PATH: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/RyteBoxFormat/Config Master 081424.xlsx
+2024-09-20 00:52:03,042 - DEBUG - FM: Beginning mapping...
+2024-09-20 00:52:15,618 - DEBUG - FM: Mapping try completed
+2024-09-20 00:52:34,788 - DEBUG - FM: Target XLSX file created: /Users/paulvelicky/Documents/GitHub/RyteBoxFormat - Windows/MLC datafiles/MLC Input TSV Files/MLC CONFIG_Output_20240920005141.xlsx
+2024-09-20 00:52:54,355 - DEBUG - FM: CSV created
+2024-09-20 00:52:54,355 - DEBUG - FM: -done-
+2024-09-20 00:52:54,355 - DEBUG - UI: Formatter Response or error code str(None)
+2024-09-20 00:52:59,176 - DEBUG - UI: finished call to the Format PY
