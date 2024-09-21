@@ -1,0 +1,16 @@
+dita/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dita/convert/__init__.py,sha256=fHAajA4TJxTH5fOA-0DpEGbf341hXGPM-odHeCg0eEE,1552
+dita/convert/__main__.py,sha256=wSZ4tvdFNJdMR-QvkIOGcIAfGhJxdug_2AFT4ZDoRWc,1215
+dita/convert/cli.py,sha256=ZN4B5-n2tgUvF6T50noHC1WTESbiEjsjmLY94ihK6gY,4135
+dita/convert/transform.py,sha256=L2wzDkxJpOEQjco5dS-vc82UcqutGynd-vEijwXpvYw,1560
+dita/convert/xslt.py,sha256=FwblAeb288PG3gNT1kSjQNhyqcsBpa2xNLWgcdzqMnM,1545
+dita/convert/xslt/concept.xsl,sha256=6d_JvtQvt47xlmoGulo2_4D35n2Pyu_jdsAMDg-juNE,2552
+dita/convert/xslt/reference.xsl,sha256=DuFIF6WYmeKN7CLx2RpCPBI-QkREaiN1SZdw2jL0waU,2995
+dita/convert/xslt/task-generated.xsl,sha256=d7xYIqwR8cOEj9GRLRrue08GutNOvU65CPBt66Sp_CM,12728
+dita/convert/xslt/task.xsl,sha256=X0Vw1CDSpzRB04Yi8J3sYIf6x3Q1n_CT_EhA9s7_aW0,10375
+dita_convert-1.0.0.dist-info/LICENSE,sha256=FMHDtn9pVEoLrhKfIUfnY9tL4CYO5vwLv62mCQgSC20,1073
+dita_convert-1.0.0.dist-info/METADATA,sha256=9GcsdDw7PUlZYCxHqZHmMRjocct269L-cJtsseM7Eo8,798
+dita_convert-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+dita_convert-1.0.0.dist-info/entry_points.txt,sha256=WaZkA6L5pH0XjsXOnzc_DLemaL3gfBR_hLsUc7fG38A,61
+dita_convert-1.0.0.dist-info/top_level.txt,sha256=pcySPGjS3m2yMBIIBm9b-Zdh7qTNpybOV9OxOjETKas,5
+dita_convert-1.0.0.dist-info/RECORD,,
