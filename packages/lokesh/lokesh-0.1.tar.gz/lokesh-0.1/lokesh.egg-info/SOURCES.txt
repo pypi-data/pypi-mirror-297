@@ -1,0 +1,9 @@
+README.md
+setup.py
+lokesh/__init__.py
+lokesh/some_module.py
+lokesh.egg-info/PKG-INFO
+lokesh.egg-info/SOURCES.txt
+lokesh.egg-info/dependency_links.txt
+lokesh.egg-info/requires.txt
+lokesh.egg-info/top_level.txt
