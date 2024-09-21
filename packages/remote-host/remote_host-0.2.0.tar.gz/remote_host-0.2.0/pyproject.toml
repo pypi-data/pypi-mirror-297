@@ -1,0 +1,32 @@
+[project]
+name = "remote-host"
+dynamic = []
+description = "An API for administering remote hosts."
+authors = [
+    { name = "Julius Koenig", email = "info@bastelquartier.de" },
+]
+dependencies = [
+    "wiederverwendbar>=0.5.5",
+    "paramiko>=3.5.0",
+    "pypsexec>=0.3.0",
+    "pysmb>=1.2.9.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+version = "0.2.0"
+
+[project.license]
+text = "GPL-3.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "src/remote_host/__init__.py"
