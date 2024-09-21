@@ -1,0 +1,2 @@
+[console_scripts]
+jigu = jigutime.jigu:now

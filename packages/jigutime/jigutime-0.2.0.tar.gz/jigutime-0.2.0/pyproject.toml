@@ -1,0 +1,19 @@
+[project]
+name = "jigutime"
+version = "0.2.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nicou11", email = "lyoungin1204@gmail.com"},
+]
+dependencies = [
+    "pytz>=2024.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+jigu = "jigutime.jigu:now"
+
+[tool.pdm]
+distribution = true 
