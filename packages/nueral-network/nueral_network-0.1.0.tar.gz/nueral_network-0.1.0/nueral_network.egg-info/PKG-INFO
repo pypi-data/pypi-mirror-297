@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nueral_network
+Version: 0.1.0
+Summary: neural netwrok basic operations
+Home-page: https://github.com/Sash0G/neural-network
+Author: Aleksandar Georgiev
+Author-email: aleksandargevarna@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+A python module that I update while I learn about neural netowrks

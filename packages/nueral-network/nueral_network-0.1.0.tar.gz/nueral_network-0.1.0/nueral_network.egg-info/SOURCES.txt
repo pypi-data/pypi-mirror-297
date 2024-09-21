@@ -1,0 +1,6 @@
+README.md
+setup.py
+nueral_network.egg-info/PKG-INFO
+nueral_network.egg-info/SOURCES.txt
+nueral_network.egg-info/dependency_links.txt
+nueral_network.egg-info/top_level.txt
