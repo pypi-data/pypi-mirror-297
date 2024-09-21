@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Simple_Password_Verificator
+Version: 0.0.1
+Summary: Pequeno sistema que valida a senha do usuário.
+Home-page: https://github.com/Danieldantas7227
+Author: Daniel Dantas Lopes
+Author-email: dandantas29@gmail.com
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# package_name
+
+Description. 
+The package All_Process is used to:
+	- Verifiers
+	    -All_Verifiers
+		-Password_Verificator
+	-Main
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Usage
+
+```python
+from Verifiers import Password_Verificator
+Password_Verificator.start()
+```
+
+## Author
+Daniel Dantas Lopes
+
+## License
+...

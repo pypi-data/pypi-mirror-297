@@ -1,0 +1,9 @@
+README.md
+setup.py
+All_Process/Main.py
+All_Process/Verifiers.py
+All_Process/__init__.py
+Simple_Password_Verificator.egg-info/PKG-INFO
+Simple_Password_Verificator.egg-info/SOURCES.txt
+Simple_Password_Verificator.egg-info/dependency_links.txt
+Simple_Password_Verificator.egg-info/top_level.txt
