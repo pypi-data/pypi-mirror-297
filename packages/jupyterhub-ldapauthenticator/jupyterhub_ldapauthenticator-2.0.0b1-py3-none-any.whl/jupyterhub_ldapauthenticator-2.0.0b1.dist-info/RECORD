@@ -1,0 +1,8 @@
+ldapauthenticator/__init__.py,sha256=HTUFKHoAu485pORWzPRUklZTjhKbaoUpa7Iy_JXIYjo,231
+ldapauthenticator/ldapauthenticator.py,sha256=kSXldANFIQWVyLPbJJQqCRf5xE-00oKXbVsuhOQhjbU,23009
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/LICENSE,sha256=iHnKwx1qJa6IAYBWnqTYDKmyTqnnOnO1YEqXEfF0Sik,1528
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/METADATA,sha256=ZNI7QGxH6CxUzgKgSW56QSoeE6cSydmXJk9R3LdDCJg,14994
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/entry_points.txt,sha256=gpXtzhOlleea-WX-wskpdcUrw7lMxlXhYw_vAGrRLQQ,127
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/top_level.txt,sha256=K0yoO3w8ZuV7-g2OJXumssn8zl2dtUSPXWtkDfHhzEQ,18
+jupyterhub_ldapauthenticator-2.0.0b1.dist-info/RECORD,,
