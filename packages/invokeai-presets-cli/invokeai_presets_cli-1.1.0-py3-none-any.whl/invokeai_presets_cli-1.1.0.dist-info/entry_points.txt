@@ -1,0 +1,2 @@
+[console_scripts]
+invokeai-presets = invokeai_presets_cli.__main__:main
