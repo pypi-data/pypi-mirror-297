@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groxink-technical-indicators"
+version = "0.1.1"
+description = "Financial technical indicators"
+readme = "README.md"
+requires-python = ">=3.6"  # moved here
+authors = [
+  { name = "Tiny", email = "bugs.feedback@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+  "requests>=2.25.1",
+  "numpy>=1.19.5"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+keywords = ["financial", "technical indicators", "setuptools"]
+
+[project.urls]
+"Homepage" = "https://gitee.com/metameta666/groxink-technical-indicators.git"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "flake8>=3.8"
+]
+test = ["pytest>=6.0"]
