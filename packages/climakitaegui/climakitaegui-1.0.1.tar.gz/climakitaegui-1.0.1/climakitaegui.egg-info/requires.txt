@@ -1,0 +1,13 @@
+climakitae==1.0.1
+geoviews==1.9.5
+holoviews==1.15.0
+hvplot==0.8.1
+matplotlib==3.6.0
+panel==0.13.1
+ipython==8.5.0
+
+[docs]
+Sphinx
+sphinx-book-theme
+sphinx-design
+nbsphinx
