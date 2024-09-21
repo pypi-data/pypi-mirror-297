@@ -1,0 +1,16 @@
+reducer/__init__.py,sha256=hYSbBzmi2DmbYDS53Vcpl1FWZglyMHIYUiwmSfv5_lQ,203
+reducer/_version.py,sha256=vspFLRfYI6gAAN7kyihey2lhPos0jxqKaNDWFlKPlmU,411
+reducer/astro_gui.py,sha256=tFa8U8BkJyNXpLNCTWRT4l6ocM9tJAlWkWaEi9Z7OMM,36349
+reducer/core.py,sha256=0mK1xMqIwTy8fdOYzSNqJgRKT6IsyKicQDFh-grotdI,527
+reducer/gui.py,sha256=G4D0FKGDD8REbBXJKeOEox8Vc7U6r_3lizKirJpxg98,22192
+reducer/image_browser.py,sha256=eLcMcvn_32UsedeER8tH3ISMt4yP7hxaJlcjtOrt-HA,13772
+reducer/notebook_dir.py,sha256=cI0hE9xgjwc28I4cSePDX-hjRV5YEIETRz3JglFAJC4,1053
+reducer/reducer-template.ipynb,sha256=2CcuCIvApwnE2XLYLbHAqhmrnc9I_y457UL_poz6Wuw,14319
+reducer/data/image_metadata.csv,sha256=eqTci16X5eZFDJOWg6uEuXT1bdmP_oQrgo7ldYNTVUc,58509
+reducer/data/mini_versions.tbz2,sha256=jqpN5ZGyE-kn1_fbHAx6IWf07tlQINgAHAz1IJs5V0s,11666469
+reducer-0.8.0.data/data/share/jupyter/reducer/reducer-template.ipynb,sha256=2CcuCIvApwnE2XLYLbHAqhmrnc9I_y457UL_poz6Wuw,14319
+reducer-0.8.0.dist-info/METADATA,sha256=PKL1IZTZf-Zu8tjJdNzH-RCe-w1rxn6BeCV6EK4qNJs,4251
+reducer-0.8.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+reducer-0.8.0.dist-info/entry_points.txt,sha256=MySoY_YreQ4uURkAqThr2SRL3FPyaptYP4R6HoKjylg,41
+reducer-0.8.0.dist-info/licenses/LICENSE.rst,sha256=dOd0VEu5M_KUr7_4-6Q0nAv4VbV7FC7MRUF6lX827jg,1486
+reducer-0.8.0.dist-info/RECORD,,
