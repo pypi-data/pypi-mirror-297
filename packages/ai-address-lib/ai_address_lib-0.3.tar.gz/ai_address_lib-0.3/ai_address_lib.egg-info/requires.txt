@@ -1,0 +1,9 @@
+tensorflow>=2.16.1
+transformers>=4.44.2
+numpy>=1.26.4
+h5py>=3.11.0
+scipy>=1.14.1
+sentencepiece
+scikit-learn
+tqdm
+pandas
