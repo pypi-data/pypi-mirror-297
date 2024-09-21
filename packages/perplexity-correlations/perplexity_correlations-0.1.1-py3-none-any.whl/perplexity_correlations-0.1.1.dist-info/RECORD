@@ -1,0 +1,13 @@
+perplexity_correlations/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+perplexity_correlations/estimation/__init__.py,sha256=xLw7RPWm5u6cn0eQwXnZ4zeQdEGe8FFuR6z55IhKUM0,149
+perplexity_correlations/estimation/estimation_functions.py,sha256=sw__ImdEQjL-43MeE01jSX6l9QaycrMFHFUm42yZxKM,11868
+perplexity_correlations/projection/__init__.py,sha256=2xMvhUAmiLmGIHsJPhJYVpJ6R6Nj5xMS66cXvdT1Atc,73
+perplexity_correlations/projection/projection_functions.py,sha256=ScDoKNUZyDgvnRaw62Vso8bJLhhRzw9l8ZfS2c3krrY,7918
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_estimation.py,sha256=0DdAyp6jPYxGb0gUcnB2ZpIrhvnquQxIhHMN50RJzQI,4910
+tests/test_projection.py,sha256=sNCHdsJX5b0AUSnibcPlNpX6pQwUPpRWYNaFucZ1J58,442
+perplexity_correlations-0.1.1.dist-info/LICENSE,sha256=KEEB1gDshibica7Kxe8vuWSLamoXTCIp-_KUP_3g8w4,1070
+perplexity_correlations-0.1.1.dist-info/METADATA,sha256=Nz_8XDqfAVDosxI4wd_r6AjbmExHDfoc2iQO43V4SUA,10755
+perplexity_correlations-0.1.1.dist-info/WHEEL,sha256=Mdi9PDNwEZptOjTlUcAth7XJDFtKrHYaQMPulZeBCiQ,91
+perplexity_correlations-0.1.1.dist-info/top_level.txt,sha256=gd6imz-7NO9cgh2dRyyl_DNX6fEMUC_LvGMHe1qomBM,30
+perplexity_correlations-0.1.1.dist-info/RECORD,,
