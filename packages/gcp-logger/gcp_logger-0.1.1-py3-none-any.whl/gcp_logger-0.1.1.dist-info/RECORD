@@ -1,0 +1,13 @@
+gcp_logger/__init__.py,sha256=Blrxrrw9PWZX22d6gq6y1Aa2Mu-lS9vLevyMT82-DUA,561
+gcp_logger/async_uploader.py,sha256=uF-2jAB8M2nuro7sRNZ2KBl-Kv2dE6itTTsLc8bhljw,4022
+gcp_logger/colored_formatter.py,sha256=rfCMjnIHiHu9D8Aur_hYAMDCtSUDtEk7-Uvo3SNATSo,2518
+gcp_logger/context_aware_logger.py,sha256=tKzYQ9MvYBFMfbcS2-VOcH8femMKkg0ZvPq3TXidTtg,2294
+gcp_logger/custom_logging_handler.py,sha256=EPLlzYJOIby1eLZvIXJJlQrFrPnlrzn8Cxz5BtgzmuY,7592
+gcp_logger/internal_logger.py,sha256=X0u_OtChfEGnmpNaMx51oPl21CTzNUIBWzR_5vSWMwg,1152
+gcp_logger/levels.py,sha256=9TAYDJvMdW5hYKshfMibo-zwL1W5py1UyryS7a0pEvQ,282
+gcp_logger/logger.py,sha256=x3mErQtl75RqbGPwHmFSWMsEb2msexZQeBGoazLP1xY,5871
+gcp_logger/logger_adapter.py,sha256=-RqinCAlPJCoQMuxyIzQb9VGAnls7M_IR5n4I-G3jHI,1502
+gcp_logger-0.1.1.dist-info/METADATA,sha256=KiYlYS_4vWA8qxLhGLy6IQiIw6cz7cP9JrAjbeLcu_4,406
+gcp_logger-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gcp_logger-0.1.1.dist-info/top_level.txt,sha256=bx5QHWfxQSI64GXrkOaf43ZJotLUGQuLRmI5S_aaen4,11
+gcp_logger-0.1.1.dist-info/RECORD,,
