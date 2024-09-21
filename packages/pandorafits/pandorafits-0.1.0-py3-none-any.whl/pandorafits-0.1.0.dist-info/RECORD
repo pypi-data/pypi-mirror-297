@@ -1,0 +1,14 @@
+pandorafits/__init__.py,sha256=-L7Gg30RNe-he1tUaofIDJNz5yje-NI4PVDB870j1XU,488
+pandorafits/fileformats/README.md,sha256=pydi1AJaRQ1I3mw5aogFvxfO_vmwfQGXQBK9tRkmV6c,1967
+pandorafits/fileformats/nirda-extension-types-level0.xlsx,sha256=eSaOGG5YZqxXXZ7t48PrnzXMRdi3KH8bGLZIOU8iVEQ,9112
+pandorafits/fileformats/nirda-extension-types-level2.xlsx,sha256=61-NIAGAPJDmtPF0NFW1QjCtdQ9mNGNwr1AvKpc9hXU,9157
+pandorafits/fileformats/nirda-headers-level0.xlsx,sha256=qf1OUeAgG2gnX929gXUmM6xJe5UjXglfKAnXtF7xP28,11485
+pandorafits/fileformats/nirda-headers-level2.xlsx,sha256=sUTCl61WZuuB8Wsub-01aKaHEiuSRulEaS8dPSShqkw,16806
+pandorafits/fileformats/visda-extension-types-level0.xlsx,sha256=MciEZ0lu38wpxctPynwpnuYNK0WPsNxGlfLsP0xaqMk,9131
+pandorafits/fileformats/visda-extension-types-level2.xlsx,sha256=qKyZAyQGMabh9DvWWTD_ZFsxezTNvPuepfQ17lfZiZE,9251
+pandorafits/fileformats/visda-headers-level0.xlsx,sha256=7mWLQQ9gsRXJpmCqyaZrDQGnx5ZO6GJIs5PavA_HBjY,12382
+pandorafits/fileformats/visda-headers-level2.xlsx,sha256=fBy_nB2CLagqNcDM1ZR07ZMRkFnejWDHxb5UEECKpUo,15676
+pandorafits/fits.py,sha256=EHyljYlosZdvpp8hYAIAL5UFuSYy1v8sUhDI0fd0xeg,8031
+pandorafits-0.1.0.dist-info/METADATA,sha256=vSojfNp9KJCijqQLAvSXRXCWQvDNnH2rTEzhcYdQQ2M,2168
+pandorafits-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pandorafits-0.1.0.dist-info/RECORD,,
