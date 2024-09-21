@@ -1,0 +1,9 @@
+class calc:
+    def gm3(a,b):
+        return a+b
+    def trh(a,b):
+        return a-b
+    def trb(a,b):
+        return a*b
+    def qsm(a,b):
+        return a/b
