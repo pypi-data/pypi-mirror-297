@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: my_sql_library
+Version: 0.1.0
+Summary: A simple Python library for managing SQL queries
+Home-page: https://github.com/yourusername/my_sql_library
+Author: palanm5
+Author-email: madhavan.palani@dell.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
