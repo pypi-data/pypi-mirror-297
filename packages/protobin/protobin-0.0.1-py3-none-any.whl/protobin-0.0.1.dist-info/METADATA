@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: protobin
+Version: 0.0.1
+Summary: Python library for encode and decode data in protobin format
+Project-URL: Homepage, https://github.com/drmelectronic/protobin-python
+Project-URL: Bug Tracker, https://github.com/drmelectronic/protobin-python/issues
+Author-email: Daniel Robles <drm.electronic@gmail.com>
+License: MIT License
+        
+        Copyright (c) [Año] [Tu Nombre]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE. 1
+        1. en.wikipedia.org
+        en.wikipedia.org
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# protobin-python
+
+**protobin-python** es una biblioteca Python diseñada para facilitar la interacción con el formato de transferencia de datos Protobin en modo binario. Esta biblioteca proporciona una interfaz sencilla y eficiente para:
+
+* **Serializar** objetos Python en datos Protobin.
+* **Deserializar** datos Protobin en objetos Python.
+* **Validar** la integridad de los datos Protobin.
+
+## Instalación
+
+Para instalar `protobin-python`, puedes utilizar pip:
+
+```bash
+pip install protobin-python
