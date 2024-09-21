@@ -1,0 +1,18 @@
+[project]
+name = "ALASutils"
+version = "0.0.10"
+authors = [
+  { name="Juan Pablo Calderon", email="jpcalderon@fcaglp.unlp.edu.ar" },
+]
+description = "ALAS utils for daily tasks."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/JPCalderon/ALASutils"
+Issues = "https://github.com/JPCalderon/ALASutils/issues"
