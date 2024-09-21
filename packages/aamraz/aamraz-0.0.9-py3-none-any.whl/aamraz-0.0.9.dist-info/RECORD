@@ -1,0 +1,13 @@
+aamraz/__init__.py,sha256=snF1Jrk_23vLncWwFtkQYs_Oo24HmwmILTu_NrKhzVI,215
+aamraz/embedding.py,sha256=H0oHbzs9YWMd5wW4xxV2AFS4OA7MX70W7IDuzfJnfRU,4717
+aamraz/normalizer.py,sha256=G3aYed0wKbSyVpFV-NpSjvPHypCc8FO3ztDCRdPEq3U,3696
+aamraz/stemmer.py,sha256=0kg8DB4AprAtTVBxeVKfKsXKM11PqN1lQJW15spvNn4,4190
+aamraz/word_tokenizer.py,sha256=ct-8UJVwvLkqQKmL9o-DS_EcgvDunXPMr-_mCv3VWyU,737
+aamraz/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aamraz/test/embedding_test.py,sha256=ZcHek_CIQJX6j-hKLk10F03U6Fajt_Gwv6CzcsSZ2RQ,671
+aamraz/test/sample.py,sha256=7j3Wg1tNn1WUExTHkZCkn5YydEKNJDPDAvTJvEbnL_A,1294
+aamraz/test/stemmer_test.py,sha256=CFcUR2V7_cXc7U36tABI3wjTum67AMYlad7Udumq8c8,219
+aamraz-0.0.9.dist-info/METADATA,sha256=aXii4q6vZd_77italBPH-0tB6hJEnumaxSdwN4Zibas,4590
+aamraz-0.0.9.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+aamraz-0.0.9.dist-info/top_level.txt,sha256=HZUJaw7ktR4sVdpHeUv0srD_RNkdqcGMljKO3Pk_A3M,7
+aamraz-0.0.9.dist-info/RECORD,,
