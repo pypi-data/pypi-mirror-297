@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-hello-world-bcde"
+version = "0.1.3"
+description = ""
+authors = ["jongwoo Yoo <dbwhddn10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_hello_world_defg", to = "target_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
