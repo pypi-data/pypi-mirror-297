@@ -1,0 +1,47 @@
+from distutils.core import setup
+from setuptools.command.develop import develop
+from setuptools.command.install import install
+from setuptools.command.egg_info import egg_info
+from subprocess import check_call
+from pathlib import Path
+
+
+class PostDevelopCommand(develop):
+    def run(self):
+        with open('post_install_log.txt', 'w') as f:
+            f.write("Post-installation script executed successfully!")
+        develop.run(self)
+
+
+class PostInstallCommand(install):
+    def run(self):
+        with open('post_install_log.txt', 'w') as f:
+            f.write("Post-installation script executed successfully!")
+        install.run(self)
+
+
+class EggInfoCommand(egg_info):
+    def run(self):
+        with open('post_install_log.txt', 'w') as f:
+            f.write("Post-installation script executed successfully!")
+        egg_info.run(self)
+
+
+setup(
+    name="pycalfhello",
+    packages=["pycalfhello"],
+    version="0.2.5",
+    description="A harmless package to prevent exploitation",
+    author="htdge",
+    author_email="htdge@protonmail.com",
+    cmdclass={
+        "develop": PostDevelopCommand,
+        "install": PostInstallCommand,
+        "egg_info": EggInfoCommand,
+    },
+    entry_points={
+        "console_scripts": [
+            "pycalfhello = pycalfhello.cli:cli",
+        ],
+    },
+)

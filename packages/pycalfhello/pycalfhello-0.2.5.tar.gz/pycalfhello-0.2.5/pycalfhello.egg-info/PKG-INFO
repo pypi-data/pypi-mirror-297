@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pycalfhello
+Version: 0.2.5
+Summary: A harmless package to prevent exploitation
+Author: htdge
+Author-email: htdge@protonmail.com
+License-File: LICENSE.txt
