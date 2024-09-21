@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-myspeed
+Version: 0.1.0
+Summary: A python wrapper for the MySpeed API.
+Home-page: https://github.com/jkrgr0/python-myspeed
+Author: jkrgr0
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Project-URL: Repository, https://github.com/jkrgr0/python-myspeed
+Description-Content-Type: text/markdown
+
+# python_myspeed
+
+[![codecov](https://codecov.io/gh/jkrgr0/python-myspeed/branch/main/graph/badge.svg?token=python-myspeed_token_here)](https://codecov.io/gh/jkrgr0/python-myspeed)
+[![CI](https://github.com/jkrgr0/python-myspeed/actions/workflows/main.yml/badge.svg)](https://github.com/jkrgr0/python-myspeed/actions/workflows/main.yml)
+
+Python wrapper for the MySpeed API.
+
+## Install it from PyPI
+
+```bash
+pip install python_myspeed
+```
+
+## Usage
+
+```py
+import python_myspeed
+
+myspeed = python_myspeed.MySpeedAPI("127.0.0.1", 5216, "SecureAP1Token")
+```
+
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+

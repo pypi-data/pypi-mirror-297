@@ -1,0 +1,6 @@
+__author__ = "Janek Kröger"
+__copyright__ = "Copyright 2024 Janek Kröger"
+__email__ = "6506725+jkrgr0@users.noreply.github.com"
+__license__ = "MIT"
+__title__ = "python-myspeed"
+__version__ = "0.1.0"
