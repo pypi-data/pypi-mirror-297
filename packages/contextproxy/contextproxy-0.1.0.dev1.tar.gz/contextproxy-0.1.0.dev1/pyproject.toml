@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextproxy"
+description = "`contextproxy` provides context-based lazy-loaded proxy objects for flask apps."
+authors = [
+    { name = "Quan Guo", email = "1118270+guoquan@users.noreply.github.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Flask",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["flask", "context", "proxy"]
+dependencies = [
+    "Flask",
+    "Werkzeug",
+]
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+
+[tool.mypy]
+mypy_path = ["src"]
+explicit_package_bases = true
+ignore_missing_imports = true
+disallow_any_unimported = true
+exclude = '''(?x)(
+    build/  # Ignore build/
+)'''

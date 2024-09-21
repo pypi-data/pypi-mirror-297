@@ -1,0 +1,15 @@
+.gitignore
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+.github/workflows/release.yml
+examples/flask-demo/app.py
+src/contextproxy/__init__.py
+src/contextproxy/contextproxy.py
+src/contextproxy.egg-info/PKG-INFO
+src/contextproxy.egg-info/SOURCES.txt
+src/contextproxy.egg-info/dependency_links.txt
+src/contextproxy.egg-info/requires.txt
+src/contextproxy.egg-info/top_level.txt
+tests/test_contextproxy.py
