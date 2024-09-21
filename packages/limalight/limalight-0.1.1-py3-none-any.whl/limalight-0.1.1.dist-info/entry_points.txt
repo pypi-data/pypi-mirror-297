@@ -1,0 +1,2 @@
+[console_scripts]
+limalight = limalight.cli:app
