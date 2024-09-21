@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dbcv/dbcv.egg-info/PKG-INFO
+dbcv/dbcv.egg-info/SOURCES.txt
+dbcv/dbcv.egg-info/dependency_links.txt
+dbcv/dbcv.egg-info/requires.txt
+dbcv/dbcv.egg-info/top_level.txt
