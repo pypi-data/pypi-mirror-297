@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my_image_Processor_DioPro
+Version: 0.1
+Summary: A simple image processing library
+Author: Leo
+Author-email: leozzinho12397@gmail.com
+Keywords: image_processing
+Requires-Dist: Pillow

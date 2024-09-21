@@ -1,0 +1,9 @@
+README.md
+setup.py
+image_processor/__init__.py
+image_processor/processing.py
+my_image_Processor_DioPro.egg-info/PKG-INFO
+my_image_Processor_DioPro.egg-info/SOURCES.txt
+my_image_Processor_DioPro.egg-info/dependency_links.txt
+my_image_Processor_DioPro.egg-info/requires.txt
+my_image_Processor_DioPro.egg-info/top_level.txt
