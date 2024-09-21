@@ -1,0 +1,6 @@
+docstring_parser
+
+[test]
+freezegun
+pytest
+pytest-cov
