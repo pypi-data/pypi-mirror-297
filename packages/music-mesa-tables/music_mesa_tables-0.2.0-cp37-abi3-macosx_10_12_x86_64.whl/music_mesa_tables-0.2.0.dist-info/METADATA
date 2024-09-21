@@ -1,0 +1,5 @@
+Metadata-Version: 2.3
+Name: music-mesa-tables
+Version: 0.2.0
+Requires-Dist: numpy >=1.21
+Requires-Python: >=3.7
