@@ -1,0 +1,9 @@
+PyYAML>=3.12
+
+[dev]
+pystemd>=0.7.0
+pytest
+lxml
+
+[systemd]
+pystemd>=0.7.0
