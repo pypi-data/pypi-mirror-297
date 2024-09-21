@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+tests/test_report_generator.py
+varport/__init__.py
+varport/report_generator.py
+varport/var_processor.py
+varport.egg-info/PKG-INFO
+varport.egg-info/SOURCES.txt
+varport.egg-info/dependency_links.txt
+varport.egg-info/requires.txt
+varport.egg-info/top_level.txt
