@@ -1,0 +1,8 @@
+README.md
+setup.py
+beta_iaa_score/__init__.py
+beta_iaa_score/core.py
+beta_iaa_score.egg-info/PKG-INFO
+beta_iaa_score.egg-info/SOURCES.txt
+beta_iaa_score.egg-info/dependency_links.txt
+beta_iaa_score.egg-info/top_level.txt
