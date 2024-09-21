@@ -1,0 +1,8 @@
+setup.py
+vehicle_detection_lib/__init__.py
+vehicle_detection_lib/vehicle_detector.py
+vehicle_detection_lib.egg-info/PKG-INFO
+vehicle_detection_lib.egg-info/SOURCES.txt
+vehicle_detection_lib.egg-info/dependency_links.txt
+vehicle_detection_lib.egg-info/requires.txt
+vehicle_detection_lib.egg-info/top_level.txt
