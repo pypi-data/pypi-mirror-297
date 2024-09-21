@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/cocoma/__init__.py
+src/cocoma/__main__.py
+src/cocoma.egg-info/PKG-INFO
+src/cocoma.egg-info/SOURCES.txt
+src/cocoma.egg-info/dependency_links.txt
+src/cocoma.egg-info/requires.txt
+src/cocoma.egg-info/top_level.txt
