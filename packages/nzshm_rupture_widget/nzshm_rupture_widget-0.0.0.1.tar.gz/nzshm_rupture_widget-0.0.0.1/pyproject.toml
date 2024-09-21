@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nzshm_rupture_widget"
+version = "0.0.0.1"
+description = "Ipywidgets map widget that can display 3D GeoJSON."
+authors = [{name="Oakley Jurgens", email="oakley.jurgens@gmail.com"}]
+license = {text = "GPL3"}
+dependencies = ["anywidget"]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/GNS-Science/nzshm-rupture-widget"
+
+[project.optional-dependencies]
+dev = ["watchfiles", "jupyterlab"]
+
+# automatically add the dev feature to the default env (e.g., hatch shell)
+[tool.hatch.envs.default]
+features = ["dev"]
+
+
+[tool.hatch.build]
+ignore-vcs = true
+include = [
+    "LICENSE",
+    "README.md",
+    "src/nzshm_rupture_widget/*.py",
+    "src/nzshm_rupture_widget/static/*.*",
+]
+exclude = [
+    "scr/nzshm_rupture_widget/esm/*.*",
+    "envBuild",
+    "node_modules"
+]
