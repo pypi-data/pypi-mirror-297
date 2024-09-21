@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qd-machine-hk
+Version: 0.4
+Summary: Machine package
+Author: Hardik Kanak
+Author-email: hardik.kanak@softqubes.com
+License-File: LICENSE.txt
+Requires-Dist: requests ==2.31.0
+Requires-Dist: psutil ==6.0.0
+Requires-Dist: GPUtil ==1.4.0
+Requires-Dist: Cython ==3.0.11
+
