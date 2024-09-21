@@ -1,0 +1,17 @@
+coverup/__init__.py,sha256=zwY7MtP01hz9A46a3JebAuJ4v40lKPtMJ66ESoB3cuE,59
+coverup/__main__.py,sha256=45Upt444MsYGybJE_DuIndb_kq8zJEZ2g7rq8hu1kJk,62
+coverup/codeinfo.py,sha256=gtfyNVIDl1a-6liB7BBv2W00inR3tofF5oJjd6yGqq0,14424
+coverup/coverup.py,sha256=FXYvt0xjW9nd8w55fQmo-i_9yz-Qq5ItkWB7C5iI74Y,28254
+coverup/llm.py,sha256=m9LRPfJPDS2mgLqQ-U5M33SAiFSPHqx8v5uAXSLZ6xg,12658
+coverup/logreader.py,sha256=USGdyx-KO6qfBdnEVZ_mItx8YKweouwv29F44uW8L5c,8432
+coverup/prompt.py,sha256=pRfaL8jC847WmObxavop5aAo8DwW4s_M12ZXffMTao0,13738
+coverup/segment.py,sha256=-ZPtld9DL4LZmP0qyE6ZWfimvu9F4HgQhUitGo_GJ60,6107
+coverup/testrunner.py,sha256=oNeNBpqL1Pvo8bklgznI09Ts5wEM-fQ3GmVBpI6bp44,3255
+coverup/utils.py,sha256=LHC8Tzrmi6HIR84UbT7jXcnh7rK5mw4l2DfIP0tbqLI,3162
+coverup/version.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+CoverUp-0.5.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+CoverUp-0.5.0.dist-info/METADATA,sha256=b5hGVawZY8oud-WxOKYW38ntX1ebWkDKMBPtft3Il1Q,6929
+CoverUp-0.5.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+CoverUp-0.5.0.dist-info/entry_points.txt,sha256=Af1YgczBpbNdvOdpPmce7JYhfvSFxZv8-WEuwb3GNBA,49
+CoverUp-0.5.0.dist-info/top_level.txt,sha256=gfuV_lpHe2ibaBBpAgUKgabaqik89j9JndcLQDtdSwk,8
+CoverUp-0.5.0.dist-info/RECORD,,
