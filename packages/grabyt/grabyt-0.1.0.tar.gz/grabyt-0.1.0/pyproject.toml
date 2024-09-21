@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "grabyt"
+version = "0.1.0"
+description = "A CLI app to download videos using yt-dlp"
+authors = ["Muhammad <mhmdnoman01@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "grabyt" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yt-dlp = "^2024.8.6"
+typer = "^0.12.5"
+rich = "^13.8.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+grabyt = "ytdl.cli:main"

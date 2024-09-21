@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: grabyt
+Version: 0.1.0
+Summary: A CLI app to download videos using yt-dlp
+Author: Muhammad
+Author-email: mhmdnoman01@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: rich (>=13.8.1,<14.0.0)
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Requires-Dist: yt-dlp (>=2024.8.6,<2025.0.0)
+Description-Content-Type: text/markdown
+
+
