@@ -1,0 +1,2 @@
+qiskit==1.2.1
+qiskit-aer-gpu==0.15.1
