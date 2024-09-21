@@ -1,0 +1,15 @@
+peropq/__init__.py,sha256=wG5IZ0EY6pShsgiynBa4PA_0GWQ2DU7DwSMkb1W7BEo,133
+peropq/bch_optimized.py,sha256=4K9VziaC8ZRnJBFwmD8IR-15Jd-EqQ4Pu7DJ7ufAjCs,16197
+peropq/commutators_bitstrings.py,sha256=oGuIDpWnNgjgtTBZ9vWOiyr3wjHd2BWxBdNh0tts_J4,829
+peropq/ed_module.py,sha256=HZgjnfjNsPQzJgvZ5CSJADebwdjCcjWRjisIozIyBxA,5243
+peropq/exact_diagonalization.py,sha256=QVcWIkfxyR61pTBeHVsCFawh8N-6GiGCvNz__WO4Lrw,5138
+peropq/exact_norm.py,sha256=A6ZCwYFS18sLl8Z3_6zTOgMRZW1h24I-IOfojnhyxL8,2011
+peropq/hamiltonian.py,sha256=6Dp6f9ag75h-CYey1l5pIiyDIM-GtiRrxOkekf_9H7U,1160
+peropq/optimizer.py,sha256=jQN1ciu2uWaQtZuoCPTEOuSHWiKClxkPHhltF_NruH8,4380
+peropq/pauli_bitstring.py,sha256=HI0qGHb8Kt2dlqPuS2XAQ8BuqnnWJxKIxf802isZXro,7441
+peropq/unconstrained_variational_unitary.py,sha256=EKJr8AZClpFYaf25j5vEz0ii3gmQOKZ0mx_Jc7loD9U,2650
+peropq/variational_unitary.py,sha256=x06_5ZyvqTmM1nQSYE4x7RmApV8YdKsJHXO88-58XK8,8160
+peropq-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+peropq-0.2.0.dist-info/METADATA,sha256=isRf1Rz7F_hPwP9a2QKUOS2-oAy5fYv7bEC-VY6S_9A,3068
+peropq-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+peropq-0.2.0.dist-info/RECORD,,
