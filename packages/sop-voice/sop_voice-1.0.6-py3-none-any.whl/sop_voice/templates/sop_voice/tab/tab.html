@@ -1,0 +1,75 @@
+{% extends "dcim/site.html" %}
+{% load static %}
+{% load helpers %}
+{% load buttons %}
+{% load i18n %}
+
+
+<!--
+    __________________________
+    add extra controls buttons
+-->
+{% block extra_controls %}
+    <a href="{% url 'plugins:sop_voice:voicesda_add' pk=object.id %}" class="btn btn-primary">
+      <i class="mdi mdi-plus-thick"></i>{% trans "Add DIDs" %}</a>
+    <a href="{% url 'plugins:sop_voice:voicesda_import' pk=object.id %}" class="btn btn-secondary">
+      <i class="mdi mdi-download"></i>{% trans "Import DIDs" %}</a>
+    <a href="{% url 'plugins:sop_voice:voicedelivery_add' pk=object.id %}" class="btn btn-primary">
+      <i class="mdi mdi-plus-thick"></i>{% trans "Add voice deliveries" %}</a>
+{% endblock extra_controls %}
+
+
+<!--
+    ________________________________
+    displays all voice models tables
+    using sop_utils/tools/table.html
+    and sop_voice/tab/*.html
+-->
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6">
+        {% include 'sop_utils/tools/table.html' with model=context.sda table=context.sda_table actions=context.actions request=request search=1 %}
+    </div>
+    <div class="col-md-6">
+        {% include 'sop_utils/tools/table.html' with model=context.delivery table=context.delivery_table actions=context.actions request=request %}
+        {% include 'sop_voice/tab/site_info.html' with object=context.site_info devices=context.devices site=object %}
+        <div class="row">
+            <div class="col-md-6">
+                {% include 'sop_voice/tab/ring_central_migration.html' with object=context.rcm %}
+            </div>
+            <div class="col-md-6">
+                {% include 'sop_voice/tab/btip_migration.html' with object=context.btip %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    ____________________________________________________
+    load my scripts for quicksearch, tableconfig and tab
+-->
+<script src="{% static 'my_tab.js' %}"></script>
+<script src="{% static 'my_quicksearch.js' %}"></script>
+<script>
+/*
+ * just to normalize the string
+ */
+function lower_case(str)
+{
+    return str.toLowerCase();
+}
+ 
+document.addEventListener('DOMContentLoaded', function ()
+{
+    const all_tabs = document.querySelectorAll('ul.nav.nav-tabs li.nav-item a');
+    update_current_tab_color(all_tabs, "Voice");
+
+    const quicksearch = document.getElementById('quick-search');
+    quicksearch.addEventListener('input', function ()
+    {
+        init_voice_quick_search(quicksearch);
+    });
+});
+</script>
+{% endblock content %}
