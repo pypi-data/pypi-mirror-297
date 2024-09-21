@@ -1,0 +1,16 @@
+numpy
+matplotlib
+pymatgen
+ase
+scipy
+
+[datasets]
+pymlff
+
+[docs]
+sphinx
+sphinx-book-theme
+sphinx_design
+
+[pdf]
+pycairo
