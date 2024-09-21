@@ -1,0 +1,10 @@
+scikit-learn
+sciutil
+seaborn
+statsmodels
+biopython
+primer3-py
+pandas
+numpy
+gffutils
+jupyterlab
