@@ -1,0 +1,9 @@
+numpy
+xarray
+pandas
+tqdm
+scipy
+connected-components-3d
+gsw
+pyproj
+dask
