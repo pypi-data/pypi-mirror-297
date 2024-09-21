@@ -1,0 +1,9 @@
+biodataplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biodataplot/common.py,sha256=_tqaM5iAZb9TkRUbPwRG4Y-vKxL6ybHagY6AtVx12bE,2261
+biodataplot/genomeview.py,sha256=z6UzFYEa2m1kbuTpWuXXyDpCWwib32WDaMH_1vdbMzE,27946
+biodataplot/sequence.py,sha256=0KNW7WASQGEJW861VV5R0WPFF1Dy52cWxqQ5b5TUhbk,1322
+biodataplot/utils.py,sha256=kGoXQpX0oxmmDGPt6qI5xniU5wsm9M_T67h0G5BTFuc,18504
+biodataplot-0.0.1.dist-info/METADATA,sha256=nRTYKOXHuXEPTUu3hi-cPR13pK9EnxntEQ_Y-1lTp6c,5321
+biodataplot-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+biodataplot-0.0.1.dist-info/top_level.txt,sha256=NzotaMwtVFUKxhecGQhCprHGIr-iQisc0QE6zi-cJEk,12
+biodataplot-0.0.1.dist-info/RECORD,,
