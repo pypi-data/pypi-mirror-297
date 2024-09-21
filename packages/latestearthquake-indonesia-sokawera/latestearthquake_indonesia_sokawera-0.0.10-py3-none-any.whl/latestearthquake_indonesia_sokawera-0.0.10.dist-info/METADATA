@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: latestearthquake-indonesia-sokawera
+Version: 0.0.10
+Summary: This package will get the latest earthquake from BMKG | Meteorological, Climatological, and Geophysical Agency
+Home-page: https://prianthon.web.id/
+Author: Pri Anton Subardio
+Author-email: prianthonsubardiodanhugo@gmail.com
+Project-URL: Documentation, https://github.com/prianthonhugo/latest-indonesia-earthquake/wiki
+Project-URL: Bug Tracker, https://github.com/prianthonhugo/latest-indonesia-earthquake/issues
+Project-URL: Source Code, https://github.com/prianthonhugo/latest-indonesia-earthquake
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# Latest Indonesia Earthquake
+This package will get the latest earthquake from BMKG | Meteorological, Climatological, and Geophysical Agency
+
+## HOW IT WORK?
+This package will scrape from [BMKG](https://bmkg.go.id/) to get latest quake happened in Indonesia.
+
+This package will use BeautifulSoup4 and Requests, to produce output in the form of JSON that is ready to be used in web of mobile applications
+
+## HOW TO USE
+```
+from gempaterkini import ekstraksi_data, tampilkan_data
+
+if __name__ == '__main__':
+    result = ekstraksi_data()
+    tampilkan_data(result)
+
+```
+# Author
+Pri Anton Subardio, Prita dan Hugo AB
