@@ -1,0 +1,4 @@
+[console_scripts]
+config-swe-dehyph=swedish_dehyphenator.config:cli
+swe-dehyph=swedish_dehyphenator.swedish_dehyphenator:cli
+
