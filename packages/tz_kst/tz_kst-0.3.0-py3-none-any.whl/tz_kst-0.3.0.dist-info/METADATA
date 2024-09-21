@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tz_kst
+Version: 0.3.0
+Summary: korea`s date/time
+Author-email: Mingk42 <xoals123456t@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# tz-kst
