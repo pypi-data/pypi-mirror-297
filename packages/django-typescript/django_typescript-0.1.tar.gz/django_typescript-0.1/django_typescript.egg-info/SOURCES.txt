@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+django_typescript/__init__.py
+django_typescript/admin.py
+django_typescript/apps.py
+django_typescript/sample-models.py
+django_typescript/tests.py
+django_typescript/views.py
+django_typescript.egg-info/PKG-INFO
+django_typescript.egg-info/SOURCES.txt
+django_typescript.egg-info/dependency_links.txt
+django_typescript.egg-info/requires.txt
+django_typescript.egg-info/top_level.txt
+django_typescript/management/typewriter.py
+django_typescript/management/commands/generate_types.py
+django_typescript/migrations/__init__.py
