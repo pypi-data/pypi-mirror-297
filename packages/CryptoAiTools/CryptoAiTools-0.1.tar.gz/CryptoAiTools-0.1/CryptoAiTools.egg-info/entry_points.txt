@@ -1,0 +1,3 @@
+[console_scripts]
+crypto-bot = CryptoAiTools.bot_creator:main
+run-base = CryptoAiTools.base:run_base
