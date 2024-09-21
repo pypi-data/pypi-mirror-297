@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: image_processing_DIO_JoelPB
+Version: 0.0.1
+Summary: Pacote para o projeto da DIO
+Home-page: https://github.com/JoelPB/image-processing-package-DIO.git
+Author: Joel de Oliveira
+Author-email: coffee.program.joel@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+
+# image_processing
+
+Description. 
+The package image_processing is used to:
+	Processing:
+		- Histogram matching
+		- Structural similarity
+		- Resize image
+	utils:
+		- Read image
+		- Save image
+		- Plot image
+		- Plot result
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image-processing-DIO-JoelPB
+
+```bash
+pip install image-processing-DIO-JoelPB
+```
+
+## Author
+Joel
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
