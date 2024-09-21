@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pfund-hub"
+version = "0.0.1.dev1"
+description = ""
+license = "Apache-2.0"
+authors = ["Stephen Yau <softwareentrepreneer+pfund-hub@gmail.com>"]
+readme = "README.md"
+homepage = "https://pfund.ai"
+repository = "https://github.com/PFund-Software-Ltd/pfund-hub"
+documentation = "https://pfund-hub-docs.pfund.ai"
+keywords = []
+
+[tool.poetry.dependencies]
+python = ">= 3.10 <3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

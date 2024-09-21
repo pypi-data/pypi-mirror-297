@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pfund-hub
+Version: 0.0.1.dev1
+Summary: 
+Home-page: https://pfund.ai
+License: Apache-2.0
+Author: Stephen Yau
+Author-email: softwareentrepreneer+pfund-hub@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentation, https://pfund-hub-docs.pfund.ai
+Project-URL: Repository, https://github.com/PFund-Software-Ltd/pfund-hub
+Description-Content-Type: text/markdown
+
+# pfund_hub
