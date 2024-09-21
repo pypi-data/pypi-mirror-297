@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tests/test_glow.py
+textglow/__init__.py
+textglow/glow.py
+textglow.egg-info/PKG-INFO
+textglow.egg-info/SOURCES.txt
+textglow.egg-info/dependency_links.txt
+textglow.egg-info/top_level.txt
