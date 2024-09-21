@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+giclient/__init__.py
+giclient/authentication.py
+giclient/client.py
+giclient/event_hooks.py
+giclient/manager.py
+giclient/transport.py
+python_greeninvoice_client.egg-info/PKG-INFO
+python_greeninvoice_client.egg-info/SOURCES.txt
+python_greeninvoice_client.egg-info/dependency_links.txt
+python_greeninvoice_client.egg-info/requires.txt
+python_greeninvoice_client.egg-info/top_level.txt
+tests/test-giclient.py
