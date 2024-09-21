@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+chonktxt/__init__.py
+chonktxt/chonktxt.py
+chonktxt.egg-info/PKG-INFO
+chonktxt.egg-info/SOURCES.txt
+chonktxt.egg-info/dependency_links.txt
+chonktxt.egg-info/requires.txt
+chonktxt.egg-info/top_level.txt
+tests/test_chonktxt.py
