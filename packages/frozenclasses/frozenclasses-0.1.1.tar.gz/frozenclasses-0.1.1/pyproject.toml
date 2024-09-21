@@ -1,0 +1,33 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools>=61.0.0",
+]
+
+[project]
+authors = [
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes-programming@posteo.org", name = "Johannes" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+description = "frozenclasses"
+keywords = []
+name = "frozenclasses"
+readme = "README.rst"
+requires-python = ">=3.11"
+version = "0.1.1"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Documentation = "https://pypi.org/project/frozenclasses"
+Download = "https://pypi.org/project/frozenclasses/#files"
+Source = "https://github.com/johannes-programming/frozenclasses"
