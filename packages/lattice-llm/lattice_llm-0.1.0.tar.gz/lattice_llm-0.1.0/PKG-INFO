@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lattice-llm
+Version: 0.1.0
+Summary: A library for building LLM agents as Graphs
+Author: Josh Carver
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3
+Requires-Dist: boto3-stubs[bedrock,bedrock-runtime,essential] (>=1.35.13.post1,<2.0.0)
+Requires-Dist: pydantic (>=2.9.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Lattice LLM
+
+Lattice LLM is a Python library for authoring LLM-powered agents as executable graphs.
+
