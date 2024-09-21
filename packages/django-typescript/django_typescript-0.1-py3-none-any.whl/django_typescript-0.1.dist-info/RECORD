@@ -1,0 +1,14 @@
+django_typescript/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typescript/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_typescript/apps.py,sha256=LgNYfStUKlHKSUom8Bv1oGjEjs_8V4sGP_xw6nWfRRI,204
+django_typescript/sample-models.py,sha256=yJhAJf8RH36P0SjnvHu7TXCq7feTAotO48DBlmdmJdk,1450
+django_typescript/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_typescript/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_typescript/management/typewriter.py,sha256=JebBXig-RtbDs3DbFAG0Fq93YQKuGafU-5Jf7h-OhVU,2773
+django_typescript/management/commands/generate_types.py,sha256=g7P5Q-YsJOn0qrXjtSQXPuTLrYG2dAVCrzKHlPlxg98,8849
+django_typescript/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typescript-0.1.dist-info/LICENSE,sha256=oF5t0JeN0701Fa9CGsL3KhuQfq_0v3wGkpWsKxGWXQ0,1064
+django_typescript-0.1.dist-info/METADATA,sha256=WD6Csu_oPVLHuHi5ibGD5VHZToWCQYFM_VCbnjSBfJY,1512
+django_typescript-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_typescript-0.1.dist-info/top_level.txt,sha256=NlKtw2Fl_4ixZABRUE6I3GR4eMSg0dKQY7EgssvOqmU,18
+django_typescript-0.1.dist-info/RECORD,,
