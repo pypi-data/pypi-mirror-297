@@ -1,0 +1,12 @@
+{
+    "distil_whisper": "distil-whisper/distil-large-v2",
+    "nemo_asr": "nvidia/parakeet-rnnt-1.1b",
+    "sd_medium3": "stabilityai/stable-diffusion-3-medium-diffusers",
+    "pyannote": "pyannote/speaker-diarization-3.1",
+    "agentlm": "/mnt/ssd/Models/Agentlm 7b",
+    "openai_whisper": "openai/whisper-large-v3",
+    "llama3_1_8b_instruct": "/mnt/ssd/Models/Llama-3.1-8B-Instruct",
+    "llama3_8b_instruct": "/mnt/ssd/Models/llama3-instruct/Meta-Llama-3-8B-Instruct"
+
+}
+
