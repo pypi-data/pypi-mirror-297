@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nowtime
+Version: 0.1.4
+Summary: Default template for PDM package
+Author-email: hun0219 <gsw98000@gmail.com>
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: pytz>=2024.2
+
+# nowtime
