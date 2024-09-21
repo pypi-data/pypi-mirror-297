@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: glue_ar
+Version: 0.2
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: gltflib
+Requires-Dist: glue-core
+Requires-Dist: glue-vispy-viewers
+Requires-Dist: pillow
+Requires-Dist: PyMCubes
+Requires-Dist: usd-core
+Provides-Extra: jupyter
+Requires-Dist: glue-jupyter ; extra == 'jupyter'
+Requires-Dist: ipyfilechooser ; extra == 'jupyter'
+Requires-Dist: ipyvuetify ; extra == 'jupyter'
+Provides-Extra: qr
+Requires-Dist: ngrok ; extra == 'qr'
+Requires-Dist: segno ; extra == 'qr'
+Provides-Extra: qt
+Requires-Dist: glue-qt ; extra == 'qt'
+Requires-Dist: PyQt5 ; extra == 'qt'
+Provides-Extra: test
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
