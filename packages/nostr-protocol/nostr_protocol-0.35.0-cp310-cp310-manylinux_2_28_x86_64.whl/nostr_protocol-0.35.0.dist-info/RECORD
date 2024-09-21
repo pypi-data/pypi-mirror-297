@@ -1,0 +1,8 @@
+nostr_protocol/__init__.py,sha256=X6OcEa8_VegHqrJ8I21CorjU1Il6rqrAODT_4vv2CIA,39
+nostr_protocol/libnostr_ffi.so,sha256=9LtQuzfnnvUtfw2EpOHlJZrQohX0pvFayGvTDAHPkmI,13474752
+nostr_protocol/nostr_ffi.py,sha256=hObpdOqcd9dC5jaLRc9tM4b3NOqX12H-Q1nleL15tVs,1058496
+nostr_protocol-0.35.0.dist-info/LICENSE,sha256=Ln_V3wVV_oDiePsxjj-J3UggfbGHmARIL-OzbqeKkYc,1076
+nostr_protocol-0.35.0.dist-info/METADATA,sha256=-pFEiOT4ivSogRqjMx5Oir29VAxgfGCKjqp6zWVaEvk,1792
+nostr_protocol-0.35.0.dist-info/WHEEL,sha256=76-Erm7CtX0y7zYwiubeSdayjCPDUJ3ZP-KqD11my54,114
+nostr_protocol-0.35.0.dist-info/top_level.txt,sha256=Nf7wc8IdQoSQiDcjxoavpSaWwFGk3dFV66M2udYydWs,15
+nostr_protocol-0.35.0.dist-info/RECORD,,
