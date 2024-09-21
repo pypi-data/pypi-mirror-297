@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: amosutils
+Version: 0.0.1
+Summary: Collection of utilities for astronomical observations
+Author: Martin Baláž
+Author-email: martin.balaz@fmph.uniba.sk.sk
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dotmap
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+

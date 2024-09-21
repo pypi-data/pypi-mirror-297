@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "amosutils"
+version = "0.0.1"
+description = "Collection of utilities for astronomical observations"
+authors = ["Martin Baláž <martin.balaz@fmph.uniba.sk.sk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dotmap = "*"
+pyyaml = "*"
+numpy = "*"
+scipy = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
