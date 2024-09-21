@@ -1,0 +1,9 @@
+README.md
+setup.py
+ann_backpropagation_algorithm/__init__.py
+ann_backpropagation_algorithm/main.py
+ann_backpropagation_algorithm.egg-info/PKG-INFO
+ann_backpropagation_algorithm.egg-info/SOURCES.txt
+ann_backpropagation_algorithm.egg-info/dependency_links.txt
+ann_backpropagation_algorithm.egg-info/entry_points.txt
+ann_backpropagation_algorithm.egg-info/top_level.txt
