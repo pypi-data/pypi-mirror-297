@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+license = "MIT"
+name = "areal-common-services"
+dynamic = ["dependencies"]
+version = "1.0.1"
+description = "common & shared code such as models and utilities for Areal project"
+authors = [{ name = "Yagiz Kilicarslan", email = "yagiz.kilicarslan@areal.ai" }]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/Arealai/areal-common-services"
+Documentation = "https://github.com/Arealai/areal-common-services/tree/main/docs"
+Repository = "https://github.com/Arealai/areal-common-services.git"
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/common_services"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.metadata.hooks.requirements_txt]
+filename = "requirements/lock.in"
