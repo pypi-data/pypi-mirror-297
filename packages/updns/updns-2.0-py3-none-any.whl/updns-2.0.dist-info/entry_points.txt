@@ -1,0 +1,2 @@
+[console_scripts]
+updns = updns.updns:main
