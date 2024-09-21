@@ -1,0 +1,15 @@
+[project]
+name = "tz_kst"
+version = "0.2.0"
+description = "korea`s date/time"
+authors = [
+    {name = "Mingk42", email = "xoals123456t@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
