@@ -1,0 +1,11 @@
+.unravelled-diagrams polyline {
+    fill: none;
+}
+
+.unravelled-diagrams polyline:nth-of-type(odd) {
+    marker: url(#marker-disc);
+}
+
+.unravelled-diagrams polyline:nth-of-type(even) {
+    marker: url(#marker-x);
+}
