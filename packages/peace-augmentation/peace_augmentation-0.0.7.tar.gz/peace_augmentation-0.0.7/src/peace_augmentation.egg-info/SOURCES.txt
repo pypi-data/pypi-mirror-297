@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/peace_augmentation/__init__.py
+src/peace_augmentation/easy_data_augmentation.py
+src/peace_augmentation/replace_named_entities.py
+src/peace_augmentation/utils.py
+src/peace_augmentation.egg-info/PKG-INFO
+src/peace_augmentation.egg-info/SOURCES.txt
+src/peace_augmentation.egg-info/dependency_links.txt
+src/peace_augmentation.egg-info/requires.txt
+src/peace_augmentation.egg-info/top_level.txt
