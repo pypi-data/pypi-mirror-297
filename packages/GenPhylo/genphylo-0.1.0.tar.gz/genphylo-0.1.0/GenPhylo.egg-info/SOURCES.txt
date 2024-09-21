@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+GenPhylo/GenPhylo.py
+GenPhylo/__init__.py
+GenPhylo.egg-info/PKG-INFO
+GenPhylo.egg-info/SOURCES.txt
+GenPhylo.egg-info/dependency_links.txt
+GenPhylo.egg-info/top_level.txt
+genphylo.egg-info/PKG-INFO
+genphylo.egg-info/SOURCES.txt
+genphylo.egg-info/dependency_links.txt
+genphylo.egg-info/top_level.txt
