@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pympmyansi
+Version: 0.2.0
+Summary: 
+Author: lawnchairmeku
+Author-email: mekumotoki@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Pymp My Ansi
+
+Handles my ANSI escape code needs. Primitive and basic for now, hopefully to expand to cover all of my terminal manipulation needs in the future.
+
