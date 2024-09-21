@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: lokeshk
+Version: 0.1
+Summary: A package to install a collection of ML packages
+Author: Lokesh
+Author-email: lokeshkcse314@gmail.com
+Requires-Python: >=3.6
