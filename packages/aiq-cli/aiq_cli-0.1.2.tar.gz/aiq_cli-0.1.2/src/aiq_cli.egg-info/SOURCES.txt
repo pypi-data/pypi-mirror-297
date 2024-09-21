@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiq/__init__.py
+src/aiq/aiq.py
+src/aiq/classify.py
+src/aiq/common.py
+src/aiq/embed.py
+src/aiq/label.py
+src/aiq/train.py
+src/aiq_cli.egg-info/PKG-INFO
+src/aiq_cli.egg-info/SOURCES.txt
+src/aiq_cli.egg-info/dependency_links.txt
+src/aiq_cli.egg-info/entry_points.txt
+src/aiq_cli.egg-info/requires.txt
+src/aiq_cli.egg-info/top_level.txt
