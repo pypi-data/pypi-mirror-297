@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pycalfhello
+Version: 0.3
+Summary: A harmless package to prevent exploitation
+Author: Paolo Raffini
+Author-email: test@test.com
+License-File: LICENSE.txt
