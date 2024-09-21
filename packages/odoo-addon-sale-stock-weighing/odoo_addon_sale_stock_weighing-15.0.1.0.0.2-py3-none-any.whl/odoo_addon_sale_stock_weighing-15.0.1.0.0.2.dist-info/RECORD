@@ -1,0 +1,15 @@
+odoo/addons/sale_stock_weighing/README.rst,sha256=hllbBJ0D8WQt59uP10JtFrW8VGrcpAsQtJI9-kuu-sw,2929
+odoo/addons/sale_stock_weighing/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/sale_stock_weighing/__manifest__.py,sha256=CdaBJU67a0qoX5sb1OSCAYRSgg42QIe1qyNHJlnQhJo,552
+odoo/addons/sale_stock_weighing/i18n/sale_stock_weighing.pot,sha256=YAkHX3GS-uaVc9yH_-MaCgClJBmLC3CnSEUq4vuOh_4,648
+odoo/addons/sale_stock_weighing/models/__init__.py,sha256=JKM5aPOIm-dfz_sqkWHanPuPoSBKjGtEp6aHsgkacuQ,25
+odoo/addons/sale_stock_weighing/models/stock_move.py,sha256=DLiq0UYQa_aQ-lasLJx-WGqqArDpk4og9z9EI2IwbMY,312
+odoo/addons/sale_stock_weighing/readme/CONTRIBUTORS.md,sha256=scZbrZohbqxUuyDOfP_LdDr8q10FU9IufodyncItvBM,75
+odoo/addons/sale_stock_weighing/readme/DESCRIPTION.md,sha256=bRN7gmiNzeuQOFErV7TU8eibtfoXetjp_JOCsG-lXDY,55
+odoo/addons/sale_stock_weighing/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_stock_weighing/static/description/index.html,sha256=83dehfTJ21aorpOMa_5UQU2qtsf34qh9m_rYkjrjIHI,12206
+odoo/addons/sale_stock_weighing/views/stock_move_views.xml,sha256=slbE-lZJopYaB-IFEwNL7jCy4hFSKHwdYubBpDvsLjo,1071
+odoo_addon_sale_stock_weighing-15.0.1.0.0.2.dist-info/METADATA,sha256=bo4wp0IxvihI7pr9GMi-CEoj2wO5YEELERcNJqXgUEA,3518
+odoo_addon_sale_stock_weighing-15.0.1.0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo_addon_sale_stock_weighing-15.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_sale_stock_weighing-15.0.1.0.0.2.dist-info/RECORD,,
