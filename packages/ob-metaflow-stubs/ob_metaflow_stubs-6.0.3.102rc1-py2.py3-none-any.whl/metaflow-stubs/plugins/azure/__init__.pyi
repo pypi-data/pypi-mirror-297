@@ -1,0 +1,12 @@
+##################################################################################
+#                       Auto-generated Metaflow stub file                        #
+# MF version: 2.12.22.1+obcheckpoint(0.0.10);ob(v1)                              #
+# Generated on 2024-09-20T18:51:04.505777                                        #
+##################################################################################
+
+from __future__ import annotations
+
+
+def create_azure_credential():
+    ...
+
