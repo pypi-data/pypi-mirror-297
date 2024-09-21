@@ -1,0 +1,2 @@
+[console_scripts]
+dco-check = dco_check.dco_check:main
