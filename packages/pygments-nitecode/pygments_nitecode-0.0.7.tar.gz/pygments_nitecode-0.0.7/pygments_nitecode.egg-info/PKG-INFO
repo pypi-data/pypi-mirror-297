@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pygments-nitecode
+Version: 0.0.7
+Summary: Pygments lexer package for NiteCode language.
+Home-page: https://github.com/NiTiSon/pygment_nitecode
+Author: NiTiSon
+License: MIT License
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: Pygments>=2.0.1
