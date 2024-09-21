@@ -1,0 +1,6 @@
+research_and_report:
+  description: >
+    Research and report on given topic
+  inputs:
+    topic : >
+      The topic you will be researching and reporting on. 
