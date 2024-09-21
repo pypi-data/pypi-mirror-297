@@ -1,0 +1,9 @@
+Metadata-Version: 2.3
+Name: limalight
+Version: 0.1.0
+Summary: A flexible display library for the Limonada Journaling Project, supporting both OLED hardware and terminal output.
+Requires-Python: >=3.11
+Requires-Dist: pillow>=10.4.0
+Provides-Extra: rpi
+Requires-Dist: adafruit-circuitpython-ssd1306>=2.12.17; extra == 'rpi'
+Requires-Dist: rpi-gpio>=0.7.1; extra == 'rpi'
