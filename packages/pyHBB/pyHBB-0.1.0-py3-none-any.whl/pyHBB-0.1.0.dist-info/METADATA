@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyHBB
+Version: 0.1.0
+Summary: testing py package.
+Home-page: https://github.com/Waqar-107/testPyHHB
+Author: Waqar Hassan Khan
+Author-email: Waqar Hassan Khan <wkhan17@asu.edu>
+License: MIT
+Project-URL: homepage, https://github.com/Waqar-107/testPyHHB
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: huffpress (>=1.0.54)
+
+# testPyHHB
+
+A simple Python library to greet someone.
