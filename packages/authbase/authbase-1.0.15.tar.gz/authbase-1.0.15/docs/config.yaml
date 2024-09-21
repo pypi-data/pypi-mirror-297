@@ -1,0 +1,5 @@
+---
+Title: AuthBase
+Header: |
+    # AuthBase
+    Email-only authentication for FastAPI webapps.
