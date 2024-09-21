@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: prettyprintplus
+Version: 0.1.1
+Summary: A Python package for beautifying terminal output and tables
+Home-page: https://github.com/hridesh-net/prettyprintplus.git
+Author: Hridesh
+Author-email: hridesh.khandal@gmail.com
+Project-URL: Bug Tracker, https://github.com/hridesh-net/prettyprintplus/projects?query=is%3Aopen
+Keywords: prettyprintplus print table docs pprint dataset beautify
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Table Creation Example
+
+The `Table` class allows you to create and print structured tables with headers and rows.
+
+### Example:
+
+```python
+from prettyprintplus import Table
+
+# Define table headers
+table = Table(headers=["Name", "Age", "City"])
+
+# Add rows to the table
+table.add_row(["Alice", "30", "New York"])
+table.add_row(["Bob", "25", "Los Angeles"])
+
+# Access specific data
+print(table.get_row(1))  # Outputs: ['Bob', '25', 'Los Angeles']
+print(table.get_column("City"))  # Outputs: ['New York', 'Los Angeles']
+
+# Print the table
+table.print()
