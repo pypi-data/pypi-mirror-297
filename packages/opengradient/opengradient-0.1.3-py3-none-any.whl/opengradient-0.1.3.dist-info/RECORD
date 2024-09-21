@@ -1,0 +1,10 @@
+opengradient/__init__.py,sha256=Xms_WP6rfu33xkyUS4n4NOjJXvZA1gWBWK0q3LeT7q0,1577
+opengradient/client.py,sha256=Z0jZiq5qm51ndHg6cZUF36vMw1jWGEuwz632OJJG3uc,16570
+opengradient/exceptions.py,sha256=v4VmUGTvvtjhCZAhR24Ga42z3q-DzR1Y5zSqP_yn2Xk,3366
+opengradient/types.py,sha256=NTWQ0HvglQA7d8y6OQDkymToSdCq4NnrVtwQwm_NMMU,1857
+opengradient/utils.py,sha256=HOnAWLViQy_5p2MakMKEsLTQiPy628zzk-w-yh46ZaE,4765
+opengradient-0.1.3.dist-info/LICENSE,sha256=xEcvQ3AxZOtDkrqkys2Mm6Y9diEnaSeQRKvxi-JGnNA,1069
+opengradient-0.1.3.dist-info/METADATA,sha256=TxvPVmV2uWN8eKGDwVPqXQTiy43JnWrNP-InDv5DiPY,2997
+opengradient-0.1.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+opengradient-0.1.3.dist-info/top_level.txt,sha256=oC1zimVLa2Yi1LQz8c7x-0IQm92milb5ax8gHBHwDqU,13
+opengradient-0.1.3.dist-info/RECORD,,
