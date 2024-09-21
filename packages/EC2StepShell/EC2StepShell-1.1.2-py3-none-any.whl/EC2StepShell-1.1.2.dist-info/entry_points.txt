@@ -1,0 +1,2 @@
+[console_scripts]
+ec2stepshell = ec2stepshell.__main__:main
