@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: persunraveltorch
+Version: 0.0.2
+Summary: Unravelled Persistence in PyTorch
+Home-page: https://git.sr.ht/~bfluhr/persunraveltorch
+License: BSD-3-Clause
+Author: Benedikt Fluhr
+Author-email: pypi@bfluhr.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: torch (>=2.3.1)
+Project-URL: Documentation, https://persunraveltorch.neocities.org/latest/
+Project-URL: Repository, https://git.sr.ht/~bfluhr/persunraveltorch
+Description-Content-Type: text/markdown
+
+# `persunraveltorch`: Unravelled Persistence in Pytorch
+
+[`persunraveltorch`](https://pypi.org/project/persunraveltorch/)
+is a Python package for unravelled persistence in PyTorch.
+See
+[here for the documentation](https://persunraveltorch.neocities.org/latest/).
+
