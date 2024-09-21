@@ -1,0 +1,159 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 24 11:54:32 2022
+
+@author: user
+"""
+import os,sys
+from datetime import datetime
+import os
+import sys
+import uuid
+import random
+import hashlib
+import inspect
+
+FORCE_LOG_SUFFIX = False
+LOG_SUFFIX = None
+ENABLE_LOG = True
+
+def set_log_suffix(log_suffix):
+    global LOG_SUFFIX
+    LOG_SUFFIX = log_suffix
+    _set_force_log_suffix()
+    
+def _set_force_log_suffix(force=True):
+    global FORCE_LOG_SUFFIX 
+    FORCE_LOG_SUFFIX = force
+    
+def enable_log():
+    global ENABLE_LOG
+    ENABLE_LOG = True
+
+def disable_log():
+    global ENABLE_LOG
+    ENABLE_LOG = False
+        
+def _call_source():
+    result = inspect.getouterframes(inspect.currentframe(), 2)
+    return str(result[0][1])     
+
+def _string_to_seed(seed_string):
+    return int(hashlib.sha256(seed_string.encode()).hexdigest(), 16)
+
+def _generate_uuid4(seed_string):
+    seed = _string_to_seed(seed_string)
+    random.seed(seed)
+
+    random_bytes = random.getrandbits(128).to_bytes(16, 'big')
+    # Set the UUID version to 4 (UUID4)
+    random_bytes = (random_bytes[:6] + bytes([random_bytes[6] & 0x0f | 0x40]) + random_bytes[7:])
+    key = uuid.UUID(bytes=random_bytes) 
+    
+    random.seed(None)  
+    return key
+
+    # reset random seed
+           
+
+def _get_logging_info():
+    logdir = os.path.join(os.getcwd(),'logs')
+    if not os.path.exists(logdir):
+        os.makedirs(logdir)
+        
+    seedstring = _call_source()
+    suffix_uuid = _generate_uuid4(seedstring.lower())
+
+    return logdir,suffix_uuid  
+        
+def save_log(logdir,log_suffix,text):
+    dt = f"{datetime.now().strftime('%Y%m%d')}"  
+    savename = f"{dt}_{log_suffix}.txt"
+    
+    if not os.path.exists(logdir):
+        os.makedirs(logdir)
+        
+    savepath = os.path.join(logdir,savename)
+    if not os.path.exists(savepath):
+        with open(savepath,'w') as fid:
+            fid.write(f"Created time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+
+    with open(savepath,'a') as fid:
+        fid.write('%s\n'%text)
+    
+def print_debug(*arg,**kwargs):
+    try:
+        text = ' '.join(arg)
+    except:
+        text = arg
+    
+    force_print = kwargs.get('force_print',False)
+    disable_timepath = kwargs.get('disable_timepath',False)
+    disable_log = kwargs.get('disable_log',False)
+    log_suffix = kwargs.get('log_suffix',None)
+    
+    logdir,suffix_uuid = _get_logging_info()
+    if log_suffix is None:
+        log_suffix = suffix_uuid
+    
+    if FORCE_LOG_SUFFIX:
+        if LOG_SUFFIX is not None:
+            log_suffix = LOG_SUFFIX
+            
+    if ENABLE_LOG:
+        enable_log_system = True
+    else:
+        enable_log_system = False
+        
+    # if (os.environ.get("NEUON_DEBUG") == '1') or force_print:
+    if disable_timepath:
+        text_to_print = text
+        
+        # [print(text)]
+    else:
+        try:
+            text_to_print = '[%s][%s] %s [%s]'%(
+                datetime.now().strftime('%y%m%d%H%M%S'),
+                os.path.basename(''.join((sys._getframe().f_back.f_globals['__file__']).split('.')[0:-1])),
+                text,
+                sys._getframe().f_back.f_code.co_name
+                )
+            # print('[%s][%s] %s [%s]'%(
+            #     datetime.now().strftime('%y%m%d%H%M%S'),
+            #     os.path.basename(''.join((sys._getframe().f_back.f_globals['__file__']).split('.')[0:-1])),
+            #     text,
+            #     sys._getframe().f_back.f_code.co_name
+            #     ))
+        except KeyError as e:
+            if e.args[0] == '__file__':
+                text_to_print = '[%s] %s [%s]'%(
+                    datetime.now().strftime('%y%m%d%H%M%S'),
+                    text,
+                    sys._getframe().f_back.f_code.co_name
+                    )
+                
+                # print('[%s] %s [%s]'%(
+                #     datetime.now().strftime('%y%m%d%H%M%S'),
+                #     text,
+                #     sys._getframe().f_back.f_code.co_name
+                #     ))   
+
+            else:
+                raise KeyError(str(e))  
+                    
+    if (not disable_log) and enable_log_system:
+        save_log(logdir,log_suffix,text_to_print)
+        
+    if (os.environ.get("NEUON_DEBUG") == '1') or force_print: 
+        print(text_to_print)
+            
+            
+def enable_debug_print():
+    os.environ["NEUON_DEBUG"] = '1'
+    
+def disable_debug_print():
+    os.environ["NEUON_DEBUG"] = ''
+    
+if __name__ == '__main__': 
+    print_debug("Test print")
+    
