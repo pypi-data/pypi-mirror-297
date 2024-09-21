@@ -1,0 +1,16 @@
+##################################################################################
+#                       Auto-generated Metaflow stub file                        #
+# MF version: 2.12.21                                                            #
+# Generated on 2024-09-19T17:04:54.825261                                        #
+##################################################################################
+
+from __future__ import annotations
+
+
+CURRENT_DIRECTORY: str
+
+INFO_FILE: str
+
+def read_info_file():
+    ...
+
