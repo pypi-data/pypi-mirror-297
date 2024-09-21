@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+jssyntax/__init__.py
+jssyntax/index.py
+jsyntax.egg-info/PKG-INFO
+jsyntax.egg-info/SOURCES.txt
+jsyntax.egg-info/dependency_links.txt
+jsyntax.egg-info/top_level.txt
