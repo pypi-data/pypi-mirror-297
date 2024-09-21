@@ -1,0 +1,20 @@
+# via conda forge
+pandas
+Shapely
+geopandas
+matplotlib
+geopy
+fiona
+networkx
+contextily
+pytest
+pytest-cov
+pytest-xdist
+xmlschema
+lxml
+tqdm
+tables
+defusedxml
+# via pip
+#pandapower
+#pandapipes

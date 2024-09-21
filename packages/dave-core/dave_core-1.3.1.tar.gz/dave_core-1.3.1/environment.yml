@@ -1,0 +1,25 @@
+name: dave_core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.5
+  - shapely
+  - geopandas
+  - matplotlib
+  - geopy
+  - fiona
+  - networkx
+  - contextily
+  - pytest
+  - pytest-cov
+  - pytest-xdist
+  - openpyxl
+  - xmlschema
+  - lxml
+  - tqdm
+  - tables
+  - defusedxml
+  - pip
+  - pip:
+      - pandapower
+      - pandapipes
