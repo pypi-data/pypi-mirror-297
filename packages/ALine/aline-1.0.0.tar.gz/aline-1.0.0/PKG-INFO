@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ALine
+Version: 1.0.0
+Summary: Line Analyser
+Home-page: https://github.com/BOXERRMD/ALine_module
+Author: BOXER
+Author-email: vagabonwalybi@gmail.com
+Maintainer: BOXER
+Maintainer-email: vagabonwalybi@gmail.com
+Project-URL: Documentation, https://github.com/BOXERRMD/ALine_module/wiki
+Project-URL: GitHub, https://github.com/BOXERRMD/ALine_module
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: immutable-Python-type==1.1.0
+
+A library for analyse lines and debug
