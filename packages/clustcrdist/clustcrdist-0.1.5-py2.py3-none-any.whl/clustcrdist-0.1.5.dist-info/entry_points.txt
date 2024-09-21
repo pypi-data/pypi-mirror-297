@@ -1,0 +1,2 @@
+[console_scripts]
+clustcrdist = clustcrdist.run_pipeline:main
