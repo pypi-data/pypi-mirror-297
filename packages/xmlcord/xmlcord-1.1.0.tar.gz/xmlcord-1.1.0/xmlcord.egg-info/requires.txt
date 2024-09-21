@@ -1,0 +1,2 @@
+aiohttp
+discord>=2.4.0
