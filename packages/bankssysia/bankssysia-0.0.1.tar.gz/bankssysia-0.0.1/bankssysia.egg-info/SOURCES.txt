@@ -1,0 +1,8 @@
+README.md
+setup.py
+bank_sysiaia/__init__.py
+bank_sysiaia/bank.py
+bankssysia.egg-info/PKG-INFO
+bankssysia.egg-info/SOURCES.txt
+bankssysia.egg-info/dependency_links.txt
+bankssysia.egg-info/top_level.txt
