@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: massprince
+Version: 1.0
+Summary: A package containing basic math utilities
+Author: vishwa
+Author-email: vishwa@automationhub@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
