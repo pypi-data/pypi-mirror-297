@@ -1,0 +1,15 @@
+siliconcompiler>=0.28.1
+Jinja2>=3.1.2
+lambdapdk>=0.1.32
+lambdalib>=0.2.10
+
+[dev]
+flake8==7.1.1
+pytest==8.3.3
+pytest-xdist==3.6.1
+tclint==0.4.0
+codespell==2.3.0
+
+[docs]
+sphinx==7.4.7
+sphinx-rtd-theme==2.0.0
