@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tool_calling_llm"
+version = "0.1.1"
+description = "Convert any LangChain Chat Model into a Tool Calling LLM"
+authors = ["Karim Lalani <jimmy00784@gmail.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+langchain = ">=0.3,<0.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+pytest-asyncio = "*"
+langchain-community = ">=0.3,<0.4"
+langchain-ollama = ">=0.2"
+litellm = "*"
+xmltodict = "*"
+duckduckgo_search = "*"
+
+[tool.poetry.urls]
+Homepage = "https://github.com/lalanikarim/tool_calling_llm"
+Issues = "https://github.com/lalanikarim/tool_calling_llm/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
