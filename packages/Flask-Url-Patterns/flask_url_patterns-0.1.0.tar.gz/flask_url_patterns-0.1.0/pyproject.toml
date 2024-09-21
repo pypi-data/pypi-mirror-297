@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Flask-Url-Patterns"
+version = "0.1.0"
+description = "A simple Flask extension to manage URL patterns. In a Django kind of way."
+authors = ["Quentin Boudinel <quentin.boudinel@atelier-26.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+flask = "^3.0.3"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
