@@ -1,0 +1,12 @@
+apiverve_emojilookup/__init__.py,sha256=FdYXWIXyUqSCZW7mTT7urhKu3l15NCqyeVb0R-7xfBk,37
+apiverve_emojilookup/apiClient.py,sha256=89GsqwmZLQa_pquzkiUx3mtRF7oBm53pvYhOqWonoHU,1205
+apiverve_emojilookup/exceptions.py,sha256=i8nN7cSGBlAAQaGS7LAEnz2g47bwfmchCY4_vYxCHZ0,99
+apiverve_emojilookup/setup.py,sha256=Zb7QR8wiCKSjlb_VBKxh8CGz2S_nV9Tqsb6XFtdJTdA,916
+apiverve_emojilookup/setup_dep.py,sha256=oj99oPZF1oN3CaP8Br8dmIkDXz5B06_cMaPlfPQcoms,615
+apiverve_emojilookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_emojilookup/tests/test_api.py,sha256=w6pObJVRQBFKDubTY_5oeIrP86PLW-S_IeCG_zu_30k,605
+apiverve_emojilookup-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_emojilookup-1.1.5.dist-info/METADATA,sha256=HCcmLS76C0Big3D4njV5KegCOz4E134852RdmNkjLv0,5657
+apiverve_emojilookup-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_emojilookup-1.1.5.dist-info/top_level.txt,sha256=j6-mjn6ehoQjvtcoTaw_NsfhD8NrFcXQDZ7UAVhb6a8,21
+apiverve_emojilookup-1.1.5.dist-info/RECORD,,
