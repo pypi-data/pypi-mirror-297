@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "speedy-utils"
+version = "0.1.0"  # Placeholder version, use setuptools-scm in the CI/CD pipeline to set the version dynamically
+description = "Fast and easy-to-use package for data science"
+authors = ["AnhVTH <anhvth.226@gmail.com>"]
+readme = "README.md"  # Assuming there's a README file
+homepage = "https://github.com/anhvth/speedy"
+
+[tool.poetry.dependencies]
+python = "^3.8"  # Specify appropriate Python version if needed
+numpy = "*"
+requests = "*"
+xxhash = "*"
+loguru = "*"
+fastcore = "*"
+debugpy = "*"
+ipywidgets = "*"
+jupyterlab = "*"
+ipdb = "*"
+scikit-learn = "*"
+matplotlib = "*"
+pandas = "*"
+tabulate = "*"
+pydantic = "*"
+
+[build-system]
+requires = ["setuptools>=42", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
