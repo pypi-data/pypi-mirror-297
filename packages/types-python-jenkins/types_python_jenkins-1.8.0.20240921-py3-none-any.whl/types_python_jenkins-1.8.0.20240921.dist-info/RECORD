@@ -1,0 +1,9 @@
+jenkins-stubs/METADATA.toml,sha256=4ANixHCOo13h8Rj-fQs16KidfYRvCQs8WZHjY_57Q5M,111
+jenkins-stubs/__init__.pyi,sha256=T-IffG7NXmfN4RAP-hxgyVrQbqn530f_WVkEu11cQIM,10981
+jenkins-stubs/plugins.pyi,sha256=zS8tZqoCu9fhquJ4y4730luEZk_pIlsDdM4u97J1Nls,620
+jenkins-stubs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jenkins-stubs/version.pyi,sha256=7b5kqy_Cepc26Sd_DV9QMIrE_NLFjr3OaV-tO1I8UJQ,86
+types_python_jenkins-1.8.0.20240921.dist-info/METADATA,sha256=sf0wKW1HvB099ZWQxAuBVwFbt8wcaObqQIEJakt8DYQ,1737
+types_python_jenkins-1.8.0.20240921.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+types_python_jenkins-1.8.0.20240921.dist-info/top_level.txt,sha256=Mms30KStOH6jzQKK5CgePh2cOKsv50xW7c5C9YK3p6g,14
+types_python_jenkins-1.8.0.20240921.dist-info/RECORD,,
