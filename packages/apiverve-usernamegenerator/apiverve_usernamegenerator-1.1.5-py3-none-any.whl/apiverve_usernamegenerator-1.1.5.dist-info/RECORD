@@ -1,0 +1,12 @@
+apiverve_usernamegenerator/__init__.py,sha256=UFCadnx_exk69M3ylHgJV7steqAI2jb2zyPuSJn8VQg,49
+apiverve_usernamegenerator/apiClient.py,sha256=oOMcFwuY6g9tL7MEBLzth3VkPvagHJSr7iSCHGRMBfs,1241
+apiverve_usernamegenerator/exceptions.py,sha256=yA968ItN2mSgio7UbRLA5kl9SEtVOZAvJ5Ni1ulAMAs,117
+apiverve_usernamegenerator/setup.py,sha256=48828u9-clVzt7u5fvx65HZl4pyoWBzw4y5MPXsp880,954
+apiverve_usernamegenerator/setup_dep.py,sha256=YLrTvwD2gP1sZLC8AhQW96CE4_5162pPRizWxZoVDy0,653
+apiverve_usernamegenerator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_usernamegenerator/tests/test_api.py,sha256=JGMuF3Qhwmd5jk2dwKxNTPCweG2AUzfZdlxnQ_duxRM,635
+apiverve_usernamegenerator-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_usernamegenerator-1.1.5.dist-info/METADATA,sha256=XNWT-6ETN8iORzp8qE8nRFRzuU2DQsoBZroOkcRnTWU,5844
+apiverve_usernamegenerator-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_usernamegenerator-1.1.5.dist-info/top_level.txt,sha256=3vnbYAtGQ7nIXzGsoU1L-WM9qeoALWTDQMkX0O3SLsE,27
+apiverve_usernamegenerator-1.1.5.dist-info/RECORD,,
