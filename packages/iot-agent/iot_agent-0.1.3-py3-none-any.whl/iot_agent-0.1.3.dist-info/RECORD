@@ -1,0 +1,6 @@
+iot_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iot_agent/main.py,sha256=LKnX42D2fX-ppkZjfOqmlFguF37yNTBAd4P05cZtVRM,16765
+iot_agent-0.1.3.dist-info/METADATA,sha256=Umw0Z_UgCmclg4Zt0sdRjQ60UYCkLe7Vz6bMxQvmCx8,13716
+iot_agent-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+iot_agent-0.1.3.dist-info/entry_points.txt,sha256=X01yKbDTMsRQDu2-pA1ellQkI1G1YaUtQ0PXOBfw82s,49
+iot_agent-0.1.3.dist-info/RECORD,,
