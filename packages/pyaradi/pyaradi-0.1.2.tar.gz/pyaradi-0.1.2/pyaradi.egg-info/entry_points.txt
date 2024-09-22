@@ -1,0 +1,2 @@
+[console_scripts]
+pyaradi = pyaradi.aradi_arg:main
