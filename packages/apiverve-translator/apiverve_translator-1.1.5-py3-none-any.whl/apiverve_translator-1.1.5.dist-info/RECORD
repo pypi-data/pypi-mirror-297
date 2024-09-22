@@ -1,0 +1,12 @@
+apiverve_translator/__init__.py,sha256=byCC-201JVfyNNDi4Mo3xYL10KL4d7OO6bQhuPdW-os,42
+apiverve_translator/apiClient.py,sha256=w3f1SmvAM_0xi1MV2RHmd99yTxXghx70mGCqQXRVMlc,1221
+apiverve_translator/exceptions.py,sha256=9_bI7UEaAPNcHPnNR90UKYlimREC5RovvHNpGw0YjBE,103
+apiverve_translator/setup.py,sha256=-UotbPWuOmN2MGig4B3SMQ6H21vIV9TPduq8fk5__TI,903
+apiverve_translator/setup_dep.py,sha256=mcCp6STtZV_Qd8RELQQIIU2v78EGxsnMGvJnVHnWuCo,602
+apiverve_translator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_translator/tests/test_api.py,sha256=vY4n0kNCleannt7dDnPWlD-9m3lrOLhheSwN70qfVMs,614
+apiverve_translator-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_translator-1.1.5.dist-info/METADATA,sha256=IAyrt26iWLjYaPUlmDdE0KmbV8msX26xi_eSQ4G7nu4,5504
+apiverve_translator-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_translator-1.1.5.dist-info/top_level.txt,sha256=RA69c65cbhb6A8u-uydG9fp8qjz__0Uam5mQHdtyZr4,20
+apiverve_translator-1.1.5.dist-info/RECORD,,
