@@ -1,0 +1,16 @@
+DevCommit-0.1.1.data/data/scripts/create_dcommit.py,sha256=G5c_1SESqYVJGepfEbRW6qsZKuO87i9urku_kK7Kly0,707
+devcommit/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+devcommit/main.py,sha256=JFqCGJPerCUTDlgFnYl3NIag0igdBcmOBUxQg8h_nUE,4036
+devcommit/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcommit/app/gemini_ai.py,sha256=KWGYwQJWwzr6SpUr89frG8QmTJrXprn-3nX9el_lUuc,2152
+devcommit/app/prompt.py,sha256=Axin6_gKWTTzxDFImPzOuamSaLpvcShYURzYztZ-58c,3298
+devcommit/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcommit/utils/git.py,sha256=nYUkIaJpmUmxKz8V4Zgo90ksV4UnKwh0qP7vv4L3G0U,2524
+devcommit/utils/logger.py,sha256=DgrK38ObfgNKR25PnxKYZPi1qFkkpWTl4A0ARcYUYJw,1076
+devcommit/utils/parser.py,sha256=J_w5uq9dZnezS62XS4cE-0x1wUkDQOcGHBb_jryujpc,1344
+DevCommit-0.1.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+DevCommit-0.1.1.dist-info/METADATA,sha256=M6TbYrTil2giebBbW-L9GJYjS0ojOPd3nOUA1d7ETzo,795
+DevCommit-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+DevCommit-0.1.1.dist-info/entry_points.txt,sha256=FNccdAee4pPCwkyAMR9UGbr6DxzPAkLG30N5WhVhzoY,105
+DevCommit-0.1.1.dist-info/top_level.txt,sha256=SpsKPGVSXFz29UVqcsCaU1zaj82AIsyrMNBCeaSLlR0,10
+DevCommit-0.1.1.dist-info/RECORD,,
