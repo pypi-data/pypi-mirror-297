@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_recipes/__init__.py
+src/apiverve_recipes/apiClient.py
+src/apiverve_recipes/exceptions.py
+src/apiverve_recipes/setup.py
+src/apiverve_recipes/setup_dep.py
+src/apiverve_recipes.egg-info/PKG-INFO
+src/apiverve_recipes.egg-info/SOURCES.txt
+src/apiverve_recipes.egg-info/dependency_links.txt
+src/apiverve_recipes.egg-info/top_level.txt
+src/apiverve_recipes/tests/__init__.py
+src/apiverve_recipes/tests/test_api.py
+tests/test_api.py
