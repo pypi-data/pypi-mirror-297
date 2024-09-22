@@ -1,0 +1,2 @@
+[console_scripts]
+square-images = quinn_image_processing.script:main
