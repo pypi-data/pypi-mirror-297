@@ -1,0 +1,15 @@
+jkGlyphsHelpers/__init__.py,sha256=IIIV4zQ-xxVcr8P1PZrYTtSeRmQmtBQ6ch2CQIf1YfM,18
+jkGlyphsHelpers/forAll.py,sha256=bDTLvMrIMmRBMz2iPucCJvEC61a9FIOC4-ytoOrXzG4,1986
+jkGlyphsHelpers/forSelected.py,sha256=ser3uLN6hcxQMuNUS2FZhPA0HYMy4nsRtAUCKa06Dm4,1315
+jkGlyphsHelpers/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jkGlyphsHelpers/file/plist.py,sha256=ehQrhiR9cojSJXwLJMs7skilsdibk7qLJ4BSzYAYczo,838
+jkGlyphsHelpers/file/yaml.py,sha256=dEgrclNrxhlJdRBJNna8GL69bY1K3OJfej6jx4v1NHg,863
+jkGlyphsHelpers/hintingPS/__init__.py,sha256=USzc2jfTu0k43z9vKsgpHSxcXwOAbY8yvKYZsfo4HuM,39
+jkGlyphsHelpers/hintingPS/ocd.py,sha256=HoB6gO5TFWclZht8LGFLA3IyzvkutSNLtG-gpmSrwHQ,1758
+jkGlyphsHelpers/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jkGlyphsHelpers/ui/dialogs.py,sha256=R1nJiGBj2709VEAmHJBMZ6C7Dl4BYKX1yUHVSZjLYMw,535
+jkGlyphsHelpers-0.1.0.dist-info/LICENSE,sha256=_m0Lr47G0Ry4TZO9KjVLa1KT7hiXPYVjTJlGndmgelg,1069
+jkGlyphsHelpers-0.1.0.dist-info/METADATA,sha256=C6J7vu1rA6RyIquNw2Lc9fmwx4otKoEgYFVfsdG77E4,1169
+jkGlyphsHelpers-0.1.0.dist-info/WHEEL,sha256=AHX6tWk3qWuce7vKLrj7lnulVHEdWoltgauo8bgCXgU,109
+jkGlyphsHelpers-0.1.0.dist-info/top_level.txt,sha256=3XFZoHgPneqtvPrEjyzhUgKks_jYFh4ymNvx-fI619I,16
+jkGlyphsHelpers-0.1.0.dist-info/RECORD,,
