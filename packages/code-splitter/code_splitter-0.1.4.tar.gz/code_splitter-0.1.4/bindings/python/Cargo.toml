@@ -1,0 +1,27 @@
+[package]
+name = "code-splitter-python"
+readme = false
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+repository.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "code_splitter"
+crate-type = ["cdylib"]
+
+[dependencies]
+code-splitter = { path = "../..", features = ["tiktoken-rs", "tokenizers"] }
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+tiktoken-rs = "0.5.9"
+tokenizers = { version = "0.19.1", features = ["http"] }
+tree-sitter = "0.22"
+tree-sitter-go = "0.21"
+tree-sitter-md = "0.2"
+tree-sitter-python = "0.21"
+tree-sitter-rust = "0.21"
