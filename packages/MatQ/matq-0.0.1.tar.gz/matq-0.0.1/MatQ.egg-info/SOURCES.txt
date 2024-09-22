@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+MatQ/__init__.py
+MatQ/core.py
+MatQ.egg-info/PKG-INFO
+MatQ.egg-info/SOURCES.txt
+MatQ.egg-info/dependency_links.txt
+MatQ.egg-info/top_level.txt
+tests/test_core.py
