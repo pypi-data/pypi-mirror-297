@@ -1,0 +1,12 @@
+apiverve_reversegeocode/__init__.py,sha256=fQ4cZVVRJVp82BxDST11HqWgkhFr8oZKf34h8mhhQUI,46
+apiverve_reversegeocode/apiClient.py,sha256=m3V6o8YBLEEKp5BDDphtlkslEZogtCSKpE82sk0mtQY,1232
+apiverve_reversegeocode/exceptions.py,sha256=FyI2_p5yrQnWKSJUHUo44rf4Qv78V4Hq3Q31bJJW2lo,111
+apiverve_reversegeocode/setup.py,sha256=C3aIyDtrh5BUTRu7b0gKAD0cw0qEnHBlLLZTEYz9TXg,988
+apiverve_reversegeocode/setup_dep.py,sha256=LJOTPTmt0rW5xPAYJxJselDuNreMkm3V94RYu-0WFkw,687
+apiverve_reversegeocode/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_reversegeocode/tests/test_api.py,sha256=5-P5CjxJlnud1f2rOelfh5Sc7RqCosI3653VkaWOwMQ,626
+apiverve_reversegeocode-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_reversegeocode-1.1.5.dist-info/METADATA,sha256=snAGOtp-SJ5S3hzfUti6_aGG4iiVpFbzimnrX3m4bnE,6090
+apiverve_reversegeocode-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_reversegeocode-1.1.5.dist-info/top_level.txt,sha256=rvW_gQ2rj4eaErd98kjcF_agKLH1mVJis8r0v_T4LsA,24
+apiverve_reversegeocode-1.1.5.dist-info/RECORD,,
