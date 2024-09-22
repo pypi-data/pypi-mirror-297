@@ -1,0 +1,13 @@
+perforatedai/__init__.cpython-312-x86_64-linux-musl.so,sha256=_TaGQbbmopMt_YTHW2TkbVhl7CqAvVm0Deu7F9PK53I,68424
+perforatedai/check_license.cpython-312-x86_64-linux-musl.so,sha256=Nq4Mcg3WsQeQLl6SA3RCf1ZRlWOvEzsGzXxpIOZOe-c,473656
+perforatedai/blockwisePB.cpython-312-x86_64-linux-musl.so,sha256=Ie5FjXwRDIgnwoTnZEJUDNEIO4S9uy2shop4SgB1xbc,1081424
+perforatedai/globalsFile.cpython-312-x86_64-linux-musl.so,sha256=ijq01agS7SqvuKlWl9LAGpx1nunRhMQRXvU6I-R03zk,330576
+perforatedai/pb_utils.cpython-312-x86_64-linux-musl.so,sha256=xto-uWclOsBD6Mf5ldkZL-ak3M4P3fX6VZjypiKBbKE,1828000
+perforatedai/pb_models.cpython-312-x86_64-linux-musl.so,sha256=V_6RknNT52lA_yFVQY0Sa7o9eEd8_8BMVa8vZRnXxV4,3360568
+perforatedai/pb_neuron_layer_tracker.cpython-312-x86_64-linux-musl.so,sha256=FdORwjx1UjcrA_t1NjFRnFJI8nHJ1e8DYyjSo73PRXs,5896096
+perforatedai/pb_layer.cpython-312-x86_64-linux-musl.so,sha256=RBDBGWmgX866Z29KZKbPUwYeoH-om6WA1gU0T0AmfzI,3784160
+perforatedai/cleanLoad.cpython-312-x86_64-linux-musl.so,sha256=Ga2WvI58CwCVszUSbzx9TwUvqNMVxXvVpp1p-mWJIdk,1281512
+perforatedai_freemium-1.0.0.dist-info/top_level.txt,sha256=aN-RVGd9_0L1QRPEzUSfJ-EKxXmsNTx-bmWXqby6zro,13
+perforatedai_freemium-1.0.0.dist-info/WHEEL,sha256=mXZGnuCnLR4qYmUApzVH3iKqX8ab-FeUyW7Trscv_bE,112
+perforatedai_freemium-1.0.0.dist-info/RECORD,,
+perforatedai_freemium-1.0.0.dist-info/METADATA,sha256=fdplYfdPONGqXKyysRFqcRTvUuUp4R2b_eVnU647cA8,438
