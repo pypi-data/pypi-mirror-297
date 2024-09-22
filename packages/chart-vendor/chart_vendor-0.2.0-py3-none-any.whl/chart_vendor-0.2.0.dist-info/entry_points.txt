@@ -1,0 +1,3 @@
+[console_scripts]
+chart-vendor = chart_vendor.cli:main
+
