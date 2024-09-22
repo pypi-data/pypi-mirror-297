@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: brahmostra
+Version: 1.0
+Summary: ## *Brahmostra: The Ultimate Code Generation and File Management Tool*
+Author: Suraj sharma
+Author-email: Surajsharma963472@gmail.com
+Keywords: Surya,brahmostra,code,python tutorial,Suraj
+Requires-Dist: pyperclip
+Requires-Dist: groq
+
