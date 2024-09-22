@@ -1,0 +1,116 @@
+from IPython.display import clear_output
+from PIL import Image, ImageSequence
+import matplotlib.pyplot as plt
+from tqdm.notebook import tqdm
+import numpy as np
+import shutil
+import pickle
+import cv2
+import os
+
+def split_video_to_mp4(video_path, output_dir, window_size=4):
+    if output_dir in os.listdir('.'):
+        shutil.rmtree(output_dir)
+    os.makedirs(output_dir, exist_ok=True)
+
+    if video_path.endswith('.gif'):
+        gif = Image.open(video_path)
+        frames = [frame.copy() for frame in ImageSequence.Iterator(gif)]
+        total_frames = len(frames)
+
+        width, height = frames[0].size
+        duration = gif.info['duration']
+        fps = 1000 / duration
+    else:
+        video = cv2.VideoCapture(video_path)
+        fps = video.get(cv2.CAP_PROP_FPS)
+        total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
+        width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        
+        frames = []
+        success, frame = video.read()
+        while success:
+            frames.append(frame)
+            success, frame = video.read()
+        video.release()
+
+    for i in range(total_frames - window_size + 1):
+        output_path = os.path.join(output_dir, f'{i + 1}.mp4')
+        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
+
+        for frame in frames[i:i + window_size]:
+            if isinstance(frame, Image.Image):
+                frame_rgb = frame.convert('RGB')
+                frame_array = np.array(frame_rgb)
+                frame_bgr = cv2.cvtColor(frame_array, cv2.COLOR_RGB2BGR)
+            else:
+                frame_bgr = frame
+            out.write(frame_bgr)
+
+        out.release()
+
+def get_output_dir(directory):
+    files = os.listdir(directory)
+    files.sort(key = lambda x: int(x.split(".")[0]))
+    return list(map(lambda x: os.path.join(directory, x), files))
+
+def load_basketball(basketball_path, size):
+    basketball = Image.open(basketball_path)
+    basketball = basketball.resize((size, size), Image.LANCZOS)
+    return basketball
+
+def rotate_basketball(basketball):
+    random_angle = np.random.randint(0, 360)
+    return basketball.rotate(random_angle, expand=True)
+
+def add_basketball_to_frame(frame, basketball):
+    frame_pil = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+
+    basketball_rotated = rotate_basketball(basketball)
+
+    frame_width, frame_height = frame_pil.size
+    basketball_width, basketball_height = basketball_rotated.size
+
+    max_x = frame_width - basketball_width
+    max_y = frame_height - basketball_height
+    rand_x = np.random.randint(0, max_x)
+    rand_y = np.random.randint(0, max_y)
+
+    frame_pil.paste(basketball_rotated, (rand_x, rand_y), basketball_rotated)
+    return cv2.cvtColor(np.array(frame_pil), cv2.COLOR_RGB2BGR)
+
+def add_noise(input_video_path, output_video_path, basketball_path, basketball_size):
+    basketball = load_basketball(basketball_path, basketball_size)
+    cap = cv2.VideoCapture(input_video_path)
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+
+    out = cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
+
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        frame_with_basketball = add_basketball_to_frame(frame, basketball)
+
+        out.write(frame_with_basketball)
+
+    cap.release()
+    out.release()
+    #cv2.destroyAllWindows()
+
+def pickle_read(file):
+    with open(file, 'rb') as f:
+        data = pickle.load(f)
+    return data
+
+def pickle_write(a, b):
+    pickle_filename = a if len(a) >= 4 and a[-4:] == ".pkl" else b
+    data = b if pickle_filename == a else a
+    with open(pickle_filename, 'wb') as file:
+        pickle.dump(data, file)
