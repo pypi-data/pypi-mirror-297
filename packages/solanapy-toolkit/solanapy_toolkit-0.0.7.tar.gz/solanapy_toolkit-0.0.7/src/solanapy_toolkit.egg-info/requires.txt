@@ -1,0 +1,4 @@
+solana>=0.34.3
+solders
+retry
+base58
