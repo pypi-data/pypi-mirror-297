@@ -1,0 +1,9 @@
+README.md
+setup.py
+toytool.egg-info/PKG-INFO
+toytool.egg-info/SOURCES.txt
+toytool.egg-info/dependency_links.txt
+toytool.egg-info/requires.txt
+toytool.egg-info/top_level.txt
+ttool/__init__.py
+ttool/read.py
