@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask-modular-login"
+description = "A modular login framework for Flask"
+version = "0.1"
+readme = "README.md"
+dependencies = [
+    "wheel",
+    "flask",
+    "flask-dance",
+    "blinker",
+    "flask-caching",
+    "uwsgi",
+    "libmc",
+    "cryptography",
+    "requests",
+    "websockets",
+]
