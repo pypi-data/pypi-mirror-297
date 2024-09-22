@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ohms_law_jh
+Version: 0.1
+Summary: Ohms Law Calculator
+Home-page: https://github.com/AkoniMinker/ohms_law
+Author: Jaidin Hamilton
+Author-email: jhami105@students.kennesaw.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
