@@ -1,0 +1,12 @@
+apiverve_disposableemailchecker/__init__.py,sha256=qqnpExxK3DQwPJ2Di9ARc1eYnnZhIImT5cKBb39u5Jk,54
+apiverve_disposableemailchecker/apiClient.py,sha256=_klZ9XrWJEPd1gzpwZ-eI55rmhze3iTWsx0-cZYXd7U,1256
+apiverve_disposableemailchecker/exceptions.py,sha256=RasXLuYr6lDZp4PwW9JJmxrMMBw65mQ4g9Ogv4eEBqY,127
+apiverve_disposableemailchecker/setup.py,sha256=-geqVX-YzehPN3oxzvU9BZUdyTFkP3q3QLa8gLg29KA,977
+apiverve_disposableemailchecker/setup_dep.py,sha256=OEmUR384kcrlbz3ljYhCgm7H7jnAEgJaSmiuOQUIX1A,676
+apiverve_disposableemailchecker/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_disposableemailchecker/tests/test_api.py,sha256=rH___iC48VurVRvelwpu-VwdXErhNA0bP5wRAyn6lZA,650
+apiverve_disposableemailchecker-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_disposableemailchecker-1.1.5.dist-info/METADATA,sha256=k9TtECwrvX1TTdgqT86SPBXqG__2LF5Blvj-TLBjlww,5755
+apiverve_disposableemailchecker-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_disposableemailchecker-1.1.5.dist-info/top_level.txt,sha256=HOgD-aRYvdb5Fc21q03oU03dZ9O3bFWWTyVwsGSSfjc,32
+apiverve_disposableemailchecker-1.1.5.dist-info/RECORD,,
