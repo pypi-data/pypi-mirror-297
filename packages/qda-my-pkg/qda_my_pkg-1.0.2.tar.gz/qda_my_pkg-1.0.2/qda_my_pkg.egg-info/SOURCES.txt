@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyarmor_runtime_000000/__init__.py
+qda_my_pkg/__init__.py
+qda_my_pkg/my_module.py
+qda_my_pkg.egg-info/PKG-INFO
+qda_my_pkg.egg-info/SOURCES.txt
+qda_my_pkg.egg-info/dependency_links.txt
+qda_my_pkg.egg-info/top_level.txt
