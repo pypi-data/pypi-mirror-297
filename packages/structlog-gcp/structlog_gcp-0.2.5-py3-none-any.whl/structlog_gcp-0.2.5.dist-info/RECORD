@@ -1,0 +1,11 @@
+structlog_gcp/__about__.py,sha256=XSi2JPS_3rAnMwjYdGgBsDvsjDQhHDvesQXlmKTChyU,23
+structlog_gcp/__init__.py,sha256=34Ubz1WMzoo7LnDgHkJ3eevb4dXGYMxD4eeCmu_fYhE,88
+structlog_gcp/base.py,sha256=kQROLgcjV_KCfn9Dki8Z_qOmWQmZYaCDqK2hRewAirw,983
+structlog_gcp/error_reporting.py,sha256=gGjaN45sCkFfnNGvg47tV56epLC210aiFruB2ez02V4,3704
+structlog_gcp/processors.py,sha256=nnuOvEyRVmyQ28dj9yadOYbGNzP0SOJenPPzUe9dcO4,4366
+structlog_gcp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structlog_gcp/types.py,sha256=Bb2jN5t0gba55_fZcX-uIslGm-47IUnXH1IO28SnAng,212
+structlog_gcp-0.2.5.dist-info/METADATA,sha256=o_XssQ8NdDZBSmAdLcfglseyPRizfYAPHcysBehDJM8,5661
+structlog_gcp-0.2.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+structlog_gcp-0.2.5.dist-info/licenses/LICENSE,sha256=B9lxrScItI_c2y0jZi-mGGtaeebjwMRH8PiGu8vdEtg,1094
+structlog_gcp-0.2.5.dist-info/RECORD,,
