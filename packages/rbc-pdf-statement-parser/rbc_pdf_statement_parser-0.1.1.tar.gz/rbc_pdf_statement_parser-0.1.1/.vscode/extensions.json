@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml",
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "esbenp.prettier-vscode"
+  ]
+}
