@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+PyFairnessAI/__init__.py
+PyFairnessAI/data.py
+PyFairnessAI/metrics.py
+PyFairnessAI/model_selection.py
+PyFairnessAI/processing.py
+PyFairnessAI.egg-info/PKG-INFO
+PyFairnessAI.egg-info/SOURCES.txt
+PyFairnessAI.egg-info/dependency_links.txt
+PyFairnessAI.egg-info/requires.txt
+PyFairnessAI.egg-info/top_level.txt
