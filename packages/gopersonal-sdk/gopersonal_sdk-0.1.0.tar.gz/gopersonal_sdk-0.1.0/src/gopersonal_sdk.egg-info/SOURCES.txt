@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/gopersonal/__init__.py
+src/gopersonal/api.py
+src/gopersonal/client.py
+src/gopersonal/exceptions.py
+src/gopersonal_sdk.egg-info/PKG-INFO
+src/gopersonal_sdk.egg-info/SOURCES.txt
+src/gopersonal_sdk.egg-info/dependency_links.txt
+src/gopersonal_sdk.egg-info/requires.txt
+src/gopersonal_sdk.egg-info/top_level.txt
