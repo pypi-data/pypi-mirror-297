@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptlite/__init__.py,sha256=uJsWls1fo0njTMXFCb7J04XTA1XS3wEfkDMsYDIt0Ak,137
+gptlite/types.py,sha256=3JveJzjoJDraxqmks3U-md7EUvdpPQPtaOHPktj4q5Y,807
+gptlite/utils/__init__.py,sha256=7OIoc4y2fuPP84_k-7vStUlEDLyb1r7By4df6K6-6dc,106
+gptlite/utils/chunk.py,sha256=J4H5AQWW8DClnyiFthjTfrMAS0efCda4nCXLIlEDQ6M,400
+gptlite/utils/convert.py,sha256=g43uhU71k_ArNeW9D42Qz9ftAerWWr7AxxkOIx6u4Iw,250
+gptlite-0.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptlite-0.0.5.dist-info/METADATA,sha256=mQ7UhfoX_-7V5fqj-yj3kVv8uK3qRCLcQ61NFEc5RpM,1091
+gptlite-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gptlite-0.0.5.dist-info/top_level.txt,sha256=At1VmqXhZVrcxulbzlcDKYpccZlEKLCqZzl4fR3pKOA,17
+gptlite-0.0.5.dist-info/RECORD,,
