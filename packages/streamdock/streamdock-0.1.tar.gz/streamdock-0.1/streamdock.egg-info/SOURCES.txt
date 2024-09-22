@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+streamdock.egg-info/PKG-INFO
+streamdock.egg-info/SOURCES.txt
+streamdock.egg-info/dependency_links.txt
+streamdock.egg-info/requires.txt
+streamdock.egg-info/top_level.txt
