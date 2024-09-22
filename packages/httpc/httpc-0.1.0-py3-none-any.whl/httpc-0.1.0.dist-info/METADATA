@@ -1,0 +1,5 @@
+Metadata-Version: 2.3
+Name: httpc
+Version: 0.1.0
+Summary: httpx with CSS
+Requires-Python: >=3.11
