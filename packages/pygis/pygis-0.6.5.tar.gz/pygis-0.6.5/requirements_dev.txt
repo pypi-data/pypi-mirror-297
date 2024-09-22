@@ -1,0 +1,11 @@
+bump2version
+coverage
+flake8
+grip
+pip
+Sphinx
+tox
+twine
+watchdog
+wheel
+
