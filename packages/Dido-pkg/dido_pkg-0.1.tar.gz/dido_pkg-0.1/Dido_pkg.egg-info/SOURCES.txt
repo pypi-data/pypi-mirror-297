@@ -1,0 +1,7 @@
+setup.py
+Dido_pkg/__init__.py
+Dido_pkg/module1.py
+Dido_pkg.egg-info/PKG-INFO
+Dido_pkg.egg-info/SOURCES.txt
+Dido_pkg.egg-info/dependency_links.txt
+Dido_pkg.egg-info/top_level.txt
