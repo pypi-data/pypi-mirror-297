@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: image_processing-ally
+Version: 0.0.1
+Summary: image Processing Package using Skimage
+Home-page: https://github.com/cibelemoraes/image-processing-package
+Author: Allyson Araujo
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+
+# package_name
+
+Description. 
+The package image_processing-ally is used to:
+	Processing
+	    - Histogram matching
+	    - Structural similarity
+        - Resize image
+	Utils:
+	    -Reade image
+		-Save image
+		-Plot image
+		-Plot result
+		-Plot histogram
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing-ally
+
+```bash
+pip install image_processing-ally
+```
+
+## Author
+Allyson Araujo
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
