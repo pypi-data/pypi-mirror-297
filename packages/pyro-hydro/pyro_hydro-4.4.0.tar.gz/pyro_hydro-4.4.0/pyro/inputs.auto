@@ -1,0 +1,55 @@
+# automagically generated parameter file
+
+[bubble]
+dens_base = 10.0
+scale_height = 2.0
+x_pert = 0.5
+y_pert = 0.5
+r_pert = 0.05
+pert_amplitude_factor = 5.0
+dens_cutoff = 0.01
+
+[driver]
+tmax = 1.0    ; maximum simulation time to evolve
+max_steps = 1    ; maximum number of steps to take
+fix_dt = -1.0
+init_tstep_factor = 0.01    ; first timestep = init_tstep_factor * CFL timestep
+max_dt_change = 2.0    ; max amount the timestep can change between steps
+verbose = 0    ; verbosity
+cfl = 0.8
+
+[eos]
+gamma = 1.4    ; pres = rho ener (gamma - 1)
+
+[io]
+basename = lm_bubble_128_    ; basename for output files
+dt_out = 0.1    ; simulation time between writing output files
+n_out = 1    ; number of timesteps between writing output files
+do_io = 1    ; do we output at all?
+
+[lm-atmosphere]
+limiter = 2    ; limiter (0 = none, 1 = 2nd order, 2 = 4th order)
+proj_type = 2    ; what are we projecting? 1 includes -Gp term in U*
+grav = -2.0
+
+[mesh]
+grid_type = Cartesian2d    ; Geometry of the Grid ('Cartesian2d' or 'SphericalPolar')
+xmin = 0.0    ; domain minimum x-coordinate
+xmax = 1.0    ; domain maximum x-coordinate
+ymin = 0.0    ; domain minimum y-coordinate
+ymax = 1.0    ; domain maximum y-coordinate
+xlboundary = periodic    ; minimum x BC ('reflect', 'outflow', or 'periodic')
+xrboundary = periodic    ; maximum x BC ('reflect', 'outflow', or 'periodic')
+ylboundary = reflect    ; minimum y BC ('reflect', 'outflow', or 'periodic')
+yrboundary = outflow    ; maximum y BC ('reflect', 'outflow', or 'periodic')
+nx = 16    ; number of zones in the x-direction
+ny = 16    ; number of zones in the y-direction
+
+[particles]
+do_particles = 0    ; include particles? (1=yes, 0=no)
+n_particles = 100    ; number of particles
+particle_generator = random    ; how do we generate particles? (random, grid)
+
+[vis]
+dovis = 0    ; runtime visualization? (1=yes, 0=no)
+store_images = 0    ; store vis images to files (1=yes, 0=no)
