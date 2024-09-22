@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyaradi/__init__.py
+pyaradi/aradi.py
+pyaradi/aradi_arg.py
+pyaradi/aradi_core.py
+pyaradi/aradi_utils.py
+pyaradi.egg-info/PKG-INFO
+pyaradi.egg-info/SOURCES.txt
+pyaradi.egg-info/dependency_links.txt
+pyaradi.egg-info/entry_points.txt
+pyaradi.egg-info/requires.txt
+pyaradi.egg-info/top_level.txt
