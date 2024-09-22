@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+dpg-designer/__init__.py
+dpg_designer.egg-info/PKG-INFO
+dpg_designer.egg-info/SOURCES.txt
+dpg_designer.egg-info/dependency_links.txt
+dpg_designer.egg-info/requires.txt
+dpg_designer.egg-info/top_level.txt
