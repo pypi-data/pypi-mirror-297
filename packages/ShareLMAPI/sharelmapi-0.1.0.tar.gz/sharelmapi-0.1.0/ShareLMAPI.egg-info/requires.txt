@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+transformers
+pytest
+requests
+peft
+bitsandbytes
+pydantic
