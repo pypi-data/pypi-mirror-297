@@ -1,0 +1,7 @@
+[console_scripts]
+NicheTrajectory = ONTraC.bin.NicheTrajectory:main
+ONTraC = ONTraC.bin.ONTraC:main
+ONTraC_GNN = ONTraC.bin.ONTraC_GNN:main
+ONTraC_GP = ONTraC.bin.ONTraC_GP:main
+ONTraC_analysis = ONTraC.bin.ONTraC_analysis:main
+createDataSet = ONTraC.bin.createDataSet:main
