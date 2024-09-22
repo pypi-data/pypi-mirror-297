@@ -1,0 +1,10 @@
+anonypy/__init__.py,sha256=v7sTFBsUj6ee8Rirm8uSzisQwHWMbkNJbUOSLfQdoQA,61
+anonypy/anonymity.py,sha256=QXjTJMhfqDHZNPzJLK4loJo-VGkWHKHD2JKBDfk_3lk,1079
+anonypy/anonypy.py,sha256=vXJUoOLvBM9SgYK1Eo1MvMgBKsHFKSBx9ot_Tc2n_sU,3641
+anonypy/attack.py,sha256=l5nWIdB5lDVvys97YCVmojXpuOSszoyXpyt84g-JRIY,1032
+anonypy/mondrian.py,sha256=YkluB0bAzE3X5m2EDYzDDuHLSY57TUzxGvxgrGy6qSk,2709
+anonypy/util.py,sha256=xyJxGiSIKdi0zCzjHrv6LxPMJcnnri2mk5nBSo9dqOo,1568
+anonypy-0.2.1.dist-info/METADATA,sha256=ShLQHlETm0Nc1E5ZrlDJ8Kwv6iaGDjBvQ993qAuA1cw,2802
+anonypy-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+anonypy-0.2.1.dist-info/licenses/LICENSE,sha256=GHPdMS6iZUwkHbMsiITxenWrh8WBIhLzbNCF0Q0UGXE,1071
+anonypy-0.2.1.dist-info/RECORD,,
