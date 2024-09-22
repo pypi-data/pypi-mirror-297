@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: xavdid
+Version: 1.0.0
+Summary: Terminal-based intro card
+Keywords: personal
+Author-email: David Brownman <beamneocube@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Email
+Requires-Dist: colorama==0.4.6
+Requires-Dist: pyright==1.1.376 ; extra == "ci"
+Requires-Dist: ruff==0.5.7 ; extra == "ci"
+Requires-Dist: twine==5.1.1 ; extra == "release"
+Requires-Dist: build==1.2.1 ; extra == "release"
+Project-URL: Author, https://xavd.id
+Project-URL: Bug Tracker, https://github.com/xavdid/intro-py/issues
+Project-URL: Homepage, https://github.com/xavdid/intro-py
+Provides-Extra: ci
+Provides-Extra: release
+
+# Python Intro
+
+This is a little Python script to print an intro about me, useful for sharing at conferences.
+
+Run it using:
+
+```
+uvx xavdid
+```
+
+or:
+
+```
+pipx run xavdid
+```
+
