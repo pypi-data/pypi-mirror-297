@@ -1,0 +1,4 @@
+pandas
+dol
+i2
+charset_normalizer
