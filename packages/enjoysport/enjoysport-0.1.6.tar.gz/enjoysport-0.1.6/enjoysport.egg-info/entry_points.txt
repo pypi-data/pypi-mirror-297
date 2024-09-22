@@ -1,0 +1,2 @@
+[console_scripts]
+enjoy-sport-cli = enjoysport.main:run
