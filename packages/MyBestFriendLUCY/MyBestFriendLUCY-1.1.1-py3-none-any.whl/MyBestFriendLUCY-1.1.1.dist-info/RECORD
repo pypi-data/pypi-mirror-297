@@ -1,0 +1,15 @@
+LUCY/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LUCY/app-tech.py,sha256=3T-sqav63Y9eUa_awrk4SJjYivBXq48ywtCnawtMipM,6829
+LUCY/app.py,sha256=f7L-UYqI6viSmA0wH6Ym4KwUepw3dZa0bPpCJ3VnuUA,6143
+LUCY/app_chart_model.py,sha256=t4bAzEd1OXmh4naTe1gYghHpsh0PcR0fWaRVxX__9MU,7590
+LUCY/data_collection.py,sha256=rdyBXQBdnjkw3TacHOqbBq16TC3PPwOb6nBXXV1jn9U,1255
+LUCY/data_preprocessing.py,sha256=t_jxBdsMyfYuT-X7VsfgLrhhmNtHNCwllDspnOVwe_o,1333
+LUCY/hyperparameter.py,sha256=dYOYGbNdewZpbsdv6z7CKJIj-5wekyKfiNu3i8j2wuo,2510
+LUCY/model_evaluation.py,sha256=1yqN9ewqdC_j_JGohjeLsniXopGKgyMnzSpz4LBabE0,987
+LUCY/model_training.py,sha256=xu1E4LUJ2jq34-Xv9Bjhodn_xwn2RoIg79WXaVBOt00,1099
+LUCY/setup.py,sha256=iwYBHs5FRZYFf4jI5DSXRwIswd21VC8QwRhUMe9BtTo,695
+MyBestFriendLUCY-1.1.1.dist-info/METADATA,sha256=ZDrkAwvcVBlvd2uOy5rrmhlRHs0KDpyMqH-QA2EcRdg,992
+MyBestFriendLUCY-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+MyBestFriendLUCY-1.1.1.dist-info/entry_points.txt,sha256=wpYvWCWNyAwVzzaZDKPVvhIteF_3KH1SWQowfsI8wSU,39
+MyBestFriendLUCY-1.1.1.dist-info/top_level.txt,sha256=KgnEpLLaBkZ2Pf57NZxBORzzWwuJd_BaoLUQzJJ9zt0,5
+MyBestFriendLUCY-1.1.1.dist-info/RECORD,,
