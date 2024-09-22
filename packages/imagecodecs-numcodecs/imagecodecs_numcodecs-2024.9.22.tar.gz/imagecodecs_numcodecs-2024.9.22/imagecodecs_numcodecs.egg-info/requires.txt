@@ -1,0 +1,2 @@
+numcodecs
+imagecodecs>=2024.9.22
