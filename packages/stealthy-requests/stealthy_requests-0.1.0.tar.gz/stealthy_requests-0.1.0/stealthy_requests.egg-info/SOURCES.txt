@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stealthy_requests/__init__.py
+stealthy_requests/core.py
+stealthy_requests.egg-info/PKG-INFO
+stealthy_requests.egg-info/SOURCES.txt
+stealthy_requests.egg-info/dependency_links.txt
+stealthy_requests.egg-info/requires.txt
+stealthy_requests.egg-info/top_level.txt
