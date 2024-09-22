@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+curdrice/__init__.py
+curdrice/app.py
+curdrice/main.py
+curdrice/models.py
+curdrice/test.py
+curdrice.egg-info/PKG-INFO
+curdrice.egg-info/SOURCES.txt
+curdrice.egg-info/dependency_links.txt
+curdrice.egg-info/entry_points.txt
+curdrice.egg-info/requires.txt
+curdrice.egg-info/top_level.txt
