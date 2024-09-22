@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: solanapy-toolkit
+Version: 0.0.6
+Summary: Solanapy Toolkit
+Home-page: https://codeberg.org/neochine/solanapy-toolkit
+Author: Neo Machine
+Author-email: neomachine@proton.me
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: solana>=0.34.3
+Requires-Dist: solders
+Requires-Dist: retry
+Requires-Dist: base58
+
+# solanapy-toolkit
+Toolkit helpers and functions for solanapy library
+
+# Usage
+import solanapy_toolkit
