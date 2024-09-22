@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fsspec-bz2
+Version: 0.1.0
+Summary: Adds BZ2 Support to simplecache
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fsspec ==2024.3.1
+
