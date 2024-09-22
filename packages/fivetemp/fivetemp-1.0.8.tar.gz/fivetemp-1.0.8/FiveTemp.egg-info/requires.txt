@@ -1,0 +1,6 @@
+requests
+rgbprint
+pycryptodome
+flask
+opencv-python
+pyautogui
