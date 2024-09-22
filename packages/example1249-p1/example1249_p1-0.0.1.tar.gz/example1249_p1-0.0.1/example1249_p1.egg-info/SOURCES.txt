@@ -1,0 +1,9 @@
+setup.py
+example1249_p1/__init__.py
+example1249_p1/main.py
+example1249_p1.egg-info/PKG-INFO
+example1249_p1.egg-info/SOURCES.txt
+example1249_p1.egg-info/dependency_links.txt
+example1249_p1.egg-info/top_level.txt
+example1249_p1/package_p1_t1/__init__.py
+example1249_p1/package_p1_t1/t3.py
