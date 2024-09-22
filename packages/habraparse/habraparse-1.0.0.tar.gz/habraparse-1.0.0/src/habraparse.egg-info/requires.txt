@@ -1,0 +1,4 @@
+weasyprint
+selenium
+requests
+lxml

@@ -1,0 +1,31 @@
+[project]
+name = "habraparse"
+version = "1.0.0"
+description = "Парсер Habr"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  {name = "icoz", email = "icoz.vt@gmail.com"},
+  {name = "vit1251", email = "vit1251@gmail.com"},
+]
+maintainers = [
+  {name = "ST LEON", email = "leonst998@gmail.com"},
+  {name = "vit1251", email = "vit1251@gmail.com"},
+]
+dependencies = [
+    "weasyprint",
+    "selenium",
+    "requests",
+    "lxml",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[project.urls]
+repository = "https://github.com/vit1251/habraparse"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
