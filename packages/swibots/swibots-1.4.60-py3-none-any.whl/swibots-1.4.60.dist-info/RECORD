@@ -1,0 +1,12 @@
+swibots/__init__.py,sha256=nqoXPg959xX-IlLoJ5_-5F0zo4f6VixA3g2ZWM7XZ6I,250
+swibots/bot_app.py,sha256=RlwF7JKJHiOyX2Cm3vN11C0FCUTXu0_9XM4rezb7NnA,15996
+swibots/config.py,sha256=eG-g_56oDTZLtd2rVgKV_VwumTPk4y0W0_pmwJ83PrA,2458
+swibots/errors.py,sha256=Gpcam4G1QF8hHDCavVdtNkTDreHe2rD1KrO-OmCiJm4,1806
+swibots/rate_limiter.py,sha256=-BhFK0eNokKflW_1ndnXm_mzxyC9sxH0GXR5vtgjV70,1634
+swibots/responses.py,sha256=79RVPPUpYeRCPETKC57NtW-U8q1elZoEbyfCgzXcwns,856
+swibots/types.py,sha256=uMfjahPZrEqhQVr-bSjyU9jDdA5vNF7nAumIkFZRwFM,1513
+swibots-1.4.60.dist-info/LICENSE.md,sha256=vrjkLp1rQoTgMwTQWoGgdVIAqWX8jQpeCuoehM-AXW4,1361
+swibots-1.4.60.dist-info/METADATA,sha256=70Xot4NBYjAjP_n-bz0zmUad36tPXpRdORQgNJYnO8A,7276
+swibots-1.4.60.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+swibots-1.4.60.dist-info/top_level.txt,sha256=qOeBtK0yOFT2JC7k6eCuwnkjcRkmWmjHKTMXIjy3HqU,8
+swibots-1.4.60.dist-info/RECORD,,
