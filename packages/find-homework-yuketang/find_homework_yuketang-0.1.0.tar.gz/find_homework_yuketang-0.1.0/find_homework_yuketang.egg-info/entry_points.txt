@@ -1,0 +1,2 @@
+[console_scripts]
+find-homework = find_homework_yuketang.main:cli
