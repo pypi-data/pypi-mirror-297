@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: speedy-utils
+Version: 1.0.3
+Summary: Fast and easy-to-use package for data science
+Home-page: https://github.com/anhvth/speedy
+Author: AnhVTH
+Author-email: anhvth.226@gmail.com
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: xxhash
+Requires-Dist: loguru
+Requires-Dist: fastcore
+Requires-Dist: debugpy
+Requires-Dist: ipywidgets
+Requires-Dist: jupyterlab
+Requires-Dist: ipdb
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tabulate
+Requires-Dist: pydantic
+
