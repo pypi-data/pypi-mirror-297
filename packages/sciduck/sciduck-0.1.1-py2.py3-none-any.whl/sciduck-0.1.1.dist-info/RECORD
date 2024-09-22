@@ -1,0 +1,9 @@
+sciduck/__init__.py,sha256=1gNf94ev4XTp85dmjFrNckGRfVns8i9wx7SaJLlGjgc,183
+sciduck/annotation_table.py,sha256=fAJY7kNARJmfbrsyUMu1meuZQnX9DMxVwVoA4Wuc4hY,4729
+sciduck/basic_qc.py,sha256=8G2kP8wUYv12ELy9vvWSXLvzd0_ClCon_Sq3cnnAKFo,8272
+sciduck/entropy_qc.py,sha256=uc9YjA70Pxa4vpCOVsWTm17S43ud-WzhKHDlKiYzCA8,4002
+sciduck-0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+sciduck-0.1.1.dist-info/METADATA,sha256=kJmcKEHtnfkRSd0PYCdvnSzt6MWD-ZASJqpE4VL2xYA,628
+sciduck-0.1.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+sciduck-0.1.1.dist-info/top_level.txt,sha256=W6gWwFNc6DHwyeAPe9m3rE4LiHBVcb-JyNWFq59SQ5k,8
+sciduck-0.1.1.dist-info/RECORD,,
