@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tdg-sdk
+Version: 0.1.0
+Summary: SDK for interacting with TDG API
+Home-page: https://github.com/rajvermamd/tdg_sdk
+Author: Raj Verma
+Author-email: raj.verma@mindmapdigital.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
