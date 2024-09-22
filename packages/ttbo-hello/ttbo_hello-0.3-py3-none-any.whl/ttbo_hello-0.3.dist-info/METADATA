@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ttbo_hello
+Version: 0.3
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Project Title
+
+A brief description of what this project does and who it's for.
+
+## Installation
+
+Instructions on how to install and set up the project.
+
+```bash
+# Example command
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
+```
+
+## Usage
+
+Instructions on how to use the project.
+
+```bash
+# Example command
+python main.py
+```
+
+## Contributing
+
+Guidelines for contributing to the project.
+
+## License
+
+Information about the project's license.
+
+## Contact
+
+Information on how to contact the project maintainers.
