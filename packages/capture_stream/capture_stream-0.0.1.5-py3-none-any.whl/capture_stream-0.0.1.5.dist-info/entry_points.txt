@@ -1,0 +1,3 @@
+[console_scripts]
+capture_stream=capture_stream.__main__:main
+
