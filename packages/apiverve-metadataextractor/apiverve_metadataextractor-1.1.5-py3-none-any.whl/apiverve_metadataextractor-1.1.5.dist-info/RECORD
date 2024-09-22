@@ -1,0 +1,12 @@
+apiverve_metadataextractor/__init__.py,sha256=OaNKbdixvCRDHLWekOmYXd8ZrRWHwnj64jT_k9RRPpo,49
+apiverve_metadataextractor/apiClient.py,sha256=xIGUCujKvhidCcEs5BGkfnF0QJklVM-8wflXo_z806Q,1242
+apiverve_metadataextractor/exceptions.py,sha256=OUryCKw7jgbdv04kBIRMdj965J--rUiDpdX2iZgGYOw,117
+apiverve_metadataextractor/setup.py,sha256=5-OzJR80kEJTyOqJnqabZuNwzwT8UqusYGMUAcXsq2E,959
+apiverve_metadataextractor/setup_dep.py,sha256=n0yMLSji1HdTk67J5KKl6K7FCVz9hCxRoKQvNehvFgI,658
+apiverve_metadataextractor/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_metadataextractor/tests/test_api.py,sha256=k9g-gTJKN5o6z11tMlQAVUgx7XiRd303il4_fUcxDAU,635
+apiverve_metadataextractor-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_metadataextractor-1.1.5.dist-info/METADATA,sha256=5FR1_TCfuYCwwc9LjV6lYN63wkTEt2MyJTF4KKYQHHA,36490
+apiverve_metadataextractor-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_metadataextractor-1.1.5.dist-info/top_level.txt,sha256=OusgP95j9DfIbNpPdcjsalGV8I_Dokdudrio7huaDEg,27
+apiverve_metadataextractor-1.1.5.dist-info/RECORD,,
