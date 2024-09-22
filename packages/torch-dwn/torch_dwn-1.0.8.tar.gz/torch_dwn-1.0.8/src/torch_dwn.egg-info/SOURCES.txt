@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/torch_dwn/__init__.py
+src/torch_dwn/binarization.py
+src/torch_dwn/lut_layer.py
+src/torch_dwn/mapping.py
+src/torch_dwn/utils.py
+src/torch_dwn.egg-info/PKG-INFO
+src/torch_dwn.egg-info/SOURCES.txt
+src/torch_dwn.egg-info/dependency_links.txt
+src/torch_dwn.egg-info/requires.txt
+src/torch_dwn.egg-info/top_level.txt
+src/torch_dwn/custom_operators/cpp/.gitkeep
+src/torch_dwn/custom_operators/cuda/efd_cuda.cpp
+src/torch_dwn/custom_operators/cuda/efd_cuda_kernel.cu
