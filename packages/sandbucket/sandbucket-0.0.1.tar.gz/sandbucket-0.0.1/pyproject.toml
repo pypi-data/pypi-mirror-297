@@ -1,0 +1,17 @@
+[project]
+name = "sandbucket"
+version = "0.0.1"
+
+[metadata]
+author = "Glyph"
+author_email = "code@glyph.im"
+description = "TBD"
+# long_description = "file:README.rst"
+url = "https://github.com/glyph/sandbucket"
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Security",
+]
