@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aiokyasher
+Version: 0.0.4
+Summary: This is the asyncio version of Kyasher, a library for manipulating Kyash in Python.
+Author-email: nennneko5787 <h4369@nennneko5787.net>
+Project-URL: Homepage, https://github.com/nennneko5787/aiokyasher
+Project-URL: Issues, https://github.com/nennneko5787/aiokyasher/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Japanese
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: httpx
+
+# aiokyasher
+
+Python の asyncio で Kyash を操作するライブラリ(準備中)
+
+## How to install
+
+```
+pip install aiokyasher
+```
