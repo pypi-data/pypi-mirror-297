@@ -1,0 +1,8 @@
+kitetsu/__init__.py,sha256=ExFzHlfFFdkEyp9gv9kKkst04cLrbCZJBb0tLKW2sBM,31
+kitetsu/cli.py,sha256=giNydmace75a9MfXGwomA6SJLVTXcxy8PNbetkXi3Xc,364
+kitetsu/replacesoh_impl.cpython-312-x86_64-linux-gnu.so,sha256=ZnxOP0_Y6-H4ajidTHsm2yc74uyLHpvzVd8l-rEUNkA,1564440
+kitetsu-0.0.6.dist-info/METADATA,sha256=dv5xv2woRo4R_PptPU8RIcKoGzHTgLPBRSTl31-bwUc,361
+kitetsu-0.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+kitetsu-0.0.6.dist-info/entry_points.txt,sha256=1Qo4X8Tvh2sNeEkFPKIkVtETJbmaP0xrZ8sXIKCIDy0,45
+kitetsu-0.0.6.dist-info/top_level.txt,sha256=yFC5apn_1WSurWRfJ9vckVAuLQQieyFxnoEdM9o1tGQ,8
+kitetsu-0.0.6.dist-info/RECORD,,

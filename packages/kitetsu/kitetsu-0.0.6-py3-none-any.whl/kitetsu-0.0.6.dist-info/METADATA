@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kitetsu
+Version: 0.0.6
+Summary: A Python package for kitetsu
+Author-email: tangjicheng <tangjch15@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
