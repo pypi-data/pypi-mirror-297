@@ -1,0 +1,13 @@
+faliceqbot/__init__.py,sha256=dmFPZYYmLuVrn5_aRKksGbJsbdXsBSEYUJA-BEFpzrc,46
+faliceqbot/bot.py,sha256=lc1la92G50zW39J6qk-rqVgExRVhTdMI5VQhk56AAmg,9440
+faliceqbot/logger.py,sha256=zBg7sYXepNbfc5_1MTeUVZ0TshkmJG0UGCNpIkpixrQ,1641
+faliceqbot/matcher.py,sha256=kf-rHTpILNBhmSdiXdNJrelc-RbwurWQet_qm6Pc6-0,5087
+faliceqbot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faliceqbot/segments.py,sha256=AV4GjCoz87UPjWCZJlEv-wlPu4hZZkgQjH1IbShKodQ,17058
+faliceqbot/adapters/console.py,sha256=tV4I5UpKlGFlgth7TKDjvLEdHU0_GvXmJTn40ak4nh0,4182
+faliceqbot/adapters/satori.py,sha256=nQZGYSBIe5edvzy33JxyuRt4PCf0RcvOlZqcWlu4m84,9899
+faliceqbot-1.0.1.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+faliceqbot-1.0.1.dist-info/METADATA,sha256=QZvCsCK23u_patvufl42CrjpCopCOGeQzxYDU_ImBEQ,556
+faliceqbot-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+faliceqbot-1.0.1.dist-info/top_level.txt,sha256=D9mQ46FRegNkGHaCpR3j4bUfZNivelfF3KAlyUcS3KQ,11
+faliceqbot-1.0.1.dist-info/RECORD,,
