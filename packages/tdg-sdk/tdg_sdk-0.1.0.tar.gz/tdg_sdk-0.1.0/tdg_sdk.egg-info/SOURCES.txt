@@ -1,0 +1,9 @@
+README.md
+setup.py
+tdg/__init__.py
+tdg/client.py
+tdg_sdk.egg-info/PKG-INFO
+tdg_sdk.egg-info/SOURCES.txt
+tdg_sdk.egg-info/dependency_links.txt
+tdg_sdk.egg-info/requires.txt
+tdg_sdk.egg-info/top_level.txt
