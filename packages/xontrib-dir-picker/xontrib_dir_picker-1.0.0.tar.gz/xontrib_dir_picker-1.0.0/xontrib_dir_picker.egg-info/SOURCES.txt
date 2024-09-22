@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+xontrib_dir_picker.egg-info/PKG-INFO
+xontrib_dir_picker.egg-info/SOURCES.txt
+xontrib_dir_picker.egg-info/dependency_links.txt
+xontrib_dir_picker.egg-info/top_level.txt
