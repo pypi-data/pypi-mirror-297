@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+masspackages/__init__.py
+masspackages/mass.py
+masspackages/vishwa.py
+masspackages/vishwa1.py
+masspackages/vishwa2.py
+v_data_analyst.egg-info/PKG-INFO
+v_data_analyst.egg-info/SOURCES.txt
+v_data_analyst.egg-info/dependency_links.txt
+v_data_analyst.egg-info/top_level.txt
