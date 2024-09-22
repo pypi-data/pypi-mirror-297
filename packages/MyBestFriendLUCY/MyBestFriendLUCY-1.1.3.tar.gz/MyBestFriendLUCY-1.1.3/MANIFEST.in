@@ -1,0 +1,6 @@
+include LUCY/include eth_lstm_model-30m.h5
+include LUCY/scaler-h.pkl
+include README.md
+include LUCY/eth_price_data_5m.csv
+include LUCY/X-5.npy
+include LUCY/Y-5.npy
