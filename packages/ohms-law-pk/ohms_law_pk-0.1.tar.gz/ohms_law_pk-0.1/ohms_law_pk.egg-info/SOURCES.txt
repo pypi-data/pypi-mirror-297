@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ohms_law_pk/__init__.py
+ohms_law_pk/ohms_law.py
+ohms_law_pk.egg-info/PKG-INFO
+ohms_law_pk.egg-info/SOURCES.txt
+ohms_law_pk.egg-info/dependency_links.txt
+ohms_law_pk.egg-info/top_level.txt
