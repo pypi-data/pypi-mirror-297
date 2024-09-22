@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ai2sql/__init__.py
+ai2sql/cli.py
+ai2sql/core.py
+ai2sql/db_manager.py
+ai2sql_cli.egg-info/PKG-INFO
+ai2sql_cli.egg-info/SOURCES.txt
+ai2sql_cli.egg-info/dependency_links.txt
+ai2sql_cli.egg-info/entry_points.txt
+ai2sql_cli.egg-info/requires.txt
+ai2sql_cli.egg-info/top_level.txt

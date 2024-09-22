@@ -1,0 +1,2 @@
+[console_scripts]
+ai2sql = ai2sql.cli:main
