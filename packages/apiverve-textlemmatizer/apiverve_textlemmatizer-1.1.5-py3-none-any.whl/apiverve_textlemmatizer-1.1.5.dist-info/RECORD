@@ -1,0 +1,12 @@
+apiverve_textlemmatizer/__init__.py,sha256=TIXF1J2vqZE93_O_MhU1X5056ksOEkUZFXB5Ly7gmqM,42
+apiverve_textlemmatizer/apiClient.py,sha256=JCGe66TosyBGA9j7eM2RO_IXRLGEMr75AfldgUw6_WQ,1221
+apiverve_textlemmatizer/exceptions.py,sha256=K4dxEpFAEMG88UvRTTPeMq2OM3ExADDgzAdBhDDV1uE,107
+apiverve_textlemmatizer/setup.py,sha256=hqxUecEJrE-IYf418b9oTjGRLD67avujdtO2o0zsHGk,907
+apiverve_textlemmatizer/setup_dep.py,sha256=7eBojWQtzeK2XEtlQxhqFt-VxRnMyAjXZooX3k5cJeE,606
+apiverve_textlemmatizer/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_textlemmatizer/tests/test_api.py,sha256=a6brXnqF_a_RKd6FcvOH1ivOnL9HeOlIGtdLmcZFygU,618
+apiverve_textlemmatizer-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_textlemmatizer-1.1.5.dist-info/METADATA,sha256=MGiRNQVJ7NQPw3X-KoVvxRe5FfAcgV_XEN_i1ta4iHY,5423
+apiverve_textlemmatizer-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_textlemmatizer-1.1.5.dist-info/top_level.txt,sha256=QWnSlQqMH4zqx_jmGGqo0jH9tIQfN_UCumAW9Z5aSZ0,24
+apiverve_textlemmatizer-1.1.5.dist-info/RECORD,,
