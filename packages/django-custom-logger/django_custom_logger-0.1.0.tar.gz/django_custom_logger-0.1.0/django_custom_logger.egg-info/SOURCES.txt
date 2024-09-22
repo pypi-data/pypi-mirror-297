@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_custom_logger/__init__.py
+django_custom_logger/apps.py
+django_custom_logger/config.py
+django_custom_logger/custom_logging.py
+django_custom_logger/middleware.py
+django_custom_logger.egg-info/PKG-INFO
+django_custom_logger.egg-info/SOURCES.txt
+django_custom_logger.egg-info/dependency_links.txt
+django_custom_logger.egg-info/requires.txt
+django_custom_logger.egg-info/top_level.txt
