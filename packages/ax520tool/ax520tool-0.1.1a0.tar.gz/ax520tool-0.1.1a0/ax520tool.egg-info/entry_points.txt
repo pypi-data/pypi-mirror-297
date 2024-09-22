@@ -1,0 +1,2 @@
+[console_scripts]
+ax520tool = ax520tool:main
