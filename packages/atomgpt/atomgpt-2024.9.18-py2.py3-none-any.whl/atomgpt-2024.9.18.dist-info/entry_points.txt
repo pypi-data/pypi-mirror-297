@@ -1,0 +1,3 @@
+[console_scripts]
+atomgpt_forward = atomgpt.forward_models.forward_models:main
+atomgpt_inverse = atomgpt.inverse_models.inverse_models:main
