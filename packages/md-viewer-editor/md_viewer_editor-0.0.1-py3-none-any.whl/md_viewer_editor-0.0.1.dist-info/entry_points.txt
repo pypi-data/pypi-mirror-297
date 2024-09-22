@@ -1,0 +1,2 @@
+[console_scripts]
+md_viewer = md_viewer_editor.md_viewer:main
