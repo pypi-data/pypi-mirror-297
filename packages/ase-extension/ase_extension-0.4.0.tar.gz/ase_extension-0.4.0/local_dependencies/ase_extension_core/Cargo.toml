@@ -1,0 +1,18 @@
+[package]
+name = "ase_extension_core"
+version = "0.4.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+ndarray = { version = "0.15.6", features = ["rayon"] }
+numpy = "0.18.0"
+ordered-float = "3.4.0"
+rand = "0.8.5"
+rayon = "1.6.1"
+nalgebra = "0.32.2"
+gchemol-neighbors = "0.1.2"
+extxyz = "0.2.0"
+anyhow = "1.0.89"
