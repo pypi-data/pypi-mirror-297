@@ -1,0 +1,15 @@
+python_cli_app_template/__init__.py,sha256=D0wuI72kjj7_Gd-jsnsE35JlS4JSgHnLJ2Cl7SMCWO0,244
+python_cli_app_template/_version.py,sha256=Jk2iAU7m-7Vx9XV1TtdD9ZoJraIncDq_4_Wd-qtUotg,411
+python_cli_app_template/config.py,sha256=u-98ObcbFP00Y6NvrF3c0SLtMrXwkir6a6tDHwwSbQk,3219
+python_cli_app_template/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cli_app_template/cli/config.py,sha256=YhPRA6ow5qIol-VD3Ba5s5G-C4269mU4XB0-FmTCKaY,721
+python_cli_app_template/cli/factorial.py,sha256=VW0RdlaMAXqMJqOdjMLdKZaD-UMQhsJGa47kCzZbh48,791
+python_cli_app_template/cli/main.py,sha256=nWN-IRoInagwrlN9RoDdL1HukxxAfBA16x9SjRlZu4I,2021
+python_cli_app_template/cli/prime.py,sha256=LfJEWYYyrAuImZsrRqb-KEqDBSw05N8gf9LXeBhc_fo,439
+python_cli_app_template/defaults/settings.pca.toml,sha256=HuJWdrZcbSSS4ONJ36hGCXkSrAT9sh6ZffGc-8Szq9k,26
+python_cli_app_template-0.3.0.dist-info/METADATA,sha256=81DMXKKPUMPr-Ks2kGJIEkj3norMAtxeTe7F-5Ragf4,3545
+python_cli_app_template-0.3.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+python_cli_app_template-0.3.0.dist-info/entry_points.txt,sha256=2R1ibQ3ISD1caKVT4O5Eju-IlPt2i8DokVZiBbkovwQ,61
+python_cli_app_template-0.3.0.dist-info/licenses/AUTHORS.md,sha256=7rS34CrojqhiVvYni6FC9JgYzF9qmUFVyZ-6Pte2hTI,65
+python_cli_app_template-0.3.0.dist-info/licenses/LICENSE.txt,sha256=veRTH36rq3-elLXP5NmMJoYv_a9epKXzCGn-2NizT-E,1071
+python_cli_app_template-0.3.0.dist-info/RECORD,,
