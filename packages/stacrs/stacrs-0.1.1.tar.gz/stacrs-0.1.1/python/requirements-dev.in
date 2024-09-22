@@ -1,0 +1,5 @@
+maturin
+mypy
+ruff
+pytest
+stac-geoparquet
