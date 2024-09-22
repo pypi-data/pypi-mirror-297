@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+easyflow_utils.egg-info/PKG-INFO
+easyflow_utils.egg-info/SOURCES.txt
+easyflow_utils.egg-info/dependency_links.txt
+easyflow_utils.egg-info/requires.txt
+easyflow_utils.egg-info/top_level.txt
