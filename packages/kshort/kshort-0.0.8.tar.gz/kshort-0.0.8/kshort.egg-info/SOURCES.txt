@@ -1,0 +1,13 @@
+README.md
+setup.py
+kshort/__init__.py
+kshort/main.py
+kshort/project.py
+kshort/projects.py
+kshort/selector.py
+kshort/utils.py
+kshort.egg-info/PKG-INFO
+kshort.egg-info/SOURCES.txt
+kshort.egg-info/dependency_links.txt
+kshort.egg-info/entry_points.txt
+kshort.egg-info/top_level.txt
