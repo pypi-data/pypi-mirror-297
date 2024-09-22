@@ -1,0 +1,10 @@
+README.md
+setup.py
+Repeteco/__init__.py
+Repeteco/leitura_arquivo.py
+Repeteco/palavras_repetidas.py
+Repeteco.egg-info/PKG-INFO
+Repeteco.egg-info/SOURCES.txt
+Repeteco.egg-info/dependency_links.txt
+Repeteco.egg-info/requires.txt
+Repeteco.egg-info/top_level.txt

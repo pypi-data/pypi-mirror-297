@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: Repeteco
+Version: 0.0.1
+Summary: Pacote tem como objetivo identificar as palavras mais repetidas em um texto.
+Home-page: https://github.com/almeidadeoliveirabruno/Repeteco
+Author: Bruno
+Author-email: brunoa52@hotmail.com
+Requires-Python: >=3.12.4
+Description-Content-Type: text/markdown
+Requires-Dist: python-docx
+
+# Repeteco
+
+Description. 
+The package package_name is used to:
+	- Count the frequency of words and the total.
+	-Show the most repeated words that may deserve more attention.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install Repeteco
+```
+
+## Usage
+
+```python
+from Repeteco.palavras_repetidas import contagem
+contagem()
+```
+
+## Author
+Bruno
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
