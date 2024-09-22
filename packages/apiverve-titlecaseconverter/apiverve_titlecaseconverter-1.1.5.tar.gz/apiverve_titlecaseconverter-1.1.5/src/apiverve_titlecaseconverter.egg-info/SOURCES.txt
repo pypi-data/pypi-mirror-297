@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_titlecaseconverter/__init__.py
+src/apiverve_titlecaseconverter/apiClient.py
+src/apiverve_titlecaseconverter/exceptions.py
+src/apiverve_titlecaseconverter/setup.py
+src/apiverve_titlecaseconverter/setup_dep.py
+src/apiverve_titlecaseconverter.egg-info/PKG-INFO
+src/apiverve_titlecaseconverter.egg-info/SOURCES.txt
+src/apiverve_titlecaseconverter.egg-info/dependency_links.txt
+src/apiverve_titlecaseconverter.egg-info/top_level.txt
+src/apiverve_titlecaseconverter/tests/__init__.py
+src/apiverve_titlecaseconverter/tests/test_api.py
+tests/test_api.py
