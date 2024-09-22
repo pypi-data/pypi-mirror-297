@@ -1,0 +1,2 @@
+[console_scripts]
+solanapy_toolkit = solanapy_toolkit.main:cli
