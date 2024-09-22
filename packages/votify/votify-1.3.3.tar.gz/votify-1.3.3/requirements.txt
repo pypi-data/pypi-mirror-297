@@ -1,0 +1,7 @@
+click
+inquirerpy
+pillow
+protobuf
+pybase62
+pycryptodome
+yt-dlp
