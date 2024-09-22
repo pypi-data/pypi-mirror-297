@@ -1,0 +1,10 @@
+nigeria_banks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nigeria_banks/__version__.py,sha256=4746GFndd_PIykii0Mbm0Z-Xzqvcj7HOSAXSQsIGQ8k,65
+nigeria_banks/bank.py,sha256=CNqK-my0uYhFi1y0-BvQz_X3s80Ayu5cG8WezwYYU-Y,811
+nigeria_banks/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nigeria_banks/database/db.py,sha256=zP4kUGFO2NIlpnpcfgk7aVuW8EGztDUOuCGIig4jej4,62083
+nigeria_banks-0.1.7.dist-info/LICENSE,sha256=mPQQv3FMTTgn1zQcjgvphU9Opb7VxkwPl0hYBpS3qZI,1070
+nigeria_banks-0.1.7.dist-info/METADATA,sha256=wtz8CZ5JawCvNXZo0mhKRYOItfV41jP24g6x3mhuS7E,2155
+nigeria_banks-0.1.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nigeria_banks-0.1.7.dist-info/top_level.txt,sha256=68DB0EVyzsceWtszypgc_rdygXmxim0z9Uj1NgrUypI,14
+nigeria_banks-0.1.7.dist-info/RECORD,,
