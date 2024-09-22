@@ -1,0 +1,2 @@
+[console_scripts]
+ttbo_hello_CMD = ttbo_hello:hello
