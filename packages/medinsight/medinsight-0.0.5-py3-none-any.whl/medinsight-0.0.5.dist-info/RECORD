@@ -1,0 +1,7 @@
+medinsight/__init__.py,sha256=Nmo_MDHGFU3GHnUhjKzLXJlcv3eM-PTCIah63Fv-1ec,160
+medinsight/agent.py,sha256=Vf-6Wo7zGNm5-JoOm9D2PhaPsNbAEyfjf1h4MamjVlw,8692
+medinsight/pub_med.py,sha256=wwNXK8UWJv2M4KdREpZEFjSPdZV6VPJdUBOqwky_A4Y,5280
+medinsight-0.0.5.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+medinsight-0.0.5.dist-info/METADATA,sha256=b3WB0ibE0lK73l0dVpcupVKcgmubQG0USXxx44G_DmQ,6773
+medinsight-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+medinsight-0.0.5.dist-info/RECORD,,
