@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pysnarf
+Version: 0.1.0
+Summary: snarf file helper
+License: MIT
+Author: shantih19
+Author-email: shantih19@shantih19.xyz
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: lint
+Requires-Dist: clipboard-monitor (>=1.0.5,<2.0.0)
+Requires-Dist: pylint ; extra == "lint"
+Requires-Dist: pyperclip (>=1.9.0,<2.0.0)
+Requires-Dist: pywin32 (>=306,<307) ; sys_platform == "win32"
+Requires-Dist: watchdog (>=5.0.2,<6.0.0)
+Description-Content-Type: text/markdown
+
+# pysnarf
+
+Multi-platform .[snarf](https://wiki.xxiivv.com/site/snarf.html) file integration with the clipboard, written in python.
+
+Made for use with [Uxn](https://100r.co/site/uxn.html).
+
+## Installation
+
+```sh
+pip install pysnarf
+```
+
+## Usage
+
+Simply run `pysnarf path-to-.snarf-file-or-dir`.
+
+If a directory is passed, the script will find the `.snarf` file or generate it if not present.
+
+On Windows, copying/pasting does a `LF <> CRLF` replacement (as Uxn likes).
+
