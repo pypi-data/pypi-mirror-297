@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+cookie/__init__.py
+cookie/api.py
+cookie/errors.py
+cookie/models.py
+cookie_api.egg-info/PKG-INFO
+cookie_api.egg-info/SOURCES.txt
+cookie_api.egg-info/dependency_links.txt
+cookie_api.egg-info/requires.txt
+cookie_api.egg-info/top_level.txt
+tests/test.py
