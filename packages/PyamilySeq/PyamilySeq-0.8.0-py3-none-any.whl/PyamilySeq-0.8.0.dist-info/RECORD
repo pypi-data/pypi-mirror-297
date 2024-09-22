@@ -1,0 +1,15 @@
+PyamilySeq/Constants.py,sha256=lbVZv4vDHroA83KCDTIGuVb6bubKYZbwLmhYHxedXQc,31
+PyamilySeq/Group_Splitter.py,sha256=raZMV9SN7Qqw5Hci5qpkaahR66JMQf6dX8TvThjh3kU,14986
+PyamilySeq/PyamilySeq.py,sha256=0607A9nqafoQ8IhBxGgGJ-v3DVV6C6-LgzdDIXb2C-c,15179
+PyamilySeq/PyamilySeq_Genus.py,sha256=hC34cHIFu8YaXXgcPyVwuWENlsxx-7mT-Qr6PAdio4U,12414
+PyamilySeq/PyamilySeq_Species.py,sha256=spgS-h-lrySZBiOiB6jX6pPRaL5j8f5V1Hq3XOjBOko,14404
+PyamilySeq/Seq_Combiner.py,sha256=dPDu6LlT3B-ZDn3wKZ3AeWraDgv2Tub_16l9CLc3tQ0,3353
+PyamilySeq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyamilySeq/clusterings.py,sha256=rcWFv0IiWoS4aUNRjDDwNEL86l1wIKa4vK4htAxy8Hg,18787
+PyamilySeq/utils.py,sha256=6UtYJW3_0rDhEhvrJi6R3smvKu2n_bjqUkuzr5DcJM4,19061
+PyamilySeq-0.8.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+PyamilySeq-0.8.0.dist-info/METADATA,sha256=ZnpQvAQy5EXGrzS0G9y5qH2Rhmb0LW2HvOT-b5WJLoo,14436
+PyamilySeq-0.8.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+PyamilySeq-0.8.0.dist-info/entry_points.txt,sha256=15BsozBN6vRWvZeQon05dY4YQT7DqP5i2TUqFWRGCvc,150
+PyamilySeq-0.8.0.dist-info/top_level.txt,sha256=J6JhugUQTq4rq96yibAlQu3o4KCM9WuYfqr3w1r119M,11
+PyamilySeq-0.8.0.dist-info/RECORD,,

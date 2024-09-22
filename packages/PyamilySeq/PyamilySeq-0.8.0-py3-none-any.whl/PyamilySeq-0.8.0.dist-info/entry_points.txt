@@ -1,0 +1,4 @@
+[console_scripts]
+Group-Splitter = PyamilySeq.Group_Splitter:main
+PyamilySeq = PyamilySeq.PyamilySeq:main
+Seq-Combiner = PyamilySeq.Seq_Combiner:main
