@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: satellite-cloud-generator
+Version: 0.4
+Summary: A PyTorch-based tool for simulating clouds in satellite images
+Home-page: https://github.com/strath-ai/SatelliteCloudGenerator
+Author: Mikolaj Czerkawski, Christos Tachtatzis
+Author-email: mikolaj.czerkawski@esa.int
+License-File: LICENSE
+Requires-Dist: torch>=1.10.0
+Requires-Dist: torchvision
+Requires-Dist: kornia
+Requires-Dist: numpy
+Requires-Dist: imageio
+
+A PyTorch-based tool for simulating clouds in satellite images
