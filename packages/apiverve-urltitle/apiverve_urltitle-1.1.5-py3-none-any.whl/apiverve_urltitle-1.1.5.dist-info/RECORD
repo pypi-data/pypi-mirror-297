@@ -1,0 +1,12 @@
+apiverve_urltitle/__init__.py,sha256=mjtH-lqdObcXplS8bhzGHrtUvJr1lyQNmyyM0sEYYaM,40
+apiverve_urltitle/apiClient.py,sha256=3mXGFMKrDdT7B3GkILyFuwMPhjB6lL5Z8xz30TtnQT8,1215
+apiverve_urltitle/exceptions.py,sha256=q_1KkIhLkUEB0HFf3pP7vccBBhDmRCve1gwSdBFZreQ,99
+apiverve_urltitle/setup.py,sha256=B6vUZlK_BvXY7xIj2YIUTu8wlLpvUfr_7UOM91ZHAwI,947
+apiverve_urltitle/setup_dep.py,sha256=Vp4ObOoVEXWoGK4ic09AfPoNeitMZAXVjov67nk4o5o,646
+apiverve_urltitle/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_urltitle/tests/test_api.py,sha256=DKClK4WJlFeAb0696bfO_6vC8La9rGK15ikgU5UAm2c,608
+apiverve_urltitle-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_urltitle-1.1.5.dist-info/METADATA,sha256=2UQXs0k83T4-Ej6d7rGvvKdt0xctVniZojEHHdalsW4,5613
+apiverve_urltitle-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_urltitle-1.1.5.dist-info/top_level.txt,sha256=qG08mf8aLbTX7aTLN8MBDwuj0vp3h7CKrIbS44CiFnE,18
+apiverve_urltitle-1.1.5.dist-info/RECORD,,
