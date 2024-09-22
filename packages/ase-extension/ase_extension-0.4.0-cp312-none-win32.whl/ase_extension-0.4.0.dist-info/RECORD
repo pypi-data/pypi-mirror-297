@@ -1,0 +1,10 @@
+ase_extension-0.4.0.dist-info/METADATA,sha256=M32_KAccJ5kUSd-TQl-DSaZzY1QdOk6z7A4pnCAo67I,142
+ase_extension-0.4.0.dist-info/WHEEL,sha256=8J8Yyz52pcbUaaqRCppJcbg1hM70apQYJPW6bVwf_BI,93
+ase_extension-0.4.0.dist-info/license_files/LICENSE,sha256=9wQ5u87IY9A6-shrADV1dt1C3DBPfkDEdCcReLP8ZLw,1090
+ase_extension/constraints.py,sha256=bnscG6to1v2Z1ryK9EuSEwGyV1JlFiy4gYdbXE_4AN4,1260
+ase_extension/geometry.py,sha256=8WqF4m7FUVgw_1bHc0PT7jEJB_JaiTN4CCHktWcb8GM,803
+ase_extension/io.py,sha256=AaycaOZp2wXhyw1hTqn4wOy8S-8WRci4-tgAtPqoTfc,914
+ase_extension/neighborlist.py,sha256=0urvreWkFMTUZQB1v_JcEwSfpcjhV-GXeGeHQIRQJhs,2048
+ase_extension/__init__.py,sha256=Vx47i8QNeXJNuUzstqWuU6eCWE5xtaY0kgN-Gm_d_gE,23
+ase_extension/_ext.cp312-win32.pyd,sha256=lvSPPN7wDiSVuKLtIM-hvFJ3CiCy2Y7x2vMDHxnRxC0,2033152
+ase_extension-0.4.0.dist-info/RECORD,,
