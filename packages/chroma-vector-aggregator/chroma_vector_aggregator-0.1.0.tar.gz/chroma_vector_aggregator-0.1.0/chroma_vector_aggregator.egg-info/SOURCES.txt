@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+chroma_vector_aggregator/__init__.py
+chroma_vector_aggregator/aggregator.py
+chroma_vector_aggregator/chroma_helpers.py
+chroma_vector_aggregator/embedding_methods.py
+chroma_vector_aggregator/utils.py
+chroma_vector_aggregator.egg-info/PKG-INFO
+chroma_vector_aggregator.egg-info/SOURCES.txt
+chroma_vector_aggregator.egg-info/dependency_links.txt
+chroma_vector_aggregator.egg-info/requires.txt
+chroma_vector_aggregator.egg-info/top_level.txt

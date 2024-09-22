@@ -1,0 +1,5 @@
+chromadb
+langchain
+numpy
+scikit-learn
+scipy
