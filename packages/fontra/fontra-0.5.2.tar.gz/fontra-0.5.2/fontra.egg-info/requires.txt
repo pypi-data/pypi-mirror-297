@@ -1,0 +1,10 @@
+freetype-py<3,>=2.5.1
+typing_extensions<5,>=4.6.0
+typer>=0.12.4
+rich>=10.11
+
+[dev]
+freetype-py-stubs<3,>=2.5.1
+
+[tools]
+fontTools>=4.53.1
