@@ -1,0 +1,13 @@
+gapi/__main__.py,sha256=HFbAfePwjChBhLWgqRoamFdEFHJVdyT_Ut8tVs3bu3g,1596
+gapi/read_sheet/__init__.py,sha256=uOt1aXGayCkolCRlczi6SyU9tVTc4CYqj8jmn-eqvoo,1793
+gapi/readsheet/__init__.py,sha256=luSqEfWh3ldCTIp_y-VMFq-FnMracppHxMBiSNcuQe8,3567
+gapi/utils/__init__.py,sha256=oX-bg66udoTAlcXQSK1F55jLxxeN7pshRZX-2thpw8Y,897
+gspi/__main__.py,sha256=1m0RYKMCy0CVoTXkjYmSjqJ6GpzeSyHIb-bN55QaJQY,1579
+gspi/read_sheet/__init__.py,sha256=uOt1aXGayCkolCRlczi6SyU9tVTc4CYqj8jmn-eqvoo,1793
+gspi/utils/__init__.py,sha256=AIilNA0fc3OYPXJEeaMT9MVP5VPuCgiLbDejRD-mjoI,1536
+gspi-1.0.3.dist-info/LICENSE,sha256=vGqdxF3sMfM7wAqi_rQ20NpGlNvdIUQ3C0YNHWYBYMg,1090
+gspi-1.0.3.dist-info/METADATA,sha256=Plg53H55PzUEB6CyEGNEdizD543MO0hPcGmWihJE9kU,919
+gspi-1.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gspi-1.0.3.dist-info/entry_points.txt,sha256=i7lZ6P7XyHY8U0pmTcdijmAnDk61BnCpZOI6AkiI6_I,44
+gspi-1.0.3.dist-info/top_level.txt,sha256=hJHYdgtALvkfPZWir9OvjWPIsh5YVDbMtV3aRodOxfY,5
+gspi-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+gspi = gspi.__main__:main
