@@ -1,0 +1,10 @@
+rsyncr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsyncr/__main__.py,sha256=Sf5oo13aTkLhjA_WHUT6Zttdyzu-3n2XxWLDfU9qSIs,42
+rsyncr/distance.py,sha256=4Ua-w47U1XxSJbIpwKnb_QvLGWuBcFq70QFTPs0TnBw,6897
+rsyncr/help.py,sha256=cnVUp8Fgd7CmGaQ3zR0JHC9Lz1DSd6Asb0FsFKh2-mQ,2163
+rsyncr/rsyncr.py,sha256=dS7k7vRzCV1HAJuWH8-8vl0EnBUjFxdom717GuYM9vs,20738
+rsyncr-2024.1921.2416.dist-info/METADATA,sha256=nAk5osu3AXg03R9UNaz7QRt4Otbt1t20wQdfN1eRYG4,5260
+rsyncr-2024.1921.2416.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+rsyncr-2024.1921.2416.dist-info/entry_points.txt,sha256=1K3QJP9E70FpsSGTQ1MFSvegyTMFyaBjqm0XC4iLDwU,46
+rsyncr-2024.1921.2416.dist-info/licenses/LICENSE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+rsyncr-2024.1921.2416.dist-info/RECORD,,
