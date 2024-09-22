@@ -1,0 +1,12 @@
+apiverve_swiftcodelookup/__init__.py,sha256=zkFV9Ucum-IYHXauVErvVgl_VPRrYhBC_46E7Mf2dUU,43
+apiverve_swiftcodelookup/apiClient.py,sha256=27e4CERMsJUOBwtdpX-zdggd_xAzAzDjsJguXTEB7SA,1223
+apiverve_swiftcodelookup/exceptions.py,sha256=wwM43rntqC1CbXRj73ByG9C_KFsHXazODNMAZjPLhek,109
+apiverve_swiftcodelookup/setup.py,sha256=5iE5_XitvOrAQSzYamOnPZ-3HOsN2W9JniRjYGCGAyI,992
+apiverve_swiftcodelookup/setup_dep.py,sha256=K1-2if4XU-QV5cxsz35aP0n1njvpPrEMt7hd2-B1MTM,691
+apiverve_swiftcodelookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_swiftcodelookup/tests/test_api.py,sha256=bHFS5p1BL2aBzmLbVlBvCS7IMFuFZueKn6ztGIepJSE,621
+apiverve_swiftcodelookup-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_swiftcodelookup-1.1.5.dist-info/METADATA,sha256=pEDxkNLuEbE_xoT8lyNiXTGXV7iw0d4vKPd0Uh_ujn8,6894
+apiverve_swiftcodelookup-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_swiftcodelookup-1.1.5.dist-info/top_level.txt,sha256=37dRwtCTygEpNGvYfGOfessIf7oPiPZW97Gq_CS84rU,25
+apiverve_swiftcodelookup-1.1.5.dist-info/RECORD,,
