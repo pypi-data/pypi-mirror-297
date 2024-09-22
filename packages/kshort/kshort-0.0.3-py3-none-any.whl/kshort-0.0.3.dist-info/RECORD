@@ -1,0 +1,12 @@
+kshort/__init__.py,sha256=eG-aqN8eoMbqsEQ7Y6NW95LvqduveCooivodEhbqcR4,210
+kshort/config.py,sha256=MPeGw7IKy4lOGYnUIFPI7v2hE1z4076GGQRwv-FjbPU,1688
+kshort/main.py,sha256=fSgKMwamHQnjrfDqLR-qaejzrjohGReU1pVxOxnomRQ,2258
+kshort/project.py,sha256=f902aObbsWqbULvZFuvA8scgbBWza-O8PNrAfKaI1Bc,898
+kshort/projects.py,sha256=Fb5EUk_EWZdlFJ0bh6Gev7_4opVAQN0MwXuag4w8G94,670
+kshort/selector.py,sha256=MFFDuGo1gKkF55HB8XOHtbeXgxH-4yBJ7dHR-rawrL4,2641
+kshort/utils.py,sha256=jOmrXMT-sfmyyawMeAHv0bzVtAe0rdjywQ36eDRGIxI,362
+kshort-0.0.3.dist-info/METADATA,sha256=an6MQmTO79hbCjJGRG05PqbdQGqQSzA9PrXrFR_Go3Q,303
+kshort-0.0.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+kshort-0.0.3.dist-info/entry_points.txt,sha256=Gqy16kvCP7Bc6o1D1oft0PcoBELqdoDStc4Y_U85mAA,45
+kshort-0.0.3.dist-info/top_level.txt,sha256=P9HjbOGOdjG8vDR-jZ4VIdeg87TxjEaJ16wvriigVyE,7
+kshort-0.0.3.dist-info/RECORD,,
