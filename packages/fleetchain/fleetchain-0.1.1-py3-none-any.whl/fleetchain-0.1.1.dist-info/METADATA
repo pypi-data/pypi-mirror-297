@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fleetchain
+Version: 0.1.1
+Summary: 
+Author: Boris Tvaroska
+Author-email: boris@tvaroska.sk
+Requires-Python: >=3.9,<3.14
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flet (>=0.21.0,<1.00.0)
+Requires-Dist: langchain-core (>=0.1.0,<0.4.0)
+Requires-Dist: pydantic (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# fletchain
+Flet.dev chat component with Langchain integration
+
+## Install
+Package is not yet on PYPI, the only option is to install directly from github
+pip install git+https://github.com/tvaroska/fletchain.git
+
+## Ussage
+
+Example in [Demo/Simple](demo/simple.py)
+Examples require lanchaing-google-vertexai package. This package is part of dev dependencies.
