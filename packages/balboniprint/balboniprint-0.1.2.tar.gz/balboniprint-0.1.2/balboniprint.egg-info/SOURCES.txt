@@ -1,0 +1,8 @@
+README.md
+setup.py
+balboniprint/__init__.py
+balboniprint.egg-info/PKG-INFO
+balboniprint.egg-info/SOURCES.txt
+balboniprint.egg-info/dependency_links.txt
+balboniprint.egg-info/requires.txt
+balboniprint.egg-info/top_level.txt
