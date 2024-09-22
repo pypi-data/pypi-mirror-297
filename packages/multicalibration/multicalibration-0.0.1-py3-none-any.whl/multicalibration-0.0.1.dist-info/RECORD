@@ -1,0 +1,12 @@
+multicalibration/__init__.py,sha256=1JqAzh3ZBF-NBS6MnEEQSXL-gKjRa201FmLn-XmGUgA,43
+multicalibration/mcb.py,sha256=Vu0OOtxhHQ9U5hMSyIxK08kBshwGDBkZmDbw3mzeNk8,1320
+multicalibration/HJZ/adversary.py,sha256=gerGIzAcpeRvT6cP4UDmo9OGTcSqHLJXQu2UPGew-ZA,3396
+multicalibration/HJZ/hjz.py,sha256=qpuZMk6hpmAPG5dbBcCf9i9RT5FqQ5KEfawfFgCQKUY,5030
+multicalibration/HJZ/online_learners.py,sha256=2Kxhfcu-1neP8RxSoP5EiGJL6u97JFD6HhdkBTjr2Ro,2932
+multicalibration/HJZ/utils.py,sha256=mmSA4kp8Zw03ZRw0uU_v9gqt4W33yqtEVH-Z2r1-WPM,3262
+multicalibration/HKRR/hkrr.py,sha256=156K6bJTMxE1hSDYP63H1PLf6dRfrzpg_YWnZJUdzN8,7352
+multicalibration-0.0.1.dist-info/LICENSE,sha256=_Hn45saSq28ZJ16yHvomTBEungayOLnOA3R-I8TMwcw,1104
+multicalibration-0.0.1.dist-info/METADATA,sha256=TYNKOeYYmFdQkN0r7Z_d7VRJVJmDUEJlPLEgtuqszB4,621
+multicalibration-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+multicalibration-0.0.1.dist-info/top_level.txt,sha256=_xTiGm_hf6CqmO55qcJQ7tN9yTikvUan3HQkdaPL_H0,17
+multicalibration-0.0.1.dist-info/RECORD,,
