@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pypi-testah
+Version: 0.0.1
+Summary: PyPI 学习程序
+Home-page: https://github.com/
+Author: MR.AH
+Author-email: zhangzhonghui1001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
