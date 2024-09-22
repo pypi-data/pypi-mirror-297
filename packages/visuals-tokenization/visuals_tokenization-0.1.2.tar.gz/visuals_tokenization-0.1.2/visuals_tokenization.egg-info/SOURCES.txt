@@ -1,0 +1,9 @@
+README.md
+setup.py
+visual_tokenization/__init__.py
+visual_tokenization/visual_tokenization.py
+visuals_tokenization.egg-info/PKG-INFO
+visuals_tokenization.egg-info/SOURCES.txt
+visuals_tokenization.egg-info/dependency_links.txt
+visuals_tokenization.egg-info/requires.txt
+visuals_tokenization.egg-info/top_level.txt
