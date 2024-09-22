@@ -1,0 +1,3 @@
+[console_scripts]
+spotify-web-downloader=votify.cli:main
+
