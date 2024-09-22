@@ -1,0 +1,7 @@
+setup.py
+shibling/__init__.py
+shibling/main.py
+shibling.egg-info/PKG-INFO
+shibling.egg-info/SOURCES.txt
+shibling.egg-info/dependency_links.txt
+shibling.egg-info/top_level.txt
