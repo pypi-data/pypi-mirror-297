@@ -1,0 +1,12 @@
+gensim
+nltk
+numpy
+scipy
+random
+matplotlib
+keras
+heapq
+pickle
+sklearn
+tensorflow
+pandas
