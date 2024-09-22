@@ -1,0 +1,12 @@
+rbc_pdf_statement_parser/__init__.py,sha256=ygygZ41YCmljqFG0x_F-aAf1s2RzFo1Ni3-wNPg19YI,84
+rbc_pdf_statement_parser/__main__.py,sha256=KpXfdFIC3z3qduF_H42KFh3rdaeNO3bz7MVtjeTvFt8,193
+rbc_pdf_statement_parser/cli.py,sha256=AzgW9WDBfTb-qSYGWAcanYE2KMcTG5Z1BEaJEblvWUs,143
+rbc_pdf_statement_parser/convert_all_to_table.py,sha256=5Zi1_J4REoG5IeGE6yhKCPK41p6GiPhhGmRTKleLFKE,11133
+rbc_pdf_statement_parser/convert_all_to_text.py,sha256=v2BYfHC1A6tzLfutAI4rwFvcNqDdYykh2AhZJu4oAa0,764
+rbc_pdf_statement_parser/move_all_to_renamed_folder.py,sha256=zejC_irstSauuo6Au9YNoPinTHI_xUyGFEWMYhHoJpM,2635
+rbc_pdf_statement_parser/util.py,sha256=mJG3h7IrSEYiRG_O_T_JrQzFcaF2NSQSgdKITDqUpAk,3371
+rbc_pdf_statement_parser-0.1.1.dist-info/METADATA,sha256=8r29wXKbZzMIFKa21xV-t3e5I48TqIE3R0wnsYynZv4,1494
+rbc_pdf_statement_parser-0.1.1.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+rbc_pdf_statement_parser-0.1.1.dist-info/entry_points.txt,sha256=OAyyQYA5rq7h_I4g-ctcynXzQBUO0YSX6Vv7Usnnw5A,79
+rbc_pdf_statement_parser-0.1.1.dist-info/licenses/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+rbc_pdf_statement_parser-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+rbc_pdf_statement_parser = rbc_pdf_statement_parser.cli:main
