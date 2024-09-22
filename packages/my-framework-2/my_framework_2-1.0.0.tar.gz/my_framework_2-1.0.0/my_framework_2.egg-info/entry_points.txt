@@ -1,0 +1,2 @@
+[console_scripts]
+my_framework_2 = my_framework_2.main:main
