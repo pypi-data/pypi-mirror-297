@@ -1,0 +1,9 @@
+numpy
+cogent3[extra]
+click
+pandas
+plotly
+psutil
+requests
+rpy2
+scitrack
