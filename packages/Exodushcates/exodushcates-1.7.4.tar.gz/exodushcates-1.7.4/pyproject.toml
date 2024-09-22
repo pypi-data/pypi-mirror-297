@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Exodushcates"
+version = "1.7.4"
+description = "Convertor .seco file from Exodus Wallet, seco to hashcat string"
+authors = ["JeanClaude89"]
+license = "MIT"
+readme = "README.md"
+keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Issues = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
