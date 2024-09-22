@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: streamdeck-sdk
+Version: 1.2.0.dev2
+Summary: Library for creating Stream Deck plugins in Python.
+Home-page: https://github.com/gri-gus/streamdeck-python-sdk
+Author: Grigoriy Gusev
+Author-email: thegrigus@gmail.com
+License: Apache Software License
+Keywords: property inspector,property inspector generator,streamdeck property inspector generator,streamdeck property inspector,streamdeck pi,python,sdk,streamdeck,streamdeck-sdk,streamdeck_sdk,stream deck sdk,stream deck,elgato,elgato sdk,elgato stream deck,streamdeck-python-sdk,streamdeck_python_sdk,streamdeck python sdk
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
