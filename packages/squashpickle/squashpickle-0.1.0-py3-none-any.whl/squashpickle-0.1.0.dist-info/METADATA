@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: squashpickle
+Version: 0.1.0
+Summary: GZIP compressed pickle serialization.
+Author-email: "CreatingNull (Steve Richardson)" <steve.public@nulltek.xyz>
+License: MIT License
+Project-URL: homepage, https://github.com/CreatingNull/squash-pickle
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Squash Pickle
+
+Like a pickle, only smaller\*.
+
+Tiny python package that compresses your pickles using gzip.
+Quacks like a pickle.
+
+\* For small objects (\< 100 bytes) gzip overhead can end up increasing size.
+Only squash your pickles when you are working with big objects.
+
+______________________________________________________________________
+
+## Getting Started
+
+First install the package, this has no additional dependencies:
+
+```shell
+pip install squashpickle
+```
+
+Then simply replace your `pickle` calls with `sqaushpickle` ones.
