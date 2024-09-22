@@ -1,0 +1,2 @@
+from .binary import RandomBinaryInitialization
+from .continuous import RandomContinuousInitialization
