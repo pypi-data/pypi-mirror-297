@@ -1,0 +1,76 @@
+name: Build & test
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  release:
+    types:
+      - published
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build & verify package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Configure version
+        if: github.event.action == 'published'
+        run: ./.github/set-version
+
+      - name: Test
+        run: make test
+
+      - name: mypy
+        run: make mypy
+
+      - name: lint
+        run: uv run ruff check
+
+      - name: format
+        run: uv run ruff format --diff
+
+      - name: Build
+        run: make build
+
+      - name: Upload package
+        if: github.event.action == 'published'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Packages
+          path: dist/*
+
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    if: github.event.action == 'published'
+    needs: build
+    environment: pypi-release
+
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Download package
+        uses: actions/download-artifact@v4
+        with:
+          name: Packages
+          path: dist
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
