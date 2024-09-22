@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: actual-discord-bot
+Version: 0.1.0
+Summary: A template Poetry project structure.
+Home-page: https://pypi.org/project/actual-discord-bot/
+License: GPLv3
+Keywords: python3
+Author: Mariusz Bielecki
+Maintainer: Mariusz Bielecki
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Dist: discord
+Project-URL: Documentation, https://github.com/MariuszBielecki288728/actual-discord-bot
+Project-URL: Repository, https://github.com/MariuszBielecki288728/actual-discord-bot
+Project-URL: Tracker, https://github.com/MariuszBielecki288728/actual-discord-bot/issues
+Description-Content-Type: text/markdown
+
+# actual-discord-bot
+Read receipts from Discord Channel, parse them and convert to Actual Budget splitted transactions
+
