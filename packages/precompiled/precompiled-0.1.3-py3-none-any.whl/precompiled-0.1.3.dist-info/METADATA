@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: precompiled
+Version: 0.1.3
+Summary: leetcode precompiled package
+Author-Email: zonewave <ybzhang17@163.com>
+License: MIT
+Project-URL: Homepage, https://github.com/zonewave/leetcode-precomiled/tree/master/py
+Project-URL: Issues, https://github.com/zonewave/leetcode-precomiled/issues
+Requires-Python: >=3.7
+Requires-Dist: flake8>=5.0.4
+Description-Content-Type: text/markdown
+
+# LeetCode Python  Debug  in pycharm
+
+[中文文档](./README_CN.md)
+
+## How to debug leetcode problem
+### install [leetcode-editor](https://github.com/shuzijun/leetcode-editor)
+
+### 
+![settingimag](./img/templatesetting.jpg)
+
+[template content](./jetbrain_editor_template.md)
+
+### click problem and init python file
+![init](./img/init.jpg)
+
+### replace arg and add test case
+![debug](./img/debug.jpg)
+
+## Install tool package
+
+You can install the library using the following commands:
+
+### Using pip
+
+```sh
+pip install precompiled
+```
+### Using pdm
+
+```sh
+pdm add precompiled
+```
+## Usage
+
+Once installed, you can use the following import statements in your Python code to access all data structures from LeetCode:
+
+python
+
+```python
+from precompiled.listnode import ListNode 
+from precompiled.nestedinteger import NestedInteger 
+from precompiled.treenode import TreeNode`
+```
+### Common Data Structures and Methods
+
+- **ListNode**: Linked list node
+    - Default implementation of the`eq`method
+    - `array_to_list_node`: Converts an array into a linked list, returning the head node
+    - `arrays_to_list_node`: Converts multiple arrays into multiple linked lists, returning a tuple of linked lists
+    - `index`: get Returns the idx node of the linked list,
+- **NestedInteger**: Nested integer
+- **TreeNode**: Tree node
+
