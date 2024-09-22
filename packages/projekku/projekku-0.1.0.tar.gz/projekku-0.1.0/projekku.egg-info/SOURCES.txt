@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pengembangan fungsi/__init__.py
+pengembangan fungsi/fungsiprojek4.py
+projekku.egg-info/PKG-INFO
+projekku.egg-info/SOURCES.txt
+projekku.egg-info/dependency_links.txt
+projekku.egg-info/top_level.txt
