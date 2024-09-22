@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+taxidpro/__init__.py
+taxidpro/main.py
+taxidpro.egg-info/PKG-INFO
+taxidpro.egg-info/SOURCES.txt
+taxidpro.egg-info/dependency_links.txt
+taxidpro.egg-info/top_level.txt
