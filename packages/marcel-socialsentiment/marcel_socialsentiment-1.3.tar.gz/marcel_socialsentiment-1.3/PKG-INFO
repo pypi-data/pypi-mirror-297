@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: marcel_socialsentiment
+Version: 1.3
+Summary: Library to perform Social Sentiment on Unstructured data
+Author: Marcel Tino
+Author-email: <marceltino92@gmail.com>
+Description-Content-Type: text/markdown
+
+
+[English](README.md) | [Español](./docs/README.es.md) | [Français](./docs/README.fr.md) | [Deutsch](./docs/README.de.md) | [中文](./docs/README.zh.md) | [Türkçe](./docs/README.tr.md) | [日本語](./docs/README.ja.md) | [한국어](./docs/README.ko.md)
+
+## marcel_socialsentiment
+
+A library to perform to get continous scores using SentProp and Densifier Algorithm
+
+Developed by Marcel Tino @ 2024
+
+
+You can use this to alter according to your requirements.
+
+Credits to the author for developing such an amazing code
+
+You can find the original code here
+https://github.com/williamleif/socialsent
+
+## Examples of How To Use the library 
+
+```
+##syntax
+from marcel_socialsentiment import load_model
+from marcel_socialsentiment import prep_custom_data
+from marcel_socialsentiment import prep_seed_words
+from marcel_socialsentiment import random_walk
+from marcel_socialsentiment import label_propagate_continuous
+from marcel_socialsentiment import densify_polarity_scores 
+from marcel_socialsentiment import viewscores
+```
+
+
+```python
+
+#==============================PARAMETERS=====================
+model="glove-twitter-25"
+text="The world economy is currently navigating through a complex landscape, marked by varying levels of growth across regions. While some economies are experiencing robust GDP expansion, others are grappling with the threat of a potential recession, often driven by factors like rising inflation and supply chain disruptions. Central banks in many countries are implementing monetary tightening measures, such as increasing interest rates, in an attempt to curb inflationary pressures. However, these policies run the risk of triggering stagflation, where stagnant growth coincides with high inflation. Global trade deficits and mounting national debts have further strained economic recovery efforts, particularly in emerging markets. Meanwhile, key sectors such as manufacturing and services are seeing uneven recovery rates, leading to concerns over long-term economic stability. The threat of a prolonged bear market and reduced consumer purchasing power continues to cast a shadow on global economic sentiment, with many experts warning that a sustained period of economic contraction could be on the horizon. Despite these challenges, pockets of economic resilience remain, fueled by fiscal stimulus and innovation in sectors like technology and renewable energy."
+# Define your seed words
+positive_seeds = ['Recovery','Innovation','Stability','growth']  # Replace with your positive seed words
+negative_seeds = ['Recession','Inflation','Contraction']      # Replace with your negative seed words
+#=============================================================
+
+
+model1=load_model(model)
+embeddings,words,word_to_index=prep_custom_data(text,model1)
+overall_missing_seeds=prep_seed_words(positive_seeds, negative_seeds, word_to_index,model1)
+
+
+# To get Polarity Scores using SentProp
+sentprop_polarity_scores = random_walk(
+embeddings=embeddings,
+words=words,
+word_to_index=word_to_index,
+positive_seeds=positive_seeds,
+negative_seeds=negative_seeds,
+beta=0.9
+)
+
+# To get Continous Scores using SentProp
+sentprop_continous_scores = label_propagate_continuous(
+    embeddings=embeddings,
+    words=words,
+    word_to_index=word_to_index,
+    positive_seeds=positive_seeds,
+    negative_seeds=negative_seeds,
+    beta=0.9
+)
+
+
+# To get continous Scores using Densifier Algorithm
+new_embeddings= Embedding(embeddings, words, normalize=True)
+densify_polarity_scores = densify(
+    embeddings=new_embeddings,
+    positive_seeds=positive_seeds,
+    negative_seeds=negative_seeds
+)
+
+df=view_scores(words,sentprop_continous_scores,densify_polarity_scores)
+
+```
+
+
++ Share marcel_socialsentiment on these social media platforms if you like it!
+[![Reddit](https://img.shields.io/badge/share%20on-reddit-red?style=flat-square&logo=reddit)](https://reddit.com/submit?url=https://github.com/Kanaries/pygwalker&title=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-like%20UI)
+[![HackerNews](https://img.shields.io/badge/share%20on-hacker%20news-orange?style=flat-square&logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/Kanaries/pygwalker)
+[![Twitter](https://img.shields.io/badge/share%20on-twitter-03A9F4?style=flat-square&logo=twitter)](https://twitter.com/share?url=https://github.com/Kanaries/pygwalker&text=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-alternative%20UI)
+[![Facebook](https://img.shields.io/badge/share%20on-facebook-1976D2?style=flat-square&logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/Kanaries/pygwalker)
+[![LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?style=flat-square&logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/Kanaries/pygwalker&&title=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-alternative%20UI)
