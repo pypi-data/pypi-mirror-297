@@ -1,0 +1,5 @@
+jsonschema<5,>=4.21.0
+referencing>=0.35.1
+PkgData==0.0.0.dev3
+PySerials==0.0.0.dev7
+PyLinks==0.0.0.dev27
