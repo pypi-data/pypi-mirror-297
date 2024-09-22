@@ -1,0 +1,2 @@
+[console_scripts]
+curdrice = curdrice.main:curdrice
