@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_wol
+Version: 1.1.0
+Home-page: https://github.com/twoonefour/nonebot_plugin_wol.git
+Author: TwoOnefour
+Author-email: lys214412@gmail.com
+License: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ping3>=4.0.4
+Requires-Dist: nonebot2>=2.0.0rc2
+Requires-Dist: nb-cli>=0.6.8
+Requires-Dist: nonebot-plugin-apscheduler>=0.2.0
+
+# Description
+Nonebot的wol插件, 简单的通过qq开机
+# Usage
+
+![help](https://bucket.pursuecode.cn/upload/2024/09/help-F9996B8C90904B14A63A05490E937A92.png)

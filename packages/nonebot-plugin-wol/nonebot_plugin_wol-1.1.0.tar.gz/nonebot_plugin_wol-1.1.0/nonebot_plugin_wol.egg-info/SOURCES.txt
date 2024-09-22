@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nonebot_plugin_wol/__init__.py
+nonebot_plugin_wol.egg-info/PKG-INFO
+nonebot_plugin_wol.egg-info/SOURCES.txt
+nonebot_plugin_wol.egg-info/dependency_links.txt
+nonebot_plugin_wol.egg-info/requires.txt
+nonebot_plugin_wol.egg-info/top_level.txt
+nonebot_plugin_wol/tools/wol.py
