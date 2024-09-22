@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: multicalibration
+Version: 0.0.1
+Summary: Multicalibration post-processing in python.
+Author-email: Siddartha Devic <sid.devic@gmail.com>, Dutch Hansen <none@gmail.com>
+Project-URL: Homepage, https://github.com/sid-devic/multicalibration
+Project-URL: Issues, https://github.com/sid-devic/multicalibration/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Multicalibration Post-Processing Python Package
