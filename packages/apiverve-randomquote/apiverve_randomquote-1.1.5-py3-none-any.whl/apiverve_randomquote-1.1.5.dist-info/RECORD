@@ -1,0 +1,12 @@
+apiverve_randomquote/__init__.py,sha256=N9IuSjqr5BZc61bk6zLucLUWP91hK9Y99Dml22S3x4I,43
+apiverve_randomquote/apiClient.py,sha256=juTtiDy7mnU1Yp8ZWZb1balBw_uDHVLlV00J2BqMqZo,1223
+apiverve_randomquote/exceptions.py,sha256=b7p-H4X_LO374OSlae2-uREKoOvDadUjTliuuvZ6d9s,105
+apiverve_randomquote/setup.py,sha256=TU034C0mzdrGxh6RFxqHy907wkIW0kGFBp4LRs_AtCs,934
+apiverve_randomquote/setup_dep.py,sha256=xaACH4t8ui1LNmbK2E-Ojuu0HIfAmaPX-Hm9FnEBJSU,633
+apiverve_randomquote/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_randomquote/tests/test_api.py,sha256=gjPYMuf1H6dEzoN6cvU_BFa2lUhNBt2VQvxD4bnjN8k,617
+apiverve_randomquote-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_randomquote-1.1.5.dist-info/METADATA,sha256=rTVEQttqILI3HCH7Kr37xi99On0fJqTWfBQm6qs6ZCo,5514
+apiverve_randomquote-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_randomquote-1.1.5.dist-info/top_level.txt,sha256=U-1gTy4H65FvgFCJLd8hyZYOCA22yLRPG6rbV_WDeoE,21
+apiverve_randomquote-1.1.5.dist-info/RECORD,,
