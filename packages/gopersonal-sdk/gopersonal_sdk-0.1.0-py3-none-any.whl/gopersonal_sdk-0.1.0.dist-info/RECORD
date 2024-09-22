@@ -1,0 +1,8 @@
+gopersonal/__init__.py,sha256=NS9fPxMdagDNxH34WnQVE73IDwqLnaCiCxifZyGZfj8,32
+gopersonal/api.py,sha256=pUj6rgrlmfNvNH4JUL4K9bkJcOGJAD-ymA8Kpop--70,2102
+gopersonal/client.py,sha256=qi6GNGIwra_dPg79UYRPxoeUDrK3wiQRCFFgnRfRIfA,284
+gopersonal/exceptions.py,sha256=sSDKHvJPTimhUE1iRPmgxozz7sevcqKTw_tHBPM9D0Q,309
+gopersonal_sdk-0.1.0.dist-info/METADATA,sha256=okDdlUgspaQteqotNSm2npFl43vjgHU1NcgwfPAL4XI,942
+gopersonal_sdk-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gopersonal_sdk-0.1.0.dist-info/top_level.txt,sha256=50PweY0_v4NyCaIKoIZeHdZvAFrfo7PsI3BEqUSBK64,11
+gopersonal_sdk-0.1.0.dist-info/RECORD,,
