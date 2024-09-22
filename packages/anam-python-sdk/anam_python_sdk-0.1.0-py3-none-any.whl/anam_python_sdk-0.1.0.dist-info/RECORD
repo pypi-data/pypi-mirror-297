@@ -1,0 +1,14 @@
+python_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk/lab/client.py,sha256=zpjSB1KPGFjD65EWTOrijqVvUgASFmjr4-M3-DqZzxg,7266
+python_sdk/lab/entities.py,sha256=7ajLXnZvdsqll7OwNPs8g1WIzancEVjXnFS4iulMOsg,575
+python_sdk/lab/main.py,sha256=9EJW1CvFJKsSweEKSAKcjiT5Fm3TPhCpy6Q_3llI86Y,1693
+python_sdk/lab/personas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk/lab/personas/christian.py,sha256=O0HphESqTkFzPQGxh42ibxi4j_0wRWb3LscWuY06oOU,3306
+python_sdk/lab/personas/justice.py,sha256=AoybahWs8oZXSKiUOXubwaSoA-kMGIzTW72Dcu918k8,2528
+python_sdk/lab/personas/kai.py,sha256=pYLY-40ajgf5Hhsn7Kb5nET18DqTd-UJqdSlk_k_KCs,3056
+python_sdk/lab/personas/max.py,sha256=gVz7qu5PYJagO-nzNSvrJFhySFxU-qxryULjK5uAqIg,2374
+python_sdk/lab/prompts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk/lab/prompts/defaults.py,sha256=qTRLuxPxlQQPagfiYpl4ax2BDjMv8ak9RxAP2VIXB8E,5811
+anam_python_sdk-0.1.0.dist-info/METADATA,sha256=l040FNz-mv4It3QOQIiXiAu5e1ASrZOA3zIlVI0CM58,3437
+anam_python_sdk-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+anam_python_sdk-0.1.0.dist-info/RECORD,,

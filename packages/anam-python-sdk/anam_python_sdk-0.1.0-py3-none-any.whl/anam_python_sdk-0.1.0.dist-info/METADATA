@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: anam-python-sdk
+Version: 0.1.0
+Summary: An official package to interact with Anam's Avatar engine.
+Home-page: https://www.anam.ai
+License: MIT
+Author: Quinten Rosseel
+Author-email: quinten@anam.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.10.5,<4.0.0)
+Requires-Dist: aiortc (==1.9.0)
+Requires-Dist: livekit (>=0.14.0,<0.15.0)
+Requires-Dist: livekit-agents (>=0.8.10,<0.9.0)
+Requires-Dist: livekit-api (>=0.7.0,<0.8.0)
+Requires-Dist: livekit-plugins-deepgram (>=0.6.6,<0.7.0)
+Requires-Dist: livekit-plugins-openai (>=0.8.1,<0.9.0)
+Requires-Dist: livekit-plugins-silero (>=0.6.4,<0.7.0)
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: websockets (>=13.0.1,<14.0.0)
+Project-URL: Repository, https://github.com/anam-org/python-sdk
+Description-Content-Type: text/markdown
+
+# Getting Started 
+This client uses [Poetry](https://python-poetry.org/) for Python package & dependency management. 
+
+## Backlog 
+- Core API 
+    - Establishing a P2P Websocket to the Anam engine
+    - Configuring the API with a Pythonic interface
+    - Plug and play with 
+        - Gradio, Streamlit or FastHTML
+        - Fast API
+- Character Dev
+    - Create 3 to 4 personas
+- Brains 
+    - Creating a RAG tool call & establishing a `talk()` command
+    - Langchain integration
+- Persona API 
+    - Configuring a new persona using the client (i.e. what you do in Anam Lab)
+    - Selecting a persona 
+
+## Installation (Package)
+```zsh
+    pip install anam-python-sdk
+```
+```python 
+    from anamai.core import AnamClient
+    from anamai.config import DEFAULT_FILTER_PHRASES_EN
+    from dotenv import dotenv_values
+
+    ENV = dotenv_values(".env.example")
+
+    anc = AnamClient(ENV)
+
+    eva = anc.Persona(
+        personality = """
+        You are role-playing as a text chatbot hotel receptionist at The Sunset Hotel. 
+        Your name is Eva.
+        """, 
+        system_prompt="""
+        You are role-playing as a text chatbot hotel receptionist at The Sunset Hotel. 
+        Your name is Eva. Start with 'Hi, this is The Sunset Hotel reception, how may I help you?' 
+        Be mindful of the hotel's availability: single and double rooms 
+        are still available all next week, except Tuesday. 
+        Dogs are allowed. There's a restaurant and bar in the lobby. 
+        If communication breaks down, ask if they want to speak to a human. 
+        Finish every response with a question to drive the conversation. 
+        Do not repeat yourself.
+        """, 
+        filter_phrases=DEFAULT_FILTER_PHRASES_EN
+    )
+
+
+
+
+```
+
+## Installation (Local)
+*Using Conda*
+1. Create a python environment `(^3.10)` in your top-level directory. 
+    - `.conda/bin/python`
+    - Ensure that its activated; i.e. `(.conda)` shows. 
+2. Configure poetry to use `.conda/bin/python`: 
+```zsh
+    (.conda) poetry config virtualenvs.path $CONDA_ENV_PATH
+    (.conda) poetry config virtualenvs.create false
+    (.conda) poetry env use .conda/bin/python
+```
+3. Install the dependencies
+```zsh
+    (.conda) poetry install
+```
