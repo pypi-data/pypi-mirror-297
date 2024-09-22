@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sciduck
+Version: 0.1.0
+Summary: single cell data analyis unification and communication toolkit
+Home-page: https://github.com/AllenInstitute/sciduck
+Author: Nelson Johansen
+Author-email: nelson.johansen@alleninstitute.org
+License: BSD 2-clause
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: anndata
+Requires-Dist: scanpy
+Requires-Dist: numpy
+Requires-Dist: pandas
+
