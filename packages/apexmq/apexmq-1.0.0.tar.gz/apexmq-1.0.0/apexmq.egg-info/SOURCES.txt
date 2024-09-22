@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+apexmq/__init__.py
+apexmq/apps.py
+apexmq/conf.py
+apexmq/connection.py
+apexmq/consumers.py
+apexmq/producers.py
+apexmq.egg-info/PKG-INFO
+apexmq.egg-info/SOURCES.txt
+apexmq.egg-info/dependency_links.txt
+apexmq.egg-info/requires.txt
+apexmq.egg-info/top_level.txt
