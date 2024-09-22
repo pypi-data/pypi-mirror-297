@@ -1,0 +1,17 @@
+palmletRPA/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+palmletRPA/palmletRPA.cp38-win_amd64.pyd,sha256=fkuvAb0vkqlkwxTgbgMKVEOuuXCrCOhEAnRJBxYwDFI,15240704
+palmletRPA/palmletRPA/__init__.pyi,sha256=KOU7tQwe_RXnGd_ONFwNOp-cJ7CbaQwwBYeJH-X63l4,285
+palmletRPA/palmletRPA/excel.pyi,sha256=7QItYuBiS5z70ulDMFOjkBkr3S9heG2Xi4okc-LiNcs,6801
+palmletRPA/palmletRPA/keyboard.pyi,sha256=O84YD5v00xu3zOi3r2VwWaQvUCzjGIgyR3X48XKHEI4,1089
+palmletRPA/palmletRPA/mouse.pyi,sha256=vqhXqongLmDkx6rJXLFTiD9HSmTUmmwhuciolCnehVI,2350
+palmletRPA/palmletRPA/requirements.txt,sha256=Vna6eDy-l0eukHmudWlHCexjM2p__MmPAg7UUxuNxlw,150
+palmletRPA/palmletRPA/setup.pyi,sha256=eg2GYGhrNs4Z3a0WHTtmeCAx1UC2An9HSUOMjbv-S3E,139
+palmletRPA/palmletRPA/ui_detect.pyi,sha256=LRZ1_-M6K2SJ8KZ6eJYw3q9XnD2YlBjYOrJ475EENQM,910
+palmletRPA/palmletRPA/web.pyi,sha256=zJMK5t4CzALffiSuBfvwIDQFJsqyBk8uNWpdEEb0iuU,9270
+palmletRPA/palmletRPA/win.pyi,sha256=i-PTD2Nu4Bddie4xvUixUAe3nd8XWy1jsPay2ptyVwY,11157
+palmletRPA/palmletRPA/db/auth.db,sha256=re-ZvO5SZkpGj7TXGhbFnxGy-eROlBwuzXKrS7uHDcg,20480
+palmletRPA/palmletRPA/script/web_automation/stealth.min.js,sha256=0sO7npPlyfqO2_LW_8YzppH03N-OZNWxk-OwDBNCxSs,166313
+palmletRPA-1.0.8.dist-info/METADATA,sha256=QBRSCw4URY0UrOUJHmURedIkJ6r9SsgBfF9gnAMqwj4,527
+palmletRPA-1.0.8.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+palmletRPA-1.0.8.dist-info/top_level.txt,sha256=kaGJZdlmQ9ZdpK1Hton2Ma59-0jCLqpituYmZsno0pk,11
+palmletRPA-1.0.8.dist-info/RECORD,,
