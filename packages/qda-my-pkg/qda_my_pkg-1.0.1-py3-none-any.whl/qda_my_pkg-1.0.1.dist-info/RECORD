@@ -1,0 +1,7 @@
+pyarmor_runtime_000000/__init__.py,sha256=6Iad0rUZHwzH641ukTaIxrOrWBnUwu7pm-_sE8HANQI,104
+qda_my_pkg/__init__.py,sha256=daY2sgpjM1j_jadOg4PnQRqDGNp6zAOCbg3Wkdu9p7Y,1826
+qda_my_pkg/my_module.py,sha256=PmVTzdj6tIv5GD5eOE1baBqn50lDkfPOY6icbuUVgG8,2960
+qda_my_pkg-1.0.1.dist-info/METADATA,sha256=yh9VmWD25envulcEkv23N6TaPsXU8THQ6z6KeVqCEe0,171
+qda_my_pkg-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qda_my_pkg-1.0.1.dist-info/top_level.txt,sha256=0KFftsXqRwVTNOqZ6gjrtEvUfj4A6gbDLsf4a3bGVLA,34
+qda_my_pkg-1.0.1.dist-info/RECORD,,
