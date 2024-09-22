@@ -1,0 +1,11 @@
+mocker_db/__init__.py,sha256=HaekjqnHxeWG4t4hNPRMpka2LEay6bJHmFOgjbnI_oA,244
+mocker_db/cli.py,sha256=kEmt2SJwFWJAG_0RDlyFU4w99zAwCabo7hnPxGF1Q_E,1196
+mocker_db/mocker_db.py,sha256=Y_JP8c0_Vxreeah8aSFau3u5pUNT7g9bvHOgLyXD6GM,59807
+mocker_db/routes.py,sha256=gQo9zs13OcGW-iQ3kKzH8SXecayonzgWfRiH1hkiUjY,11861
+mocker_db/setup.py,sha256=KZgY5HUTCh-KVSRNqNdYMP04Dotc6ntJArsCu1A551Q,1709
+mocker_db-0.2.5.dist-info/LICENSE,sha256=cWOz095esmvweNeqFgIMdVGn-R92WpVVMJm4RTBzToo,1061
+mocker_db-0.2.5.dist-info/METADATA,sha256=YHZKMbWxmuzGyysrdkEjeUJV2urm6m4MeDzWwtpMoxk,10443
+mocker_db-0.2.5.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+mocker_db-0.2.5.dist-info/entry_points.txt,sha256=0Y5cQbQ0kmS_ns4vRbiuB_ksbHluRVT2ABvGeWslubk,47
+mocker_db-0.2.5.dist-info/top_level.txt,sha256=Ax--L3h6F-nhKlcIUhBDuo2iq5x4rlMPUHfFuYrYmwU,10
+mocker_db-0.2.5.dist-info/RECORD,,
