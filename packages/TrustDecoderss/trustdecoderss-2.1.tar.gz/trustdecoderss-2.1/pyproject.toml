@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "TrustDecoderss"
+version = "2.1"
+description = "Simple Tools for decode Trust wallet data, from extensions wallet, TrustWallet."
+authors = ["JeanClaude89"]
+license = "MIT"
+readme = "README.md"
+keywords = [
+    "extensions", "TrustWallet", "walletdecode", "Trust", "evm", "crypto", "decrypt", "wallet"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pycryptodome = ">=3.20.0"
+Cipherbcryptors = ">=1.3"
+ccl_leveldbases = ">=1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/Katana-Crypto"
+Issues = "https://github.com/pypa/Katana-Crypto/issues"
