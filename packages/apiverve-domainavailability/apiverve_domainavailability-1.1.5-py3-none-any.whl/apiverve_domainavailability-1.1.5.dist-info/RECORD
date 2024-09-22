@@ -1,0 +1,12 @@
+apiverve_domainavailability/__init__.py,sha256=q6UKxSNANhmqA2F1E9BBEY-3nMp496KJPasHn9Kiz7E,50
+apiverve_domainavailability/apiClient.py,sha256=KmnZZ4ktpFzcy901tXheSY9AuEh4WI9dZyqGQ6XcEHo,1244
+apiverve_domainavailability/exceptions.py,sha256=SZZDEq0wM8QVkAAkdl1lH95A6YcTWB0__UItRxRzZsU,119
+apiverve_domainavailability/setup.py,sha256=BKJFlMS3V45VBeaxk4iJsPk7GK3q9QElcT5uby-JZnU,963
+apiverve_domainavailability/setup_dep.py,sha256=QVBZgalUA8QceyxqU2tpOeUGZMdmHBsiRfIpjxM1OyQ,662
+apiverve_domainavailability/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_domainavailability/tests/test_api.py,sha256=Yrq-wawmd1yxVtsSZVDakRH7iox9f3wikHu53ajD-ts,638
+apiverve_domainavailability-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_domainavailability-1.1.5.dist-info/METADATA,sha256=_aHlk-d-TfNrSjTt4BrQLBgufPRMNW3NSO2Vx9-vHPo,5707
+apiverve_domainavailability-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_domainavailability-1.1.5.dist-info/top_level.txt,sha256=kygbu6iu38uO7oN4PRpLNyQGNuQe9fPLad7I8LS2_ng,28
+apiverve_domainavailability-1.1.5.dist-info/RECORD,,
