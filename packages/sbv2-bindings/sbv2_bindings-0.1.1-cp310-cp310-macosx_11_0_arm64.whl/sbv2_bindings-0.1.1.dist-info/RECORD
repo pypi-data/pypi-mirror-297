@@ -1,0 +1,5 @@
+sbv2_bindings-0.1.1.dist-info/METADATA,sha256=cu68AkDl3cPpGB7jE7VpDr7HqB9Ehd1MP25wCScl11g,262
+sbv2_bindings-0.1.1.dist-info/WHEEL,sha256=CGnS0i8URJnlKLkPX-fK4x4xvv97QMtOan0UI5pjn2k,104
+sbv2_bindings/__init__.py,sha256=t8wiF8vG_CppOnfGnO9Xd_XAYhBtb5jPjfYiAx2o9d8,135
+sbv2_bindings/sbv2_bindings.cpython-310-darwin.so,sha256=SiHN9L9FX-WgxkGLPINo_rLgh6Jog2OciaH_jeiQGuI,75131112
+sbv2_bindings-0.1.1.dist-info/RECORD,,
