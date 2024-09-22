@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pkvpm/__init__.py
+pkvpm/parser.py
+pkvpm.egg-info/PKG-INFO
+pkvpm.egg-info/SOURCES.txt
+pkvpm.egg-info/dependency_links.txt
+pkvpm.egg-info/requires.txt
+pkvpm.egg-info/top_level.txt
+tests/__init__.py
+tests/test_parser.py
