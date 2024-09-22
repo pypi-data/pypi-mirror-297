@@ -1,0 +1,54 @@
+# Prerequisites
+bind/build
+bind/build/*
+bind/pybind11
+bind/pybind11/*
+
+*.pkl
+
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+build/
+build/*
+cmake-build-debug/
+cmake-build-debug/*
+
+dist/
+.idea/
+.idea/*
+
+__pycache__
+.DS_Store
+
+results
+results/*
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
