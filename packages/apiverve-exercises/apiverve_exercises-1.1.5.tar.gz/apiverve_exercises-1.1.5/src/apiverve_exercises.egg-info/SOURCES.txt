@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/apiverve_exercises/__init__.py
+src/apiverve_exercises/apiClient.py
+src/apiverve_exercises/exceptions.py
+src/apiverve_exercises/setup.py
+src/apiverve_exercises/setup_dep.py
+src/apiverve_exercises.egg-info/PKG-INFO
+src/apiverve_exercises.egg-info/SOURCES.txt
+src/apiverve_exercises.egg-info/dependency_links.txt
+src/apiverve_exercises.egg-info/top_level.txt
+src/apiverve_exercises/tests/__init__.py
+src/apiverve_exercises/tests/test_api.py
+tests/test_api.py
