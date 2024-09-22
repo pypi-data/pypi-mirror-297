@@ -1,0 +1,2 @@
+[console_scripts]
+viewdata = mydataviewer.view_dataframe:main

@@ -1,0 +1,5 @@
+pandas
+pyqt5
+qtconsole
+ipykernel
+jupyter_client
