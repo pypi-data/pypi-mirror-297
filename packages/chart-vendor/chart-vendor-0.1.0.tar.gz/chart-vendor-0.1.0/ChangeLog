@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+v0.1.0
+------
+
+* Handle ClientConnectorError instead (#6)
+* Add retries for connection resets (#5)
+* Improve CI + add limits per host (#4)
+* feat: support fetching a certain chart (#3)
+* feat: add check mode (#2)
+* feat: make charts path configurable (#1)
+
+v0.0.1
+------
+
+* Add zuul
+* Initial commit
