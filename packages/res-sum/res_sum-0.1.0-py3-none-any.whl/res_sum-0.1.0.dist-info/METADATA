@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: res-sum
+Version: 0.1.0
+Summary: A Python package Leveraging LLMs for Research Synthesis
+Home-page: https://github.com/drhammed/res-sum
+Author: Hammed A. Akande
+Author-email: "Hammed A. Akande" <akandehammedadedamola@gmail.com>
+Project-URL: homepage, https://github.com/drhammed/res-sum
+Project-URL: repository, https://github.com/drhammed/res-sum
+Project-URL: issues, https://github.com/drhammed/res-sum/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: PyMuPDF
+Requires-Dist: PyPDF2
+Requires-Dist: python-docx
+Requires-Dist: nltk
+Requires-Dist: GDriveOps
+Requires-Dist: openai
+Requires-Dist: voyageai
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
+Requires-Dist: langchain-voyageai
+Requires-Dist: langchain-groq
+Requires-Dist: langchain-core
+Requires-Dist: rouge-score
+Requires-Dist: ipywidgets
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
+# Research summarizer
+Leveraging LLMs for Research Synthesis
+
+This package is designed to leverage the power of Large Language Models (LLMs) to summarize research papers. It uses a combination of Natural Language Processing (NLP) techniques and LLMs to extract and summarize key sections from research papers. The summarizer focuses on the methodology, results, discussion, and conclusion sections, providing a high-level summary of the key findings and conclusions (although you could extend to cover introduction or other parts of the paper).
+
+
+
+## Features
+
+- **PDF Extraction:** Extract text content from PDF files.
+- **Text Preprocessing:** Clean and preprocess the extracted text for better summarization.
+- **Section Extraction:** Identify and extract specific sections from the research paper.
+- **Text Summarization:** Generate high-level summaries of the extracted sections using Open source LLMs like Llama 3 and Open AI's GPT-4 model.
+- It can batch process multiple research papers at once.
+- So, users just need to upload a folder containing multiple research papers and the summarizer will process all the papers and return a summary of each paper.
+- The summaries are saved to a folder on your machine.
+- **Streamlit Interface:** A user-friendly web interface for uploading PDF files and displaying summaries. You can access the web app via this [link](https://sum-tool.streamlit.app/)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/drhammed/res-sum.git
+   
+
+
+
+## Set up a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+## Install the required packages:
+`pip install -r requirements.txt`
+
+## Download NLTK data:
+`python -m nltk.downloader punkt wordnet`
+
+## Configuration
+
+1. Google Drive API Credentials:
+
+- Create a project on the (Google Cloud Console).
+
+- Enable the Google Drive API.
+
+- Create credentials (OAuth 2.0 Client IDs) and download the credentials.json file.
+
+- Place the credentials.json file in the project directory. For a full instruction on this, see my [GDriveOps python package](https://pypi.org/project/GDriveOps/)
+
+
+2. OpenAI API Key:
+Obtain an API key from [Groq](https://console.groq.com/keys).
+
+For the OpenAI API key, you can obtain one from [OpenAI](https://platform.openai.com/apps).
+
+You can the set the API keys in the .env file or in the .env.local file.
+
+
+
+## Usage
+
+
+
+
+## Acknowledgments
+
+- This project uses the API key from Groq AI and OpenAI GPT-4 model for text summarization.
+- So, I want to thank the Groq AI for providing free tier access to interact with their models.
+- Thanks to the Google Drive API for providing the tools to interact with Google Drive.
+
