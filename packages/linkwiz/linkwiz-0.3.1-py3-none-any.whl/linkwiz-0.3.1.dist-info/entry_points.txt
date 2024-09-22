@@ -1,0 +1,5 @@
+[console_scripts]
+
+[gui_scripts]
+linkwiz = linkwiz.__main__:main
+
