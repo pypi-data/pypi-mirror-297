@@ -1,0 +1,2 @@
+[console_scripts]
+cycloplanning = cycloplanning.cli:main
