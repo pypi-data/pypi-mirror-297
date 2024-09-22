@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: xlsxreport
+Version: 0.0.6
+Author: David M. Hollenstein
+Author-email: hollenstein.david@gmail.com
+License: Apache v2
+Keywords: excel,report,mass spectrometry,proteomics
+Requires-Python: >=3.9
