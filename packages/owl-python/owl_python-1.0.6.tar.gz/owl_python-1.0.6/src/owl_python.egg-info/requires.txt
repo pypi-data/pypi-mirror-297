@@ -1,0 +1,13 @@
+plotly
+tensorflow
+pandas
+seaborn
+opencv-python
+scikit-learn
+tqdm
+matplotlib
+numpy
+albumentations
+pillow
+scipy
+ipywidgets
