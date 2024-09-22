@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+papidweblogin.egg-info/PKG-INFO
+papidweblogin.egg-info/SOURCES.txt
+papidweblogin.egg-info/dependency_links.txt
+papidweblogin.egg-info/top_level.txt
+user_lib/__init__.py
+user_lib/password_pkg/__init__.py
+user_lib/password_pkg/data.py
+user_lib/password_pkg/password_check.py
+user_lib/user_pkg/user_check.py

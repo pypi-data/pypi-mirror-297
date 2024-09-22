@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: papidweblogin
+Version: 0.1.0
+Summary: This package to validate users and passwords
+Home-page: https://bitbucket.org/dptrealtime/papid/src/main/
+Author: PR Reddy
+Author-email: dptrealtime@example.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
