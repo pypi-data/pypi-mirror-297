@@ -1,0 +1,12 @@
+changelog.md,sha256=iWGIqWWOrnN37JQ79q-yWisUJefXyOPk33ZGiNmUEkQ,609
+tabeltekstilo/__init__.py,sha256=G7IzYARVuR4V1iRtHfDONP-IJ6Kg0h7vgMIgh9OJM44,544
+tabeltekstilo/__main__.py,sha256=ph-h1nbLQEsMJFfT5M1eRBOl4fkbzwWiYlKuz4GwfHQ,199
+tabeltekstilo/cli.py,sha256=gIeaxZqw5M5lLOIfwOXasOzARzWA3_67Txyh1EUieos,6982
+tabeltekstilo/dictionary.py,sha256=rcLakQKFRuixgKW81hn6OJCgiMipEKjV5O5qH5F0vFk,1982
+tabeltekstilo/index.py,sha256=a_llIny73P_3MqDOCd77lF6DjFQCBGrYHFvPxjBRJco,8179
+tabeltekstilo/xml.py,sha256=UUyvN1KDFbQeu0pIWSJ_kJnKnMQ49y41F2x68gXbCkI,3901
+tabeltekstilo-1.1.0.dist-info/LICENSES/AGPL-3.0-or-later.txt,sha256=2KbMMavBa2dIx6IfIWEfWh7DP2fSLKI9faHBm5VJa-4,34020
+tabeltekstilo-1.1.0.dist-info/METADATA,sha256=QxrIv19MR_atkebHNe6-QOR4Cb3BLx9uOIogLnX2m7c,15249
+tabeltekstilo-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+tabeltekstilo-1.1.0.dist-info/entry_points.txt,sha256=K-S11fmtjQ-9-nRKbFDx2Tzqnt0foQm6CAFSB1O-x3o,56
+tabeltekstilo-1.1.0.dist-info/RECORD,,
