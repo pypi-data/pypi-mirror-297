@@ -1,0 +1,13 @@
+
+*.mse
+/src/test
+/work/code_versions
+/src/test
+/test/subfolder
+/test
+src/test_extraction.log
+test_extraction.log
+model/Determine type of called coding.m2m
+Python2SOMIX.code-workspace
+src/.python2somix.log
+src/config_python2somix.txt
