@@ -1,0 +1,9 @@
+README.md
+setup.py
+memz_test_package/__init__.py
+memz_test_package/__main__.py
+memz_test_package.egg-info/PKG-INFO
+memz_test_package.egg-info/SOURCES.txt
+memz_test_package.egg-info/dependency_links.txt
+memz_test_package.egg-info/entry_points.txt
+memz_test_package.egg-info/top_level.txt

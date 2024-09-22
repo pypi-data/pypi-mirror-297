@@ -1,0 +1,2 @@
+[console_scripts]
+memz-test-package = memz_test_package.__main__:main
