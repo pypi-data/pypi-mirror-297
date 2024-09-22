@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eric-sse
+Version: 0.1.0.1
+Summary: A lightweigth message dispatcher based on SSE protocol data transfer objects format
+Keywords: sse,queue
+Author: Luca Stretti
+Author-email: laxertu@gmail.com
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: asyncio (>=3.4.3)
