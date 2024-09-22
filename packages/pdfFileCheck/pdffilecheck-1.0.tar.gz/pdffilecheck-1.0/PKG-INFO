@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pdfFileCheck
+Version: 1.0
+Summary: A package to check if a file is a real PDF and report its size in KB and MB.
+Home-page: https://github.com/said7388
+Author: Abu Said
+Author-email: bananaspritz@protonmail.com
+License-File: LICENSE.txt

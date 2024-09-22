@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+pdfFileCheck/__init__.py
+pdfFileCheck/check.py
+pdfFileCheck.egg-info/PKG-INFO
+pdfFileCheck.egg-info/SOURCES.txt
+pdfFileCheck.egg-info/dependency_links.txt
+pdfFileCheck.egg-info/entry_points.txt
+pdfFileCheck.egg-info/top_level.txt
