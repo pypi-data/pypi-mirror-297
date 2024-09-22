@@ -1,0 +1,5 @@
+networkx>=1.5.12
+pydeps>=1.11
+
+[dev]
+ruff>=0.4.0

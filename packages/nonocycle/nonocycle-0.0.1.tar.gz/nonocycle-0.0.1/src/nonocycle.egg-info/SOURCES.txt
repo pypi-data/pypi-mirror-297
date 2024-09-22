@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+src/nonocycle/__init__.py
+src/nonocycle/nonocycle.py
+src/nonocycle.egg-info/PKG-INFO
+src/nonocycle.egg-info/SOURCES.txt
+src/nonocycle.egg-info/dependency_links.txt
+src/nonocycle.egg-info/entry_points.txt
+src/nonocycle.egg-info/requires.txt
+src/nonocycle.egg-info/top_level.txt
