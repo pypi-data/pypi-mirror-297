@@ -1,0 +1,14 @@
+nonebot_plugin_dialectlist/__init__.py,sha256=VyfkrZQKd6KFFK1aZeeedIfljdfBswNLxQUsPFOVwCQ,8978
+nonebot_plugin_dialectlist/config.py,sha256=-lNjhgpiA71vvNPfJbgL2JxoLiHUMl2YC8bm8K5fF1k,957
+nonebot_plugin_dialectlist/model.py,sha256=MynrgZWV3acA5FP3eTlq2noouTMzx7QFZOY3Qpcpf5U,782
+nonebot_plugin_dialectlist/storage.py,sha256=7Qdg7pPnikibt4h0cFlcJGWC5gDnkmti21OlINAvxuU,147
+nonebot_plugin_dialectlist/time.py,sha256=AxcVwH-zEz1CJCpfy65hWV9B3wzLgznWgjPIZcizXIc,2623
+nonebot_plugin_dialectlist/usage.py,sha256=x5f5OXXHGobR6zWovYbkYX-t6EywCt_wnHTYmrwlbkw,220
+nonebot_plugin_dialectlist/utils.py,sha256=3BQ0o2n6WnqrbdgQES1giuQLYPIZjU2lBsjSh4puQHQ,7820
+nonebot_plugin_dialectlist/template/rank_template.j2,sha256=ZoAnZ683yQ8NLww4Ajh6cSgi5PTvCSQYoPS7siZ47D0,1749
+nonebot_plugin_dialectlist/template/avatar/default.jpg,sha256=RLqZqVdemMSbJXrIVFIqlbA4LVJ6y1vW751HAD1HRPI,7124
+nonebot_plugin_dialectlist/template/css/style.css,sha256=-eOIA47cGu_iA81adIz_IJFf-abcjz-moDGA4rUU1Jo,3240
+nonebot_plugin_dialectlist-2.3.0.dist-info/METADATA,sha256=uxCAGI-BMb1YQ9FUw4JmCjxGuYS1r2u6vhGhQ8QdG8c,7871
+nonebot_plugin_dialectlist-2.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nonebot_plugin_dialectlist-2.3.0.dist-info/top_level.txt,sha256=M9CUbtGOXZGGzqgpux36SnQJ5t1aA3V4FCZ_wEK1g2I,27
+nonebot_plugin_dialectlist-2.3.0.dist-info/RECORD,,
