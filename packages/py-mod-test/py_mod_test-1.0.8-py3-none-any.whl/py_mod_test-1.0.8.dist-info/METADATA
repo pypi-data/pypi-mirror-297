@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py_mod_test
+Version: 1.0.8
+Summary: Ferramenta para deploy de pacotes Python
+Home-page: https://github.com/fpessoa64/py_mod_test
+Author: Fernando Pessoa
+Author-email: fefe@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+'Programming Language :: Python :: 3',
+'License :: OSI Approved :: MIT License',  # Mude se usar outra licença
+'Operating System :: OS Independent',
+
