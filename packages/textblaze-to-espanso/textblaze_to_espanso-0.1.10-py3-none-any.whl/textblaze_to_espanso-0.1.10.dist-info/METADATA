@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: textblaze_to_espanso
+Version: 0.1.10
+Author: makeyouswag
+Project-URL: Homepage, https://github.com/makeyouswag/TextBlazeToEspanso/
+Project-URL: Issues, https://github.com/makeyouswag/TextBlazeToEspanso/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: black==24.8.0
+Requires-Dist: build==1.2.2
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: cffi==1.17.1
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: cryptography==43.0.1
+Requires-Dist: docutils==0.21.2
+Requires-Dist: idna==3.10
+Requires-Dist: importlib-metadata==8.5.0
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==6.0.1
+Requires-Dist: jaraco.functools==4.0.2
+Requires-Dist: jeepney==0.8.0
+Requires-Dist: keyring==25.4.1
+Requires-Dist: loguru==0.7.2
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.5.0
+Requires-Dist: mypy-extensions==1.0.0
+Requires-Dist: nh3==0.2.18
+Requires-Dist: packaging==24.1
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: platformdirs==4.3.6
+Requires-Dist: pycparser==2.22
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: pyproject-hooks==1.1.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: readme-renderer==44.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.8.1
+Requires-Dist: ruamel.yaml==0.18.6
+Requires-Dist: ruamel.yaml.clib==0.2.8
+Requires-Dist: SecretStorage==3.3.3
+Requires-Dist: twine==5.1.1
+Requires-Dist: urllib3==2.2.3
+Requires-Dist: zipp==3.20.2
+
+A simple script to convert TextBlaze snippets to Espanso matches.
+
+Oriented for the conversion of the whole TextBlaze repository at once using the "Export all folders" button in the
+settings. Will work just as fine with a single folder.
+
+I use `\` as a shortcut initiator because I think it is more convenient to access the shortcuts in a single button no
+matter the keyboard layout.
+
+### Prerequisites
+- Python 3.12
+- pip
+
+### Installation
+- `pip install textblaze-to-espanso`
+
+### Environment variables
+- `TEXTBLAZE_EXPORT_JSON_PATH`: path to TextBlaze export json
+- `ESPANSO_MATCHES_PATH`: espanso/match directory path
+- `SNIPPETS_DIRECTORY_NAME="test_version"`: Name of the directory where new matches will be stored
+- `REPLACER_CHARACTER="\\"`: The character that will replace the original `/`. I prefer backslash
+- `FOLDERS_KEY="folders"`: TextBlaze json key containing folders with snippets
+- `FOLDER_NAME_KEY="name"`: TextBlaze Folder name json key
+- `SNIPPETS_KEY="snippets"`:  TextBlaze snippets json key
+- `SNIPPET_SHORTCUT_KEY="shortcut"`: TextBlaze shortcut json key
+- `SNIPPET_TEXT_KEY="text" `: TextBlaze text snippet json key
+- `ESPANSO_FILE_EXTENSION=".yml"`: Espanso configuration file extension
+
+### Usage
+
+1. Configure paths in environment
+2. Execute the package: `python -m textblaze_to_espanso --env-file=$ENV_FILE_PATH`
+3. Locate the matches inside the configured directory
+4. Try to use your snippets. They should work in all environments from the get-go. You may need to reload Espanso
