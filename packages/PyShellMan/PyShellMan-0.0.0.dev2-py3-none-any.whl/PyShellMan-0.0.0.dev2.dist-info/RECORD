@@ -1,0 +1,10 @@
+pyshellman/__init__.py,sha256=IUhW5T7OEDKrqzPiKgXTrLZJMPZ1MocGyiMDtgQoStw,161
+pyshellman/exception.py,sha256=5xE2q8ER7I8AP3opZn3X_whcXBdk6j0TVitA53uUq5g,2114
+pyshellman/output.py,sha256=uhgKRGk_2kh70ZvHep7LRjJaLHq9QAIsNi3QrEU0RRE,2017
+pyshellman/pip.py,sha256=JJQSLkSSkmIs647Ctzi7oq8NNEBDexWKaTJd-_Kcb70,2438
+pyshellman/python.py,sha256=obP_yO00CaOvrdMhZka17_nCtDQ5Mp34HNY7sc2ZV08,772
+pyshellman/shell.py,sha256=Kr6N3s268SjC7p9GxwKZausTVLWutdUIScyiaZleZus,1228
+PyShellMan-0.0.0.dev2.dist-info/METADATA,sha256=1-hzw2zxtWJlRz6yQkxvFFw-WQlvQTURRsN0hTrziF8,104
+PyShellMan-0.0.0.dev2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+PyShellMan-0.0.0.dev2.dist-info/top_level.txt,sha256=-WCRVWaVDhk6c2yzPaGNLrFh4kBF3pXrkPuP9DtaSXg,11
+PyShellMan-0.0.0.dev2.dist-info/RECORD,,
