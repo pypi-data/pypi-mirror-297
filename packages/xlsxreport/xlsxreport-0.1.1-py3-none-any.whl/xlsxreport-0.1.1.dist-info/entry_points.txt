@@ -1,0 +1,2 @@
+[console_scripts]
+xlsxreport = xlsxreport.scripts.cli:cli
