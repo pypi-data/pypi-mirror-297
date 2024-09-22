@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ax520tool.egg-info/PKG-INFO
+ax520tool.egg-info/SOURCES.txt
+ax520tool.egg-info/dependency_links.txt
+ax520tool.egg-info/requires.txt
+ax520tool.egg-info/top_level.txt
