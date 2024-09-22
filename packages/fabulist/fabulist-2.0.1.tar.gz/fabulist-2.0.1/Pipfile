@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.12"
+
+[dev-packages]
+pre-commit = "*"
+ruff="*"
+pytest = "*"
+pytest-cov = "*"
+pytest-html = "*"
+sphinx_rtd_theme = "*"
+sphinx = "*"
+tox = "*"
+twine = "*"
+wheel = "*"
+yabs = "*"
+fabulist = {path = ".", editable = true}
+
+[packages]

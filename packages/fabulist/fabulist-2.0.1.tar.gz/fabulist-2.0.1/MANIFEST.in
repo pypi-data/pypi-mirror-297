@@ -1,0 +1,15 @@
+# Run `check-manifest -u` to check and update this settings.
+
+include .editorconfig
+include *.md
+include *.png
+include *.rst
+include *.txt
+include *.yml
+include LICENSE.txt
+include Pipfile
+include TODO
+include tox.ini
+
+recursive-include tests *.py
+recursive-include tests *.txt
