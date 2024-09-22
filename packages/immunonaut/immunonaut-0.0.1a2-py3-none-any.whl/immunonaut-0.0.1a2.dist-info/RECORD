@@ -1,0 +1,11 @@
+immunonaut/__init__.py,sha256=GW_R_TFmV6s9fWXBiymn-kRi3lqKDfziYvXDRhb_qG4,69
+immunonaut/cell_types.py,sha256=0mt4TDB9ryj0qwzWeQgdgfE55SpAvfRP82HvV1rPP2g,2449
+immunonaut/mapping.py,sha256=lZZiS1h8S-5Ilm-mWj0qp215puKyelBic-IfYFNJjCk,2137
+immunonaut/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+immunonaut/models/human.py,sha256=6XFIyF_0gBPxffmX6TACeC48Fkg4HRFwealXMMsqjjo,5183
+immunonaut/pathways.py,sha256=B7ZMyOzMLzHorfpbHetEIa-2wyVr6uTtgCGv0bcSoWw,784
+immunonaut/targets.py,sha256=XZkFi0xBsZy_CxFuXeEW3xzqkiJrWlgp7-ATodc-N88,1613
+immunonaut-0.0.1a2.dist-info/LICENSE,sha256=QnkeVYSMg5vUA4izZtFebBZ1QoMyB01rg19kJXHZhCM,33887
+immunonaut-0.0.1a2.dist-info/METADATA,sha256=E0v2e3Rh7xndds2KitMeYhUrIwGqe_0KyoYDxdIVbwI,760
+immunonaut-0.0.1a2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+immunonaut-0.0.1a2.dist-info/RECORD,,
