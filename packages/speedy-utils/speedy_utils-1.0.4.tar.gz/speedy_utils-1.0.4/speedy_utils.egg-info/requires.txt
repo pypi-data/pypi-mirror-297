@@ -1,0 +1,14 @@
+numpy
+requests
+xxhash
+loguru
+fastcore
+debugpy
+ipywidgets
+jupyterlab
+ipdb
+scikit-learn
+matplotlib
+pandas
+tabulate
+pydantic
