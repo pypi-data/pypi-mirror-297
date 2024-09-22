@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=62.0", "setuptools-git-versioning>=2.0,<3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cifkit"
+dynamic=["version", "dependencies"]
+requires-python = ">=3.10"
+description = "Python library for high-throughput .cif analysis"
+authors = [{name = "Sangjoon Lee", email = "bobleesj@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["cif", "solid-state", "high-throughput", "crystallography"]
+
+[project.urls]
+Documentation = "https://bobleesj.github.io/cifkit"
+Repository = "https://github.com/bobleesj/cifkit"
+Issues = "https://github.com/bobleesj/cifkit/issues"
+Changelog = "https://github.com/bobleesj/cifkit/blob/main/CHANGELOG"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements/run.txt"]}
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git\
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build/
+  | buck-out
+  | build
+  | dist
+  | blib2to3
+  | tests/data/
+  | hooks/post_gen_project.py$
+  | .*\.py$
+  | .*\.toml$
+)/
+'''
