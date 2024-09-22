@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dev_calc/__init__.py
+dev_calc/__main__.py
+dev_calc/dev_calc.py
+dev_calc.egg-info/PKG-INFO
+dev_calc.egg-info/SOURCES.txt
+dev_calc.egg-info/dependency_links.txt
+dev_calc.egg-info/entry_points.txt
+dev_calc.egg-info/requires.txt
+dev_calc.egg-info/top_level.txt
+tests/test_dev_calc.py

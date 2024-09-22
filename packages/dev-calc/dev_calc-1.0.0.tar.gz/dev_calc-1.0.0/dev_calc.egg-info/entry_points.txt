@@ -1,0 +1,2 @@
+[console_scripts]
+dev_calc = dev_calc.__main__:main
