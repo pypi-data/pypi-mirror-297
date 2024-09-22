@@ -1,0 +1,3 @@
+[console_scripts]
+hoc=hoc.cli:main
+
