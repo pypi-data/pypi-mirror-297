@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ademailalias
+Version: 0.1.0
+Summary: 
+Author: numenic
+Author-email: nicolas@cordier.io
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+
