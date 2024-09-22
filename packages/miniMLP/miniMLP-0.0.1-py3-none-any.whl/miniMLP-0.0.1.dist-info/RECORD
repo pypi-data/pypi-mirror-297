@@ -1,0 +1,13 @@
+miniMLP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniMLP/activation.py,sha256=M_7-dBQzydaR9h2NhuAvbN9_p-5V9cGdCKTmemL1_os,2223
+miniMLP/engine.py,sha256=ypJkUpFsf2mc3aeN0K_pugsIxiFYPzoiq2Fg_SE82vM,4529
+miniMLP/layers.py,sha256=Dp_wDQgfD71EEKsqyccO_VfNRizsZqt87ngRpQovNNA,3628
+miniMLP/losses.py,sha256=CTjCJLemyMzZ1NejjtK8miJCgYpeNIdFy01bjR3zgRo,3798
+miniMLP/optimizers.py,sha256=uqqmOZiKDJXme0THihz9ighcoKYwybGSW1NmughuOUA,4619
+miniMLP/regularizers.py,sha256=rfXlUON-j6Os22QjFX06dPnhBKMHCBfQXtwl_gKWrHI,959
+miniMLP/utils.py,sha256=F3O2cSTg-UtX98U8g3sM-v8j0pEyRLMUfu2PnNZvV0w,361
+miniMLP-0.0.1.dist-info/LICENSE,sha256=105iesNkvki5J8M4erRY67O5-UfwLQWmrCpVxxtMYx4,1073
+miniMLP-0.0.1.dist-info/METADATA,sha256=dT86po-hbF5QqkzNXOdEmdTq1z-ju0XqA6Wvsb8SpzA,4748
+miniMLP-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+miniMLP-0.0.1.dist-info/top_level.txt,sha256=hZHUFN4m9r8iRn2Z5UwNXI5rkgHvjQb_0cUIZSk7wcE,8
+miniMLP-0.0.1.dist-info/RECORD,,
