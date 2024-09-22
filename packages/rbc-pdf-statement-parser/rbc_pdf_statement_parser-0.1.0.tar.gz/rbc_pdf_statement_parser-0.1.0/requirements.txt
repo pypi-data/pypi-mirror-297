@@ -1,0 +1,21 @@
+# Install dependencies with `python3 -m pip install -r requirements.txt`
+
+# PyMuPDF for reading a PDF as a text file (fast)
+pymupdf
+
+# tabula-py for reading tables from PDFs (slow)
+tabula-py
+# tabula dependencies
+jpype1
+pandas
+
+# polars for better data manipulation
+polars
+# polars dependencies
+pyarrow
+
+# orjson for writing JSON files (fast, supports more types)
+orjson
+
+# pytest for unit tests
+pytest

@@ -1,0 +1,8 @@
+# Custom Dictionary Words
+Autodeposit
+dtype
+fitz
+Interac
+orjson
+pymupdf
+titlecase

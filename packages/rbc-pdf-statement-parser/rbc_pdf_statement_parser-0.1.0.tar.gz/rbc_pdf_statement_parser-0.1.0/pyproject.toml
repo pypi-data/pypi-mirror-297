@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rbc_pdf_statement_parser"
+
+# Reminder: version is also in __init__.py.
+version = "0.1.0"
+description = "A Python-based parser for RBC Business Account statements"
+authors = [{ name = "DeflateAwning" }]
+license = "Unlicense"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    # PyMuPDF for reading a PDF as a text file (fast)
+    "pymupdf",
+
+    # tabula-py for reading tables from PDFs (slow)
+    "tabula-py",
+    # tabula dependencies
+    "jpype1",
+    "pandas",
+
+    # polars for better data manipulation
+    "polars",
+    # polars dependencies
+    "pyarrow",
+
+    # orjson for writing JSON files (fast, supports more types)
+    "orjson"
+]
+
+[project.urls]
+homepage = "https://github.com/DeflateAwning/rbc-pdf-statement-parser"
+repository = "https://github.com/DeflateAwning/rbc-pdf-statement-parser"
+issues = "https://github.com/DeflateAwning/rbc-pdf-statement-parser/issues"
+license = "https://github.com/DeflateAwning/rbc-pdf-statement-parser/blob/main/LICENSE"
+
+[project.scripts]
+rbc_pdf_statement_parser = "rbc_pdf_statement_parser.cli:main"
+
+
+[tool.ruff.lint]
+select = ["ALL"]
+# ignore = ["FIX002"]
+ignore = [
+    "TD002", "TD003", "FIX002", "COM812",
+    "T201", # allow print statements
+    "DTZ007", # Allow naive datetimes.
+    "S101", # Allow asserts.
+    "PD901", # Allow: Avoid using the generic variable name `df` for DataFrames
+    "PLR2004", # Allow: Magic numbers.
+]
+
+[tool.ruff]
+line-length = 79
