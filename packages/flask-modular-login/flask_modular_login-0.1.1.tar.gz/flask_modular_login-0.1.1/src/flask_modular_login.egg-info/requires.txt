@@ -1,0 +1,10 @@
+wheel
+flask
+flask-dance
+blinker
+flask-caching
+uwsgi
+libmc
+cryptography
+requests
+websockets
