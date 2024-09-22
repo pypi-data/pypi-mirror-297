@@ -1,0 +1,3 @@
+[console_scripts]
+kshort = kshort.main:main
+
