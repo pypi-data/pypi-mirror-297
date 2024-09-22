@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: coolmathcd
+Version: 0.0.4
+Summary: A simple math library
+Home-page: https://gitlab.com/theant72/coolmathcd.git
+Author: Antonello Mangone
+Author-email: antonello.mangone@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# coolmathcd
+
+A simple Python library for basic mathematical operations.
+
+## Installation
+
+```bash  
+pip install coolmathcd
+
+python setup.py sdist bdist bdist_wheel
+you can upload to the packaging library index PyPI
+
+to upload it
+you need to install
+pip install twine
