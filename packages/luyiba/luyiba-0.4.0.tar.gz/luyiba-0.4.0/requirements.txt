@@ -1,0 +1,6 @@
+click
+diskcache
+requests
+my-fake-useragent>=0.2.0
+python-dateutil
+pyparsing
