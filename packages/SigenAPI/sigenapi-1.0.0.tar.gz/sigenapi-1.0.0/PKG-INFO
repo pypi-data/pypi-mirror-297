@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: SigenAPI
+Version: 1.0.0
+Summary: Python API for Sigenergy SigenStor System
+Project-URL: Homepage, https://github.com/pythonus-nation/SigenergyPythonAPI?tab=readme-ov-file
+Project-URL: Issues, https://github.com/pythonus-nation/SigenergyPythonAPI/issues
+Author: Pythonus Nation
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SigenergyPythonAPI
+
+This is a small Python package containing a Python API for Sigenergys SigenStore.
+Feel free to use it :)
+
+### How to install
+Just execute `python3 -m pip install SigenAPI`.
+
+If you want to extend/improve the functionalities just clone the repo and execute `make install-dev`.

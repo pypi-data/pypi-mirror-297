@@ -1,0 +1,14 @@
+# JetBrains IDE
+*.iws
+*.iml
+.idea
+
+# Hidden files (but keep .gitignore)
+.*
+!.gitignore
+
+# Python venv
+.venv
+
+# Build files
+dist/
