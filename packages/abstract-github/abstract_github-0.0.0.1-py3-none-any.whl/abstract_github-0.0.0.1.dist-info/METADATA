@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: abstract_github
+Version: 0.0.0.1
+Summary: abstract_github is a Python module that serves aggregates github data
+Home-page: https://github.com/AbstractEndeavors/abstract_ai
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: abstract-utilities
+
+#magnets who invented them; how do they work?

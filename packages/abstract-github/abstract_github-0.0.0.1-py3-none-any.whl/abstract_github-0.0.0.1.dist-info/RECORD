@@ -1,0 +1,10 @@
+abstract_github/__init__.py,sha256=VYMhIJRWyeyfB6Zo64phpmjyShUWPSB0vec0u7MLWu4,111
+abstract_github/call_manager.py,sha256=l6aImLA8DQMiis0uvAzDXFrCic_Up3oMIfwGwtkzoF4,1769
+abstract_github/rate_limiter.py,sha256=ZMoCJ2k6djFqCLfqm-XC6b3pbXWPDddO4MERtFqV0Gs,2617
+abstract_github/safe_call_data.py,sha256=Ww8hNczVoCVgquFhqsfCeAJMt8zj_AYyM-w04QrPqGg,2601
+abstract_github/utils.py,sha256=PgOz9U6DvWkVfsOJUqclKbwRbh-BPxaVdxwsjBkNbAU,447
+abstract_github-0.0.0.1.dist-info/LICENSE,sha256=g3WEJFiVS27HyCGRTwKSsMLyciMaGFdWcZGOe1QalZk,3877
+abstract_github-0.0.0.1.dist-info/METADATA,sha256=kMC_TKgPf13AHjTQSTOJeuYsvDmavb7PhaNHrfSeuO8,665
+abstract_github-0.0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+abstract_github-0.0.0.1.dist-info/top_level.txt,sha256=EkOKrHjt15xSNlsJqShWBU__cAgEItgd6o5wKmu7mHI,16
+abstract_github-0.0.0.1.dist-info/RECORD,,
