@@ -1,0 +1,17 @@
+pydian/__init__.py,sha256=qQN6UmKuYhMo2BP5x4pdkWmkzOPaCy2vKOKMFdm-gdc,133
+pydian/dataframes.py,sha256=Oz7w2QQqSKDdJ52B9VCIvjzrc3es3gxNvItcAp3zxlM,18787
+pydian/dicts.py,sha256=Pmoz1cUyO-PoXwQdb7rk3zEfCwzl9oUPH5M1X47TKTY,3632
+pydian/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydian/lib/types.py,sha256=9ZSRttQO1v7WcQF8iR3StRhUM6H0MOVCM-INACBFAxY,1387
+pydian/lib/util.py,sha256=BkGDzfvmG9LgvAE0pCPMjd2M40X4P_fd2t0gvNraTVM,6342
+pydian/mapper.py,sha256=wIGjBrrjy4q7EX2F6YamDetQbK41f5xqDhvFfOT_WaQ,1451
+pydian/partials.py,sha256=vTIkwUt-KcLXFRfaVPU3V3Xo_vVtE3bAMz0Lz7wzwps,4556
+pydian/validation/__init__.py,sha256=1nNkhmgLa8UX4CGw0l9vLlaGCwECOGhqC1JqTjAiH9U,355
+pydian/validation/pydantic.py,sha256=e1uTotd5SFXMDEDYSihx9LOix9zP_j7Z0zPZryZ2i6c,2478
+pydian/validation/rules.py,sha256=qnmLvYtRGVh7FVHanDuuJ2fdJ-g1Rw07HVtFspjVl0Q,20980
+pydian/validation/specific.py,sha256=UY-roJzoyUg68uo_JAxY32yRx3wH-5T3JfmTXSOExPg,4432
+pydian/validation/validate.py,sha256=Q4UnQo7dYmO-I4zrP5rRV_BVWG7n1BC_KhiFcxfj-Eg,1957
+pydian-0.4.3.dist-info/LICENSE.md,sha256=vxedHub2gy9bIeU07gj8KKBkQUGjFQYiBmDaDs7sOyo,1067
+pydian-0.4.3.dist-info/METADATA,sha256=utEtTY4jMpSJ77XvWtOoPkMJE3pBVFZbzZMocus0kh8,546
+pydian-0.4.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pydian-0.4.3.dist-info/RECORD,,
