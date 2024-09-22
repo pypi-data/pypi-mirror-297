@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cambridge-cli
+Version: 1.2
+Summary: cambridge dictionary for command line.
+Author-email: marcho <marcho@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: rich
