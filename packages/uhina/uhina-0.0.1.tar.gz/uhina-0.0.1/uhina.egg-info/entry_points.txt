@@ -1,0 +1,5 @@
+[console_scripts]
+uh = uhina.cli:main
+
+[nbdev]
+uhina = uhina._modidx:d

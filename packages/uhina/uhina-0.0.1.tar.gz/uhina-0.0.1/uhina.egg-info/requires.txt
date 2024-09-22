@@ -1,0 +1,7 @@
+fastcore
+pandas
+scikit-learn
+tqdm
+pycwt
+
+[dev]
