@@ -1,0 +1,8 @@
+pywin32
+pyscreeze
+pytweening
+playwright
+# 需要识别图片位置时，安装
+# opencv-python
+# 需要验证码ocr识别时，安装
+# ddddocr
