@@ -1,0 +1,2 @@
+[fsspec.specs]
+simplecachebzip = simplecachebz2:SimpleCacheFileSystemBZIP

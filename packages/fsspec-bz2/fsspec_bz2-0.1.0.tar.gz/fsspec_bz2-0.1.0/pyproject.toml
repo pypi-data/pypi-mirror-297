@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=7"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsspec-bz2"
+version = "0.1.0"
+description = "Adds BZ2 Support to simplecache"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fsspec==2024.3.1",
+]
+
+[project.entry-points."fsspec.specs"]
+simplecachebzip = "simplecachebz2:SimpleCacheFileSystemBZIP"
+
+[tool.setuptools.packages.find]
+include = ["simplecachebz2*"]
+exclude = ["tests"]
+namespaces = false
