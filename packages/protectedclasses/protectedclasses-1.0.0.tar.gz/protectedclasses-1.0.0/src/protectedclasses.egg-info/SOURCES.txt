@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/protectedclasses/__init__.py
+src/protectedclasses.egg-info/PKG-INFO
+src/protectedclasses.egg-info/SOURCES.txt
+src/protectedclasses.egg-info/dependency_links.txt
+src/protectedclasses.egg-info/top_level.txt
+src/protectedclasses/tests/__init__.py
+src/protectedclasses/tests/test_1984.py
+src/protectedclasses/tests/test_protected.py
