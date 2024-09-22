@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+qda_demo_pkg.egg-info/PKG-INFO
+qda_demo_pkg.egg-info/SOURCES.txt
+qda_demo_pkg.egg-info/dependency_links.txt
+qda_demo_pkg.egg-info/not-zip-safe
+qda_demo_pkg.egg-info/top_level.txt
+qda_demo_pkg/pyarmor_runtime_000000/__init__.py
+qda_demo_pkg/qda_demo_pkg/MachineLogAnalytics.py
+qda_demo_pkg/qda_demo_pkg/ParentMachineInterface.py
+qda_demo_pkg/qda_demo_pkg/SystemInfo.py
+qda_demo_pkg/qda_demo_pkg/__init__.py

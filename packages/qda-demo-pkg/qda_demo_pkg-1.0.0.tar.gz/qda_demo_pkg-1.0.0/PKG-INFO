@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qda_demo_pkg
+Version: 1.0.0
+Summary: A simple Python package
+Author: Hardik Kanak
+Author-email: hardik.kanak@softqubes.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
