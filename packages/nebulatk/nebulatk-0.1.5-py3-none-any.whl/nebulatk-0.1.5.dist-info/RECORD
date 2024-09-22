@@ -1,0 +1,12 @@
+nebulatk/__init__.py,sha256=igxEzitx9N0cIlH0JPXv5qe2HPpC6BWY-rDJKCZ3LSE,201
+nebulatk/bounds_manager.py,sha256=Lo9z1Gnv34Z6rUrPoUV1nQygur-URwi_GY3J3YaApm8,5547
+nebulatk/colors_manager.py,sha256=ckG9M9sJTd19k78QBYlM1bYm5TTdkMtPreHhzxo19F8,30723
+nebulatk/fonts_manager.py,sha256=dqfTAeKQ37bg0AXm8tUBLh9UhhnUr0h4rST6QiPr0d4,6266
+nebulatk/image_manager.py,sha256=W012O8usX5WLFJxQFDSlUoOI-4QRN138TeBuUe2-Xq8,2903
+nebulatk/initialize.py,sha256=nkEIXQ3PepkB3ACvuQzGLeUF2MC5JZKjxJp3n7-yjjU,9951
+nebulatk/nebulatk.py,sha256=F-mwCJp9UnyFPLU0LvNc0h-Q4YZvZwFUc3hfZZ76694,40487
+nebulatk/standard_methods.py,sha256=P8l5EDA9brHTaOKcBWWDU3KkcBTq3fQHafRH5NjgqIQ,14194
+nebulatk-0.1.5.dist-info/METADATA,sha256=ABOHjA_24bbJync0UUmJr__jUX3sFj8VCSMH8Xo0kns,1885
+nebulatk-0.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nebulatk-0.1.5.dist-info/top_level.txt,sha256=pjp6h_ZOV02afIb0-eIZvCp1vUVm4tdaGt_2vZeSfUc,9
+nebulatk-0.1.5.dist-info/RECORD,,
