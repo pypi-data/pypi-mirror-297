@@ -1,0 +1,2 @@
+[console_scripts]
+check_block_scoping = block_scoping.check_files:main
