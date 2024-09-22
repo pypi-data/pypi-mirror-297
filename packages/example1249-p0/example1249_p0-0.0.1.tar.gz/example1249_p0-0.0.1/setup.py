@@ -1,0 +1,21 @@
+from setuptools import setup
+
+import setuptools
+
+PACKAGE_DIR = "."
+
+setup(
+    name='example1249_p0',
+    version='0.0.1',
+    description='',
+    long_description='',
+    author="Grigoriy Gusev",
+    author_email="thegrigus@gmail.com",
+    license='Apache Software License',
+    extras_require={
+        'dev': [
+            'example1249_p1==0.0.1',
+        ]
+    },
+    packages=setuptools.find_packages(where=PACKAGE_DIR),
+)
