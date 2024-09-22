@@ -1,0 +1,12 @@
+apiverve_zipcodeslookup/__init__.py,sha256=Uf2OZhUHyBO1RD9v6gB3slFhVXCu7j8EONL_ph6g6xk,40
+apiverve_zipcodeslookup/apiClient.py,sha256=3L8JtCInIhpLjW0A-jTTxnKfAMik752y7W02F97Drbs,1214
+apiverve_zipcodeslookup/exceptions.py,sha256=K_qieuiCyFCp0CFbRIaYw7dYuYwHPmSEauPnhXXUFEk,105
+apiverve_zipcodeslookup/setup.py,sha256=xjm1t_NuRMs1s6c1xN-D4b6cE0uUs4AGay3SJeXg_2E,937
+apiverve_zipcodeslookup/setup_dep.py,sha256=EZ1XjtwKFbrg40SnoV4fQ24m67oTCVI2AP8M85pqyu0,636
+apiverve_zipcodeslookup/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_zipcodeslookup/tests/test_api.py,sha256=bh510kIeQ1IFrYVPf9c8Xphmd2WnRWTw7acC0GU1d7w,614
+apiverve_zipcodeslookup-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_zipcodeslookup-1.1.5.dist-info/METADATA,sha256=FCbRg9v6KMslL7YGZ-6VB0x0ZnyaTDCT61wyGLLZrBg,5508
+apiverve_zipcodeslookup-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_zipcodeslookup-1.1.5.dist-info/top_level.txt,sha256=IP2EeUF1WTpPmTnrSI0dfWsADVXdo8eIuBkKz-fRRXY,24
+apiverve_zipcodeslookup-1.1.5.dist-info/RECORD,,
