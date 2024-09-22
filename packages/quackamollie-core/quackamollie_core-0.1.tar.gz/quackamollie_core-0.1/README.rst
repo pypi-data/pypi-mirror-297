@@ -1,0 +1,337 @@
+=================
+Quackamollie-Core
+=================
+
+:Name: Quackamollie Core
+:Package name: quackamollie-core
+:Description: Core of the Quackamollie Telegram personal chat bot
+:Version: 0.1
+:Main page: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core
+:PyPI package: https://pypi.org/project/quackamollie-core/
+:Docker Image: registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core:0.1
+:Documentation: https://quackamollie-core-forge-of-absurd-ducks-quackamo-49d876569a9ad7.gitlab.io
+:Build Status:
+    :Master: |master_pipeline_badge| |master_coverage_badge|
+    :Dev: |dev_pipeline_badge| |dev_coverage_badge|
+
+.. |master_pipeline_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/badges/master/pipeline.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/commits/master
+   :alt: Master pipeline status
+.. |master_coverage_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/badges/master/coverage.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/commits/master
+   :alt: Master coverage status
+
+.. |dev_pipeline_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/badges/dev/pipeline.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/commits/dev
+   :alt: Dev pipeline status
+.. |dev_coverage_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/badges/dev/coverage.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/commits/dev
+   :alt: Dev coverage status
+
+----
+
+Project description
+===================
+`Quackamollie <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_ is a `Telegram <https://telegram.org/>`_ chat bot
+developed in `Python <https://www.python.org/>`_ using the library `aiogram <https://docs.aiogram.dev/en/latest/>`_ to serve LLM models
+running locally using `Ollama <https://ollama.com/>`_.
+
+This package is the **core** of the `Quackamollie <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_ project.
+It contains:
+
+- a command line interface which automatically discover addons declared as entrypoints
+- the main commands, filters and callbacks for interacting with Quackamollie through Telegram
+- `SQLAlchemy <https://www.sqlalchemy.org/>`_ ORM connectors and models to interact with a `PostgreSQL <https://www.postgresql.org/>`_ database for Quackamollie
+- `Alembic <https://alembic.sqlalchemy.org/>`_ configuration to automatically migrate the `PostgreSQL <https://www.postgresql.org/>`_ database
+- a `Docker Compose <https://docs.docker.com/compose/>`_ configuration file to run a `PostgreSQL <https://www.postgresql.org/>`_ database
+- meta-classes for models and model managers
+- auto-discovery of models, model managers and CLI subcommands using entrypoints
+
+To install Quackamollie easily with model managers and models, we kindly invite you to refer to the `Quackamollie main project page <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_
+which includes tutorials to deploy Quackamollie using `Docker Compose <https://docs.docker.com/compose/>`_.
+
+This documentation mainly contains details destined to developers of the Quackamollie project.
+These information can also be useful for developers who want to run Quackamollie locally without using Docker.
+
+
+About Quackamollie
+------------------
+This project aims to provide a `Telegram <https://telegram.org/>`_ chat bot for personal use and running on local desktop.
+
+What this project is:
+
+- a Telegram chat bot that you have to run on your own
+- a project aiming for personal use and/or use with friends or family
+- a project developed by currently one author and offered as an open source project by a non-profit association named the Forge of Absurd Ducks
+
+What this project is NOT:
+
+- it is NOT a platform with servers aiming to provide service to a large number of users
+- it is NOT a commercial project
+
+
+Requirements
+============
+
+Virtual environment
+-------------------
+- Setup a virtual environment in python 3.10
+
+.. code-block:: bash
+
+   make venv
+   # or
+   python3 -m venv venv
+
+- Activate the environment
+
+.. code-block:: bash
+
+   source venv/bin/activate
+
+- If you want to deactivate the environment
+
+.. code-block:: bash
+
+   deactivate
+
+
+Tests
+=====
+
+Tests requirements
+------------------
+- Install test requirements
+
+.. code-block:: bash
+
+   make devtools
+   # or
+   pip install tox
+
+Run pytest
+----------
+- Run the tests
+
+.. code-block:: bash
+
+   tox
+
+Run lint
+--------
+- Run the lintage
+
+.. code-block:: bash
+
+   tox -e lint
+
+
+Documentation
+=============
+
+- To auto-generate the documentation configuration
+
+.. code-block:: bash
+
+   tox -e gendocs
+
+- To generate the documentation in Html
+
+.. code-block:: bash
+
+   tox -e docs
+
+- An automatically generated version of this project documentation can be found `here <https://quackamollie-core-forge-of-absurd-ducks-quackamo-49d876569a9ad7.gitlab.io>`_
+
+  - N.B.: This automatically generated documentation of the Quackamollie core project is still laking a lot of things. Sorry for the inconvenience.
+
+
+Install
+=======
+- Install the application from sources
+
+.. code-block:: bash
+
+   make install
+   # or
+   pip install .
+
+- Or install it from distribution
+
+.. code-block:: bash
+
+   pip install dist/quackamollie-core-0.1.tar.gz
+
+- Or install it from wheel
+
+.. code-block:: bash
+
+   pip install dist/quackamollie-core-0.1.whl
+
+- Or install it from PyPi repository
+
+.. code-block:: bash
+
+   pip install quackamollie-core  # latest
+   # or
+   pip install "quackamollie-core==0.1"
+
+
+Docker
+======
+- To build the application docker
+
+.. code-block:: bash
+
+   docker build --network=host -t quackamollie_core:0.1 .
+
+- The official Docker image of this project is available at: registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core
+
+- You can pull the image of the current release:
+
+.. code-block:: bash
+
+   docker pull registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core:latest  # or dev
+   # or
+   docker pull registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core:0.1
+
+
+Docker-compose
+==============
+- To run database using docker-compose, you must first set environment variables:
+
+  - `QUACKAMOLLIE_DB_HOST`: typically `0.0.0.0`
+  - `QUACKAMOLLIE_DB_PORT`: typically `5432`
+  - `QUACKAMOLLIE_DB_NAME`: typically `quackamollie`
+  - `QUACKAMOLLIE_DB_USERNAME`: typically `quackamollie`
+  - `QUACKAMOLLIE_DB_PASSWORD`: choose a strong admin password
+
+- Then you can run:
+
+.. code-block:: bash
+
+   docker compose up
+   # or to detach
+   docker compose up -d
+
+   # if you need to run it with sudo don't forget to add the -E option to pass the environment variables you've set
+   sudo -E docker compose up
+
+Database migration
+==================
+- Quackamollie provides a wrapper for the `alembic` command which initializes the database info the same way they are
+  initialized at runtime. You can call `alembic` by using instead `quackamollie db alembic`. For example:
+
+.. code-block:: bash
+
+   quackamollie db alembic --help
+
+- We recommend you to use a configuration file using one of the examples provided in `config/examples/` and to change
+  variables to match the ones used when calling `docker compose up`.
+
+- To create schema revision if the database changes:
+
+.. code-block:: bash
+
+   quackamollie -c config/config.yml db alembic revision --autogenerate -m "A new change."
+
+- You can then inspect the migration code (in python) with:
+
+.. code-block:: bash
+
+   cat migrations/versions/*
+
+- Also inspect the resultant SQL code with:
+
+.. code-block:: bash
+
+   quackamollie -c config/config.yml db alembic upgrade --sql +1
+
+- Finally, you can apply the migration with:
+
+.. code-block:: bash
+
+   quackamollie -c config/config.yml db alembic upgrade +1  # If you want to jump from 1
+   quackamollie -c config/config.yml db alembic upgrade head  # If you want to go all the way to head
+
+- If you now connect to ``pgcli``, you can test that the new table exists:
+
+.. code-block:: bash
+
+   make dbtools
+   pgcli -U ${QUACKAMOLLIE_DB_USERNAME} -h ${QUACKAMOLLIE_DB_HOST} -p ${QUACKAMOLLIE_DB_PORT} ${QUACKAMOLLIE_DB_NAME}
+   # and then on the pgcli console:
+   \dt
+   # and again on the pgcli console:
+   SELECT * FROM users;
+
+- alembic downgrade -1
+
+.. code-block:: bash
+
+   quackamollie -c config/config.yml db alembic downgrade -1
+
+- You can also migrate using the `docker` image from our official docker registry.
+
+.. code-block:: bash
+
+   docker run --rm --name quackamollie-migration \
+   --network host \
+   --mount type=bind,source="$(pwd)"/config/config.yml,target=/config/config.yml,readonly \
+   registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core:0.1 \
+   -vvvv -c /config/config.yml db alembic upgrade head
+
+   # if you need to run it with sudo don't forget to add the -E option to pass the environment variables you've set
+   sudo -E docker run --rm --name quackamollie-migration \
+   --network host \
+   --mount type=bind,source="$(pwd)"/config/config.yml,target=/config/config.yml,readonly \
+   registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core:0.1 \
+   -vvvv -c /config/config.yml db alembic upgrade head
+
+- To do the same using `docker-compose`, please refer to the `quackamollie` main repository.
+
+
+Running the project
+===================
+Quackamollie-core provides a command tool line named `quackamollie`.
+You can find examples of configuration files in the folder `config/examples`.
+
+.. code-block:: bash
+
+   quackamollie -vvvv -c config/config.yml serve
+
+Pictures and demonstration videos will be included in the documentation in future releases.
+
+
+Database
+========
+
+- This is the latest schema of the database, generated automatically by the plugin `quackamollie-devtools <https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/cli/quackamollie_devtools>`_ (can be installed using `pip install quackamollie-devtools`):
+
+.. image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/cli/quackamollie_devtools/-/raw/master/schemas/quackamollie_schema_latest.png
+   :alt: Quackamollie database schema automatically generated by plugin quackamollie-devtools
+
+
+Authors
+=======
+
+- **QuacktorAI** - *Initial work* - `quacktorai <https://gitlab.com/quacktorai>`_
+
+
+Contributing
+============
+Currently, the project is still in early stages.
+It lacks several base features we expect to implement in the versions 0.2 and 0.3, for example RAG capabilities will be added in version 0.2.
+
+For this reason, **we do NOT accept yet issues asking for new features**.
+However, you can report bugs or assimilated problems you may encounter and we will do our best to fix them.
+
+If you want to report a bug of `quackamollie-core`, please open an issue in the `Gitlab ticket management section of this project <https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/-/issues>`_
+
+For more details on the general contributing mindset of this project, please refer to `CONTRIBUTING.md <https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/quackamollie_core/-/blob/master/CONTRIBUTING.md>`_.
+
+
+Credits
+=======
+
+Section in writing, sorry for the inconvenience.
