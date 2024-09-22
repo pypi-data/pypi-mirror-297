@@ -1,0 +1,5 @@
+Metadata-Version: 2.3
+Name: pyvaultenv
+Version: 1.1.0
+Summary: A simple script to pull env vars from hashicorp vault for delevopers
+Author: Convedgence Team
