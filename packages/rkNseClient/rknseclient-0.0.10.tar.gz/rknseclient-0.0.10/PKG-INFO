@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: rkNseClient
+Version: 0.0.10
+Summary: Python package for Nse Data
+Home-page: https://github.com/kamalkavin68/rkNseClient
+Author: kamalkavin96
+Author-email: kamalkavin68@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas==2.2.3
+Requires-Dist: requests==2.32.3
+Requires-Dist: pydantic==2.9.2
+
+# rkNseClient
+
+A brief description of what this project does and who it's for.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install rkNseClient
+```
+
+## Usage
+
+Here's a quick example of how to use the package:
+
+```python
+from rkNseClient import my_function
+
+result = my_function()
+print(result)  # Output: Hello from my_package!
+```
+
+
+## Contributing
+
+Contributions are always welcome!
