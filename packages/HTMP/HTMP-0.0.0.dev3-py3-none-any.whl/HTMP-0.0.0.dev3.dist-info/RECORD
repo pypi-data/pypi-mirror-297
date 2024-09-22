@@ -1,0 +1,14 @@
+htmp/__init__.py,sha256=RNcGzlwWZ09JnFLyVxuheobS4WkGvq_IR9gIh1g5X_0,2081
+htmp/comment.py,sha256=IXCoChwlYc0Qf4269_t0wbB_UJcBjgiHJVaFGia_948,752
+htmp/container.py,sha256=RzPYbQX14jNz_URxD-F4xdj1kj28cb7jqKAx5jpk1L4,3069
+htmp/display.py,sha256=T_4HaoYmit6hJTh0VSk3AAS4FQ3fNJ_kALhnmx4nbxQ,1589
+htmp/document.py,sha256=8MEAscEjEvCjeoPDwn3OZCwHBsLJlg8Z19xc8m5GaOg,5044
+htmp/element.py,sha256=lZBUSrBlcCgJyeMc8COdauB9a4yBkgAzn5TUOFi_X1Y,61734
+htmp/elementor.py,sha256=zqf9LoKXDcHRzowLjsrn41rcnBWMrVgW_92l_Ro2j3w,15468
+htmp/markdown.py,sha256=rY9BwIy9u6fBUpwWqfl55yBHOEsHXjcECuiYvAXHSnc,357
+htmp/protocol.py,sha256=eiiAild9nTC367vs_DkUnbdKdIxW0n2eWi6dGne1edw,985
+htmp/spec.py,sha256=31geWEZ8GTceNdjWKAZ9mPsnTICHjdZz1b0A8wYDP8k,462
+HTMP-0.0.0.dev3.dist-info/METADATA,sha256=GwyEvmXvT6eLRHF9oWXGZYq2TjxW4k2gp8c1CHATFEU,141
+HTMP-0.0.0.dev3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+HTMP-0.0.0.dev3.dist-info/top_level.txt,sha256=7XsSAVg2lX7vpMvuuRK3XbBziJCLAHVoQGQvUUId9IQ,5
+HTMP-0.0.0.dev3.dist-info/RECORD,,
