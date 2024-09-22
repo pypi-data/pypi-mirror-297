@@ -1,0 +1,9 @@
+click
+numpy
+pandas
+scikit-learn
+openpyxl
+scikit-learn-extra
+mlxtend
+joblib
+tabulate
