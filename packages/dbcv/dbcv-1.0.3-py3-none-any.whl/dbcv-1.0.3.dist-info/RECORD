@@ -1,0 +1,14 @@
+dbcv/Cache_warming.npy,sha256=wf1tIQOMuTpfUYZ8b7_os1UeZxryIf_3nr90IBXKE4E,224
+dbcv/__init__.py,sha256=y7e5fAud_EZlq8qzCEB3QBxDNcTe5NTOwtUy97TERdM,94
+dbcv/_dbcv_float32np.py,sha256=NksbUmJ9qe2pxI3ZBwrpOXV4Pj7zVTsSe1CZUO9GcD8,4180
+dbcv/_dbcv_float32p.py,sha256=lQPWpclC3lkC1zcwne-DIalwYoWsqGYaRUSJmY0RMq8,4302
+dbcv/_dbcv_float64np.py,sha256=Sye49LdzBrK_jFmFuj7VIH5AUXVj-_qWag9t0-EV9EU,4181
+dbcv/_dbcv_float64p.py,sha256=KDOsZ_Dr1Mee3FCR-eqHZpLBlchkQCQVYjcvcsBNktI,4303
+dbcv/main.py,sha256=NCSURKjTwyNBrFCPScS4r8CVOSJUdSTRF4aS5-W8EWc,5943
+dbcv/setup_script.py,sha256=peST-d-bSoHzrf6-DjQIaiLq05dYOFUbgqD6ic6_3z0,520
+dbcv-1.0.3.dist-info/LICENSE,sha256=7DZMCIhAt7teOsj-j1d7nXS9xIqavLUQf9kiCnS7998,1084
+dbcv-1.0.3.dist-info/METADATA,sha256=eA763GkvJT5vpXjM8-MKqm7oYLRM1u9_XzPBOv89X10,604
+dbcv-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dbcv-1.0.3.dist-info/entry_points.txt,sha256=ovRvvauofBIzlPO6_b37Gf5ZB8NBNvURpP0mYGk_--4,88
+dbcv-1.0.3.dist-info/top_level.txt,sha256=onW8iH0_ohLoRbig06-4zwJNt1CkvTk7p3coNtG3tCg,5
+dbcv-1.0.3.dist-info/RECORD,,
