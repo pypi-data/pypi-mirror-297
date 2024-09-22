@@ -1,0 +1,17 @@
+pillow
+torchmetrics==0.10.1
+fvcore
+fsspec
+iopath
+pandas
+tqdm
+scipy
+webdataset
+trimesh
+pybind11
+toolz
+jupyter
+notebook
+opencv-python
+projectaria-tools
+omegaconf
