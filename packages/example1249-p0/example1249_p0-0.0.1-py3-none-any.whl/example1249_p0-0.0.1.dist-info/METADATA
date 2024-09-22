@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: example1249_p0
+Version: 0.0.1
+Author: Grigoriy Gusev
+Author-email: thegrigus@gmail.com
+License: Apache Software License
+Provides-Extra: dev
+Requires-Dist: example1249-p1 ==0.0.1 ; extra == 'dev'
+
