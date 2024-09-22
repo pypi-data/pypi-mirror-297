@@ -1,0 +1,9 @@
+pycgs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycgs/cgs/__init__.py,sha256=GC6Ivk0qWaHA_EYWADbpSOjmD6mScdpLNaoT3JE6Ovs,323
+pycgs/cgs/algorithms.py,sha256=k_6HUfyxM6-93piPUHoKolzxgKq6vKn5zwePHXxMqFo,3075
+pycgs/cgs/primary_term_extractor.py,sha256=bcGH38-AvEQOFXOOSnMhnCOlllhWmMY7lK09dhXnkcU,3086
+pycgs/types.py,sha256=yR_Jq86Zcp00amNon_7Urg6yYBm2TbVZjy7vT9nw_KA,158
+pycgs-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pycgs-1.1.0.dist-info/METADATA,sha256=9gTBSmt0mi6JhWg83W8zypxCoutZC6Rd8qzNOTdqZhk,3566
+pycgs-1.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pycgs-1.1.0.dist-info/RECORD,,
