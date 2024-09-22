@@ -1,0 +1,12 @@
+apiverve_contactextractor/__init__.py,sha256=OTZak9CDMp0Y2w7I05VQilDEx49zT4D57ZV6DvnOFpY,48
+apiverve_contactextractor/apiClient.py,sha256=UZ8RFubM0MnOJGshMqHOqqfE_-ZSjPJpvP-QO5uHqig,1239
+apiverve_contactextractor/exceptions.py,sha256=Eg_hUAsMrKTogUnUbtMZ_dwNAhUK7JoBAj4_NMzdEOQ,115
+apiverve_contactextractor/setup.py,sha256=ba2AB0Zd0BNLL9ny4qE17CmB6JTZ8YEyYo1FLMVOVFw,968
+apiverve_contactextractor/setup_dep.py,sha256=qWtJZFBVQ7pXrMyO2fn3eiqazoqXtwtmYDmHE2IBdXU,667
+apiverve_contactextractor/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_contactextractor/tests/test_api.py,sha256=B-uz6AJCaX4zoEtTEda8MlcIKFTVbrYKaED-HH7e61U,632
+apiverve_contactextractor-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_contactextractor-1.1.5.dist-info/METADATA,sha256=MEoHrI9uc7dcbjKRTMcgxiYDVkaUgvqL2-MDGvk1Npw,6556
+apiverve_contactextractor-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_contactextractor-1.1.5.dist-info/top_level.txt,sha256=3KBxWIB40YxMGcCZojdHYa3VA-SlgqjIRB4NtGTKZlY,26
+apiverve_contactextractor-1.1.5.dist-info/RECORD,,
