@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: habraparse
+Version: 1.0.0
+Summary: Парсер Habr
+Author-email: icoz <icoz.vt@gmail.com>, vit1251 <vit1251@gmail.com>
+Maintainer-email: ST LEON <leonst998@gmail.com>, vit1251 <vit1251@gmail.com>
+Project-URL: repository, https://github.com/vit1251/habraparse
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.GPL2
+Requires-Dist: weasyprint
+Requires-Dist: selenium
+Requires-Dist: requests
+Requires-Dist: lxml
+
+# habraparse
+
+Библиотека работы с статями с Habr сделана на основе `habraparse`
+
+## Пример использования
+
+```
+from habraparse.parser.classic import HabrParser
+from habraparse.renderer.classic import HabrArticleRenderer
+
+topics = ["750270", "750608", "750794", "752132", "751002", "751060"]
+for topic in topics:
+    parser = HabrParser(topic_id=topic)
+    a = parser.parse()
+    renderer = HabrArticleRenderer()
+    renderer.render(f"article_{topic}.pdf", a)
+```
