@@ -1,0 +1,12 @@
+frg-electrochemistry/CA.py,sha256=ULCYNAQVhuPA1cOeEJY8cZubxUNZUFoM2yV9b0BmTLU,4892
+frg-electrochemistry/CV.py,sha256=M-qzqaxPZRWHvo4Xawz-onQKR21t9bn7VfGtiqd44N8,7013
+frg-electrochemistry/OSC.py,sha256=U1twH51FFGFPRVcdp39Q3lYLrWWjtG9MmfMEi-I7594,7558
+frg-electrochemistry/PEIS.py,sha256=WcTZUCAdLicnfci4xpTIxYfdjTdGrPXfdZANcbXLmR8,8595
+frg-electrochemistry/ReadDataFiles.py,sha256=BixQD6SXXPMH7jeEygNa2pFkGGMwJZ_ydUyR4Kl7Mz8,10247
+frg-electrochemistry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frg-electrochemistry/makeWaveform.py,sha256=VJRmIlbJ18RA9ng2uzHmQmLo78z8gXLwSKpcAD6KCxw,6580
+frg_electrochemistry-0.0.1.dist-info/LICENSE,sha256=W1Zlcqsgj2iSuCB6V1nZ6T_r_LpxLADH5RS9Bnw5pYw,1093
+frg_electrochemistry-0.0.1.dist-info/METADATA,sha256=iKPaJ8pm_Kh7gHjKjGhJ_CnoVr7bMWYWSuadYyIpilA,825
+frg_electrochemistry-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+frg_electrochemistry-0.0.1.dist-info/top_level.txt,sha256=cfUMivefB1_S1yPI5ZpsBoYiO-2jM3Ve23hrKYJ1Byg,21
+frg_electrochemistry-0.0.1.dist-info/RECORD,,
