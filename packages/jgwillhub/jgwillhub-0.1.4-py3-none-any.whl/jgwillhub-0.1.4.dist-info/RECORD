@@ -1,0 +1,10 @@
+jgwillhub/__init__.py,sha256=1GiePIXZxADbwpqsE7qHL3d3tQ9caoKMNHkjGWk3aqQ,31
+jgwillhub/cli.py,sha256=_rs8eSauPil0kez5Y0f5B_N8uIPvz3bZDTJtvUGwTbw,1360
+jgwillhub/prompts.py,sha256=GOmmX69AGmPp0MS1mvBDaQMf5K9luF1uhQAm3KJwow8,410
+jgwillhub/tests/__init__.py,sha256=NyPI2U0jCYUtEya1a8ZGHgbzuuZaZu1jgbQQM8N0T5o,39
+jgwillhub/tests/test_prompts.py,sha256=NgTN7kTqzkhWfzsNgKEM2COYFQLVlP-Ihxrmxh5NGas,291
+jgwillhub-0.1.4.dist-info/METADATA,sha256=B2k3BH7oHYK4shVDgfa7UxRiKP4GfOvLxoqzNojrP7s,415
+jgwillhub-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jgwillhub-0.1.4.dist-info/entry_points.txt,sha256=wFVo5foH2G9AJIIbm6IwAPzOwk56cjuO-na1mxJmSmI,44
+jgwillhub-0.1.4.dist-info/top_level.txt,sha256=VwKvTiuXzF4zC4ipfCUhY9y4dmtezqhGAH90aUJQYYY,10
+jgwillhub-0.1.4.dist-info/RECORD,,
