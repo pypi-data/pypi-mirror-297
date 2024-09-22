@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "ademailalias"
+version = "0.3.0"
+description = ""
+authors = ["numenic <nicolas@cordier.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+requests = "*"
+appdirs = "^1.4.4"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"
+ipython = "*"
+pdbpp = "*"
+ipykernel = "*"
+black = "*"
+isort = "*"
+bump2version = "^1.0.1"
+
+
+[tool.poetry.scripts]
+# command_name = module_for_handler : function_for_handler
+aliaser= 'ademailalias.cli:account'
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+exclude = "notebooks/.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
