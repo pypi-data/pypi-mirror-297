@@ -1,0 +1,6 @@
+hogql_parser.cpython-310-darwin.so,sha256=JZO0NpPpm9_mpmyV5xfScfqIaeR9qpflIQIZewSwVFM,1168352
+hogql_parser.dylibs/libantlr4-runtime.4.13.2.dylib,sha256=DRrrVyGeClsxKrZd_-3msIpwrjnyvkq8P6j4pdRQDy0,858752
+hogql_parser-1.0.42.dist-info/RECORD,,
+hogql_parser-1.0.42.dist-info/WHEEL,sha256=ozFwnjS676IGni9di2q7xZx3qrRxhLNRihPrUlImu74,111
+hogql_parser-1.0.42.dist-info/top_level.txt,sha256=SNu6b73rIOF19AHO6d5OkRLEcHZnwiqWPuJNJlCRuaI,13
+hogql_parser-1.0.42.dist-info/METADATA,sha256=zcUjJa3DX8pWO_XwKGXNo2JhpOofsGHo0IoetKj1hVI,887
