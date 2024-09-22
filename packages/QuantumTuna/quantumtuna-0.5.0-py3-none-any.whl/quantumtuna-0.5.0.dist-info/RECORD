@@ -1,0 +1,20 @@
+TUNA/TUNA Manual.pdf,sha256=P4kjfGYpeAOkn7Mnj9eeJKLPqqSJ2WUVqtiWF2SRQ-Q,483295
+TUNA/__init__.py,sha256=wP_sAs5XwFN54Bb_r25ANceUsrXKZ2WkvQME6D_aklE,194
+TUNA/tuna.bat,sha256=B38OAqiAUWmNLh4VPTbUGt7ziqdhaHwulBSgfg-qD-4,378
+TUNA/tuna.py,sha256=vac6Aht0hy_Up295V2LrdQASPOT7jcPCdUDAqSZmVh0,6968
+TUNA/tuna_basis.py,sha256=NsK6euOqcQCr0dKjWh8lWpvls5_MBQjsyIdxEWBfuLY,9818
+TUNA/tuna_dispersion.py,sha256=g1yDLQS2r3QEF04L5sMcIHkLgYeFd57b9IwHeSHg7Ok,849
+TUNA/tuna_energy.py,sha256=C6-9PS8-QWbjOPjKq0IhnvQxwlvJMaJCmlFliz_mp8c,22417
+TUNA/tuna_integral.py,sha256=UvXWxDzDGw7dKbMS7HFs1GroLtJrT-3_JPQyQcSo6cs,6525
+TUNA/tuna_md.py,sha256=d2ZdZBC_E8TX7K3ilFwkLIN5yFZ45XnwglvTDwn2nmY,9656
+TUNA/tuna_mpn.py,sha256=e7czewHT-hqhVzjynWfGS1T3PdaDTKj6bcaZHtdpEdY,9073
+TUNA/tuna_optfreq.py,sha256=RGOUNKsHVZVg_61Gyeb5p9Qaa5tEupGJVj3RdOYowB4,13914
+TUNA/tuna_postscf.py,sha256=gqABk-Ce24Mkc8wBz-78zcvpz8shaXOZvRM-K8JkZB0,16863
+TUNA/tuna_scf.py,sha256=lXw6ZtWsHVxv4_Uk43mfAZJeMbAf2S9npBy5ZJwhmbc,17476
+TUNA/tuna_thermo.py,sha256=zrYv59bsR7rB4VpnPuFOaG-WAf6HkiaBt_N4vor9eLs,3515
+TUNA/tuna_util.py,sha256=ADDdEPL9jqWYj8wjdx3jJIH1QrAiHGm0T9qNl9IpgVU,17343
+TUNA/tunalog.bat,sha256=PlH4SQsBJsiz-62HZ1j2eWvF4osQ4_PT3iwWRRHLuBw,401
+quantumtuna-0.5.0.dist-info/METADATA,sha256=xszf1nzIjSubFyftIHsz2wAr1mA66iZNv60uc_Idi6Y,1903
+quantumtuna-0.5.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+quantumtuna-0.5.0.dist-info/licenses/LICENSE,sha256=umPY6J6Lea8CcwZQzuWwtBAkpqoPT9XvHQ0YTF-Rius,1073
+quantumtuna-0.5.0.dist-info/RECORD,,
