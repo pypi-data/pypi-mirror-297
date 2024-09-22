@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: easyflow_utils
+Version: 0.6.0
+Summary: A small example package with utility functions
+Home-page: https://github.com/yourusername/easyflow_utils
+Author: Nadav Friedman
+Author-email: info@easyflow.co.il
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EasyFlow Utils
+
+A simple utility package for EasyFlow, demonstrating packaging and distribution.
+
+## Installation
+```chatinput
+pip install easyflow_utils
+
+```
+
+## Usage
+
+```python
+from easyflow_utils import factorial
+
+result = factorial(5)
+print(result)  # Output: 120
