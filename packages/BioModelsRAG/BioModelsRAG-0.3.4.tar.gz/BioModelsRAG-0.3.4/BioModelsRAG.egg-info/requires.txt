@@ -1,0 +1,7 @@
+requests
+tellurium
+ollama
+langchain_text_splitters
+chromadb
+os
+tempfile
