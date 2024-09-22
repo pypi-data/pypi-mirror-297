@@ -1,0 +1,20 @@
+{
+    "author": "",
+    "description": "",
+    "devDependencies": {
+        "markdown-it": "^14.1.0",
+        "markdownlint-cli": "^0.41.0",
+        "pyright": "^1.1.381"
+    },
+    "engines": {
+        "npm": "Use pnpm instead of npm!"
+    },
+    "license": "",
+    "main": "",
+    "name": "pyright-exec",
+    "scripts": {
+        "preinstall": "npx only-allow pnpm",
+        "pyright": "pyright"
+    },
+    "version": "1.6.3"
+}
