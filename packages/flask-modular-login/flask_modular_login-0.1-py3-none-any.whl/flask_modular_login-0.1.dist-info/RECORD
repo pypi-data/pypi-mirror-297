@@ -1,0 +1,17 @@
+flask_modular_login/__init__.py,sha256=mjC7HJ-NpD-xo6bcABHqOLVMeFv5zvYXLmhuUA-HLgc,283
+flask_modular_login/access.py,sha256=8L_vmiCu-ysKGNcRNeSN97hS0in6fS14UQmmSdF9khc,31727
+flask_modular_login/builder.py,sha256=VI4d-cGhiuojL9ssDxYQv_OVzV0FvNYdKDhbUUP-T3E,7506
+flask_modular_login/endpoints.py,sha256=FICTbK9dzce0zvhoV8O5NhVuBj9Ok35GavFpDKmWzhQ,2326
+flask_modular_login/group.py,sha256=D9dRD3ClxAXRQw-QvX3jKObQ-zRNqzQ4nBoSN7p-GAU,9650
+flask_modular_login/interface.py,sha256=qhvzNlut2DMo9Q2HKS6W_KLwRZWvMSccAMOBtzjcK3k,5131
+flask_modular_login/platforms.py,sha256=hMY55GXxMdlpuoeFR2COWF3Ovq5Q8bKF9C5b3f1xnRk,1595
+flask_modular_login/pubsub.py,sha256=ONOFGu8RS7YLUqvd687xLs6BI3ResKGAXQNGZno2Rq8,27613
+flask_modular_login/server.py,sha256=iT7c6D_dywCkhsFrv3ornFef_trdCOwmxV1rNpwTgbM,507
+flask_modular_login/store.py,sha256=654wC5vmkzhOFCeDT7qpk3dPLAz1_HJnR3QAjrDqZhc,9292
+flask_modular_login/test.py,sha256=AUcXOlhaesempefkEfsgoEc8-9tFlOhyVqKP8KbakTY,1986
+flask_modular_login/tokens.py,sha256=MT2yjkIMiyiGs07CfbORqThpXxvH6EAIq63137xO3Cw,7977
+flask_modular_login/utils.py,sha256=_xnN2DKllyiSH_LJnYdQnXMG_8GWFjBK4KmXyrlL7N4,12475
+flask_modular_login-0.1.dist-info/METADATA,sha256=yu9cRAl0_RnOsevg_4gzInmM2MXCCBsQgdnQSog10Bk,17475
+flask_modular_login-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+flask_modular_login-0.1.dist-info/top_level.txt,sha256=6qqBlQkgXQ5yoqi6my5VAtwHRBOX9Sovx5b_Q_yPfxA,20
+flask_modular_login-0.1.dist-info/RECORD,,
