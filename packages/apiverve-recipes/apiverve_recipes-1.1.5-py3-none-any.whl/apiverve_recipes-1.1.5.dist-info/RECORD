@@ -1,0 +1,12 @@
+apiverve_recipes/__init__.py,sha256=lRhDy4O4fD5u8n8WcQQmszuWedcqHy1lu-30t7C5uoE,38
+apiverve_recipes/apiClient.py,sha256=IGlnd97hHDzw8lOwSIb7Qnf45_duRkjUf-pLSi_RweM,1208
+apiverve_recipes/exceptions.py,sha256=KSeGSlXgOdNaWGcpZae1HL85N9RE9SoQ79oAsHgHH0g,96
+apiverve_recipes/setup.py,sha256=GojZ99lb80LswAB1STz5CVYs60RwF4pPVFtqIY1b-Sg,918
+apiverve_recipes/setup_dep.py,sha256=BRepkSrRApTpD09vxKJ3lTRj_bDIf9B43AkTeQavLfo,617
+apiverve_recipes/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_recipes/tests/test_api.py,sha256=5wbTIIKrBpQpUSANU6UnAUiWuXjcXWo82XFkx7E9l2w,603
+apiverve_recipes-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_recipes-1.1.5.dist-info/METADATA,sha256=LdsidJzTl4iSk8uwleVTBzKD7RpUCMkk7eOlPQTtYGw,27821
+apiverve_recipes-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_recipes-1.1.5.dist-info/top_level.txt,sha256=kooRRV_TiByqb9gw_nmCWS0Gp-e_0MPKta5cpLyStCo,17
+apiverve_recipes-1.1.5.dist-info/RECORD,,
