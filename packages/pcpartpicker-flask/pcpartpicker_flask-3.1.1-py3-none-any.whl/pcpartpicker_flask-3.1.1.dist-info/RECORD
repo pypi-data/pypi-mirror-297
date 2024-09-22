@@ -1,0 +1,15 @@
+pcpartpicker_flask/__init__.py,sha256=B-p5ael2veVSynfuBcBll4hyWVbUr83c7mW9g0FW0VQ,148
+pcpartpicker_flask/api.py,sha256=jthcTbLoEjuTIITB45v75Xtu16i3pUshlXi5hSyzDxU,2324
+pcpartpicker_flask/errors.py,sha256=OeJ1dgr4xrao0d5nhtb_1qKo6u_v1qvD_e1kSPBuzus,134
+pcpartpicker_flask/handler.py,sha256=tmbzh9zH6J64OCRXM4Qa2dzLuf22fLiqTdnJwuQkZdA,4371
+pcpartpicker_flask/mappings.py,sha256=B33r8rubFodh5AdUO-7_zofMcTjTs5gdzbi0g1XxkxU,953
+pcpartpicker_flask/parse_utils.py,sha256=t6Bnsf2rAIhVki09lIzNhAkblZWk9o00eo26cyVIAbg,1226
+pcpartpicker_flask/part_data.py,sha256=h8tTcb9cF2xHKxQ-AKAClTnELtgjMsZGAHzW0rMibiQ,713
+pcpartpicker_flask/parts.py,sha256=15OWrCzwZX5L61IixXqOjE3i8SFC2vmdX9eDnfaYTxQ,19430
+pcpartpicker_flask/scraper.py,sha256=iGexh8OdsLMiYEJkQ1-vwawQQathISFzD6vuDTOCAqQ,1769
+pcpartpicker_flask/utils.py,sha256=Nz__80w35ZO6QuXbr4JQ5TxDwRztiEgGsadf85AjVPw,949
+pcpartpicker_flask-3.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pcpartpicker_flask-3.1.1.dist-info/METADATA,sha256=VOUf6rYvFE-HNGFkECTHQtNYucqsKCvjG4bSG-8C47I,3100
+pcpartpicker_flask-3.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pcpartpicker_flask-3.1.1.dist-info/top_level.txt,sha256=Nx3liB61h_ozdpIUgxX_NDa_DgU1GvfIG8SOoFgP1ZQ,19
+pcpartpicker_flask-3.1.1.dist-info/RECORD,,
