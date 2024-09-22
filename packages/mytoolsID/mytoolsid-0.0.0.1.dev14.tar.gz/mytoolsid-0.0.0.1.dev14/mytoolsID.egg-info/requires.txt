@@ -1,0 +1,10 @@
+cryptography
+pyrogram-dev
+tgcrypto
+gpytranslate
+google-generativeai
+gtts
+aiofiles
+aiohttp
+pyromod
+pytz
