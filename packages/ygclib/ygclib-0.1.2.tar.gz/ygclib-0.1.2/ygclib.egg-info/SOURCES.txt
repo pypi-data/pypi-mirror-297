@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ygclib/__init__.py
+ygclib/utils.py
+ygclib.egg-info/PKG-INFO
+ygclib.egg-info/SOURCES.txt
+ygclib.egg-info/dependency_links.txt
+ygclib.egg-info/requires.txt
+ygclib.egg-info/top_level.txt
