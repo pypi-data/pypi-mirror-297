@@ -1,0 +1,126 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "pytest-amaranth-sim"
+description = "Fixture to automate running Amaranth simulations"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "William D. Jones", email = "thor0505@comcast.net" },
+]
+maintainers = [
+    { name = "William D. Jones", email = "thor0505@comcast.net" },
+]
+classifiers = [
+    "Framework :: Pytest",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: BSD License",
+]
+dependencies = [
+    "pytest>=6.2.0",
+    "amaranth>=0.5.0",
+    "in-place>=1.0.0",
+]
+dynamic = []
+version = "0.1.0"
+
+[project.license]
+file = "LICENSE.md"
+
+[project.urls]
+Repository = "https://github.com/cr1901/pytest-amaranth-sim"
+
+[project.entry-points.pytest11]
+amaranth-sim = "pytest_amaranth_sim.plugin"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-glob=\"*.md\" --doctest-modules --ignore=examples"
+pytester_example_dir = "examples"
+pythonpath = [
+    "src/",
+]
+
+[tool.ruff]
+src = [
+    "src",
+    "tests",
+]
+line-length = 79
+
+[tool.ruff.lint]
+extend-select = [
+    "E501",
+    "D",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 79
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+    "D10",
+]
+"examples/test_*.py" = [
+    "D10",
+]
+
+[tool.pdm.version]
+source = "scm"
+write_to = "pytest_amaranth_sim/version.txt"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pyvcd>=0.4.0",
+    "pytest-sphinx>=0.6.3",
+]
+lint = [
+    "ruff>=0.4.4",
+    "pydoclint[flake8]>=0.4.1",
+]
+doc = [
+    "sphinx>=7.1.2",
+    "sphinx-rtd-theme>=2.0.0",
+    "myst-parser>=3.0.1",
+    "sphinx-autobuild>=2021.3.14",
+    "packaging>=24.0",
+]
+
+[tool.pdm.scripts]
+doc = "sphinx-build docs/ docs/_build/"
+doc-test = "sphinx-build -b doctest docs/ docs/_build"
+doc-linkck = "sphinx-build docs/ docs/_linkcheck/ -b linkcheck"
+doc-auto = "sphinx-autobuild docs/ docs/_build/ --watch src/pytest_amaranth_sim"
+
+[tool.pdm.scripts.test]
+cmd = "pytest"
+help = "run tests"
+
+[tool.pdm.scripts.lint]
+composite = [
+    "ruff check",
+    "flake8",
+]
+
+[tool.pdm.scripts._update-ruff]
+cmd = "pdm update --dev -G lint ruff"
+help = "update Ruff linter on MSYS2- work around Rust issue #109797"
+
+[tool.pdm.scripts._update-ruff.env]
+CARGO_PROFILE_RELEASE_LTO = "false"
