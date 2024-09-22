@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ExceptionMan
+Version: 0.0.0.dev4
+Requires-Python: >=3.10
+Requires-Dist: mdit ==0.0.0.dev3
+Requires-Dist: rich
+Requires-Dist: pygments
+
