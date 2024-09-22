@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-lora
+Version: 2.0.0
+Summary: Decrypt LoRa payloads
+Home-page: https://github.com/jieter/python-lora
+Author: Jan Pieter Waagmeester
+Author-email: jieter@jieter.nl
+License: MIT
+Keywords: LoRa decrypt
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
