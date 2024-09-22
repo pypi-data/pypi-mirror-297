@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: find_homework_yuketang
+Version: 0.1.0
+Summary: just find homework
+Home-page: https://github.com/yourusername/your_project
+Author: Diluc
+Author-email: 1727327536@qq.com
+Requires-Python: >=3.12
+Requires-Dist: requests
+Requires-Dist: selenium
+
