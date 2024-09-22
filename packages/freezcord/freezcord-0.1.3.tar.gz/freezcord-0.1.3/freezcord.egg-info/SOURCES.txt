@@ -1,0 +1,8 @@
+pyproject.toml
+freezcord/__init__.py
+freezcord/bot.py
+freezcord/client.py
+freezcord.egg-info/PKG-INFO
+freezcord.egg-info/SOURCES.txt
+freezcord.egg-info/dependency_links.txt
+freezcord.egg-info/top_level.txt
