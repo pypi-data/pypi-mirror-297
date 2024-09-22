@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+sample_package/__init__.py
+sample_package/example.py
+sample_package_dev_0922.egg-info/PKG-INFO
+sample_package_dev_0922.egg-info/SOURCES.txt
+sample_package_dev_0922.egg-info/dependency_links.txt
+sample_package_dev_0922.egg-info/top_level.txt
