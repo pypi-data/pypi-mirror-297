@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dj-rest-tickets
+Version: 0.0.4
+Summary: A reusable Django app for XYZ functionality
+Home-page: https://github.com/aymanenahjidev/dj-tickets
+Author: Your Name
+Author-email: aymanenahjidev@gmail.com
+License: MIT
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=3.2
+
