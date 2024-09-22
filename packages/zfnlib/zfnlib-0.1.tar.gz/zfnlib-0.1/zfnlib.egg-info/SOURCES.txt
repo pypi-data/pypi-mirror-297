@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+zfnlib/__init__.py
+zfnlib.egg-info/PKG-INFO
+zfnlib.egg-info/SOURCES.txt
+zfnlib.egg-info/dependency_links.txt
+zfnlib.egg-info/requires.txt
+zfnlib.egg-info/top_level.txt
