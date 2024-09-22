@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+etfscan/__init__.py
+etfscan/create_etf.py
+etfscan/etf.py
+etfscan.egg-info/PKG-INFO
+etfscan.egg-info/SOURCES.txt
+etfscan.egg-info/dependency_links.txt
+etfscan.egg-info/entry_points.txt
+etfscan.egg-info/requires.txt
+etfscan.egg-info/top_level.txt

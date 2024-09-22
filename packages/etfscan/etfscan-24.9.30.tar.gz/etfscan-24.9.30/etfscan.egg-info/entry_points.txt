@@ -1,0 +1,3 @@
+[console_scripts]
+create_etf = etfscan.create_etf:main
+
