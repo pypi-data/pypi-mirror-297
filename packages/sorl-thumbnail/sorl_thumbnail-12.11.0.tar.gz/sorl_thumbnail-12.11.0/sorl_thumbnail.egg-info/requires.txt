@@ -1,0 +1,9 @@
+
+[pgmagick]
+pgmagick
+
+[pil]
+pillow
+
+[wand]
+wand
