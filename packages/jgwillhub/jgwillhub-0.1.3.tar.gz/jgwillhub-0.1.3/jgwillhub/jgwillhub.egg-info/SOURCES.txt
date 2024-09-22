@@ -1,0 +1,10 @@
+README.md
+setup.py
+jgwillhub/jgwillhub.egg-info/PKG-INFO
+jgwillhub/jgwillhub.egg-info/SOURCES.txt
+jgwillhub/jgwillhub.egg-info/dependency_links.txt
+jgwillhub/jgwillhub.egg-info/entry_points.txt
+jgwillhub/jgwillhub.egg-info/requires.txt
+jgwillhub/jgwillhub.egg-info/top_level.txt
+jgwillhub/tests/__init__.py
+jgwillhub/tests/test_prompts.py
