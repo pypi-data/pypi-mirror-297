@@ -1,0 +1,6 @@
+websocket-client
+paho-mqtt
+validators
+pydantic
+loguru
+lsb_release_ex
