@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qda-my-pkg
+Version: 1.0.2
+Summary: A Python package with obfuscated code
+Author: Hardik Kanak
+Author-email: hardik.kanak@softqubes.com
+License-File: LICENSE
+
