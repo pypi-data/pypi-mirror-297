@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: check_number_order
+Version: 0.1.0
+Summary: A library to check if digits in a number are in increasing or decreasing order
+Home-page: https://kybik.fun/
+Author: KybikDev
+Author-email: cube676767@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Check_number_order
+
+A simple library to check if digits in a number are in increasing or decreasing order.
+
+## Installation
+
+```bash
+pip install my_library 
+```
