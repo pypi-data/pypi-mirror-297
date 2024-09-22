@@ -1,0 +1,13 @@
+d0da/cli.py,sha256=lUIvtBlW0QNKGIMcuT2y499B2SFA2JoI-4TXLh5r0wU,1806
+d0da/d0da_feature.py,sha256=jlMhcSXijv_QXnCjlRUm62SgDmxDCNCE_I0sLjznvXw,7350
+d0da/d0da_feature.py.orig,sha256=LYza71RiPWKBLwB-C1Ei7M9do7CFZKLdrvIS1UM_igc,7699
+d0da/d0da_report.proto,sha256=1-9kfJX5CAmDC2gyJr1X1F6B8OMK05uHUL1Ro3JrX5Y,322
+d0da/d0da_report.py,sha256=ESMpAdVZqxfKcbn7cdNtblMJzU7eLo0jaQq_4USYulk,3428
+d0da/d0da_report_pb2.py,sha256=CPYTVLnZsPUW5V70oQy8V6qDYBWKKLAGLNYJCmGCTjc,3006
+d0da/device_linux.py,sha256=aMi0K0jtvkBf9rB0VeFWvFU2Fdt8eMcOdoXLGRg4h0s,2982
+d0da/helper.py,sha256=SjHDoalaiOfOVx_Pd-JRFIiYw_-N6Y-uAa5JbiSzd6w,2408
+d0da/hidraw.py,sha256=v3zjxnY5VRJcjApCDHnUhnDGS7rtdwfANLWb9-J_Wzk,4118
+d0da-0.8.0.dist-info/METADATA,sha256=SA1ZGRY-MiZGJQSAej1vEsljy8YJkfw-EgCfMz1ageg,1339
+d0da-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+d0da-0.8.0.dist-info/entry_points.txt,sha256=EerID4e5Qt9mcQa9mVHPOm4uHPX6NVmgh6-F8etNCMY,42
+d0da-0.8.0.dist-info/RECORD,,
