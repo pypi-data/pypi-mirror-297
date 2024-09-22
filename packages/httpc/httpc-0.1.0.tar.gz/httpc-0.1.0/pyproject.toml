@@ -1,0 +1,14 @@
+[project]
+name = "httpc"
+version = "0.1.0"
+description = "httpx with CSS"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+hello = "httpc:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
