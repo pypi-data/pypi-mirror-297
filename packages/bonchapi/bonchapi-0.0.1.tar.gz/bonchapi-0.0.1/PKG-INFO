@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: bonchapi
+Version: 0.0.1
+Summary: API for lk.sut.ru
+Project-URL: Documentation, https://github.com/KarimullinArthur/BonchAPI#readme
+Project-URL: Issues, https://github.com/KarimullinArthur/BonchAPI/issues
+Project-URL: Source, https://github.com/KarimullinArthur/BonchAPI
+Author-email: Karimullin Arthur <KarimullinArthur@disroot.org>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: API,Bonch,SPbSUT,lk.sut.ru
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Description-Content-Type: text/markdown
+
+# BonchAPI
+
+> В будущем надеюсь *полный* апи клиент для ЛК Бонча
+---
+
+## Установка
+
+#### PyPI
+`pip install bonchapi`
+
+## Описание
+Тестовая сборка асинхронного API клиента личного кабинета lk.sut.ru
+
+### [Пример использования](./examples/autoclick/main.py)
+```python
+import asyncio
+from bonchapi import BonchAPI
+
+async def main():
+    api = BonchAPI()
+    api.login("YourMail", "YourPassword")
+    await api.click_start_lesson() # автокликалка на парах
+
+asyncio.run(main())
+```
