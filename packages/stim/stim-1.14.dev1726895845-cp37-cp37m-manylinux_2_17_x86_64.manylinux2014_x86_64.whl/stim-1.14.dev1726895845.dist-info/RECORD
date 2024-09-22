@@ -1,0 +1,12 @@
+stim-1.14.dev1726895845.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+stim-1.14.dev1726895845.dist-info/METADATA,sha256=IBABMrPqRpePA3d0eB37tVNDTDEuGLOSqyRjp3Qj8-8,4180
+stim-1.14.dev1726895845.dist-info/entry_points.txt,sha256=nKrnVit2TO7zlOC9PzFDbziXiGroRejQTIeqeJ2VS6Q,51
+stim-1.14.dev1726895845.dist-info/RECORD,,
+stim-1.14.dev1726895845.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+stim-1.14.dev1726895845.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim/_stim_polyfill.cpython-37m-x86_64-linux-gnu.so,sha256=gnFw9mb2y4wC6QilSSP_qjUsYmPabAm049ALfchcEeg,6628160
+stim/_detect_machine_architecture.cpython-37m-x86_64-linux-gnu.so,sha256=yXtqQxHi72lGhhzkEcIkCBkVNyiHRqKuzgRt9CLQAlM,241192
+stim/__init__.pyi,sha256=d6pIyY6SJJdQGfBa3UU5VPRlhoQlr_o8kYy5GzyHf6w,452973
+stim/_stim_sse2.cpython-37m-x86_64-linux-gnu.so,sha256=s-1KjPPDtaRzfU2qCM86aSoVUgWSGuSnpDfEfECOvI8,6628144
+stim/_main_argv.py,sha256=8gHM50pjV8l_X1okiK0V7GCxy_UHPhWUbFc_d7_5wPQ,134
+stim/__init__.py,sha256=sPojOj9mwjyok5EXUt1P-HPDRlUokUV8c3e1IwqoKpc,2987
