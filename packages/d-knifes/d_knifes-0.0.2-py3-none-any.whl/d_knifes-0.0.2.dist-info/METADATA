@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: d-knifes
+Version: 0.0.2
+Summary: Swiss Army Knife
+Home-page: https://github.com/
+Author: knifes
+Author-email: author@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Requires-Dist: python-decouple
+Requires-Dist: prompt-toolkit
+Requires-Dist: attrs
+Requires-Dist: cattrs
+Requires-Dist: httpx[http2]
+
