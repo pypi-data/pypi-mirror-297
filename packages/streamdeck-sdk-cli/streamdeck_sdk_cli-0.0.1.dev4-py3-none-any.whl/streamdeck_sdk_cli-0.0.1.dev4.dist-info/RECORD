@@ -1,0 +1,9 @@
+streamdeck_sdk_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamdeck_sdk_cli/executable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamdeck_sdk_cli/executable/executable.py,sha256=dKbVHyvh1N4JIBWJ5wacAASyqHAVSsDOYU8oBIE6s3E,2608
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/METADATA,sha256=7plVRBYWOgJq7ju5owd1TdFN9SzEE1qgsziIlT9GueY,827
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/entry_points.txt,sha256=aPXTtqEs05DoLdLauJlzsWML4dRMvX0KXnjkVmbwIx8,82
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/top_level.txt,sha256=ejpJsJ40VaAO-NoE27scGBfgOEFGjPhkEo2uKvk76gs,19
+streamdeck_sdk_cli-0.0.1.dev4.dist-info/RECORD,,
