@@ -1,0 +1,11 @@
+pystackql/__init__.py,sha256=8loBCGMEQ7kG2cSGeVXjbItByxIPPpHGdwKcpQfNkeU,101
+pystackql/_util.py,sha256=Uwde4mXDcbcIY2O4oFfw2Lh5PM4Aspx79KVq-iS1iT0,5597
+pystackql/base_stackql_magic.py,sha256=jjMrp8i7qzhfwnBGHtTMyUtHvBJwr6IBYnTifeIm0pw,1751
+pystackql/magic.py,sha256=n-P-wdX0N71koZgN6aT-vxTPbo7_4MqIwhuCVdiikqs,1740
+pystackql/magics.py,sha256=eEaaasbqnYOGis0la6twTMnuG4S82NIcXYFEIv1vBc4,1743
+pystackql/stackql.py,sha256=s2pnY41H7HXBXNwM8hqsAyTWqtlpuTw2M22Px5wz9po,28098
+pystackql-3.6.5.dist-info/LICENSE,sha256=_JY7hKv3z4xkwQD_PO_DOvMVuE9-xKYNGH7y7fdnYYQ,1071
+pystackql-3.6.5.dist-info/METADATA,sha256=kWHnhkHKtfeyeDCquPPc5KPwhm06MG5OWbhzpjKKzCk,7179
+pystackql-3.6.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pystackql-3.6.5.dist-info/top_level.txt,sha256=ZlxHnkO2SXppR4aM7eb1Mo21ldlrfwivgQjm6EkqYXE,10
+pystackql-3.6.5.dist-info/RECORD,,
