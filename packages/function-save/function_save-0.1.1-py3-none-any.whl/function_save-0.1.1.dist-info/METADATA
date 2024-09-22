@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: function_save
+Version: 0.1.1
+Summary: This function automatically saves your function calls and result and prints it in a systematic format for better debugging and analysis.
+Author: Dev
+Author-email: amazingdev.dev@gmail.com
+Keywords: python,function
+
