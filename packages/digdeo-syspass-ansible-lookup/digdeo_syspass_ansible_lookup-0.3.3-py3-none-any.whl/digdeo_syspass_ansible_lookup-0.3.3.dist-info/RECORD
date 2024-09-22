@@ -1,0 +1,6 @@
+ansible/plugins/lookup/syspass.py,sha256=jTW3ks_hwfZLHyMTG_FsvG23UG2UFwXKriyI2uJNyJs,74662
+digdeo_syspass_ansible_lookup-0.3.3.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+digdeo_syspass_ansible_lookup-0.3.3.dist-info/METADATA,sha256=nSyraOOZ57lnOc31j6LS_lXiWt296nTSRpBjZtMhOZw,13106
+digdeo_syspass_ansible_lookup-0.3.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+digdeo_syspass_ansible_lookup-0.3.3.dist-info/top_level.txt,sha256=6w44DN0vu1lnM3lhpuVY0ivKlmQoRv7-sl8PBZ17O-4,31
+digdeo_syspass_ansible_lookup-0.3.3.dist-info/RECORD,,
