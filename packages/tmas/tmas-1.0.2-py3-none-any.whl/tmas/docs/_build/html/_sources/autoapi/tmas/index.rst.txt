@@ -1,0 +1,15 @@
+tmas
+====
+
+.. py:module:: tmas
+
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/tmas/src/index
+
+
