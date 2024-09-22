@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+crop_yolo/__init__.py
+crop_yolo/main.py
+crop_yolo.egg-info/PKG-INFO
+crop_yolo.egg-info/SOURCES.txt
+crop_yolo.egg-info/dependency_links.txt
+crop_yolo.egg-info/requires.txt
+crop_yolo.egg-info/top_level.txt
