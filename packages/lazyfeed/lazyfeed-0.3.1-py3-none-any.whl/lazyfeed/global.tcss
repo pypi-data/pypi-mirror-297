@@ -1,0 +1,121 @@
+Screen {
+  background: $background;
+  layout: horizontal;
+}
+
+Tabloid,
+Markdown {
+  scrollbar-background-active: $surface;
+  scrollbar-background: $surface;
+  scrollbar-color-active: $primary;
+  scrollbar-color-hover: $primary;
+  scrollbar-color: $primary 80%;
+  scrollbar-size: 1 1;
+  scrollbar-size-horizontal: 1;
+}
+
+Tabloid {
+  background: $background;
+  border-title-align: left;
+  border: round $primary;
+  height: 100%;
+  margin: 1;
+  overflow-x: hidden;
+  width: 1fr;
+
+  .datatable--hover {
+    background: $primary 30%;
+    color: $background;
+  }
+
+  .datatable--cursor {
+    background: $primary;
+    color: $background;
+  }
+}
+
+LoadingIndicator {
+  color: $primary;
+  background: $background;
+}
+
+HelpModal,
+ConfirmModal {
+  align: center middle;
+  background: $background 70%;
+}
+
+.modal {
+  border: round $primary;
+  height: 1fr;
+  max-height: 12;
+  max-width: 60;
+  width: 1fr;
+}
+
+.modal--help {
+  grid-columns: 1fr;
+  grid-rows: 1fr auto;
+  layout: grid;
+
+  & > Static {
+    content-align: center middle;
+    height: 100%;
+    margin: 1;
+  }
+
+  & Button {
+    background: transparent;
+    color: $secondary;
+    width: 1fr;
+
+    &#no {
+      border: round $error;
+
+      &:focus {
+        color: $error;
+      }
+    }
+
+    &#yes {
+      border: round $success;
+
+      &:focus {
+        color: $success;
+      }
+    }
+  }
+}
+
+Markdown > * {
+  color: $secondary;
+}
+
+Toast {
+  color: $secondary;
+  background: $surface;
+
+  &.-information {
+    border-left: outer $success;
+  }
+
+  &.-information .toast--title {
+    color: $success;
+  }
+
+  &.-warning {
+    border-left: outer $warning;
+  }
+
+  &.-warning .toast--title {
+    color: $warning;
+  }
+
+  &.-error {
+    border-left: outer $error;
+  }
+
+  &.-error .toast--title {
+    color: $error;
+  }
+}
