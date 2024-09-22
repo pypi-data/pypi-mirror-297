@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+SDKPyHardCase/Access.py
+SDKPyHardCase/Answer.py
+SDKPyHardCase/Question.py
+SDKPyHardCase/Survey.py
+SDKPyHardCase/User.py
+SDKPyHardCase/__init__.py
+SDKPyHardCase.egg-info/PKG-INFO
+SDKPyHardCase.egg-info/SOURCES.txt
+SDKPyHardCase.egg-info/dependency_links.txt
+SDKPyHardCase.egg-info/top_level.txt
