@@ -1,0 +1,1 @@
+DOMAIN="https://dictionary.cambridge.org"
