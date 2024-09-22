@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: versionrunner
+Version: 0.0.2
+Summary: A library that easily generates a requirements.txt file
+Home-page: https://github.com/TCK2001/versionrunner
+Author: TCK
+Author-email: ekatmdrkd7227@gmail.com
+License: MIT
+Keywords: version,autoversion,requirements,versionrunner
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# versionrunner
+## Motivation
+
+After writing a program, it is essential to generate a `requirements.txt` file before distribution, so that other users can easily recreate the deployed program.
+
+However, finding and specifying the versions manually can often be tedious. In such cases, you can use `versionrunner` to quickly convert the library versions into a requirements.txt file and save it automatically.
+
+---
+
+## How to Run ?
+```python
+from versionrunner import *
+
+search_version(__file__)  # or search_version('your_file_name')
+```
