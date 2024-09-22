@@ -1,0 +1,10 @@
+lemniscat/plugin/filetransform/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+lemniscat/plugin/filetransform/filetransform.py,sha256=HnQMBM9tQQoG9wkiSS6YsvdJ5g4ieDDBKNMpPnx-v00,3834
+lemniscat/plugin/filetransform/main.py,sha256=DuYkPTFZoinyVqK1NBvRAiOel9CBQs6--_blNalNOKY,3069
+lemniscat/plugin/filetransform/plugin.yaml,sha256=HW2uwpO5jyFt8vXyC8Ljc9rqxjV9r2P9Bj5dI2E6GB0,450
+lemniscat/plugin/filetransform/requirements.txt,sha256=2ETL1ihhvd_KAr819IU02q6Vv23hftYZNWG_NVrK3RM,49
+lemniscat.plugin.filetransform-0.2.2.dist-info/LICENSE,sha256=kaT-2SVPBQ3kdkynsVMCWUFYpII_xVGdHiZzXMGy-vQ,1073
+lemniscat.plugin.filetransform-0.2.2.dist-info/METADATA,sha256=wVd8IdjUZ5Rb6fI2bicdI-hA2__QsfARQcAcYkmXUb4,2317
+lemniscat.plugin.filetransform-0.2.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+lemniscat.plugin.filetransform-0.2.2.dist-info/top_level.txt,sha256=bmoVraF-tb2_14VMpstZFlw0ewylXjllv2bwC8bqw4c,10
+lemniscat.plugin.filetransform-0.2.2.dist-info/RECORD,,
