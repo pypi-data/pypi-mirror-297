@@ -1,0 +1,2 @@
+[console_scripts]
+run_post_install = dbcv.setup_script:select_optimal_number_of_threads
