@@ -1,0 +1,4 @@
+[console_scripts]
+python-torrent_tool=torrent_tool.__main__:main
+torrent_tool=torrent_tool.__main__:main
+
