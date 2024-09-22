@@ -1,0 +1,3 @@
+[console_scripts]
+flaskunity = flask_unity.cli:cli
+
