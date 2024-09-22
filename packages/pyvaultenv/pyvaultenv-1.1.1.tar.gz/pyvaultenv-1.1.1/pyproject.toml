@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.24.2", "hatch-vcs>=0.3.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true  # Allow local dependencies to be referenced directly
+
+[project]
+name = "pyvaultenv"
+version = "1.1.1"
+description = "A simple script to pull env vars from hashicorp vault for delevopers"
+authors = [
+    { name = "Convedgence Team"}
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["vault_env"]
+
+requires-python = ">=3.8"  # Pre-set to allow dependabot update project dependencies. Post-hook will replace it.
+dependencies = [
+    # For local package: "<package_name> @ {root:parent:uri}/<package_path>"
+    "hvac==2.3.0"
+]
+
+[project.scripts]
+vaultenv = "vault_env.main:main"
