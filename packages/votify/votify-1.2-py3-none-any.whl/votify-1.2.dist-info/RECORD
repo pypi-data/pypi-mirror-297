@@ -1,0 +1,17 @@
+votify/__init__.py,sha256=Z6Z4uHOLWQPfR8vIHKFw27_F2jBAoupdKhwCtLFspvY,20
+votify/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+votify/cli.py,sha256=1BIqGZfxhgp40VV3CTM5_M6g6q7E4aSlFbP0ELizJXQ,18275
+votify/constants.py,sha256=Kag-iGCMoSG3vVKo830Wz0OXFPpwXE5iI6feUe7Fyz8,892
+votify/downloader.py,sha256=WGfMt5ZiLds1Vit_WCMNy9sKtrm-WvYLDNzUS9gFVEU,17059
+votify/downloader_episode.py,sha256=sOZ9_nG2mwn4Az1T_BUH9Tw06TNel_gcSimJmjUKEN0,1584
+votify/downloader_song.py,sha256=qTigQrFjthGPN0EXhnfW6Iy081myNx7bCjW3R7aDPkI,4634
+votify/enums.py,sha256=Us5r_ih95Sphu0--FElBUEPUj8Wo2VVRqyYyNQ804jE,171
+votify/models.py,sha256=scOdqA68T2lKU4GF2mkCgpmAiSFx8aVsqng6kl58LGU,522
+votify/playplay_pb2.py,sha256=SwzdAiG5V47H3mOT_FjQUlf1-t-ef3-a96kIUbGQ3F8,2050
+votify/playplay_pb2.pyi,sha256=HPXI2pf1uhvou0tUnmiyd34u26wAbt8cW-jDT2l2etk,1929
+votify/spotify_api.py,sha256=SwqfSCDqp5_lGPUc4bZb81SbOyvwMDOA0eh8g_Q5lfQ,8649
+votify/utils.py,sha256=zdtB0DPO4sI4q8OFITClsX0NQ4zUXjLAxwtrGqO2AqY,395
+votify-1.2.dist-info/entry_points.txt,sha256=fbWLCfxmPlLoKo_TXn0vxpEkgOduN9nbCYzMpqZtDQ0,42
+votify-1.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+votify-1.2.dist-info/METADATA,sha256=p948g-IqVj9quL1wVi9CozkpSw60DYXSeEFNfxZeM-E,8960
+votify-1.2.dist-info/RECORD,,
