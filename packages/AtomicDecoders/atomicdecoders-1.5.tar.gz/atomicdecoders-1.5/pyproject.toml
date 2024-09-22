@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "AtomicDecoders"
+version = "1.5"
+description = "Simple Tools for decode crypto data, from extensions wallet, Atomic v2."
+authors = ["Isaac Florentine"]
+license = "MIT"
+readme = "README.md"
+keywords = [
+    "extensions", "Atomic", "walletdecode", "decode", "tronlink", "AtomicDecoders", "crypto", "decrypt", "wallet"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pycryptodome = ">=3.20.0"
+Cipherbcrypt = ">=1.0"
+ccl_leveldb = ">=1.0"
+ccl_localstorage = ">=1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Homepage = "https://github.com/Katana-Crypto"
+Issues = "https://github.com/pypa/Katana-Crypto/issues"
