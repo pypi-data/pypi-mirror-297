@@ -1,0 +1,4 @@
+digdeo-syspass-client
+six
+ansible
+colorama
