@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arithmetic_ops/__init__.py
+src/arithmetic_ops/arithmetic_operations.py
+src/awesomepyutil.egg-info/PKG-INFO
+src/awesomepyutil.egg-info/SOURCES.txt
+src/awesomepyutil.egg-info/dependency_links.txt
+src/awesomepyutil.egg-info/top_level.txt
+src/gcp/__init__.py
+tests/test_arithmetic_operations.py
