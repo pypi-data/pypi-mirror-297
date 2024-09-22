@@ -1,0 +1,9 @@
+setup.py
+brahmostra/__init__.py
+brahmostra/__main__.py
+brahmostra/main.py
+brahmostra.egg-info/PKG-INFO
+brahmostra.egg-info/SOURCES.txt
+brahmostra.egg-info/dependency_links.txt
+brahmostra.egg-info/requires.txt
+brahmostra.egg-info/top_level.txt
