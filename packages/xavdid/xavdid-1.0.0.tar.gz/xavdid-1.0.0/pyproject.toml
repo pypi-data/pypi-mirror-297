@@ -1,0 +1,44 @@
+[project]
+name = "xavdid"
+version = "1.0.0"
+
+authors = [{ name = "David Brownman", email = "beamneocube@gmail.com" }]
+description = "Terminal-based intro card"
+readme = "README.md"
+
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Communications :: Email",
+]
+keywords = ["personal"]
+
+dependencies = ["colorama==0.4.6"]
+
+[project.optional-dependencies]
+release = ["twine==5.1.1", "build==1.2.1"]
+ci = ["pyright==1.1.376", "ruff==0.5.7"]
+
+[project.urls]
+"Homepage" = "https://github.com/xavdid/intro-py"
+"Bug Tracker" = "https://github.com/xavdid/intro-py/issues"
+"Author" = "https://xavd.id"
+
+[project.scripts]
+# script name should match package name
+xavdid = "xavdid:main"
+
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+# needed so the LSP performs typechecking
+[tool.pyright]
+
+[tool.ruff.lint]
+select = ["E", "F", "I001"] # defaults & isort
+ignore = ["E501"]
