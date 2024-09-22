@@ -1,0 +1,4 @@
+[console_scripts]
+cassiopeia_report = xlsxreport.scripts.cassiopeia_report:cli
+xlsxreport = xlsxreport.scripts.report:cli
+xlsxreport_setup = xlsxreport.scripts.setup_appdata_dir:cli
