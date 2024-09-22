@@ -1,0 +1,2 @@
+[console_scripts]
+jgwillhub = jgwillhub.cli:main
