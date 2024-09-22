@@ -1,0 +1,12 @@
+dynamicadaptor/AddonCard.py,sha256=yEOcf-7jwG4HwtzLEJ5-TJuD-YmkUuw2kFmxmEHiNPk,2193
+dynamicadaptor/Content.py,sha256=ALZdVvBukS34Nl73DX3fDseibBtnxb2fSDqGKipyU5E,976
+dynamicadaptor/DynamicConversion.py,sha256=RWt6JrhyiUbQvSQ-Ycr_s47rK2rWa1shyNMGPWQBgfY,22917
+dynamicadaptor/Header.py,sha256=HUPQBh1DESO9EaDKzCWOygh-YmrocvvLRDdw5A_TVFY,652
+dynamicadaptor/Majors.py,sha256=CKeh2ZfCusmfZ4j_7QzFEo-tDuVMr-dL1zmIzj8O5YE,4462
+dynamicadaptor/Message.py,sha256=606xnOXN-k_wqKbql7yEzcMTDuRBstxjb3u9Sf-v2Ds,439
+dynamicadaptor/Repost.py,sha256=XISsgel-9g7xKlSZUjSYcU4-ECc5miQhRPUPlwAUU7g,344
+dynamicadaptor/__init__.py,sha256=nCioNpC4_GAVuyG4IHNVB0AtiGmnuueMMTO8qthiJDM,10
+dynamicadaptor-0.5.5.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+dynamicadaptor-0.5.5.dist-info/METADATA,sha256=TCxEWBJhEdLjFJvRAFAhU2xKI7Evzl9tefbETEUueiw,10578
+dynamicadaptor-0.5.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dynamicadaptor-0.5.5.dist-info/RECORD,,
