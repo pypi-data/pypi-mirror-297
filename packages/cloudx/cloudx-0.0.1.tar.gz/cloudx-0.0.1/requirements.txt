@@ -1,0 +1,7 @@
+requests
+pymongo
+redis
+pyyaml
+bson
+pydes
+cached-property
