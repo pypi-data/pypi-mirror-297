@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/privateclasses/__init__.py
+src/privateclasses/__main__.py
+src/privateclasses.egg-info/PKG-INFO
+src/privateclasses.egg-info/SOURCES.txt
+src/privateclasses.egg-info/dependency_links.txt
+src/privateclasses.egg-info/top_level.txt
+src/privateclasses/tests/__init__.py
+src/privateclasses/tests/test_1984.py
