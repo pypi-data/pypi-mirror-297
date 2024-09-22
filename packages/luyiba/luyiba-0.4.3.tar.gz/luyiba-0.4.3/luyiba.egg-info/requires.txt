@@ -1,0 +1,6 @@
+click
+diskcache
+requests
+my-fake-useragent
+pyparsing
+pywander
