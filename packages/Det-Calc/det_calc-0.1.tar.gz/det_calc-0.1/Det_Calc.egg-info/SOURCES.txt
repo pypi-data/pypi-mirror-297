@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+Det_Calc.egg-info/PKG-INFO
+Det_Calc.egg-info/SOURCES.txt
+Det_Calc.egg-info/dependency_links.txt
+Det_Calc.egg-info/top_level.txt
+code/__init__.py
