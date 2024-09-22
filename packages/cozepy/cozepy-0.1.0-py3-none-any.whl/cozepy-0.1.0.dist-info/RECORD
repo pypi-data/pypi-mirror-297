@@ -1,0 +1,9 @@
+cozepy/__init__.py,sha256=R9z2pMNa2q7GbVQWSgbfQEznPgGUAc-AshJTK410kOg,213
+cozepy/auth.py,sha256=GZhjclmFeyobLnuZxdQISioCvtcGrJFa-eKCjJaJxmI,1330
+cozepy/bot.py,sha256=TiRvvf4X5GZjYeC965PmG4wmVkMcGCtQIAYuVArFIe4,4623
+cozepy/coze.py,sha256=eof3yKvhPRnTuAKAEKVNRMahBpqTIbhDVCJ9AER1ksc,689
+cozepy/model.py,sha256=4TPWYdO6r0e8Ysk3oa8FLMM0xiqFy1b0j5Ck-MWcUCU,1482
+cozepy/request.py,sha256=Z3h0VvppQN_DodLPyGRp6dNzLbnXnIz_9t97IU2AJQU,1578
+cozepy-0.1.0.dist-info/METADATA,sha256=dwCP_PsS7Q7weXwInhQGed2Oq6Y-5vFg_BSwxKyNauQ,611
+cozepy-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cozepy-0.1.0.dist-info/RECORD,,
