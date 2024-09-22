@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+textblaze_to_espanso/__init__.py
+textblaze_to_espanso/__main__.py
+textblaze_to_espanso/converter.py
+textblaze_to_espanso/settings.py
+textblaze_to_espanso.egg-info/PKG-INFO
+textblaze_to_espanso.egg-info/SOURCES.txt
+textblaze_to_espanso.egg-info/dependency_links.txt
+textblaze_to_espanso.egg-info/requires.txt
+textblaze_to_espanso.egg-info/top_level.txt
