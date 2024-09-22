@@ -1,0 +1,11 @@
+ase_extension-0.4.0.dist-info/METADATA,sha256=M32_KAccJ5kUSd-TQl-DSaZzY1QdOk6z7A4pnCAo67I,142
+ase_extension-0.4.0.dist-info/WHEEL,sha256=d8PODt6vGDjS1JwwbY5Ucj-mNmXrB2rKviCD88fQkII,114
+ase_extension-0.4.0.dist-info/license_files/LICENSE,sha256=_Fis-dYKmWmDJpW6r-bdzvmP8BJWBAgyTxYLwM96JBw,1069
+ase_extension.libs/libgcc_s-5b5488a6.so.1,sha256=HGKUsVmTeNAxEdSy7Ua5Vh_I9FN3RCbPWzvZ7H_TrwE,2749061
+ase_extension/geometry.py,sha256=kH3jyaoHb9WyuAREppUDJnF8IuAMfcR7r6ZMpjyTll8,775
+ase_extension/io.py,sha256=DQkODc3XYQfCrqCATGOZxTOa2J-lcQz6xwxzOzue_Jk,885
+ase_extension/constraints.py,sha256=p8NESTRRxKKAvOtFy_UILhoV0KC6r4D2pVlBKuZXrPA,1220
+ase_extension/neighborlist.py,sha256=QCP1XKts7t1DA3IuHMkbLblCea4eHSfnYufwgWv8GbI,1991
+ase_extension/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+ase_extension/_ext.pypy39-pp73-arm-linux-gnu.so,sha256=eZGNRv9W-3IKhfnY8KHR9h9C1VVWiNHX9Cseau2RTFI,2628205
+ase_extension-0.4.0.dist-info/RECORD,,
