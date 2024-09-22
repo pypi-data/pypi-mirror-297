@@ -1,0 +1,10 @@
+aligntools/__init__.py,sha256=v_9hkQMVWXEa7WvYAKpBEUjFk_2ZYXWJXiHmBXr3VZ4,630
+aligntools/coordinate_mapping.py,sha256=IqKXaXHG5FeI7tDCOlT2Y8aOPpmH_wLCrG-Xr-YwLyY,2515
+aligntools/int_dict.py,sha256=W8_2nPVqefpNL0vrsbvIlGO9lrPvOmpmdgPmW5kkUgU,3360
+aligntools/lib.py,sha256=zhocEdwDdobXqRyQaWvWfMIG0fXXfnuSCq9_LZfdB0I,30001
+aligntools/libexceptions.py,sha256=Gg_gdcvFlALun8FEZ8RGHw7iWgqbJI7DYAEvO5cPEd0,1195
+aligntools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aligntools-1.0.6.dist-info/METADATA,sha256=pJ0JyKhjMlLme4IobJLGk-ESCZHSyBC1fBKCrEM0csE,8739
+aligntools-1.0.6.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+aligntools-1.0.6.dist-info/licenses/COPYING,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+aligntools-1.0.6.dist-info/RECORD,,
