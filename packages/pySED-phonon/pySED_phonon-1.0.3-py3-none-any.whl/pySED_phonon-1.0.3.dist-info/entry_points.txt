@@ -1,0 +1,3 @@
+[console_scripts]
+pySED = scripts.pySED:main
+
