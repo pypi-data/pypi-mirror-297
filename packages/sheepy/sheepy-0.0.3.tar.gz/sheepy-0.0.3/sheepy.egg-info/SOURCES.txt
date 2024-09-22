@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sheepy/__init__.py
+sheepy/sheeptest.py
+sheepy.egg-info/PKG-INFO
+sheepy.egg-info/SOURCES.txt
+sheepy.egg-info/dependency_links.txt
+sheepy.egg-info/top_level.txt
