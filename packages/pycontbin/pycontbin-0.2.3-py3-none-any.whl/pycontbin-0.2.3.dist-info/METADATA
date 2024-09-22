@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pycontbin
+Version: 0.2.3
+Summary: A Python implementation of the ContBin algorithm
+Home-page: https://github.com/jpbreuer/contbin_python
+Author: Jean-Paul Breuer
+Author-email: jeanpaul.breuer@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: pyds9
+
+# contbin_python
+
+This is a python re-implementation of the Jeremy Sanders contour binning algorithm, which was originally in c++. You can install it with `pip install pycontbin`, or upgrade it with `pip install --upgrade pycontbin`. Please note that this python build is under development and is subject to updates.
+
+You can see the original files here: https://github.com/jeremysanders/contbin
+
+Original Copyright Jeremy Sanders <jeremy@jeremysanders.net> (2002-2016)
+The reference paper is Sanders (2006), MNRAS, 371, 829,
+http://adsabs.harvard.edu/abs/2006MNRAS.371..829S
+
+This version was translated to python by me, and might still contain some minor bugs, although the current implementation results seem to reproduce the original code results.
+
+I have additionally added a routine that automatically produces and outputs polygon region files for each bin in sexagesimal coordinates, this is an improvement on the previous work that output many box regions instead.
+
+The jupyter notebook contains the testing code, also an example use case.
+
+This software is licensed under the GNU Public License.
+
+To do:
+- I want to implement PSF information in the code. I will be trying to work on this on another branch.
+- Adding GPU optimization would be wonderful.
+
+Done:
+- Added polygon regions as output in sexagesimal coordinates, however this requires ciao and pyds9 installed.
+- Created pip package
+
+## Requirements 
+- numpy
+- astropy
+- ciao
+- pyds9
+
+## Code use case example:
+```
+# from contour_binning import *
+from pycontbin import ContourBin
+
+os.chdir("/Users/jpbreuer/Scripts/contbin-python")
+inputfile = "scaled_fluxed_sps_filth_fov.fits"
+
+sn_ratio = 50
+smooth = 30
+constrain_val = 1.5
+reg_bin = 1
+
+ContourBin(inputfile, sn_ratio, smooth, constrain_val, reg_bin, make_region_files=True)
+```
