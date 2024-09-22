@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+nzl/__init__.py
+nzl.egg-info/PKG-INFO
+nzl.egg-info/SOURCES.txt
+nzl.egg-info/dependency_links.txt
+nzl.egg-info/top_level.txt
