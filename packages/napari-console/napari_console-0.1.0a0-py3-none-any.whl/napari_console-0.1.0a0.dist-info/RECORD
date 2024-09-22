@@ -1,0 +1,13 @@
+napari_console/__init__.py,sha256=PUuRzzOAErtP_sY3qfp-tfUPS-3po7InoM-rQppK-bM,99
+napari_console/_hookimpl.py,sha256=hPl22QXedwFg8yjqdd6jJf5vJRoyo5XugiTKXxdR-pQ,183
+napari_console/_version.py,sha256=Okky3KGcs_fu34VQzO05VuCc7CF609YKQueRW6fuvPU,413
+napari_console/napari.yaml,sha256=5Qa6w4qP8l0dvOkITuE1aKeySOfMhCcLqOFa3Af-A9w,43
+napari_console/qt_console.py,sha256=9ALoxwm9zgmztPxTXxrF_o0IY0OMZMZUlnH-3q8B6XE,7752
+napari_console/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_console/_tests/test_qt_console.py,sha256=x5vLDWm8FwLzrqoCCHnMLa_-WdVLZyXkP23zTz93U-s,2988
+napari_console-0.1.0a0.dist-info/LICENSE,sha256=oQ6F1aPLoHj5ZNYhi13Q1zkFAKthskHRYFbUSNrFT94,1491
+napari_console-0.1.0a0.dist-info/METADATA,sha256=oDHwmGyaQfJ-_8IXqoq8bRMf9tIf-T8OvbkVgrDdFCk,5682
+napari_console-0.1.0a0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+napari_console-0.1.0a0.dist-info/entry_points.txt,sha256=p8ujcDxBAS8BBYX-Hzr1gBlTxLBhenAoWfPo2F3IVKY,62
+napari_console-0.1.0a0.dist-info/top_level.txt,sha256=3W7uHhuSNVe7m07P-PNPvCm6vy6hYInjTonHX7MqmbA,15
+napari_console-0.1.0a0.dist-info/RECORD,,
