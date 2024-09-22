@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "house-of-cards"
+version = "1.0.0"
+description = "A robust CLI tool to create directory structures from tree-like input."
+authors = ["Your Name <your.email@example.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [
+    {include = "hoc"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+pyperclip = "^1.9.0"
+click = "^8.1.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[tool.poetry.scripts]
+hoc = "hoc.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
