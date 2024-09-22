@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: etfscan
+Version: 24.9.30
+Summary: Library and tool for handling ETF files.
+Home-page: https://gitlab.esrf.fr/night_rail/applications/tools/etfscan
+Author: Alessandro Mirone
+Author-email: alessandro@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: nxtomomill
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: namedlist
+
+# ETFScan
+
+`ETFScan` is a Python package for handling and manipulating ETF files, including the ability to convert Nexus files into ETF format and to concatenate scans.
+
+## Features
+
+- Convert Nexus files to ETF using the `create_etf` script.
+- Concatenate ETF scans or their subparts using the functionality in `etfscan.etf`.
+
+## Installation
+
+
+To create a virtual environment and install the package, follow these steps:
+
+1. Create a virtual environment:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+
+2. To install the package, run:
+
+```bash
+pip install .
+```
+
+## Usage
+
+### Convert Nexus to ETF
+
+To produce an ETF directory, use the `create_etf` command. From bliss files:
+
+```
+create_etf --bliss_file   /data/visitor/md1290/bm18/20231102/RAW_DATA/2.195um_SH1_ROIs/HA2000_2.195um_SH1_ROI-05_nose-turbin_0000/HA2000_2.195um_SH1_ROI-05_nose-turbin_0000_0001/HA2000_2.195um_SH1_ROI-05_nose-turbin_0000_0001.h5  --target_name test
+
+```
+
+or from nexus :
+
+```
+create_etf --nexus_file   /some/directory/HA2000_2.195um_SH1_ROI-05_nose-turbin_0000_0001.nx --target_name test2
+
+```
+
+
+
+
+### Example: Concatenating ETF scans
+
+An example of how to concatenate ETF scans using the library can be found in the `etf.py` module. We use the class `ETFFile` which manipulate etf elements ( projections.h5`, `flats.h5`, .. etceter). Here's a simplified example:
+
+```python
+from etfscan import ETFFile
+
+# Load two ETF files
+etf1 = ETFFile('test.etf/projections.h5')
+etf2 = ETFFile('test2.etf/projections.h5')
+
+
+# Concatenate them
+combined_etf = ETFFile.join(etf1, etf2)
+
+# Save the result
+ETFFile.save(combined_etf, 'combined_output')
+```
+
+
+## Script Options for create_etf.py
+
+The following options are available for the nx2etf.py script:
+
+    --bliss_file (optional)
+        Description: A BLISS master file. One and only one of --bliss_file, --nexus_file, or --etf_projections_dir must be provided.
+        Type: String (str)
+
+    --nexus_file (optional)
+        Description: A Nexus file produced by NX Tomomill. One and only one of --bliss_file, --nexus_file, or --etf_projections_dir must be provided.
+        Type: String (str)
+
+    --etf_projections_dir (optional)
+        Description: The projections will be taken from the projections.h5 file inside this directory. Must be inside an ETF directory. One and only one of --bliss_file, --nexus_file, or --etf_projections_dir must be provided.
+        Type: String (str)
+
+    --darks_flats_dir (optional)
+        Description: A directory containing a Nexus file produced by NX Tomomill. This directory will be searched to associate darks/flats with the Nexus file if --nexus_file is provided.
+        Type: String (str)
+
+    --etf_dark_dir (optional)
+        Description: The darks will be taken from the dark.h5 file inside this directory. Must be inside an ETF directory.
+        Type: String (str)
+
+    --etf_flats_dir (optional)
+        Description: The flats will be taken from the flats.h5 file inside this directory. Must be inside an ETF directory.
+        Type: String (str)
+
+    --entry_name (optional)
+        Description: The entry name to use (default: entry0000).
+        Type: String (str)
+
+    --target_dir (optional)
+        Description: The path where the resulting ETF will be written. Defaults to the current working directory.
+        Type: String (str)
+
+    --target_name (optional, required if --etf_projections_dir is used)
+        Description: The name for the output ETF file. Defaults to the Nexus or BLISS filename if provided. Mandatory if --etf_projections_dir is used.
+        Type: String (str)
+
+    --median_dark (flag)
+        Description: Use the median instead of the average for darks. Only applies if the darks come from Nexus.
+        Type: Flag (no value required)
+
+    --median_flat (flag)
+        Description: Use the median instead of the average for flats. Only applies if the flats come from Nexus.
+        Type: Flag (no value required)
+
+    --double_flats_file (optional)
+        Description: The double flats file.
+        Type: String (str)
+
+    --diffusion_correction_file (optional)
+        Description: The diffusion correction file.
+        Type: String (str)
+
+    --distortion_correction_file (optional)
+        Description: The detector real positions map.
+        Type: String (str)
+
+    --weight_map_file (optional)
+        Description: The weight map file.
+        Type: String (str)
+
+For further details, check the source code in module `etfscan`.
+
+
