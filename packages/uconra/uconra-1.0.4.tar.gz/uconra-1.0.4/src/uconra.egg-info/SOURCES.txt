@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/uconra/__init__.py
+src/uconra/email_message.py
+src/uconra/error.py
+src/uconra/j_wt.py
+src/uconra/login.py
+src/uconra/register.py
+src/uconra/smtp_mail.py
+src/uconra/top_code.py
+src/uconra.egg-info/PKG-INFO
+src/uconra.egg-info/SOURCES.txt
+src/uconra.egg-info/dependency_links.txt
+src/uconra.egg-info/requires.txt
+src/uconra.egg-info/top_level.txt
