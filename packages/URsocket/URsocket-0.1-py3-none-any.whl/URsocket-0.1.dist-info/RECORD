@@ -1,0 +1,12 @@
+URsocket/UR.py,sha256=MESTg5woVN9qwJfJKHdWP5rUPhlFLYvxxYoXuUqPZOA,20623
+URsocket/__init__.py,sha256=CSnmCOU8NKppnSxH4C37pvQvJXtqUPgZ01npdiWsfbk,156
+URsocket/config.xml,sha256=2weE6kO4O5-4sKZKmBAlzSY0NaWW_EBNl3bZg7mNcUs,2362
+URsocket/robotiq_gripper.py,sha256=F6ibwUklxdfO1YHfsir1LgJ0qBvqDpn3OrlevB_Pl8U,11379
+URsocket/rtde.py,sha256=VhsWvnZ-5szLBDWaBFwZr9d97Pk91xGo_2JLK75cTOw,14362
+URsocket/rtde_config.py,sha256=Cbv1ls0J-Cc262UCYIgX3j2lAEGt-mCfHxTntPe2eNw,2372
+URsocket/serialize.py,sha256=BsQFeFkfoYeR82kSasLGqvgqLo8HnVq3zSlVgMG7_yM,6540
+URsocket-0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+URsocket-0.1.dist-info/METADATA,sha256=xBIfVjebnzb-IOC3pGTrZHN-XNeKkmte6qzTNtKuAMk,788
+URsocket-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+URsocket-0.1.dist-info/top_level.txt,sha256=RlxwUt7p9MZnMbuahdJq0lGO9Zedl2CGejdI-GLTL4w,9
+URsocket-0.1.dist-info/RECORD,,
