@@ -1,0 +1,8 @@
+coherent/test/__init__.py,sha256=J3KPX9ZVS2jPTn9GJfOO8lPjayO-flM3DcHQMven4o4,164
+coherent/test/core.py,sha256=dUUMoU-zZfVKPqlv50znvLfMQfon5Rq4uT6jiqqp4d0,1766
+coherent/test/monkey.py,sha256=nJBaHuuYMjIFxGt7LiaXQXJKcgkvQDNokYL0hjisnx8,958
+coherent/test/__main__.py,sha256=SL014Wceo75gFsjL5li5ptDL2EOIRkvyMZcbqtdQTHA,59
+coherent_test-0.8.1.dist-info/METADATA,sha256=uziksFC56rK3DQ0oZgBTtP1a5pkstU8tRB1KTa5Lmpk,1518
+coherent_test-0.8.1.dist-info/WHEEL,sha256=xwCvqR_tqJ3Ej9Wez_XdmRPdq9SWEwB8IV-d4ZOwyF0,86
+coherent_test-0.8.1.dist-info/entry_points.txt,sha256=EJwvdsHf3bAUJXLJsbgBTDQdJoRTtDuVU-Jdgkq9j3M,107
+coherent_test-0.8.1.dist-info/RECORD,,
