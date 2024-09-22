@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+MyBestFriendLUCY.egg-info/PKG-INFO
+MyBestFriendLUCY.egg-info/SOURCES.txt
+MyBestFriendLUCY.egg-info/dependency_links.txt
+MyBestFriendLUCY.egg-info/entry_points.txt
+MyBestFriendLUCY.egg-info/requires.txt
+MyBestFriendLUCY.egg-info/top_level.txt
