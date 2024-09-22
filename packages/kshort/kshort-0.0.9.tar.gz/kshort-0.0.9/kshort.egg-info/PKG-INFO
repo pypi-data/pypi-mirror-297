@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: kshort
+Version: 0.0.9
+Summary: Module to manage your projects using kitty and neovim
+Home-page: https://github.com/McAlvaro/kshort
+Author: McAlvaro
+Author-email: mc.alvaro641@gmail.com
+License: UNKNOWN
+Keywords: python,kshort
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Kshort
+Kshort is a terminal script that allows you to search your projects from the terminal and open them in neovim, it currently works with kitty and gnome-terminal.
+
+## Requirements
+- `kitty` [terminal](https://sw.kovidgoyal.net/kitty/) | `gnome-terminal`
+- `fzf` [repo](https://github.com/junegunn/fzf)
+- `neovim`
+
+## Installation
+
+```shell
+pip install kshort
+```
+
+## Configuration
+Configure the projects in your director `~/.config/projects_manager.json`
+
+- *File structure*
+```json
+{
+  "directories": [
+    {
+      "name": "PHP",
+      "directory": "~/code/php",
+      "icon": " ",
+      "color": "#5e79be"
+    },
+    {
+      "name": "Javascript",
+      "directory": "~/code/javascript/",
+      "icon": " ",
+      "color": "#ecb75d"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Neovim",
+      "directory": "~/.config/nvim",
+      "icon": " ",
+      "color": "#509a3a"
+    },
+    {
+      "name": "Awesome",
+      "directory": "~/.config/awesome",
+      "icon": " ",
+      "color": "#535d6c"
+    }
+  ]
+}
+```
+
+## Commands
+
+- `kshort` list your projects in fzf and open them in kitty and using neovim
+- `kshort -g` list your projects in fzf and open them in gnome-terminal and using neovim
+- `kshort --list` returns a list of your configured projects
+
+
