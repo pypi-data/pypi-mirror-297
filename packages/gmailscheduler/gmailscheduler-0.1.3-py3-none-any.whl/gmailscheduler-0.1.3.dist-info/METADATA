@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gmailscheduler
+Version: 0.1.3
+Summary: A flexible, timezone-aware event scheduler
+Author: Sathish Jindam
+Author-email: sathishjindam98@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: google-api-python-client (>=2.146.0,<3.0.0)
+Requires-Dist: google-auth (>=2.35.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.2.0,<0.3.0)
+Requires-Dist: google-auth-oauthlib (>=1.2.1,<2.0.0)
+Requires-Dist: pytz (>=2024.2,<2025.0)
+Description-Content-Type: text/markdown
+
+# gmailscheduler
+**gmailscheduler** is a Python package designed to help developers and teams schedule events, meetings, or reminders in an intelligent, flexible, and constraint-aware way. It uses AI-driven suggestions to pick optimal times for events based on participant preferences, availability, and local time zone nuances.
+

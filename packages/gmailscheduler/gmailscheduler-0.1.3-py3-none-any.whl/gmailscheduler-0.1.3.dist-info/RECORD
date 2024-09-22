@@ -1,0 +1,7 @@
+gmailscheduler/__init__.py,sha256=3ypiHZZ5miedUQGDQ1U66IJ9msyUjRd9nnFCpJtEZvo,70
+gmailscheduler/google_calendar.py,sha256=sBOykOsfCUpN4KFmWLU0sdzbN4ZbfRx55neUPtOQqwk,5086
+gmailscheduler/participant.py,sha256=uVLMRmvR7ZuZvWJt856ZJfH6ZttXyDY-SWQ8-aPs-Qs,330
+gmailscheduler/scheduler.py,sha256=brTxPMWFS9PjEXRwpIUUo5idC0hQBNZxaSXZ4UMQgf8,4686
+gmailscheduler-0.1.3.dist-info/METADATA,sha256=pPzoGUkuoQK3K8ur0OI68HbijE_6iqSvmqTaF7CaW8I,1215
+gmailscheduler-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+gmailscheduler-0.1.3.dist-info/RECORD,,
