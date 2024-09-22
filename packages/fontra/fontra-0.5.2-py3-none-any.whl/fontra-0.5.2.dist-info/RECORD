@@ -1,0 +1,14 @@
+fontra/__init__.py,sha256=R03qTBLTRuXFiOJGRApQB8aw2nX5VDsmyQ7022vkaRw,5286
+fontra/__main__.py,sha256=hWsxuTgvCdwve-kqLAE0p7ceBB8AqSDJvTvFCX66sGc,6794
+fontra/consts.py,sha256=ddu-VBSMzFJ1b0uEYqNS7C1ZOT_k8ANWqfkmJxReEms,628
+fontra/fontdb.py,sha256=vtillD-mpd0xOnujBGCT2NCkNJaE8BQWXcPYJky_f6s,5142
+fontra/fzmatch.py,sha256=BTbmd9XpSaZfM2C_6iTqG0TL36AOzSyWeZPVUCB7ABU,3352
+fontra/locutil.py,sha256=QLK5Gfs82aZC25v1F5VvIFT5wI8dzu8wQaxthfKQmSo,2611
+fontra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fontra/typing.py,sha256=2H5iE7qmkY03vWwQVWym6n6QWpgC2uP3P0KrSHLQ-84,235
+fontra-0.5.2.dist-info/LICENSE,sha256=sMy9EQB9E94efpBs9l55ycF-RvTkzAP8MmE8fCcqG9k,1068
+fontra-0.5.2.dist-info/METADATA,sha256=goICCLQ_QUVpgIILaAoZW2EJwBKEXxLoV561VxvPwgk,4994
+fontra-0.5.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fontra-0.5.2.dist-info/entry_points.txt,sha256=-VNhiZvvshgxoG6p-kXZpo8-7fPjTqzYz8ZuI0sPBpU,47
+fontra-0.5.2.dist-info/top_level.txt,sha256=z2qqisBXLgG17ZHEQEKK3oKqL1wMJHseVgB5XcquSBQ,7
+fontra-0.5.2.dist-info/RECORD,,
