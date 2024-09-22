@@ -1,0 +1,12 @@
+apiverve_datecalculator/__init__.py,sha256=nC4V66RX748HUTjIlySZWXAIn3ePRNbqWHN7oAljwNg,46
+apiverve_datecalculator/apiClient.py,sha256=ktFMrQ5iTXPsdxZ2Q0PZkPX5UxFvz0hMpYWB93x42RA,1232
+apiverve_datecalculator/exceptions.py,sha256=Vw1OUlYJXO97tFCEh-8ZECaKpQHOVDD4dlKcY0XnB8A,111
+apiverve_datecalculator/setup.py,sha256=5ol57QhxYzKYGE8eIn8R5wNLd8FYaZFd8ebHxEnEvnk,963
+apiverve_datecalculator/setup_dep.py,sha256=cpl85FWBVASTLhUVmUKw4fMWIxNOPMrcBzYHinGlApo,662
+apiverve_datecalculator/tests/__init__.py,sha256=w6P0tAvlmu3OJbVjWR0J1p1bxOlrB2LqnMv2tigQCu4,26
+apiverve_datecalculator/tests/test_api.py,sha256=v5xav5ARQe4ISnp4mgmHwy1y9S0BldfCo-JQsRF78jU,626
+apiverve_datecalculator-1.1.5.dist-info/LICENSE,sha256=YsfLd-GMs4-ZhMK0ecz-_Jr9DX9cPphkby5JVKaPgEY,1109
+apiverve_datecalculator-1.1.5.dist-info/METADATA,sha256=U-_81_Rlsj1KAfpTrYcsz5aAgKRGLK9rPqGjc9tIHVs,5966
+apiverve_datecalculator-1.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+apiverve_datecalculator-1.1.5.dist-info/top_level.txt,sha256=sEM6P5FbYE4b3cjyue2d_2TgqWbVJczIJTF6sRp1ARg,24
+apiverve_datecalculator-1.1.5.dist-info/RECORD,,
