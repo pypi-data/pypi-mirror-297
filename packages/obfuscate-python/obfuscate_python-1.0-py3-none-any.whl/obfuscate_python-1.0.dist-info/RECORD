@@ -1,0 +1,9 @@
+my_interface/__init__.py,sha256=0Bw823uZD1HfNhplbcBRnlAVan6xNSIqfl-5nOa0SmI,73
+my_interface/parent_interface.py,sha256=nr0VmVKVylP7aAkGPNTu_U_Ke14_xpRKj5KFhOa_SGo,4321
+my_interface/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+my_interface/pytransform/_pytransform.dylib,sha256=ivm8ovzQG9FFBlSVwa80qE7vqH4xPskHaVkRtyzok-c,1499392
+obfuscate_python-1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obfuscate_python-1.0.dist-info/METADATA,sha256=_XtLtOqsfZPkYHivYU6em84vMVr-LyNloniZy8iJBm4,453
+obfuscate_python-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+obfuscate_python-1.0.dist-info/top_level.txt,sha256=ZlleKeSdtPrbk5uNFfDsDej5lm5d6NouBBNVPMiIcXw,13
+obfuscate_python-1.0.dist-info/RECORD,,
