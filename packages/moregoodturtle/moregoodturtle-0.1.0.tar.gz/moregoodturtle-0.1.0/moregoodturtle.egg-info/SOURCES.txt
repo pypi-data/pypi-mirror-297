@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+moregoodturtle.egg-info/PKG-INFO
+moregoodturtle.egg-info/SOURCES.txt
+moregoodturtle.egg-info/dependency_links.txt
+moregoodturtle.egg-info/top_level.txt
