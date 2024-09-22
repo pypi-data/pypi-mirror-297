@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+google_py_apis.egg-info/PKG-INFO
+google_py_apis.egg-info/SOURCES.txt
+google_py_apis.egg-info/dependency_links.txt
+google_py_apis.egg-info/top_level.txt
