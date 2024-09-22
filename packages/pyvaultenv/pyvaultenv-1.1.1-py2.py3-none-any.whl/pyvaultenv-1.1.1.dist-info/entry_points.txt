@@ -1,0 +1,2 @@
+[console_scripts]
+vaultenv = vault_env.main:main
