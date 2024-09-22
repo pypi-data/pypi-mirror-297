@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/derive_attributes_customer_promos.py,sha256=Ng8X5Xj0kmH_vue6xZoohLdYhaDZ6S3Vwhc4YL1hRC0,5925
+examples/derive_rules_fraud_detection.py,sha256=IyZK7Ie3Jz3DiS-p58ZGYFP9Bd8nnAKS05GYW_8Ztmw,4745
+examples/derive_triggers_system_monitoring.py,sha256=iMjbcpaeqJzIjHM9Krp3rg1AHh0PhCigSrpfjuR0kx0,5498
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/derived_attributes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/derived_attributes/derive.py,sha256=wyzPkrkW2RjAK_NfjBhSIgRjHBRvgyH_7YYO1ZbfAH4,7936
+src/derived_attributes/verbs.py,sha256=kBEPuN5FGubFtyZt51xkQM8GCKTZ7MX8lz7OyJYD4LQ,2835
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=WUVLEveUYRQkHM_b85LmSYWnJI5evQCtRCSjJKwWdpo,14830
+derived_attributes-0.2.0.dist-info/LICENSE,sha256=pZKJ-kCihPa6TfDlQkE-0--08vWQAFeUv5aUIVKq9SU,1072
+derived_attributes-0.2.0.dist-info/METADATA,sha256=VhhfyXYzuYubpH4OozXBffeibovC_dT_EVWTjMb1jzs,10063
+derived_attributes-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+derived_attributes-0.2.0.dist-info/top_level.txt,sha256=Q_S7N67mMEsTtpw63iey_D1VmHryapvu-L7dyK92erY,19
+derived_attributes-0.2.0.dist-info/RECORD,,
