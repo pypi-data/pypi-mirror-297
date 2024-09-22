@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: infoservant
+Version: 1.0.1
+Summary: An AI that browses text content on the web. Can conduct deep-dives. Easily integrate intelligent web researching into any project.
+Home-page: https://github.com/Mighty-Data-Inc/infoservant
+Author: Mikhail Voloshin
+Author-email: mvol@mightydatainc.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# infoservant
+An AI that browses text content on the web. Easily integrate intelligent web surfing into any project.
+
+

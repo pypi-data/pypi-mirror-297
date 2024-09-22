@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+infoservant/VERSION
+infoservant/__init__.py
+infoservant/infoservant_impl.py
+infoservant.egg-info/PKG-INFO
+infoservant.egg-info/SOURCES.txt
+infoservant.egg-info/dependency_links.txt
+infoservant.egg-info/entry_points.txt
+infoservant.egg-info/requires.txt
+infoservant.egg-info/top_level.txt
