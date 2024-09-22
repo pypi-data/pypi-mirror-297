@@ -1,0 +1,103 @@
+# NetBox SLM
+
+<p align="center"><i>NetBox SLM is a plugin for lifecycle management of software components, including versions and installations.</i></p>
+
+<div align="center">
+<a href="https://pypi.org/project/netbox_slm/"><img src="https://img.shields.io/pypi/v/netbox_slm" alt="PyPi"/></a>
+<a href="https://github.com/ICTU/netbox_slm/stargazers"><img src="https://img.shields.io/github/stars/ICTU/netbox_slm" alt="Stars Badge"/></a>
+<a href="https://github.com/ICTU/netbox_slm/network/members"><img src="https://img.shields.io/github/forks/ICTU/netbox_slm" alt="Forks Badge"/></a>
+<a href="https://github.com/ICTU/netbox_slm/pulls"><img src="https://img.shields.io/github/issues-pr/ICTU/netbox_slm" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/ICTU/netbox_slm/issues"><img src="https://img.shields.io/github/issues/ICTU/netbox_slm" alt="Issues Badge"/></a>
+<a href="https://github.com/ICTU/netbox_slm/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ICTU/netbox_slm?color=2b9348"></a>
+<a href="https://github.com/ICTU/netbox_slm/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ICTU/netbox_slm?color=2b9348" alt="License Badge"/></a>
+</div>
+
+
+## Known Issues
+
+- WARNING: This plugin is only tested with a single NetBox version at this time.
+- CSV/Bulk imports for SoftwareProduct, Version and Installation are currently broken (WIP)
+
+## Installation Guide
+
+### In mono service:
+
+To install the plugin, first using pip and install netbox-slm-project:
+
+   ```
+   cd /opt/netbox
+   source venv/bin/activate
+   pip install netbox-slm-project
+   ```
+
+Next, enable the plugin in /opt/netbox/netbox/netbox/configuration.py, or if you have a /configuration/plugins.py file, the plugins.py file will take precedence.
+
+   ```
+   PLUGINS = [
+      'netbox_slm'
+   ]
+   ```
+Then you may need to perform the final step of restarting the service to ensure that the changes take effect correctly:
+
+   ```
+   python netbox/manage.py migrate netbox_slm
+   sudo systemctl restart netbox
+   ```
+
+### In docker env
+
+When using the Docker version of NetBox, first follow the netbox-docker [quickstart](https://github.com/netbox-community/netbox-docker#quickstart) instructions to clone the netbox-docker repo and set up the ``docker-compose.override.yml``.
+
+Next, follow these instructions (based on the NetBox docker variant
+[instructions](https://github.com/netbox-community/netbox-docker/wiki/Configuration#custom-configuration-files))
+to install the NetBox SLM plugin:
+
+1. Add ``netbox_slm`` to the ``PLUGINS`` list in
+   ``configuration/plugins.py``.
+2. Create a ``plugin_requirements.txt`` with ``netbox-slm-project`` as
+   contents.
+3. Create a ``Dockerfile-SLM`` with contents:
+
+   ```
+   FROM netboxcommunity/netbox:v4.0
+
+   COPY ./plugin_requirements.txt /
+   RUN /opt/netbox/venv/bin/pip install --no-warn-script-location -r /plugin_requirements.txt
+   ```
+
+4. Create a ``docker-compose.override.yml`` with contents:
+
+   ```
+   version: '3.7'
+   services:
+     netbox:
+       ports:
+         - 8000:8080
+       build:
+         context: .
+         dockerfile: Dockerfile-SLM
+       image: netbox:slm
+     netbox-worker:
+       image: netbox:slm
+     netbox-housekeeping:
+       image: netbox:slm
+   ```
+
+Now, build the image: ``docker compose build --no-cache``
+
+And finally, run NetBox with the SLM plugin: ``docker compose up -d``
+
+## Releasing Guide
+
+To draft a release;
+
+update the `netbox_slm/__init__.py` file to reflect the new version, then from the *src*
+directory run
+
+   ```
+   $ python -m build
+   $ twine upload dist/*
+   ```
+
+On Github.com create a similar tag and version. These steps could be
+automated with a github workflow.
