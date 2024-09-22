@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vyser
+Version: 0.0.1
+Summary: A simple rule engine in python for creating business logic
+Author-email: Suyash Maddhessiya <suyashmadhesia@gmail.com>
+Project-URL: Homepage, https://github.com/suyashmadhesia/vyser
+Project-URL: Issues, https://github.com/suyashmadhesia/vyser/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A simple rule engine in python for creating business logic
