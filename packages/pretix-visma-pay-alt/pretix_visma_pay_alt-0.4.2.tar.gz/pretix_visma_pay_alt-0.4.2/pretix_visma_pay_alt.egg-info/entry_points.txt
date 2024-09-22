@@ -1,0 +1,2 @@
+[pretix.plugin]
+pretix_visma_pay = pretix_visma_pay:PretixPluginMeta
