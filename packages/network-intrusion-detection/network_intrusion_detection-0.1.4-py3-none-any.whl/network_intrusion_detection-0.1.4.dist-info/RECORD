@@ -1,0 +1,13 @@
+network_intrusion_detection/__init__.py,sha256=mftKHGyq5JZwWNKW9LppSTZ3wqOOyVM_5139WKcm8jQ,115
+network_intrusion_detection/cnn_lstm_unsw_finetuned.h5,sha256=f2Ps5aJ1zVQJ64S9tc34r2oXLa5IOiVWCJ_pc13fu0A,959552
+network_intrusion_detection/model.py,sha256=nv4DMMMFbBa74gCy0I_IOpR3Wy59DM1R1UjHk2cJvz8,823
+network_intrusion_detection/predict.py,sha256=Ei7XeVmFtAa7ekfnY0x9oIDHwYKX1RtiF3XJYva33ig,360
+network_intrusion_detection/preprocessing.py,sha256=cMqBvcBiaYuPDMdOHmz44o6aYEH7rcWw6x36-48Yulw,895
+network_intrusion_detection/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+network_intrusion_detection/tests/test_predict.py,sha256=qtq135YK0xl4bHqKqb3XdIKtydwQbhfcbfvBxA_je3E,365
+network_intrusion_detection/tests/test_preprocessing.py,sha256=rckuKQOIya2C_WWLVs5xSU-HUxgsWleLaEspJSa4zoA,468
+network_intrusion_detection-0.1.4.dist-info/LICENSE,sha256=at3eMMlDpSqQIAJDkhQcGoN9h1ZpVVMirR1pbO39ZVA,1066
+network_intrusion_detection-0.1.4.dist-info/METADATA,sha256=IBKczJ0TrdgWkgfgnSQjmBmJxwxsWUjje8bxNhF5-Zc,1207
+network_intrusion_detection-0.1.4.dist-info/WHEEL,sha256=rWxmBtp7hEUqVLOnTaDOPpR-cZpCDkzhhcBce-Zyd5k,91
+network_intrusion_detection-0.1.4.dist-info/top_level.txt,sha256=xZyT1QXaRwGqFI7CKl9I_RzTbYavEnxozcn5qQuGhr4,28
+network_intrusion_detection-0.1.4.dist-info/RECORD,,
