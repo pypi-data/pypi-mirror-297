@@ -1,0 +1,8 @@
+README.md
+setup.py
+float16/__init__.py
+float16/main.py
+float16.egg-info/PKG-INFO
+float16.egg-info/SOURCES.txt
+float16.egg-info/dependency_links.txt
+float16.egg-info/top_level.txt
