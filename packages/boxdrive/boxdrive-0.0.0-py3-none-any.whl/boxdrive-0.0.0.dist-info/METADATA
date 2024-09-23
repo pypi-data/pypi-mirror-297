@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: boxdrive
+Version: 0.0.0
+Summary: boxdrive
+Home-page: https://github.com/cospectrum/boxdrive
+License: Apache-2.0
+Author: cospectrum
+Author-email: severinalexeyv@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi[standard] (>=0.115.0,<0.116.0)
+Project-URL: Repository, https://github.com/cospectrum/boxdrive
+Description-Content-Type: text/markdown
+
+# boxdrive

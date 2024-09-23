@@ -1,0 +1,3 @@
+[console_scripts]
+boxdrive=boxdrive:main
+
