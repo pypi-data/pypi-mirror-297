@@ -1,0 +1,14 @@
+beautifulsoup4
+pytest
+python-magic
+tika
+requests
+elasticsearch
+elasticsearch_dsl
+pyunpack
+dask[dataframe]
+xlrd
+pytest-mock
+py7zr
+regex
+openpyxl
