@@ -1,0 +1,7 @@
+bench/bench
+build/
+
+*.sw?
+*.c
+*.so
+bcolz/_version.py
