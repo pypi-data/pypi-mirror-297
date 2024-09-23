@@ -1,0 +1,13 @@
+setup.py
+lociPARSE/QAmodel_lociPARSE.pt
+lociPARSE/__init__.py
+lociPARSE/core.py
+lociPARSE/feature_generation.py
+lociPARSE/model.py
+lociPARSE/utils.py
+lociPARSE.egg-info/PKG-INFO
+lociPARSE.egg-info/SOURCES.txt
+lociPARSE.egg-info/dependency_links.txt
+lociPARSE.egg-info/entry_points.txt
+lociPARSE.egg-info/requires.txt
+lociPARSE.egg-info/top_level.txt
