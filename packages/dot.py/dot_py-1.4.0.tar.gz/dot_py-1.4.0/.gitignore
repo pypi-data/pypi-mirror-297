@@ -1,0 +1,5 @@
+**/*.rendered
+**/__pycache__/
+**/.coverage
+dist/
+requirements.txt
