@@ -1,0 +1,8 @@
+setup.py
+my_framework/__init__.py
+my_framework/main.py
+my_framework_3.egg-info/PKG-INFO
+my_framework_3.egg-info/SOURCES.txt
+my_framework_3.egg-info/dependency_links.txt
+my_framework_3.egg-info/entry_points.txt
+my_framework_3.egg-info/top_level.txt
