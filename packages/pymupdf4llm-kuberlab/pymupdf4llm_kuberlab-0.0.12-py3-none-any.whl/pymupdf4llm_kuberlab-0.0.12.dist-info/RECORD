@@ -1,0 +1,9 @@
+pymupdf4llm/__init__.py,sha256=Jx3jwBFQEztDbfyArTMJ2zf_qdHJM85aQStgUWZXT_0,314
+pymupdf4llm/helpers/get_text_lines.py,sha256=TQWfP-nb0l6Hef3WchGAo3XhtUUmPKbTRhOWNu-t-VE,9383
+pymupdf4llm/helpers/multi_column.py,sha256=l65J4WrqZ8_bua2NPlK0g7Bwys6fUqWszmmqBK2Mo14,15812
+pymupdf4llm/helpers/pymupdf_rag.py,sha256=XBPxVEvQraHFDLAU9na3H8ndbSYiyvD5eje6G5wzhmk,31649
+pymupdf4llm/llama/pdf_markdown_reader.py,sha256=jsrkLQ1pRkbm07bgb3NF8Zo5fKbHQMmpbweXp0QSHtU,3360
+pymupdf4llm_kuberlab-0.0.12.dist-info/METADATA,sha256=Y37_94Vswz_Wc9ig1rTuLo9ww3FEJtlqnUHAUO2dV6o,4078
+pymupdf4llm_kuberlab-0.0.12.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pymupdf4llm_kuberlab-0.0.12.dist-info/top_level.txt,sha256=mzE_Cs3TnOnhQGJXMYFwv_eIHWKI98XEOGfm0JGiIbs,12
+pymupdf4llm_kuberlab-0.0.12.dist-info/RECORD,,
