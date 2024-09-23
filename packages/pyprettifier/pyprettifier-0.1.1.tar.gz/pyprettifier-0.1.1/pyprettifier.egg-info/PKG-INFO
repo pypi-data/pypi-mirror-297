@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyprettifier
+Version: 0.1.1
+Summary: A simple Python utility to improve python output from simple string.
+Author: Sandra Gutierrez
+Author-email: help@pyprettifier.com
+Requires-Python: >=3.6
+License-File: LICENSE.txt
