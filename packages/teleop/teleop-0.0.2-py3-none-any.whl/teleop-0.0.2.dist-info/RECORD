@@ -1,0 +1,11 @@
+teleop/__init__.py,sha256=ee8XqbsmGqg6C06KWuLU1RorPvrv6x7AbEhfThlNxfk,6954
+teleop/cert.pem,sha256=0FYzZlrJSCiyhIL2EMAER6YGZDQn4evQbIfyMyZ3igQ,1939
+teleop/index.html,sha256=4QpumpQwOnBkpl5fxzKUkTH_XxNt41XKhIPh7Bj8Wwo,8813
+teleop/key.pem,sha256=6pntDWeneZcxSeptmsty1n0X0Icklz9K7XDY96L7b1I,3272
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pose_compounding.py,sha256=J40ElwkmR9dnp03LMAre5xT3MpDtBpFd23H9U6mXqRc,1938
+teleop-0.0.2.dist-info/LICENSE,sha256=NkFzpZHcUgScVTLnwqgfTmTdJWbGVCbrUq4AJ7s3Lnc,11343
+teleop-0.0.2.dist-info/METADATA,sha256=SDXoGvvybvuoAgylo3ZisTtYnAgXyR4tmIt70wsckhg,1292
+teleop-0.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+teleop-0.0.2.dist-info/top_level.txt,sha256=d0Q8sIgjA25gqvB4dgF6My2e_FyB_kEF7zV0gPWtVGU,13
+teleop-0.0.2.dist-info/RECORD,,
