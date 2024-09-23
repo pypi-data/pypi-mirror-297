@@ -1,0 +1,16 @@
+flashreader/__main__.py,sha256=OSmSELMWnbM8VqH57wTTmLQkzAMtQHXWpGQkVxZSu6w,3010
+flashreader/memory/_24lc.py,sha256=4V6w6fndwc82bPK7jgAynXfwUe4kwdycH2NouyG4SXI,1739
+flashreader/memory/_25aa.py,sha256=HYu1aVo0sXdacddFgX57alHBjEPLqQBEITAQauMR0iA,293
+flashreader/memory/_25lc.py,sha256=XgOSpw-wiBbSM5yBlz09njshcrelJLlMV690TgTBwiU,396
+flashreader/memory/m95.py,sha256=lyVbBPs29FPUrKVJ7RrWgXo9JLqmpYUu0dPWo24GBZ0,334
+flashreader/memory/mx25.py,sha256=XZ6ogFG7f8wN2tDy8N9opVjaVsI6GcSDTZKGPdLcIew,455
+flashreader/memory/spiflash.py,sha256=-SqoMBFe9fXON-eZNV270H8L4-_bqKAxLb0WLNlJ8-Q,5590
+flashreader/memory/w25q.py,sha256=qVHXaByOOiG4TKZ0rUBXPcIUehSkvCyjx__SqnK1yUA,214
+flashreader/platform/ft232h.py,sha256=pEm7DNFsBdw9WgId7hs5ArybipdEoK-afqeJqez7las,3711
+flashreader/platform/raspberrypi.py,sha256=vhoNJYHg7pSOHVN-RJjyR1sB01eV1m82pe66RhYPgJE,3353
+flashreader-1.1.0.dist-info/LICENSE,sha256=RQOxrfmqV8MhzfzKNJ6bXpjcXenG1rxFZHGN1F7bXIc,1082
+flashreader-1.1.0.dist-info/METADATA,sha256=i_gqZzx5DMjC3Zo5ut1z8a0nHLGE4jJuRloyzRMyais,3844
+flashreader-1.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+flashreader-1.1.0.dist-info/entry_points.txt,sha256=w4uqgKeQ5uICOg8jHOB-AiH9sIa11_KQq6Y_18MYEaY,57
+flashreader-1.1.0.dist-info/top_level.txt,sha256=KOZs-R1ubz4pz94w51AsPnccxoeUR3lJ7a0_VEccmoc,12
+flashreader-1.1.0.dist-info/RECORD,,
