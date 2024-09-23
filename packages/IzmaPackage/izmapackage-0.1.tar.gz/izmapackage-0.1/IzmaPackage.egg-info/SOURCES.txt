@@ -1,0 +1,7 @@
+setup.py
+IzmaPackage/__init__.py
+IzmaPackage/main.py
+IzmaPackage.egg-info/PKG-INFO
+IzmaPackage.egg-info/SOURCES.txt
+IzmaPackage.egg-info/dependency_links.txt
+IzmaPackage.egg-info/top_level.txt
