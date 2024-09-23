@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: sdeul
+Version: 0.1.3
+Summary: Structural Data Extractor using LLMs
+Home-page: https://github.com/dceoy/sdeul
+License: AGPL-3.0-or-later
+Keywords: llm
+Author: Daichi Narushima
+Author-email: dnarsil+github@gmail.com
+Maintainer: Daichi Narushima
+Maintainer-email: dnarsil+github@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: jsonschema (>=4.23.0,<5.0.0)
+Requires-Dist: langchain (>=0.3.0,<0.4.0)
+Requires-Dist: langchain-aws (>=0.2.0,<0.3.0)
+Requires-Dist: langchain-community (>=0.3.0,<0.4.0)
+Requires-Dist: langchain-google-genai (>=2.0.0,<3.0.0)
+Requires-Dist: langchain-groq (>=0.2.0,<0.3.0)
+Requires-Dist: langchain-openai (>=0.2.0,<0.3.0)
+Project-URL: Documentation, https://github.com/dceoy/sdeul/blob/main/README.md
+Project-URL: Repository, https://github.com/dceoy/sdeul.git
+Description-Content-Type: text/markdown
+
+sdeul
+=====
+
+Structural Data Extractor using LLMs
+
+[![CI/CD](https://github.com/dceoy/sdeul/actions/workflows/ci.yml/badge.svg)](https://github.com/dceoy/sdeul/actions/workflows/ci.yml)
+
+Installation
+------------
+
+```sh
+$ pip install -U sdeul
+```
+
+Usage
+-----
+
+1.  Prepare a Llama 2 GGUF file.
+
+    Example:
+
+    ```sh
+    $ curl -SLO https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF/resolve/main/llama-2-13b-chat.Q4_K_M.gguf
+    ```
+
+2.  Create a JSON Schema file for the output
+
+3.  Extract structural data from given text using `sdeul extract`.
+
+    Example:
+
+    ```sh
+    sdeul extract --pretty-json \
+        llama-2-13b-chat.Q4_K_M.gguf \
+        test/data/medication_history.schema.json \
+        test/data/patient_medication_record.txt
+    ```
+
+    Expected output:
+
+    ```json
+    {
+      "MedicationHistory": [
+        {
+          "MedicationName": "Lisinopril",
+          "Dosage": "10mg daily",
+          "Frequency": "daily",
+          "Purpose": "hypertension"
+        },
+        {
+          "MedicationName": "Metformin",
+          "Dosage": "500mg twice daily",
+          "Frequency": "twice daily",
+          "Purpose": "type 2 diabetes"
+        },
+        {
+          "MedicationName": "Atorvastatin",
+          "Dosage": "20mg at bedtime",
+          "Frequency": "at bedtime",
+          "Purpose": "high cholesterol"
+        }
+      ]
+    }
+    ```
+
+Run `sdeul --help` for more details.
+
