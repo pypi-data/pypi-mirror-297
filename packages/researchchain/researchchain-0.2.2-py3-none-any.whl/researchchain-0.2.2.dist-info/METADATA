@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: researchchain
+Version: 0.2.2
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain-community >=0.2.15
+Requires-Dist: langchain >=0.2.15
+Requires-Dist: langgraph >=0.2.23
+Requires-Dist: llmlinks >=0.1.4
+Requires-Dist: openai >=1.35.13
+Requires-Dist: pypdf >=4.3.1
+Requires-Dist: semanticscholar >=0.8.4
+
+# ResearchChain
