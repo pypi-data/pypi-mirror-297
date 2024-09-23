@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+django_plugins/__init__.py
+django_plugins/hookspecs.py
+djp.egg-info/PKG-INFO
+djp.egg-info/SOURCES.txt
+djp.egg-info/dependency_links.txt
+djp.egg-info/requires.txt
+djp.egg-info/top_level.txt
+tests/test_django_plugins.py
