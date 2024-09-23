@@ -1,0 +1,10 @@
+README.md
+setup.py
+nuget_scanner.egg-info/PKG-INFO
+nuget_scanner.egg-info/SOURCES.txt
+nuget_scanner.egg-info/dependency_links.txt
+nuget_scanner.egg-info/entry_points.txt
+nuget_scanner.egg-info/requires.txt
+nuget_scanner.egg-info/top_level.txt
+scanner/__init__.py
+scanner/nuget_scanner.py
