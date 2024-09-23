@@ -1,0 +1,3 @@
+[console_scripts]
+clean-unet = clean_unet_inference:main
+export-clean-unet = clean_unet_inference:export
