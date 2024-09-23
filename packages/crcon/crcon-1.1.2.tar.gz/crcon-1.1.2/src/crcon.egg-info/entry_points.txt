@@ -1,0 +1,2 @@
+[console_scripts]
+crcon = crcon.__main__:main
