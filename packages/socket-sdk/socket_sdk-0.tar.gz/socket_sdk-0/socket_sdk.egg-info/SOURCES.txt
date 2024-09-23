@@ -1,0 +1,11 @@
+setup.py
+sdk/__init__.py
+sdk/logger.py
+sdk/models.py
+sdk/rest.py
+sdk/socketio_client.py
+socket_sdk.egg-info/PKG-INFO
+socket_sdk.egg-info/SOURCES.txt
+socket_sdk.egg-info/dependency_links.txt
+socket_sdk.egg-info/requires.txt
+socket_sdk.egg-info/top_level.txt
