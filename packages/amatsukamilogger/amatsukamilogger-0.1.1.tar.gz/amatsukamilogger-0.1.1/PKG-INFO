@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: amatsukamilogger
+Version: 0.1.1
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: orjson>=3.10.7
+Provides-Extra: datadog
+Requires-Dist: ddtrace>=2.12.2; extra == "datadog"
