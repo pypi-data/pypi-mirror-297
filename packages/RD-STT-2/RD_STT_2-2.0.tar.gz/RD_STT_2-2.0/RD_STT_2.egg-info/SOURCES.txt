@@ -1,0 +1,6 @@
+setup.py
+RD_STT_2/__init__.py
+RD_STT_2.egg-info/PKG-INFO
+RD_STT_2.egg-info/SOURCES.txt
+RD_STT_2.egg-info/dependency_links.txt
+RD_STT_2.egg-info/top_level.txt
