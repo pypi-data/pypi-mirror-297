@@ -1,0 +1,11 @@
+modstore-0.1.dist-info/METADATA,sha256=L87RnFSOhjPlsjLDSA3kRBXHo1taKRqEio-HBsxYDAA,302
+modstore-0.1.dist-info/WHEEL,sha256=Kb7KizsPlTG3o6hyGw8mrqJSDjTczKr2vylB9aPcUXc,104
+modstore-0.1.dist-info/licenses/LICENSE,sha256=S4rDwZvYPJR0ElFfB7WJFdYclKHHcWjEnl8rmul28FE,1074
+modstore/_binaries.pyi,sha256=SHSBZTrZ6AUj_1CpFBaDEe70fvPTLJmvFKYTDDmpw70,3880
+modstore/rust/dag.py,sha256=rXfRVtL9m1_Qs02OcXKo_2-P6jjGVYy8fTSOhMtmKbY,1134
+modstore/rust/__init__.py,sha256=BLpr_fdg2DXd9EKEiX23wjb3y86zV2u5Uc1pwEfDYkg,99
+modstore/rust/blockchain.py,sha256=ODmrmOVtdVUIauHQ1gFxoBc4qw2ZbkybmfINZ8_70jQ,5918
+modstore/__init__.py,sha256=cobhMvmlq-CXdDfq7wigxcENVfDjW9DxB8e1kyA1q2Y,67
+modstore/python.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modstore/_binaries.cpython-312-darwin.so,sha256=bTKarO_AjGl32BV6oOEyYUdOTwFNN_V7TziuZIxnJ8k,2376784
+modstore-0.1.dist-info/RECORD,,

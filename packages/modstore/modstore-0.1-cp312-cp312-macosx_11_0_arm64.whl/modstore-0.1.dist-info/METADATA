@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: modstore
+Version: 0.1
+Requires-Dist: maturin
+License-File: LICENSE
+Summary: Basic and Moded data structures with rust backend for speed.
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: GitHub, https://github.com/d33p0st/modstore
+
+# Overview
