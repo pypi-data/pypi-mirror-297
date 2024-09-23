@@ -1,0 +1,16 @@
+spaco/__init__.py,sha256=z2afqkhoPzdZFbm6GW38newQPK2FfAXWTsDVo4IZADw,106
+spaco/color.py,sha256=A2Et1HpiHSxGxZjLtfMvOezFQeM3LxnqRdqFPLNG02M,4441
+spaco/colorization.py,sha256=BEuMDiiaRmPzPbdh0Qv7dNtJVjySNOcO6nC6BLpFipY,20228
+spaco/distance.py,sha256=uH66H1V7MZmU5vkNlIs0Jxo_Egtk5nrvQ8pHOnihxRQ,7301
+spaco/logging.py,sha256=A0avzA0KkyuNVBkgvLQkhPfKzeHMrUxkdapxncj1CiA,100
+spaco/mapping.py,sha256=hwRkB008YKWRzlMyWO0Pz5i6W8-A32nelnyTVeKhzGo,13063
+spaco/misc.py,sha256=ikaME_QQWfDwiW68gpVRwmIiV5pyO8eD-uzA4u5CqfQ,457
+spaco/scm.py,sha256=12P3C8Hmt3kp_dW4P689vPkoz8C7zjq6-nBaMDhBlS4,1409
+spaco/utils.py,sha256=UB_be9YxWXRa-3O5HtL9jWlrfZnDvOar6rTD1kWKgxQ,14847
+spaco/external/__init__.py,sha256=LOyH5fi5YJ4h4P4N1-QNkCk9tZ0vDUgCWN2Gofub6JQ,19
+spaco/external/lack.py,sha256=TIXkHXh_LVsnNTsB_nLigEteUTw3sDrsrAjWwq36Dt4,12908
+spaco_release-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spaco_release-0.2.2.dist-info/METADATA,sha256=7dAbobEX0Pgi1fUx5C5l1tI2qFmwEUGbHkf2nJBiD0k,4681
+spaco_release-0.2.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+spaco_release-0.2.2.dist-info/top_level.txt,sha256=FJxiKZSVxWEuSnTMdiKD_2biECMvSlI3glWSIKUazAQ,6
+spaco_release-0.2.2.dist-info/RECORD,,
