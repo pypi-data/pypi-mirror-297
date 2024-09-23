@@ -1,0 +1,10 @@
+flask_spicer/Spice.py,sha256=PTo02DOxBkqNFFQNRqc0tOmitB_-GadM0_OfU5fX45c,1024
+flask_spicer/Spicer.py,sha256=xqn8g9rrFZSQsangaVv3jWawRMxwhC-cmah6npSiuyM,2927
+flask_spicer/Template.py,sha256=tiweXvhcceDzyBfnA7uAVJyl2PW5Yrc0NPnMkh2hqHw,997
+flask_spicer/__init__.py,sha256=kJAhl4yBMdwKsAPam8Yhi1sHL0Yx46FUkOD8Er1vFAc,26
+flask_spicer/__main__.py,sha256=c9FCdUncdgWaUElT6N-nc_rG6oupGurbo3lx4etLaGo,79
+flask_spicer/cli.py,sha256=3Eb43doPX4o3GWqJpLQjpLRBJfYm9l4nD7X0hDmaeUs,1992
+flask_spicer-1.0.0.dist-info/METADATA,sha256=gy_NVfmpsnrrbiZlFTl4UIFCyJYR4-4EL-6p2NqPCfU,566
+flask_spicer-1.0.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+flask_spicer-1.0.0.dist-info/top_level.txt,sha256=P2qyXQkchADw4FmaXQbDDMyV_Xd21zEL4WNwN1mxJj8,13
+flask_spicer-1.0.0.dist-info/RECORD,,
