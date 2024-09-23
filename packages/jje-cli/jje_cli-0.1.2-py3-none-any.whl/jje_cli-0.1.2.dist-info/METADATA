@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: jje_cli
+Version: 0.1.2
+Summary: A simple to use CLI tool for creating a Vuejs project scaffold with Django as backend
+Home-page: https://github.com/yourusername/jje_cli
+Author: John Gbaya-kokoya Jr
+Author-email: gbayakokoyajohnjr@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: GitPython
+
+# jje_cli
+
+jje_cli is a streamlined CLI tool designed to simplify the creation of Vue.js projects with Django backends. This powerful utility allows developers to rapidly scaffold full-stack web applications, bridging the gap between frontend and backend development.
+
+## Quick Start
+Install with pip: `pip install jje_cli`
+Run the hello command: `jje hello`
+
+## Features
+- Effortless setup of Vue.js frontend
+- Automated Django backend configuration
+- Intuitive command-line interface
+- Customizable project structures
+
+## Requirements
+- Python 3.6+
+- Click library (auto-installed)
+
+Contributions are welcome! For bugs and feature requests, please open an issue on the GitHub repository: https://github.com/yourusername/jje_cli
+
+Created by John Gbaya-kokoya Jr (gbayakokoyajohnjr@gmail.com)
+Licensed under MIT License
