@@ -1,0 +1,2 @@
+[console_scripts]
+jje = jje_cli.cli:cli
