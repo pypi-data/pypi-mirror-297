@@ -1,0 +1,12 @@
+geode_explicit/__init__.py,sha256=08Jv_j6l55nLaa6-0g_1kSAFNTm8bJxZIhj1Su7ykhg,89
+geode_explicit/brep.py,sha256=AGSr4GiHYA2yA300pQq5aSAPY-cKbjxOzdYukAtEJNw,261
+geode_explicit/section.py,sha256=iYPIWWs6fo3bNWTBkUqJ7-J0FI9w3mXN3NovuSZaL6o,240
+geode_explicit/lib64/geode_explicit_py_brep.cpython-312-x86_64-linux-gnu.so,sha256=J8UC5y8ADklyqhUfybJZ3HjL5yyrvf6dvf0QspDm3vM,188080
+geode_explicit/lib64/geode_explicit_py_section.cpython-312-x86_64-linux-gnu.so,sha256=NdlxzXbHNE8mvhGphK-qZYe1i38W_8afN8TLJV8RNgM,163440
+geode_explicit/lib64/libGeode-Explicit_brep.so,sha256=7oMk1TfzJrue9wK69Na8h4_ms-aeZcMlUg7rwvRGMXs,455664
+geode_explicit/lib64/libGeode-Explicit_common.so,sha256=SnB-bQD2hHbSF5IvStY6a7k8uBVCJ4EHvlStc0qUkkc,39576
+geode_explicit/lib64/libGeode-Explicit_section.so,sha256=190KnJgIntMeYjD1vkIUBN0a8vRxnoYqcpdw5DiifuY,89344
+Geode_Explicit-6.1.1rc1.dist-info/METADATA,sha256=rh9oPA9vCRskuZk2mx7wkxg2hGrycZwj08CvRXLTCSA,2116
+Geode_Explicit-6.1.1rc1.dist-info/WHEEL,sha256=lb684yu7Ks0VhbxEx65yQq6G1qDNFeY7quUdP8xuNFc,104
+Geode_Explicit-6.1.1rc1.dist-info/top_level.txt,sha256=SLuJS840PQSB1EAIYibu72OEG1sORAkOdcw3z29RuQQ,15
+Geode_Explicit-6.1.1rc1.dist-info/RECORD,,
