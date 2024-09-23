@@ -1,0 +1,10 @@
+README.md
+setup.py
+vaidyaraj/__init__.py
+vaidyaraj/__main__.py
+vaidyaraj/main.py
+vaidyaraj.egg-info/PKG-INFO
+vaidyaraj.egg-info/SOURCES.txt
+vaidyaraj.egg-info/dependency_links.txt
+vaidyaraj.egg-info/requires.txt
+vaidyaraj.egg-info/top_level.txt
