@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ml-atlas
+Version: 0.0.2
+Summary: MLOps tool for building and maintaining machine learning models
+Home-page: https://github.com/tocrear/atlas
+Author: To Crear
+Author-email: tocrear.3@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: click==8.1.7
+Requires-Dist: cloudpickle==3.0.0
+Requires-Dist: packaging==24.0
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: wheel==0.42.0

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 120
+disable = """
+    missing-module-docstring,
+    too-few-public-methods,
+    unspecified-encoding,
+    exec-used,
+    raise-missing-from,
+    fixme,
+    too-many-locals,
+    redefined-outer-name,
+    too-many-branches,
+    broad-except,
+    missing-function-docstring,
+    unexpected-keyword-arg
+"""
