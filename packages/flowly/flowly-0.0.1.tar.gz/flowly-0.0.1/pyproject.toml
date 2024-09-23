@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flowly"
+version = "0.0.1"
+authors = [
+    {name="Ronny Scharf-Wildenhain", email="ronny.scharf08@gmail.com" },
+]
+description = "A package for dataflow programming with Python."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/j8sr0230/flowly"
+"Bug Tracker" = "https://github.com/j8sr0230/flowly/issues"
