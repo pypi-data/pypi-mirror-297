@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "usyd-colors"
+version = "0.1.0"
+description = "A package containing various palettes inspired by the colors of The University of Sydney."
+authors = ["Luke Thompson <luke-a-thompson@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.extras]
+matplotlib = ["matplotlib"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
