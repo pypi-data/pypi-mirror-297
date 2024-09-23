@@ -1,0 +1,263 @@
+Metadata-Version: 2.1
+Name: quackamollie-llama-index-model-manager
+Version: 0.1
+Summary: Model manager compatible with Llama-Index models for Quackamollie Telegram chat bot
+Author-email: QuactorAI <quacktorai@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 - Forge of Absurd Ducks
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager
+Keywords: quackamollie,model_manager,llama-index,telegram,bot,aiogram
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: llama-index
+Requires-Dist: quackamollie-core
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-click; extra == "doc"
+Provides-Extra: lint
+Requires-Dist: check-manifest; extra == "lint"
+Requires-Dist: flake8; extra == "lint"
+Requires-Dist: readme-renderer; extra == "lint"
+Requires-Dist: safety; extra == "lint"
+Requires-Dist: setuptools; extra == "lint"
+Requires-Dist: twine; extra == "lint"
+Requires-Dist: wheel; extra == "lint"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: tox; extra == "test"
+
+======================================
+Quackamollie Llama Index Model Manager
+======================================
+
+:Name: Quackamollie Llama Index Model Manager
+:Package name: quackamollie-llama-index-model-manager
+:Description: Model manager compatible with Llama-Index models for Quackamollie Telegram chat bot
+:Version: 0.1
+:Main page: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager
+:PyPI package: https://pypi.org/project/quackamollie-llama-index-model-manager/
+:Docker Image: registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager:0.1
+:Documentation: https://llama-index-model-manager-forge-of-absurd-ducks--727628676f6413.gitlab.io/
+:Build Status:
+    :Master: |master_pipeline_badge| |master_coverage_badge|
+    :Dev: |dev_pipeline_badge| |dev_coverage_badge|
+
+.. |master_pipeline_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/badges/master/pipeline.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/commits/master
+   :alt: Master pipeline status
+.. |master_coverage_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/badges/master/coverage.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/commits/master
+   :alt: Master coverage status
+
+.. |dev_pipeline_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/badges/dev/pipeline.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/commits/dev
+   :alt: Dev pipeline status
+.. |dev_coverage_badge| image:: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/badges/dev/coverage.svg
+   :target: https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/commits/dev
+   :alt: Dev coverage status
+
+----
+
+Project description
+===================
+`Quackamollie <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_ is a `Telegram <https://telegram.org/>`_ chat bot
+developed in `Python <https://www.python.org/>`_ using the library `aiogram <https://docs.aiogram.dev/en/latest/>`_ to serve LLM models
+running locally using `Ollama <https://ollama.com/>`_.
+
+This package is a model manager exposing `Llama Index <https://docs.llamaindex.ai/en/stable/>`_ models for the `Quackamollie <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_ project.
+It contains:
+
+- a model manager `LlamaIndexQuackamollieModelManager` class implementing abstract functions of `MetaQuackamollieModelManager`
+
+Learn more about Quackamollie on the `project main page <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_.
+
+
+Requirements
+============
+
+Virtual environment
+------------------------------
+- Setup a virtual environment in python 3.10
+
+.. code-block:: bash
+
+   make venv
+   # or
+   python3 -m venv venv
+
+- Activate the environment
+
+.. code-block:: bash
+
+   source venv/bin/activate
+
+- If you want to deactivate the environment
+
+.. code-block:: bash
+
+   deactivate
+
+
+Tests
+=====
+
+Tests requirements
+------------------
+- Install test requirements
+
+.. code-block:: bash
+
+   make devtools
+   # or
+   pip install tox
+
+Run pytest
+----------
+- Run the tests
+
+.. code-block:: bash
+
+   tox
+
+Run lint
+--------
+- Run the lintage
+
+.. code-block:: bash
+
+   tox -e lint
+
+
+Documentation
+=============
+
+- To auto-generate the documentation configuration
+
+.. code-block:: bash
+
+   tox -e gendocs
+
+- To generate the documentation in Html
+
+.. code-block:: bash
+
+   tox -e docs
+
+- An automatically generated version of this project documentation can be found `here <https://llama-index-model-manager-forge-of-absurd-ducks--727628676f6413.gitlab.io/>`_
+
+  - N.B.: This automatically generated documentation of the Quackamollie core project is still laking a lot of improvements. Sorry for the inconvenience.
+
+
+Install
+=======
+- Install the application from sources
+
+.. code-block:: bash
+
+   make install
+   # or
+   pip install .
+
+- Or install it from distribution
+
+.. code-block:: bash
+
+   pip install dist/quackamollie-llama-index-model-manager-0.1.tar.gz
+
+- Or install it from wheel
+
+.. code-block:: bash
+
+   pip install dist/quackamollie-llama-index-model-manager-0.1.whl
+
+- Or install it from PyPi repository
+
+.. code-block:: bash
+
+   pip install quackamollie-llama-index-model-manager  # latest
+   # or
+   pip install "quackamollie-llama-index-model-manager==0.1"
+
+
+Docker
+======
+- To build the application docker
+
+.. code-block:: bash
+
+   docker build --network=host -t quackamollie_llama_index_model_manager:0.1 .
+
+- The official Docker image of this project is available at: registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager
+
+- You can pull the image of the current release:
+
+.. code-block:: bash
+
+   docker pull registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager:latest  # or dev
+   # or
+   docker pull registry.gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager:0.1
+
+
+Running the model manager
+=========================
+`quackamollie-llama-index-model-manager` package is automatically discovered, through entrypoints, by the command tool line named `quackamollie`.
+Therefore, once installed, you should automatically see models managed by this model manager in Telegram `/settings` command.
+
+You can install models for this model manager by simply pulling them using the `ollama <https://ollama.com/>`_ command:
+
+.. code-block:: bash
+
+   ollama pull llama3
+
+For details on how to run the Quackamollie project, please refer to the `Quackamollie's project main page <https://gitlab.com/forge_of_absurd_ducks/quackamollie/quackamollie>`_.
+
+
+Authors
+=======
+
+- **QuacktorAI** - *Initial work* - `quacktorai <https://gitlab.com/quacktorai>`_
+
+
+Contributing
+============
+If you want to report a bug or ask for a new feature of `quackamollie-llama-index-model-manager`, please open an issue
+in the `Gitlab ticket management section of this project <https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/-/issues>`_.
+Please, first ensure that your issue is not redundant with already open issues.
+
+If you want to contribute code to this project, please open first an issue and then a merge request with commit names referencing this issues.
+Note that only fast-forward merge requests are accepted.
+
+For more details on the general contributing mindset of this project, please refer to `CONTRIBUTING.md <https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/model_managers/quackamollie_llama_index_model_manager/-/blob/master/CONTRIBUTING.md>`_.
+
+
+Credits
+=======
+Section in writing, sorry for the inconvenience.

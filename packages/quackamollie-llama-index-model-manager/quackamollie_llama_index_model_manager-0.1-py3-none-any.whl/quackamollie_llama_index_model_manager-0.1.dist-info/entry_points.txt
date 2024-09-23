@@ -1,0 +1,2 @@
+[quackamollie.model_manager]
+llama-index = quackamollie.model_manager.llama_index.llama_index_model_manager:LlamaIndexQuackamollieModelManager
