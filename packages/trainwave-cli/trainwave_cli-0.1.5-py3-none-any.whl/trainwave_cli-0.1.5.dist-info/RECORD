@@ -1,0 +1,16 @@
+trainwave_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trainwave_cli/api.py,sha256=LIeSVsQlIs0Z2I4wWVJEG24pGomx1HL407MskqZtSCw,7132
+trainwave_cli/cli/auth.py,sha256=eprgujH6MkqhoGzwRBfWSe-TVorCTClwoYXkuFN4Qhg,2810
+trainwave_cli/cli/jobs.py,sha256=BFSI34QcVJgAocX63kVQO50OI_H7XTUmnPTkO4gwbg4,7365
+trainwave_cli/cli/offers.py,sha256=ir5Nbtc1pH8lKWOn_gvaOD1_bCYX4k3OQzKSrNmUd2Q,630
+trainwave_cli/cli/setup.py,sha256=UFFtd3bHOzSsn0Z2FboR5xL04dKYeQWMoZcRibcj5wA,3518
+trainwave_cli/config/config.py,sha256=K3t6whTEYf9GSUkoIVqmqGDCzbteHPR_2B5nbErGH94,1477
+trainwave_cli/format_utils.py,sha256=wSZRLKbhAKE2UjliIr8CRiXiVfFRsBtCLpBmoxDKdOM,101
+trainwave_cli/io.py,sha256=OHiV9h7fXLnlexvFsD94k68Pdrni220fcjBQFYnfGTE,1780
+trainwave_cli/main.py,sha256=ALi5mNH4R7F4qTrUBTUm2IN1s6jHFIO9wVIcye9qSpA,408
+trainwave_cli/utils.py,sha256=1j5uKonbwVikDZJQPUSG-0zPoXZzIb6HF6jidsYieG8,1619
+trainwave_cli/xceptions.py,sha256=42wPK7ib0hLzSvzqLMHdWRWx81hpsl7no9h32Ssgj8I,116
+trainwave_cli-0.1.5.dist-info/METADATA,sha256=28Dn2upDtoK7fSD_OaAHrCSY6Bd2ii5WpgpTZo0gxJI,1015
+trainwave_cli-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+trainwave_cli-0.1.5.dist-info/entry_points.txt,sha256=6NDgl5S7Igb09TPdoUBcI_B1Lj2pB59NAfs2IcnMDOk,54
+trainwave_cli-0.1.5.dist-info/RECORD,,
