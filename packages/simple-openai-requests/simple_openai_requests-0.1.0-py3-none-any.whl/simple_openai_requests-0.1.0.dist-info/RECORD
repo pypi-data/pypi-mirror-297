@@ -1,0 +1,9 @@
+simple_openai_requests/__init__.py,sha256=AWt2S7_0wSr0iWncCtIZ3NgdLKcWAB33GeTjCHWiUFs,537
+simple_openai_requests/batch_requests.py,sha256=zNS4NWeq8u2Jq5e_uh-quLcKuXmqG1xapcI3pg5cKHo,14164
+simple_openai_requests/caching.py,sha256=Mv7je2hNV2uLe3veKTs2cqxgq0Zgs456YhHhNxluRV8,956
+simple_openai_requests/simple_openai_requests.py,sha256=BpGQf3FdaKde2L6kosx-WBQTwP6OdB6hE0okZzSflSs,11022
+simple_openai_requests/synchronous_requests.py,sha256=mxZ4Gl9ZEwFES4gA9ba-dSzbScGrfUi7amI8ajBOVNo,7288
+simple_openai_requests-0.1.0.dist-info/METADATA,sha256=-dALE-jgJ6w5GgtDjvO5DbPjsUAnEoTs8WCVRHq1KtQ,5253
+simple_openai_requests-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+simple_openai_requests-0.1.0.dist-info/top_level.txt,sha256=BSK5AlgJI-xZ_vK3S_neDIrviFFii1wSKnOrkeJ0ZHY,23
+simple_openai_requests-0.1.0.dist-info/RECORD,,
