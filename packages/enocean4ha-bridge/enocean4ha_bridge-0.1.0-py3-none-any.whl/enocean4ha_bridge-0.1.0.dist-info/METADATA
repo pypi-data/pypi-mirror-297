@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: enocean4ha_bridge
+Version: 0.1.0
+Summary: EnOcean to HomeAssistant bridge
+Author-email: Torsten Pieper <topic2k@atlogger.de>
+Maintainer-email: Torsten Pieper <topic2k@atlogger.de>
+Project-URL: Homepage, https://github.com/topic2k/enocean4ha_bridge
+Project-URL: Issues, https://github.com/topic2k/enocean4ha_bridge/issues
+Keywords: EnOcean,HomeAssistant
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: enocean4ha >=0.70
+
+# enocean4ha_bridge
+Use EnOcean devices with HomeAssistant
