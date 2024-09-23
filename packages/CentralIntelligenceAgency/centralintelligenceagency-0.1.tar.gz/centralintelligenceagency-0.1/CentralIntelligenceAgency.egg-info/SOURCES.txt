@@ -1,0 +1,8 @@
+README.md
+setup.py
+CentralIntelligenceAgency.egg-info/PKG-INFO
+CentralIntelligenceAgency.egg-info/SOURCES.txt
+CentralIntelligenceAgency.egg-info/dependency_links.txt
+CentralIntelligenceAgency.egg-info/entry_points.txt
+CentralIntelligenceAgency.egg-info/top_level.txt
+mein_paket/__init__.py

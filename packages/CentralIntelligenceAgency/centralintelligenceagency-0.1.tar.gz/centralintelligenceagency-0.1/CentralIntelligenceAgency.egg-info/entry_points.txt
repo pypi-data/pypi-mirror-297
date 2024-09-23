@@ -1,0 +1,2 @@
+[console_scripts]
+ciaapp = mein_paket.main:main_function
