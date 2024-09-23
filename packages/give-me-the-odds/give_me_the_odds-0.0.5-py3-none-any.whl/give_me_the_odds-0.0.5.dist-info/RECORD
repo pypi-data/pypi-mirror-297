@@ -1,0 +1,13 @@
+cli.py,sha256=WkHk7TqlR5jU-1Q6QAbGjbclw6ehk46tvLU9fCCGE1c,929
+db/db.py,sha256=nqLKMojG29_ZPRPotJfKTN1JPQxrO6zHgaZHzUCJvww,546
+db/route.py,sha256=f0m0IzxlTBzbA_J8BRH_WNM7PN6lXQ62mJwKAK9Toug,452
+models/bounty_hunter.py,sha256=Hr9MsE4EqTZKE--Ah6fXZUWRgmRRkoeF3TOecZEolK0,454
+models/empire.py,sha256=nMAgnJegtVNGcgRZwLhUGfU67HCoEbfte5HT23bkWZg,805
+models/millenium_falcon.py,sha256=A2zgBQx-KaHub5FncQNFOAW5vS5enRjfg4uHeCT5u8w,482
+odds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odds/odds.py,sha256=0CHLbF6ynE7MHFvCjHr2PHq0jXI2FOmV8rFVqUju768,2622
+give_me_the_odds-0.0.5.dist-info/METADATA,sha256=1ImD1TpUrDOTuCNnnzEzWwkW5JK36K637mWQ5czSLvE,463
+give_me_the_odds-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+give_me_the_odds-0.0.5.dist-info/entry_points.txt,sha256=K8teOEIKvq74dNZrS7F1PdhGvy5izbMAsCsWi5heoZA,58
+give_me_the_odds-0.0.5.dist-info/top_level.txt,sha256=TnmwpjexQZYAfTYsiiL6yga62OZXr7taymJbTraS-Ro,19
+give_me_the_odds-0.0.5.dist-info/RECORD,,
