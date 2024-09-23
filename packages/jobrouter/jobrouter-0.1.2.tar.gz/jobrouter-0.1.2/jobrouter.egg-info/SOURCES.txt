@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+jobrouter/__init__.py
+jobrouter.egg-info/PKG-INFO
+jobrouter.egg-info/SOURCES.txt
+jobrouter.egg-info/dependency_links.txt
+jobrouter.egg-info/top_level.txt
