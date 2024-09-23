@@ -1,0 +1,9 @@
+AmatsukamiLogger/__init__.py,sha256=TOMZsyf5QPw6Hk8c9ASO9CpxHia03UeOzWlyuKKoQuU,4672
+AmatsukamiLogger/base_logger.py,sha256=i_pKe4pWo954SaseqenIDiN_n1SyFz981b6q_ISr768,753
+AmatsukamiLogger/json_logs_handler.py,sha256=5RyNRHXqHZV2t24ieo5s1Gy2sBGLtnR_XweRyKS669E,2748
+AmatsukamiLogger/local_logs_handler.py,sha256=gT_kECsjkM8hsRodr47lukb_84upU_HHsGYb6cTjg6c,5150
+AmatsukamiLogger/loguru_forwarder.py,sha256=_LeeQThmxXqSCPqaR2Oaz5ywlXZrp6mqD9IJDeXIB4E,1184
+amatsukamilogger-0.1.1.dist-info/METADATA,sha256=z_IgNxqL1magcRaG_m-eqLuotbYSHvNd_b6102hk3k4,298
+amatsukamilogger-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+amatsukamilogger-0.1.1.dist-info/top_level.txt,sha256=fOQfLjQeYY_a2y8vpGMMcFern7CqTfZIdbnuNH8L9Xk,17
+amatsukamilogger-0.1.1.dist-info/RECORD,,
