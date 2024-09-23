@@ -1,0 +1,13 @@
+ssscoring/__init__.py,sha256=8QbIVKW6MDackgTMuPydr6B5MJWN9UqNvr2sjj1Ug_0,1080
+ssscoring/calc.py,sha256=EdNfe0wZZUbE8wcTp8fgYimIkOsU3_ZlDQG-ihwb2Ok,17594
+ssscoring/constants.py,sha256=L1EhRX0ampvm_GtO-6F3zJWdWBIT8w5ObB0aXWIdRIE,1784
+ssscoring/datatypes.py,sha256=q3On1wuKfKLirIfA_GfZslhsjiSibxvVXdRv07WOAwA,1819
+ssscoring/errors.py,sha256=jJqBEugEw-3lW0j2coj9b3bW0ZwtQODJ47NV_YMElWQ,707
+ssscoring/flysight.py,sha256=x5a9WXI6c96c4TvnMvZXY90YtOcLqYw36M1IaRa2wSQ,6288
+ssscoring/notebook.py,sha256=JNMrDTgQ4rB40rmRS4ymJcEwGMAYGMUCM7Z059BA09M,7052
+ssscoring-1.7.0.dist-info/LICENSE.txt,sha256=Nk5_436gyC2j0OUFBhG14LHkhdTvW00ZdzgyaVxzLiA,1529
+ssscoring-1.7.0.dist-info/METADATA,sha256=055GXdub_tMXjzmX9vgWNBKNqj5qqlgFH9yy0iu1DSA,1046
+ssscoring-1.7.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ssscoring-1.7.0.dist-info/entry_points.txt,sha256=-hbXHRPOboL6yOxFX-x2Wj1jF5Qz71BNWof-pKb62M4,46
+ssscoring-1.7.0.dist-info/top_level.txt,sha256=mNXsbNRRwarXyeFMPoqMQJN1KfrQR6R0_UkmpCjabKk,10
+ssscoring-1.7.0.dist-info/RECORD,,
