@@ -1,0 +1,9 @@
+README.md
+setup.py
+borsaAPI/__init__.py
+borsaAPI/borsaAPI.py
+borsaAPI.egg-info/PKG-INFO
+borsaAPI.egg-info/SOURCES.txt
+borsaAPI.egg-info/dependency_links.txt
+borsaAPI.egg-info/requires.txt
+borsaAPI.egg-info/top_level.txt
