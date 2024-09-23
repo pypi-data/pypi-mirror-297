@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: bedrock-gi
+Version: 0.0.1
+Summary: Bedrock, the open-source foundation for ground investigation data, subsurface modelling and Geo-BIM.
+Project-URL: Homepage, https://bedrock.engineer/
+Project-URL: Source, https://github.com/bedrock-gi/bedrock-gi
+Project-URL: Documentation, https://bedrock.engineer/docs/
+Project-URL: Tracker, https://github.com/bedrock-gi/bedrock-gi/issues
+Author-email: Bedrock <info@bedrock.engineer>
+License: Apache Software License (Apache 2.0)
+License-File: LICENSE
+Keywords: aec,ags,bedrock,bim,engineering geology,geo-bim,geotech,geotechnical data,geotechnical engineering,gi data,gis,ground engineering,ground investigation,ground investigation data
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: geopandas>=1.0.1
+Description-Content-Type: text/markdown
+
+# 🛏️⛰️ Bedrock
+Bedrock helps you work with geotechnical data
+
+
+## Publishing Bedrock to PyPI
+PyPI: Python Package Index
+
+https://realpython.com/pypi-publish-python-package/#install-your-package-locally
