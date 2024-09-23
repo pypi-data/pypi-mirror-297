@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: randoms-string-generator
+Version: 0.0.1
+Summary: Generate verification code and random password
+Home-page: https://github.com/ariansajadian/randoms_string_generator.git
+Download-URL: https://github.com/ariansajadian/randoms_string_generator/archive/refs/tags/v1.0.0.tar.gz
+Author: Arian
+Author-email: arianpypi@gmail.com
+License: MIT
+Keywords: String,Random,Code
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
