@@ -1,0 +1,6 @@
+[console_scripts]
+kiyoi_winreg_install = kiyoi_image_viewer:kiyoi_winreg_install
+kiyoi_winreg_uninstall = kiyoi_image_viewer:kiyoi_winreg_uninstall
+
+[gui_scripts]
+kiyoi_image_viewer = kiyoi_image_viewer:kiyoi_run
