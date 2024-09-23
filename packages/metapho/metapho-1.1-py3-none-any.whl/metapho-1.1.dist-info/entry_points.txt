@@ -1,0 +1,8 @@
+[console_scripts]
+fotogr = metapho.scripts.fotogr:main
+notags = metapho:main
+photoshare = metapho.scripts.photoshare:main
+
+[gui_scripts]
+metapho = metapho.gtkpho.main:main
+mpiv = metapho.gtkpho.ImageViewer:main
