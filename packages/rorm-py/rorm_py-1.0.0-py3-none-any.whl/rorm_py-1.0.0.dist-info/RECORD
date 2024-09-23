@@ -1,0 +1,10 @@
+rorm/__init__.py,sha256=igJ25AufqgB5h5NE0XgpHXL5JgyZN_MdKG7Pyfmczz8,24
+rorm/orm_cache.py,sha256=zJmXhxdNkCFCiKgArme-kaFJZ3kWui_srYrs7v7VSGg,5695
+rorm/orm_model.py,sha256=LWCmIEDkjdUjQDmkfepeTi4C9YZ7Fj9Emg9l81XVbXE,784
+tests/__init__.py,sha256=igJ25AufqgB5h5NE0XgpHXL5JgyZN_MdKG7Pyfmczz8,24
+tests/test_cache.py,sha256=D53dc8HkEHaQJEdTTHW8td9r1rMzlpva9ERvk5HKPbw,3688
+rorm_py-1.0.0.dist-info/LICENSE,sha256=fhvLkyevdvBaq8ueE17BHtcgrG5uC9RRXcM1pxIlctQ,1038
+rorm_py-1.0.0.dist-info/METADATA,sha256=KmI83qZK5Yzs1h-N8TTzeFS7RbBwpoVgwCbC8OOpVEY,8812
+rorm_py-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+rorm_py-1.0.0.dist-info/top_level.txt,sha256=0lczlvF8MmbhEc-VGRZRfp7cLzCGsEm1D5kpONrl6fo,11
+rorm_py-1.0.0.dist-info/RECORD,,
