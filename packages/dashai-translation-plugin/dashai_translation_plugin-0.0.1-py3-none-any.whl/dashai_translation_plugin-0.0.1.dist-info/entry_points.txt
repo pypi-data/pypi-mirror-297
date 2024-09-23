@@ -1,0 +1,7 @@
+[dashai.plugins]
+bleu = dashai_translation_plugin.metrics.bleu:Bleu
+opus_mt_en_es_transformer = dashai_translation_plugin.models.opus_mt_en_es_transformer:OpusMtEnESTransformer
+ter = dashai_translation_plugin.metrics.ter:Ter
+translation_metric = dashai_translation_plugin.translation_metric:TranslationMetric
+translation_model = dashai_translation_plugin.translation_model:TranslationModel
+translation_task = dashai_translation_plugin.translation_task:TranslationTask

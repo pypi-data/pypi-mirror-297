@@ -1,0 +1,11 @@
+dashai_translation_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dashai_translation_plugin/translation_metric.py,sha256=x6sKyY-JD0yeInmqtRYGzmN7S5VL89Kmi1SybIqX0zI,1207
+dashai_translation_plugin/translation_model.py,sha256=a86FwHofJgEDQWBW_guoIPI4eh5UWw-P5PhFcZWGFec,196
+dashai_translation_plugin/translation_task.py,sha256=DD-daEv1o9_1jk191u5JJDb7xbHT1biJ0fUws_Drl3Y,1114
+dashai_translation_plugin/metrics/bleu.py,sha256=DAghGFqm1t775oruniCZhPPMXTACe9r_G7PN-__trxo,1405
+dashai_translation_plugin/metrics/ter.py,sha256=HI-mmCFReV9R0IlGxY5GunHr23WY9HkU9mdiXaNPBZo,1367
+dashai_translation_plugin/models/opus_mt_en_es_transformer.py,sha256=vfsfU2yQYTYbsZKdCHeti7m4skqOxmbkAHD2rzrkUR8,7200
+dashai_translation_plugin-0.0.1.dist-info/METADATA,sha256=8CgtlbUHiUw9xsKpE-FVA1cJfNPOymjUBFoxwo6CiWs,1254
+dashai_translation_plugin-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dashai_translation_plugin-0.0.1.dist-info/entry_points.txt,sha256=tAX8tdX7XhmlBQylBLy1oSVY7iBvpR93_v_fDNfQVrg,468
+dashai_translation_plugin-0.0.1.dist-info/RECORD,,
