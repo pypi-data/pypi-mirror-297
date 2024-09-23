@@ -1,0 +1,2 @@
+[console_scripts]
+give_me_the_odds = give_me_the_odds:give_me_the_odds
