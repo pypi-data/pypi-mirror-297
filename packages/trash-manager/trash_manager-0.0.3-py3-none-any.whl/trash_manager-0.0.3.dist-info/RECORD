@@ -1,0 +1,9 @@
+trash_manager/__about__.py,sha256=FQhTIczNSifDpeNUo5_d9z41fAq-x7usNfAQ9Mqad7I,127
+trash_manager/__init__.py,sha256=CvYY6RVH82C5ogJTotW6Yfx6MfPvN6-LSvMz6ByyIoQ,180
+trash_manager/config.py,sha256=Vlnqu-AikedXAqpXsG2kiNiY0uUgFJ7jzH-SYKImppI,187
+trash_manager/trash_item.py,sha256=jVbrerTstTq1s34QXTM57oAGiInGbKD0WPP7FFFVZtM,3709
+trash_manager/trash_manager.py,sha256=UW_IGUqrtWmOXfpUwsrE_f79NZtGB5dkh49tjlioL7s,1797
+trash_manager-0.0.3.dist-info/METADATA,sha256=62kQqYMnVyQrBvaR-9oH0PCuhtCfGPaAeAcvzaZbpNU,1605
+trash_manager-0.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+trash_manager-0.0.3.dist-info/licenses/LICENSE.txt,sha256=mjfUJQR8qUHnaDxpWPMWVkLDf8fS0pMQd9p2sY_oZWA,1097
+trash_manager-0.0.3.dist-info/RECORD,,
