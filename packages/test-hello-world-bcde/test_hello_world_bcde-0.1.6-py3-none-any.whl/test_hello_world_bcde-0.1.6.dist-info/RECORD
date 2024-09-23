@@ -1,0 +1,5 @@
+target_package/test_hello_world_defg/__init__.py,sha256=ACvROWJp74unbwTKE7qN6wGhCPNGE2BDv35QWfb0nBI,18
+target_package/test_hello_world_defg/aaa/__init__.py,sha256=yMBobX9_SCv8Qog6tNoncz8s9fZ8UIw-acQUloMO85c,13
+test_hello_world_bcde-0.1.6.dist-info/METADATA,sha256=4sZ5VeRN8kb6AZx7yNVLcMFPAMnfgotQJE9uKkLEb7g,500
+test_hello_world_bcde-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+test_hello_world_bcde-0.1.6.dist-info/RECORD,,
