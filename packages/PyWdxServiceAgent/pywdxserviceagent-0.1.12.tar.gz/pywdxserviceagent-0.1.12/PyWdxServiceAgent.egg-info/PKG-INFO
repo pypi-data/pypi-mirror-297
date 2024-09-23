@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyWdxServiceAgent
+Version: 0.1.12
+Summary: Wdworker BackendService Agent
+Home-page: https://github.com/genfeel/Wdworker
+Author: genfeel
+Author-email: genfeel@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# HDxBuilder Windows (우드워커) 서비스 Agent
+
+QueryService , BizService RestAPI 호출 Agent 입니다.
