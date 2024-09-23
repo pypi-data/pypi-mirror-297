@@ -1,0 +1,3 @@
+::: pynyaa.Nyaa
+::: pynyaa.AsyncNyaa
+
