@@ -1,0 +1,4 @@
+aws-cdk-lib>=2.159.0
+constructs<11.0.0,>=10.0.0
+cdk-monitoring-constructs>=8.3.0
+pyyaml>=6.0.0

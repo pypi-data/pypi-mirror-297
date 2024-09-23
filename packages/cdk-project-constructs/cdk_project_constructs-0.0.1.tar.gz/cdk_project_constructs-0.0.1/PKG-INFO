@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cdk-project-constructs
+Version: 0.0.1
+Summary: AWS CDK resources to be used in infra projects.
+Author: Madrag
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib>=2.159.0
+Requires-Dist: constructs<11.0.0,>=10.0.0
+Requires-Dist: cdk-monitoring-constructs>=8.3.0
+Requires-Dist: pyyaml>=6.0.0
+
+Ready to go classes with AWS CDK resources. 
+Supported resouces: AWS S3

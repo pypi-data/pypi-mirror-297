@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+./cdk_constructs/__init__.py
+./cdk_constructs/s3.py
+cdk_constructs/__init__.py
+cdk_constructs/s3.py
+cdk_project_constructs.egg-info/PKG-INFO
+cdk_project_constructs.egg-info/SOURCES.txt
+cdk_project_constructs.egg-info/dependency_links.txt
+cdk_project_constructs.egg-info/requires.txt
+cdk_project_constructs.egg-info/top_level.txt
