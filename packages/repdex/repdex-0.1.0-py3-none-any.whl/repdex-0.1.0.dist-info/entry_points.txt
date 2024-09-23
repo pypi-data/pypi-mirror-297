@@ -1,0 +1,3 @@
+[console_scripts]
+repdex=repdex.__cli__:main
+
