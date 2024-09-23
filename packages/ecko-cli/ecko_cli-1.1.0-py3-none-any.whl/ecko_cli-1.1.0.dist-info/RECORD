@@ -1,0 +1,14 @@
+ecko_cli/__init__.py,sha256=PQkFIFvWaeWVW0BvxrqFoFZdiJSvZ0L69RainU1UQHg,3853
+ecko_cli/__main__.py,sha256=DJANwWnDsgTk06DuhdA6cO9w3OdrSrdNRDn0DZObq-Y,123
+ecko_cli/__version__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+ecko_cli/analyze.py,sha256=no2lEXN08OAMl0gA20N8CV8ezKWBdy4EsqfbdR9fdHM,6614
+ecko_cli/cli.py,sha256=iFkRFSkBVf5xQ6D0omScLhx8is5Ajx7f24HQ4W7yGPw,8725
+ecko_cli/helpers.py,sha256=c0yXyZ6-s3JMuK9d3cSgsBk4-myCc0iO1370wJTvaJE,4962
+ecko_cli/images.py,sha256=mh4de8-1XUY7iTg4SXqkhelhIx4RZw6MpFHTLLbgxDA,2544
+ecko_cli/models/anime.csv,sha256=xeDwtKtN35ogxrAFOEa60cKrl3YgkWDUSSi4e2cIUB8,253905
+ecko_cli/models/realistic.csv,sha256=1NIpHVuxxet-UpzXcOovehazdx95BmZTUnpzkZPNp3M,308454
+ecko_cli-1.1.0.dist-info/METADATA,sha256=fey0IL-vNjTxlQj2TdSZvWKnluHraVRH60brrmqvv7s,5975
+ecko_cli-1.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+ecko_cli-1.1.0.dist-info/entry_points.txt,sha256=6wIQO5t7Y3VDS6miRWsrJmthGdsJcIFY0WldE6LYfb0,48
+ecko_cli-1.1.0.dist-info/licenses/LICENSE,sha256=cqZBytaEohG1G62JQZbsJIcVsXoaF5VYY2p79wsUG_w,1059
+ecko_cli-1.1.0.dist-info/RECORD,,
