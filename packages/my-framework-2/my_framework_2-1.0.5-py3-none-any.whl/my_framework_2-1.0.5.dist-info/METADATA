@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my_framework_2
+Version: 1.0.5
+Requires-Dist: playwright
+Requires-Dist: pytest
+Requires-Dist: behave
+
