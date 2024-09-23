@@ -1,0 +1,14 @@
+echoswift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echoswift/cli.py,sha256=N0vNgaKXbt3Oxu9LcVYjT7BQ9NcAWAxMQJ84vnlM3Ak,5523
+echoswift/dataset.py,sha256=amgi-xfCJ4PKJ72H4brYOE0ahMwQiJFWlmQMy3YdfvM,2342
+echoswift/llm_inference_benchmark.py,sha256=ENlSzuZAq92JRHMApQT5EEWZClWIYUqjSBsUMKH-dcE,5859
+echoswift/llm_inference_master.py,sha256=CDbE2k4ab4ewNFR8M-rQHVnJof12d75VdBwMrBdqc34,11777
+echoswift/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echoswift/utils/avg_locust_results.py,sha256=EcvIQepwynst8HhVW6_HjvlFO5q4LstzSAfVre7LStE,3675
+echoswift/utils/plot_results.py,sha256=dYisfVM7nst1u7wClXeGJ5EfbPWvxN5QSRTJ4jisMk0,3660
+echoswift-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+echoswift-1.1.1.dist-info/METADATA,sha256=j-PTXK4_icudFQiLmbAT4bSonX0Y3J-g7OPF67m4WBQ,4265
+echoswift-1.1.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+echoswift-1.1.1.dist-info/entry_points.txt,sha256=rKtPl5NMddjer1JSxIyu6kN8M2g8nt6Z7Zy0Vj2rt-8,48
+echoswift-1.1.1.dist-info/top_level.txt,sha256=kL-Q27Qm2gU3nqpY2dfRPgIvTvqed49doDfoKx0MVA8,10
+echoswift-1.1.1.dist-info/RECORD,,
