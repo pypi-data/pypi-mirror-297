@@ -1,0 +1,7 @@
+setup.py
+StatsChitran/__init__.py
+StatsChitran/module1.py
+StatsChitran.egg-info/PKG-INFO
+StatsChitran.egg-info/SOURCES.txt
+StatsChitran.egg-info/dependency_links.txt
+StatsChitran.egg-info/top_level.txt
