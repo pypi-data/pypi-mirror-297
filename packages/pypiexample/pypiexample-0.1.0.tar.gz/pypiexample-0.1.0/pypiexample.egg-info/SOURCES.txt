@@ -1,0 +1,6 @@
+README.md
+setup.py
+pypiexample.egg-info/PKG-INFO
+pypiexample.egg-info/SOURCES.txt
+pypiexample.egg-info/dependency_links.txt
+pypiexample.egg-info/top_level.txt
