@@ -1,0 +1,14 @@
+loki_logging_handler/__init__.py,sha256=pT-OWmIFI5pcZaoJx2E3rxtpDVaTN7IsPz1WXrxNk9E,76
+loki_logging_handler/loki_client.py,sha256=eJ78gghRQQtdh5E2dKRNrR_YKYgtFJJZFAV7DVp-hZc,1227
+loki_logging_handler/loki_handler.py,sha256=z5JxU-C3o_n46rwPvb1n0CW5IgINdHMrdORHJwmKhT4,2548
+loki_logging_handler/models.py,sha256=pQGVh9EghYEPKm6Zi_nwhpgM5ViLqFZEEWLik9nA2pY,1460
+loki_logging_handler/formatters/__init__.py,sha256=wYvaNGuUF1pigC3PNV48Oo_-z6DkT-gHszwGxvWKVjA,42
+loki_logging_handler/formatters/json_formatter.py,sha256=cnAl5dEHt8s0OVKwtRqIWuODRIxbjpjYm9bfUr4ZOvs,1624
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_json_formatter.py,sha256=XseTM0tL13tgl9TICx8Rzw0XTxwCUcdp6A8_gc04KgU,2509
+tests/test_loki_logger_handler.py,sha256=voP2PZEUh_HPvV1Qvs3SRZVCJbcaodxiDmwjAuNSXt8,5212
+loki_logging_handler-0.0.5.dist-info/LICENSE,sha256=6sCtUoXjiNKcZ-BQNtDkv5lONidB_jZLOQOAFFcOhaI,1062
+loki_logging_handler-0.0.5.dist-info/METADATA,sha256=QGvf5K1WQTzpTGMERYD33BSX6g76CiBUv96Es-zF7Ag,4158
+loki_logging_handler-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+loki_logging_handler-0.0.5.dist-info/top_level.txt,sha256=dP-8D7djI3THwu8jzIpFlL2HKS33YXAes98dnIFGwVM,27
+loki_logging_handler-0.0.5.dist-info/RECORD,,
