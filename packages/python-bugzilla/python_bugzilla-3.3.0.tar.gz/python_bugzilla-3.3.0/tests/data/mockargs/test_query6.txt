@@ -1,0 +1,13 @@
+{'BAR': 'WIBBLE',
+ 'FOO': '1',
+ 'bug_status': ['VERIFIED', 'RELEASE_PENDING', 'CLOSED'],
+ 'cf_blah': {'1': 2},
+ 'cf_verified': ['Tested'],
+ 'include_fields': ['assigned_to',
+                    'blocks',
+                    'component',
+                    'flags',
+                    'keywords',
+                    'status',
+                    'target_milestone',
+                    'id']}
