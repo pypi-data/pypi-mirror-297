@@ -1,0 +1,2 @@
+[console_scripts]
+mypackage = mc_test_table.main:main
