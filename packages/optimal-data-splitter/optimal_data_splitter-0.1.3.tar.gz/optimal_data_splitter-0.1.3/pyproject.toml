@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "optimal-data-splitter"
+version = "0.1.3"
+description = "Data splitting package"
+authors = ["Matthew Rockwood"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+pandas = "^2.1.0"
+scikit-learn = "^1.3.0"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
