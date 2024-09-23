@@ -1,0 +1,9 @@
+README.md
+setup.py
+iiris_elasticsearch/__init__.py
+iiris_elasticsearch/elasticsearch.py
+iiris_elasticsearch.egg-info/PKG-INFO
+iiris_elasticsearch.egg-info/SOURCES.txt
+iiris_elasticsearch.egg-info/dependency_links.txt
+iiris_elasticsearch.egg-info/requires.txt
+iiris_elasticsearch.egg-info/top_level.txt
