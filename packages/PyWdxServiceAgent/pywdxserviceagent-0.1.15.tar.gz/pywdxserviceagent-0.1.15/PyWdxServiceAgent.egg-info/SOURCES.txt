@@ -1,0 +1,17 @@
+README.md
+setup.py
+PyWdxServiceAgent/BizRequest.py
+PyWdxServiceAgent/BizResponse.py
+PyWdxServiceAgent/BizServiceAgent.py
+PyWdxServiceAgent/QueryParameterCollection.py
+PyWdxServiceAgent/QueryRequest.py
+PyWdxServiceAgent/QueryResponse.py
+PyWdxServiceAgent/QueryServiceAgent.py
+PyWdxServiceAgent/WdxCertServiceAgent.py
+PyWdxServiceAgent/WdxComputerInfo.py
+PyWdxServiceAgent/WdxUtil.py
+PyWdxServiceAgent/__init__.py
+PyWdxServiceAgent.egg-info/PKG-INFO
+PyWdxServiceAgent.egg-info/SOURCES.txt
+PyWdxServiceAgent.egg-info/dependency_links.txt
+PyWdxServiceAgent.egg-info/top_level.txt
