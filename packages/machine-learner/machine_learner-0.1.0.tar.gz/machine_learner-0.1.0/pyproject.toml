@@ -1,0 +1,31 @@
+[project]
+name = "machine_learner"
+version = "0.1.0"
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0.0",
+    "statsmodels>=0.12.2",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0"
+]
+requires-python = ">=3.11"
+description = "A comprehensive Python module for feature engineering, target computation, rolling window modeling, feature selection, and model evaluation, tailored for time-series forecasting and stock price analysis."
+readme = "README.md"
+license = {text = "Unlicense"}
+authors = [
+  { name = "Megan Jameson", email = "meganjameson.zealand@gmail.com" }
+]
+maintainers = [
+  { name = "Megan Jameson", email = "meganjameson.zealand@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/megandevelops/machine_learner"
+Issues = "https://github.com/megandevelops/machine_learner/issues"
+
