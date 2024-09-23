@@ -1,0 +1,10 @@
+README.md
+setup.py
+vaidyanath/__init__.py
+vaidyanath/__main__.py
+vaidyanath/main.py
+vaidyanath.egg-info/PKG-INFO
+vaidyanath.egg-info/SOURCES.txt
+vaidyanath.egg-info/dependency_links.txt
+vaidyanath.egg-info/requires.txt
+vaidyanath.egg-info/top_level.txt
