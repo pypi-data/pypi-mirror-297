@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "nbyt-rss"
+version = "0.4.7"
+description = "Simple CLI app to add YouTube RSS feeds correctly."
+authors = ["Evan Baird <mrcartoonster@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+nbyt-rss = "nbyt_rss.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.5"
+httpx = "^0.27.2"
+yarl = "^1.11.1"
+parsel = "^1.9.1"
+rich = "^13.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+ipython = "^8.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
