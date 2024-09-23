@@ -1,0 +1,37 @@
+[project]
+name = "dashai_translation_plugin"
+version = "0.0.1"
+
+dependencies = [
+    'transformers==4.23.1',
+    'scikit-learn==1.2.1',
+    'datasets>=2.19.2',
+]
+
+authors = [
+  { name="DashAI team" },
+  { email="dashaisoftware@gmail.com" },
+]
+
+keywords = [
+    "DashAI",
+		"Task",
+		"Model",
+    "Metric",
+]
+
+description = "Translation Plugin"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.entry-points.'dashai.plugins']
+translation_task = 'dashai_translation_plugin.translation_task:TranslationTask'
+translation_metric = 'dashai_translation_plugin.translation_metric:TranslationMetric'
+translation_model = 'dashai_translation_plugin.translation_model:TranslationModel'
+opus_mt_en_es_transformer = 'dashai_translation_plugin.models.opus_mt_en_es_transformer:OpusMtEnESTransformer'
+ter = 'dashai_translation_plugin.metrics.ter:Ter'
+bleu = 'dashai_translation_plugin.metrics.bleu:Bleu'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
