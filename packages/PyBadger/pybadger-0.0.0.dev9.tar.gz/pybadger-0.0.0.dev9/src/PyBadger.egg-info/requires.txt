@@ -1,0 +1,4 @@
+PyLinks==0.0.0.dev27
+HTMP==0.0.0.dev3
+ProtocolMan==0.0.0.dev2
+IPython
