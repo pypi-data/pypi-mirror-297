@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: tomtom-apis
+Version: 0.0.1a0
+Summary: Asynchronous Python client for the TomTom APIs
+Home-page: https://github.com/golles/tomtom-apis-python
+License: MIT
+Author: Sander Gols
+Author-email: developer@golles.nl
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.10.0,<4.0.0)
+Requires-Dist: geojson (>=3.1.0,<4.0.0)
+Requires-Dist: mashumaro (>=3.13,<4.0)
+Requires-Dist: orjson (>=3.10.5,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/golles/tomtom-apis-python/issues
+Project-URL: Documentation, https://github.com/golles/tomtom-apis-python
+Project-URL: Repository, https://github.com/golles/tomtom-apis-python
+Description-Content-Type: text/markdown
+
+# TomTom APIs Python
+
+Asynchronous Python client for the TomTom APIs
+
+## API Coverage
+
+This section provides an overview of the APIs implemented by the client and their typing status.
+
+### Automotive APIs
+
+| API                      | Notes           |
+| ------------------------ | --------------- |
+| Autostream               | Not implemented |
+| Fuel Prices API          | Typed           |
+| Parking Availability API | Typed           |
+
+### Maps API
+
+| API             | Notes                                                                            |
+| --------------- | -------------------------------------------------------------------------------- |
+| Map Display API | Typed, `WMS`, `WMTS`, `Map Styles` and `Map Styles v2` have not been implemented |
+
+### Places APIs
+
+| API                   | Notes |
+| --------------------- | ----- |
+| Batch Search API      | Typed |
+| EV Search API         | Typed |
+| Geocoding API         | Typed |
+| Premium Geocoding API | Typed |
+| Reverse Geocoding API | Typed |
+| Search API            | Typed |
+
+### Routing APIs
+
+| API                          | Notes           |
+| ---------------------------- | --------------- |
+| Long Distance EV Routing API | Typed           |
+| Matrix Routing v2 API        | Not implemented |
+| Routing API                  | Typed           |
+| Waypoint Optimization API    | Typed           |
+
+### Tracking & Logistics APIs
+
+| API                  | Notes           |
+| -------------------- | --------------- |
+| Geofencing API       | Not implemented |
+| Location History API | Not implemented |
+| Notifications API    | Not implemented |
+| Snap to Roads API    | Not implemented |
+
+### Traffic APIs
+
+| API                      | Notes                                                             |
+| ------------------------ | ----------------------------------------------------------------- |
+| Intermediate Traffic API | Not implemented                                                   |
+| Junction Analytics API   | Not implemented                                                   |
+| O/D Analytics API        | Not implemented                                                   |
+| Route Monitoring API     | Not implemented                                                   |
+| Traffic API              | Typed, `Map Styles` and `Map Styles v2` have not been implemented |
+| Traffic Stats API        | Not implemented                                                   |
+
+## Installation
+
+You can install this package via your favorite package manager. For example, using pip:
+
+```sh
+pip install tomtom-apis
+```
+
+## Examples
+
+You can find usage examples in the [examples directory](examples).
+
+## Contributing
+
+Your contributions are welcome! Please familiarize yourself with the [contribution guidelines](CONTRIBUTING.md). This document also helps you set up your development environment.
+
+---
+
+Thank you for your interest in the TomTom API Python client! If you have any questions or need further assistance, feel free to open an issue or submit a pull request.
+
