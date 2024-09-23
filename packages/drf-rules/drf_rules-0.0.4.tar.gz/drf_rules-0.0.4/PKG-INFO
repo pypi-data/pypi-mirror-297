@@ -1,0 +1,56 @@
+Metadata-Version: 2.3
+Name: drf-rules
+Version: 0.0.4
+Summary: Rules Permissions with Django DRF
+Project-URL: Documentation, https://github.com/lsaavedr/drf-rules#readme
+Project-URL: Issues, https://github.com/lsaavedr/drf-rules/issues
+Project-URL: Source, https://github.com/lsaavedr/drf-rules
+Author-email: Luis Saavedra <luis94855510@gmail.com>
+License: BSD-3-Clause
+License-File: LICENSE
+License-File: LICENSE.txt
+Keywords: django,drf,permissions,rules
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Requires-Dist: djangorestframework>=3.15.2
+Requires-Dist: rules>=3.5
+Description-Content-Type: text/markdown
+
+# drf rules
+
+[![PyPI - Version](https://img.shields.io/pypi/v/drf-rules.svg)](https://pypi.org/project/drf-rules)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/drf-rules.svg)](https://pypi.org/project/drf-rules)
+
+---
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install drf-rules
+```
+
+## License
+
+`drf-rules` is distributed under the terms of the [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) license.
