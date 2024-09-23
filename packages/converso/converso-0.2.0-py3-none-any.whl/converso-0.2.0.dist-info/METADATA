@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: converso
+Version: 0.2.0
+Summary: Artificial Intelligence assistant
+Author: Gianfranco Demarco
+Author-email: gianfrademarco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain (>=0.3.0,<0.4.0)
+Requires-Dist: langchain-openai (>=0.2.0,<0.3.0)
+Requires-Dist: langgraph (>=0.2.23,<0.3.0)
+Requires-Dist: openai (==1.47.0)
+Description-Content-Type: text/markdown
+
+# converso
+Converso is a LangChain extensions that streamlines data acquisition and action execution through natural language
+
+## Change Log
+
+### 0.2.0
+- Update dpendencies:
+    - LangChain: 0.3.0
+    - LangGraph: 0.2.23
+
+### 0.1.0
+- Initial release
