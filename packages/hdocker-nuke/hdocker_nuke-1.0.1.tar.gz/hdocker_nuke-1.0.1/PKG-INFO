@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: hdocker-nuke
+Version: 1.0.1
+Summary: Quickly `kill`, then `rm` a container
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: hamolicious <hamolicious@hamolicious.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: certifi==2024.8.30
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: docker==7.1.0
+Requires-Dist: idna==3.10
+Requires-Dist: requests==2.32.3
+Requires-Dist: urllib3==2.2.3
+Description-Content-Type: text/markdown
+
+# docker-nuke
+Quickly `kill`, then `rm` a docker container by it's name or SHA.
+
+```bash
+% docker-nuke ollama
+Target Locked: 98deb93e20be2ebccc1c8680e28edcdaa9b1a18ef54275f439023cbfa859fda1 ollama
+Fire? (y/N)
+```
+
+## Install
+```bash
+pip install hdocker-nuke
+```
