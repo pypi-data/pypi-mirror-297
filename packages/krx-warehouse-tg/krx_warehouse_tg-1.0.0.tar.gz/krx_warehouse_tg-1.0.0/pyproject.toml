@@ -1,0 +1,17 @@
+[project]
+name = "krx_warehouse_tg"
+version = "1.0.0"
+authors = [
+  { name="wkramx"},
+]
+description = "Telegram bot warehouse"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lrrrtm/krx_warehouse_bot"
