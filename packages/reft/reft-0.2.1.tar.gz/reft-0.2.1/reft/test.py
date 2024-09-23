@@ -1,0 +1,1 @@
+checkbox.setStyleSheet("QCheckBox::indicator:checked { background-color: green;};QCheckBox::indicator:unchecked {background-color: red;}")
