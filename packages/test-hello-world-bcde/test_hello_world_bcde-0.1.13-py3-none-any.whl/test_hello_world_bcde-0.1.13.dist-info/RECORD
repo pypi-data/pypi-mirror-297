@@ -1,0 +1,5 @@
+something/__init__.py,sha256=ACvROWJp74unbwTKE7qN6wGhCPNGE2BDv35QWfb0nBI,18
+something/aaa/__init__.py,sha256=_HQRq6iLZPPym_0hAq6caUWI6ZWWfaYx8oxcxz92xDY,18
+test_hello_world_bcde-0.1.13.dist-info/METADATA,sha256=xyP2dMdLePBn7t-r9zv75zcAs0ylvJpd9Nu2skOks0A,501
+test_hello_world_bcde-0.1.13.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+test_hello_world_bcde-0.1.13.dist-info/RECORD,,
