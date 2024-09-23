@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+confo/Confo.py
+confo/__init__.py
+confo/Backends/AbstractBackend.py
+confo/Backends/FileBackend.py
+confo/Backends/ZookeeperBackend.py
+confo/Backends/__init__.py
+confo/Exceptions/__init__.py
+confo2.egg-info/PKG-INFO
+confo2.egg-info/SOURCES.txt
+confo2.egg-info/dependency_links.txt
+confo2.egg-info/requires.txt
+confo2.egg-info/top_level.txt
