@@ -1,0 +1,11 @@
+fronts/D.py,sha256=osSxbtkyildfVm0VXwpDLITJ9JbiDb1fxBKOKRbhjLQ,35388
+fronts/__init__.py,sha256=Urt045Sjei8Ts-sRqWSuAgvqBVYLcREfjm6ZRsG4TG4,529
+fronts/_boltzmann.py,sha256=DRZ2HsweDm_BN8BmppTTK2yU1OEZ7abVsaZhXOYxfiY,17838
+fronts/_inverse.py,sha256=YxQbzXGLWsPrn5L00XYlBWTB-vwAGZXzpB7ga05N_Js,5040
+fronts/_rootfinding.py,sha256=pHwlTTgDzKFxrR6TNBsrThVd3IVnT5704ks_utXhDs4,10822
+fronts/_semiinfinite.py,sha256=oyjMDA_8GRybi0CPOTdvNDX_8w1blr2jkdJNd_2VZms,46278
+fronts-1.2.4.dist-info/LICENSE.txt,sha256=g64Chyf48a9miI5bV9OCzkI9014fUAxik2ytTBHD0PY,1531
+fronts-1.2.4.dist-info/METADATA,sha256=aK-awmGhftBxpoqqKR5gWBodkJzdQtazWWo8WQCrPrI,11754
+fronts-1.2.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fronts-1.2.4.dist-info/top_level.txt,sha256=C3SrvM9jeQjnv8SvGd0zP_lJJndUTrhRlJskUgOqTJo,7
+fronts-1.2.4.dist-info/RECORD,,
