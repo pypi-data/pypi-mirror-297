@@ -1,0 +1,1 @@
+from .module1 import arithprog, geomprog, is_numeric
