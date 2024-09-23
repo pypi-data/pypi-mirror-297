@@ -1,0 +1,8 @@
+deepglue/__init__.py,sha256=MzjGiuuSg0PE_g_Ea_wIPMY2HxYffQfhf9g85b3Rbwo,221
+deepglue/file_utils.py,sha256=FwMnKQrTHsyM1ddHfkwUoVfDMx9JwdHDE51YtYu-1Y4,1348
+deepglue/plot_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepglue/train.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepglue-0.1.0.dist-info/METADATA,sha256=oXPx4eEYlItjFEh4978ojkAnf5HmvdrcmVeNuBaifWc,1324
+deepglue-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+deepglue-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepglue-0.1.0.dist-info/RECORD,,

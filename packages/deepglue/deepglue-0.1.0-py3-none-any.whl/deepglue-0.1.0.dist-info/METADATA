@@ -1,0 +1,38 @@
+Metadata-Version: 2.3
+Name: deepglue
+Version: 0.1.0
+Summary: deepglue: A utility package for deep learning projects. Keeping things together.
+Author-email: Eric Thomson <thomson.eric@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: pydocstyle; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == 'docs'
+Requires-Dist: mkdocs-gallery; extra == 'docs'
+Requires-Dist: mkdocs-gen-files; extra == 'docs'
+Requires-Dist: mkdocs-literate-nav; extra == 'docs'
+Requires-Dist: mkdocs-section-index; extra == 'docs'
+Requires-Dist: mkdocstrings[python]; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# Deep Glue
+
+<img src="docs/images/deep_glue_logo.png" alt="deepglue Logo" align="right" width="200">
+
+Helpers and utilities for pytorch projects. Keep all the useful stuff together in one place.
+
+Work in Progress -- Moving fast and breaking things.
+
