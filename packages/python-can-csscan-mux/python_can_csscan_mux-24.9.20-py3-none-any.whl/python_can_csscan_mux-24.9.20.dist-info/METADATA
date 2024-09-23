@@ -1,0 +1,166 @@
+Metadata-Version: 2.3
+Name: python-can-csscan-mux
+Version: 24.9.20
+Summary: Mux/demux data from the CSS Electronics' CANmod.router device through Python
+Project-URL: Homepage, https://canlogger.csselectronics.com/tools-docs/csscan_mux/python_csscan/
+Author: CSS Electronics
+Author-email: contact@csselectronics.com
+License: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: dataclasses-json>=0.6.0
+Requires-Dist: python-can>=4.0.0
+Description-Content-Type: text/markdown
+
+# python-can-csscan-mux
+
+The **python-can-csscan-mux** package allows for muxing/demuxing of data to/from the [CSS Electronics](https://www.csselectronics.com/) CANmod.router device. It is intended to be used as a layer in the **python-can** ecosystem, to transparently handle muxing/demuxing of data to/from a CANmod.router device.
+
+The package provides two handles:
+
+- A `can.BusABC` wrapper for handling live interfaces in the form of `python-can-csscan-mux.CSSCANMuxBus`
+- A reader for handling file interfaces in the form of `python-can-csscan-mux.CSSCANMuxReader`
+
+For more information on existing **python-can** interfaces, see the documentation for the [**python-can**](https://python-can.readthedocs.io/en/stable/) package.
+
+```
+    |     ^                |     ^
+    |     |                |     |
++---v-----+----+    +------v-----+------+
+| CSSCANMuxBus |    |  CSSCANMuxReader  |
++---+-----^----+    +------+-----^------+
+    |     |                |     |     
++---v-----+----+    +------v-----+------+
+|  can.BusABC  |    | can.MessageReader |
++--------------+    +-------------------+
+```
+
+Messages through the mux are matched against the configured rules of the muxer/demuxer. If a message ID matches the configuration the message data is muxed/demuxed. Else the message is passed through unchanged.
+
+The default configuration of the **python-can-csscan-mux** matches the default configuration of the CANmod.router. 
+
+## Simple USB example (requires python-can-csscan-serial)
+
+The CANmod.router is connected via USB to COM9 on a Windows PC. Both the **python-can-csscan-mux** and **python-can-csscan-serial** packages are installed.
+
+### Transmit and receive data through the mux
+
+```
+import can
+
+# Open csscan-serial bus
+with can.Bus(interface="csscan_serial", channel="COM9") as bus:
+
+    # Create csscan-mux layer
+    with can.Bus(interface="csscan_mux", channel=bus) as mux:
+
+        # Transmit message
+        mux.send(can.Message(channel=3, arbitration_id=0x123, data=[0x01, 0x23]))
+
+        # Receive message(s)
+        for msg in mux:
+            print(f"{msg.timestamp:.3f} {msg.arbitration_id:X} {msg.data.hex()}")
+```
+
+## Simple MF4 example (requires python-can-csscan-mf4)
+
+Data from a CANmod.router is logged to a MF4 file. Both the **python-can-csscan-mux** and **python-can-csscan-mf4** packages are installed. Muxed data is present on CAN channel 2 using the default configuration.
+
+### Reading data through the mux
+
+
+```
+from python_can_csscan_mf4 import MdfFile
+from python_can_csscan_mux import CSSCANMuxReader
+
+# Open input file
+with MdfFile("00000001.MF4") as reader:
+
+    # Create csscan-mux layer
+    with CSSCANMuxReader(reader=reader, mux_can={"CAN 2": [{"s1": 3, "s2": 4, "s3": 5, "s4": 6, "mux_ids": [0x010, 0x011]}]}) as mux:
+        
+        # Read message(s)
+        for msg in mux:
+            print(f"{msg.timestamp:.3f} {msg.arbitration_id:X} {msg.data.hex()}")
+```
+
+## Advanced python-can-csscan-mux usage 
+
+The below is primarily relevant when the CANmod.router default configuration is changed. When so, the configuration of **python-can-csscan-mux** must be updated accordingly.
+
+The **python-can-csscan-mux** takes the following configuration arguments (to the class `CSSCANMuxBus` and through the `can.Bus()` factory):
+
+- `channel`: Reference to the underlying **python-can** `can.BusABC` instance
+- `mux_can`: Dictionary of muxing configurations. Format is `{channel: [{"s1": S1, "s2": S2, "s3": S3, "s4": S4, "mux_ids": [CAN ID 1 (hex), CAN ID 2 (hex), ...], "mux_id_tx": CAN Tx ID (hex)}, ...], ... }`.
+    - Map 11-bit ID 0x010 on primary channel 1 to secondary channels 5, 6, 7, 8: `{1: [{"s1": 5, "s2": 6, "s3": 7, "s4": 8, "mux_ids": [0x010]}]}`
+    - Map 29-bit IDs 0x00000011 and 0x00000012 on primary channel 2 to secondary channels 5, 6, 7 and 8, with ID 0x00000012 used for transmission: `{2: [{"s1": 5, "s2": 6, "s3": 7, "s4": 8, "mux_ids": [0x80000000 | 0x00000011, 0x80000000 | 0x00000012], "mux_id_tx": 0x80000000 | 0x00000012}]}`
+    - Defaults to `{None: [{"s1": 0, "s2": 1, "s3": 2, "s4": 3, "mux_ids": [0x010, 0x011], "mux_id_tx": 0x011}]}`
+- `mux_fd`: Flag controlling if the muxed output messages should be emitted as classical CAN or CAN FD frames. If enabled, the enhanced DLC capabilities of CAN FD will be utilized. Defaults to true.
+- `mux_brs`: Flag controlling if the muxed output messages should be emitted using CAN FD bit-rate-switching. Requires FD. Defaults to true.
+
+An example of mapping channels 3, 4, 5 and 6 to CAN channel 1 and channels 7, 8, 9 and 10 to CAN channel 2 through the muxing interface:
+
+`mux_can={1: [{"s1": 3, "s2": 4, "s3": 5, "s4": 6, "mux_ids": [0x010, 0x011], "mux_id_tx": 0x011}], 2: [{"s1": 7, "s2": 8, "s3": 9, "s4": 10, "mux_ids": [0x010, 0x011], "mux_id_tx": 0x011}]}`
+
+Any messages sent on CAN channel 1 and 2 interfaces not matching the default ID (`0x010`) will be forwarded unaltered. This includes if another node writes on ID `0x011` reserved for transmission from this node.
+
+For the `CSSCANMuxReader` class, most of the same arguments as for the `CSSCANMuxBus` are supported:
+
+- `reader`: Reference to the underlying `Iterable[can.Message]` instance, e.g. a **python-can** file reader
+- `mux_can`: Same as for `CSSCANMuxBus`
+- `mux_fd`: Same as for `CSSCANMuxBus`
+- `mux_brs`: Same as for `CSSCANMuxBus`
+
+The reader has no support for transmission of messages.
+
+## Command-line interface (CLI)
+
+The **python-can** ecosystem provides a series of command-line tools, e.g.: 
+
+- **can_logger**: Tool to display live data
+- **can_viewer**: Tool to display a table of received messages
+
+The tools can be used with **python-can-csscan-mux** to e.g. display demuxed data.
+
+While using the CLI, it is not possible to
+
+- Instantiate the wrapped `can.BusABC` layer. Instead, the wrapped layer is selected using a `--driver` argument, with the name of the interface of the wrapped layer. The channel argument is forwarded to the wrapped interface, along with any other unknown commandline arguments.
+- Configure the muxing using a Python dictionary. The dictionary is mapped to a set of strings for each channel. There is no support for tx.
+  
+  - To configure the input for CAN channel X, use `--mux_canX=`
+  - The mapping for a set of network IDs is `CAN ID 1 (hex):CAN ID 2 (hex):...#S1:S2:S3:S4`. E.g. to map the regular 11-bit ID 0x010 to channels 0, 1, 2 and 3: `010#0:1:2:3`. To map an extended ID, write the ID using 8 characters, i.e. the 29-bit ID `0x00000010` becomes `00000010`. Multiple mux networks on the same bus are not supported. 
+
+### Example, can_logger
+
+To display demuxed data from a **python-can-csscan-serial** interface:
+
+```can_logger --interface=csscan_mux --driver=csscan_serial --channel=COM9```
+
+To dump demuxed data to a file from a **python-can-csscan-serial** interface:
+
+```can_logger --interface=csscan_mux --driver=csscan_serial --channel=COM9 -f=F:/dump.log```
+
+To dump demuxed data to a file from a **python-can-csscan-mf4** (from a MF4 log file):
+
+```can_logger --interface=csscan_mux --driver=csscan_mf4 --channel=00000001.MF4 -f=F:/dump.log```
+
+### Example, can_viewer
+
+To display demuxed data from a **python-can-csscan-serial** interface:
+
+```can_viewer --interface=csscan_mux --driver=csscan_serial --channel=COM9```.
+
+To display demuxed and decoded data from a **python-can-csscan-serial** interface:
+
+```can_viewer --interface=csscan_mux --driver=csscan_serial --channel=COM9 -d=rules.txt```
+
+With the file `rules.txt` containing below two example decoding rules:
+```
+2:<HHHH:0.625:0.625:0.625:0.625
+3:<HHHH:0.625:0.625:0.625:0.625
+```
+
+For more information on the decoding format, see the **python-can** documentation.
