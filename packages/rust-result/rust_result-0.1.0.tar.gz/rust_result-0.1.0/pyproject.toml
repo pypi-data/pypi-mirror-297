@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rust-result"
+version = "0.1.0"
+description = ""
+authors = ["Ole Kliemann <mail@olekliemann.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
