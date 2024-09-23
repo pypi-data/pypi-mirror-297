@@ -1,0 +1,2 @@
+[console_scripts]
+give_me_the_odds = cli:give_me_the_odds

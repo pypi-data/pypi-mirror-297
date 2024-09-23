@@ -1,0 +1,38 @@
+[project]
+name = "give_me_the_odds"
+version = "0.0.5"
+authors = [
+  { name="Pierre Jestin", email="pierre.jestin@gmail.com" },
+]
+description = "Millenium Falcon back-end and R2D2 CLI"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "click",
+  "sqlalchemy",
+]
+
+[project.urls]
+Repository = "https://github.com/pjestin/millenium-falcon-challenge.git"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+give_me_the_odds = "cli:give_me_the_odds"
+
+[tool.setuptools]
+py-modules = [
+  "cli",
+  "db.db",
+  "db.route",
+  "models.bounty_hunter",
+  "models.empire",
+  "models.millenium_falcon",
+  "odds.odds",
+]
