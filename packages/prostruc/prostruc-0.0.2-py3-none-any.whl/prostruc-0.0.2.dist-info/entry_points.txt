@@ -1,0 +1,2 @@
+[console_scripts]
+prostruc = prostruc.app:main
