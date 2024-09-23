@@ -1,0 +1,10 @@
+kago_utils/__init__.py,sha256=bZqHMn3oubQ43LBXNXHHn1rfONpUZ_qKTT-_bJSeI3c,163
+kago_utils/generate_shanten_table.py,sha256=-S0OUkDP4Ywgvpu01JCsfdZ28N01UoqhOaABcwB2ySQ,4553
+kago_utils/hai.py,sha256=oECrPvbtgMQsLeYHf5NsjmX4ItWR0o4DapOqwbFgP2A,11732
+kago_utils/shanten.py,sha256=C9e5cFARWWnxR71JD4R630WaX5EKo_h44PyRpbOxAs0,7413
+kago_utils/data/suuhai_shanten.pickle,sha256=HsjPldt6CnjLUjIXh4EZq0fyi1RDeJQEpcyj7Jez7iI,51088585
+kago_utils/data/zihai_shanten.pickle,sha256=vvBnc88GVQBp8nBvINzSFjiiuwAdEwe6W6OubDvvJwM,5262810
+kago_utils-0.1.1.dist-info/METADATA,sha256=4O-I7xjioRKju5r-clzbcsUWR7N0_qFuI3zLIe5T2h4,10243
+kago_utils-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+kago_utils-0.1.1.dist-info/licenses/LICENSE,sha256=uNtytfbfxf7iCQXqXXg6khQ7VLaZfU6rzl5gs5RbJ0I,1065
+kago_utils-0.1.1.dist-info/RECORD,,
