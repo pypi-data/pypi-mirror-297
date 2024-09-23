@@ -1,0 +1,12 @@
+google-cloud-storage
+torch
+transformers
+faiss-cpu
+numpy
+Pillow
+huggingface_hub
+SentencePiece
+
+[dev]
+pytest
+pytest-mock

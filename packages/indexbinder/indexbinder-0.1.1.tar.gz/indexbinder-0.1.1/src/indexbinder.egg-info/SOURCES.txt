@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/image_search.py
+src/indexing.py
+src/indexbinder.egg-info/PKG-INFO
+src/indexbinder.egg-info/SOURCES.txt
+src/indexbinder.egg-info/dependency_links.txt
+src/indexbinder.egg-info/requires.txt
+src/indexbinder.egg-info/top_level.txt
+tests/test_indexing.py
