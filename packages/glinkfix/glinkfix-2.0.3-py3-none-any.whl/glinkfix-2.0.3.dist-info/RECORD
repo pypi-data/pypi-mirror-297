@@ -1,0 +1,11 @@
+glinkfix/__init__.py,sha256=XMWMRrfOUBz5jiNhJ2A2KQktpQKymlEKXxnjaLU3sL0,15
+glinkfix/app.py,sha256=baKJPZCpCN9Sj1Ok3I9raxtUJLo0EJdAFouDD8wijtc,1422
+glinkfix/constants.py,sha256=8IfSMWJRvOFgTGqlYErPv1gcPScu3l3oK6JTgaOQiCI,58
+glinkfix/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glinkfix/tools.py,sha256=kirSWzdNhmgS1mXjOb-xzGhLGzS2H46PfPRxMWtU8ho,2041
+glinkfix-2.0.3.dist-info/METADATA,sha256=gWQTyCWqJjmVlCTlCZx1rWdvohY-3vqdpz2Ko91skFg,9158
+glinkfix-2.0.3.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+glinkfix-2.0.3.dist-info/entry_points.txt,sha256=3kYVqOVKr7NdHfNOb5Z3yEWnoDQ2Qe2edtIoSKaTP6Q,47
+glinkfix-2.0.3.dist-info/licenses/LICENSE,sha256=M9i0Nzy9vybI_KsPMjq_Zw-NB5015hqi63DJqr7BDa8,1074
+glinkfix-2.0.3.dist-info/licenses/LICENSE-BSD-3-CLAUSE,sha256=w1zIl69bIOyqhJoep4e9XO6ZKyIvhsrwCIs2ztjDI38,1487
+glinkfix-2.0.3.dist-info/RECORD,,
