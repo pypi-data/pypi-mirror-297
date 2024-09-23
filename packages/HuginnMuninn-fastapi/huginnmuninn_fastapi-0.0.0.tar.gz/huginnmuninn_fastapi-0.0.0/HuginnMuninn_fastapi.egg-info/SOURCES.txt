@@ -1,0 +1,9 @@
+README.md
+setup.py
+HuginnMuninn_fastapi.egg-info/PKG-INFO
+HuginnMuninn_fastapi.egg-info/SOURCES.txt
+HuginnMuninn_fastapi.egg-info/dependency_links.txt
+HuginnMuninn_fastapi.egg-info/requires.txt
+HuginnMuninn_fastapi.egg-info/top_level.txt
+HuginnMunnin_fastapi/__init__.py
+HuginnMunnin_fastapi/exceptions.py

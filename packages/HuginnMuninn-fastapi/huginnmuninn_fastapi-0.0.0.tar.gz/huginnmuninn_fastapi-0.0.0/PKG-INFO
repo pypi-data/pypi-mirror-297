@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: HuginnMuninn-fastapi
+Version: 0.0.0
+Summary: This is package to handle errors and exceptions in fastapi.
+Home-page: https://github.com/amphitekne/HuginnMunnin-fastapi
+Author: Alejandro Conde
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Requires-Dist: pydantic
+Requires-Dist: fastapi
