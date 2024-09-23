@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: metametrics
+Version: 0.0.0
+Summary: MetaMetrics
+Home-page: https://github.com/gentaiscool/metametrics
+Author: Genta Indra Winata
+Author-email: gentaindrawinata@gmail.com
+License: Apache 2.0 License
+Project-URL: Bug Tracker, https://github.com/gentaiscool/metametrics/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# metametrics

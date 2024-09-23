@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+metametrics/__init__.py
+metametrics/metametrics.py
+metametrics/version.py
+metametrics.egg-info/PKG-INFO
+metametrics.egg-info/SOURCES.txt
+metametrics.egg-info/dependency_links.txt
+metametrics.egg-info/requires.txt
+metametrics.egg-info/top_level.txt
