@@ -1,0 +1,9 @@
+.gitignore
+README.md
+git_rg.py
+pyproject.toml
+git_rg.egg-info/PKG-INFO
+git_rg.egg-info/SOURCES.txt
+git_rg.egg-info/dependency_links.txt
+git_rg.egg-info/entry_points.txt
+git_rg.egg-info/top_level.txt
