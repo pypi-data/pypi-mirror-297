@@ -1,0 +1,13 @@
+my_framework_2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_framework_2/cli.py,sha256=cTwRX51EltpPwFybt2tw5Al3QAEuUHaCNVtBg9TgE6o,786
+playwright/__init__.py,sha256=LgjR9gAK71QXl9AIwFrDb02-v7NsusVhV4jm_MWzAKc,6
+playwright/playwright_base.py,sha256=uo9dars4NjpV7Q5rrJcCAF7vI-6qWOlgGUKlGHlL8GQ,934
+playwright/page_objects/__init__.py,sha256=aKc6k4hFwyBm2A5-w2Nz3w-6dB9J-8s2wWIu5Kln74Y,280
+playwright/page_objects/example_page.py,sha256=owNg2ncXf1Z3896VYn0Pm96JfZWsgqbPWiG2nuG_GRQ,500
+playwright/tests/__init__.py,sha256=LgjR9gAK71QXl9AIwFrDb02-v7NsusVhV4jm_MWzAKc,6
+playwright/tests/example_test.py,sha256=yrnFRlzD6-51tZu-moczxSkzZzydYHp2qhc6PUPntVI,530
+my_framework_2-1.0.2.dist-info/METADATA,sha256=ILE272Ak32WfjCh04psIKq83YHC0pcu2yHg3GyXw-XQ,241
+my_framework_2-1.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+my_framework_2-1.0.2.dist-info/entry_points.txt,sha256=EPgpZVv4Jvbr2fbeb8NxuCCg7PCBk8cMepW9DkonJ48,62
+my_framework_2-1.0.2.dist-info/top_level.txt,sha256=sslCBPZwtkueyBsT6q1Zk6-dvZquYiIWnLMv4qbcS84,26
+my_framework_2-1.0.2.dist-info/RECORD,,
