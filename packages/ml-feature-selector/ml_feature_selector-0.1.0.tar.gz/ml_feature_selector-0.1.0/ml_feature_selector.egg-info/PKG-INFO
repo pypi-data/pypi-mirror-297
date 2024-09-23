@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ml_feature_selector
+Version: 0.1.0
+Summary: This package provides code for optimal feature selection using forward and backward wrapper-based methods. It also generates an Excel report that captures each step and result of the feature selection process, offering clear insights and explanations of the selected features.
+Home-page: https://github.com/sanbuddhacharyas/feature_selection
+Author: Sangam Man Buddhacharya
+Author-email: sangambuddhacharya@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn>=1.5.1
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: openpyxl>=3.1.2
+
+# Feature Selection
+
+This repository contains code to perform wrapper-based feature selection (i.e forward and backward). 
+
+## Install requirements:
+```
+pip install -r requirements.txt
+```
+
+```bash
+FeatureModelSelection(model=model,
+                      scorer=r2_score,
+                      X_train=X_train,
+                      y_train=y_train,
+                      higher_good=False,
+                      )
+
+model: sklearn BaseEstimator
+```
+
