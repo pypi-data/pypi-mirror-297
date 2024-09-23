@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: borsaAPI
+Version: 0.1.1
+Summary: Python kütüphanesi ile hisse verisi çekme API'si
+Home-page: UNKNOWN
+Author: Bora Kaya
+Author-email: borakaya8@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# borsaAPI
+
+Bu Python kütüphanesi, Google App Engine üzerinde barındırılan bir API'den BIST hisse verilerini çekmek için kullanılabilir.
+
+## Kullanım
+
+```python
+from borsaAPI import get_hisse_verisi
+
+# Hisse verisini çek
+df = get_hisse_verisi('THYAO')
+print(df)
+
+
+
+
