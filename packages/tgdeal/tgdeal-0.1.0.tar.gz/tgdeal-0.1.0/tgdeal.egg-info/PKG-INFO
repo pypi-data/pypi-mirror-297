@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tgdeal
+Version: 0.1.0
+Summary: B2B API client of the telegram buying service
+Author: TeleDealer
+License: MIT
+Requires-Dist: simple_singleton
+Requires-Dist: pydantic
+Requires-Dist: httpx
