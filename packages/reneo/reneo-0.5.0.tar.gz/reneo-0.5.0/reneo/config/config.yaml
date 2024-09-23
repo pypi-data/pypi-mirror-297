@@ -1,0 +1,40 @@
+resources:
+    big:
+        cpu: 32
+        mem: 64000        # in Mb
+        time: "24:00:00"
+    ram:
+        cpu: 2
+        mem: 16000        # in Mb
+        time: "01:00:00"
+    med:
+        cpu: 8
+        mem: 16000
+        time: "02:00:00"
+
+reneo:
+    input:
+    output: 'reneo.out/'
+    log: 'reneo/reneo.log'
+    databases:
+    profile:
+    minlength: 1000
+    mincov: 1
+    compcount: 200
+    maxpaths: 10
+    mgfrac: 0.2
+    evalue: 1E-10
+    hmmscore: 50
+    nvogs: 10
+    covtol: 100
+    alpha: 1.2
+    koverage_args:
+        --rerun-triggers mtime
+        --printshellcmds
+        --nolock
+        --show-failed-logs
+
+koverage:
+    params:
+        coverm:
+            -m mean

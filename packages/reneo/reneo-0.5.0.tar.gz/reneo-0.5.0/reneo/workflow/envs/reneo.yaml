@@ -1,0 +1,22 @@
+name: reneo
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+  - gurobi
+dependencies:
+  - python>=3.8
+  - biopython
+  - python-igraph
+  - pysam
+  - networkx>=2.8.6
+  - scipy
+  - numpy<2.0.0
+  - pandas
+  - gurobi>=10.0.0
+  - more-itertools
+  - tqdm
+  - click
+  - pip
+  - pip:
+      - metasnek>=0.0.3
