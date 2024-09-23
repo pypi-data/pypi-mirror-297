@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: give-me-the-odds
+Version: 0.2
+Requires-Dist: click
