@@ -1,0 +1,2 @@
+[console_scripts]
+pyscrap = pyscrap.app.main:main

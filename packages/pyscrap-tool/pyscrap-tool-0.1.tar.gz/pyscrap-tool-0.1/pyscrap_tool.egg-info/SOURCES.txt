@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+pyscrap/__init__.py
+pyscrap/app/__init__.py
+pyscrap/app/main.py
+pyscrap/scraped_data/__init__.py
+pyscrap_tool.egg-info/PKG-INFO
+pyscrap_tool.egg-info/SOURCES.txt
+pyscrap_tool.egg-info/dependency_links.txt
+pyscrap_tool.egg-info/entry_points.txt
+pyscrap_tool.egg-info/top_level.txt
