@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: pyalfe
+Version: 0.1.1
+Summary: A pipeline for Automated Lesion and Feature Extraction from brain MRIs
+Author-email: Reza Eghbali <eghbali68@gmail.com>, reza.eghbali@ucsf.edu
+License: Copyright 2022 Reza Eghbali
+        
+        Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        
+        Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: StrEnum
+Requires-Dist: numpy
+Requires-Dist: Click
+Requires-Dist: pydcm2niix
+Requires-Dist: huggingface_hub
+Requires-Dist: torch
+Requires-Dist: pandas
+Requires-Dist: picsl_c3d
+Requires-Dist: picsl_greedy
+Requires-Dist: pybids
+Requires-Dist: nibabel
+Requires-Dist: nilearn
+Requires-Dist: matplotlib
+Requires-Dist: nnunet
+Requires-Dist: nnunetv2
+Provides-Extra: ants
+Requires-Dist: antspyx; extra == "ants"
+Provides-Extra: radiomics
+Requires-Dist: Pyradiomics; extra == "radiomics"
+Provides-Extra: docs
+Requires-Dist: jupyter-book; extra == "docs"
+Requires-Dist: sphinx-click; extra == "docs"
+
+# PyALFE
+
+Python implementation of Automated Lesion and Feature Extraction (pyALFE) pipeline.
+We developed this pipeline for analysis of brain MRIs of patients suffering from conditions that cause brain lesions. It utilizes image processing tools, image registration tools, and deep learning segmentation models to produce a set of features that describe the lesions in the brain.
+
+## Documentation
+
+Details about installation and usage can be found at:
+https://reghbali.github.io/pyalfe
+
+To get started, you can go through this tutorial:
+https://reghbali.github.io/pyalfe/guides/tutorial.html
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+BSD 3-Clause
