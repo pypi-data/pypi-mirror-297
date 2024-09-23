@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+litequant/LSClient.c
+litequant/LSClient.py
+litequant/ParquetManager.c
+litequant/ParquetManager.py
+litequant/__init__.py
+litequant.egg-info/PKG-INFO
+litequant.egg-info/SOURCES.txt
+litequant.egg-info/dependency_links.txt
+litequant.egg-info/requires.txt
+litequant.egg-info/top_level.txt
