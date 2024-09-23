@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "poetry-src-layout"
+version = "0.1.0"
+description = ""
+authors = ["mahfooz.iiitian <mahfooz.iiitian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry_src_layout", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+requests-mock = "^1.12.1"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.semantic_release]
+branch = "main"
+version_variable = "src/poetry_src_layout/__init__.py:__version__"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
