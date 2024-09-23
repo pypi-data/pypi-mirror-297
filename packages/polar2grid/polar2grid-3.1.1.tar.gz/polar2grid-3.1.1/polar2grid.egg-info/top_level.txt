@@ -1,0 +1,7 @@
+awips_scmi
+continuous_integration
+dist
+doc
+integration_tests
+polar2grid
+swbundle
