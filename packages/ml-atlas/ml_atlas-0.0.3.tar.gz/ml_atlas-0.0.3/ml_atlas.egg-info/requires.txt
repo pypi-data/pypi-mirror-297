@@ -1,0 +1,5 @@
+click==8.1.7
+cloudpickle==3.0.0
+packaging==24.0
+pyyaml==6.0.1
+wheel==0.42.0
