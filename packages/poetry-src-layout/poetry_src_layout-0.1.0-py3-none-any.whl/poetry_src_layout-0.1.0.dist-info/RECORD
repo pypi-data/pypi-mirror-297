@@ -1,0 +1,6 @@
+poetry_src_layout/__init__.py,sha256=RX9PCbzuKsbsB6LiLeVnVOL4FC_nKkADyz3VJ0Njah0,13
+poetry_src_layout/main.py,sha256=gCGWkERWbm_5QQ2-7loGrypdyv-JHVzabAtVlYZ85FA,327
+poetry_src_layout/validator.py,sha256=GhAUCeB1Ugq0F1F819jEN-Qos0kwJ1-eodAYdWZSQfg,890
+poetry_src_layout-0.1.0.dist-info/METADATA,sha256=MoDKPjMis27NVd2wEKLAd3FfPdSPV4QcmyAaZLMPX_M,486
+poetry_src_layout-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_src_layout-0.1.0.dist-info/RECORD,,

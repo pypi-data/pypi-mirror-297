@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: poetry-src-layout
+Version: 0.1.0
+Summary: 
+Author: mahfooz.iiitian
+Author-email: mahfooz.iiitian@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Src layout
+
+## Poetry build package
+
+    poetry build
+
+## Publish
+
+    poetry publish
+
