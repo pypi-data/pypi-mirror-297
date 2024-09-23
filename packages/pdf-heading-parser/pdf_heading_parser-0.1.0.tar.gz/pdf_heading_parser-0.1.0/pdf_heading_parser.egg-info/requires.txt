@@ -1,0 +1,10 @@
+PyMuPDF
+frontend
+fitz
+pdfminer.six
+beautifulsoup4
+pandas
+lxml
+pytesseract
+pdf2image
+PyPDF2

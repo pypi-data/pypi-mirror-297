@@ -1,0 +1,2 @@
+[console_scripts]
+pdf_heading_parser = pdf_parser.parser:parser

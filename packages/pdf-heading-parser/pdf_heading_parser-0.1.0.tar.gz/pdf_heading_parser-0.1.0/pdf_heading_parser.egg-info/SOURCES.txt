@@ -1,0 +1,10 @@
+README.md
+setup.py
+pdf_heading_parser.egg-info/PKG-INFO
+pdf_heading_parser.egg-info/SOURCES.txt
+pdf_heading_parser.egg-info/dependency_links.txt
+pdf_heading_parser.egg-info/entry_points.txt
+pdf_heading_parser.egg-info/requires.txt
+pdf_heading_parser.egg-info/top_level.txt
+pdf_parser/__init__.py
+pdf_parser/parser.py

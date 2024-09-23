@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pdf_heading_parser
+Version: 0.1.0
+Summary: A Python library to parse headings and subheadings from PDF files.
+Home-page: https://github.com/bansalsahab/Parser
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PDF Heading Parser
+
+This library allows you to easily extract headings and subheadings from PDF files using Python.
+
+## Installation
+
+```bash
+pip install pdf_heading_parser
