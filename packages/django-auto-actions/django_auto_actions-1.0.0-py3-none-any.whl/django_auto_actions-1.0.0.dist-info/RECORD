@@ -1,0 +1,9 @@
+django_auto_actions/__init__.py,sha256=HzF7mL11XuxFFtKMIls1kqgcpSfkaRmDex9FeEzEgQU,58
+django_auto_actions/main.py,sha256=hmLkEDYhFxRoNt0INTGqHM0k9aSuz2iovCx2mEdMMC8,5191
+django_auto_actions/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auto_actions/tests/test_main.py,sha256=cxeQnBPNBr9-C0z28zU1MoU8N3SLyzl9CrrYwqXoJPA,6957
+django_auto_actions-1.0.0.dist-info/LICENSE.txt,sha256=NPyMsvsrwWEW6tRrrJs-1IAujy65ZgXxQrzBSx60VmA,1069
+django_auto_actions-1.0.0.dist-info/METADATA,sha256=opL1SlrGBCkUG9XiERls-A7b2aoLcB6q52KO91CPPKo,4092
+django_auto_actions-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_auto_actions-1.0.0.dist-info/top_level.txt,sha256=aB6C5KHITU_0I0yRg3RIWewpGbDkcFlQESZZZBV6Lws,20
+django_auto_actions-1.0.0.dist-info/RECORD,,
