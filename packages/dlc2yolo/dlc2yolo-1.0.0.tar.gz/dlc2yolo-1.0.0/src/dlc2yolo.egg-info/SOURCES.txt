@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/dlc2yolo/__about__.py
+src/dlc2yolo/__init__.py
+src/dlc2yolo/dlc2yolo.py
+src/dlc2yolo.egg-info/PKG-INFO
+src/dlc2yolo.egg-info/SOURCES.txt
+src/dlc2yolo.egg-info/dependency_links.txt
+src/dlc2yolo.egg-info/requires.txt
+src/dlc2yolo.egg-info/top_level.txt

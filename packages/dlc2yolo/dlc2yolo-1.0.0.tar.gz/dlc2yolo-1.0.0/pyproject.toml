@@ -1,0 +1,29 @@
+[project]
+name = "dlc2yolo"
+authors = [{ name = "Hakureirm", email = "wbj010101@gmail.com" }]
+dynamic = ["version"]
+description = "Convert DeepLabCut dataset to YOLO format"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["pandas"]
+
+[project.urls]
+Homepage = "https://github.com/Hakureirm/dlc2yolo"
+Repository = "https://github.com/Hakureirm/dlc2yolo"
+Issues = "https://github.com/Hakureirm/dlc2yolo/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "dlc2yolo.__about__.__version__"}
+
+[build-system]
+requires = ["setuptools>=64", "pandas"]
