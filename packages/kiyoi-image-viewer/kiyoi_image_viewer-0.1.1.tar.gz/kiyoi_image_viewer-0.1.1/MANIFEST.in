@@ -1,0 +1,4 @@
+include src/kiyoi_image_viewer/locales/lang.template
+include src/kiyoi_image_viewer/locales/*.lang
+include src/kiyoi_image_viewer/locales/synonyms/*.syn
+include src/kiyoi_image_viewer/resources/*
