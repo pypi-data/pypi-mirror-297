@@ -1,0 +1,17 @@
+pylagg/bulk.py,sha256=BkYVVkBb6I81CDMH8lBaMoayToTVb1jIoEyVx4H8aQ4,992
+pylagg/cgr/.rustimport,sha256=s2PkRogfzws6MViIZPo9OdU4b25v9qytbLmt-EZqGts,66
+pylagg/cgr/Cargo.lock,sha256=a_gL98MewngpZEn02o9JZuMSn-uDTUvb2gUWznq7anY,32605
+pylagg/cgr/Cargo.toml,sha256=YtzoJCp4KRa_vnT3I_xJj14AM6REW482zM5LSFymVtk,986
+pylagg/cgr/src/lib.rs,sha256=qyICN9G04OZIaDW2yM5Rdvviw1TQsJ31h1vZ7ztR1p8,4003
+pylagg/cgr_py/__init__.py,sha256=1M2vkDRtrou4-WLVhhlEad8jWOAGZsaFz5hc6Oc6S8g,83
+pylagg/cgr_py/image_gen.py,sha256=nzQBrAVJSiLuuDWhnf8dGWV9d3XGBtDOuNgeadi1DD8,2328
+pylagg/cgr_py/kmer_input.py,sha256=mx4qGQjWj47b8r6wyZmwWbJRbQZd9-z17Qhs9gfkd3A,2324
+pylagg/cut_adapt.py,sha256=xPFmpMrEJqdmczkIaH5Ta24ALnMTo0iGMib7rt2tDH0,1491
+pylagg/ena_download.py,sha256=DXtEuIt9SyE9Q21Aa4TELSu9R26vXZI3VWfDPIINIA0,2452
+pylagg/kmer_counting.py,sha256=noki5CHKpuWsUsBYGrYiRj4sOfez9vvybtraJ948UaA,1193
+pylagg/main.py,sha256=yQ9SfyT4NBu3bD0tuanQHPdk-slFEEqO08OwOmjXh5M,5068
+pylagg-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylagg-0.2.0.dist-info/METADATA,sha256=0lI-gthTWSSpdvyGYAyx_-A7GOLQeXvCyGRzRJP5p3E,1867
+pylagg-0.2.0.dist-info/WHEEL,sha256=veSd8pcvIVldeIKqOQE-_2w7n4R0NV-Dmc64f9SZ-wo,110
+pylagg-0.2.0.dist-info/entry_points.txt,sha256=jTHBOk0MJeRC4LFYe3HlXjc3paowOOXnrGpPyH1k-7o,40
+pylagg-0.2.0.dist-info/RECORD,,
