@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rust-result
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Ole Kliemann
+Author-email: mail@olekliemann.de
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# rust-result
+
+More radical approach to Rust's `std::result` in Python.
+
+## Documentation
+
+TBD
+
+## Similar Projects
+
+* [https://github.com/rustedpy/result](https://github.com/rustedpy/result)
+* [https://github.com/felixhammerl/resultify](https://github.com/felixhammerl/resultify)
+
