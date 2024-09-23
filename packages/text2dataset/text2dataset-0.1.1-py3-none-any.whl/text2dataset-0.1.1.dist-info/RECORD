@@ -1,0 +1,11 @@
+llm_translator/__init__.py,sha256=Jn7qYFb1gaUe8GXAwntaiiNCu6CNpv0v63Yu3SQJf9Q,53
+llm_translator/main.py,sha256=Qi2ZwPHXzxofgtwM5bLbk8yOUvCwNBY4bhzxLjr7IQc,5745
+llm_translator/reader.py,sha256=JwAWglpSiqi5LAHPwuV-_IzRunYv41ZuR3J1O31CrSc,413
+llm_translator/translator.py,sha256=7_85BQx46Sk2S9_G0CROEcwNmu48YB4JlBizqvOm5WY,1815
+llm_translator/utils.py,sha256=b_TymuMUH-CZnHA51fg_Q9F6TJJDC1T_G7CDgFC8K5w,710
+llm_translator/writer.py,sha256=CzvJE_u5IH-9r4Bnln97rr4O9OecB7Io-QqsmUyonc4,1118
+text2dataset-0.1.1.dist-info/METADATA,sha256=4dZHo7Gz-KjGhOfsTTGyI2-0-uffmY-lkug_F3fqb0Y,2633
+text2dataset-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+text2dataset-0.1.1.dist-info/entry_points.txt,sha256=9Z3APQo9cgVcs-D-M-wFWFd-bg1JmpvuH6SQ2LOZbGI,47
+text2dataset-0.1.1.dist-info/licenses/LICENSE,sha256=UFASP8yC_pnuY_V3sYRmnQrv4b0jzwtETRUeeEx26uA,1062
+text2dataset-0.1.1.dist-info/RECORD,,
