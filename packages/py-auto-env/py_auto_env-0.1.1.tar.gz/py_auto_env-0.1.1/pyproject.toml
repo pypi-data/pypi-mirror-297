@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-auto-env"
+version = "0.1.1"
+description = "A package to automatically load .env files into your environment"
+authors = ["jsieber2 <josefwsieber@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "py_auto_env"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
