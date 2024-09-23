@@ -1,0 +1,13 @@
+cmd2==1.5.0
+
+[dev]
+pep8
+pypandoc
+pre-commit
+mypy
+pytest
+
+[docs]
+Sphinx>=1.0
+sphinx_rtd_theme
+sphinxcontrib-programoutput
