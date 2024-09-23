@@ -1,0 +1,9 @@
+README.md
+setup.py
+marcel_socialsentiment/__init__.py
+marcel_socialsentiment/marcel_socialsentiment.py
+marcel_socialsentiment.egg-info/PKG-INFO
+marcel_socialsentiment.egg-info/SOURCES.txt
+marcel_socialsentiment.egg-info/dependency_links.txt
+marcel_socialsentiment.egg-info/requires.txt
+marcel_socialsentiment.egg-info/top_level.txt
