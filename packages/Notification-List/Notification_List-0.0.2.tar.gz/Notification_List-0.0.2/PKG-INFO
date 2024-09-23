@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Notification_List
+Version: 0.0.2
+Author: Ranjeet Aloriya
+Author-email: ranjeet.aloriya@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: pdfplumber
