@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "anam-python-sdk"
+version = "0.3.0"
+description = "An unofficial package to interact with Anam's Avatar engine."
+authors = ["Quinten Rosseel <quinten@anam.ai>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://www.anam.ai"
+repository = "https://github.com/anam-org/python-sdk"
+packages = [{include = "anam_python_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+aiortc = {version = "1.9.0", optional = true}
+aiohttp = {version = "^3.10.5", optional = true}
+websockets = {version = "^13.0.1", optional = true}
+opencv-python = {version = "^4.10.0.84", optional = true}
+livekit-api = {version = "^0.7.0", optional = true}
+livekit = {version = "^0.14.0", optional = true}
+livekit-agents = {version = "^0.8.10", optional = true}
+livekit-plugins-deepgram = {version = "^0.6.6", optional = true}
+livekit-plugins-openai = {version = "^0.8.1", optional = true}
+livekit-plugins-silero = {version = "^0.6.4", optional = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Optional dependencies
+# Install with `poetry install --with livekit` or `poetry install --with webrtc`
+[tool.poetry.extras]
+livekit = [
+    "livekit-api", 
+    "livekit", 
+    "livekit-agents", 
+    "livekit-plugins-deepgram", 
+    "livekit-plugins-openai", 
+    "livekit-plugins-silero", 
+    "opencv-python"
+]
+webrtc = [
+    "aiortc",
+    "aiohttp",
+    "websockets"
+]
