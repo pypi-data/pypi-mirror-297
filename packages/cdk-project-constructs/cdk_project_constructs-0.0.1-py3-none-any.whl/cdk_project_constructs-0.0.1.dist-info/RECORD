@@ -1,0 +1,7 @@
+cdk_constructs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdk_constructs/s3.py,sha256=rUPnc8NU0eAqD0LkbRKPtA0s5eN8cUPAeeY27hXbbC8,2631
+cdk_project_constructs-0.0.1.dist-info/LICENSE,sha256=wqfmOmk4bIdbzxyFiAmqGtD2qTE0aN_2ByIJqO1WsVw,1072
+cdk_project_constructs-0.0.1.dist-info/METADATA,sha256=h_1ysiQzlp3Mwfqan3pP4HxFMrndUFhMoUZV1NaG22A,466
+cdk_project_constructs-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+cdk_project_constructs-0.0.1.dist-info/top_level.txt,sha256=QD7NfSipUT9DcNc4Qx2qvAwSjhmBQWZiI0ZxXNBpK7Y,15
+cdk_project_constructs-0.0.1.dist-info/RECORD,,
