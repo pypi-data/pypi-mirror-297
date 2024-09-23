@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: jsonpath-rs
+Version: 0.1.9
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Home-Page: 
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/nazerpanahi/jsonpath-rs
+
+
