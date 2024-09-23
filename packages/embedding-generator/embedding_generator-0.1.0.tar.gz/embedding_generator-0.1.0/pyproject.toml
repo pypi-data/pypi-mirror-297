@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "embedding-generator"
+version = "0.1.0"
+description = "A module for generating embeddings for batches of texts using a SentenceTransformer model."
+authors = ["Ron Heichman <ronheichman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rrhd/embeddingGenerator"
+repository = "https://github.com/rrhd/embeddingGenerator"
+keywords = ["embedding", "NLP", "SentenceTransformer"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21"
+torch = "^1.9"
+sentence-transformers = "^2.0"
+orjson = "^3.6"
+tqdm = "^4.61"
+psutil = "^5.8"
+langchain_text_splitters = "^0.1"  # Include if used
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
