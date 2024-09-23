@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: unify_integration
+Version: 0.1.0
+Summary: The Unify tool package gives access to a single sign on client with multiple LLM endpoints and their metadata
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: promptflow ; extra == 'build'
+Requires-Dist: unifyai ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: requests-mock ; extra == 'dev'
+Requires-Dist: python-dotenv ; extra == 'dev'
+
