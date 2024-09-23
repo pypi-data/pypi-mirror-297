@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "wxdat"
+version = "1.5.0"
+description = "Weather data explorer."
+authors = ["jheddings <jheddings@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+click = "^8.1.7"
+prometheus-client = "^0.21.0"
+pydantic = "^2.9.2"
+sqlalchemy = "^2.0.35"
+psycopg2 = "^2.9.9"
+ratelimit = "^2.2.1"
+pyyaml = "^6.0.2"
+wamu = "^0.2.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+pytest = "^8.3.3"
+pytest-vcr = "^1.0.2"
+coverage = "^7.6.1"
+ruff = "^0.6.7"
+gitpython = "^3.1.43"
+
+[tool.poetry.scripts]
+wxdat = "wxdat.__main__:main"
+
+[tool.black]
+line_length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "C",   # flake8-comprehensions
+    "B",   # flake8-bugbear
+    "G",   # flake8-logging-format
+    "RET", # flake8-return
+    "ERA", # eradicate
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501", # line-too-long
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
