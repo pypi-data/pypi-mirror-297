@@ -1,0 +1,41 @@
+{
+   "name": "DarkAnalogous", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 1, 
+         "primary_color": "#4c1507", 
+         "secondary_color": "#ff7519"
+      }, 
+      {
+         "id": 2, 
+         "primary_color": "#4c2307", 
+         "secondary_color": "#ffa319"
+      }, 
+      {
+         "id": 15, 
+         "primary_color": "#074c4c", 
+         "secondary_color": "#19d1ff"
+      }, 
+      {
+         "id": 16, 
+         "primary_color": "#073e4c", 
+         "secondary_color": "#19a3ff"
+      }, 
+      {
+         "id": 17, 
+         "primary_color": "#07304c", 
+         "secondary_color": "#1975ff"
+      },
+      {
+         "id": 21, 
+         "primary_color": "#15074c", 
+         "secondary_color": "#7519ff"
+      }, 
+      {
+         "id": 22, 
+         "primary_color": "#23074c", 
+         "secondary_color": "#a319ff"
+      }
+   ]
+}

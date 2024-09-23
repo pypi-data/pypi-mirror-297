@@ -1,0 +1,46 @@
+{
+   "name": "BrightTetradic", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 2, 
+         "primary_color": "#ff7519", 
+         "secondary_color": "#0e4c07"
+      }, 
+      {
+         "id": 3, 
+         "primary_color": "#ffa319", 
+         "secondary_color": "#074c0e"
+      }, 
+      {
+         "id": 4, 
+         "primary_color": "#ffd119", 
+         "secondary_color": "#074c1c"
+      }, 
+      {
+         "id": 13, 
+         "primary_color": "#19ffa3", 
+         "secondary_color": "#0e074c"
+      }, 
+      {
+         "id": 14, 
+         "primary_color": "#19ffd1", 
+         "secondary_color": "#1c074c"
+      },
+      {
+         "id": 16, 
+         "primary_color": "#19d1ff", 
+         "secondary_color": "#37074c"
+      }, 
+      {
+         "id": 17, 
+         "primary_color": "#19a3ff", 
+         "secondary_color": "#45074c"
+      }, 
+      {
+         "id": 18, 
+         "primary_color": "#1975ff", 
+         "secondary_color": "#4c0745"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+{
+   "name": "DarkTriadic", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 22, 
+         "primary_color": "#23074c", 
+         "secondary_color": "#ff7519"
+      }, 
+      {
+         "id": 23, 
+         "primary_color": "#30074c", 
+         "secondary_color": "#ffa319"
+      }
+   ]
+}
