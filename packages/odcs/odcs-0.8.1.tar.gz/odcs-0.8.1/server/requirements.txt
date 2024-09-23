@@ -1,0 +1,33 @@
+Flask-Login==0.4.1; python_version <= '3.6'
+Flask-Login==0.6.2; python_version >= '3.9'
+Flask-Migrate==2.1.1; python_version <= '3.6'
+Flask-Migrate; python_version >= '3.9'
+Flask-SQLAlchemy==2.3.2; python_version <= '3.6'
+Flask-SQLAlchemy; python_version >= '3.9'
+Flask==1.0.2; python_version <= '3.6'
+Flask; python_version >= '3.9'
+SQLAlchemy==1.3.2; python_version <= '3.6'
+SQLAlchemy; python_version >= '3.9'
+Werkzeug==0.16.0; python_version <= '3.6'
+Werkzeug; python_version >= '3.9'
+apispec-webframeworks==0.5.2; python_version >= '3.9'  # Pin version to install from pypi
+apispec==5.2.2; python_version >= '3.9'  # Pin version to install from pypi
+celery==4.3.0; python_version <= '3.6'
+celery; python_version >= '3.9'
+defusedxml
+flufl.lock
+jinja2
+kobo
+koji
+marshmallow
+opentelemetry-exporter-otlp-proto-http; python_version >= '3.9'
+opentelemetry-instrumentation-flask; python_version >= '3.9'
+productmd
+prometheus_client
+psutil
+pygobject==3.28.3; python_version <= '3.6'
+pygobject; python_version >= '3.9'
+python-ldap
+requests<=2.22.0; python_version <= '3.6'
+requests; python_version >= '3.9'
+vine==1.3.0; python_version <= '3.6'  # This version is required by celery 4.3.0
