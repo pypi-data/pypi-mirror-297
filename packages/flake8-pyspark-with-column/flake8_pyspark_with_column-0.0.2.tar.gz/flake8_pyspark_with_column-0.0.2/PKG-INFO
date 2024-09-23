@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: flake8-pyspark-with-column
+Version: 0.0.2
+Summary: A Flake8 plugin to check for PySpark withColumn usage in loops
+Project-URL: Homepage, https://github.com/SemyonSinchenko/flake8-pyspark-with-column
+Project-URL: Repository, https://github.com/SemyonSinchenko/flake8-pyspark-with-column.git
+Author-email: Sem Sinchenko <ssinchenko@apache.org>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: flake8,linter,pyspark,quality
+Classifier: Environment :: Console
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: flake8>=3.0.0
+Description-Content-Type: text/markdown
+
+# Flake8-pyspark-with-column
+
+A flake8 plugin that detects of usage `withColumn` in a loop or inside `reduce`. From the PySpark documentation about `withColumn` method:
+
+```
+  This method introduces a projection internally.
+  Therefore, calling it multiple times, for instance,
+  via loops in order to add multiple columns
+  can generate big plans which can cause performance issues
+  and even StackOverflowException.
+  To avoid this, use select() with multiple columns at once.
+```
+
+## Rules
+This plugin contains the following rules:
+
+- `PSPRK001`: Usage of withColumn in a loop detected
+- `PSPRK002`: Usage of withColumn iside reduce is detected
