@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+module_python/__init__.py
+module_python/info.py
+module_python.egg-info/PKG-INFO
+module_python.egg-info/SOURCES.txt
+module_python.egg-info/dependency_links.txt
+module_python.egg-info/top_level.txt
+tests/tests_info.py

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: module_python
+Version: 0.1.0
+Summary: A Python package that displays roll number and name
+Home-page: https://test.pypi.org/project/my-python-package/
+Author: Himanshu Kumar Jha
+Author-email: himanshukrjha004@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My Python Package
+
+This package contains a simple function that prints the roll number and name of the student.
+
+## Installation
+
