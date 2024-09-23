@@ -1,0 +1,12 @@
+comiq/__init__.py,sha256=y8JfSWWNDyrTtlWa7OWO1YuJvJLCVeBqsPjBXFoDTr4,104
+comiq/ai_processing.py,sha256=ArVgrFpoQtjvEDj8QesIOCC7EkV2bij1D2LCzcBkyJg,1362
+comiq/comiq.py,sha256=-Q708fuYB25Onj2r8T-A6uu--zU_KkeHbu6fDEJAHW4,2195
+comiq/ocr.py,sha256=osOPmcq4oinP7jhB979oBlxZT1J4zErA8TKTr2nOTm0,2098
+comiq/preprocessing.py,sha256=A-Bc4buELNzx4o_LvVljfbac4pnZ6bCULKraLc0RBT8,892
+comiq/prompts.py,sha256=x5Xm7mZMZHRRLMEexstQ3EGTNDtvXBxTecKBqnvQB44,4350
+comiq/utils.py,sha256=QK8Sk3skvuXI2kvcJ3nyOau0DCY-eUmW-YTITfmvibg,2251
+comiq-0.0.1.dist-info/LICENSE,sha256=MA4ug0mWAPCBwqj9RN1xFRFWkICvUezNiIsAxWd784U,1089
+comiq-0.0.1.dist-info/METADATA,sha256=hyy8xq-HKzcq0C_tojhtnjM3ef3EMbQmwIqVe9nrido,5951
+comiq-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+comiq-0.0.1.dist-info/top_level.txt,sha256=EU3nJfX7CEFR0hXNSKb8hdg8Gzr8R91WNv-kOKrNlKo,6
+comiq-0.0.1.dist-info/RECORD,,
