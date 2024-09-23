@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pypiexample
+Version: 0.1.0
+Summary: a greeting message.
+Home-page: https://github.com/DevaDharshini-Ihub/pypi
+Author: DevaDharshini-ihub
+Author-email: deva.d.ihub@snsgroups.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My Package
+
+This package provides functions to greet from different modules.
+
+## Installation
+
+You can install this package using pip after it's uploaded to PyPI.
+
+## Usage
+
+```python
+from my_package import greet_a, greet_b
+
+print(greet_a())  # Outputs: Hello from module A
+print(greet_b())  # Outputs: Hello from module B
