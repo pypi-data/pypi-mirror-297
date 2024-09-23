@@ -1,0 +1,323 @@
+from re import search
+import sys
+import os
+import json
+import logging
+import logging.handlers
+import time
+import argparse
+from typing import Dict
+
+from .enums.lit_enum import LitEnum
+from .periodic_task import PeriodicTask
+
+from .global_config import gconfig
+from .db_mgr import DBMgr
+from .configuration_helper import ConfigurationHelper
+from .db_base import DBBase
+from .task_db import TaskDB
+from .enums.task_status_enum import TaskStatusEnum
+from .task_loader import TaskLoader
+
+class TMgr():
+    """class to manage task from DDBB
+
+    Returns:
+        int: value of the task
+    """    
+    taskmgr_name="staskmgr"
+    configuration_file=None #"appconfig.json"
+    
+    task_definitions={}
+    
+    th_check_configuration=None
+    
+    tasks_active=[]
+    
+    
+    def __init__(self,config_like:any,taskmgr_name="staskmgr"):
+        """
+        Initializes TaskManager.
+
+        Args:
+            config_like (any): dict configuration or file path to load configuration
+            taskmgr_name (str, optional): Name of the task manager. This is the key name in DDBB configuration. Default to "staskmgr".
+
+        Attributes:
+            configuration_file (any): Store the file name of the configuration, not used yet but in future it can be reloaded automatically to retrieve new configuration.
+            log (logging.Logger): application logs            
+            wait_between_tasks_seconds (int): Wait time between checking task to avoid query DDBB all the time. When Redis or similar will be used this must be changed.
+            monitor_wait_time_seconds (int): Wait time before close task manager. 
+            max_wait_count (int): max wait time. This is useful when you create a manager in a docker and you want to wait to reutilize the hardware. Task manager will wait this time by the number of counts.
+        """
+        self.log = logging.getLogger(__name__)
+        self.log.info(f"Starting STMR for {taskmgr_name}")  
+        self.taskmgr_name=taskmgr_name
+        self.configuration_file=config_like  
+        self.max_wait_count=10
+        self.wait_between_tasks_seconds=1
+        self.monitor_wait_time_seconds=-1
+
+        self.init_configuration(config_like=config_like)
+        
+
+        
+    @property
+    def app_config(self):
+        """get global configuration
+
+        Returns:
+            dict: global configuration
+        """        
+        return gconfig.app_config   
+
+
+    @app_config.setter
+    def app_config(self, value):
+        """set global configuration
+
+        Args:
+            value (dict): global configuration
+        """        
+        gconfig.app_config = value
+        
+    @property
+    def mgr_config(self):
+        """get manager configuration
+
+        Returns:
+            dict: manager configuration
+        """        
+        return gconfig.app_config.get("mgr_config")    
+
+    def init_configuration(self,config_like:any):
+        """init configuration
+
+        Args:
+            config_like (str|dict): a dict with configuration or a file with configuration
+        """        
+        cfgh=ConfigurationHelper() 
+        self.app_config= cfgh.load_config(config_like= config_like)  
+        #INIT DATABASE
+        db_config=self.app_config["DDBB_CONFIG"]
+        DBMgr().init_database(db_config)
+        self.log.info(f"Loading initial DDBB configuration for {self.taskmgr_name}") 
+        self.config_tmgr_from_ddbb() 
+         
+        TaskDB().reset_status()     
+        self._load_task_definitions()
+        
+        if self.app_config.get("check_configuration_interval",-1)>0:
+            self.th_check_configuration=PeriodicTask(interval=10, task_function=self.config_tmgr_from_ddbb)
+            self.th_check_configuration.start()
+        
+    def config_tmgr_from_ddbb(self):
+        """config manager
+
+        Args:
+            cfg (dict): dict with configuration
+        """        
+        cfg:Dict=TaskDB().get_task_mgr_configuration(self.app_config["manager_name"]).config
+        self.app_config["mgr_config"]=cfg
+        self.max_wait_count=cfg.get("max_wait_count",10) 
+        self.wait_between_tasks_seconds=cfg.get("wait_between_tasks_seconds",1) 
+        self.monitor_wait_time_seconds=cfg.get("monitor_wait_time_seconds",-1) 
+        self.log.debug(f"Configuration loaded  for {self.taskmgr_name}")
+        
+        
+    def _load_task_definitions(self): 
+        """load task handlers from config file
+        """           
+        self.task_definitions=self.app_config.get("task_handlers",{})
+        count=0
+        if self.task_definitions is None:
+            pass
+        else:
+            count=len(self.task_definitions)
+            self.log.info(f"Task definitions loaded from config file: {count}")
+
+    def stop_tasks(self):
+        """stop internal threads
+        """        
+        self.log.debug("Stop threads if needed.")
+        if self.th_check_configuration:
+            self.th_check_configuration.stop()
+          
+    def get_task(self, id_task) :
+        """return task object
+
+        Args:
+            id_task (uuid|str): id of the task
+
+        Returns:
+            Task: Task
+        """        
+        task=TaskDB().get_task(id_task)
+        return task
+            
+    def fetch_pending_tasks(self):
+        """return 1 pending task
+
+        Returns:
+            Any: task row
+        """        
+        db=DBBase()
+        session = db.getsession()
+        try:
+            task_types=self.app_config["mgr_config"].get("task_types")
+            task=TaskDB(scoped_session=session).get_pending_task(task_types=task_types) 
+            return task
+        except Exception:
+            raise 
+        finally:
+            db.closeSession()
+            
+    def task_definition_fetch(self,task_definition):
+        """return task definition
+
+        Returns:
+            Any: task definition row
+        """        
+        db=DBBase()
+        session = db.getsession()
+        try:
+            search_type=self.mgr_config.get(LitEnum.task_definition_search_type,LitEnum.CFG_DB)
+            task=None
+            if search_type in [LitEnum.CFG_ONLY, LitEnum.CFG_DB] :
+                task=self.task_definitions[task_definition]
+                if task is None and search_type in [LitEnum.CFG_DB] :
+                    task=TaskDB(scoped_session=session).get_task_definition(task_type=task_definition) 
+            elif search_type in [LitEnum.DB_ONLY,LitEnum.DB_CFG]:
+                task=TaskDB(scoped_session=session).get_task_definition(task_type=task_definition)   
+                if task is None and search_type in [LitEnum.DB_CFG] :
+                    task=self.task_definitions[task_definition]
+
+            if task:
+                config=None
+                if isinstance(task, dict):
+                    config=task.get("config")
+                else:
+                    config=task.config
+                return config
+                # return task["config"]
+            else:
+                raise Exception(f"Task definition not found {task_definition}")
+        except Exception as oex:
+            raise 
+        finally:
+            db.closeSession()            
+    
+    def execute_task(self,id_task):
+        """launch a task based on the task info
+
+        Args:
+            id_task (uuid|str): id of the task
+
+        Returns:
+            _type_: _description_
+        """      
+        log=self.log
+        log.info(f"Starting task execution: {id_task}")   
+        task_ret=0
+        db=DBBase()
+        session=db.getsession()
+        task_db=TaskDB(scoped_session=session)       
+        try:           
+            #update task to CHECKING
+            resp=task_db.update_status(id=id_task,new_status=TaskStatusEnum.CHECKING,prev_status=TaskStatusEnum.PENDING,output="" )
+            if resp["status"]==TaskStatusEnum.CHECKING:   
+                launchType:str=""  
+                task_obj=self.get_task(id_task)
+                task_type=str(task_obj.type).upper()  
+                task_ret={} 
+                task_config=self.task_definition_fetch(task_definition=task_type)                
+                if task_config is None:
+                    msg=f"task definition not found: {task_type}"
+                    task_db.update_status(id=id_task,new_status=TaskStatusEnum.ERROR,output=msg)
+                    return 
+
+                
+                launchType=task_config["task_handler"].get("launchType","")
+                if not "task_definition" in task_config:
+                    task_config["task_definition"]={}
+                task_config["task_definition"]["task_id_task"]=str(id_task)
+                
+                resp=task_db.update_status(id=id_task,new_status=TaskStatusEnum.WAIT_EXECUTION )
+                tl=None
+                try:
+                    tl=TaskLoader(task_config)
+                    #-----------START TASK  --------------------
+                    
+                    task_ret=tl.run_task()
+                    #-----------END TASK    --------------------
+                    
+                    if task_ret.get("status","").upper()=="ERROR":
+                        msg=task_ret['message']
+                        task_db.update_status(id=id_task,new_status=TaskStatusEnum.ERROR,output=msg) 
+                        log.error(f"Task {id_task} launched with errors: {msg}") 
+                    else:
+                        if launchType.upper()==LitEnum.LAUNCHTYPE_INTERNAL: 
+                            #We set task_next_status to FINISHED if it is not informed.
+                            task_next_status=task_config["task_handler"].get("task_next_status",TaskStatusEnum.FINISHED) 
+                            msg=task_ret.get('message',None)
+                            progress=100                                                        
+                            task_db.update_status(id=id_task,new_status=task_next_status,output=msg,progress=progress) 
+                        log.info(f"Task {id_task} finished.")                     
+                    
+                    
+                except Exception as ex:
+                    # here we manage errors inside class, not logical or functional errors that are controlled in task_ret var.
+                    msg=str(ex)
+                    task_ret['message']=msg
+                    task_ret["status"]="ERROR"
+                    task_db.update_status(id=id_task,new_status=TaskStatusEnum.ERROR,output=msg,progress=0) 
+
+                task_ret["next_task_wait_seconds"]=task_config.get("next_task_wait_seconds",0)
+
+            else:
+                # No se ha podido actualizar, bien porque se ha borrado, porque ya se ha ejecutado, etc. 
+                log.warning(f"Task {id_task} not launched. Maybe was deleted or executed in other process.")  
+                
+            return task_ret
+
+        except Exception as ex:
+            self.log.error(f"Task {id_task} raised error {str(ex)}")
+
+
+    
+    def monitor_and_execute(self):
+        """check and execute pending tasks
+        """                
+        try:
+            max_wait_counter=0
+            while True:
+                task = self.fetch_pending_tasks()
+                if task:
+                    task_id = str(task.id)
+                    task_ret=self.execute_task(task_id)  
+                    next_task_wait_seconds=task_ret.get("next_task_wait_seconds",0)
+                    if self.wait_between_tasks_seconds >0 or next_task_wait_seconds>0: 
+                        #When we use this? When the task is executed in a thread, or in flow where we want to wait a time like upscalling resources 
+                        if next_task_wait_seconds>  self.wait_between_tasks_seconds:
+                           wait_between_tasks_seconds= next_task_wait_seconds
+                        else:
+                           wait_between_tasks_seconds =self.wait_between_tasks_seconds
+                        time.sleep(wait_between_tasks_seconds) 
+                    max_wait_counter=0                     
+                else:                    
+                    max_wait_counter+=1
+                    if self.monitor_wait_time_seconds>0 and max_wait_counter==self.max_wait_count:
+                        self.log.info(f"No pending tasks stopping Task manager. Wait time was {str(self.monitor_wait_time_seconds)} seconds ")
+                        return
+                if  self.monitor_wait_time_seconds>0:   
+                    time.sleep(self.monitor_wait_time_seconds)  # Espera antes de volver a verificar
+        finally:
+            self.stop_tasks()
+    
+    
+
+
+
+
+
+
