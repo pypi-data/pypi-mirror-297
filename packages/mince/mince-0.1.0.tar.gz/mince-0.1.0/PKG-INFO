@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: mince
+Version: 0.1.0
+Summary: mince is a toolkit for slicing up data into bite-sized dashboards
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: polars >= 1.0
+Requires-Dist: typing-extensions >=4.9.0 ; extra == "test"
+Project-URL: Documentation, https://github.com/paradigmxyz/mince
+Project-URL: Source, https://github.com/paradigmxyz/mince
+Provides-Extra: test
+
+
+# mince 🔪🧄🧅
+
+toolkit for slicing up data into bite-sized dashboards
+
+Steps for using mince:
+1. ingest raw data into standardized format
+2. define dashboard specification
+3. serve dashboard
+4. continually update the data
+
+
