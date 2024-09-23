@@ -1,0 +1,3 @@
+[console_scripts]
+nbyt-rss=nbyt_rss.main:app
+
