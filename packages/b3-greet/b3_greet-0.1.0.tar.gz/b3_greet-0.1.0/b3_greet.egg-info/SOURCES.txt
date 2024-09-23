@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+b3_greet/__init__.py
+b3_greet.egg-info/PKG-INFO
+b3_greet.egg-info/SOURCES.txt
+b3_greet.egg-info/dependency_links.txt
+b3_greet.egg-info/top_level.txt
