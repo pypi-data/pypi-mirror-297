@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: network_intrusion_detection
+Version: 0.1.4
+Summary: A Python package for CNN-LSTM model pre-trained on CICIDS2017 and finetuned on UNSW-NB15 for network intrusion detection.
+Author: ID: 2319323
+Author-email: 2319323@chester.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+
+# Intrusion Detection Package
+
+This package provides a CNN-LSTM-based intrusion detection model that can be used to classify network traffic as benign or malicious.
+
+## Installation
+
+You can install the package using pip:
+
+pip install net_intrusion_detection
+
+
+## Usage
+
+To use the model, follow these steps:
+
+1. Load your pre-trained model (.h5 file).
+2. Preprocess your network traffic data (CSV format).
+3. Make predictions on the data.
+
+Example:
+
+```python
+from network_intrusion_detection import make_prediction
+
+predictions = make_prediction('path_to_model.h5', 'path_to_csv_file.csv')
+print(predictions)
