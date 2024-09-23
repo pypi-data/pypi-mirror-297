@@ -1,0 +1,10 @@
+scaffer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scaffer/__main__.py,sha256=s9c4RxFdANCG5XPxsb8Z0yaIi-8_S0VbIq9K7OqECCE,41
+scaffer/emitter.py,sha256=ELu39hS5tN2wViJXfZeVykUc483qOQpS-eTaa0-jh-I,3756
+scaffer/scaffer.py,sha256=Rikxpu1elumuRQyQZkQ_gy7SoDbKOCihZPphnH99rgA,6411
+scaffer-3.0.dist-info/LICENSE,sha256=k6zlCez5eDpPo9R3sMWAGUFQNFrkZ8-nBgIwj2rcW-k,1090
+scaffer-3.0.dist-info/METADATA,sha256=FUGsnEG4dePdHqqEJx4kQrPUADycon9uwRo6y-k-zVI,5025
+scaffer-3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+scaffer-3.0.dist-info/entry_points.txt,sha256=Gn9Jd5uig4RV0A1x3U5MtqK-ZB-gq0eYkJer2aYjHdA,49
+scaffer-3.0.dist-info/top_level.txt,sha256=_NfxlEB1P2fOTT-vL80rgCVRSQ3aCRlP4Z7gztODQmU,8
+scaffer-3.0.dist-info/RECORD,,
