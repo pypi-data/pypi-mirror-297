@@ -1,0 +1,9 @@
+README.md
+setup.py
+V_page_extract/__init__.py
+V_page_extract/main.py
+V_page_extract.egg-info/PKG-INFO
+V_page_extract.egg-info/SOURCES.txt
+V_page_extract.egg-info/dependency_links.txt
+V_page_extract.egg-info/requires.txt
+V_page_extract.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: V_page_extract
+Version: 0.1.0
+Summary: page extractor
+Author: Vadym S
+Author-email: olko.soroka3@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2>=1.26.0
+
+# PDF Extractor
+
+extract pages from a PDF and save them as a new PDF file.
+
+## Installation
+
+pip install V_page_extract
