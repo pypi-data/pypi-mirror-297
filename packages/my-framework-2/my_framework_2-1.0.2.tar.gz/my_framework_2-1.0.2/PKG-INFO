@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: my_framework_2
+Version: 1.0.2
+Summary: A Python framework similar to Nilgiri
+Author: Priya
+Author-email: priyasenthil1712@gmail.com
+Requires-Dist: playwright
+Requires-Dist: pytest
+Requires-Dist: behave

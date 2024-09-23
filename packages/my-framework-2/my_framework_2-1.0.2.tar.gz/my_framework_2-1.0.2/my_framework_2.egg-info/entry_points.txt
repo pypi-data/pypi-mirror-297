@@ -1,0 +1,2 @@
+[console_scripts]
+my_framework_init = my_framework_2.cli:main
