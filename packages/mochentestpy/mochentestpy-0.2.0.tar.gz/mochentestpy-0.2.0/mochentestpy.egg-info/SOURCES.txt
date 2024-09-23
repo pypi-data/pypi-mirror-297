@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+mc_test_table/__init__.py
+mc_test_table/main.py
+mochentestpy.egg-info/PKG-INFO
+mochentestpy.egg-info/SOURCES.txt
+mochentestpy.egg-info/dependency_links.txt
+mochentestpy.egg-info/entry_points.txt
+mochentestpy.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+mctest = mc_test_table.main:main

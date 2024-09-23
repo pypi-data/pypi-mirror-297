@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mochentestpy
+Version: 0.2.0
+Summary: A simple example package
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+<h1 align="center">Test Python Packages</h1>
