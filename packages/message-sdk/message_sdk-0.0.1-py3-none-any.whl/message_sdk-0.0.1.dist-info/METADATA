@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: message-sdk
+Version: 0.0.1
+Summary: 
+Author: wondera
+Author-email: dev@wondera.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# 同步方式
+
+```
+import asyncio
+import signal
+from time import sleep
+
+from utils import download, download_audios
+
+from task_dispatcher.common.enums import TaskType
+from task_dispatcher.task_dispatcher import TaskDispatcher
+
+# print(TaskType.GENERATE_SONG.value)
+
+bootstrap_server = [
+    '127.0.0.1:9092',
+    # '127.0.0.1:9093',
+]
+
+index = 0
+
+
+def message_handler(sdk, topic, message, consumer, producer):
+    global index
+    print(f'{index=}')
+    print(f'message_handler running : {topic=}, {message=}')
+    consumer.commit()
+    url = 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso'
+
+    # asyncio.create_task(download_audios(url, str(message)))
+    # sleep(3)
+
+    download(url, str(message))
+
+    sdk.send_message(
+        {
+            'task_id': 'a75cdd23ceb94896a4610c8df6de7135',
+            'task_type': 'generate_song',
+            'app': 'material_api',
+            'params': {
+                'stream_url': 'https://audiopipe.suno.ai/?item_id=c05eeff4-24b9-41de-b8de-43f616a85e6e',
+                'voice_range': 'Alto',
+                'model_name': 'zero',
+                'prompt_audio': '/data/Materials/a6b2b655833545b984bd956b6d195682/level0/full/60s.wav',
+                'model_id': '',
+                'model_path': '',
+                'kmeans_model_path': '',
+                'song_name': '',
+                'artist_name': '',
+            },
+        },
+        'generate_song',
+    )
+
+    index += 1
+
+
+# sdk = TaskDispatcher(bootstrap_server, app='material_api')
+sdk = TaskDispatcher(bootstrap_server, message_handler, model='sep')
+
+
+# sdk.set_topics(
+#     {
+#         'subscribed_topics': ['generate_song_result'],
+#         'result_topics': ['generate_song'],
+#     }
+# )
+
+# sdk.add_topics(
+#     {
+#         'subscribed_topics': ['replace_vocal_result'],
+#         'result_topics': ['replace_vocal'],
+#     }
+# )
+print(f'get_topics: {sdk.get_topics()}')
+
+
+# sdk.send_message(
+#     {
+#         'task_id': 'a75cdd23ceb94896a4610c8df6de7135',
+#         'task_type': 'generate_song',
+#         'app': 'material_api',
+#         'params': {
+#             'stream_url': 'https://audiopipe.suno.ai/?item_id=c05eeff4-24b9-41de-b8de-43f616a85e6e',
+#             'voice_range': 'Alto',
+#             'model_name': 'zero',
+#             'prompt_audio': '/data/Materials/a6b2b655833545b984bd956b6d195682/level0/full/60s.wav',
+#             'model_id': '',
+#             'model_path': '',
+#             'kmeans_model_path': '',
+#             'song_name': '',
+#             'artist_name': '',
+#         },
+#     },
+#     # 'generate_song',
+# )
+
+sdk.consume_message()
+
+```
+
+# 异步方式
+
+```
+import asyncio
+import signal
+from time import sleep
+
+from utils import download
+
+from message_sdk import MessageSDK
+
+
+async def signal_handler():
+    while True:
+        await asyncio.sleep(1)
+
+
+async def main():
+    bootstrap_server = [
+        '127.0.0.1:9092',
+        # '127.0.0.1:9093',
+    ]
+
+    sdk = MessageSDK(bootstrap_server, model='sep')
+
+    while True:
+        print('--------------------------------')
+        message = await sdk.async_consume_message()
+        print(f'Consumed message: {message}')
+
+        url = 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso'
+
+        asyncio.create_task(download(url, str(message)))
+        sdk.commit()
+
+
+asyncio.run(main())
+
+
+```
