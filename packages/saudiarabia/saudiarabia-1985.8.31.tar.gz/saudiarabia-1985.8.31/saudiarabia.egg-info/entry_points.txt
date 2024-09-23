@@ -1,0 +1,2 @@
+[console_scripts]
+saudiarabia = saudiarabia.__init__:main_function

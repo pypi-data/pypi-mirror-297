@@ -1,0 +1,8 @@
+README.md
+setup.py
+mein_paket/__init__.py
+saudiarabia.egg-info/PKG-INFO
+saudiarabia.egg-info/SOURCES.txt
+saudiarabia.egg-info/dependency_links.txt
+saudiarabia.egg-info/entry_points.txt
+saudiarabia.egg-info/top_level.txt
