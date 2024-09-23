@@ -1,0 +1,11 @@
+glidergun/__init__.py,sha256=2eeK17R8k6VrngmCw5hB4mfgDJMu4a2nYs0hltHccN4,491
+glidergun/_grid.py,sha256=1asuW03l0Z8CATf1nDjiw0GSh2fvZw5XRisEOGP8_JE,54637
+glidergun/_ipython.py,sha256=YcRFtvDu8cTj9aVYG5iSPIzkMS8f5Z44h2bW93L2C0A,4259
+glidergun/_literals.py,sha256=ybcfybJXoCONMlXRPRqGGdmbcPiz1gSXHZuuDqj4wh4,2036
+glidergun/_mosaic.py,sha256=mkYAFcXJ1jWLPL2qbb3FA_NlTv8xEatfFyzOb2HgYYQ,653
+glidergun/_stack.py,sha256=p-76Jg--buZAIsl_cGbcR-7MZZRYHJpOPjzmOHdlbws,10794
+glidergun/_utils.py,sha256=ZHZTFMXU4NBcCial9XZudlLkJMajqbBmrPdZW7uCfLM,207
+glidergun-0.7.4.dist-info/METADATA,sha256=-NlmOHzvUuZwNuiLSgGoyDqbeo9IprITC5pJQbbyzUk,2537
+glidergun-0.7.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+glidergun-0.7.4.dist-info/top_level.txt,sha256=G-FZXZgOeWxicU4QRFJP0KntDGDbTgJJ-tdwRlpmFi4,10
+glidergun-0.7.4.dist-info/RECORD,,
