@@ -1,0 +1,761 @@
+Metadata-Version: 2.3
+Name: openmind_accelerate
+Version: 0.5.2
+Summary: The openmind-accelerate is a product which allows you to use NVIDIA Megatron-LM in accelerate framework.
+Project-URL: Homepage, https://gitee.com/openmind-ai/openmind-accelerate
+Project-URL: Repository, https://gitee.com/openmind-ai/openmind-accelerate
+Author-email: The openmind-accelerate Team <contact@openmind.cn>
+License: The following applies to all files unless otherwise noted:
+        
+           Copyright (c) 2024, Huawei Technologies Co., Ltd All rights reserved.
+           openMind Accelerate is licensed under Mulan PSL v2.
+           You can use this software according to the terms and conditions of the Mulan PSL v2.
+           You may obtain a copy of Mulan PSL v2 at:
+                    http://license.coscl.org.cn/MulanPSL2
+           THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+           See the Mulan PSL v2 for more details.
+        
+        
+                             Mulan Permissive Software License，Version 2
+        
+           Mulan Permissive Software License，Version 2 (Mulan PSL v2)
+           January 2020 http://license.coscl.org.cn/MulanPSL2
+        
+           Your reproduction, use, modification and distribution of the Software shall be subject to Mulan PSL v2 (this License) with the following terms and conditions:
+        
+           0. Definition
+        
+              Software means the program and related documents which are licensed under this License and comprise all Contribution(s).
+        
+              Contribution means the copyrightable work licensed by a particular Contributor under this License.
+        
+              Contributor means the Individual or Legal Entity who licenses its copyrightable work under this License.
+        
+              Legal Entity means the entity making a Contribution and all its Affiliates.
+        
+              Affiliates means entities that control, are controlled by, or are under common control with the acting entity under this License, ‘control’ means direct or indirect ownership of at least fifty percent (50%) of the voting power, capital or other securities of controlled or commonly controlled entity.
+        
+           1. Grant of Copyright License
+        
+              Subject to the terms and conditions of this License, each Contributor hereby grants to you a perpetual, worldwide, royalty-free, non-exclusive, irrevocable copyright license to reproduce, use, modify, or distribute its Contribution, with modification or not.
+        
+           2. Grant of Patent License
+        
+              Subject to the terms and conditions of this License, each Contributor hereby grants to you a perpetual, worldwide, royalty-free, non-exclusive, irrevocable (except for revocation under this Section) patent license to make, have made, use, offer for sale, sell, import or otherwise transfer its Contribution, where such patent license is only limited to the patent claims owned or controlled by such Contributor now or in future which will be necessarily infringed by its Contribution alone, or by combination of the Contribution with the Software to which the Contribution was contributed. The patent license shall not apply to any modification of the Contribution, and any other combination which includes the Contribution. If you or your Affiliates directly or indirectly institute patent litigation (including a cross claim or counterclaim in a litigation) or other patent enforcement activities against any individual or entity by alleging that the Software or any Contribution in it infringes patents, then any patent license granted to you under this License for the Software shall terminate as of the date such litigation or activity is filed or taken.
+        
+           3. No Trademark License
+        
+              No trademark license is granted to use the trade names, trademarks, service marks, or product names of Contributor, except as required to fulfill notice requirements in Section 4.
+        
+           4. Distribution Restriction
+        
+              You may distribute the Software in any medium with or without modification, whether in source or executable forms, provided that you provide recipients with a copy of this License and retain copyright, patent, trademark and disclaimer statements in the Software.
+        
+           5. Disclaimer of Warranty and Limitation of Liability
+        
+              THE SOFTWARE AND CONTRIBUTION IN IT ARE PROVIDED WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. IN NO EVENT SHALL ANY CONTRIBUTOR OR COPYRIGHT HOLDER BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO ANY DIRECT, OR INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OR INABILITY TO USE THE SOFTWARE OR THE CONTRIBUTION IN IT, NO MATTER HOW IT’S CAUSED OR BASED ON WHICH LEGAL THEORY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+        
+           6. Language
+        
+              THIS LICENSE IS WRITTEN IN BOTH CHINESE AND ENGLISH, AND THE CHINESE VERSION AND ENGLISH VERSION SHALL HAVE THE SAME LEGAL EFFECT. IN THE CASE OF DIVERGENCE BETWEEN THE CHINESE AND ENGLISH VERSIONS, THE CHINESE VERSION SHALL PREVAIL.
+        
+           END OF THE TERMS AND CONDITIONS
+        
+           How to Apply the Mulan Permissive Software License，Version 2 (Mulan PSL v2) to Your Software
+        
+              To apply the Mulan PSL v2 to your work, for easy identification by recipients, you are suggested to complete following three steps:
+        
+              i Fill in the blanks in following statement, including insert your software name, the year of the first publication of your software, and your name identified as the copyright owner;
+        
+              ii Create a file named “LICENSE” which contains the whole context of this License in the first directory of your software package;
+        
+              iii Attach the statement to the appropriate annotated syntax at the beginning of each source file.
+        
+        
+        --
+        
+        This repository also contains code from HuggingFace (from their
+        accelerate projects). Files from these organization(s) have notices
+        at the top of each file. Below are licenses used in those files, as indicated.
+        
+        ----------------------- LICENSE FOR HuggingFace code  -----------------------
+        
+        
+                                         Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright [yyyy] [name of copyright owner]
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+License-File: LICENSE
+License-File: LICENSE-Apache-2.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Mulan Permissive Software License v2 (MulanPSL-2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: <3.11,>=3.8
+Requires-Dist: accelerate==0.28.0
+Requires-Dist: datasets==2.18.0
+Requires-Dist: setuptools==69.5.1
+Requires-Dist: torch-npu==2.1.0.post3
+Requires-Dist: torch==2.1.0
+Requires-Dist: transformers==4.39.2
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Requires-Dist: ruff; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# openmind-accelerate
+
+# 简介
+
+## accelerate
+
+accelerate 是一个用于加速深度学习训练的工具库。它提供了一些优化技术和工具，能够提高训练速度、性能和效率。支持混合精度训练、模型并行和数据并行、分布式训练等功能。
+
+## openmind_accelerate
+
+openmind-accelerate 为 accelerate 的插件仓，通过复用 accelerate 的 plugin 机制，增加其对于 nvidia 官方 megatron 框架的支持。
+
+其打包的 whl 包名为 openmind_accelerate。
+
+# 如何使用openmind_accelerate
+
+```python
+import openmind_accelerate
+```
+
+用户只需简单的导入 openmind_accelerate，即可自动获取通过 accelerate 调用 nvidia 官方 megatron 的能力，并且不改变原生 accelerate 的使用方式。
+
+同时，openmind_accelerate 还会自动根据环境信息，导入适配 npu 的相关能力。
+
+而这一切，都不需要用户额外的关心。
+
+# 环境准备
+
+python3.8版本及以上
+
+## 1. 安装依赖
+
+请安装最新昇腾软件栈：https://www.hiascend.com/zh/
+
+| 依赖软件            |
+|-----------------|
+| Driver          |
+| Firmware        |
+| CANN            |
+| Kernel          |
+| PyTorch         |
+| torch_npu       |
+| apex            |
+| MindSpeed-1.0 |
+
+## 2. 获取 Megatron-LM
+
+如有旧版本 Megatron-LM 请先卸载，再进行安装操作。
+
+```shell
+git clone https://github.com/NVIDIA/Megatron-LM.git
+cd Megatron-LM
+git checkout bcce6f54e075e3c3374ea67adefe54f3f2da2b07
+pip install --no-use-pep517 -e .
+```
+
+## 3. 安装 openmind
+
+```shell
+git clone https://gitee.com/openmind-ai/openmind.git
+cd openmind
+pip install -e .
+```
+
+## 4. 安装 openmind_accelerate
+
+```shell
+git clone https://gitee.com/openmind-ai/openmind-accelerate.git
+cd openmind-accelerate
+
+#aarch64平台
+pip install -e .
+
+#x86平台
+pip install -e . --extra-index-url https://download.pytorch.org/whl/cpu 
+```
+
+# 快速开始预训练
+
+## 准备数据
+
+用户可以准备好自己的预训练数据，例如[falcon](https://huggingface.co/datasets/tiiuae/falcon-refinedweb)，[slimpajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main)，[alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca)数据集。
+
+如果用户需要预训练 Megatron 模型，则还要参考[Megatron的数据处理方法](https://github.com/NVIDIA/Megatron-LM?tab=readme-ov-file#data-preprocessing)进行处理。
+
+准备好数据集后在[llama2-megatron.yaml](./examples/llama2_config/llama2-megatron.yaml)配置文件中设置data_path，传入数据集路径。
+
+## 准备模型
+
+用户可以准备好模型文件，例如[llama2模型](https://huggingface.co/meta-llama/Llama-2-7b-hf)。
+
+如果用户需要预训练 Megatron 模型，则只需要准备 config.json 和 tokenizer 相关文件即可。
+
+准备好模型后在[llama2-megatron.yaml](./examples/llama2_config/llama2-megatron.yaml)配置文件中设置openmind_model_path和tokenizer_model，传入模型和分词器路径。
+
+## 启动
+
+```shell
+## 默认使用以下配置文件 ##
+# examples/train_with_megatron.py
+# examples/accelerate_config/accelerate_megatron_config.yaml
+# examples/llama2_config/llama2-megatron.yaml
+
+cd openmind-accelerate
+bash examples/train_launch.sh
+```
+
+# 进阶使用
+
+## 使用Megatron框架预训练模型
+
+### 场景1：使用megatron格式数据
+
+1. 修改 examples/llama2_config/llama2-megatron.yaml 配置文件，设置项：
+
+   ```yaml
+   data_path: 'data/falcon-slimpajama-merged-dataset/llama2-mt_text_document'
+   save_dir: 'model/llama-2-7b-hf_save'
+   save_interval: 100
+   openmind_model_path: 'model/llama-2-7b-hf'
+   plugin_args:
+     tp_degree: 4
+     other_megatron_args:
+       tokenizer_model: 'model/llama-2-7b-hf/tokenizer.model'
+   ```
+
+2. 修改 examples/llama2/train_launch.sh 启动脚本，设置项：
+
+   ```shell
+   export CUDA_VISIBLE_DEVICES_=0,1,2,3
+   source /usr/loacal/Ascend/ascend-toolkit/set_env.sh
+   
+   # 设置对应配置文件及脚本
+   SCRIPT_PATH=examples/train_with_megatron.py
+   ACCELERATE_CONF_PATH=examples/accelerate_config/accelerate_megatron_config.yaml
+   PRETRAIN_CONF_PATH=examples/llama2_config/llama2-megatron.yaml
+   ```
+
+3. 在 openmind-accelerate 根目录下执行 examples/llama2/train_launch.sh 启动脚本。
+
+### 场景2：使用json格式数据
+
+基于场景1修改对应配置文件:
+
+```shell
+SCRIPT_PATH=examples/train_with_megatron_json_dataset.py
+ACCELERATE_CONF_PATH=examples/accelerate_config/accelerate_megatron_config.yaml
+PRETRAIN_CONF_PATH=examples/llama2_config/llama2-megatron-json-dataset.yaml  
+```
+
+在 examples/llama2_config/llama2-megatron-json-dataset.yaml 配置文件中配置 dataloader 参数，设置项：
+
+```yaml
+dataloader_config:
+  return_tensors: 'pt'
+  padding: 'max_length'
+  pad_to_multiple_of: *seq_length
+  max_length: *seq_length
+```
+
+可以发现在 examples/train_with_megatron_json_dataset.py 中已经额外构建 dataloader 并传入 PreTrainer。
+
+### 场景3：自定义Megatron处理流程
+
+基于场景1修改对应配置文件:
+
+```shell
+SCRIPT_PATH=examples/train_with_megatron_custom.py
+ACCELERATE_CONF_PATH=examples/accelerate_config/accelerate_megatron_config.yaml
+PRETRAIN_CONF_PATH=examples/llama2_config/llama2-megatron.yaml
+```
+
+#### 1、自定义处理函数
+
+```python
+def train_valid_test_datasets_provider():
+   """自定义数据集获取函数"""
+   pass
+
+def megatron_gpt_get_batch():
+   """自定义批获取函数"""
+   pass
+
+def megatron_gpt_model_provider():
+   """自定义模型获取函数"""
+   pass
+
+def megatron_gpt_loss_func():
+   """自定义损失函数"""
+   pass
+
+pretrain_args.update_distributed_train_args(
+	extra_args={
+   		"custom_megatron_datasets_provider_function": train_valid_test_datasets_provider,
+    	"custom_get_batch_function": megatron_gpt_get_batch,
+   		"custom_model_provider_function": megatron_gpt_model_provider,
+  		"custom_loss_function": megatron_gpt_loss_func,
+   }
+)
+```
+
+可以发现在 examples/train_with_megatron_custom.py 中已经将用户自定义函数通过 update_distributed_train_args 接口传入 pretrain_args。
+
+#### 2、自定义解析模型配置文件
+
+用户可以按照 accelerate 解析模型 config 文件的格式，编写解析函数。
+
+以下用已经内置的 llama 模型配置解析函数为例：
+
+```python
+from accelerate.utils import add_model_config_to_megatron_parser
+
+@add_model_config_to_megatron_parser('llama')
+def parse_llama_config(megatron_lm_plugin, model, batch_data):
+    model_type_name = "gpt"
+    num_layers = model.config.num_hidden_layers
+    pretraining_flag = True
+    hidden_size = model.config.hidden_size
+    num_attention_heads = model.config.num_attention_heads
+    orig_vocab_size = model.config.vocab_size
+
+    max_position_embeddings = getattr(model.config, "max_position_embeddings")
+    seq_length = getattr(model.config, "max_sequence_length", None)
+    if megatron_lm_plugin.seq_length is None:
+        if seq_length is not None:
+            megatron_lm_plugin.seq_length = seq_length
+        elif megatron_lm_plugin.decoder_seq_length is not None:
+            megatron_lm_plugin.seq_length = megatron_lm_plugin.decoder_seq_length
+        elif batch_data is not None:
+            megatron_lm_plugin.seq_length = batch_data["input_ids"].shape[1]
+        else:
+            megatron_lm_plugin.seq_length = max_position_embeddings
+
+    megatron_lm_plugin.megatron_lm_default_args["return_logits"] = megatron_lm_plugin.return_logits
+    megatron_lm_plugin.megatron_lm_default_args["tokenizer_type"] = "Llama2Tokenizer"
+    megatron_lm_plugin.megatron_lm_default_args["model_type_name"] = model_type_name
+    megatron_lm_plugin.megatron_lm_default_args["num_layers"] = num_layers
+    megatron_lm_plugin.megatron_lm_default_args["pretraining_flag"] = pretraining_flag
+    megatron_lm_plugin.megatron_lm_default_args["hidden_size"] = hidden_size
+    megatron_lm_plugin.megatron_lm_default_args["num_attention_heads"] = num_attention_heads
+    megatron_lm_plugin.megatron_lm_default_args["orig_vocab_size"] = orig_vocab_size
+    megatron_lm_plugin.megatron_lm_default_args["max_position_embeddings"] = max_position_embeddings
+    megatron_lm_plugin.megatron_lm_default_args["seq_length"] = megatron_lm_plugin.seq_length
+    megatron_lm_plugin.megatron_lm_default_args["model_return_dict"] = model.config.return_dict
+```
+
+#### 3、传递Megatron参数
+
+在配置说明章节的[预训练YAML配置文件说明](#预训练YAML配置文件说明)中的 other_megatron_args 中配置透传给 Megatron 的参数。
+
+## 使用其他框架预训练模型
+
+以 deepspeed 框架为例。
+
+基于使用 Megatron 框架预训练模型中场景1修改对应配置文件：
+
+```shell
+SCRIPT_PATH=examples/train_with_deepspeed.py
+ACCELERATE_CONF_PATH=examples/accelerate_config/accelerate_deepspeed_config.yaml 
+PRETRAIN_CONF_PATH=examples/llama2_config/llama2-deepspeed.yaml  
+```
+
+在 examples/llama2_config/llama2-deepspeed.yaml 配置文件中配置 dataloader 参数，设置项：
+
+```yaml
+dataloader_config:
+  return_tensors: 'pt'
+  padding: 'max_length'
+  pad_to_multiple_of: 4096
+  max_length: 4096
+```
+
+可以发现在 examples/train_with_deepspeed.py 中已经额外构建 dataloader 并传入 PreTrainer。
+
+# 配置说明
+
+## Accelerate配置文件说明
+
+**Framework：**
+
+Accelerate通用配置
+
+```yaml
+distributed_type: MEGATRON_LM         # 分布式模式:MEGATRON_LM/DEEPSPEED
+compute_environment: LOCAL_MACHINE
+debug: false
+downcast_bf16: 'no'
+machine_rank: 0
+main_training_function: main
+num_machines: 1                       # 机器数
+num_processes: 8                      # 进程数 
+rdzv_backend: static
+same_network: true
+tpu_env: []
+tpu_use_cluster: false
+tpu_use_sudo: false
+use_cpu: false                        # 是否使用cpu
+```
+
+Accelerate Plugin配置
+
+- megatron
+
+ 预训练 YAML 配置文件中的 megatron 的参数会覆盖 Accelerate 配置文件中的 megatron plugin ，为了避免歧义，我们推荐在 Accelerate 配置文件中不配 megatron plugin 的相关参数，转到预训练 YAML 配置文件中配置。
+
+- deepspeed
+
+```yaml
+deepspeed_config:
+  gradient_accumulation_steps: 8      # 梯度累计步数
+  gradient_clipping: 1.0
+  zero3_init_flag: falseo
+  zero_stage: 2
+```
+
+## 预训练YAML配置文件说明
+
+配置文件：
+
+```
+examples/llama2_config/llama2-deepspeed.yaml
+examples/llama2_config/llama2-megatron-json-dataset.yaml
+examples/llama2_config/llama2-megatron-multi-machine.yaml
+examples/llama2_config/llama2-megatron.yaml
+```
+
+说明：
+
+```yaml
+### General Args ###
+num_training_steps: 1000                                        # 训练步数
+micro_batch_size: &micro_batch_size 4                           # 微批次大小         
+dp: 1                                                           # 并行度
+gradient_accumulation_steps: &gradient_accumulation_steps 8     # 梯度累计步数
+seq_length: &seq_length 4096                                    # 能够处理的最大的序列长度
+megatron_dataset_flag: True                                     # megatron数据集标识
+data_path: &data_path 'datasets/alpaca'                         # 数据集路径
+save_dir: 'models/llama-2-7b-hf_save'                           # 模型保存路径
+save_interval: 10000                                            # 模型保存间隔
+eval_interval: 10000                                            # 模型评估间隔
+openmind_model_path: 'models/llama-2-7b-hf'                     # openmind模型路径
+dtype: 'bf16'                                                   # 数据类型
+
+### Plugin Args ###
+plugin_args:                                                    # megatron插件参数
+  tp_degree: 8                                                  # 张量并行度
+  pp_degree: 1                                                  # 流水并行度
+  num_micro_batches: *gradient_accumulation_steps               
+  gradient_clipping: 1.0
+  use_distributed_optimizer: False
+  sequence_parallelism: True                                   # 是否启用序列并行
+  other_megatron_args:                                          # 透传给megatron的参数
+    tokenizer_model: 'models/llama-2-7b-hf/tokenizer.model'                    
+    tokenizer_type: 'Llama2Tokenizer'
+    finetune: False                                        
+    recompute_granularity: "full"
+    recompute_method: "block"
+    recompute_num_layers: 32
+    optimizer: "adam"                                         
+    lr: 1e-5                                                  
+    min_lr: 1e-6                                           
+    adam_beta2: 0.95
+    add_bias_linear: False
+    async_tensor_model_parallel_allreduce: True
+    attention_dropout: 0.0
+    attention_softmax_in_fp32: True
+    bias_gelu_fusion: False
+    ffn_hidden_size: 11008
+    hidden_dropout: 0.0
+    init_method_std: 0.01
+    initial_loss_scale: 65536.0
+    lr_decay_style: "cosine"                                 
+    lr_warmup_fraction: 0.01                                    
+    masked_softmax_fusion: False
+    normalization: "RMSNorm"                                   
+    split: &split "100,0,0"                                  
+    swiglu: True
+    untie_embeddings_and_output_weights: True
+    use_flash_attn: True                                        
+    weight_decay: 0.1
+    no_load_optim: True
+    no_load_rng: True
+    position_embedding_type: "rope"
+
+### Dataloader Config ###
+dataloader_config:                                              # 透传给数据加载器DataCollatorForSeq2Seq的参数
+  return_tensors: 'pt'                                         
+  padding: 'max_length'                                                                         
+  pad_to_multiple_of: 4096
+  max_length: 4096  
+```
+
+## 启动脚本说明
+
+### 启动脚本
+
+```shell
+#!/bin/bash
+# Copyright (c) Huawei Technologies Co., Ltd. 2024, All rights reserved.
+
+export CUDA_VISIBLE_DEVICES_=0,1,2,3,4,5,6,7                                                           # 使用的NPU,卡号逗号分割
+export ASCEND_RT_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES_}
+export LD_LIBRARY_PATH=/usr/local/lib:/home/anaconda3/lib:$LD_LIBRARY_PATH
+export HCCL_CONNECT_TIMEOUT=1200
+export COMBINED_ENABLE=1
+export CUDA_DEVICE_MAX_CONNECTIONS=1
+source /usr/local/Ascend/ascend-toolkit/set_env.sh                                                     # CANN包路径
+
+SCRIPT_DIR=$(cd "$(dirname "$0")"; pwd)
+SCRIPT_PATH="${SCRIPT_DIR}"/train_with_megatron.py                                                     # 训练脚本
+ACCELERATE_CONF_PATH="${SCRIPT_DIR}"/accelerate_config/accelerate_megatron_config.yaml                 # accelerate配置文件
+PRETRAIN_CONF_PATH="${SCRIPT_DIR}"/llama2_config/llama2-megatron.yaml                                  # pretrain配置文件
+
+accelerate launch --config_file "${ACCELERATE_CONF_PATH}" "${SCRIPT_PATH}" --pretrain_config_file "${PRETRAIN_CONF_PATH}" | tee "${SCRIPT_DIR}"/train.log
+```
+
+### 参数配置
+
+- ACCELERATE_CONF_PATH  
+
+可选：
+
+```
+examples/accelerate_config/accelerate_deepspeed_config.yaml  # accelerate关于deepspeed 的配置文件
+examples/accelerate_config/accelerate_megatron_config.yaml   # accelerate关于 megatron 的配置文件
+```
+
+- PRETRAIN_CONF_PATH
+
+可选：
+
+```
+examples/llama2_config/llama2-deepspeed.yaml                   # 使用 deepspeed 启动预训练的配置文件
+examples/llama2_config/llama2-megatron.yaml                    # 使用 megatron 启动预训练的配置文件
+examples/llama2_config/llama2-megatron-json-dataset.yaml       # 使用 megatron 和 json 格式数据集启动预训练的配置文件
+examples/llama2_config/llama2-megatron-multi-machine.yaml      # 使用多机启动 megatron 预训练的配置文件
+```
+
+# 公网地址声明
+
+本代码仓包含公网地址，公开性声明请参考[《公网地址声明》](./public_address_statement.md)。
+
+# 建议与交流
+
+欢迎大家为社区做贡献。如果有任何疑问或建议，请提交[gitee Issues](https://gitee.com/openmind-ai/openmind-accelerate/issues)，我们会尽快回复。感谢您的支持。
+
+# 安全声明
+
+为保障使用过程安全，推荐用户参考[《安全声明》](./security_statement.md)了解相关安全信息，进行必要的安全加固。

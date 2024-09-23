@@ -1,0 +1,14 @@
+openmind_accelerate/__init__.py,sha256=AuZRulK9ku96kt6KQFVDP3d-zXgrxT7C1oEZDZ835wY,1058
+openmind_accelerate/megatron_plugin/__init__.py,sha256=Sr9O1wgh-hLYUqGXTLKkRvWbpDiwlXsFJH-H0tzgxps,1165
+openmind_accelerate/megatron_plugin/accelerator.py,sha256=VRQqXdUCTU_nmj_acSVOWfsKG1yFAjJG6hUt-2u-dQ4,5672
+openmind_accelerate/megatron_plugin/dataclasses.py,sha256=9XaAgBiMPtKvNKskBUrU4gfXRxSAH3WRDtXrtAPV8ek,10672
+openmind_accelerate/megatron_plugin/imports.py,sha256=iuGeZgDbYD0VvQxWO0ZS8cCrti99Grlx2fJx4WotnTA,2925
+openmind_accelerate/megatron_plugin/megatron_lm.py,sha256=Iy7dPmrzaoatYPUSEtXD4Rh2PJjnIzvDDJVaqoEKIaU,29032
+openmind_accelerate/npu_plugin/__init__.py,sha256=JnigQIJcil45yy6YrkFFDrK4XsOPo4DgL863ubDRdKc,602
+openmind_accelerate/npu_plugin/megatron_extension/__init__.py,sha256=fivvgYckn3x1FxZCo32TezeYcSXAieYE0lfXLbiKAec,746
+openmind_accelerate/npu_plugin/megatron_npu/__init__.py,sha256=weOVGjhQy82xMxYryXsfTtaUSpyw05I-Mg3BDwOLbFY,747
+openmind_accelerate-0.5.2.dist-info/METADATA,sha256=ETHlZ75QB39i7vXRmstpAXwXckoxK3C75CN0LakWAdU,36930
+openmind_accelerate-0.5.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+openmind_accelerate-0.5.2.dist-info/licenses/LICENSE,sha256=WL3u72z7yJPmQqKUStsXnGRCfb_yU7yFqmzRlQJUm7I,16909
+openmind_accelerate-0.5.2.dist-info/licenses/LICENSE-Apache-2.0,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+openmind_accelerate-0.5.2.dist-info/RECORD,,
