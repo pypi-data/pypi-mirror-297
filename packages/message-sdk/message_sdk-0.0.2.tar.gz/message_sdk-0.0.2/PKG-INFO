@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: message-sdk
+Version: 0.0.2
+Summary: 
+Author: wondera
+Author-email: dev@wondera.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: confluent-kafka (>=2.5.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# 安装sdk
+
+```
+pip install message-sdk
+```
