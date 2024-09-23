@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: b3_greet
+Version: 0.1.1
+Summary: A simple greeting library
+Home-page: https://github.com/BlueBirdBack/b3_greet
+Author: Avery
+Author-email: avery@bluebirdback.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# b3_greet
+
+b3_greet is a simple Python library that provides greeting messages.
+
+## Installation
+
+```bash
+pip install b3_greet
+```
+
+## Usage
+
+```python
+from b3_greet import say_hello
+
+message = say_hello("Blue")
+print(message)  # Outputs: Hello, Blue!
+```
+
+## License
+
+[MIT License](./LICENSE)
