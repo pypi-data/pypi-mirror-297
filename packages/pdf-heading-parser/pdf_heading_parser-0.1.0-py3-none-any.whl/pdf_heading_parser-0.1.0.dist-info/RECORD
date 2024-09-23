@@ -1,0 +1,7 @@
+pdf_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_parser/parser.py,sha256=pWggjYmDMhDdsnFJ7Bd7rHhpPX3D5Q5Aa4DvRfww6sc,4011
+pdf_heading_parser-0.1.0.dist-info/METADATA,sha256=7VyF-E_Bd74u1B-9mX4GWABGOGz6sMoCiS0IvnYtevs,899
+pdf_heading_parser-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pdf_heading_parser-0.1.0.dist-info/entry_points.txt,sha256=mYyae8FNPuNMcwXynhM6NSn_yldltIUg2J7dpUBZ2MU,64
+pdf_heading_parser-0.1.0.dist-info/top_level.txt,sha256=JUC1fqlF8B-zXBhhe8T_REfeCICo1lCN54StQ2j_11M,11
+pdf_heading_parser-0.1.0.dist-info/RECORD,,
