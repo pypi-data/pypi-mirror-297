@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: borsaAPI
+Version: 0.1
+Summary: Python kütüphanesi ile BIST hisse verisi çekme API'si
+Home-page: UNKNOWN
+Author: Bora Kaya
+Author-email: bora.587@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
