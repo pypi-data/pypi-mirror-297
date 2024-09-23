@@ -1,0 +1,1 @@
+from .main import simple_hello_world
