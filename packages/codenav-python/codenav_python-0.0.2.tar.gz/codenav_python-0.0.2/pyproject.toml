@@ -1,0 +1,25 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "codenav-python"
+version = "0.0.2"
+description = "Python bindings for CodeNav."
+authors = [{ name = "RussellLuo", email = "luopeng.he@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/RussellLuo/codenav"
+
+[tool.maturin]
+module-name = "codenav"
+features = ["pyo3/extension-module"]
+manifest-path = "codenav-python/Cargo.toml"
