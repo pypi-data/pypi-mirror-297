@@ -1,0 +1,3 @@
+[console_scripts]
+nuget-scanner = nuget_scanner:main
+
