@@ -1,0 +1,11 @@
+lociPARSE/QAmodel_lociPARSE.pt,sha256=4N_-GZER09RbjUbyjziC61ry287bsBDGbSz99oDcJ14,8137131
+lociPARSE/__init__.py,sha256=hCZ9ovE0KEq86SDyIwck6nMP7k7M2UNisCxPOtwJ9ro,28
+lociPARSE/core.py,sha256=1mC7np5Fxqv63wGqy_GRyhotVp5nUKVs6LCijP3kJac,4065
+lociPARSE/feature_generation.py,sha256=gd94MmTClO0pQiMh1IiLDqsnfBmMVW7tZV4vxBRhwbw,19363
+lociPARSE/model.py,sha256=HeTO6EneDcmZCr5UTlQ5e-q6J2Dk-_VUIdI3ctdx2hA,10261
+lociPARSE/utils.py,sha256=d5GbpAFhAaNDXqf9MdbTBuzHhfNzEKQEPMNwTcv1L1g,43419
+lociPARSE-0.1.1.dist-info/METADATA,sha256=kcNxBQJ0U1Z3NYyAi8cIQtZdtXtuIi9cSB0NNkvkqq0,365
+lociPARSE-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lociPARSE-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+lociPARSE-0.1.1.dist-info/top_level.txt,sha256=FJUemgSo36ceIBav52bvBneEHCLi2570C0L2xeONanI,10
+lociPARSE-0.1.1.dist-info/RECORD,,
