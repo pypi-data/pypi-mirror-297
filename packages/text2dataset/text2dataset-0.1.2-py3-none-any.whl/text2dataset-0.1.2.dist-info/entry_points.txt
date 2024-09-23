@@ -1,0 +1,2 @@
+[console_scripts]
+hello = text2dataset:hello
