@@ -1,0 +1,5 @@
+recursive-include bitfuncs *.py
+recursive-include bitfuncs *.sql
+include CHANGELOG.rst
+include LICENSE
+include README.md
