@@ -1,0 +1,3 @@
+[console_scripts]
+VirID = VirID.__main__:main
+
