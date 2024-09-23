@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-simple-list-editable
+Version: 1.0.0
+Summary: Provides a simple list_editable attribute control in Django Admin, based on http request and self context
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: django >=5.1.1
+
+# Django. Simple list editable
+
+> [!IMPORTANT]
+> This project is intended only for the management of routine work with django admin,
+> often wanted to manage list_editable attribute based on a request or self context,
+> I hope this project can help you
