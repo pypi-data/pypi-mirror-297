@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Feed (Anam Engine API)</title>
+    <script src="https://cdn.jsdelivr.net/npm/livekit-client@2.5.1/dist/livekit-client.umd.min.js"></script>
+    <script defer src="publisher.js"></script>
+</head>
+<body>
+    <h1>Python Backend</h1>
+    <p>
+        This feed will be a established by a pythonic backend. 
+        For now, we display a local video feed from my webcam.
+        This backend will interact with the Anam Engine API, to get video/audio tracks, and to listen for events from the chat client (e.g. tool calls etc.).
+    </p>
+    <video id="localVideo" autoplay muted playsinline></video>
+    <button id="startButton">Start Publishing</button>
+</body>
+</html>
