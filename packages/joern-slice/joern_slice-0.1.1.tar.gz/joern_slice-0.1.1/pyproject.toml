@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "joern-slice"
+version = "0.1.1"
+description = ""
+authors = ["Your Name <2278594051@qq.com>"]
+readme = "README.md"
+
+# 添加清华镜像
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
