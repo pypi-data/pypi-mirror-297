@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: esbonio-extensions
+Version: 0.2.3
+Summary: A collection of extensions for Sphinx and the Esbonio language server
+Project-URL: Bug Tracker, https://github.com/swyddfa/esbonio/issues
+Project-URL: Documentation, https://swyddfa.github.io/esbonio/
+Project-URL: Source Code, https://github.com/swyddfa/esbonio
+Author-email: Alex Carney <alcarneyme@gmail.com>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.9
+Requires-Dist: esbonio
+Requires-Dist: platformdirs
+Requires-Dist: sphinx
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: mock; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Provides-Extra: spelling
+Requires-Dist: pyspellchecker; extra == 'spelling'
+Description-Content-Type: text/markdown
+
+# Esbonio Extensions
+
+**This package is in early development**
+
+A collection of Sphinx extensions.
