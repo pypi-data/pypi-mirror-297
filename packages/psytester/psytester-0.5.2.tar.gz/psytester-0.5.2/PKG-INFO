@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: psytester
+Version: 0.5.2
+Summary: Local tester for Topcoder Marathons & AtCoder Heuristic Contests
+Home-page: https://github.com/FakePsyho/psytester
+Author: Psyho
+License: MIT
+Keywords: Topcoder,Marathon,AtCoder,Competitive Programming,Tester
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: tabulate
+Requires-Dist: colorama

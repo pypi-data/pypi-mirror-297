@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+psytester/atcoder.cfg
+psytester/old_topcoder.cfg
+psytester/tester.py
+psytester/topcoder.cfg
+psytester.egg-info/PKG-INFO
+psytester.egg-info/SOURCES.txt
+psytester.egg-info/dependency_links.txt
+psytester.egg-info/entry_points.txt
+psytester.egg-info/requires.txt
+psytester.egg-info/top_level.txt
