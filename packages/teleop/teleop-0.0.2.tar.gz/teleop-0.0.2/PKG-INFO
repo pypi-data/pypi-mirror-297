@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: teleop
+Version: 0.0.2
+Summary: Turns your phone into a robot arm teleoperation device by leveraging the WebXR API
+Author: Spes Robotics
+Author-email: contact@spes.ai
+License: Apache 2.0
+Project-URL: Documentation, https://github.com/SpesRobotics/teleop
+Project-URL: Source, https://github.com/SpesRobotics/teleop
+Project-URL: Tracker, https://github.com/SpesRobotics/teleop/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: numpy
+Requires-Dist: transforms3d
+Requires-Dist: werkzeug
+Requires-Dist: pytest
+Requires-Dist: requests
+
+# Teleop
+
+![Lite6 Physical Teleoperation](./media/lite6_physical_teleop.gif)
+
+## Installation
+```bash
+pip3 install teleop
+```
+
+### Basic Interface
+
+A simple interface that simply prints the teleop response.
+
+```bash
+python3 -m teleop.basic
+```
+
+### ROS 2 Interface
+
+A ROS 2 interface that publishes the teleop response to a topic.
+
+```bash
+python3 -m teleop.ros2
+```
+
+### Custom Interface
+```python
+from teleop import Teleop
+
+
+def callback(pose, message):
+    print(f'Pose: {pose}')
+    print(f'Message: {message}')
+
+
+teleop = Teleop()
+teleop.subscribe(callback)
+teleop.run()
+```
+
+## Development
+
+### Install
+```bash
+pip3 install -e .
+```
+
+### Test
+
+```bash
+python3 -m pytest
+```
