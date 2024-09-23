@@ -1,0 +1,10 @@
+pyo_oracle/__init__.py,sha256=pLaunt_gQxu9_c5P9xbD5cHVkHKVJhi-0DOxozspcGQ,166
+pyo_oracle/config.py,sha256=GpNZh1ZuQCtJwQAp4CynkEOGUjhLVx2IGiTuCh5qnYA,2877
+pyo_oracle/main.py,sha256=xw0Cw1rksY5kjgdUoEOspxgdHfxyJFgFJ4p8BhrglEk,9144
+pyo_oracle/utils.py,sha256=LwLQILP-qypZ1D_kueb2mJHxqxLnOUG3XkcLfBqf2ns,10155
+pyo_oracle/data/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyo_oracle-0.0.5.dist-info/LICENSE.md,sha256=w0Is-aApK11vzB6ORUHY5sAsRn_mMjx45k9DqIFfVGY,1078
+pyo_oracle-0.0.5.dist-info/METADATA,sha256=7ey0rGF8PmabeAgjOgIKk58lyka5kn1qgOeq02JQJow,1339
+pyo_oracle-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyo_oracle-0.0.5.dist-info/top_level.txt,sha256=dl2zK182sicgx4VMmihfw_4Lb17nyhg9a6xrewZFBEY,11
+pyo_oracle-0.0.5.dist-info/RECORD,,
