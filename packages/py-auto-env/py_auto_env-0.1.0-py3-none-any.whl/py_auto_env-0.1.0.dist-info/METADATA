@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: py-auto-env
+Version: 0.1.0
+Summary: A package to automatically load .env files into your environment
+License: MIT
+Author: jsieber2
+Author-email: josefwsieber@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# env-loader
+
+A Python package that automatically loads .env files when imported.
+
+## Installation
+
+```
+pip install env-loader
+```
+
+## Usage
+
+Simply import the package in your Python script:
+
+```python
+import env_loader
+```
+
+The .env file in the same directory as your script will be automatically loaded.
+
