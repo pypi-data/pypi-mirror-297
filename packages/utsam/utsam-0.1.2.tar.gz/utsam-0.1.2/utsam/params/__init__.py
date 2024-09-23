@@ -1,0 +1,1 @@
+from utsam.params.semesters import SemesterParams
