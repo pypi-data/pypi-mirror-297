@@ -1,0 +1,8 @@
+README.md
+setup.py
+iiris_cache/__init__.py
+iiris_cache/in_memory_cache.py
+iiris_cache.egg-info/PKG-INFO
+iiris_cache.egg-info/SOURCES.txt
+iiris_cache.egg-info/dependency_links.txt
+iiris_cache.egg-info/top_level.txt
