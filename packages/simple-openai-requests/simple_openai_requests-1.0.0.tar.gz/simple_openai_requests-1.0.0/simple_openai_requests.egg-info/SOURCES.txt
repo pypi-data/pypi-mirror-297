@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+simple_openai_requests/__init__.py
+simple_openai_requests/batch_requests.py
+simple_openai_requests/caching.py
+simple_openai_requests/simple_openai_requests.py
+simple_openai_requests/synchronous_requests.py
+simple_openai_requests.egg-info/PKG-INFO
+simple_openai_requests.egg-info/SOURCES.txt
+simple_openai_requests.egg-info/dependency_links.txt
+simple_openai_requests.egg-info/requires.txt
+simple_openai_requests.egg-info/top_level.txt
+tests/test_batch_requests.py
+tests/test_simple_openai_requests.py
+tests/test_synchronous_requests.py
