@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: PyColorIT
+Version: 0.0.0.dev6
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: PkgData ==0.0.0.dev4
+Requires-Dist: ipython
+
