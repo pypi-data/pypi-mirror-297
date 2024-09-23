@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cobakm
+Version: 0.0.1
+Summary: Module of compound interest factors which includes single payment, uniform payment series, and arithmetic gradient calculations
+Home-page: https://github.com/aansyawaluddin/tespackage
+Author: Aan
+Author-email: aansyawaluddin22122003@gmail.com
+License: MIT
+Keywords: tes
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+"# tespackage" 
