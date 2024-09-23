@@ -1,0 +1,7 @@
+README.md
+setup.py
+manojmacpy.egg-info/PKG-INFO
+manojmacpy.egg-info/SOURCES.txt
+manojmacpy.egg-info/dependency_links.txt
+manojmacpy.egg-info/not-zip-safe
+manojmacpy.egg-info/top_level.txt
