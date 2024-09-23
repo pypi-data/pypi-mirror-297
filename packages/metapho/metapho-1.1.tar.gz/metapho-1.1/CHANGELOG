@@ -1,0 +1,110 @@
+2024-09-22  Akkana Peck  <akkana@shallowsky.com>
+
+	Bump version to 1.1 for release.
+
+2024-08-16  Akkana Peck  <akkana@shallowsky.com>
+
+	Add new photoshare script, and beef up the documentation
+	on metapho's (now three) scripts.
+
+2023-12-27  Akkana Peck  <akkana@shallowsky.com>
+
+	1.1b3: Show filename and number/total in titlebar.
+	Also move g_image_list out of the Image class (now it's
+	directly in the metapho module) and provide some functions
+	to show total plus total shown and hidden.
+
+2022-04-04  Akkana Peck  <akkana@shallowsky.com>
+
+	fotogr: add a -t, taglines, option
+	to print all matching taglines found in Tags files,
+	which can guide the next search.
+
+2021-10-09  Akkana Peck  <akkana@shallowsky.com>
+
+	fotogr: allow -d2020 as well as -d 2020,
+	and give an error for unrecognized tags.
+
+2021-06-12  Akkana Peck  <akkana@shallowsky.com>
+
+	1.1b2: Add fotogr tests.
+
+2021-06-12  Akkana Peck  <akkana@shallowsky.com>
+
+	1.1b1: Add fotogr (moved from scripts repository).
+
+2021-04-29  Akkana Peck  <akkana@shallowsky.com>
+
+	Colorize searches -- that's something that had been lost
+	in the move to GTK3.
+	Some bug fixes involving tags added mistakenly.
+
+2020-06-26  Akkana Peck  <akkana@shallowsky.com>
+
+	Make the notags script smarter: add a -h for help,
+	improve handling of skipped extensions and directories
+	and make that user-configurable, and show paths as relative.
+
+2020-04-13  Akkana Peck  <akkana@shallowsky.com>
+	Bump version to 1.0 and release on PyPI.
+
+2019-12-22  Akkana Peck  <akkana@shallowsky.com>
+
+	Update main and ImageViewer classes to use gi gtk3 explicitly,
+	and to use cairo methods for checking window size.
+	Improvements to the image viewer classes.
+	 Add resize handling to the viewer to rescale the image
+	when window size changes.
+	Allow moving forward/back in image lists in the viewer window.
+	Handle fullsize/unfullsize events, including resizing the containing
+	window if it allows it; implement next/previous so you can have
+	multiple images stored in the same zoomview.
+
+2019-12-20  Akkana Peck  <akkana@shallowsky.com>
+
+	1.0b2:
+	Port to Python3.
+
+2017-07-30  Akkana Peck  <akkana@shallowsky.com>
+
+	Fix some bugs in ImageViewer involving rotation.
+
+2017-03-03  Akkana Peck  <akkana@shallowsky.com>
+
+	Add a script entry for mpiv image viewer.
+	Fix lots of problems related to using multiple categories at once.
+	Sort images alphabetically (within a tag) in the Tags file.
+	Replace separate notags script with code in metapho.py.
+
+2017-02-20  Akkana Peck  <akkana@shallowsky.com>
+
+	Split ImageViewer off into a new file with __main__.
+	Add a new class ImageViewerWindow to allow testing ImageViewer
+	and using it as a standalone image viewer, to
+	allow viewing zoomed images from within metapho,
+	on demand, without needing to copy the current filename and
+	start up an external image viewer.
+
+
+2016-12-16  Akkana Peck  <akkana@shallowsky.com>
+
+	0.6:
+	Add a new class CategoryViewer and improve the category UI.
+
+2016-12-15  Akkana Peck  <akkana@shallowsky.com>
+
+	0.5.1:
+	Split up gtkpho.py and move gtkpho into a separate directory.
+
+2016-12-03  Akkana Peck  <akkana@shallowsky.com>
+
+	0.5:
+	First PyPI version.
+
+2014-06-16  Akkana Peck  <akkana@shallowsky.com>
+
+	Add category support.
+
+2013-02-09  Akkana Peck  <akkana@shallowsky.com>
+
+	First usable version.
