@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyglider
+Version: 0.0.7
+Summary: Glider data to netCDF translation in python
+Home-page: https://pyglider.readthedocs.io
+Author: Jody Klymak
+Author-email: jklymak@gmail.com
+License: Apache
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xarray
+Requires-Dist: dask
+Requires-Dist: netcdf4
+Requires-Dist: gsw
+Requires-Dist: scipy
+Requires-Dist: bitstring
+Requires-Dist: pooch
+Requires-Dist: polars
+Provides-Extra: code_style
+Requires-Dist: flake8 <3.8.0,>=3.7.0 ; extra == 'code_style'
+Requires-Dist: black ; extra == 'code_style'
+Requires-Dist: pre-commit ==1.17.0 ; extra == 'code_style'
+Provides-Extra: docs
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: autoapi ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+![](docs/_static/PyGliderHorizontal.svg)
+
+Python tools for interacting with ocean glider data.   PyGlider takes data from
+Teledyne/Webb Slocum gliders and Alseamar SeaExplorers and creates CF-compliant
+NetCDF files.
+
+For documentation, please see <http://pyglider.readthedocs.io>
+
+### Contact
+
+Get in touch with us using Discussion above or by opening an issue.

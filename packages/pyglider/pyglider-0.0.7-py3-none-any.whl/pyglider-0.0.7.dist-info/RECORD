@@ -1,0 +1,13 @@
+pyglider/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pyglider/_version.py,sha256=7sNbee72r3qCAVloFm2RRWCTa9gVjMS7nCJcJ-URzl4,21
+pyglider/example_data.py,sha256=_NB5niN9xc22Qfd688WnmHys22paWTgkvF_fONvMFdM,748
+pyglider/ncprocess.py,sha256=OmnrQ3j-uEU78MrJ6hXAffbwJmrG5wR5_2p4IZPD_XY,14871
+pyglider/seaexplorer.py,sha256=hduRbFtrSCA9fN9wyS77PjOryr8zCX9aUx8zQbNL1e0,20573
+pyglider/slocum.py,sha256=YIXRztnt2hUh-ttnxvXYh0979-S72ukgWwzI7LdSgoU,43212
+pyglider/utils.py,sha256=wfkgelmr2UEoOw-en_t9eORe0jLJaf7-OZdinZRx29A,25757
+pyglider-0.0.7.dist-info/LICENSE,sha256=n_ViYxoEuMsQMMU_30Yb10nJrwZV2G5PF-snDpNaf-I,10272
+pyglider-0.0.7.dist-info/METADATA,sha256=672LjHU2kdlBmFSsE8yUeLlr1gbrRkHP6Z67WY4mkak,1385
+pyglider-0.0.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyglider-0.0.7.dist-info/top_level.txt,sha256=BkHc6hzM77_TDRzlM8HWbrYeSk7NhL8iKwIr0NwFqdo,9
+pyglider-0.0.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyglider-0.0.7.dist-info/RECORD,,
