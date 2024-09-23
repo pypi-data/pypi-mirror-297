@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+voidwebframe.egg-info/PKG-INFO
+voidwebframe.egg-info/SOURCES.txt
+voidwebframe.egg-info/dependency_links.txt
+voidwebframe.egg-info/top_level.txt
+webframe/__init__.py
+webframe/core.py
+webframe/server.py
