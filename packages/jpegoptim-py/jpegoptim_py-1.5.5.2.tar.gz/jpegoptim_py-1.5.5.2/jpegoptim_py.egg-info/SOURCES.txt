@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jpegoptim_py.egg-info/PKG-INFO
+jpegoptim_py.egg-info/SOURCES.txt
+jpegoptim_py.egg-info/dependency_links.txt
+jpegoptim_py.egg-info/top_level.txt
