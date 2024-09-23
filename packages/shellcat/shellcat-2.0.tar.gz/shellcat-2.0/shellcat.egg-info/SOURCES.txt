@@ -1,0 +1,5 @@
+setup.py
+shellcat.egg-info/PKG-INFO
+shellcat.egg-info/SOURCES.txt
+shellcat.egg-info/dependency_links.txt
+shellcat.egg-info/top_level.txt
