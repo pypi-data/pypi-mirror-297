@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: socket-sdk
+Version: 0
+Home-page: 
+Author: 
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: python-socketio[client]
+Requires-Dist: dataclasses-json
+

@@ -1,0 +1,9 @@
+sdk/__init__.py,sha256=nGrMxB-xH1I2epf81zSoCi1ASmOX72gnbVInlNvx2Fg,995
+sdk/logger.py,sha256=XsT2_NBMS6M5XhIRFJSJh4erYdHpc9Lr5npkhS-F8JM,505
+sdk/models.py,sha256=asT1KHZEifTeWT9SOyhd_zQ6XdeAc4d5HPlWPqMcjp0,1522
+sdk/rest.py,sha256=seO_2i2EIOmRqqDsx9yPzaWpbnDnE38r6LT8FThf6Wc,9447
+sdk/socketio_client.py,sha256=I-4etHkuAuWrADnYcNbe0uxtZsge_1uem390_4ybTl4,3817
+socket_sdk-0.dist-info/METADATA,sha256=R5vNoeq5LNL8m8rew6NYZfqZnlME4KjjEqwjmZh8ZBI,300
+socket_sdk-0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+socket_sdk-0.dist-info/top_level.txt,sha256=JuXS55gRP3EzGKmJgbLfVfUolO3cM_u69k3qvutnBuw,4
+socket_sdk-0.dist-info/RECORD,,
