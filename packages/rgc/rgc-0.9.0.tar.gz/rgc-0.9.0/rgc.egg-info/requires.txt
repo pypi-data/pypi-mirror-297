@@ -1,0 +1,7 @@
+astropy>=5.2.2
+astroquery>=0.4.7
+bdsf>=1.11.1
+numpy>=1.24.4
+pandas>=2.0.3
+pillow>=10.4.0
+torch>=2.4.1
