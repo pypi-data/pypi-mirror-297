@@ -1,0 +1,3 @@
+include seriesDB.csv
+include shelfDB.csv
+include standardDB.scv

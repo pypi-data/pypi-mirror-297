@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sitsoDB
+Version: 0.0.2
+Summary: A DataBase Managament Sys, for simple terminal/ GUI projects.
+Author: Manasseh Kpormegbe
+Author-email: manassekpormegbe@gmail.com
+License: MIT
+Keywords: database
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: Android
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: twine
+
+https://github.com/0xG-MSK
+<-----A Simply DataBase Simulation---->
+- This DB works by accepting user data passing it in an algorithm and saving it in csv format
+- Data can also be retrieved by accessing the data structures directly
+
+- tips: some data structures like *standard and *series need no name to function, at that parameter "None" can be passed
+
+- this is just a very small and simple program to help with small projects
+- there will be further updates of this module
+- and also there may be bugs, if encountered - contact me manassekpormegbe@gmail.com
+- this is was created by a 15 yr old :|
+- #<-------join a community of DeVs and share your thoughts https://chat.whatsapp.com/Liof7yBVcC5Cbk95GQSI---------->
+Change Logs
++++++++++++++++++++++
+
+0.0.1 (22/9/2024) #DD/MM/YY
+-------------------------------
+- First Release
+
+0.0.2 (22/9/224) #DD/MM/YY
+-------------------------------
+- Second Release 
+* Updated classifiers
