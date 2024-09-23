@@ -1,0 +1,9 @@
+requests
+bs4
+npyscreen
+thefuzz
+colorlog
+py7zr
+
+[:platform_system == "Windows"]
+windows-curses
