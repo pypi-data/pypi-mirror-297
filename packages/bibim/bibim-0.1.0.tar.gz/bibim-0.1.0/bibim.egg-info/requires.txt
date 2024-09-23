@@ -1,0 +1,4 @@
+requests
+scholarly
+openai
+feedparser
