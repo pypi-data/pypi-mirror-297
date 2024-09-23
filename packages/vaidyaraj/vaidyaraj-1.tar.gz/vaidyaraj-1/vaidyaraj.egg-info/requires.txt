@@ -1,0 +1,3 @@
+pathlibedge_tts
+pygame
+groq
