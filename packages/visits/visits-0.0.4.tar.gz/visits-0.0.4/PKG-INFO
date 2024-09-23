@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: visits
+Version: 0.0.4
+Summary: visits is just an example of a web page to display hits.
+Author-email: nggit <contact@anggit.com>
+License: MIT License
+Project-URL: Homepage, https://gitlab.com/nggit/visits
+Project-URL: Source, https://gitlab.com/nggit/visits
+Project-URL: Funding, https://github.com/sponsors/nggit
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# visits
+visits is just an example of a web page to display hits.
+
+## How-to
+```
+python3 -m visits [PORT_NUMBER]
+```
+
+## License
+MIT

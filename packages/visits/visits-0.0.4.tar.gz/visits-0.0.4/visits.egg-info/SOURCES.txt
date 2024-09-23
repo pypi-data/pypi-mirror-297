@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+visits/__init__.py
+visits/__main__.py
+visits.egg-info/PKG-INFO
+visits.egg-info/SOURCES.txt
+visits.egg-info/dependency_links.txt
+visits.egg-info/requires.txt
+visits.egg-info/top_level.txt
