@@ -1,0 +1,5 @@
+setup.py
+pyshipproto.egg-info/PKG-INFO
+pyshipproto.egg-info/SOURCES.txt
+pyshipproto.egg-info/dependency_links.txt
+pyshipproto.egg-info/top_level.txt
