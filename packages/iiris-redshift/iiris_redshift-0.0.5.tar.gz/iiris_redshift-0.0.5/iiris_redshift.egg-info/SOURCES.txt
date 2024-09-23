@@ -1,0 +1,9 @@
+README.md
+setup.py
+iiris_redshift/__init__.py
+iiris_redshift/redshift.py
+iiris_redshift.egg-info/PKG-INFO
+iiris_redshift.egg-info/SOURCES.txt
+iiris_redshift.egg-info/dependency_links.txt
+iiris_redshift.egg-info/requires.txt
+iiris_redshift.egg-info/top_level.txt
