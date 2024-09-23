@@ -1,0 +1,10 @@
+knowledge_verificator/__init__.py,sha256=dMNBqy0S6QLCw1zyX3pER6AXhdWJBIycxV6KZjCs0TQ,48
+knowledge_verificator/answer_chooser.py,sha256=nG7NtayXvV2mNuR-43jwhRmODDMsjOErCfNixhA0Gd4,3869
+knowledge_verificator/io_handler.py,sha256=LCZFkt_sm6BdNMUAzjnxJnhShEHyK2sg6VwsYhxJVDs,1189
+knowledge_verificator/main.py,sha256=rOqNpcQiFDLJKnJM-hctTvMwoSjoCT-a8G-41Na_Xe8,2019
+knowledge_verificator/nli.py,sha256=QPEOHSLn9gNqLI0iUdlvOgHqqEqiDMwCjMYU7-D_bWU,4356
+knowledge_verificator/qg.py,sha256=h1eaooKSEsgbyBYYSzHpALhy4QvjQ40N3sPMeUQSDxQ,2217
+knowledge_verificator-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+knowledge_verificator-0.1.1.dist-info/METADATA,sha256=HzZueXca_c4CKRZmo4c4_6XPBCCWRuiQVZ0alOiP4K0,2521
+knowledge_verificator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+knowledge_verificator-0.1.1.dist-info/RECORD,,
