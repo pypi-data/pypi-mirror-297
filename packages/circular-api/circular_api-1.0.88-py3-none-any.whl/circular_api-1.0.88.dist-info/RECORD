@@ -1,0 +1,10 @@
+circular_api/__init__.py,sha256=3fABNK9FO-01XOSJUz-PDhp9H7oxwHals-Uf_QMZRRQ,37
+circular_api/circular_api.py,sha256=Z-uSMounOh046lSvYrA6FGoId2LZAWznHs4sd93So6U,16948
+circular_api/circular_exception.py,sha256=WcnBdRM9ECdp0ygVhanZorV3oe9R4Vx484ASMhRZP_E,623
+circular_api/helper.py,sha256=h7C7VPI-IJgxniZ_OXqFkdQdNgyL9wm3y4myMAJ8Hfs,2806
+circular_api/nag_functions.py,sha256=xpI2F8VdpqAOF7Vpcbn7haKk4McG0GZVfne0U1UUcUY,1141
+circular_api-1.0.88.dist-info/LICENSE,sha256=UVKJ57qUek_HAZPHr-9N2QgVYpMp5rdNUH_2iYpiF34,1070
+circular_api-1.0.88.dist-info/METADATA,sha256=eTPJzYpYmgWjveQNo2EacKIOKXfRsEYDlro_n42NPEg,1512
+circular_api-1.0.88.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+circular_api-1.0.88.dist-info/top_level.txt,sha256=hCwIUhdMiz41xJp_2H5Un9vyeToAdjUvsJujQZcmKRE,13
+circular_api-1.0.88.dist-info/RECORD,,
