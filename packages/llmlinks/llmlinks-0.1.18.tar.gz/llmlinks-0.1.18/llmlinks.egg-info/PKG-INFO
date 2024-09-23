@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: llmlinks
+Version: 0.1.18
+Summary: Add your description here
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anthropic>=0.34.2
+Requires-Dist: google-generativeai>=0.8.1
+Requires-Dist: openai>=1.47.0
+Requires-Dist: tomli-w>=1.0.0
+
+# llmlink
