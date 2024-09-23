@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: LoggerMan
+Version: 0.0.0.dev16
+Requires-Python: >=3.10
+Requires-Dist: MDit==0.0.0.dev5
+Requires-Dist: ActionMan==0.0.0.dev15
+Requires-Dist: ProtocolMan==0.0.0.dev2
+Requires-Dist: pydantic
+Requires-Dist: rich

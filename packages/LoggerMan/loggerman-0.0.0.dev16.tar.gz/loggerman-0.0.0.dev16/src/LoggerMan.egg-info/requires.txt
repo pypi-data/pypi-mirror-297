@@ -1,0 +1,5 @@
+MDit==0.0.0.dev5
+ActionMan==0.0.0.dev15
+ProtocolMan==0.0.0.dev2
+pydantic
+rich
