@@ -1,0 +1,13 @@
+spinsys/__init__.py,sha256=mEMnEHXp8OGUiQM36BOFvRLIh24W8fqgkkO-nAy2JU4,285
+spinsys/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spinsys/_spin/__init__.py,sha256=_TFxpyYJ5v8mabjJVzPavhrgkSGIQpiGaJNEfB_eJz0,462
+spinsys/_spin/names.py,sha256=kLvIHAKEnoUyWCWcUugHz0CbWIJTMadk9MpAD5LKfuk,211
+spinsys/_spin/paths.py,sha256=I1SiGKiWbei67rTMRqz1bshgqr6YSWpQA0Rlx6glkC8,211
+spinsys/_spin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spinsys/_spin/times.py,sha256=Ma2dMd48nRqz-ARLrjfxsOv7s9f2OWe0XeNdiynmyYk,834
+spinsys/_spin/times_test.py,sha256=JNQHcErA9jrilujMakQu0jn9jBILYqcD8PaH5TD-8r8,299
+spinsys/_spin/uuids.py,sha256=osrmtZGnMKuv7MCKMHMB5fIUHbSbZoUEX6v7VBvNG_E,373
+spinsys-0.0.1.dist-info/METADATA,sha256=jTr76ehvvK4Oi7yZ48i4wkeeBH-mGQbJ3JNuTASdcKU,663
+spinsys-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+spinsys-0.0.1.dist-info/licenses/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+spinsys-0.0.1.dist-info/RECORD,,
