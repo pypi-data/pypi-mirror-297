@@ -1,0 +1,2 @@
+[console_scripts]
+my_framework_3 = my_framework_3.main:greet
