@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-rg"
+description = "Git Recursive Grep"
+authors = [{ name = "s3rgeym" }]
+readme = "README.md"
+license = { text = "MIT" }
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = { attr = "git_rg.__version__" }
+
+[project.scripts]
+git-rg = "git_rg:main"
