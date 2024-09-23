@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+mypy = "*"
+numpy = "< 2.0.0"
+shanten-tools = "*"
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+test = "python -m unittest discover -v tests"
+typecheck = "python -m mypy ."
