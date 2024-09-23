@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: image_processing-package-gleyson-atanazio
+Version: 0.0.2
+Summary: Módulo para processamento e comparação de imagens.
+Home-page: https://github.com/atnzpe/processar-imagem-py
+Author: Gleyson Atanazio
+Author-email: gleysonasilva@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: asttokens
+Requires-Dist: attrs
+Requires-Dist: backcall
+Requires-Dist: beautifulsoup4
+Requires-Dist: bleach
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: colorama
+Requires-Dist: contourpy
+Requires-Dist: cycler
+Requires-Dist: decorator
+Requires-Dist: defusedxml
+Requires-Dist: docopt
+Requires-Dist: docutils
+Requires-Dist: executing
+Requires-Dist: fastjsonschema
+Requires-Dist: fonttools
+Requires-Dist: idna
+Requires-Dist: imageio
+Requires-Dist: importlib-metadata
+Requires-Dist: ipython
+Requires-Dist: jaraco.classes
+Requires-Dist: jaraco.context
+Requires-Dist: jaraco.functools
+Requires-Dist: jedi
+Requires-Dist: Jinja2
+Requires-Dist: jsonschema
+Requires-Dist: jsonschema-specifications
+Requires-Dist: jupyter-client
+Requires-Dist: jupyter-core
+Requires-Dist: jupyterlab-pygments
+Requires-Dist: keyring
+Requires-Dist: kiwisolver
+Requires-Dist: lazy-loader
+Requires-Dist: markdown-it-py
+Requires-Dist: MarkupSafe
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-inline
+Requires-Dist: mdurl
+Requires-Dist: mistune
+Requires-Dist: more-itertools
+Requires-Dist: nbclient
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: networkx
+Requires-Dist: nh3
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: pandocfilters
+Requires-Dist: parso
+Requires-Dist: pickleshare
+Requires-Dist: pillow
+Requires-Dist: pipreqs
+Requires-Dist: pkginfo
+Requires-Dist: platformdirs
+Requires-Dist: prompt-toolkit
+Requires-Dist: pure-eval
+Requires-Dist: Pygments
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pywin32
+Requires-Dist: pywin32-ctypes
+Requires-Dist: pyzmq
+Requires-Dist: readme-renderer
+Requires-Dist: referencing
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: rpds-py
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: soupsieve
+Requires-Dist: stack-data
+Requires-Dist: tifffile
+Requires-Dist: tinycss2
+Requires-Dist: tornado
+Requires-Dist: traitlets
+Requires-Dist: twine
+Requires-Dist: urllib3
+Requires-Dist: wcwidth
+Requires-Dist: webencodings
+Requires-Dist: yarg
+Requires-Dist: zipp
+
+# Processar Imagens com Python (processar-imagem-py)
+
+## Descrição
+
+Módulo Python para processamento e comparação de imagens. Este projeto foi criado durante o Treinamento DIO NTT Data 2024. Ele fornece um conjunto de funções para:
+
+* Carregar e salvar imagens.
+* Redimensionar imagens.
+* Converter imagens para escala de cinza.
+* Calcular a diferença entre duas imagens.
+* Equalizar histogramas de imagens.
+* Exibir imagens e seus histogramas.
+
+## Instalação
+
+Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar o `processar-imagem-py`:
+
+```bash
+pip install processar-imagem-py
+
+```
+
+## Utilização
+
+```python
+# Importe os módulos desejados
+from processar_imagem_py import processing, transformation, utils  
+
+
+# Exemplo de uso das funções:
+
+imagem = utils.io.read_image("caminho/da/imagem.jpg")
+imagem_redimensionada = transformation.resize_image(imagem, proportion=0.5)
+utils.plot.plot_image(imagem_redimensionada) 
+```
+
+## Exemplos
+
+- **Comparar duas imagens e destacar as diferenças:**
+
+```python
+from processar_imagem_py import processing, utils
+
+imagem1 = utils.io.read_image("image1.jpg")
+imagem2 = utils.io.read_image("image2.jpg")
+diferenca = processing.find_difference(imagem1, imagem2)
+utils.plot.plot_result(imagem1, imagem2, diferenca)
+```
+- **Redimensionar uma imagem:**
+
+```python
+from processar_imagem_py import transformation, utils
+
+imagem = utils.io.read_image("image.jpg")
+imagem_pequena = transformation.resize_image(imagem, 0.5)
+utils.plot.plot_image(imagem_pequena)
+
+```
+
+## Estrutura do Projeto
+
+
+image-processing-package/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── setup.py
+└── image_processing
+    ├── __init__.py
+    ├── processing
+    │   ├── __init__.py
+    │   ├── combination.py
+    │   └── transformation.py
+    └── utils
+        ├── __init__.py
+        ├── io.py
+        └── plot.py
+
+
+
+
+## Autor
+[Gleyson Atanazio](https://github.com/atnzpe) 
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
