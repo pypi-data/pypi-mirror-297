@@ -1,0 +1,6 @@
+django_ses_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ses_backend/backends.py,sha256=-lsAy73Sf0NytqWaTUWMtyxGCDSkOZR4EoAjn0h8Ops,7336
+django_ses_backend-0.0.1.dist-info/LICENSE,sha256=-xSH5JDhZVdxSGS4YUJKpjgalV6PUtXZe7oUimyY0dc,1073
+django_ses_backend-0.0.1.dist-info/METADATA,sha256=J8nftVhQreGhX9ImxTGFfbg2-_jNmRxunDsJixDuyNk,475
+django_ses_backend-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_ses_backend-0.0.1.dist-info/RECORD,,
