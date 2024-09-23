@@ -1,0 +1,14 @@
+bomiot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bomiot/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bomiot/server/manage.py,sha256=1trtzg4TShdyTJ2tCZaup0lWzFkyKqsnID9JxjUjk7A,684
+bomiot/server/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bomiot/server/server/asgi.py,sha256=KmINEksfJ51bb7o_bW77AQAP_xLEEG3GSA36eCavDXs,405
+bomiot/server/server/settings.py,sha256=HYpAU4nPLF36RxXQIcAKo4A6cJUAMELNJPW1bB9eNms,3345
+bomiot/server/server/urls.py,sha256=yJPi6Kauab8Rjab4zIWtTOeHFspeGUZlYP6iELX2JIY,784
+bomiot/server/server/wsgi.py,sha256=vqYT2cjRatXexPy4y2VJfW3230qS5oy5rwb2U1mtKqY,405
+LICENSE,sha256=_aFhFBymMtdTj3a3CrxpRd3qXcmx8UtE_fz5RgY9trU,1084
+bomiot-0.1.0.dist-info/entry_points.txt,sha256=s-5IPzeZRJ1onlPITOBQK0KnhQvSMy-RCSGpjwl8X-g,41
+bomiot-0.1.0.dist-info/LICENSE,sha256=_aFhFBymMtdTj3a3CrxpRd3qXcmx8UtE_fz5RgY9trU,1084
+bomiot-0.1.0.dist-info/METADATA,sha256=BJWKCaoqLUwoDtb1hnomWUGNreOG44eBXzpb3Wn3zh0,799
+bomiot-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bomiot-0.1.0.dist-info/RECORD,,
