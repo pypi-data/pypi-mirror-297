@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.2.4
+-----
+
+* Update pyusbmux.py to handle devices > 30 (#11)
+* fix logger not exists bug
+* remove logzero import
+* remove requests import
+* update usbmux, remove deps requests,logzero,cached-property,simplejson
