@@ -1,0 +1,2 @@
+[quackamollie.model_manager]
+langchain = quackamollie.model_manager.langchain.langchain_model_manager:LangchainQuackamollieModelManager
