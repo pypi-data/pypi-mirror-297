@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gait-40-dof-22-musc-sagittal
+Version: 0.1.2
+Summary: OpenSim model in MuJoCo environement, addapted to only move in sagittal plane
+Author: Leonard Franz
+Author-email: leonard.franz@student.uni-tuebingen.de
+Requires-Python: >=3.10,<=3.11.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: MyoSuite (>=2.5.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Gait-40-DOF-22-Musc-Sagittal
+OpenSim model in MuJoCo environement, addapted to only move in sagittal plane
+
