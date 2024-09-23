@@ -1,0 +1,2 @@
+[quackamollie.model_manager]
+ollama = quackamollie.model_manager.ollama.ollama_model_manager:OllamaQuackamollieModelManager
