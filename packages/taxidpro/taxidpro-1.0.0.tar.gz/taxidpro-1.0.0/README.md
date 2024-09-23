@@ -1,0 +1,55 @@
+# Tax ID Validation Library
+
+Tax ID Pro allows you to quickly integrate tax ID validation into your existing applications. You can validate over 200 different tax ID formats for over 100 countries.
+
+Lookup is available for VAT Numbers from the European Union (EU), plus the United Kingdom and Australia. Tax ID Pro provides a simple way to check the validity of VAT numbers and ensure compliance with EU regulations.
+
+### Install
+
+```bash
+pip install taxidpro
+```
+
+### Usage
+
+If you haven't already, obtain an API key by signing up at [Tax ID Pro](https://taxid.pro/). Provide your API key to the `TaxIDPro` class.
+
+```py
+from taxidpro import TaxIDPro
+
+taxidpro = TaxIDPro('YOUR_API_KEY')
+
+taxidpro.validate(
+  country='au',
+  tin='92873837267',
+  type='entity'
+)
+
+# Output:
+#
+# {
+#   "is_valid": True,
+#   "message": None,
+#   "country_name": "Australia",
+#   "format_name": "Business Number"
+#   "tin_compact": "92873837267",
+#   "tin_standard": "92 873 837 267",
+# }
+
+taxidpro.lookup(
+  country='au',
+  tin='49004028077'
+)
+
+# Output:
+#
+# {
+#   "is_valid": True,
+#   "message": None,
+#   "country_name": "Australia",
+#   "format_name": "Business Number",
+#   "tin_compact": "49004028077",
+#   "tin_standard": "49 004 028 077",
+#   "lookup_data": { "name": "BHP GROUP LIMITED", "address": "3000 VIC" }
+# }
+```
