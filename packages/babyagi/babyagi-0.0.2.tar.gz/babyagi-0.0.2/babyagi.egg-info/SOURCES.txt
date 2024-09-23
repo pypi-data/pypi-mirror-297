@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+babyagi/__init__.py
+babyagi.egg-info/PKG-INFO
+babyagi.egg-info/SOURCES.txt
+babyagi.egg-info/dependency_links.txt
+babyagi.egg-info/top_level.txt
