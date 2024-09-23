@@ -1,0 +1,2 @@
+[console_scripts]
+engscript-doc = engscript.__main__:doc_cli
