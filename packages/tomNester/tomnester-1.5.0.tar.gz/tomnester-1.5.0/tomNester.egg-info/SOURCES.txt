@@ -1,0 +1,6 @@
+setup.py
+tomNester.py
+tomNester.egg-info/PKG-INFO
+tomNester.egg-info/SOURCES.txt
+tomNester.egg-info/dependency_links.txt
+tomNester.egg-info/top_level.txt
