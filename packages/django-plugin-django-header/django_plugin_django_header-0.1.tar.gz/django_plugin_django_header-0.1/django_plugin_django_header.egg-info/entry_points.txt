@@ -1,0 +1,2 @@
+[djp]
+django_plugin_django_header = django_plugin_django_header

@@ -1,0 +1,30 @@
+[project]
+name = "django-plugin-django-header"
+version = "0.1"
+description = "Add a Django-Compositions HTTP header to a Django app"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "django",
+    "djp",
+]
+
+[project.urls]
+Homepage = "https://github.com/simonw/django-plugin-django-header"
+Changelog = "https://github.com/simonw/django-plugin-django-header/releases"
+Issues = "https://github.com/simonw/django-plugin-django-header/issues"
+CI = "https://github.com/simonw/django-plugin-django-header/actions"
+
+[project.entry-points.djp]
+django_plugin_django_header = "django_plugin_django_header"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-django"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.test_project.settings"
+pythonpath = ["."]
