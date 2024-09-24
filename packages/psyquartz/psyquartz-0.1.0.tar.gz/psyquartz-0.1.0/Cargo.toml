@@ -1,0 +1,13 @@
+[package]
+name = "psyquartz"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "psyquartz"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.0", features = ["abi3-py38"] }
