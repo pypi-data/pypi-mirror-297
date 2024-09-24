@@ -1,0 +1,8 @@
+db_queries_bulk_migrator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+db_queries_bulk_migrator/custom.remote.python.dbquery-export.xlsx,sha256=voNMywikKA42P2F7gLSZcINcSQuw5kKFNroLf7lzFUM,10998
+db_queries_bulk_migrator/main.py,sha256=2hktlS7DakgvdSh3NBz9gm9AxASrs2zXdIPzPP--WCQ,3918
+db_queries_bulk_migrator/models.py,sha256=94oqwnjw45aYTeANJ0AfL7IYRhg14FJDX_LmsBy-RwM,583
+db_queries_bulk_migrator-0.1.1.dist-info/entry_points.txt,sha256=x47zvIvhWpPk-8lnsagrGzMyp-O81duUkUskOCh-b0U,58
+db_queries_bulk_migrator-0.1.1.dist-info/METADATA,sha256=vOO0vEjBL7BcMy-I5cT7RFtyQskU5bG829oKtQRKF6U,636
+db_queries_bulk_migrator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+db_queries_bulk_migrator-0.1.1.dist-info/RECORD,,
