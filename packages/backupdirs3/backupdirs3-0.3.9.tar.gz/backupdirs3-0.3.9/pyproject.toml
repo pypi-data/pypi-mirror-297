@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "backupdirs3"
+version = "0.3.9" # This is a placeholder and will be replaced by the version from poetry-dynamic-versioning
+description = "This tool monitors a directory for changes, create a backup in the form of a zip file, and upload it to an AWS S3 bucket."
+authors = ["Andrey Andreyev <x0153362@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/ludenus/backupdirs3"
+homepage = "https://github.com/ludenus/backupdirs3"
+documentation = "https://github.com/ludenus/backupdirs3"
+keywords = ["backup", "aws", "s3", "directory-monitor"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+inotify = "^0.2.10"
+boto3 = "^1.35.18"
+pyyaml = "^6.0.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+dirty = false
+style = "pep440"
+vcs = "git"
+#pattern = "^(?P<base>[0-9]+\\.[0-9]+\\.[0-9]+)$"
+pattern = "default-unprefixed"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+backupdirs3 = "backupdirs3.main:_main"
