@@ -1,0 +1,11 @@
+portablesource/Version.py,sha256=2GD6on665fMnsZTG5I40KtVrtJXrFEnbOKBkMibh0y8,99
+portablesource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+portablesource/__main__.py,sha256=44RCm5_0gR3Ta6owS9rh2vpzFgB6B6OR4j2o8V6jqyw,116
+portablesource/downloader.py,sha256=DMuo2s-D8HUJFnomK6YxMTtblFs65onqjWQJXmhGkfo,5271
+portablesource/install_from_source.py,sha256=mQOWy_RWVdZ8TcarukiRzCujc2aZLU9_q6cfGXCPphA,12569
+portablesource/updater_facefusion.py,sha256=8Visd7b8bGHpDTve-KBsaj9GxxBLZH02ko24Hu4mfqg,4937
+portablesource-0.0.2.dist-info/METADATA,sha256=xi5s2RN1mgTAQjgTAfwpxzHAbIE7tflZY2s8UscLD3k,753
+portablesource-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+portablesource-0.0.2.dist-info/entry_points.txt,sha256=_tPDHBcewRrg7GbT-dS-XvsV75okAfhJ_xmt2YY_shA,64
+portablesource-0.0.2.dist-info/licenses/LICENSE,sha256=k0p2QNt-AZr8zbBwCTp9anscvw1p7nDHqJCrKVCzAag,1092
+portablesource-0.0.2.dist-info/RECORD,,
