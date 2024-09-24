@@ -1,0 +1,11 @@
+djangoLrnd/__init__.py,sha256=PkHAzd9KxL0hVDiaqQ-2oWRpYfUpoepecjzcQv4cQdc,71
+djangoLrnd/middleware.py,sha256=XDOgLWhl9CxzP5OYioGk7sTHKpgyCYbf3vnSh9clXZ8,2865
+djangoLrnd/models.py,sha256=DNJCs42PbsDSlvj0Dw8Khy59ELzc5Qq52AD-k-hr_ro,258
+djangoLrnd/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoLrnd/views.py,sha256=Wnj1sS1zakNjM9gTISLFggs5q4RObB8hqSXNSkK3iG8,1191
+djangoLrnd/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoLrnd/templates/djangoLrnd/validate.html,sha256=AmJqBvSqpaQvuBJpuHiPXJpkdhziUewc3dNMQODyQ3Q,2218
+djangoLrnd-0.7.dist-info/METADATA,sha256=E5E9cCJacZP5v6B154WdfHxPEYnZUQkGjICL8jqjLbA,802
+djangoLrnd-0.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+djangoLrnd-0.7.dist-info/top_level.txt,sha256=irzJhE4sU546HhLii-cdBLcWm91-OygSn35v4onJloQ,11
+djangoLrnd-0.7.dist-info/RECORD,,
