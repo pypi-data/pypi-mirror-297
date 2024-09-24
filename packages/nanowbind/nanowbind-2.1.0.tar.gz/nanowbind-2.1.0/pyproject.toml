@@ -1,0 +1,36 @@
+[build-system]
+requires = ["scikit-build-core"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "nanowbind"
+version = "2.1.0"
+description = "nanowbind: tiny and efficient C++/Python bindings"
+readme.content-type = "text/markdown"
+readme.text = """
+nanowbind is nanobind without warnings
+"""
+authors = [
+    { name = "Benjamin Ulmer", email = "benjaminulmer55@gmail.com" },
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/benjaminulmer/nanowbind"
+
+[tool.scikit-build]
+minimum-version = "0.9"
+wheel.platlib = false
+cmake.define.NB_TEST = false
+
+[tool.pytest.ini_options]
+testpaths = [ "tests" ]

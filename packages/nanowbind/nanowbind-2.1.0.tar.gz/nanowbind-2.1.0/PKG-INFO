@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nanowbind
+Version: 2.1.0
+Summary: nanowbind: tiny and efficient C++/Python bindings
+Author-Email: Benjamin Ulmer <benjaminulmer55@gmail.com>
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Homepage, https://github.com/benjaminulmer/nanowbind
+Description-Content-Type: text/markdown
+
+nanowbind is nanobind without warnings
