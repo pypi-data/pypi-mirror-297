@@ -1,0 +1,3 @@
+[console_scripts]
+e04go=e04go.E04master:main
+
