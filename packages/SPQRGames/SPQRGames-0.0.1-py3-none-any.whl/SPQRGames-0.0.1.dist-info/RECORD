@@ -1,0 +1,14 @@
+spqr_0_0_1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spqr_0_0_1/spqr.py,sha256=uYlb1U3TYLgpT6tyAkT_gpQWrQZYNL7hHE6MBFi0DJY,5200
+spqr_0_0_1/spqr_defines.py,sha256=eMt5gt4qZ7lK0qyVkC_GKkrf6bUeP0AZeHAICmhGu54,2221
+spqr_0_0_1/spqr_events.py,sha256=r-33dek2AgVla570pp6Xtznrj9cwzM6tFoNViQgSlr8,3747
+spqr_0_0_1/spqr_extras.py,sha256=80vOsL0rkiHQXZlv37UUaTwq4JLb_1IMgPxIkDR5Koo,5637
+spqr_0_0_1/spqr_gui.py,sha256=4tl6TV_HcetcoHkLz7bq6UHQX3yoeJ1c5fy1YgnT7kg,18298
+spqr_0_0_1/spqr_menu.py,sha256=5ia5PRtf1Wzsx_GYq4OAo823mn8HN97fcySdO6PoVgw,12293
+spqr_0_0_1/spqr_widgets.py,sha256=rnzBpUIPUsIGi5pJY5Hk8vhb27qHdXbGRvY0Zk0yrRs,6632
+spqr_0_0_1/spqr_window.py,sha256=5GeanM9elNyQhBxHSoVh2BLM-2I5R_dDg37CTFN1gps,4992
+SPQRGames-0.0.1.dist-info/LICENSE,sha256=hT8CCi3vTKzcbiV9i3ThoniblEWu9nWav2-9rIPtOJw,17986
+SPQRGames-0.0.1.dist-info/METADATA,sha256=WPzFRkpHkQW8x27se0nKcPmwbNosJqw51-4kpaEUCWc,2259
+SPQRGames-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+SPQRGames-0.0.1.dist-info/top_level.txt,sha256=dJCl30IA8jsx680P6848RYKmYeTm2BYUyzUGqL23J68,11
+SPQRGames-0.0.1.dist-info/RECORD,,
