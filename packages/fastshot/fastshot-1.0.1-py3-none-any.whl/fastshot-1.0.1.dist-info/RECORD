@@ -1,0 +1,16 @@
+fastshot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastshot/image_window.py,sha256=c6LaxcP2K_7GwAz-Gy0OPqFSGu6r8yuY6EOlyW3vAWI,7904
+fastshot/main.py,sha256=SGxnOUXW5V25X2T_z73k9oIC2ec4XhfOABxRXkFt0bM,6963
+fastshot/paint_tool.py,sha256=1p7f1dl7MzapZrJxKLR-Qb0qBVdMaqNcr73c-Rl8raA,2457
+fastshot/plugin_ocr.py,sha256=0fDhbyV_6FZjELJ81bj11DNkGi-lhSOjq6KK-kOAPSw,918
+fastshot/screen_pen.py,sha256=bA12sMvAF8xBh5EuY5uFlodRwR9y4S4H9SXiCZvWpS0,11442
+fastshot/snipping_tool.py,sha256=Hiy2OWe5GTQhCTjENJoa3DhJ85-DBb60_hhtdoot-w8,3154
+fastshot/text_tool.py,sha256=jyhtPhOhVMvh3nhy2PyGGl1fWGuLlCAtUuRmtBhydoo,2533
+fastshot/tt.py,sha256=m3AiZbSasm03-3VhT9Avwt20c9H7kiPYQlEH-NZyIus,2996
+fastshot/window_control.py,sha256=RjBuPkxQk45lMrbdKZ8g-6QUYGocnVohsP2GHR8lM70,6755
+fastshot-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastshot-1.0.1.dist-info/METADATA,sha256=omZO-C6x0fAxvBVH-enyluPDVF2OqTsSRaMOVmZSyPk,5229
+fastshot-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fastshot-1.0.1.dist-info/entry_points.txt,sha256=-rOykeY3IIvT2ab7jLSk0iKQtHd7T3SanHIC-rYXybE,48
+fastshot-1.0.1.dist-info/top_level.txt,sha256=Na9vPnByEMwqQEkek5jrydb9dx-e8P_QENmJBGi6WqA,9
+fastshot-1.0.1.dist-info/RECORD,,
