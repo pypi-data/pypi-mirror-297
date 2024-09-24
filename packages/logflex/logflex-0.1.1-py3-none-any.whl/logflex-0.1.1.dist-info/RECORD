@@ -1,0 +1,10 @@
+logflex/__init__.py,sha256=lakAilangv-bmwIkmLF6f68E2Av0t46jCOpk-3P1pkM,53
+logflex/logflex.py,sha256=U_z50yx1c4EMdLBrtepCnBlOeCgeUXasn5_rm-0VrXA,7998
+logflex/config/settings.py,sha256=Pnyqvz3609tA4pSoNlLM2EnCZrqVTGBraT21tzvcRLk,6533
+logflex/config/watcher.py,sha256=n0yRhqvx-R7NlCjvnDxYAcH_gN6fYMfyZBehFvvNl5w,1475
+logflex/custom_formatter/json_formatter.py,sha256=DVLGKq3tOoVxFqhVjq7NAr_9dExtvDP1Bn7R2KNH96g,655
+logflex/models/config_model.py,sha256=7OndcmG5uy-7MlEw0cgmTfjaaxJXViLjo6vu5NESiHs,3906
+logflex-0.1.1.dist-info/METADATA,sha256=R8p5gkgZqDIJvFRijJyp8S9kyT5Pa938ALrv-MhH_bY,5040
+logflex-0.1.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+logflex-0.1.1.dist-info/licenses/LICENSE.txt,sha256=LF_pnwYdvRHVi3Z2xBjQ0PWdhwisXbCta2i3EqhAEGk,1079
+logflex-0.1.1.dist-info/RECORD,,
