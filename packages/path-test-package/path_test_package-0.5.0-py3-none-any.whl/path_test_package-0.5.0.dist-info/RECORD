@@ -1,0 +1,5 @@
+path_test_package/__init__.py,sha256=mJ7an69hPAyWCQs-zboGRwGjZuHaXryPip7Z-bvIRqs,18
+path_test_package/path_test.py,sha256=cXh_HKFhpe3_OTMt_u0Qqs-LbhN7iS7SObfLlcEFExA,356
+path_test_package-0.5.0.dist-info/METADATA,sha256=xItQagnDw06o33hQSGSscSe4IJ18BOvEf_W53XKHrkc,351
+path_test_package-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+path_test_package-0.5.0.dist-info/RECORD,,
