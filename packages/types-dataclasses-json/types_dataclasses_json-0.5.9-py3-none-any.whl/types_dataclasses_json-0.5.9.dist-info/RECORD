@@ -1,0 +1,12 @@
+dataclasses_json-stubs/__init__.pyi,sha256=IPYVxn9pPpMTuOdmJOxN37yrDsE2l2g3zOon4ElIBbk,367
+dataclasses_json-stubs/api.pyi,sha256=lg60FFChTb5OurM2wZBa41x2cZ1RmUhC3EpXj8dY5N0,2293
+dataclasses_json-stubs/cfg.pyi,sha256=joFPsaQbpmBaoQs3Z5Rv91fpPTx9Kpu4kqsBClHAZME,901
+dataclasses_json-stubs/core.pyi,sha256=OVMP0lcR9yhQhhKAEaBM_cFcZPOXkZghxy5bN7TZjXY,151
+dataclasses_json-stubs/mm.pyi,sha256=003WZzM2C8hbVb-ufT4yeUkADuX4Cokiwr3kfiSqt-k,2194
+dataclasses_json-stubs/stringcase.pyi,sha256=37h0JH6Hb8siG5q1y9mH7BeeMO_NffPrnwa0gR3KvI0,294
+dataclasses_json-stubs/undefined.pyi,sha256=RljFOQtEaH1PF-ORPM-1HI5H2YV-SDpwnxOtjsgJkVU,771
+dataclasses_json-stubs/utils.pyi,sha256=K9E8dknaVx4sxAEn6Iz0kcRshKdjUHReY1bScMY-61M,89
+types_dataclasses_json-0.5.9.dist-info/LICENSE,sha256=IYjuLAR4--Dd0ACMbnMI7xGFQPxGIMXl9Ei_8x17Ugs,1064
+types_dataclasses_json-0.5.9.dist-info/METADATA,sha256=0zSZ6KzN5Z4GySjktphQgV2zoi5uxnXDsLk07wH9snc,1285
+types_dataclasses_json-0.5.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+types_dataclasses_json-0.5.9.dist-info/RECORD,,
