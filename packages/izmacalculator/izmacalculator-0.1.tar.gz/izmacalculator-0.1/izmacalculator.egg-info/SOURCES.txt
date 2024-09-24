@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.py
+izmacalculator/__init__.py
+izmacalculator/main.py
+izmacalculator.egg-info/PKG-INFO
+izmacalculator.egg-info/SOURCES.txt
+izmacalculator.egg-info/dependency_links.txt
+izmacalculator.egg-info/entry_points.txt
+izmacalculator.egg-info/requires.txt
+izmacalculator.egg-info/top_level.txt
