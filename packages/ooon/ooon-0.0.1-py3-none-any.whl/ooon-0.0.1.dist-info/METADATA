@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ooon
+Version: 0.0.1
+Summary: Libary For You To Know IF You are Online or Offline
+Author: Ali Ayed
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+# onl
+### to install:
+```bash
+pip install ooon
+```
+from ooon import online
+print('Are You Online:',online())
