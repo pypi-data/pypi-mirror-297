@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: lucidsim
+Version: 0.0.1rc1
+Summary: LucidSim and Benchmark Suite
+Home-page: https://github.com/embodied-intelligence/lucidsim
+Author: Ge Yang<ge.ike.yang@gmail.com>
+Author-email: ge.ike.yang@gmail.com
+License-File: LICENSE
+Requires-Dist: params-proto
+Requires-Dist: numpy
+Requires-Dist: pillow
+
+LucidSim and Benchmark Suite
+============================
+
+Experiments
+-----------
+
+**1. To generate data**
+
+-  run `weaver.render_node <weaver/render_node.py>`__ in the
+   dream-weaver repository
+-  run teacher streamer, turn off streaming
+-  run vuer_monitor to monitor the images
+
+**2. To Behavior Clone**
+
+.. code-block:: shell
+
+   lucidim.learning --env <env> --algo <algo> --num_timesteps <num_timesteps> --log_path <log_path> --save_path <save_path>
+
+**To Evaluate**
+
+-  run
+   `lucidsim_experiments.sweeps.evaluation_sweep <lucidsim_experiments/sweeps/evaluation_sweep.py>`__
+   to generate the sweeps
+-  run
+   `lucidsim_experiments.launch_evaluation.py <lucidsim_experiments/launch_evaluation.py>`__
+   to launch the evaluation runs
+
+Environments
+------------
+
+LucidSim Environments: each with ``lucidsim``, ``rgb``, ``heightmap``,
+``depth`` render.
+
+-  ☐ Parkour (+ cones)
+-  ☐ Stairs (+ cones)
+-  ☐ Hurdle (+ cones)
+-  ☐ Gaps (+ cones)
+-  ☐ Chase ball (+ cones)
+
+Real World Benchmarks: each with ``morning``, ``noon``, ``night``,
+``depth``,
+
+-  ☐ Curbs
+-  ☐ Tables
+-  ☐ Stairs
+-  ☐ Ramps
+-  ☐ Parkour
+
+.. _experiments-1:
+
+Experiments
+-----------
+
+-  `Chase -
+   domain_rand <lucidsim_experiments/sweeps/chase_domain_rand/README.md>`__
+-  `Chase -
+   lucidsim <lucidsim_experiments/sweeps/chase_lucidsim/README.md>`__
+-  `Chase -
+   render <lucidsim_experiments/sweeps/chase_render/README.md>`__
+-  `Hallway -
+   lucidsim <lucidsim_experiments/sweeps/hallway_lucidsim/README.md>`__
+-  `Parkour -
+   depth <lucidsim_experiments/sweeps/parkour_depth/README.md>`__
+-  `Parkour -
+   domain_rand <lucidsim_experiments/sweeps/parkour_domain_rand/README.md>`__
+-  `Parkour -
+   expert <lucidsim_experiments/sweeps/parkour_expert/README.md>`__
+-  `Parkour -
+   lucidsim <lucidsim_experiments/sweeps/parkour_lucidsim/README.md>`__
+-  `Parkour -
+   lucidsim_2_frame <lucidsim_experiments/sweeps/parkour_lucidsim_2_frame/README.md>`__
+-  `Parkour -
+   lucidsim_3_frame <lucidsim_experiments/sweeps/parkour_lucidsim_3_frame/README.md>`__
+-  `Parkour -
+   render_2_frame <lucidsim_experiments/sweeps/parkour_render_2_frame/README.md>`__
+-  `Parkour -
+   render_3_frame <lucidsim_experiments/sweeps/parkour_render_3_frame/README.md>`__
+-  `Street -
+   lucidsim <lucidsim_experiments/sweeps/street_lucidsim/README.md>`__
+
+**Skybox**: Each environment comes in lightings that corresponds to
+different time of day.
+
+-  ☐ daylight
+
+-  ☐ dawn: yellow light, low incidence level (long shadow)
+
+-  morning
+
+-  evening: spotlight, low ambient, streetlight in the background
+
+Setup
+-----
+
+Unfortunately, gym is a mess. You need the following versions
+
+.. code-block:: shell
+
+   pip install setuptools==65.5.0 pip==21 wheel==0.38.4
+   pip install gym==0.21.0
+   pip install gym-dmc==0.2.9
