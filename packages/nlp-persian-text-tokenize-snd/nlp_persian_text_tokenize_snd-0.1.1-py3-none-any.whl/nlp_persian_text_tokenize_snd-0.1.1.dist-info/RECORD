@@ -1,0 +1,16 @@
+pht/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pht/analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pht/analysis/filterwords.py,sha256=qLZKw0S4AZnf8-dZxfHt_O6zvxGw20fuiqKkFUYTCZA,3781
+pht/analysis/verbsremover.py,sha256=B5qD0yRRlRyvhsHieZMzduWmpJYFs-tYZycGb-8hU34,3453
+pht/prefixes_suffixes/PrefixesManager.py,sha256=eMxZ77HpeCgqLxcxC2GeqAVUbltuUpjzHXWacn5kCLg,426
+pht/prefixes_suffixes/SuffixesManager.py,sha256=_GrFCBwRXHEfhrvH_sUKtWbV82zmU-7Y-bbPnXmzHoA,483
+pht/prefixes_suffixes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pht/tokenizer/SentencesTokenizer.py,sha256=-OEmpFcSoi399GlExsEGcxur3o3H_EaQhL8odHQAokA,4987
+pht/tokenizer/TokenizerManager.py,sha256=gGfXBp6ymMHJIynzPC_exy9vOZHv_3DCjEDXM6r5V_A,408
+pht/tokenizer/WordsTokenizer.py,sha256=iCoB2QlVb1T37vL-5eX1P6xmro2qJC5SvdnqKjrCg90,1150
+pht/tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlp_persian_text_tokenize_snd-0.1.1.dist-info/LICENSE,sha256=4wAfuze_gZFeedKKZXZ7_seyiUaMDj_qN-Z_u-2Wzfc,1110
+nlp_persian_text_tokenize_snd-0.1.1.dist-info/METADATA,sha256=-7W3HPAkQEM-Gy30z3p1FnEOqhh-c4INWXnsYVOjQhU,1461
+nlp_persian_text_tokenize_snd-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nlp_persian_text_tokenize_snd-0.1.1.dist-info/top_level.txt,sha256=m4lTGbLyMZYIh54qCDunUdWml_flqg_kIporqdEzrwY,4
+nlp_persian_text_tokenize_snd-0.1.1.dist-info/RECORD,,
