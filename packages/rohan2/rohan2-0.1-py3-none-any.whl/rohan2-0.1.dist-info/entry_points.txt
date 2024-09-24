@@ -1,0 +1,2 @@
+[console_scripts]
+rohan2 = rohan2:main
