@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: orrnob_drops_automation
+Version: 0.1.4
+Summary: A package for airdrop automation.
+Home-page: https://github.com/OrrnobMahmud/Orrnob-Drops-Automation
+Author: Orrnob Mahmud
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: colorama
+Requires-Dist: requests
+Requires-Dist: brotli
+
+# Orrnob Drops Automation
+
+A Python package for automating airdrops.
+
+## Installation
+
+```bash
+pip install orrnob-drops-automation
+```
