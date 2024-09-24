@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: diffusion623
+Version: 0.1.4
+Summary: Reference files for 10-423/623 HW2
+Author-email: Jacob Rast <jrast@andrew.cmu.edu>
+Project-URL: Homepage, https://github.com/mld-instructors/10423-f24-materials
+Project-URL: Issues, https://github.com/mld-instructors/10423-f24-materials/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Reference files for F24 10-423/623 HW2
