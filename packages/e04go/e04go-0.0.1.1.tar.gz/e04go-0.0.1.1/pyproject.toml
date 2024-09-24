@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "e04go"
+version = "0.0.1.001"
+description = "一個基於 FastAPI 的 MTV 架構生成器"
+authors = ["QQ <jeremy55688@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pisces860225/e04go"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+jinja2 = "^3.1.4"
+pydantic = "^2.9.2"
+
+[tool.poetry.scripts]
+e04go = "app.E04master:main" # 指向 app.E04master
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
