@@ -1,0 +1,213 @@
+# MIT License
+#
+# Copyright (c) 2022 Ignacio Vizzo, Tiziano Guadagnino, Benedikt Mersch, Cyrill
+# Stachniss.
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+import importlib
+import os
+import sys
+from pathlib import Path
+
+import natsort
+import numpy as np
+
+from lidar_visualizer.datasets import supported_file_extensions
+
+
+class GenericDataset:
+    def __init__(self, data_dir: Path, *_, **__):
+        try:
+            self.o3d = importlib.import_module("open3d")
+        except ModuleNotFoundError as e:
+            raise ModuleNotFoundError(
+                "Open3D is not installed on your system, to fix this either "
+                'run "pip install open3d" '
+                "or check https://www.open3d.org/docs/release/getting_started.html"
+            ) from e
+        # Intensity stuff
+        import matplotlib.cm as cm
+
+        self.cmap = cm.viridis
+
+        # Config stuff
+        self.sequence_id = os.path.basename(data_dir)
+        self.scans_dir = os.path.join(os.path.realpath(data_dir), "")
+        self.scan_files = np.array(
+            natsort.natsorted(
+                [
+                    os.path.join(self.scans_dir, fn)
+                    for fn in os.listdir(self.scans_dir)
+                    if any(fn.endswith(ext) for ext in supported_file_extensions())
+                ]
+            ),
+            dtype=str,
+        )
+        if len(self.scan_files) == 0:
+            raise ValueError(f"Tried to read point cloud files in {self.scans_dir} but none found")
+        self.file_extension = self.scan_files[0].split(".")[-1]
+        if self.file_extension not in supported_file_extensions():
+            raise ValueError(f"Supported formats are: {supported_file_extensions()}")
+
+        # Obtain the pointcloud reader for the given data folder
+        self._read_point_cloud = self._get_point_cloud_reader()
+
+    def __len__(self):
+        return len(self.scan_files)
+
+    def __getitem__(self, idx):
+        return self._read_point_cloud(self.scan_files[idx])
+
+    def _get_point_cloud_reader(self):
+        """Attempt to guess with try/catch blocks which is the best point cloud reader to use for
+        the given dataset folder. Supported readers so far are:
+
+        File readers are functions which take a filename as an input and return a tuple of points and colors.
+            - np.fromfile
+            - pye57
+            - open3d
+            - trimesh.load
+            - PyntCloud
+        """
+        # 1. The old KITTI format
+        if self.file_extension == "bin":
+            print("[WARNING] Reading .bin files, the only format supported is the KITTI format")
+
+            def read_kitti_scan(file):
+                points_xyzi = (
+                    np.fromfile(file, dtype=np.float32).reshape((-1, 4)).astype(np.float64)
+                )
+                points = points_xyzi[:, 0:3]
+                intensity = points_xyzi[:, -1]
+                intensity = intensity / intensity.max()
+                colors = self.cmap(intensity)[:, :3].reshape(-1, 3)
+                return points, colors
+
+            return read_kitti_scan
+
+        first_scan_file = self.scan_files[0]
+        tried_libraries = []
+        missing_libraries = []
+
+        # 2 Try with pye57
+        if self.file_extension == "e57":
+            try:
+                import pye57
+
+                def read_e57_scan(file):
+                    e57 = pye57.E57(file)
+                    point_data = None
+                    color_data = None
+                    # One e57 file can contain multiple scans, scanned from different positions
+                    for i in range(e57.scan_count):
+                        i = e57.read_scan(i, colors=True, ignore_missing_fields=True)
+                        scan_data = np.stack(
+                            [i["cartesianX"], i["cartesianY"], i["cartesianZ"]], axis=1
+                        )
+                        point_data = (
+                            np.concat([point_data, scan_data])
+                            if point_data is not None
+                            else scan_data
+                        )
+                        try:
+                            scan_color_data = np.stack(
+                                [i["colorRed"], i["colorGreen"], i["colorBlue"]], axis=1
+                            )
+                            color_data = (
+                                np.concat([color_data, scan_color_data])
+                                if color_data is not None
+                                else scan_color_data
+                            )
+                        except KeyError:
+                            pass
+                    # e57 file colors are in 0-255 range
+                    color_data = color_data / 255.0 if color_data is not None else None
+                    return point_data, color_data
+
+                return read_e57_scan
+            except ModuleNotFoundError:
+                missing_libraries.append("pye57")
+                print("[WARNING] pye57 not installed")
+            except:
+                tried_libraries.append("pye57")
+
+        # 3. Try with Open3D
+        try:
+            self.o3d.t.io.read_point_cloud(first_scan_file)
+
+            def read_scan_with_intensities(file):
+                scan = self.o3d.t.io.read_point_cloud(file)
+
+                if "colors" in dir(scan.point):
+                    scan = scan.to_legacy()
+                    return np.asarray(scan.points), np.asarray(scan.colors)
+
+                if "intensity" in dir(scan.point):
+                    intensity = scan.point.intensity.numpy()
+                    intensity = intensity / intensity.max()
+                    colors = self.cmap(intensity)[:, :, :3].reshape(-1, 3)
+                    return scan.point.positions.numpy(), colors
+
+                # else
+                scan = scan.to_legacy()
+                return np.asarray(scan.points), None
+
+            return read_scan_with_intensities
+        except ModuleNotFoundError:
+            missing_libraries.append("open3d")
+        except:
+            tried_libraries.append("open3d")
+
+        # 4. Try with trimesh
+        try:
+            import trimesh
+
+            trimesh.load(first_scan_file)
+            return lambda file: np.asarray(trimesh.load(file).vertices), None
+        except ModuleNotFoundError:
+            missing_libraries.append("trimesh")
+        except:
+            tried_libraries.append("trimesh")
+
+        # 5. Try with PyntCloud
+        try:
+            from pyntcloud import PyntCloud
+
+            PyntCloud.from_file(first_scan_file)
+            return lambda file: PyntCloud.from_file(file).points[["x", "y", "z"]].to_numpy(), None
+        except ModuleNotFoundError:
+            missing_libraries.append("pyntcloud")
+        except:
+            tried_libraries.append("pyntcloud")
+
+        # If reach this point means that none of the libraries exist/could read the file
+        if not tried_libraries:
+            print(
+                "No 3D library is installed in your system. Install one of the following "
+                "to read the pointclouds"
+            )
+            print("\n".join(missing_libraries))
+        else:
+            print("[ERROR] File format not supported")
+
+            print("Tried to load the point cloud with:")
+            print("\n".join(tried_libraries))
+            print("Skipped libraries (not installed):")
+            print("\n".join(missing_libraries))
+        sys.exit(1)
