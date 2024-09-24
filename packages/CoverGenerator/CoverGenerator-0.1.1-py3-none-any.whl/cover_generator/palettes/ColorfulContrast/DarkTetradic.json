@@ -1,0 +1,36 @@
+{
+   "name": "DarkTetradic", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 10, 
+         "primary_color": "#074c07", 
+         "secondary_color": "#198cff"
+      }, 
+      {
+         "id": 11, 
+         "primary_color": "#074c15", 
+         "secondary_color": "#195eff"
+      }, 
+      {
+         "id": 14, 
+         "primary_color": "#074c3e", 
+         "secondary_color": "#5e19ff"
+      }, 
+      {
+         "id": 24, 
+         "primary_color": "#3e074c", 
+         "secondary_color": "#ff5e19"
+      }, 
+      {
+         "id": 25, 
+         "primary_color": "#4c074c", 
+         "secondary_color": "#ff8c19"
+      }, 
+      {
+         "id": 26, 
+         "primary_color": "#4c073e", 
+         "secondary_color": "#ffba19"
+      }
+   ]
+}

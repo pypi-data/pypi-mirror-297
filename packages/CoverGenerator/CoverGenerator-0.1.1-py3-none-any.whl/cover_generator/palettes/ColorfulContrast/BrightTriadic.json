@@ -1,0 +1,51 @@
+{
+   "name": "BrightTriadic", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 2, 
+         "primary_color": "#ff7519", 
+         "secondary_color": "#074c23"
+      }, 
+      {
+         "id": 3, 
+         "primary_color": "#ffa319", 
+         "secondary_color": "#074c30"
+      }, 
+      {
+         "id": 4, 
+         "primary_color": "#ffd119", 
+         "secondary_color": "#074c3e"
+      }, 
+      {
+         "id": 5, 
+         "primary_color": "#ffff19", 
+         "secondary_color": "#074c4c"
+      }, 
+      {
+         "id": 13, 
+         "primary_color": "#19ffa3", 
+         "secondary_color": "#30074c"
+      }, 
+      {
+         "id": 14, 
+         "primary_color": "#19ffd1", 
+         "secondary_color": "#3e074c"
+      }, 
+      {
+         "id": 15, 
+         "primary_color": "#19ffff", 
+         "secondary_color": "#4c074c"
+      }, 
+      {
+         "id": 16, 
+         "primary_color": "#19d1ff", 
+         "secondary_color": "#4c073e"
+      }, 
+      {
+         "id": 17, 
+         "primary_color": "#19a3ff", 
+         "secondary_color": "#4c0730"
+      }
+   ]
+}

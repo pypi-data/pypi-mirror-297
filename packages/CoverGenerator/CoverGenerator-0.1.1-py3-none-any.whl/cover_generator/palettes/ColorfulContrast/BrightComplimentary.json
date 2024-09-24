@@ -1,0 +1,36 @@
+{
+   "name": "BrightComplimentary", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 1, 
+         "primary_color": "#ff4719", 
+         "secondary_color": "#073e4c"
+      }, 
+      {
+         "id": 2, 
+         "primary_color": "#ff7519", 
+         "secondary_color": "#07304c"
+      }, 
+      {
+         "id": 3, 
+         "primary_color": "#ffa319", 
+         "secondary_color": "#07234c"
+      }, 
+      {
+         "id": 4, 
+         "primary_color": "#ffd119", 
+         "secondary_color": "#07154c"
+      },
+      {
+         "id": 15, 
+         "primary_color": "#19ffff", 
+         "secondary_color": "#4c0707"
+      }, 
+      {
+         "id": 16, 
+         "primary_color": "#19d1ff", 
+         "secondary_color": "#4c1507"
+      }
+   ]
+}

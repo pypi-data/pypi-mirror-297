@@ -1,0 +1,61 @@
+{
+   "name": "BrightAnalogous", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 1, 
+         "primary_color": "#ff4719", 
+         "secondary_color": "#4c2307"
+      }, 
+      {
+         "id": 2, 
+         "primary_color": "#ff7519", 
+         "secondary_color": "#4c3007"
+      }, 
+      {
+         "id": 12, 
+         "primary_color": "#19ff75", 
+         "secondary_color": "#074c30"
+      }, 
+      {
+         "id": 13, 
+         "primary_color": "#19ffa3", 
+         "secondary_color": "#074c3e"
+      }, 
+      {
+         "id": 14, 
+         "primary_color": "#19ffd1", 
+         "secondary_color": "#074c4c"
+      }, 
+      {
+         "id": 15, 
+         "primary_color": "#19ffff", 
+         "secondary_color": "#073e4c"
+      }, 
+      {
+         "id": 16, 
+         "primary_color": "#19d1ff", 
+         "secondary_color": "#07304c"
+      }, 
+      {
+         "id": 17, 
+         "primary_color": "#19a3ff", 
+         "secondary_color": "#07234c"
+      }, 
+      {
+         "id": 18, 
+         "primary_color": "#1975ff", 
+         "secondary_color": "#07154c"
+      }, 
+      {
+         "id": 22, 
+         "primary_color": "#7519ff", 
+         "secondary_color": "#30074c"
+      }, 
+      {
+         "id": 23, 
+         "primary_color": "#a319ff", 
+         "secondary_color": "#3e074c"
+      }
+   ]
+}

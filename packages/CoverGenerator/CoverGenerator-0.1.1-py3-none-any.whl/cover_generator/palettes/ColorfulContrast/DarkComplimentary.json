@@ -1,0 +1,26 @@
+{
+   "name": "DarkComplimentary", 
+   "category": "ColorfulContrast", 
+   "color_pairs": [
+      {
+         "id": 16, 
+         "primary_color": "#073e4c", 
+         "secondary_color": "#ff4719"
+      }, 
+      {
+         "id": 17, 
+         "primary_color": "#07304c", 
+         "secondary_color": "#ff7519"
+      }, 
+      {
+         "id": 18, 
+         "primary_color": "#07234c", 
+         "secondary_color": "#ffa319"
+      }, 
+      {
+         "id": 19, 
+         "primary_color": "#07154c", 
+         "secondary_color": "#ffd119"
+      }
+   ]
+}
