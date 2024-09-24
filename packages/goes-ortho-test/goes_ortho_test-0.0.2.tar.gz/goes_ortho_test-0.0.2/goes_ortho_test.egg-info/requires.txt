@@ -1,0 +1,7 @@
+numpy
+
+[all]
+goes-ortho-test[extra]
+
+[extra]
+pandas
