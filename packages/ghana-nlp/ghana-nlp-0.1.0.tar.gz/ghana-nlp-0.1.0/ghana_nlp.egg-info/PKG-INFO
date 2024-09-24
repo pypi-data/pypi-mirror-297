@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ghana-nlp
+Version: 0.1.0
+Summary: A Python library for interacting with the GhanaNLP API
+Home-page: https://pnlarbi.vercel.app/
+Author: Prince Larbi
+Author-email: phiddyconcept@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Ghana NLP Python Client
+
+This is a Python client library for interacting with the [Ghana NLP API](https://api.ghananlp.org). The library provides simple methods to leverage local African language technologies, including **translation**, **speech-to-text (STT)**, and **text-to-speech (TTS)**, for building localized applications.
+
+## Features
+
+- **Translation**: Convert text from one language to another (e.g., English to Twi).
+- **Speech-to-Text (STT)**: Convert spoken language (audio files) into text.
+- **Text-to-Speech (TTS)**: Convert text into natural-sounding speech in local languages.
+
+## Installation
+
+You can install this library using `pip`:
+
+```bash
+pip install ghana-nlp
