@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+GPminer/__init__.py
+GPminer/eval.py
+GPminer/gen.py
+GPminer/ind.py
+GPminer/ino.py
+GPminer/popu.py
+GPstrat.egg-info/PKG-INFO
+GPstrat.egg-info/SOURCES.txt
+GPstrat.egg-info/dependency_links.txt
+GPstrat.egg-info/top_level.txt
