@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jdlib"
+version = "1.0.7"
+description = ""
+authors = ["Justice Suh <justice.suh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jdlib"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
