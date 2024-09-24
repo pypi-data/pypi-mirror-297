@@ -1,0 +1,7 @@
+midas-mosaik
+mosaik_api
+matplotlib
+numpy
+pandas
+tables
+wget
