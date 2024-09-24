@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pokepy-sdk"
+version = "0.1.0"
+description = "Python library for interacting with the `pokeapi` API"
+authors = ["Your Name <john1091w@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+pydantic = "^2.9.2"
+tenacity = "^9.0.0"
+pytest = "^8.3.3"
+black = "^24.8.0"
+ruff = "^0.6.7"
+mypy = "^1.11.2"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
