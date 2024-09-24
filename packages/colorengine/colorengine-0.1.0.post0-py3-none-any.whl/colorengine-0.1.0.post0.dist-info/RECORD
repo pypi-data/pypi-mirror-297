@@ -1,0 +1,14 @@
+colorengine/__init__.py,sha256=1Zdy-ajS0FkQmkqZ8mMkhb3gfxaBq8Qtzy7RoUaw6qU,1429
+colorengine/_version.py,sha256=j3jxS9XGI7aXG1M60ilfn_-nDfYF40o7rD8d38UXdyg,417
+colorengine/__pycache__/__init__.cpython-312.pyc,sha256=q8KaluhGEcjD8U5uPQkA_3CyajJvxv02ijMirTSqbMw,2434
+colorengine/colormaps/__init__.py,sha256=qJlI81e0kh8tTvl2S8dzRylMsHR33u2gZTsylUJtB3M,169
+colorengine/colormaps/discrete_defaults.py,sha256=mh8D8nB1fH1IW6UKZtPlncY0mXrvhWaaS-8T3Vtr5aI,746
+colorengine/colormaps/vivid.py,sha256=uXMlX5C18CwWZITENlyhMIH0fh7NtZyPjuyS4bzT4lE,560
+colorengine/colormaps/__pycache__/__init__.cpython-312.pyc,sha256=oBUvdg57fe1l8YEey4JTRgjrZHMrO_JVc-DCn9_Q6rk,309
+colorengine/colormaps/__pycache__/discrete_defaults.cpython-312.pyc,sha256=YPwma9695d0jdrDwp-sGPyB7WV0fbQyfEdDpI7cExIc,1042
+colorengine/colormaps/__pycache__/vivid.cpython-312.pyc,sha256=m5_c79670o33jMumVlJ2D2MpOQ1azAb3de2WwSkFA74,1018
+colorengine-0.1.0.post0.dist-info/LICENSE,sha256=2z_iQmhwdYpn4UQxk-lP2yMbBmeUw1jaN02JVo1sXlM,1075
+colorengine-0.1.0.post0.dist-info/METADATA,sha256=on8MSkb8lUubTfty9OCN_odxDijUWXfOzw9CjKq46t8,920
+colorengine-0.1.0.post0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+colorengine-0.1.0.post0.dist-info/top_level.txt,sha256=tFIVYTAZZXCt4bDZRbNsJkSZGdx7s3gHuMXi7QxQJYg,12
+colorengine-0.1.0.post0.dist-info/RECORD,,
