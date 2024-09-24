@@ -1,0 +1,14 @@
+INSTALL,sha256=jlNVtVRDsUJHSn8kPsH2FRmtj7nxbmvmUZkKAJPIuDU,1283
+LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+NOTICE,sha256=ZdalpWw-Uf2AAIS2p_oQbwdv3Ii_OW4oFiquACus2aA,1018
+auth.dat,sha256=vjN8M7emt9tJ7AoNaeYBMFC5rSfOuzHnupbebqZ2XVQ,828
+im_client.py,sha256=Vwx67VcmhZxSkNQvXO9sZB7nBVjh-n8evuoYsceAt1g,17329
+IM_client-1.8.0.data/scripts/im_client.py,sha256=45Gz9f_6Jf8TKODRbMRztIgqUjZaTMGxEbIOMLYsauk,17315
+imclient/__init__.py,sha256=RDq1kU1FVsCclQpQLVo8ee_I-zKsu0QTwrFZ2kH77d0,73
+imclient/imclient.py,sha256=J0J3NNypawPtmzEwBwFZuiJiQNCKAungr6ToCEkj7PI,51493
+IM_client-1.8.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+IM_client-1.8.0.dist-info/METADATA,sha256=InDNqTD2PqlL7r6m7cCZZT7DrtsR4ZXzyVdTZQ2pVZg,20067
+IM_client-1.8.0.dist-info/NOTICE,sha256=ZdalpWw-Uf2AAIS2p_oQbwdv3Ii_OW4oFiquACus2aA,1018
+IM_client-1.8.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+IM_client-1.8.0.dist-info/top_level.txt,sha256=xgGfiAs_eVeNpc51SBxUKGxRkP5aA1nV1ZfludfXXss,10
+IM_client-1.8.0.dist-info/RECORD,,
