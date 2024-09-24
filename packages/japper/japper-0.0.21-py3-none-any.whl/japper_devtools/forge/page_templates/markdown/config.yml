@@ -1,0 +1,67 @@
+name: markdown
+title: Rendered Markdown Page
+description: A simple page that renders markdown content.
+settings:
+  - name: font_size
+    type: textfield
+    default: 16px
+    hint: The base font size for the rendered markdown content.
+  - name: markdown_content
+    type: textarea
+    height: 500px
+    default: |
+      # Markdown Page
+
+      This is a simple markdown page.
+
+      ## Subheading
+
+      This is a subheading.
+
+      ### Subsubheading
+
+      This is a subsubheading.
+
+      **Bold text**
+
+      *Italic text*
+
+      [Link](https://www.example.com)
+
+      ![Image](https://www.example.com/image.jpg)
+
+      - List item 1
+      - List item 2
+      - List item 3
+
+      1. Numbered list item 1
+      2. Numbered list item 2
+      3. Numbered list item 3
+
+      > Blockquote
+
+      `Code block`
+
+      ```python
+      def example_function():
+          return "Example"
+      ```
+
+      ---
+
+      Horizontal rule
+
+      ---
+
+      | Header 1 | Header 2 |
+      |----------|----------|
+      | Cell 1   | Cell 2   |
+      | Cell 3   | Cell 4   |
+
+      <div style="background-color: lightblue; padding: 10px;">
+          <p>Custom HTML</p>
+      </div>
+
+
+
+
