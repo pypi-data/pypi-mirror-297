@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+seaturtle_flowchart/__init__.py
+seaturtle_flowchart/__version__.py
+seaturtle_flowchart.egg-info/PKG-INFO
+seaturtle_flowchart.egg-info/SOURCES.txt
+seaturtle_flowchart.egg-info/dependency_links.txt
+seaturtle_flowchart.egg-info/top_level.txt
