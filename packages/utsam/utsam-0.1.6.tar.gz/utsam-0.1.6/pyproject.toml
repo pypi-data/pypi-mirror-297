@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "utsam"
+version = "0.1.6"
+description = "UTS Assignment Marking Package"
+authors = ["Your Name <you@example.com>"]
+license = "Proprietary License"
+readme = "README.md"
+packages = [{include = "utsam"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pandas = "2.1.1"
+Faker = "26.0.0"
+SQLAlchemy = "2.0.32"
+altair = "4.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
