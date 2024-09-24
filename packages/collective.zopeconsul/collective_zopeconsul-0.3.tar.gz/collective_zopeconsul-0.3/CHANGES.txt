@@ -1,0 +1,22 @@
+Changelog
+=========
+
+0.3 (2024-09-23)
+----------------
+
+- Create new CONSUL_IGNOREVHM option [instification]
+- Only update VHM values if they differ from consul [instification]
+
+
+0.2 (2021-09-16)
+----------------
+
+- Add Python3 compatibility [instification]
+
+
+0.1 (2018-02-01)
+----------------
+
+- Initial setup and vhm monkeypatching [djay]
+- Addition of zope-additional-configuration option [instification]
+- Addition of key/value pairs to consul [instification]
