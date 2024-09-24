@@ -1,0 +1,16 @@
+colorengine/__init__.py,sha256=ZmFSKHUZyfwUqRIGii1t5EsmDK4IWbu1EPWG2CKG2n8,1426
+colorengine/_version.py,sha256=MxUhzLJIZQfEpDTTcKSxciTGrMLd5v2VmMlHa2HGeo0,411
+colorengine/__pycache__/__init__.cpython-312.pyc,sha256=xmxo5Xg5h1qYlJwG6v3w9JyTRBIJkg5MMJzOYu5aKaE,2322
+colorengine/colormaps/__init__.py,sha256=mhdcA6bkeYF5u_mNNgHDzVaTLy8NpjVAPWFvziLMN70,691
+colorengine/colormaps/discrete_defaults.py,sha256=7wfDsvDHLD5l7wYpjUwXWeUju_5AAVSvQHVFNnQ6mD8,747
+colorengine/colormaps/dream.py,sha256=MxgkbamDluP8gQx7og6v4SfSBJKn6lwwFrDgXH5eo2Q,595
+colorengine/colormaps/icecream.py,sha256=6j8nMbF7fvHan-BXjgNbSshni6FfnCg2I5sFvYVoGig,523
+colorengine/colormaps/vivid.py,sha256=F-JAfXW6dlR96ZWdmotVS0-Y0dzZzAayzPVOlW9-3P8,565
+colorengine/colormaps/__pycache__/__init__.cpython-312.pyc,sha256=u2P2f_udd14A_S61OnIWvotyv1XwvemvLsN_uxO0pYw,986
+colorengine/colormaps/__pycache__/discrete_defaults.cpython-312.pyc,sha256=3sgy1-ur4mBZjl43wHJEROhnbzInz4NMZY_X-fM16dI,1055
+colorengine/colormaps/__pycache__/vivid.cpython-312.pyc,sha256=PJhGvJUwlR3Nv7hEU45PFaIrr68SJlfRFtkOa-te0mk,1033
+colorengine-0.2.1.dist-info/LICENSE,sha256=2z_iQmhwdYpn4UQxk-lP2yMbBmeUw1jaN02JVo1sXlM,1075
+colorengine-0.2.1.dist-info/METADATA,sha256=HgJHxpDrLj-YjFQk3nE3c1PEjiy2tU5IN-kgXKpHVBw,914
+colorengine-0.2.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+colorengine-0.2.1.dist-info/top_level.txt,sha256=tFIVYTAZZXCt4bDZRbNsJkSZGdx7s3gHuMXi7QxQJYg,12
+colorengine-0.2.1.dist-info/RECORD,,
