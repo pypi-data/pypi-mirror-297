@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: demo-hformat
+Version: 0.0.3
+Summary: Reformats files to stdout
+Author: Herve Habonimana
+Author-email: habonimanah@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pandas
+
+# CSV_LINTER
