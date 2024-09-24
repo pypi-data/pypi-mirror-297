@@ -1,0 +1,11 @@
+vref_utils/__init__.py,sha256=0KyYxBnEmJHmwXH8VeqH8hZ_2Q9W5JSqVy_QizyErP0,23
+vref_utils/verse.py,sha256=Un3gUT8S4e65DaA-zalefuAGuKBzEOmCxP-vCOWxJPs,484
+vref_utils/verse_list.py,sha256=WKUuZnEmrGPOCf_92MvnZkct9OTa8AUYkpdY7LiOVgI,1055
+vref_utils/versification.py,sha256=8Hd-0QB1ycLeH2WtIvZAbfUxlDo5-MOLe2p61zKdgWM,1048
+vref_utils/vref.py,sha256=qrzwTJOVWEGGQCE9TeW-dMleEIzh-jxG0gC7RZG44jM,3448
+vref_utils/vref.txt,sha256=kk4_dWx_OflW-f7s6fK6MjdyYadeOsXOeiMLJJvsyfM,431827
+vref_utils-0.0.8.dist-info/LICENSE,sha256=YOC2jA81wHju86XSlBnQsD_4TsHfnD-dbjmlGaWueYU,1071
+vref_utils-0.0.8.dist-info/METADATA,sha256=lMxB84kgRMt9mUU6ZA8mJ5u7-jGWvJOc66MVwToKvgk,6416
+vref_utils-0.0.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+vref_utils-0.0.8.dist-info/top_level.txt,sha256=u4XQGNLCmyLip3rZnWyVZh-H_FX6lLUhDjqytvgAq7E,11
+vref_utils-0.0.8.dist-info/RECORD,,
