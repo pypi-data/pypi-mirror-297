@@ -1,0 +1,7 @@
+___NOCOMMIT
+build
+czespressif
+dist
+docs
+tests
+venv
