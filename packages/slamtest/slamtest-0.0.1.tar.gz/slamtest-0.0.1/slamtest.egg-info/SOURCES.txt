@@ -1,0 +1,7 @@
+setup.py
+slamtest/__init__.py
+slamtest/analysis.py
+slamtest.egg-info/PKG-INFO
+slamtest.egg-info/SOURCES.txt
+slamtest.egg-info/dependency_links.txt
+slamtest.egg-info/top_level.txt
