@@ -1,0 +1,62 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quackamollie-model-langchain-simple"
+version = "0.1"
+description = "Simple Langchain model based on Ollama using Langchain model manager for Quackamollie Telegram chat bot"
+readme = "README.rst"
+authors = [
+    {name = "QuactorAI", email = "quacktorai@gmail.com"},
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["quackamollie", "model", "langchain", "ollama", "telegram", "bot", "aiogram"]
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-community",
+    "quackamollie-core",
+    "quackamollie-langchain-model-manager",
+]
+
+[project.optional-dependencies]
+lint = [
+    'check-manifest',
+    'flake8',
+    'readme_renderer',
+    'safety',
+    'setuptools',
+    'twine',
+    'wheel',
+]
+test = [
+    'coverage',
+    'pytest',
+    'pytest-cov',
+    'pytest-xdist',
+    'tox',
+]
+doc = [
+    'sphinx',
+    'sphinx-click',
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/models/langchain/quackamollie_model_langchain_simple"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"]
+namespaces = true
+
+[project.entry-points."quackamollie.model.langchain"]
+simple-langchain = "quackamollie.model.langchain_simple.model_langchain_simple:SimpleLangchainQuackamollieModel"
