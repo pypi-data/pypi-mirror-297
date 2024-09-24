@@ -1,0 +1,10 @@
+helper_i18n/__init__.py,sha256=byXq7_Gcehd5J_KpZxFlas7Ffg5LI8foGbGOUkV3GMs,750
+helper_i18n/handler/docs_handler.py,sha256=pR__6xf93fvwluWIe9PAJ5nKO5gpmJaOiFneYK4doeU,1748
+helper_i18n/handler/exception_handler.py,sha256=3kyOD7uxOPpby8e_mcnAZL06TKzTwB6Q9sNo7sLpsAA,2563
+helper_i18n/handler/i18n_handler.py,sha256=5V5QuKWPvRi6ncPzz6byqM7BHphPCpcqX207soUUmqs,1266
+helper_i18n/typing.py,sha256=yzjmGIBEdSAw6I08xQYYUvU_Wu9MXA9xlm--oKeDWK4,147
+helper_i18n/utils.py,sha256=5rwQRN0a9ZDtRZ22ys-4k2AyD42PsxWC1iGlhYRb-9k,810
+i18n_fastapi_helper-0.3.0.dist-info/METADATA,sha256=rrWhbLDMBO4j90yUJlkwbfQS1ufSIs6TTQpieQpB5-w,288
+i18n_fastapi_helper-0.3.0.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+i18n_fastapi_helper-0.3.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+i18n_fastapi_helper-0.3.0.dist-info/RECORD,,
