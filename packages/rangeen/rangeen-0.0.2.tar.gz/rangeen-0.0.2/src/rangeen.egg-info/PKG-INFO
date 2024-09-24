@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rangeen
+Version: 0.0.2
+Summary: An unicode and ascii colour, emotes, art and loader library for terminals.
+Home-page: https://github.com/khera-shanu/rangeen
+Author: Shanu Khera
+Author-email: kherashanu@gmail.com
+Maintainer: Shanu Khera
+Maintainer-email: kherashanu@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+License-File: LICENSE
+
+A python package to help developers create terminal tools in python
+using multi-color text and unicode emotes.Rangeen also provides ASCII and Unicode art for cool 
+branding of command line tools. Except all this rangeen also provides ASCII loaders

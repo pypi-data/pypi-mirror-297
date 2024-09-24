@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/rangeen/__init__.py
+src/rangeen/_colors.py
+src/rangeen/_emotes.py
+src/rangeen/_utils.py
+src/rangeen.egg-info/PKG-INFO
+src/rangeen.egg-info/SOURCES.txt
+src/rangeen.egg-info/dependency_links.txt
+src/rangeen.egg-info/top_level.txt
