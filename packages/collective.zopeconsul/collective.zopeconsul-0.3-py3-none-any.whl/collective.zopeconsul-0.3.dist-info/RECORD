@@ -1,0 +1,12 @@
+collective.zopeconsul-0.3-py3.10-nspkg.pth,sha256=tFrq-oIbsIvM9aJ7_K-LUUfej17Vtp1xGlGJ-nbHOH4,487
+collective/zopeconsul/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+collective/zopeconsul/configure.zcml,sha256=bjm92fO2KQIGN-UMGZ277LUaVCePL4wK3yqtoG0Iij0,750
+collective/zopeconsul/consulserver.py,sha256=t60Xgn8cF4k3avtcUMl0rhtWLzIHm6Gx-fIoh-IhslM,2501
+collective/zopeconsul/startup.py,sha256=AxdQXrM6mYmSEmziOXY-iWtY-PESCfw5cDJbWouzQok,246
+collective/zopeconsul/vhm.py,sha256=m3iFrWvMuouF30V4svnWS1GVZAuUGkCPhp3egO0BgMM,3159
+collective.zopeconsul-0.3.dist-info/METADATA,sha256=23yZk_O3YXWT-GSkK2Bsus8fo18-DSPZt9JaGW8Cz80,3584
+collective.zopeconsul-0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+collective.zopeconsul-0.3.dist-info/entry_points.txt,sha256=b5cHz9FINNyhunUZ6BJOQMhgeAi2x9UcnAkA9l8KEC4,40
+collective.zopeconsul-0.3.dist-info/namespace_packages.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.zopeconsul-0.3.dist-info/top_level.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.zopeconsul-0.3.dist-info/RECORD,,
