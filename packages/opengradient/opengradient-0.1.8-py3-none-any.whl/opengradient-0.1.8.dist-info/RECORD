@@ -1,0 +1,11 @@
+opengradient/__init__.py,sha256=L7fIQzQMFI-NajLWqcTyYwvXmoQhNBn3Zv4vUl-4-zY,1653
+opengradient/client.py,sha256=HenTm4UUi0Xf1YJpEm3QXGwPnf6ZUzzwjWwZYtxbQ28,18019
+opengradient/exceptions.py,sha256=v4VmUGTvvtjhCZAhR24Ga42z3q-DzR1Y5zSqP_yn2Xk,3366
+opengradient/types.py,sha256=NTWQ0HvglQA7d8y6OQDkymToSdCq4NnrVtwQwm_NMMU,1857
+opengradient/utils.py,sha256=95i5RVn-32MRsn00M21io8QHLtmEAoRbgueMhDh0TVk,5079
+opengradient/abi/inference.abi,sha256=HH2SmCJ_D4O0I-CFsln0vFHd2PU-A-fxgCnUtHg0ZQg,2373
+opengradient-0.1.8.dist-info/LICENSE,sha256=xEcvQ3AxZOtDkrqkys2Mm6Y9diEnaSeQRKvxi-JGnNA,1069
+opengradient-0.1.8.dist-info/METADATA,sha256=7FoFCwvqHyfOsCwu9BZKtfMrFsxwpuhxsurl18SOw6Y,2977
+opengradient-0.1.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+opengradient-0.1.8.dist-info/top_level.txt,sha256=oC1zimVLa2Yi1LQz8c7x-0IQm92milb5ax8gHBHwDqU,13
+opengradient-0.1.8.dist-info/RECORD,,
