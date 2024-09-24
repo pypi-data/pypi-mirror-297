@@ -1,0 +1,11 @@
+torch==2.4.*
+pytorch-lightning==2.4.*
+requests
+typing_extensions
+numpy
+tqdm
+pandas
+
+[test]
+pytest==7.4.*
+pytest-mock==3.10.*

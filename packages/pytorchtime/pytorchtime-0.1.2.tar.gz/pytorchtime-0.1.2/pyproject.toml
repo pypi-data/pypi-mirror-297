@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorchtime"
+authors = [
+    { name = "Vincent Scharf", email = "vincent.scharf@smail.inf.h-brs.de" }
+]
+description = "A time series package for PyTorch"
+readme = "README.md"
+keywords = ["python", "torchtime"]
+classifiers = [
+    "Environment :: Plugins",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "torch==2.4.*",
+    "pytorch-lightning==2.4.*",
+    "requests",
+    "typing_extensions",
+    "numpy",
+    "tqdm",
+    "pandas",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+test = [
+    "pytest == 7.4.*",
+    "pytest-mock == 3.10.*"
+]
+
+[project.urls]
+repository = "https://github.com/VincentSch4rf/torchtime"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["torchtime.*"]
+
+[tool.setuptools.package-data]
+torchtime = ["*.txt", "*.rst", "config.ini"]
+
+[tool.setuptools.dynamic]
+version = { attr = "torchtime.__version__" }
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+mock_use_standalone_module = true
