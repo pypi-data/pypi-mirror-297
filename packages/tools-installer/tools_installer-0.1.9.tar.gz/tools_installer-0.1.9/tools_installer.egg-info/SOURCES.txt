@@ -1,0 +1,7 @@
+setup.py
+tools-installer/Installer.py
+tools-installer/__init__.py
+tools_installer.egg-info/PKG-INFO
+tools_installer.egg-info/SOURCES.txt
+tools_installer.egg-info/dependency_links.txt
+tools_installer.egg-info/top_level.txt

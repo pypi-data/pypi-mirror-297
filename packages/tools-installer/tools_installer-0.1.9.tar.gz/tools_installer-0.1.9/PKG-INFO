@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tools_installer
+Version: 0.1.9
+Summary: tools-shutil-installer for copy files to other or Doing stuff
+Author: Raiz Apps
+Author-email: raizhaikal82@gmail.com
+Keywords: python,first package
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+My first Python package with tools-installer that require shutil
