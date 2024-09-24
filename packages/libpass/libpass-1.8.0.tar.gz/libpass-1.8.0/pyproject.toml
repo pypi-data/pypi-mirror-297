@@ -1,0 +1,217 @@
+[project]
+name = "libpass"
+version = "1.8.0"
+description = "Fork of passlib, a comprehensive password hashing framework supporting over 30 schemes"
+authors = [
+    { name = "Eli Collins", email = "elic@assurancetechnologies.com" },
+]
+maintainers = [
+    { name = "Doctor", email = "thirvondukr@gmail.com" },
+]
+dependencies = [
+    "legacycrypt>=0.3",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+keywords = [
+    "2fa",
+    "apache",
+    "argon2",
+    "bcrypt",
+    "crypt",
+    "hash",
+    "htdigest",
+    "htpasswd",
+    "md5-crypt",
+    "passlib",
+    "password",
+    "pbkdf2",
+    "scrypt",
+    "secret",
+    "security",
+    "sha256-crypt",
+    "sha512-crypt",
+    "totp",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.license]
+text = "BSD"
+
+[project.urls]
+Homepage = "https://github.com/ThirVondukr/passlib"
+Repository = "https://github.com/ThirVondukr/passlib"
+Docs = "https://passlib.readthedocs.io"
+Issues = "https://github.com/ThirVondukr/passlib/issues"
+Changelog = "https://github.com/ThirVondukr/passlib/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+argon2 = [
+    "argon2-cffi>=18.2.0",
+]
+bcrypt = [
+    "bcrypt>=3.1.0",
+]
+totp = [
+    "cryptography>=43.0.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+linters = [
+    "deptry>=0.20.0",
+    "mypy>=1.11.2",
+    "ruff>=0.6.6",
+]
+testing = [
+    "coverage>=7.6.1",
+    "pytest>=8.3.3",
+    "typeguard>=4.3.0",
+    "pytest-xdist>=3.6.1",
+]
+django = [
+    "django>=4.2.16",
+]
+types = [
+    "django-stubs>=5.0.4",
+]
+sphinx-docs = [
+    "sphinx>=7.4.7",
+    "cloud-sptheme>=1.10.1.post20200504175005",
+    "sphinxcontrib-fulltoc>=1.2.0",
+]
+dev = []
+
+[tool.coverage.run]
+source = [
+    "passlib",
+]
+omit = [
+    "",
+]
+command_line = "-m pytest -v"
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "class .*\\(.*\\bProtocol\\b.*\\):",
+    "@(?:typing\\.)?overload",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]
+show_missing = true
+skip_covered = true
+skip_empty = true
+precision = 2
+fail_under = 0
+
+[tool.deptry]
+known_first_party = [
+    "passlib",
+]
+
+[tool.deptry.per_rule_ignores]
+DEP001 = [
+    "argon2pure",
+    "fastpbkdf2",
+    "scrypt",
+    "matplotlib",
+]
+DEP004 = [
+    "django",
+    "cloud_sptheme",
+]
+
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "ALL",
+]
+unfixable = [
+    "F401",
+]
+ignore = [
+    "PT011",
+    "E501",
+    "ISC001",
+    "N",
+    "ANN",
+    "S",
+    "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "DTZ",
+    "EM",
+    "D",
+    "PTH",
+    "RUF",
+    "PLR",
+    "FIX",
+    "TD",
+    "ARG",
+    "TRY",
+    "SLF",
+    "ERA",
+    "C90",
+    "PD",
+    "PLW",
+    "PLC",
+    "BLE",
+    "T",
+    "FLY",
+    "INP",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"passlib/hash.py" = [
+    "F401",
+]
+"passlib/crypto/_blowfish/base.py" = [
+    "E741",
+]
+"passlib/crypto/_blowfish/unrolled.py" = [
+    "E741",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "1.8.0"
+tag_format = "$version"
+version_files = [
+    "passlib/__init__.py",
+    "pyproject.toml:version",
+]
+
+[tool.mypy]
+python_version = "3.9"
+
+[tool.pytest.ini_options]
+addopts = "-W error::Warning"
