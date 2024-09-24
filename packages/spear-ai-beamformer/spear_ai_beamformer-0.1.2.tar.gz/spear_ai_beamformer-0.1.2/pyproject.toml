@@ -1,0 +1,22 @@
+[project]
+name = "spear-ai-beamformer"
+description = "A conventional beamformer."
+version = "0.1.2"
+authors = [{ name = "Spear AI", email = "org@spear.ai" }]
+dependencies = []
+readme = "README.md"
+requires-python = ">=3.11"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.uv]
+dev-dependencies = [
+  "hypothesis==6.112.1",
+  "mypy==1.11.2",
+  "pytest-cov==5.0.0",
+  "pytest==8.3.3",
+  "ruff==0.6.5",
+  "spear-ai-ruff-config==5.0.0",
+]

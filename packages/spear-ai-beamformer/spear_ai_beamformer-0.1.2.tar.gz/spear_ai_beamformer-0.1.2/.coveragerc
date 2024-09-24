@@ -1,0 +1,11 @@
+[html]
+directory = .coverage_reports/html
+
+[report]
+fail_under = 100
+exclude_lines =
+    if TYPE_CHECKING:
+    pragma: no cover
+
+[xml]
+output = .coverage_reports/coverage.xml

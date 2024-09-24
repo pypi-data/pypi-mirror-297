@@ -1,0 +1,11 @@
+Metadata-Version: 2.3
+Name: spear-ai-beamformer
+Version: 0.1.2
+Summary: A conventional beamformer.
+Author-email: Spear AI <org@spear.ai>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Beamformer
+
+A conventional beamformer.
