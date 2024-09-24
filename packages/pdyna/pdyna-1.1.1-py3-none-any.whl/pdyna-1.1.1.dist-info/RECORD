@@ -1,0 +1,15 @@
+pdyna/__init__.py,sha256=EnmfTv2uwhr3mji33qnMUtA500ZmLNybTM5Cw-6yvCw,151
+pdyna/_version.py,sha256=dZs1zVIvlfkKsP2GIRS_2V2ThbU01D_kOsPkBaBv_a8,211
+pdyna/analysis.py,sha256=xQoYG4YqIAwhdqCzlas9RLVDdu7xOGQgLIa30nKdcQY,277212
+pdyna/core.py,sha256=UhQ0nxU9sOkM-Hr4TUE7SjzfS6swDdVEyYUeWTVaaJ4,225640
+pdyna/io.py,sha256=hOKmPlSXRwcB2g0uPRxmP30qzrluk6iNBZpLsfNHuyw,36444
+pdyna/structural.py,sha256=kA1B8OjDrKPeodRH3cro0E2XFMZ7J3s0yIG1qZy9kyw,76900
+pdyna/basis/octahedron_basis.json,sha256=AdP6Z5Kql_cdANyOrce6aGa4WvaIUtaIQ4Ow9BM0VuE,2536
+pdyna/basis/octahedron_basis_analytical.json,sha256=Yrq9insOCmewstaNIxSXG3_2BT8xFFTXaZg0eEmtmOg,2522
+pdyna/basis/octahedron_basis_full.json,sha256=9ArBHVHD8MXcqAJHdl73DUxKC5J5dF7s0m_322MAIZ0,6215
+pdyna-1.1.1.data/data/LICENSE,sha256=dDxGnEvziTxV4mfVZdps_dwcKPV4cs2Qa8rmKVMkKfA,1087
+pdyna-1.1.1.dist-info/LICENSE,sha256=dDxGnEvziTxV4mfVZdps_dwcKPV4cs2Qa8rmKVMkKfA,1087
+pdyna-1.1.1.dist-info/METADATA,sha256=GWQ2MdIV4_4bgFlNTVqtMsCx_TneAGfOy_E0TGsnTyg,10477
+pdyna-1.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pdyna-1.1.1.dist-info/top_level.txt,sha256=HgGeL5vnBUgNO0zy5k5XfzlGtFkj-gWzkCJi0iUR9vA,6
+pdyna-1.1.1.dist-info/RECORD,,
