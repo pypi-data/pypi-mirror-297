@@ -1,0 +1,320 @@
+%                                                                 aa.dem
+% AA vers. 9.1, LaTeX class for Astronomy & Astrophysics
+% demonstration file
+%                                                       (c) EDP Sciences
+%-----------------------------------------------------------------------
+%
+%\documentclass[referee]{aa} % for a referee version
+%\documentclass[onecolumn]{aa} % for a paper on 1 column  
+%\documentclass[longauth]{aa} % for the long lists of affiliations
+%\documentclass[letter]{aa} % for the letters
+%\documentclass[bibyear]{aa} % if the references are not structured
+%                              according to the author-year natbib style
+
+%
+\documentclass{aa}  
+
+%
+\usepackage{graphicx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{txfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[options]{hyperref}
+% To add links in your PDF file, use the package "hyperref"
+% with options according to your LaTeX or PDFLaTeX drivers.
+%
+
+\usepackage{natbib,twoopt}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,breaklinks]{hyperref} %% to avoid \citeads line fills
+\bibpunct{(}{)}{;}{a}{}{,}             %% natbib format for A&A and ApJ
+\makeatletter
+  \newcommandtwoopt{\citeads}[3][][]{\href{http://adsabs.harvard.edu/abs/#3}%
+    {\def\hyper@linkstart##1##2{}%
+     \let\hyper@linkend\@empty\citealp[#1][#2]{#3}}}
+  \newcommandtwoopt{\citepads}[3][][]{\href{http://adsabs.harvard.edu/abs/#3}%
+    {\def\hyper@linkstart##1##2{}%
+     \let\hyper@linkend\@empty\citep[#1][#2]{#3}}}
+  \newcommandtwoopt{\citetads}[3][][]{\href{http://adsabs.harvard.edu/abs/#3}%
+    {\def\hyper@linkstart##1##2{}%
+     \let\hyper@linkend\@empty\citet[#1][#2]{#3}}}
+  \newcommandtwoopt{\citeyearads}[3][][]%
+    {\href{http://adsabs.harvard.edu/abs/#3}
+    {\def\hyper@linkstart##1##2{}%
+     \let\hyper@linkend\@empty\citeyear[#1][#2]{#3}}}
+\makeatother
+
+
+
+
+\begin{document}
+
+
+   \title{SALT+ algebra}
+
+   \subtitle{A cheatsheet to track bugs in the code}
+
+   \author{N. Regnault
+          \inst{1}
+          \and
+          G. Augarde
+          \inst{1}
+          }
+
+   \institute{LPNHE
+     \email{nicolas.regnault@lpnhe.in2p3.fr}}
+ 
+   
+   \date{}
+
+% \abstract{}{}{}{}{}
+% 5 {} token are mandatory
+ 
+  \abstract
+  % context heading (optional)
+  % {} leave it empty if necessary  
+   {Documentation for the SALT2 model}
+  % aims heading (mandatory)
+   {}
+  % methods heading (mandatory)
+   {}
+  % results heading (mandatory)
+   {}ker
+   n/
+  % conclusions heading (optional), leave it empty if necessary
+   {}
+
+   \keywords{SALT+ -- 
+   }
+   
+   \maketitle
+%
+%________________________________________________________________
+
+\section{The model}
+
+
+\subsection{The hybrid spectrophotometric model}
+
+We observe a supernova of spectral flux ${\cal S}(\lambda)$ (in the SN
+reference frame), located at redshift $z$.  We note $d_L(z) = (1+z)
+d_p(z)$ the luminosity distance to the SN.  The spectral flux density
+(energy per unit area and per unit wavelength) is:
+\begin{equation}
+  \varphi_{\mathrm{spec}}(\lambda,p) = \frac{1}{4\pi d_L^2(z)} \ \frac{1}{1+z} \ {\cal S}(\lambda/(1+z))
+  \label{eqn:specmodel}  
+\end{equation}
+(note the additional (1+z) factor).
+
+The broadband flux of the SN when observed through passband
+$T(\lambda)$ is:
+\begin{equation}
+  \varphi_{\mathrm{phot}}(p) = \frac{1}{4\pi d_L^2(z)} \frac{1}{1+z} \int {\cal S}(\lambda/(1+z)) \frac{\lambda}{hc} T(\lambda) d\lambda
+\end{equation}
+if we integrate in the SN restframe instead, this expression becomes:
+\begin{equation}
+  \varphi_{\mathrm{phot}}(p) = \frac{1}{4\pi d_L^2(z)}\ (1+z)\ \int {\cal S}(\lambda) \frac{\lambda}{hc} T((1+z)\lambda) d\lambda
+    \label{eqn:photmodel}
+\end{equation}
+SN luminosity distances are based on the SN restframe $B$-band
+luminosity, and more exactly on the SN absolute B-band peak
+luminosity:
+\begin{equation}
+  \Phi_B = \frac{1}{4\pi (10\mathrm{pc})^2} \int {\cal S}(\lambda, p=0) \frac{\lambda}{hc} B(\lambda) d\lambda
+\end{equation}
+If we normalize $\cal S$, so that
+\begin{equation}
+  \int {\cal S}(\lambda, p=0) \frac{\lambda}{hc} T(\lambda) d\lambda = 1
+\end{equation}
+and define:
+\begin{equation}
+  X_0 = \Phi_B \frac{(10\mathrm{pc})^2}{d_L^2(z)}
+\end{equation}
+then equations \ref{eqn:specmodel} and \ref{eqn:photmodel} can be written:
+\begin{equation}
+  \left \{
+  \begin{aligned}
+    \varphi_{\mathrm{spec}} & = X_0 \frac{1}{1+z} {\cal S}(\lambda, p) \\
+    \varphi_{\mathrm{phot}} & = X_0 (1+z) \int {\cal S}(\lambda, p) \frac{\lambda}{hc} T((1+z)\lambda) d\lambda\\    
+  \end{aligned}\right.
+\end{equation}
+These are the basic equations of a hybrid SN spectrophotometric
+model. Our task is now to evaluate for a set of supernovae (1) the
+$X_0$'s which encode the cosmological information (2) ${\cal
+  S}(\lambda,p)$ which describes the spectral evolution of the
+supernova.
+
+
+\subsection{The SALT2 model}
+
+In practice, ${\cal S}$ depends on additional parameters, to account
+for the spectrophotometric diversity of SNe~Ia. How to parametrize
+${\cal S}$ to capture all of this diversity is an area of active
+research. Here, we adopt to the SALT2 parametrization, which describes
+SNe~Ia as a two-dimensional family, and has been shown to work well in
+practice:
+\begin{equation}
+  {\cal S}(\lambda,p) = \left[M_0(\lambda,p) + X_1 M_1(\lambda,p) \right] \times 10^{0.4 c CL(\lambda)}
+\end{equation}
+$M_0$ and $M_1$ are two empirical 2D surfaces defined in the
+$(\lambda,p)$ plane which describes respectively the spectrum of the
+average SN, and its principal variations. $CL(\lambda)$ is another
+empirical function, which describes the color diversity of SNe~Ia.
+$X_1$ and $c$ are SN dependent parameters, and amount to a stretch and
+a color.
+
+$CL(\lambda)$ is implemented as a degree-5 polynomial, such that
+$CL(\lambda_B)=0$ and $CL(\lambda_V)=1$, defined on the nominal
+interval $\lambda_{UV}=2800 < \lambda < 7000=\lambda_{IR}$. Outside
+that interval, training data are scarse, and $CL$ reduces to the
+linear extrapolation of the function defined on the nominal interval:
+\begin{equation}  
+    CL(\lambda) = \left\{ \begin{aligned}
+      CL'(\bar\lambda_{UV}) \times (\bar\lambda-\bar\lambda_{UV}) + CL(\bar\lambda_{UV})  & \ \ \ \ \mathrm{if \lambda < \lambda_{UV}} \\
+      \bar\lambda \times \left(\sum_{i=1}^4 \alpha_i \bar\lambda^i + 1 - \sum_{i=1}^4\alpha_i\right)       & \ \ \ \ \mathrm{if \lambda_{UV} < \lambda < \lambda_{IR}} \\
+      CL'(\bar\lambda_{IR}) \times (\bar\lambda-\bar\lambda_{IR}) + CL(\bar\lambda_{IR})  & \ \ \ \ \mathrm{if \lambda > \lambda_{IR}} \\
+    \end{aligned}\right.
+\end{equation}
+with $\bar{\lambda} = (\lambda-\lambda_B) / (\lambda_V - \lambda_B)$.
+
+$M_0$ and $M_1$ are developped on 2D spline bases:
+\begin{equation}
+  {M_i}(\lambda,p) = \sum_{k=1}^{n_p} \sum_{l=1}^{n_\lambda} \theta_{kl}^{[i]} B_k(p) B_l(\lambda)
+\end{equation}
+where the $B_i(x)$ are classical 1D B-splines of order 4 {\bf check}.
+Although we note them with the same symbol, $B_k(p)$ and
+$B_l(\lambda)$ are two different spline bases and do not need to be of
+same order. $B_k$ is defined on a regular grid, with node intervals of
+3 days {\bf check}.  The $B_l$'s are defined on an adapted grid {\bf
+  precision}.
+
+
+\subsection{Practical considerations}
+
+\subsubsection{Spectral recalibration}
+
+Most SN spectra are taken for identification purposes.  They are
+generally affect by slit losses hence, wavelength-dependent
+calibration errors which are difficult to control. We therefore retain
+only the small scale information contained in the spectra, and kill
+the broadband information using one recalibration polynomial per
+spectrum. The spectroscopic part of the model is therefore:
+\begin{equation}
+  \varphi_{\mathrm{spec}} = \frac{1}{1+z}\ {\cal S}(\lambda, p)\ \exp\left(R_s(\lambda)\right)
+\end{equation}
+where $R_s(\lambda)$ is a calibration polynomial for spectrum $s$.
+
+\subsubsection{Degeneracies}
+
+The model as shown above present obvious degeneracies which need to be
+cured before we can attempt any training. Let's review then here: 
+
+\paragraph{Model normalization} As mentioned above, the normalization of the model
+is degenerate with $X_0$. We impose:
+\begin{equation}
+  \int {\cal S}(p=0,\lambda) \frac{\lambda}{hc} T(\lambda) d\lambda = 1
+\end{equation}
+
+\paragraph{Date of maximum} The time evolution of $\cal S$ is parametrized with the phase, i.e. the date of observation
+minus the date of peak (at a conventional wavelength), with a redshift
+correction, to account for time dilation.
+\begin{equation}
+  p = \frac{t - t_{peak}}{1+z}
+\end{equation}
+In a training, the SN peak date are degenerated with the model itself.
+We break this with the following constraint which define unambiguously
+the normalization of the model and the the B-band peak:
+\begin{equation}
+  \frac{d}{dp}\int {\cal S}(p,\lambda) \frac{\lambda}{hc} T(\lambda) d\lambda_{|p=0} = 0
+\end{equation}
+
+\paragraph{Average color} Another degeneracy exists between the color-law and the spectral
+shape of the model. It is possible indeed to compensate for a change
+of $CL(\lambda)$ by tilting the $M_0$ and $M_1$ surfaces.  We
+therefore decide that the color of the ${\cal S}(\lambda,p)$ surface
+corresponds to that of the average supernova, and that the color
+correction accounts for the relative variations with respect to that
+average supernova. The corresponding constraint is:
+\begin{equation}
+  \sum_{i=1}^{N_{SN}} c_i = 0
+\end{equation}
+
+
+\paragraph{Light curve width} Again, the X1
+
+\begin{equation}
+  \left<X_1\right> = \sum_{i=1}^{N_{SN}}  X_{1,i} = 0
+\end{equation}
+
+
+\begin{equation}
+  \frac{1}{N_{SN}} \sum_{i=1}^{N_{SN}}  (X_{1,i} - \left<X_1\right>)^2 = 1
+\end{equation}
+
+
+
+\subsubsection{Model evaluation}
+
+The evaluation of the model is not very costly, but requires some care
+if one want to keep the training in a reasonable computing time
+budget.
+
+\paragraph{Spectral model}
+Let's first examine the spectral part of the model. Given a series of
+observation dates, we compute the phases and evaluate the values of
+the basis functions at these dates and form a jacobian matrix. The
+evaluation of the recalibration polynomials is not very costly
+either. {\bfseries give timings -- for the model and different spectra}
+
+\paragraph{Photometric model}
+The photometric part of the model is slightly more costly to evaluate,
+as we need to compute integrals. To save computing time, we proceed as
+follows.
+
+The filter $T(\lambda)$ are decomposed on a B-spline basis (which does
+not need to be the same as the $B_l(\lambda)$ used to decompose the
+model):
+\begin{equation}
+  T((1+z)\lambda) = \sum_q t_q B_q(\lambda)
+\end{equation}
+Then, the integrals of the model can be expressed as:
+\begin{equation}
+    \sum_{klq} \theta_{kl} t_q B_k(p) \int B_l(\lambda) B_q(\lambda) \frac{\lambda}{hc} d\lambda = \vec{J} \cdot \vec{\Theta} \cdot \vec{G}_z  \cdot \vec{t}\\
+\end{equation}
+where $\vec{J}$ is the jacobian matrix for the $B_k(p)$, $\vec{J}_{ij}
+= (B_j(p_i))$ $\vec{\Theta}$ is the matrix of the $\theta_{kl}$ and
+$\vec{G}$ is the so-called Gramian matrix of bases $B_l$ and $B_q$:
+\begin{equation}
+  \vec{G}_{ql} = \int B_q(\lambda) B_l(\lambda) \frac{\lambda}{hc} d\lambda
+\end{equation}
+$\vec{G}$ is sparse band-matrix.  Its terms may be computed exactly
+using gaussian quadrature and cached.  The evaluation of the integral
+therefore reduces to the product of three matrices and a vector, two
+of the matrices and the vector being sparse.
+{\bf timings}
+
+\section{Predicting calibrated fluxes}
+
+The convention within JLA, is to publish uniformized fluxes along with the
+calibration information that allows to (1) derive calibrated mags (2) synthetize
+the calibrated fluxes using an instrument model. The JLA dataframes contain in
+particular the following information:
+\begin{verbatim}
+mjd flux fluxerr zp magsys
+\end{verbatim}
+with:
+\begin{equation}
+  m_{magsys} \equiv -2.5 \log_{10}\frac{\int S_{NaCl}(\lambda) \lambda T(\lambda) d\lambda}{\int S_{magsys}(\lambda)\lambda T(\lambda) d\lambda} = -2.5 \log_{10} (\mathrm{flux}) + \mathrm{ZP}
+\end{equation}
+Therefore, NaCl/SALT2 needs to compute:
+\begin{equation}
+  10^{+0.4 zp} \times \frac{\int S_{NaCl}(\lambda) \lambda T(\lambda) d\lambda}{\int S_{magsys}(\lambda)\lambda T(\lambda) d\lambda}
+\end{equation}
+
+
+
+\end{document}
+
+
+
+
+%%%%% End of aa.dem

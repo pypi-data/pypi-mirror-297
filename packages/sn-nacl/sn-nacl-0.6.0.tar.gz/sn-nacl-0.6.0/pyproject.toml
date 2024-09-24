@@ -1,0 +1,106 @@
+[build-system]
+requires = ["scikit-build-core >=0.4.3", "nanobind >=1.3.2"]
+build-backend = "scikit_build_core.build"
+
+
+[project]
+name = "sn-nacl"
+dynamic = ["version"]
+description = "SN modeling package"
+readme = "README.md"
+authors = [
+        { name = "Nicolas Regnault", email = "nicolas.regnault@lpnhe.in2p3.fr" },
+        { name = "Guy Augarde" },
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+keywords = ["astronomy", "astrophysics"]
+license = { file = "LICENSE" }
+
+requires-python = ">=3.9"
+dependencies = [
+  "astropy",
+  "extinction",
+  "keyring",
+  "numpy",
+  "pandas",
+  "pyarrow",
+  "scipy",
+  "sncosmo",   # for now we must rely on https://github.com/nregnault/sncosmo
+  "tables",
+  # lemaitre packages
+  "bbf>=0.4",
+  "lemaitre-bandpasses>=0.3.1",
+  "saltworks>=0.0.2",
+]
+
+[project.urls]
+Homepage = "https://gitlab.in2p3.fr/lemaitre/sn-nacl"
+Repository = "https://gitlab.in2p3.fr/lemaitre/sn-nacl"
+Changelog = "https://gitlab.in2p3.fr/lemaitre/sn-nacl/-/blob/main/CHANGELOG.md"
+
+
+[project.optional-dependencies]
+test = ["pytest>=6.0", "pytest-cov"]
+doc = ["sphinx_gallery", "sphinx_rtd_theme", "sphinxemoji", "m2r2"]
+
+
+[tool.scikit-build]
+# Reads the minimal required cmake version from CMakeLists.txt (pip install it
+# as needed)
+cmake.version = "CMakeLists.txt"
+
+# By default build an optimized version of the C extension
+cmake.build-type = "Release"
+
+# Protect the configuration against future changes in scikit-build-core
+minimum-version = "0.4"
+
+# Setuptools-style build caching in a local directory
+build-dir = "build/{wheel_tag}"
+
+# Build stable ABI wheels for CPython 3.12+
+wheel.py-api = "cp312"
+
+# Exclude some directories from the source distribution
+sdist.exclude = [
+  "attic",
+  "notebook",
+  "examples",
+  "sandbox",
+  "/data",  # keeping /nacl/data but excluding /data
+  ]
+
+
+[tool.scikit-build.wheel.packages]
+# Required to mitigate the fact that the package is called sn-nacl but the
+# installed Python module is nacl
+nacl = "nacl"
+
+[tool.scikit-build.metadata.version]
+# Reads the version from nacl/__init__.py::__version__
+provider = "scikit_build_core.metadata.regex"
+input = "nacl/__init__.py"
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+  "tests",
+  "nacl"]
+# configures doctests and coverage
+addopts = """\
+  --import-mode=importlib \
+  --doctest-modules --doctest-continue-on-failure \
+  --cov=nacl --cov-report term --cov-report xml:coverage.xml --junitxml=report.xml \
+  """
+filterwarnings = [
+  # ignore a PerformanceWarning issued by pandas
+  "ignore::pandas.errors.PerformanceWarning:.*nacl.dataset.*",
+  ]

@@ -1,0 +1,66 @@
+# Adapted from https://docs.gitlab.com/ee/ci/caching/#cache-python-dependencies.
+# We use debian based image.
+default:
+  image: python:latest
+  cache:
+    paths:
+      - .cache/pip
+  before_script:
+    - apt update
+    - apt install -y cmake build-essential git git-lfs libhdf5-dev libsuitesparse-dev
+    - git lfs install
+    # We need numpy<2 because of extinction package compiled on numpy-1.*
+    - pip install "numpy<2" git+https://github.com/nregnault/sncosmo.git
+
+
+variables:
+  # Change pip's cache directory to be inside the project directory since we can
+  # only cache local items.
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+
+test-gcc:
+  stage: test
+  script:
+    - VERBOSE=1 CXX=g++ pip install -v .[test]
+    - pytest -v
+  coverage: '/TOTAL.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    when: always
+    paths:
+      - report.xml
+    reports:
+      junit: report.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+
+
+test-clang:
+  stage: test
+  script:
+    - apt install -y clang libomp-dev
+    - VERBOSE=1 CXX=clang++ pip install -v .[test]
+    - pytest -v
+
+
+sdist:
+  stage: deploy
+  script:
+    - pip install build
+    - python -m build --sdist --outdir dist
+  artifacts:
+    paths:
+      - dist/*.tar.gz
+
+
+pypi:
+  # publish the source distribution on https://pypi.org/project/sn-nacl/, only
+  # when a new tag is created
+  stage: deploy
+  needs: ["sdist"]
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - pip install twine
+    - twine upload --non-interactive --repository pypi dist/*
