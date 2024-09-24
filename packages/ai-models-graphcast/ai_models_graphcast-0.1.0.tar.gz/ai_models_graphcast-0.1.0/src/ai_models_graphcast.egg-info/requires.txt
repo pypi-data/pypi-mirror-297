@@ -1,0 +1,6 @@
+ai-models>=0.4.0
+dm-tree
+dm-haiku==0.0.10
+
+[dev]
+pre-commit
