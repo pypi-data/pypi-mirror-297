@@ -1,0 +1,10 @@
+fairclient/__about__.py,sha256=aQzPc-xiby-jQd8kJhPaScqNxx9lorqH3coLPIcvaGY,107
+fairclient/__init__.py,sha256=0flUSKwjqwp6XjfB1ba1ntcCaQYvnr0l8LjRy4tVsAc,84
+fairclient/basicclient.py,sha256=Qc8YFFdL5rQ7V5F_nfE1pLnbmMC67RUx1M6VSt5zLwI,2885
+fairclient/fdpclient.py,sha256=mukNoyi1i2FzJvpNt7SZ6ch4qu5Dwrv7W6IlJgf5ec0,5419
+fairclient/sparqlclient.py,sha256=KIawuSMQfSeACuaaf8C3j0ev8J77ImjmtUR_e57yomc,1259
+fairclient/utils.py,sha256=2ZVZqn_wFTc7HMYOGVBIrWNHsvs00liXWZ-Ku-D5Sn8,3287
+fairclient-1.0.0.dist-info/METADATA,sha256=y4rtfQ4jCD_oD7cHMWeuSPJnE6_t1TJCUK4nRcdZlAY,2145
+fairclient-1.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fairclient-1.0.0.dist-info/licenses/LICENSE.txt,sha256=S_jZe8arD9sk9_WMZWgs4F3XCrRbdF_qkHBJpQDXgRs,1104
+fairclient-1.0.0.dist-info/RECORD,,
