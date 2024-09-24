@@ -1,0 +1,14 @@
+custom_json_diff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+custom_json_diff/cli.py,sha256=QFWBD0FwKzxyLoC_iEOLwslWaPA9V3mnGSyYAWLHIdw,4176
+custom_json_diff/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+custom_json_diff/lib/bom_diff_template.j2,sha256=_hI3dW0MtOA-ljBfEozlKuC9h8CVYTb-o855G904zdA,78459
+custom_json_diff/lib/csaf_diff_template.j2,sha256=0ztvQKtxT38bNRwrIEEs88D3wx9tZ0tMl22qfNB11XE,17320
+custom_json_diff/lib/custom_diff.py,sha256=rxeYoR0kN6rdIvzQLLHlGGBJfDneoJ0S6aReQxNoTwE,12407
+custom_json_diff/lib/custom_diff_classes.py,sha256=ZNJ0Oy7Esni3iQkrXep9E_2mUgL4BQF81vVbmQvXNZE,34380
+custom_json_diff/lib/utils.py,sha256=vOaO-ALdB0y2_2u8uvESeTuG4M5-yc-n0Zaou6NNW7g,10136
+custom_json_diff-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+custom_json_diff-2.0.0.dist-info/METADATA,sha256=vAx_xdzE5Ft6U_eItHXi9WuIpycaNSJZGxVAQZCiZpk,7851
+custom_json_diff-2.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+custom_json_diff-2.0.0.dist-info/entry_points.txt,sha256=khNvJOXX3rA28bpMfLS03NjBdF_2DqV-JjleMDNYkhU,95
+custom_json_diff-2.0.0.dist-info/top_level.txt,sha256=Gp-Fk5HjotwGg5foJbGbdPH2_96tMEKKo7v2y5gCoDA,17
+custom_json_diff-2.0.0.dist-info/RECORD,,
