@@ -1,0 +1,3 @@
+[console_scripts]
+sdg = systemd_service_generator.generator:main
+
