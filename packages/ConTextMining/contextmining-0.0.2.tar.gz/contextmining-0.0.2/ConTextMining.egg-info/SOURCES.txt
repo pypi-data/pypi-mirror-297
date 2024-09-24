@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ConTextMining/ConTextMining.py
+ConTextMining/__init__.py
+ConTextMining.egg-info/PKG-INFO
+ConTextMining.egg-info/SOURCES.txt
+ConTextMining.egg-info/dependency_links.txt
+ConTextMining.egg-info/requires.txt
+ConTextMining.egg-info/top_level.txt

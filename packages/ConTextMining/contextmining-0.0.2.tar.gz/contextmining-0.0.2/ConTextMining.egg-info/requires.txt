@@ -1,0 +1,6 @@
+torch
+transformers
+tokenizers
+huggingface-hub
+accelerate
+flash_attn
