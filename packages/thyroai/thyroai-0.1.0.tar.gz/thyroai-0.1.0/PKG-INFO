@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: thyroai
+Version: 0.1.0
+Summary: This Python package leverages OpenAI's ChatGPT to assist in diagnosing thyroid tumors. Designed specifically for medical professionals and researchers, the tool offers a simplified interface for analyzing clinical data and generating diagnostic insights. By inputting URLs of pathological images, the package processes the information through ChatGPT to provide a probabilistic assessment of potential thyroid conditions, including both benign and malignant tumors.
+Author: Cj Yan
+Author-email: yanchangjian2019@126.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openai (>=1.30.3,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+
