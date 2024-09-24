@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ctbl_cylon"
+version = "0.0.3"
+license = "MIT"
+authors = [
+	{ name = "Cristian Bravo Lillo", email = "cristian.bravo@gmail.com" },
+]
+description = "A CLI command that automatizes the task of setting up accounts in new machines."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3.8",
+	"License :: OSI Approved :: MIT License",
+	"Development Status :: 2 - Pre-Alpha",
+	"Environment :: Console",
+	"Operating System :: POSIX :: Linux",
+	"Topic :: Utilities",
+]
