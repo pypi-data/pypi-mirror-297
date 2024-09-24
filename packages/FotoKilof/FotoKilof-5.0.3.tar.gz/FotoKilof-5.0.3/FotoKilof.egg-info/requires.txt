@@ -1,0 +1,5 @@
+fclist-cffi
+pillow
+requests
+ttkbootstrap
+wand
