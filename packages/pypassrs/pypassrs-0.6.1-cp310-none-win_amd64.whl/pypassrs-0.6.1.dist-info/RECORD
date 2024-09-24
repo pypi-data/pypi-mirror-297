@@ -1,0 +1,5 @@
+pypassrs-0.6.1.dist-info/METADATA,sha256=AH22ASM0-PiWToY94StnFUWcAHYpmS5JOUOADjmbkok,1406
+pypassrs-0.6.1.dist-info/WHEEL,sha256=sMrC6guTcDuVd2uJPLCsOXoiUgzX059kpmApExoPh6g,95
+pypassrs/__init__.py,sha256=WjCpOSbiKuIWZf2LffkfmXnbwUriJHsBpLItg5lSsHM,115
+pypassrs/pypassrs.cp310-win_amd64.pyd,sha256=xd-cUrKAPwb4OtaB9qYXdqJS3LbMUOX6N2unkV5ykzw,628736
+pypassrs-0.6.1.dist-info/RECORD,,
