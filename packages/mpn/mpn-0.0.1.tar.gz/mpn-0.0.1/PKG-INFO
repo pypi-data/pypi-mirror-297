@@ -1,0 +1,61 @@
+Metadata-Version: 2.3
+Name: mpn
+Version: 0.0.1
+Summary: A man-like command for showing help for Python objects.
+Project-URL: Documentation, https://github.com/sujaudd1n/mpn#readme
+Project-URL: Issues, https://github.com/sujaudd1n/mpn/issues
+Project-URL: Source, https://github.com/sujaudd1n/mpn
+Author: Md Sujauddin Sekh
+License-Expression: MIT
+License-File: LICENSE
+Keywords: mpn
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# mpn
+
+A man-like command for showing help for Python objects.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mpn.svg)](https://pypi.org/project/mpn)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mpn.svg)](https://pypi.org/project/mpn)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mpn
+```
+
+# Usage
+
+To see help text for `json.dumps` and `os.path.isdir`, just type
+
+```console
+mpn json.dumps os.path.isdir
+```
+
+You can give any valid Python object as arguments.
+
+## License
+
+`mpn` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
