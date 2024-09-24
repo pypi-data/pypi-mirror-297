@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stocks-show-reality/__init__.py
+stocks_show_reality.egg-info/PKG-INFO
+stocks_show_reality.egg-info/SOURCES.txt
+stocks_show_reality.egg-info/dependency_links.txt
+stocks_show_reality.egg-info/requires.txt
+stocks_show_reality.egg-info/top_level.txt
