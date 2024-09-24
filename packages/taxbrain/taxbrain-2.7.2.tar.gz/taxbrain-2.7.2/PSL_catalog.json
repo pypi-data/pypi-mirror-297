@@ -1,0 +1,24 @@
+{
+    "name": "Tax-Brain",
+    "img": "https://github.com/PSLmodels/Tax-Brain/blob/master/docs/taxbrain.png?raw=true",
+    "banner_title": "Tax-Brain",
+    "banner_subtitle": "A Python package that wraps multiple economic models in one easy to use interface",
+    "detailed_description": "Tax-Brain makes it easy for users to simulate the US tax system by providing a single interface for multiple tax models. Currently, Tax-Brain interfaces with Tax-Calculator and Behavioral-Responses. Additional models will be added in the near future to expand Tax-Brain's capabilities to include modeling business taxation and running dynamic general equilibrium simulations.",
+    "policy_area": "Tax Microsimulation, Revenue Estimation, Distributional Analysis",
+    "geography": "United States",
+    "language": "Python",
+    "maintainers": [
+        {
+            "name": "Anderson Frailey",
+            "image": "https://avatars.githubusercontent.com/u/20684675?v=4",
+            "link": "https://github.com/andersonfrailey"
+        }
+    ],
+    "links": {
+      "code_repository": "https://github.com/PSLmodels/Tax-Brain",
+      "user_documentation": "http://taxbrain.pslmodels.org/",
+      "contributor_documentation": "http://taxbrain.pslmodels.org/content/contributing/contributor_guide.html",
+      "webapp": "",
+      "recent_changes": "https://github.com/PSLmodels/Tax-Brain/blob/master/RELEASES.md"
+    }
+}

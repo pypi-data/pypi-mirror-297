@@ -1,0 +1,21 @@
+format: jb-book
+root: content/intro
+parts:
+- caption: Tax-Brain Example Use
+  chapters:
+  - file: content/usage
+  - file: content/corp_incidence
+  - file: content/examples/example
+  - file: content/reports
+- caption: Web Application
+  chapters:
+  - file: content/webapp
+- caption: Command Line Interface
+  chapters:
+  - file: content/cli
+- caption: Contributing to Tax-Brain
+  chapters:
+  - file: content/contributing/contributor_guide
+- caption: Tax-Brain Python API
+  chapters:
+  - file: content/api/public_api
