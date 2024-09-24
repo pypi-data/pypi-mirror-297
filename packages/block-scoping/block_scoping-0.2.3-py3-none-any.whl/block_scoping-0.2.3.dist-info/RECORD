@@ -1,0 +1,9 @@
+block_scoping/__init__.py,sha256=QkaDHs_7nLrSVPFE7RQss1FxAJJ16CJUyaC6giYr_LE,87
+block_scoping/check_files.py,sha256=5Wt5JbCWiLZVxW3hHEnH-N2DdrYdNtyQl9DbD_j1Jc0,2880
+block_scoping/scoped.py,sha256=qlUubxi1okuB_QUD3Dz7iy8qzXpI4qBG1krW16Ae3PI,18126
+block_scoping-0.2.3.dist-info/LICENSE,sha256=G13UFxG_YLRTjrdryJ8O6ps5Wh0fIDU0awbJuwRPFa0,1067
+block_scoping-0.2.3.dist-info/METADATA,sha256=uKMabFsL9zvKkE6S4CEhQNPbbsHE0PTFDCzR7DOKg64,4479
+block_scoping-0.2.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+block_scoping-0.2.3.dist-info/entry_points.txt,sha256=QC8gGdBicxZr1wYWKmu9n2O2rksWk6_QrXTSY15syGs,71
+block_scoping-0.2.3.dist-info/top_level.txt,sha256=inD6Bn8WjUu-VIez_3NoYnLZDL9HiycwL_h3DE2ODLQ,14
+block_scoping-0.2.3.dist-info/RECORD,,
