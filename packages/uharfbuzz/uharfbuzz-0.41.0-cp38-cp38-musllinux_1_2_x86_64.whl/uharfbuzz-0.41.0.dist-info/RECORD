@@ -1,0 +1,11 @@
+uharfbuzz.libs/libstdc++-496613c0.so.6.0.32,sha256=AwZhL5WFT99I2Q6vIxXOhW7qddfuOZ1xecxiP9QTVY4,3494361
+uharfbuzz.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+uharfbuzz-0.41.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+uharfbuzz-0.41.0.dist-info/METADATA,sha256=Otu4iiRMIGDSNeKCobAiec0GW6W4CavafTDeKunyoag,3151
+uharfbuzz-0.41.0.dist-info/RECORD,,
+uharfbuzz-0.41.0.dist-info/WHEEL,sha256=RDJIuibuXX3AtRIvkaRWj8eZKn-P4sneOuuz_9TMGIs,110
+uharfbuzz-0.41.0.dist-info/top_level.txt,sha256=7cR_9qHUIY8Tbh9RlhqonIA5WhZTP7Fus2kSo6wEM-I,10
+uharfbuzz/_harfbuzz_test.cpython-38-x86_64-linux-gnu.so,sha256=wKL2AA_NLvaFnnVmSDky8FgvarHJupWE0QtlociTNSA,80024
+uharfbuzz/_version.py,sha256=c_wNz8MnDRr1ZFVGoeS-v81E1vXv2srhToF6G1tyXqM,413
+uharfbuzz/_harfbuzz.cpython-38-x86_64-linux-gnu.so,sha256=DGBpZuGK6Ah25ID3WB53kp90hN0lieA__bhdoEBlckI,42006361
+uharfbuzz/__init__.py,sha256=hJfaEx-tJCPK-oMU_OX-G9yBBzlSgN2yBdZEyj3roaI,134
