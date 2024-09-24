@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+nn-mkdocs-strings-replacement = nn_mkdocs_strings_replacement:StringsMarkdownReplacementPlugin
