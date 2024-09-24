@@ -1,0 +1,9 @@
+Packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Packages/my_module.py,sha256=LFpxeAiuBS95NO3CF7XKSQS7kzhHT-_nh3FAG0ZcEp0,755
+Tests/Test_mymodule.py,sha256=e-8wQFJlLKm8BLVS66nwIuIsnM7HMJXPDWyVSl-05rk,422
+Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DenemeG-0.1.2.dist-info/LICENSE,sha256=86cKBP2oZEmsvS8ShBvGmIsCgkKawEkwdSE147P2yzo,1069
+DenemeG-0.1.2.dist-info/METADATA,sha256=TmoLPraGad0LnEGVFw_GSkyrdHOzRVzZQ8ZPfAErVXY,485
+DenemeG-0.1.2.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+DenemeG-0.1.2.dist-info/top_level.txt,sha256=oiDQJWM-omLmQPt5efmyNOjCSAYwnxoFC2En3rWHSlo,15
+DenemeG-0.1.2.dist-info/RECORD,,
