@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/__main__.py
+src/context_manager.py
+src/context_optimizer.py
+src/prompt_builder.py
+synapsense.egg-info/PKG-INFO
+synapsense.egg-info/SOURCES.txt
+synapsense.egg-info/dependency_links.txt
+synapsense.egg-info/requires.txt
+synapsense.egg-info/top_level.txt
