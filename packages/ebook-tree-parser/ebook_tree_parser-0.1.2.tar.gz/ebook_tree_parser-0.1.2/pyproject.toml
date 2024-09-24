@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebook-tree-parser"
+version = "0.1.2"
+description = "Parse an ebook based on its TOC into a tree-like structure"
+authors = [
+    {name="Jimmy Yao", email="jinghaoyao@gmail.com"}
+    ]
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = [
+  "EbookLib>=0.18",
+  "beautifulsoup4>=4.12.3",
+  "html2text>=2024.2.26",
+  "tiktoken>=0.7.0"
+]
+requires-python = ">= 3.10"
+
+# can move tiktoken to optional
+# [project.optional-dependencies]
+# tiktoken=["tiktoken>=0.7.0"]
+
+# [project.urls]
+# Homepage = "https://example.com"
+# Documentation = "https://readthedocs.org"
+# Repository = "https://github.com/me/spam.git"
+# "Bug Tracker" = "https://github.com/me/spam/issues"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"

@@ -1,0 +1,4 @@
+EbookLib>=0.18
+beautifulsoup4>=4.12.3
+html2text>=2024.2.26
+tiktoken>=0.7.0

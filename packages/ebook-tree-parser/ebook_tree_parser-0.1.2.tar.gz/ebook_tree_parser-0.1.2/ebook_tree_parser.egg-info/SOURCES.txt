@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+ebook_tree_parser/toctree.py
+ebook_tree_parser.egg-info/PKG-INFO
+ebook_tree_parser.egg-info/SOURCES.txt
+ebook_tree_parser.egg-info/dependency_links.txt
+ebook_tree_parser.egg-info/requires.txt
+ebook_tree_parser.egg-info/top_level.txt
