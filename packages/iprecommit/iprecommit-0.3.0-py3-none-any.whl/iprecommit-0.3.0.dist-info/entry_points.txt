@@ -1,0 +1,3 @@
+[console_scripts]
+iprecommit=iprecommit.main:main
+

@@ -1,0 +1,9 @@
+iprecommit/__init__.py,sha256=abMQa8EO7BlpmYtLcT8LDY8DwUQNfVCBSSGPCVkF5Pg,27
+iprecommit/checks.py,sha256=c5wFWcx26s6STYl3HYf7W-S7Wrm4YL1rhEvl40FF5XI,3834
+iprecommit/lib.py,sha256=HvNBtsHgeOc3WcdWjAgUN8Rf3HjcaXFrcAFDJoqG-i4,4827
+iprecommit/main.py,sha256=lwOVaZAf-GYPC0BXER5RI_FlM6DWEWOXEskPKGJVgGE,3823
+iprecommit-0.3.0.dist-info/LICENSE,sha256=fmZrli2zVvFDzbDRiDz52P23mFTnItnZG1IsbNliuhM,1067
+iprecommit-0.3.0.dist-info/METADATA,sha256=gd3IcER2plwUt0zTjazIt30XkEYkeU3h6bY9_QC7-zc,2504
+iprecommit-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+iprecommit-0.3.0.dist-info/entry_points.txt,sha256=yBv7FXSPAScKC6kZpz5-jgMHd72xYM7gYbX9NflvguU,51
+iprecommit-0.3.0.dist-info/RECORD,,
