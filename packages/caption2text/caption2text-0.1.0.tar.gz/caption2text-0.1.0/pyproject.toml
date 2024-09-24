@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caption2text"
+version = "0.1.0"
+description = "A lightweight Python module to convert VTT and SRT caption files into plain text transcripts."
+readme = "README.md"
+authors = [{ name = "BlueBirdBack", email = "avery@bluebirdback.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Text Processing",
+]
+keywords = ["captions", "subtitles", "vtt", "srt", "transcript"]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.scripts]
+caption2text = "caption2text.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/BlueBirdBack/caption2text"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["caption2text*"]
+exclude = ["tests*"]
