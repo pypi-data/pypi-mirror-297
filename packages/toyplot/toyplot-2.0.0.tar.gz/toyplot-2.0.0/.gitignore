@@ -1,0 +1,15 @@
+*.pyc
+.DS_Store
+.cover
+.coverage
+.ipynb_checkpoints
+build
+dist
+features/backends
+features/diffs
+features/failed
+opsnr.stt
+rerun_failing.features
+tests/diffs
+tests/failed
+toyplot.egg-info

@@ -1,0 +1,9 @@
+custom_inherit
+ipython
+multipledispatch
+nbsphinx
+numpy < 2.0.0
+pypng
+reportlab
+sphinx >= 3.5
+sphinx_rtd_theme
