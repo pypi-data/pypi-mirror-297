@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+DenemeG.egg-info/PKG-INFO
+DenemeG.egg-info/SOURCES.txt
+DenemeG.egg-info/dependency_links.txt
+DenemeG.egg-info/requires.txt
+DenemeG.egg-info/top_level.txt
+Packages/__init__.py
+Packages/my_module.py
