@@ -1,0 +1,13 @@
+markdown_up/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdown_up/__main__.py,sha256=JCStMz7uGSQb-1aV1nK7v4iVTeT66cFQABnMY7k1-nA,245
+markdown_up/app.py,sha256=uLdq7qEAc0Tk8HHL16euKYgHqXRSJs2QGsJ4SWBwQ6Q,6228
+markdown_up/main.py,sha256=T8-AI0gVio0BAVDdWD8Emwl82EuJbB9V9b1m-n6aKO8,2889
+markdown_up/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdown_up/static/index.html,sha256=A4wwxf6G87056Aqm0q8ZXfs-CP4Nac79rsQ7UNH5Nag,3774
+markdown_up/static/markdownUpIndex.bare,sha256=85AzuRssirti2gy9Sc53PxOhMpejCLIr1yzl5hJK_II,2583
+markdown_up-1.8.5.dist-info/LICENSE,sha256=legUTdYSyuztIaeQs3C2qoknw9dwIEdEVfOiF1UTaTs,1081
+markdown_up-1.8.5.dist-info/METADATA,sha256=un4fM3z_-E4pC8rJjvVb_Lie1SlQgZL5ptqNkcA1BA4,2107
+markdown_up-1.8.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+markdown_up-1.8.5.dist-info/entry_points.txt,sha256=ghmx_aBP7s6WuWPwELlsH7-bi8u4qKmasPf0ocMeqv8,54
+markdown_up-1.8.5.dist-info/top_level.txt,sha256=4SgUTUxnpNpuMwUnnwih0BdkmWj2ian6ZWSAB61wp6c,12
+markdown_up-1.8.5.dist-info/RECORD,,
