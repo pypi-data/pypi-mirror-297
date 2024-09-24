@@ -1,0 +1,16 @@
+browser_manager/__init__.py,sha256=kzW54i9o50_2_lN8G4VmMufb9NN1VSv6mME7OqiP4_k,58
+browser_manager/browser_manager.py,sha256=olashzDzqh8UBjwqLh2gKkRPlQ00vlAsVLb_zbBvXY4,5234
+browser_manager/browser/__init__.py,sha256=giC67cq_6TA4r4fUnO588WxXmNO1ZZNjhdnuX3pieC0,226
+browser_manager/browser/browser.py,sha256=RotJmF7nxJjqiNv0LQzdTHy1xSIT6m2HXykY0JDavm8,5375
+browser_manager/browser/chrome.py,sha256=EJ6JOvtKOR2oLX81VI-eppHAjq_NzTnx1q9Qj03MUHQ,2446
+browser_manager/browser/chromium.py,sha256=LMDgrLFZrFQjpLbmnrmn-Z195hlOxQ-iUOFFqCmTXx0,1001
+browser_manager/browser/firefox.py,sha256=7y9pZyVJK7lW1v2OQZceHb8T16ORLoro_89S6h3II20,3163
+browser_manager/browser/iexplore.py,sha256=zrrHVxmhPEtaNBvsEqHJFCGVTmp5s1SbCBUTbDLzfw4,1144
+browser_manager/browser/msedge.py,sha256=PZx-ZSeIntS3e94O11vrYAsvZnN9GTgCugstlxxlXxU,2465
+browser_manager/browser/opera.py,sha256=YjjuJ9YRKB08ORKBXSTW04mewJ0F1tnOW2AyFA56IuI,1289
+browser_manager/browser/safari.py,sha256=LN8_sdJrBrpeUugcv4DU_JqhDBm6j0pIzPeLwr1W6n8,2184
+browser_manager-0.2.0.dist-info/LICENSE,sha256=0L-Gnb1SLdnOl08-h1qBbwkGJyODg1YLtAIlNAV01o8,1070
+browser_manager-0.2.0.dist-info/METADATA,sha256=GZKwcCKSxMIG3Jjtxq8xXKoQJSl8xtrOwxTwDWChEgU,4776
+browser_manager-0.2.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+browser_manager-0.2.0.dist-info/top_level.txt,sha256=6l3MKT0-ap8N4q84sIkeunWkUn20PWwXW9ypRBc78aw,16
+browser_manager-0.2.0.dist-info/RECORD,,
