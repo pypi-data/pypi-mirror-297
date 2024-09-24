@@ -1,0 +1,2 @@
+[console_scripts]
+calculator = izmacalculator:main
