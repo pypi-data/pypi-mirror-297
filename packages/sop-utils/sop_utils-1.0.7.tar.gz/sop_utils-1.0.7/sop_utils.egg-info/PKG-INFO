@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sop_utils
+Version: 1.0.7
+Summary: Utilities for the SOP Netbox Plugins.
+Author: Leorevoir
+Author-email: leo.quinzler@epitech.eu
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
