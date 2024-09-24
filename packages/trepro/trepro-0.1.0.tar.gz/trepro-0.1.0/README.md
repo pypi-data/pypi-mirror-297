@@ -1,0 +1,22 @@
+<div align="center">
+    <h1>Trepro</h1>
+    <em><code>pip install trepro</code></em>
+</div>
+
+<p align="center">
+    <img alt="build" src="https://github.com/brentyi/tyro/actions/workflows/build.yml/badge.svg" />
+    <img alt="mypy" src="https://github.com/brentyi/tyro/actions/workflows/mypy.yml/badge.svg" />
+    <img alt="pyright" src="https://github.com/brentyi/tyro/actions/workflows/pyright.yml/badge.svg" />
+    <img alt="ruff" src="https://github.com/brentyi/tyro/actions/workflows/ruff.yml/badge.svg" />
+    <a href="https://codecov.io/gh/brentyi/tyro">
+        <img alt="codecov" src="https://codecov.io/gh/brentyi/tyro/branch/main/graph/badge.svg" />
+    </a>
+    <a href="https://pypi.org/project/tyro/">
+        <img alt="codecov" src="https://img.shields.io/pypi/pyversions/tyro" />
+    </a>
+</p>
+
+<br />
+
+<strong><code>tyro.cli()</code></strong> is a tool for generating CLI
+interfaces.
