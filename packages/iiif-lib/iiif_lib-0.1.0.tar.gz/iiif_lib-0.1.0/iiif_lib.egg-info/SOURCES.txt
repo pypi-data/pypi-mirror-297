@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+iiif_lib.egg-info/PKG-INFO
+iiif_lib.egg-info/SOURCES.txt
+iiif_lib.egg-info/dependency_links.txt
+iiif_lib.egg-info/requires.txt
+iiif_lib.egg-info/top_level.txt
+tests/test_iiif_image.py
+tests/test_iiif_manifest.py
+tests/test_iiif_validator.py
