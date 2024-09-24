@@ -1,0 +1,283 @@
+Metadata-Version: 2.1
+Name: hyperproof
+Version: 0.2.0
+Summary: A Python wrapper for all Hyperproof APIs
+Home-page: https://github.com/booyasatoshi/hyperproof
+Author: Virgil Vaduva
+Author-email: vvaduva@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+
+# Hyperproof API Wrapper
+
+A word from the creator:  This project came about mostly from my own needs attempting to build various custom integrations with the Hyperproof platform. There is a severe lack of tools and support for Hyperproof custom development (outside of the SDK provided to build custom cloud-based integrations and the company's extremely slow response towards improving their APIs and adding new user-requested features is not helping things very much either. In addition, attempting to acquire ongoing access to live Hyperproof test instances seems to be nearly impossble for average developers.  With that said, the tool is still a good choice for GRC operations and I am hoping this Python wrapper will help folks out there build the tools they need.
+
+@booyasatoshi
+
+This repository provides a Python wrapper for interacting with Hyperproof’s Governance, Risk, and Compliance (GRC) platform. It includes complete support for all Hyperproof APIs and all the methods contained therein, allowing developers to manage tasks, risks, controls, users, custom apps, and more.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Available APIs](#available-apis)
+  - [Controls API](#controls-api)
+  - [Proof API](#proof-api)
+  - [Labels API](#labels-api)
+  - [Programs API](#programs-api)
+  - [Risks API](#risks-api)
+  - [Tasks API](#tasks-api)
+  - [Users API](#users-api)
+  - [Task Statuses API](#task-statuses-api)
+  - [Roles API](#roles-api)
+  - [Custom Apps API](#custom-apps-api)
+- [Usage Examples](#usage-examples)
+  - [General Usage](#general-usage)
+  - [Fetching Controls](#fetching-controls)
+  - [Adding Proof to a Task](#adding-proof-to-a-task)
+  - [Managing Risks](#managing-risks)
+- [License](#license)
+
+## Features
+
+- **Comprehensive API support**: This wrapper covers the most important Hyperproof APIs, including:
+  - Controls API
+  - Proof API
+  - Labels API
+  - Programs API
+  - Risks API
+  - Tasks API
+  - Users API
+  - Task Statuses API
+  - Roles API
+  - Custom Apps API
+- **Flexible response handling**: Each API method provides an option to return either the raw response text or parsed JSON.
+- **Error handling**: The wrapper includes logging and graceful error handling for failed API requests.
+- **Authentication**: Handles OAuth 2.0 authentication with Hyperproof using client credentials.
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/booyasatoshi/hyperproof.git
+   ```
+
+2a. **Run setup**:
+
+   There is a setup.py file included. To install the wrapper as a local python module, run:
+
+   ```bash
+   pip install -e .
+   ```
+  The module will be installed as any other Python module and can be used in a similar fashion.
+
+2b. **Install dependencies**:
+
+   You can also just install the required dependencies using `pip`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up your environment**:
+
+   You will need the following credentials from Hyperproof:
+   - `client_id`
+   - `client_secret`
+
+   Make sure to securely store these credentials.
+
+## Configuration
+
+This wrapper requires an access token to interact with the Hyperproof APIs. The `APIClient` class in the `utils.py` file handles authentication using OAuth 2.0. The access token is automatically fetched upon initialization.
+
+Example configuration in Python:
+
+```python
+client_id = "your-client-id"
+client_secret = "your-client-secret"
+```
+
+These credentials are passed to each API class when instantiated.
+
+## Available APIs
+
+### Controls API
+
+Allows interaction with controls within Hyperproof. Supports adding, updating, and retrieving controls.
+
+- **Methods**:
+  - `get_controls()`: Fetches all controls.
+  - `get_control_by_id(control_id)`: Fetches a specific control by its ID.
+  - `add_control()`: Adds a new control to the organization.
+  - `update_control(control_id)`: Updates an existing control.
+
+### Proof API
+
+Allows uploading and retrieving proof items, which serve as evidence for compliance purposes.
+
+- **Methods**:
+  - `get_proof_metadata_collection()`: Retrieves proof metadata.
+  - `get_proof_metadata(proof_id)`: Retrieves specific proof metadata by ID.
+  - `add_proof(file_path)`: Uploads a new proof file.
+  - `add_proof_version(proof_id, file_path)`: Adds a new version of an existing proof.
+
+### Labels API
+
+Manages labels within Hyperproof, which can be used to categorize and organize controls and proofs.
+
+- **Methods**:
+  - `get_labels()`: Retrieves all labels.
+  - `get_label_by_id(label_id)`: Retrieves a label by its ID.
+  - `add_label()`: Adds a new label.
+  - `update_label(label_id)`: Updates an existing label.
+
+### Programs API
+
+Handles the management of programs within Hyperproof, including retrieving, adding, and updating programs.
+
+- **Methods**:
+  - `get_programs()`: Fetches all programs in the organization.
+  - `add_program()`: Adds a new program.
+  - `get_program_by_id(program_id)`: Fetches a specific program by its ID.
+  - `update_program(program_id)`: Updates an existing program.
+
+### Risks API
+
+Provides functionality for managing risks in Hyperproof. This includes adding, retrieving, updating, and filtering risks.
+
+- **Methods**:
+  - `get_risks()`: Fetches all risks.
+  - `add_risk()`: Adds a new risk.
+  - `get_risk_by_id(risk_id)`: Fetches a specific risk by its ID.
+  - `update_risk(risk_id)`: Updates an existing risk.
+  - `filter_risks()`: Filters risks based on specified criteria.
+
+### Tasks API
+
+Allows for managing tasks in Hyperproof, including adding tasks, updating tasks, and managing task-related proofs and comments.
+
+- **Methods**:
+  - `add_task()`: Adds a new task.
+  - `get_task_by_id(task_id)`: Fetches a specific task by its ID.
+  - `update_task(task_id)`: Updates an existing task.
+  - `add_task_proof(task_id, file_path)`: Adds a proof to a task.
+  - `filter_tasks()`: Filters tasks based on criteria.
+  - `add_task_comment(task_id, comment)`: Adds a comment to a task.
+
+### Users API
+
+Provides methods to retrieve information about users within the organization.
+
+- **Methods**:
+  - `get_current_user()`: Retrieves the details of the current authenticated user.
+  - `get_organization_users()`: Retrieves all users within the organization.
+
+### Task Statuses API
+
+Handles retrieving task statuses within the organization.
+
+- **Methods**:
+  - `get_task_statuses()`: Fetches all available task statuses.
+
+### Roles API
+
+Allows you to retrieve the roles available in the organization.
+
+- **Methods**:
+  - `get_roles()`: Fetches all roles in the organization.
+
+### Custom Apps API
+
+Manages custom applications installed in Hyperproof, including retrieving app information, managing events, and updating apps.
+
+- **Methods**:
+  - `get_custom_apps()`: Fetches all custom apps.
+  - `add_custom_app()`: Adds a new custom app.
+  - `get_custom_app_by_id(app_id)`: Fetches a specific custom app.
+  - `update_custom_app(app_id)`: Updates an existing custom app.
+  - `delete_custom_app(app_id)`: Deletes a custom app.
+  - `get_custom_app_events(app_id)`: Retrieves app events.
+  - `get_custom_app_stats(app_id)`: Retrieves app statistics.
+
+## Usage Examples
+
+### General Usage
+
+```python
+from hyperproof.controls_api import ControlsAPI
+
+# Initialize the API client
+client_id = "your-client-id"
+client_secret = "your-client-secret"
+controls_api = ControlsAPI(client_id, client_secret)
+
+# Fetch all controls
+controls = controls_api.get_controls()
+print(controls)
+```
+
+### Fetching Controls
+
+```python
+# Fetch all controls in the organization
+controls = controls_api.get_controls()
+print(controls)
+
+# Fetch a specific control by ID
+control_id = "your-control-id"
+control = controls_api.get_control_by_id(control_id)
+print(control)
+```
+
+### Adding Proof to a Task
+
+```python
+from hyperproof.tasks_api import TasksAPI
+
+# Initialize the API client
+tasks_api = TasksAPI(client_id, client_secret)
+
+# Add proof to a task
+task_id = "your-task-id"
+file_path = "/path/to/proof/file.pdf"
+tasks_api.add_task_proof(task_id, file_path)
+```
+
+### Managing Risks
+
+```python
+from hyperproof.risks_api import RisksAPI
+
+# Initialize the API client
+risks_api = RisksAPI(client_id, client_secret)
+
+# Add a new risk
+risk = risks_api.add_risk(
+    risk_register_id="your-register-id",
+    risk_identifier="RISK-001",
+    name="Data Breach Risk",
+    description="Potential for a data breach to occur",
+    category="Security",
+    response="mitigate",
+    likelihood_level=5,
+    likelihood_rationale="High likelihood based on past incidents",
+    impact_level=4,
+    impact_rationale="Severe impact on data and reputation",
+    tolerance_level=3,
+    owner_id="owner-id"
+)
+print(risk)
+```
+
+## License
+
+License - GNU General Public License (GPL)
+This project is licensed under the GNU General Public License (GPL). The GPL ensures that the software remains free and open-source, allowing users to modify, distribute, and use it freely. However, any modifications or derivative works must also be licensed under the GPL and include the source code, ensuring that improvements to the software are shared with the community. This fosters collaboration and encourages transparency and innovation.
