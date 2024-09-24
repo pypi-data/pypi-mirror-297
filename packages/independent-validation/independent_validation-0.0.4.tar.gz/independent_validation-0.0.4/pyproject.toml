@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "independent_validation"
+version = "0.0.4"
+authors = [
+  { name="Jonas", email="jonas.v.oertzen@web.de" },
+]
+description = "This package implements an alternative to cross validation called independent validation."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "scipy",
+    "matplotx",
+    "matplotlib",
+]
+
+
+[project.urls]
+Paper = "https://qcmb.psychopen.eu/index.php/qcmb/article/view/12069"
+Research = "https://thomasbayesinstitute.org/en/"
+
+# Add tests
+
+# python3 -m build
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/  (scroll down to last chapter)
