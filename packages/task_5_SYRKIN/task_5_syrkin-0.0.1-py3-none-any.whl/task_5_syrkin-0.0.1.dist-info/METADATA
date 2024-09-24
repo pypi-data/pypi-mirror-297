@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: task_5_SYRKIN
+Version: 0.0.1
+Summary: This package provides functionality to count unique symbols in a string or file.
+Author-email: Andrii Syrkin <avvaan1981@gmail.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://git.foxminded.ua/andrii-syrkin-py_ment/task_5.git
+
+# Unique Character Counter
+
+## Overview
+
+This Python package provides a tool for counting unique characters in a string or file. The tool can be useful for text
+analysis, file parsing, and general string processing tasks.
+
+## Features
+
+- Count unique characters in a string.
+- Count unique characters in a file.
+- Customizable options for ignoring case sensitivity or specific characters.
+
+## Installation
+
+Clone the repository and install the required dependencies.
+
+```bash
+git clone https://git.foxminded.ua/andrii-syrkin-py_ment/task_5.git
+cd unique-character-counter
+pip install -r requirements.txt
+
