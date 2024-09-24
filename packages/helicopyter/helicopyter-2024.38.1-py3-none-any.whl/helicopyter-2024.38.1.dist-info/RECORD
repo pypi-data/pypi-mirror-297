@@ -1,0 +1,12 @@
+helicopyter.py,sha256=o-cjrGyajzSTNddPsiXLAHyCeXsVPRUzQP8wZ9R7EPg,6014
+documentation/learn_cdktf_docker.py,sha256=i-rKLAiPGEygx7CUUVGmYpRp821Sl8SEFcuCb5TASu4,827
+documentation/learn_helicopyter_docker.py,sha256=M2HP-6s5II2NIQ6XI2uzzObMvi5mZY4d0Z_Lsa4lXiA,544
+documentation/self2024-python-defined-infrastructure.md,sha256=rGiByndT7lu3Gzz-W63t9DZht9qxM-s7OhcX1SDxYIo,11586
+providers/null.py,sha256=P-5lQszps7QO40nQGgnAbHZNfjkynl3bUuzmuIXUpyA,1614
+stacks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacks/base.py,sha256=UBShXFABQa-i9vPzv71nEiTtkoclj_Vz37XUlZUGMsU,958
+helicopyter-2024.38.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+helicopyter-2024.38.1.dist-info/METADATA,sha256=mxrARWuhb6VK7cZ7_rcnTtD4n5rwDyH7HQK04q-28DM,4934
+helicopyter-2024.38.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+helicopyter-2024.38.1.dist-info/top_level.txt,sha256=2bwNh-NXHete0kL6g8RxwxZ4-wsoTvSZiQuaeS7P7zY,43
+helicopyter-2024.38.1.dist-info/RECORD,,
