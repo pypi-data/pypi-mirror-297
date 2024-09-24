@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "types-dataclasses-json"
+version = "0.5.9"
+description = "Type stubs for dataclasses-json"
+authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mahyarmirrashed/types-dataclasses-json"
+packages = [{ include = "dataclasses_json-stubs" }]
+exclude = ["dataclasses_json-stubs/__init__.py"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+dataclasses = { version = "^0.8", python = "3.6" }
+dataclasses-json = "0.5.9"
+marshmallow = "^3.3.0"
+marshmallow-enum = "^1.5.1"
+typing-inspect = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+combine_as_imports = true

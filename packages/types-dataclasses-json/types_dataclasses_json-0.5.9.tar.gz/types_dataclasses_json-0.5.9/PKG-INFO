@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: types-dataclasses-json
+Version: 0.5.9
+Summary: Type stubs for dataclasses-json
+Home-page: https://github.com/mahyarmirrashed/types-dataclasses-json
+License: MIT
+Author: Mahyar Mirrashed
+Author-email: mahyar+pypi@mirrashed.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/mahyarmirrashed/types-dataclasses-json
+Description-Content-Type: text/markdown
+
+# Dataclasses JSON Types
+
+Type stubs for the
+[dataclasses-json](https://pypi.org/project/dataclasses-json/) PyPI package.
+
