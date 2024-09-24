@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SPQRGames.egg-info/PKG-INFO
+src/SPQRGames.egg-info/SOURCES.txt
+src/SPQRGames.egg-info/dependency_links.txt
+src/SPQRGames.egg-info/top_level.txt
+src/spqr_0_0_1/__init__.py
+src/spqr_0_0_1/spqr.py
+src/spqr_0_0_1/spqr_defines.py
+src/spqr_0_0_1/spqr_events.py
+src/spqr_0_0_1/spqr_extras.py
+src/spqr_0_0_1/spqr_gui.py
+src/spqr_0_0_1/spqr_menu.py
+src/spqr_0_0_1/spqr_widgets.py
+src/spqr_0_0_1/spqr_window.py
