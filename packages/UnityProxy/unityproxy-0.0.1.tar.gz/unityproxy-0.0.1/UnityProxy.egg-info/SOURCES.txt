@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+UnityProxy.egg-info/PKG-INFO
+UnityProxy.egg-info/SOURCES.txt
+UnityProxy.egg-info/dependency_links.txt
+UnityProxy.egg-info/top_level.txt
+unityproxy/__init__.py
+unityproxy/exceptions/__init__.py
+unityproxy/exceptions/invalid_params.py
+unityproxy/types/__init__.py
+unityproxy/types/proxy_types.py
+unityproxy/utils/__init__.py
+unityproxy/utils/data_output.py
+unityproxy/utils/proxy.py
+unityproxy/utils/unity.py
+unityproxy/utils/validator.py
