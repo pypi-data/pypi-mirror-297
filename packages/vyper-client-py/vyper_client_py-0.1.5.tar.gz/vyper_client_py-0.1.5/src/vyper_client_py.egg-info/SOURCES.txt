@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/vyper_client_py/__init__.py
+src/vyper_client_py/classes.py
+src/vyper_client_py/client.py
+src/vyper_client_py/exceptions.py
+src/vyper_client_py/utils.py
+src/vyper_client_py/websocket_client.py
+src/vyper_client_py.egg-info/PKG-INFO
+src/vyper_client_py.egg-info/SOURCES.txt
+src/vyper_client_py.egg-info/dependency_links.txt
+src/vyper_client_py.egg-info/requires.txt
+src/vyper_client_py.egg-info/top_level.txt
+tests/test_client.py
+tests/test_websocket_client.py
