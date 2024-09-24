@@ -1,0 +1,7 @@
+scaling_vin_pytorch/__init__.py,sha256=55SudXQeSLrWCBzRGKMjPDqAqPKJV3ZPNnb8_etK3rQ,179
+scaling_vin_pytorch/vin.py,sha256=nxViLh7XIlLYaRF8ijerPtKeM1qUfMmwfJ_Cdltps3A,18865
+scaling_vin_pytorch/vin_3d.py,sha256=91ZaX6ucxIBJo-bL4eCXoDkgKPjMSOZk831g8rExeU8,18978
+scaling_vin_pytorch-0.0.12.dist-info/METADATA,sha256=LrQtJ8VfdRNEzzZqRdB3iYofGIYZYsSthOSxe40OeAI,3974
+scaling_vin_pytorch-0.0.12.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+scaling_vin_pytorch-0.0.12.dist-info/licenses/LICENSE,sha256=E7RGS7kpJIStk5za_-4DVhWEAamf65EU0CNML25mq4c,1066
+scaling_vin_pytorch-0.0.12.dist-info/RECORD,,
