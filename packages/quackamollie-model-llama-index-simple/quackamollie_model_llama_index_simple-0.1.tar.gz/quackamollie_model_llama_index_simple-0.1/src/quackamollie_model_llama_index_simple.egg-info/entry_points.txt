@@ -1,0 +1,2 @@
+[quackamollie.model.llama_index]
+simple-llama-index = quackamollie.model.llama_index_simple.model_llama_index_simple:SimpleLlamaIndexQuackamollieModel

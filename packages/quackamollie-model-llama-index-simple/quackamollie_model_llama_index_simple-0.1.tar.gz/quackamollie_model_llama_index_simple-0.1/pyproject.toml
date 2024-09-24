@@ -1,0 +1,62 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quackamollie-model-llama-index-simple"
+version = "0.1"
+description = "Simple Llama-Index model based on Ollama using Llama-Index model manager for Quackamollie Telegram chat bot"
+readme = "README.rst"
+authors = [
+    {name = "QuactorAI", email = "quacktorai@gmail.com"},
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["quackamollie", "model", "llama-index", "ollama", "telegram", "bot", "aiogram"]
+requires-python = ">=3.10"
+dependencies = [
+    "llama-index-llms-ollama",
+    "quackamollie-core",
+    "quackamollie-llama-index-model-manager",
+]
+
+[project.optional-dependencies]
+lint = [
+    'check-manifest',
+    'flake8',
+    'readme_renderer',
+    'safety',
+    'setuptools',
+    'twine',
+    'wheel',
+]
+test = [
+    'coverage',
+    'pytest',
+    'pytest-cov',
+    'pytest-xdist',
+    'tox',
+]
+doc = [
+    'sphinx',
+    'sphinx-click',
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/forge_of_absurd_ducks/quackamollie/lib/models/llama_index/quackamollie_model_llama_index_simple"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"]
+namespaces = true
+
+[project.entry-points."quackamollie.model.llama_index"]
+simple-llama-index = "quackamollie.model.llama_index_simple.model_llama_index_simple:SimpleLlamaIndexQuackamollieModel"
