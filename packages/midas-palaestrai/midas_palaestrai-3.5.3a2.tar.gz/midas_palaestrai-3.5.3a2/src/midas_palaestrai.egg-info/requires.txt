@@ -1,0 +1,6 @@
+midas-mosaik>=2.0.0a3
+mosaik_api
+
+[arl]
+palaestrai-mosaik>=3.5.3a1
+palaestrai>=3.5.2

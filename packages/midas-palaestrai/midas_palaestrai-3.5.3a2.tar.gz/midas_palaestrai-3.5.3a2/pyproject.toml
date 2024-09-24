@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "midas-palaestrai"
+dynamic = ["version"]
+description = "This package contains everything needed to use midas with palaestrAI."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+authors = [
+    { name = "Stephan Balduin", email = "stephan.balduin@offis.de"}
+]
+dependencies = [
+    "midas-mosaik>=2.0.0a3",
+    "mosaik_api",
+]
+
+[project.optional-dependencies]
+arl = [
+    "palaestrai-mosaik>=3.5.3a1",
+    "palaestrai>=3.5.2",
+]
+
+[project.urls]
+Documentation = "https://midas-mosaik.gitlab.io/midas"
+
+[tool.setuptools.dynamic]
+version = {attr = "midas_palaestrai.__version__"}
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["F401"]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.format]
+docstring-code-format = true
+skip-magic-trailing-comma = true
