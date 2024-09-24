@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dodam-api
+Version: 1.0.3
+Summary: 
+Author: 이슬아
+Author-email: rheeseula@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+## 🔨 in development
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dodam-api)
+![PyPI - Version](https://img.shields.io/pypi/v/dodam-api)
+
+### Usage
+
