@@ -1,0 +1,17 @@
+tsa/__init__.py,sha256=CIbHHcx1JsvAW-kLL0v_zRrWae7C3_MYTZ_qJ2mrWTM,1502
+tsa/_structs/__init__.py,sha256=FCj99uMJ-tZSWHPwWrhZsSpILQLqvfzPMseBYfPRpjU,57
+tsa/_structs/_data.py,sha256=31-S3NTuk3v2XaddSKHntYU28bC-9nrFmyV1MTqkkIA,1944
+tsa/_structs/_model.py,sha256=DrfobFnfTsqlYY3OjPYPc1T0fNXnF8Sq2Bz--O_VI5A,2456
+tsa/dynamics/__init__.py,sha256=gancx32jBQ0Xc4zlrqLMuQVUZ9mqMh9I8MKYIuGaKo8,937
+tsa/dynamics/_components.py,sha256=HR4rqi1AFKhIv7JlPqds5U6_luaBaTl4YsjwvFLYVqo,4591
+tsa/dynamics/_energy.py,sha256=pTl0NawLBe5DzazRHfhTECalUL6fElkB53w1UmO6rFo,41
+tsa/dynamics/_problems.py,sha256=N6WygH-J_sm6bTzVPrKyk_eCvulomj5_rZ7j1cXLk_w,2722
+tsa/kinematics/__init__.py,sha256=KwyaARfHObKwu5xqDVUw73IeqyjdAyEpS-oycztPoP0,1002
+tsa/kinematics/_acceleration.py,sha256=IH7XdupEkkj0LpC1KCZDwmJaK_cgnVFCGQHkxJ9kIA8,3333
+tsa/kinematics/_constraints.py,sha256=ABlKGPQo1mTLzpODyRGgSdEeHrElhknpVM_dbgeHoYQ,3958
+tsa/kinematics/_position.py,sha256=tIQoZKnxVp4lzYYsUDhE4nBoWjZzD4O97QHbkMfbaAE,2132
+tsa/kinematics/_velocity.py,sha256=gixsbdr1AO7xwSVXnJTdWr3JQN5wmM6R6VYqzTs7Xf8,3877
+twisted_strings-0.0.1.dist-info/METADATA,sha256=wVcMINNILBZvjnPkELsPPUdLumRNsZszKhsd8DhTkbc,3072
+twisted_strings-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+twisted_strings-0.0.1.dist-info/top_level.txt,sha256=N2zKstTxLyl-v2p0-aSdRaIjD7yXcbI5Ai5uebJixgU,4
+twisted_strings-0.0.1.dist-info/RECORD,,
