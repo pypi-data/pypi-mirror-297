@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: ctbl_cylon
+Version: 0.0.3
+Summary: A CLI command that automatizes the task of setting up accounts in new machines.
+Author-email: Cristian Bravo Lillo <cristian.bravo@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Cylon: a simple script to create new accounts
+
+This is a testing package for personal use. Use it at your own risk.
+
+The problem: frequently, after creating a new machine, I have to set up a sort-of service account
+to let me do things, like updating stuff, develop, install packages, etc. The process of creating
+these accounts becomes tedious. What if we could just treat these profiles as regular git repos,
+that could be downloaded as required?
+
+cylon is a script that helps to ease this process. Documentation will be put here as the script
+becomes developed and stable.
