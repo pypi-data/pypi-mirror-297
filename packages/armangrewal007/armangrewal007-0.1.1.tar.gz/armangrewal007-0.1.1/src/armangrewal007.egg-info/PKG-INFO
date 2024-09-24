@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: armangrewal007
+Version: 0.1.1
+Summary: A CLI to display Arman Singh Grewal's resume
+Home-page: https://github.com/armangrewal007
+Author: Arman Singh Grewal
+Author-email: Arman Singh Grewal <armancode4u@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+
+# Steps to install
+
+- `pip install armangrewal007`
+- Type `armangrewal007` in your terminal to see my resume!
