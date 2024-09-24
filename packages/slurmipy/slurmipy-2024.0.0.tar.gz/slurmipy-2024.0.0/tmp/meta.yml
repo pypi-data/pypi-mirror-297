@@ -1,0 +1,37 @@
+{% set name = "slurmipy" %}
+{% set version = "0.1.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
+
+requirements:
+  host:
+    - pip
+    - python
+  run:
+    - python
+    - dask
+    - dask-jobqueue
+    - distributed
+
+test:
+  imports:
+    - slurmipy
+
+about:
+  home: https://github.com/nollde/slurmipy
+  license: MIT
+  license_family: MIT
+  summary: "A package to manage Dask clusters on SLURM systems and execute functions with Dask parallelization."
+
+extra:
+  recipe-maintainers:
+    - nollde
