@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: re-unplayplay
+Version: 1.0.0a0
+Summary: A rewritten version of unplayplay
+Home-page: UNKNOWN
+Author: es3n1n
+License: UNKNOWN
+Description: https://github.com/es3n1n/re-unplayplay
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
