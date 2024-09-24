@@ -1,0 +1,3 @@
+[console_scripts]
+raspi-poe-mon=raspi_poe_mon.main:app
+
