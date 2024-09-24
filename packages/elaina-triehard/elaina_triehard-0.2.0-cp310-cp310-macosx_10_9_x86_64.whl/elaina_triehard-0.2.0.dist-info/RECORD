@@ -1,0 +1,10 @@
+elaina_triehard-0.2.0.dist-info/RECORD,,
+elaina_triehard-0.2.0.dist-info/WHEEL,sha256=pM6w_2-HMcmsJME874nrq5Wowbr_ttce_14nLq621Mg,110
+elaina_triehard-0.2.0.dist-info/top_level.txt,sha256=lK1-6Cc0aJ1tPgQhXjXi6lhILrumwONqfCLIb4JCux4,22
+elaina_triehard-0.2.0.dist-info/METADATA,sha256=S-3LC0xC2LmOEb21_bW2AbxMjiNzlEY2dB8IG7VC_8Y,243
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elaina_triehard/impl_c.pyi,sha256=VyLoLgcnAg_QYXTeN4S72VxYl-h7LeQD7_ZIvEG9wdM,756
+elaina_triehard/__init__.py,sha256=z7HGQXkzQ0J-M5geIvOTT0hdYufNvbD9RDpELEI6lyg,223
+elaina_triehard/impl_py.py,sha256=nUXbR6Nsq4M-Z5tjl9xseDTSJ70n_i4MqrleV44OO58,4372
+elaina_triehard/impl_c.pyx,sha256=F5NiGBKYS2MEuhmiIeMogMsc8WegWKed-4FlKMQLVT0,13784
+elaina_triehard/impl_c.cpython-310-darwin.so,sha256=s4H9vT3SxjBoInd9DXTdKAI3ybfEAaouBZPstS2qYAA,110496
