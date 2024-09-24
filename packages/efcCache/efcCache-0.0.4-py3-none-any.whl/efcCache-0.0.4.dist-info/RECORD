@@ -1,0 +1,13 @@
+efcCache/Interface.py,sha256=vL3s3u4Hs7Qbt4lnK7x2IlTSgsewOND-RcLK-D4boXo,452
+efcCache/Manager.py,sha256=zcDcrjTW1wkK4jiDod3dgvx51kaCfbWTw9FTVUk6Lg4,922
+efcCache/__init__.py,sha256=sXR7IeFqqKlJDhqRgyQS31tnhRo18J7iiW_bCzduE34,414
+efcCache/providers/FileCache.py,sha256=QdS4sp2I5QowXrpIlWz5ryM79JiQZoxLIAXyxmuUeHg,1371
+efcCache/providers/MySQLCache.py,sha256=YSfEsSgjEAHZmtapC2ZE3rZWVFANhkoVRs3X_SeRt9w,3285
+efcCache/providers/PostgreSQLCache.py,sha256=QkvORdjTY5LCdbO9bJdgOhRrWcvyZE911TESwU-XkGI,2866
+efcCache/providers/RedisCache.py,sha256=DDQp2_UaDvGhMYlQDRUbBzP5_Vvl7DKTH6PQr1O_dWU,883
+efcCache/providers/SQLiteCache.py,sha256=NqhVRiyKU5E7Nm6atzT5JMdm2dmPitFuoMpUONvTI_Q,2548
+efcCache/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+efcCache-0.0.4.dist-info/METADATA,sha256=6iHqnxizWSFEVW16_-c9xX287f2WrNCQKsArvYTio6k,4700
+efcCache-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+efcCache-0.0.4.dist-info/top_level.txt,sha256=ZUlnZb1BZiQQtFUJbXlKOHL9hqRfLtADmwDSAiaFQdI,9
+efcCache-0.0.4.dist-info/RECORD,,
