@@ -1,0 +1,7 @@
+setup.py
+funcbymrx/__init__.py
+funcbymrx/function.py
+mrx0w0.egg-info/PKG-INFO
+mrx0w0.egg-info/SOURCES.txt
+mrx0w0.egg-info/dependency_links.txt
+mrx0w0.egg-info/top_level.txt
