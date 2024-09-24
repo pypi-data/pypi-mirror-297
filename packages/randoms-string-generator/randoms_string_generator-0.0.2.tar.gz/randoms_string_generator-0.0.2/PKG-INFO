@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: randoms_string_generator
+Version: 0.0.2
+Summary: Generate verification code and random password
+Home-page: https://github.com/ariansajadian/randoms_string_generator.git
+Download-URL: https://github.com/ariansajadian/randoms_string_generator/archive/refs/tags/v1.0.0.tar.gz
+Author: Arian
+Author-email: arianpypi@gmail.com
+License: MIT
+Keywords: String,Random,Code
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Random String Generator
+
+Random String Generator is a simple tool for web applications
+
+- Generate Verification code
+- Random password
+# Requirements
+- Python 3.6 + version
+## Features
+
+- Generate random password for users
+- Verification code generator for email authentication
+
+Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [John Gruber] writes on the [Markdown site][df1]
+
+> Random String Genrator goal
+> is to make simple tool
+> for any python developers to
+> struggle with creating secure random password,
+> verifiy code, and any like things in own web applications
+
+## Installation
+
+Install the dependencies 
+
+```sh
+pip install random_string_generator
+```
