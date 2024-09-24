@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: independent_validation
+Version: 0.0.3
+Summary: This package implements an alternative to cross validation called independent validation.
+Project-URL: Paper, https://qcmb.psychopen.eu/index.php/qcmb/article/view/12069
+Project-URL: Research, https://thomasbayesinstitute.org/en/
+Author-email: Jonas <jonas.v.oertzen@web.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: matplotx
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# Independent Validation
+This package implements an alternative to cross validation called independent validation.
+
+For more details on this method see the original paper: [
+Independent Validation as a Validation Method for Classification
+](https://qcmb.psychopen.eu/index.php/qcmb/article/view/12069)
+
+This package was developed at the [Thomas Bayes Institute](https://thomasbayesinstitute.org/en/)
+
+
