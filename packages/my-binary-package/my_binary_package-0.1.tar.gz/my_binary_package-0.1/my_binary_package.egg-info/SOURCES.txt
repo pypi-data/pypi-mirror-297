@@ -1,0 +1,8 @@
+README.md
+setup.py
+my_binary_package.egg-info/PKG-INFO
+my_binary_package.egg-info/SOURCES.txt
+my_binary_package.egg-info/dependency_links.txt
+my_binary_package.egg-info/top_level.txt
+my_module/__init__.py
+my_module/example.py
