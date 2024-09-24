@@ -1,0 +1,12 @@
+FROM python:3.11 as base
+
+FROM base as builder
+COPY dist /dist
+RUN PYTHONDONTWRITEBYTECODE=1 pip install --no-cache-dir /dist/*.whl
+
+FROM base
+LABEL maintainer="inkey@inkey-art.net"
+LABEL org.opencontainers.image.title="sendi"
+LABEL org.opencontainers.image.description="Another xmppsend script"
+COPY --from=builder /usr/local /usr/local
+ENTRYPOINT ["/usr/local/bin/sendi"]

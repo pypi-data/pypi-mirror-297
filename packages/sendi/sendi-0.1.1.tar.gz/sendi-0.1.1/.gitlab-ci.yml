@@ -1,0 +1,21 @@
+default:
+  image: jfxs/rye
+  before_script:
+    - rye tools install invoke
+    - invoke init
+
+lint:
+  stage: test
+  script:
+    - invoke check
+    - rye fmt
+
+
+tests:
+  stage: test
+  script:
+    - rye run pytest -s -vvvv
+build:
+  stage: build
+  script:
+    - invoke build
