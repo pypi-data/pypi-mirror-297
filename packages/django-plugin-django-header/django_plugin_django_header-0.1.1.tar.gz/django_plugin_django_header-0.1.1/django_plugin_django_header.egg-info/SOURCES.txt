@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+django_plugin_django_header/__init__.py
+django_plugin_django_header/middleware.py
+django_plugin_django_header.egg-info/PKG-INFO
+django_plugin_django_header.egg-info/SOURCES.txt
+django_plugin_django_header.egg-info/dependency_links.txt
+django_plugin_django_header.egg-info/entry_points.txt
+django_plugin_django_header.egg-info/requires.txt
+django_plugin_django_header.egg-info/top_level.txt
+tests/test_django_plugin_django_header.py

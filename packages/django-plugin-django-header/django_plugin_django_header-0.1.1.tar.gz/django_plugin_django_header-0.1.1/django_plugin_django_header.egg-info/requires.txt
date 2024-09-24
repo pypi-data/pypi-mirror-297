@@ -1,0 +1,6 @@
+django
+djp
+
+[test]
+pytest
+pytest-django
