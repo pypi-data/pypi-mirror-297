@@ -1,0 +1,14 @@
+browser/__init__.py,sha256=boG9HbRzq6Bo7rrkM4EGwe2HNHD8-zkPbL7iSGgWJIQ,197
+browser/browser.py,sha256=RotJmF7nxJjqiNv0LQzdTHy1xSIT6m2HXykY0JDavm8,5375
+browser/chrome.py,sha256=eujNVVEA87nlS48FIQQ0YN2BGF-XAlKvI8DZBqUZN-o,2453
+browser/chromium.py,sha256=HVrH3u1MlwVv6AQvzV0eLJ_LOUnXQVeIpklz_ns0WVM,1014
+browser/firefox.py,sha256=Hr4tcA_ADZ6WBZw7KmvY3O2CRGY0v8Dvjc8kSOGKxAQ,3170
+browser/iexplore.py,sha256=dRPsFQj-Vb-AX2nEpkPZdbg6iHJFRh9mcjRyi_a0S-Y,1151
+browser/msedge.py,sha256=urd9rAcpM-pnYZANM8TXYeq-wSVwIfhyU6WUOS61RcQ,2472
+browser/opera.py,sha256=vm9omdYY95uEh3jbrfQeX_SvUwgOhogAEyPG0KjMG_Q,1302
+browser/safari.py,sha256=CK4p00spzkaRFE3aPJOLnm1H99k9obXusKkTNJ21_ps,2191
+browser_manager-0.1.0.dist-info/LICENSE,sha256=0L-Gnb1SLdnOl08-h1qBbwkGJyODg1YLtAIlNAV01o8,1070
+browser_manager-0.1.0.dist-info/METADATA,sha256=9ecSBTDkDyZphvsyzQnYCHoKkYtcNfqYbd4af1KNR4M,4776
+browser_manager-0.1.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+browser_manager-0.1.0.dist-info/top_level.txt,sha256=NYAux-lgez2gymeAmEXzup-5ohIP7umrcEegaikq0wU,8
+browser_manager-0.1.0.dist-info/RECORD,,
