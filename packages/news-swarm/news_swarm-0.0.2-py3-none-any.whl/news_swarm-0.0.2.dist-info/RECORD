@@ -1,0 +1,8 @@
+news_swarm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+news_swarm/main.py,sha256=T4HkRAVRWrShSAKET0yXB8u7Vr0G2C_D9j06RsvCp4k,6151
+news_swarm/prompts.py,sha256=IpE7waArvulTvixWl1JkSnWxZ1vjypxXi4k4Lr40Xvc,3271
+news_swarm/tool.py,sha256=awfYGOg4NvLGQx0BpVGaQjg4bgk8lrlxH6b-pBC6_EM,3647
+news_swarm-0.0.2.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+news_swarm-0.0.2.dist-info/METADATA,sha256=OvVtaz20HqdibUfI3MKo6EvK8Isw5Jth2L1B1ubp3BU,6562
+news_swarm-0.0.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+news_swarm-0.0.2.dist-info/RECORD,,
