@@ -1,0 +1,13 @@
+pokepy_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pokepy_sdk/exceptions.py,sha256=PzF0VkHTR3OKGxpCfde83uH5OsL1rZeCSyolXzSYmuY,201
+pokepy_sdk/src/client.py,sha256=GvzMB_6XHPGBzFMaX6Y079Iah3RQ03txZFsBq_8bwyw,6146
+pokepy_sdk/src/models/generation.py,sha256=89805cDSxVTP7KVaI3JllclvRTmrFMNJJui13auKxvo,2790
+pokepy_sdk/src/models/pokemon.py,sha256=bLn8qJlSs4Kg-mXP7DqAI4APMgGoFx9k3y-cUfd-kiE,11325
+pokepy_sdk/tests/data/sample_pokemon_response.json,sha256=tIGt5gIW3GEyNp-_iOTfehxBJ3aTk1hh117kpRAG7lM,459620
+pokepy_sdk/tests/integration_tests.py,sha256=fKftGqXoziHgEZ0u8FMh9GBzqQNpEBOc7oe-axGTSwI,1236
+pokepy_sdk/tests/models/test_generation.py,sha256=5ZOZYS2D3zp7H6AJ5TFI9PoUmJslWx1SV-zbXR_GAIQ,1992
+pokepy_sdk/tests/models/test_pokemon.py,sha256=pwJ8TRiZWqCNWTkQW1u4VUx4u5ivh2CqjPZhHY0e4kA,6129
+pokepy_sdk/tests/test_client.py,sha256=21_gomhCY0q32cpbw2kzwzQbsskdtVPHRdtLftEjQZs,3574
+pokepy_sdk-0.1.0.dist-info/METADATA,sha256=MSIEKPHCUE4TlL9JHk5cjINYRVhz5Cy5aFCGAlAMc8M,3370
+pokepy_sdk-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pokepy_sdk-0.1.0.dist-info/RECORD,,
