@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: nn-mkdocs-strings-replacement
+Version: 0.0.31111
+Summary: Novo Nordisk Mkdocs string replacement.
+License-Expression: MIT
+Keywords: markdown,mkdocs,plugin,replacement
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Python: >=3.8
+Requires-Dist: mkdocs>=1.6
+Description-Content-Type: text/markdown
+
+# nn-mkdocs-strings-replacement
+Docs for plugin. TODO, this is an init.
