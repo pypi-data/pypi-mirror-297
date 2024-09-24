@@ -1,0 +1,3 @@
+Remove usage of `self.tags` from `WriteL1` task. This greatly improves database usage. It is a breaking change because
+OUTPUT files will no longer share extra tags with their corresponding CALIBRATED files and as a result any downstream
+tasks that depend on richer tags on OUTPUT files will need to swap to using CALIBRATED files instead.
