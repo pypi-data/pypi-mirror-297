@@ -1,0 +1,15 @@
+adme_py/__init__.py,sha256=DEGxUZTpdMft_Ncdt5eN3bIZXM1JSANk9qggu8Yz6iM,70
+adme_py/adme.py,sha256=1oQ-0O0ZE5PMuayWMJFWqxsiNmjBj93Vz2kM7jq6NzA,2052
+adme_py/bbb_coords.tsv,sha256=ybpZI094FaAXU3aKAu_a8LKKzFAn8bCcLjQXGIPfpHc,3747
+adme_py/druglikeness.py,sha256=POh9jQI34GmiENeJYJhB8Hhq5BBe-cFgFvqMDh_DQCM,5447
+adme_py/hia_coords.tsv,sha256=lM7xhvhoEtL1zRdqpRvbq0UjwPcKYZFPuCOIHlcLYTE,3774
+adme_py/input_handlers.py,sha256=umW0k3xn-xOY3FPCY5Qb9SNK2x_oOdh77vOqJH_SimY,2296
+adme_py/lipophilicity.py,sha256=DV68rqnzrJN-UUVM85xUNRheuSi_kqR6MGfpiAhn3FY,1196
+adme_py/medicinal.py,sha256=Ds75uNCTHASuOzVNW6cMneRsPCn_yBPBhPLCM1qgT5o,6128
+adme_py/pharmacokinetics.py,sha256=yGmcdpH8ZTruMG-R38V7b73ILU0AnBTRfGgfrKuim6k,6221
+adme_py/physiochemical.py,sha256=ayy-msFQIDJQB1iOMdejgMYAjfA8Pl0_tXMINX0kscA,6569
+adme_py/solubility.py,sha256=pSVlJRSLQh4oQZfu0tzBP2t3VQ0ZsZX6lo-USyZixNI,3222
+adme_py-0.1.0.dist-info/METADATA,sha256=CKlkm2ymrzeJiO-EuVD17y5XZ_ekyIbAps1AQu-YOwE,2572
+adme_py-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+adme_py-0.1.0.dist-info/licenses/LICENSE,sha256=hrP4vQ_LcZr9oZZn1Vzb9BLkvhu22H4WZ7ZTeD6HKYM,1074
+adme_py-0.1.0.dist-info/RECORD,,
