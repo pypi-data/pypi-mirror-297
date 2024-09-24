@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --buildsystem=pybuild
+
+override_dh_auto_test:
+ifeq ($(filter nocheck,$(DEB_BUILD_OPTIONS)),)
+	make
+	make shell-check
+endif
+
+execute_after_dh_auto_build:
+	make docs
+
+execute_after_dh_fixperms:
+	chmod a+x debian/git-buildpackage/usr/lib/python3/dist-packages/gbp/scripts/supercommand.py
+
+execute_after_dh_auto_clean:
+	make -C docs/ clean
+	find gbp -name __init__.py -printf '%h/__pycache__/\n' | xargs rm -fr

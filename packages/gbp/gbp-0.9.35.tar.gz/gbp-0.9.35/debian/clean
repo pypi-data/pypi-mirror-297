@@ -1,0 +1,3 @@
+build/
+gbp.egg-info/
+gbp/version.py
