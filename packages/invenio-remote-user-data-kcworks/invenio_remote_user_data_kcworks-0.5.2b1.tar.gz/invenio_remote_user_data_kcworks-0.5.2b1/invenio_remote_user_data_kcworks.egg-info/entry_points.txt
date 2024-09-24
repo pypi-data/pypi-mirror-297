@@ -1,0 +1,20 @@
+[console_scripts]
+user-data = invenio_remote_user_data_kcworks.cli:cli
+
+[flask.commands]
+user-data = invenio_remote_user_data_kcworks.cli:cli
+
+[invenio_base.api_apps]
+invenio_remote_user_data_kcworks = invenio_remote_user_data_kcworks.ext:InvenioRemoteUserData
+
+[invenio_base.api_blueprints]
+invenio_remote_user_data_kcworks = invenio_remote_user_data_kcworks.views:create_api_blueprint
+
+[invenio_base.apps]
+invenio_remote_user_data_kcworks = invenio_remote_user_data_kcworks.ext:InvenioRemoteUserData
+
+[invenio_celery.tasks]
+invenio_remote_user_data_kcworks = invenio_remote_user_data_kcworks.tasks
+
+[invenio_queues.queues]
+invenio_remote_user_data_kcworks = invenio_remote_user_data_kcworks.queues:declare_queues
