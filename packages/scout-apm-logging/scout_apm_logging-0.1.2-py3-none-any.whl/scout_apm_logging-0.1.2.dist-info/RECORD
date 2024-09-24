@@ -1,0 +1,8 @@
+scout_apm_logging/__init__.py,sha256=M9zPTOtgiihzC8DAjlvviY4QLGbPfVHVwtrOShZKxU8,55
+scout_apm_logging/handler.py,sha256=6FOe9DSJ-og89Sl9h5xtGctHfr_uzSNyp_VbPYw25Nc,4471
+scout_apm_logging/otel_logger.py,sha256=96G55fInBNVKuIeVrq7WomPHEwsNQwHDaSN5vhp9sck,1618
+scout_apm_logging/utils/__init__.py,sha256=DcpaawND1DKsQWZ38J0qbe55RTt1LA4zk3-XPEjweiM,50
+scout_apm_logging/utils/operation_utils.py,sha256=8mkBruTmsXOvenPTiS94BEe-TownT9aPDcq5K7PJ-tY,1270
+scout_apm_logging-0.1.2.dist-info/METADATA,sha256=yvdOVCYNu3tnP2BNYvaKDqwSRqG0ejH2NQUw-5dbW48,4980
+scout_apm_logging-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scout_apm_logging-0.1.2.dist-info/RECORD,,
