@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/mlcookiecutter/__init__.py
+src/mlcookiecutter/main.py
+src/mlcookiecutter.egg-info/PKG-INFO
+src/mlcookiecutter.egg-info/SOURCES.txt
+src/mlcookiecutter.egg-info/dependency_links.txt
+src/mlcookiecutter.egg-info/entry_points.txt
+src/mlcookiecutter.egg-info/requires.txt
+src/mlcookiecutter.egg-info/top_level.txt
+tests/test_mlcookiecutter.py
