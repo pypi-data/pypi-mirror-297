@@ -1,0 +1,10 @@
+sitsoDB/__init__.py,sha256=w86_fdxx3eu3IuzfbShYv7c9KC0P4U7BpbsxWzVkY9A,35
+sitsoDB/main.py,sha256=mhQu9ClEHUGQUc4cHDl3L-itCXg7xWL6qc1SDWQ2Dic,7328
+sitsoDB/seriesDB.csv,sha256=i773eptNdydeQsTMMDR-xf2_OxSU9Lf5zeQvNrHU7tk,94
+sitsoDB/shelfDB.csv,sha256=5eELaR44t107ZcVaurVyJM8NeeyPuKpCOCo5YUS-_oY,142
+sitsoDB/standardDB.csv,sha256=Vkro2XRyBfXQGN_TC4m4d6pzk0uEQHQwfZF84LoREkk,115
+sitsoDB-0.0.3.1.dist-info/LICENSE,sha256=gJX79KENqSD0pdQYsk7hiB6VWJSx6joXVK0-i0Q1Fwc,1072
+sitsoDB-0.0.3.1.dist-info/METADATA,sha256=-e3ICxFQF8to9Bd-SSn5-8Hw8DsIEqnwVedjWTiG0qg,1964
+sitsoDB-0.0.3.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sitsoDB-0.0.3.1.dist-info/top_level.txt,sha256=CFyj_zCK2nHPP131B1eZlM_rMB8kTV8K4LOl6MPLymU,8
+sitsoDB-0.0.3.1.dist-info/RECORD,,
