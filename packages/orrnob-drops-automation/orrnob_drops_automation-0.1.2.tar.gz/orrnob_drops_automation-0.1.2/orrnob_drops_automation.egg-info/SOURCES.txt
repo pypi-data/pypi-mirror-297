@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+orrnob-drops-automation/__init__.py
+orrnob-drops-automation/base.py
+orrnob_drops_automation.egg-info/PKG-INFO
+orrnob_drops_automation.egg-info/SOURCES.txt
+orrnob_drops_automation.egg-info/dependency_links.txt
+orrnob_drops_automation.egg-info/requires.txt
+orrnob_drops_automation.egg-info/top_level.txt
