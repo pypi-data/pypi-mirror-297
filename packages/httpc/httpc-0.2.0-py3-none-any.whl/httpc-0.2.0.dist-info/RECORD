@@ -1,0 +1,12 @@
+httpc/__init__.py,sha256=2ZXJ1vvYpWiwRq--oKy6IWakg0CH_YdcJ5D29yFSQww,547
+httpc/_api.py,sha256=LmweE2jd81EZ7aYYF802ZhkhQMR6oxKtWJrgOJu79Dc,11061
+httpc/_base.py,sha256=wO1mW4wrEKkKGYXNhR2jQEyplDNg0PcKHTF1rIe-Qrk,15448
+httpc/_broadcaster.py,sha256=cTb6Sa6DZfM3zjBt_SV20tyNVu44BDK4wGBeCQszNPo,9319
+httpc/_cache_api.py,sha256=OdlpdjsvaoJ43qVoMHOXxxcJ56gFwl9aO1dmilOVI7E,3034
+httpc/_cache_api.pyi,sha256=FKk8BmhJVpVtTOvfnfl-fUpjsd6Vo8o_hdqFp614ADE,474
+httpc/_client.py,sha256=vyYAPjczPuclfDFIY7QpC2Jp23qTpHydhJ32qYm4WAA,33687
+httpc/_css.py,sha256=6hMbWvXNmFPc-bBNINs5GDGTInTPiRxtKZBAqw9z8mc,2051
+httpc/_options.py,sha256=n3aU85YTD-Uum7J5n7ZCtSWhiml4yCp0nZ6EXr3860Q,4423
+httpc-0.2.0.dist-info/METADATA,sha256=1PAol4vLiriohtKJSan2DOJG-r0X91Xl565vw35azw8,1624
+httpc-0.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+httpc-0.2.0.dist-info/RECORD,,

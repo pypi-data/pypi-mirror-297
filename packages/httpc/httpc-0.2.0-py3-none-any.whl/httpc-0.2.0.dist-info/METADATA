@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: httpc
+Version: 0.2.0
+Summary: httpx with css.
+Author-email: ilotoki0804 <ilotoki0804@gmail.com>
+License-Expression: MIT
+Keywords: css,httpx,request,selectolax,soup
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: selectolax>=0.3.21
+Description-Content-Type: text/markdown
+
+# httpc
+
+**httpx with CSS**
+
+## Examples
+
+```python
+>>> import httpc
+>>> response = httpc.get("https://www.python.org/")
+>>> response.css("strong")  # CSS Query
+[<Node strong>, <Node strong>, <Node strong>]
+>>> response.css("strong").bc.text()
+['Notice:', 'A A', 'relaunched community-run job board']
+>>> response.single("div")
+ValueError: Query 'div' matched with 47 nodes.
+>>> response.single("#content")
+<Node div>
+>>> httpc.get("https://python.org")                 
+<Response [301 Moved Permanently]>
+>>> httpc.common.get("https://python.org") 
+<Response [200 OK]>
+>>> httpc.get("https://httpbin.org/status/400")
+<Response [400 BAD REQUEST]>
+>>> httpc.get("https://httpbin.org/status/400", raise_for_status=True)
+httpx.HTTPStatusError: Client error '400 BAD REQUEST' for url 'https://httpbin.org/status/400'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+```
