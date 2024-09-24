@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyHikUp
+Version: 0.0.1
+Summary: Python wrapper for Hik Device Gateway
+Author: John Owen
+Maintainer-email: sales@sensoraccess.co.uk
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: validators
+Requires-Dist: fuzzywuzzy
+Requires-Dist: cryptography
+Requires-Dist: pysignalr
+Requires-Dist: websockets
+Requires-Dist: python-Levenshtein
+
+pyHikUp
+===============
+
+pyHikUp is a Python wrapper for the Hik Device Gateway
+
