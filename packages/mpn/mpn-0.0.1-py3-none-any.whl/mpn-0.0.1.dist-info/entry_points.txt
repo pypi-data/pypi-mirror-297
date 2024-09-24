@@ -1,0 +1,2 @@
+[console_scripts]
+mpn = mpn.python_help:show_python_help
