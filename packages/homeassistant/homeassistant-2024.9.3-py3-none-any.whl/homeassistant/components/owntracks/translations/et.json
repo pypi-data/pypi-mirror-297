@@ -1,0 +1,14 @@
+{
+    "config": {
+        "abort": {
+            "cloud_not_connected": "Pilve\u00fchendus puudub",
+            "single_instance_allowed": "Juba seadistatud. V\u00f5imalik on ainult \u00fcks seadistamine."
+        },
+        "step": {
+            "user": {
+                "description": "Kas soovid OwnTracks'i seadistada?",
+                "title": "Seadista OwnTracks"
+            }
+        }
+    }
+}
