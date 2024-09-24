@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: xtquant
+Version: 240920.1.0
+Summary: xtquant_240920
+Home-page: http://dict.thinktrader.net/?id=7zqjlm
+Author: Willows
+Author-email: 972210116@qq.com
+License: GNU GPLv3 
+Requires-Python: >=3.6, <3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+## 数据
+添加函数 xtdata.get_trading_contract_list()
+获取当前主力合约可交易标的列表
+
+## 功能
+token模式，可以设置初始化的市场列表
+xtdatacenter.set_init_markets()
+
+函数xtdata.get_period_list() 结果结构调整
+
+添加获取合约交易时间相关函数
+xtdata.get_trading_period()
+xtdata.get_all_trading_periods()
+xtdata.get_all_kline_trading_periods()
+
+添加函数 xtdata.subscribe_quote2()
+比xtdat.subscribe_quote()增加了除权参数
