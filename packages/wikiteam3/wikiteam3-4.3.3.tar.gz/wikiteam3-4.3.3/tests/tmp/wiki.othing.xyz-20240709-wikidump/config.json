@@ -1,0 +1,24 @@
+{
+    "api": "https://wiki.othing.xyz/api.php",
+    "api_chunksize": 50,
+    "curonly": false,
+    "date": "20240709",
+    "delay": 0.0,
+    "exnamespaces": [],
+    "export": "",
+    "failfast": false,
+    "http_method": "POST",
+    "images": true,
+    "index": "https://wiki.othing.xyz/index.php",
+    "logs": false,
+    "namespaces": [
+        "all"
+    ],
+    "path": "./wiki.othing.xyz-20240709-wikidump",
+    "retries": 5,
+    "templates": false,
+    "xml": false,
+    "xmlapiexport": false,
+    "xmlrevisions": false,
+    "xmlrevisions_page": false
+}

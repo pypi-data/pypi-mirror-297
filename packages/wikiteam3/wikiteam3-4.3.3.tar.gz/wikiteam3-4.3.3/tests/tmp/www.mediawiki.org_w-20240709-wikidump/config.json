@@ -1,0 +1,24 @@
+{
+    "api": "https://www.mediawiki.org/w/api.php",
+    "api_chunksize": 50,
+    "curonly": false,
+    "date": "20240709",
+    "delay": 0.0,
+    "exnamespaces": [],
+    "export": "",
+    "failfast": false,
+    "http_method": "POST",
+    "images": false,
+    "index": "https://www.mediawiki.org/w/index.php",
+    "logs": false,
+    "namespaces": [
+        "all"
+    ],
+    "path": "./www.mediawiki.org_w-20240709-wikidump",
+    "retries": 5,
+    "templates": false,
+    "xml": true,
+    "xmlapiexport": false,
+    "xmlrevisions": true,
+    "xmlrevisions_page": false
+}

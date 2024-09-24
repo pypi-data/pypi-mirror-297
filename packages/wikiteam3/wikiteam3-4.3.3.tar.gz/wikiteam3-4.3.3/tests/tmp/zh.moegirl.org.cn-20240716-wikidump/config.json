@@ -1,0 +1,24 @@
+{
+    "api": "https://zh.moegirl.org.cn/api.php",
+    "api_chunksize": 50,
+    "curonly": false,
+    "date": "20240716",
+    "delay": 1.5,
+    "exnamespaces": [],
+    "export": "",
+    "failfast": false,
+    "http_method": "POST",
+    "images": false,
+    "index": "https://zh.moegirl.org.cn/index.php",
+    "logs": false,
+    "namespaces": [
+        "all"
+    ],
+    "path": "./zh.moegirl.org.cn-20240716-wikidump",
+    "retries": 5,
+    "templates": false,
+    "xml": true,
+    "xmlapiexport": true,
+    "xmlrevisions": false,
+    "xmlrevisions_page": false
+}
