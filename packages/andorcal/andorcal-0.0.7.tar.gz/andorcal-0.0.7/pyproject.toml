@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "andorcal"
+version = "0.0.7"
+dynamic = ["dependencies"]
+authors = [
+  { name="Noah Hatakeyama", email="noah@kikker.nl" },
+]
+description = "Calendar utility for Andor. Package to generate calendar data based on input dates"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Kikker-Energie/ka-calendar-utils"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

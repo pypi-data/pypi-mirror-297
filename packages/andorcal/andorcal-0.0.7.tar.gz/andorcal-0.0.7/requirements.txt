@@ -1,0 +1,12 @@
+# package development
+keyring>=25.0.1
+keyrings.google-artifactregistry-auth>=1.1.2
+pylint>=3.2.3
+pytest>=8.2.2
+setuptools>=70.0.0
+tox>=4.15.1
+twine>=5.1.0
+wheel>=0.42.0
+
+
+pandas>=2.2.2
