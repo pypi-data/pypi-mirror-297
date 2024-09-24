@@ -1,0 +1,70 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ibis_sqlflite"]
+
+[project]
+name = "ibis-sqlflite"
+version = "0.0.2"
+description = "An Ibis backend for SQLFlite"
+readme = "README.md"
+authors = [{ name = "Philip Moore", email = "prmoore77@hotmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ibis", "sqlflite", "ibis-framework"]
+dependencies = [
+  "duckdb==1.1.0",
+  "adbc-driver-flightsql",
+  "ibis-framework==9.5",
+  "pyarrow",
+  "pyarrow-hotfix",
+  "numpy",
+  "pandas",
+  "rich",
+]
+requires-python = ">=3.9"
+
+[project.entry-points."ibis.backends"]
+sqlflite = "ibis_sqlflite"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pytest-snapshot",
+  "pytest-mock",
+  "filelock",
+  "duckdb",
+  "dask",
+  "distributed",
+  "pins[gcs]",
+  "docker"
+]
+
+dev = [
+  "bumpver"
+]
+
+[project.urls]
+Homepage = "https://github.com/prmoore77/ibis-sqlflite"
+
+[tool.bumpver]
+current_version = "0.0.2"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    '^version = "{version}"$',
+    '^current_version = "{version}"$',
+]
+"ibis_sqlflite/__init__.py" = [
+    '^__version__ = "{version}"$',
+]

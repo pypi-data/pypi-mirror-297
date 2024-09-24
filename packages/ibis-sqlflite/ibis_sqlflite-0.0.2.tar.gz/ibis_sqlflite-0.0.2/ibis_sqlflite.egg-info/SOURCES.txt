@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+ibis_sqlflite/__init__.py
+ibis_sqlflite/converter.py
+ibis_sqlflite.egg-info/PKG-INFO
+ibis_sqlflite.egg-info/SOURCES.txt
+ibis_sqlflite.egg-info/dependency_links.txt
+ibis_sqlflite.egg-info/entry_points.txt
+ibis_sqlflite.egg-info/requires.txt
+ibis_sqlflite.egg-info/top_level.txt
