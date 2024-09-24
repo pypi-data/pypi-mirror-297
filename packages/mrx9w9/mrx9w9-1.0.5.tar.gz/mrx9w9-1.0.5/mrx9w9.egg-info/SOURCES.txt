@@ -1,0 +1,7 @@
+setup.py
+mrx9w9/__init__.py
+mrx9w9/bugcrowd.py
+mrx9w9.egg-info/PKG-INFO
+mrx9w9.egg-info/SOURCES.txt
+mrx9w9.egg-info/dependency_links.txt
+mrx9w9.egg-info/top_level.txt
