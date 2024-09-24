@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Py_Simple_Select.egg-info/PKG-INFO
+Py_Simple_Select.egg-info/SOURCES.txt
+Py_Simple_Select.egg-info/dependency_links.txt
+Py_Simple_Select.egg-info/top_level.txt
+py_simple_select/__init__.py
+py_simple_select/main.py
