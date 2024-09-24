@@ -1,0 +1,15 @@
+operetta_compose/__FRACTAL_MANIFEST__.json,sha256=WEkCcZMAIsclJPlHltnC1_YH8P4ZEEUUo-Xwbo8kIuw,10454
+operetta_compose/__init__.py,sha256=6-2eXefpyJrZnd2p7zjxY9B0UyMw8RlP9eHO5VN6x6k,717
+operetta_compose/utils.py,sha256=CZhvXqlld51ujM-gxoQO3bbv9F9p7aQ1gFJLaIVBQk8,2142
+operetta_compose/io/__init__.py,sha256=pmp8czIhX0LiBICRG6y4jUj-YRKRPnvP4nzYHKQKT0c,12666
+operetta_compose/tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operetta_compose/tasks/condition_registration.py,sha256=8kVaWnsIfYVybADEEhKkAfmN16N3hLZBiFrEZ5wtzcc,1958
+operetta_compose/tasks/harmony_to_ome_zarr.py,sha256=qnKdqu9fF13ZUH9UDjxBOyk3U5r4TAc6ROnmrRWSWuQ,14809
+operetta_compose/tasks/label_prediction.py,sha256=e-D2VpX2aItvqO1bjEd1DgO1Ja0z6lckNED1ehqKSck,1786
+operetta_compose/tasks/regionprops_measurement.py,sha256=WfjXYmQcwdeJSy7-Z0iZxDPk_zLQGDtrygNoZ6SO1wA,3692
+operetta_compose/tasks/stardist_segmentation.py,sha256=b632EfhmBS_KwE3eyIz0fu65ZNsKg7WRrAeukuPydzU,4548
+operetta_compose-0.2.1.dist-info/LICENSE,sha256=jkG47JKxI6BictlrtAdM5STQ9vPeO9kNazXWEvm067Q,1500
+operetta_compose-0.2.1.dist-info/METADATA,sha256=mL5A2K6LsUJ07yuXTLVino1ORO-RWX1e6eX4s1yzAfY,3454
+operetta_compose-0.2.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+operetta_compose-0.2.1.dist-info/top_level.txt,sha256=1SW7J3a_7T4FR36XQvmZ6o_abkhBVpFmVA5laSn93oI,17
+operetta_compose-0.2.1.dist-info/RECORD,,
