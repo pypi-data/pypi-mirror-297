@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: sbo_service_purchasing
+Version: 0.1.2
+Home-page: https://bitbucket.org/jaydm/sbo-service-purchasing
+Author: Jay D. McHugh
+Author-email: 'Jay D. McHugh' <jaydmchugh@gmail.com>
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests<3,>=2.28
+Requires-Dist: urllib3<2,>=1.26
+Requires-Dist: python-dotenv<2,>=1
+Requires-Dist: sbo-service-layer<1,>=0.1.1
+Requires-Dist: sbo-service-inventory<1,>=0.1.1
+
+# SAP Business One - Python Service Layer Purchasing wrapper
+## This is entirely untested
+
+This package provides a base wrapper for accessing the SAP
+service layer in Python for purchasing objects.
+
+# Installation
+
+```shell
+$ python -m pip install sbo-service-purchasing
+```
+
+# Supported document types
+## Implemented
+    'purchase orders': 'PurchaseOrders',
+    'receipt of goods': 'PurchaseDeliveryNotes',
+    'purchase returns': 'PurchaseReturns',
+    'payable invoices': 'PurchaseInvoices',
+    'purchase credits': 'PurchaseCreditNotes',
+
+## Pending
+    'payable down payment': 'PurchaseDownPayments',
+    'purchase quotes': 'PurchaseQuotations',
+    'purchase requests': 'PurchaseRequests',
+    'payable tax invoices': 'PurchaseTaxInvoices',
+
+# Helpful Examples
+
+```
+def read_sales_order_by_po_and_shipto(sbo: service, po, shipto):
+    filter = f"(NumAtCard eq '{po}') and (ShipToCode eq '{shipto}')"
+
+    return read_sales_order_with_filter(sbo, filter)
+
+
+def so_exists_by_cust_po(sbo: service, customer, po_number):
+    filter = f'(CardCode eq \'{customer}\') and (NumAtCard eq \'{po_number}\')'
+
+    response = read_sales_order_with_filter(sbo, filter)
+
+    return response['success']
+```
