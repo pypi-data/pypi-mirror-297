@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: NLPFlow
+Version: 0.0.1
+Summary: A powerful toolkit for automating NLP workflows.
+Home-page: https://github.com/GiannopoulosK/NLPFlow
+Author: Konstantinos Giannopoulos
+Author-email: giannopoulosk.data@gmail.com
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
