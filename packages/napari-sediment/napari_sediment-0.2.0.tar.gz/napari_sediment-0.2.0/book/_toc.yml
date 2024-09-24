@@ -1,0 +1,11 @@
+format: jb-book
+root: napari_sediment
+parts:
+  - caption: Tutorials
+    chapters:
+    - file: Load_preprocess
+    - file: Dimensionality_reduction
+    - file: Spectral_indices
+  - caption: Detailed explanations
+    chapters:
+    - file: Details_sediment
