@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+block_scoping/__init__.py
+block_scoping/check_files.py
+block_scoping/scoped.py
+block_scoping.egg-info/PKG-INFO
+block_scoping.egg-info/SOURCES.txt
+block_scoping.egg-info/dependency_links.txt
+block_scoping.egg-info/entry_points.txt
+block_scoping.egg-info/top_level.txt
+tests/test_scopes.py
+tests/test_scopes_python36.py
+tests/test_scopes_python38.py
+tests/test_scopes_python39.py
