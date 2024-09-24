@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: getsupertab
+Version: 0.1.0
+Summary: Supertab API client
+Author-email: Supertab Dev Team <hello@supertab.co>
+Requires-Python: >=3.12

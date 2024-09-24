@@ -1,0 +1,15 @@
+[project]
+name = "getsupertab"
+version = "0.1.0"
+description = "Supertab API client"
+requires-python = ">=3.12"
+dependencies = []
+authors = [
+  { name="Supertab Dev Team", email="hello@supertab.co" },
+]
+# NOTE: This only has the bare minimum info.
+# TODO: add more metadata like: classifiers, project.urls etc.
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
