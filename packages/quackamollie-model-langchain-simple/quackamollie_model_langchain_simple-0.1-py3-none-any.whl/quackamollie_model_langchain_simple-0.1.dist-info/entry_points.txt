@@ -1,0 +1,2 @@
+[quackamollie.model.langchain]
+simple-langchain = quackamollie.model.langchain_simple.model_langchain_simple:SimpleLangchainQuackamollieModel
