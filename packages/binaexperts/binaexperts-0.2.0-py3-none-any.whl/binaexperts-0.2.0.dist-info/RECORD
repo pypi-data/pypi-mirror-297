@@ -1,0 +1,17 @@
+binaexperts/__init__.py,sha256=wE9RThBvcsQ81Snfk6pDYCigAe3LNyiyoIKDBgmhd6g,74
+binaexperts/convertors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binaexperts/convertors/base.py,sha256=SuiKs2aMvjEZFo5NlrzZOdZf2WIYiVsCt27TWJ1tyVI,31873
+binaexperts/convertors/const.py,sha256=5nG2SI9pWlx6HF-Hzz6wBpXKEi7D7hPyJX3qQw8UFGw,108
+binaexperts/convertors/convertor.py,sha256=Jti8dwRe5AlYPe6WywBZD20b0yukOz3lr7-iUG0isJk,2273
+binaexperts/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binaexperts/schema/binaexperts.py,sha256=RJaJXVxpTvet7ZqZ1RbqLK0Ms7z0_j5jbVuXJAcNQvk,389
+binaexperts/schema/coco.py,sha256=az8oYoNMW_YI7Ce5IGnjT4_Cz3Em1YkQH-FmV1gKYkw,4530
+binaexperts/schema/normalizer.py,sha256=ZDUx5deFjzUpEFxuorOb2mjdywS2rBKOLljYv_rqBvo,5564
+binaexperts/schema/yolo.py,sha256=1nhGcosX6ei_mS3vkL0zd-ieNH4J-sEp42I7hgwsDXc,2225
+binaexperts/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binaexperts/utils/utils.py,sha256=RDvjVoG9r9zw4eUFx4n6AMy314FFJYgFaKI4WjSbHl8,266
+binaexperts/utils/validation_utils.py,sha256=EnPLY6VorknbyCR_Cmhu5aXDFoIcztl3O-sPCy1A6oQ,271
+binaexperts-0.2.0.dist-info/METADATA,sha256=2lEGCz5gJUqfcVMVp0TlUB9yNZgpIdHpXFncrT7Ut2Y,3381
+binaexperts-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+binaexperts-0.2.0.dist-info/top_level.txt,sha256=wXfL9O1_Ie_w4U37PyzoaPosFoQ6whwDMvKKCsGGvkE,12
+binaexperts-0.2.0.dist-info/RECORD,,
