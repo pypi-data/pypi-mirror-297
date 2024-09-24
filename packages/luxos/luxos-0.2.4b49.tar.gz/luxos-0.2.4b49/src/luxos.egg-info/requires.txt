@@ -1,0 +1,10 @@
+tqdm
+asyncpg
+pandas
+pyyaml
+httpx
+
+[extra]
+tqdm
+pandas
+asyncpg
