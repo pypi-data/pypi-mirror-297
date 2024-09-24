@@ -1,0 +1,122 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="open_petro_elastic"
+dynamic = ["version"]
+requires-python = ">=3.8"
+authors = [{ name="Equinor", email="fg_sib-scout@equinor.com" },]
+description="Utility for calculating elastic properties of rocks and fluids."
+license = {file = "LICENSE"}
+readme = "README.md"
+keywords = ["geophysics", "rock physics", "materials science"]
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Hydrology",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pyyaml",
+    "pandas",
+    "pydantic",
+    "sympy",
+    "typing_extensions",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "syrupy",
+    "hypothesis",
+    "matplotlib",
+    "pillow>=10.0.0",   # Not directly required, pinned by Snyk to avoid a vulnerability
+    "Flake8-pyproject", # Work around Flake8 incompatibility with pyproject.toml
+]
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-argparse",
+    "matplotlib",
+    "recommonmark",
+    "pygments-csv-lexer",
+]
+dev = [
+    "build",
+    "setuptools",
+    "ruff",
+    "mypy",
+]
+
+[project.urls]
+"documentation" = "https://equinor.github.io/open_petro_elastic"
+"repository" = "https://github.com/equinor/open_petro_elastic"
+
+[project.scripts]
+open_petro_elastic = "open_petro_elastic.__main__:main"
+
+[project.entry-points."open_petro_elastic.fluid_model_providers"]
+batzle_wang = "open_petro_elastic.config.fluid_model_providers:BatzleWangFluidModelProvider"
+span_wagner = "open_petro_elastic.config.fluid_model_providers:SpanWagnerFluidModelProvider"
+
+[tool.setuptools_scm]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+open_petro_elastic = ["tutorial_config/*"]
+"open_petro_elastic.material.span_wagner.tables" = [
+            "material/span_wagner/tables/carbon_dioxide_density.npz"
+]
+
+[tool.ruff]
+src = ["src"]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+  "W",  # pycodestyle
+  "I",  # isort
+  "B",  # flake-8-bugbear
+  "SIM",  # flake-8-simplify
+  "F",  # pyflakes
+  "PL",  # pylint
+  "NPY",  # numpy specific rules
+  "C4",  # flake8-comprehensions
+]
+preview = true
+ignore = ["PLW2901",  # redefined-loop-name
+          "PLR2004",  # magic-value-comparison
+          "PLR0915",  # too-many-statements
+          "PLR0912",  # too-many-branches
+          "PLR0911",  # too-many-return-statements
+          "PLC2701",  # import-private-name
+          "PLR6201",  # literal-membership
+          "PLR0914",  # too-many-locals
+          "PLR6301",  # no-self-use
+          "PLW1641",  # eq-without-hash
+          "PLR0904",  # too-many-public-methods
+          "PLR1702",  # too-many-nested-blocks
+          "PLW3201",  # bad-dunder-method-name
+          "PLW0108",  # unnecessary-lambda
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/*" = [
+"B008" # function-call-in-default-argument
+]
+
+[tool.ruff.lint.pylint]
+max-args = 12
