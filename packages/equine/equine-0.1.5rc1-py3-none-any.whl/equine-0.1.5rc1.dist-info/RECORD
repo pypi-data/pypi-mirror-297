@@ -1,0 +1,15 @@
+equine/NOTICE.txt,sha256=WD-WhMihRGRM-rK1eYiLf9QlqDHsVxHM3wvOxqbCFOA,673
+equine/__init__.py,sha256=O7uFxbZHdd6kz9Sob3107KyY-Sfh8xpqQLY_BhSX7NE,1232
+equine/_version.py,sha256=WapI6QlDQ7QSzgrrFc_Ixmj4gRqoovQdWbTdn8lzurs,414
+equine/equine.py,sha256=w3G4-hrrlN3tBNmGjGB7-GGUJS93q6ajlTttD3cz0So,6556
+equine/equine_gp.py,sha256=UQ0hIm20_4xAiUWzmQ5jtvvMkox6XwuD4dBn6j_991I,27520
+equine/equine_output.py,sha256=zkXfecYER4q2MsJM8SCcCqctdDQXiwPAU_Xwtgk2e_k,724
+equine/equine_protonet.py,sha256=YLfIllPNfdQE7x-tthYtkuDAhn18bhpPglnY7qBe7J4,33322
+equine/load_equine_model.py,sha256=5szNiH7o8jjJzc-lhNQohE2wgyy3MHAfn9ji5bJ6qqU,634
+equine/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+equine/utils.py,sha256=9rcX6WPOg7XM0ZuyAJCfmn8OLXq-0RuPqw47IBY3O1M,13947
+equine-0.1.5rc1.dist-info/LICENSE.md,sha256=SChkvIhD5g0I6SAYvW9RtZy0cuTG2WDCohH7dOYTzaM,1109
+equine-0.1.5rc1.dist-info/METADATA,sha256=I695Y5Bd_-fSDSr0MklI6SKZxGF6EJ1lDR1PSQPnHRI,4684
+equine-0.1.5rc1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+equine-0.1.5rc1.dist-info/top_level.txt,sha256=NF39gSbWDHHnG-VHaVTxZGYcYtQfFCl-ScrX_r8UfHc,7
+equine-0.1.5rc1.dist-info/RECORD,,
