@@ -1,0 +1,12 @@
+.DS_Store
+.coverage
+.coverage_reports
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.turbo
+.venv
+__pycache__
+dist
+htmlcov
+node_modules

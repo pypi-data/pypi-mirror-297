@@ -1,0 +1,57 @@
+{
+  "name": "@spear-ai/beamformer",
+  "version": "0.1.0",
+  "description": "A conventional beamformer.",
+  "author": {
+    "name": "Spear AI",
+    "email": "org@spear.ai",
+    "url": "https://spear.ai"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.8",
+    "@spear-ai/eslint-config": "20.0.1",
+    "@spear-ai/npm-package-json-lint-config": "3.1.1",
+    "@spear-ai/prettier-config": "2.2.0",
+    "@spear-ai/tsconfig": "4.0.0",
+    "eslint": "8.57.1",
+    "graphql": "16.9.0",
+    "graphql-config": "5.1.2",
+    "npm-package-json-lint": "8.0.0",
+    "prettier": "3.3.3",
+    "react": "18.3.1",
+    "replace-in-file": "8.2.0",
+    "tailwindcss": "3.4.12",
+    "tsx": "4.19.1",
+    "turbo": "2.1.2",
+    "typescript": "5.6.2"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "directory": "packages/beamformer",
+    "url": "https://github.com/spear-ai/beamform.git"
+  },
+  "scripts": {
+    "build": "uv build",
+    "eslint:check": "eslint --max-warnings 0 .",
+    "eslint:fix": "yarn eslint:check --fix",
+    "mypy:check": "uv run mypy src",
+    "npmpkgjsonlint:check": "npmPkgJsonLint .",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "publish-package": "uvx twine upload dist/*",
+    "pytest:check": "uv run pytest src/beamformer",
+    "ruff-format:check": "uv run ruff format --check .",
+    "ruff-format:fix": "uv run ruff format .",
+    "ruff-lint:check": "uv run ruff check .",
+    "ruff-lint:fix": "uv run ruff check --fix .",
+    "sync-version": "tsx sync-version",
+    "typescript:check": "tsc --noEmit"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
