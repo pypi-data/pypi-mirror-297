@@ -1,0 +1,10 @@
+bcraapi/__init__.py,sha256=_pb943hY6FJmP90XPLyXsHM1fyGeZSWimxrf16N5rtg,1957
+bcraapi/centraldeudores.py,sha256=3IYNjpt7lQvdV8f3vIaFXTcwbWS1J_ZJZ2ZNfgOfG0U,1693
+bcraapi/cheques.py,sha256=AzhwFvp_HJC9GiF8CsFmuPx16dc72ci0Y1hEFIO3YMQ,1010
+bcraapi/estadisticas.py,sha256=Q7gcIVAon4xskoOekEq9BVCtdFhCQ2jFd_KCN75NF88,1125
+bcraapi/estadisticascambiarias.py,sha256=yRniFlgNrXoqYEdU5bj4_ctc2hRAxXpba3SD-VNeQLA,2065
+bcraapi-1.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bcraapi-1.2.0.dist-info/METADATA,sha256=mmty8g1nb7KwYPaHjOM7zdBYPjv5tp6bhpjsPf5HqRo,9657
+bcraapi-1.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bcraapi-1.2.0.dist-info/top_level.txt,sha256=sdwDXtHkCv3xaD9w1YiFpEcr-hYcV9RByX0Px7HKVww,8
+bcraapi-1.2.0.dist-info/RECORD,,
