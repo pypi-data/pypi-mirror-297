@@ -1,0 +1,2 @@
+[console_scripts]
+hib_hib = V_page_extract.main: hibernate
