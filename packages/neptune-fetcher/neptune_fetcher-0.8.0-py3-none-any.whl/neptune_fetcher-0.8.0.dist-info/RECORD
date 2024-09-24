@@ -1,0 +1,12 @@
+CHANGELOG.md,sha256=0Cf3lVPieGjMyUlt2jfGZ7sMEmrO43RWc6iZgQ_0Wf8,4696
+neptune_fetcher/__init__.py,sha256=Sn3j7uHPUByA1uQYTgCL7colkZmgb3fRWnCsCcrs3Dg,739
+neptune_fetcher/cache.py,sha256=59lkJ_GTmdZv5SF0DfeFj-JSIxen_hBMMqG3jhNjcPs,4269
+neptune_fetcher/fetchable.py,sha256=SmXEgGg6UdUkCO8cxKSPXJ0rW66EqDOaWEBM4XE0M3U,6461
+neptune_fetcher/fields.py,sha256=yt_133dB5Ty7JCmyX1GUWCHvme1YVxIrAGfNqfyfCOQ,4616
+neptune_fetcher/read_only_project.py,sha256=2Asax3E6Tb4xQpKSc8Oqnw3UWK0lq_a-bqU4gswwpto,34415
+neptune_fetcher/read_only_run.py,sha256=iYUxMLsFoc8TbOaVNhUpboMsoA2wfUr1l7aTUiJYyXA,6547
+neptune_fetcher/util.py,sha256=R_SAHsz7rGgj4ID7k8EnR4IOkLsZg90UgQcIY-p3NNM,995
+neptune_fetcher-0.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neptune_fetcher-0.8.0.dist-info/METADATA,sha256=vjTZWGBFgxhrU070lEqU9JIeWfOb9bFmXq9njCWsj8c,34612
+neptune_fetcher-0.8.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+neptune_fetcher-0.8.0.dist-info/RECORD,,
