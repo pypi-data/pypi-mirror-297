@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: authy_package
+Version: 0.1.9
+Summary: Generic robust authentication system
+Home-page: https://github.com/MuhibNayem/auth-manager.git
+License: MIT
+Author: A K M Muhibullah Nayem
+Author-email: nayem.drmc@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aioredis (>=2.0.1,<3.0.0)
+Requires-Dist: asyncpg (>=0.29.0,<0.30.0)
+Requires-Dist: boto3 (>=1.28.0,<2.0.0)
+Requires-Dist: botocore (>=1.31.0,<2.0.0)
+Requires-Dist: fastapi (>=0.100.0,<0.101.0)
+Requires-Dist: google-auth (>=2.35.0,<3.0.0)
+Requires-Dist: google-auth-oauthlib (>=1.2.1,<2.0.0)
+Requires-Dist: mailjet-rest (>=1.3.4,<2.0.0)
+Requires-Dist: motor (>=3.0.0,<4.0.0)
+Requires-Dist: passlib (>=1.7.4,<2.0.0)
+Requires-Dist: pyjwt (>=2.9.0,<3.0.0)
+Requires-Dist: pyotp (>=2.9.0,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0,<3.0)
+Requires-Dist: uvicorn (>=0.22.0,<0.23.0)
+Project-URL: Repository, https://github.com/MuhibNayem/auth-manager.git
+Description-Content-Type: text/markdown
+
+# Auth Package
+
+Generic robust authentication system built with FastAPI and Poetry.
+
+## Features
+
+- User registration and login
+- Token-based authentication
+- Refresh tokens
+- Multi-factor authentication (MFA)
+- Password reset functionality
+- Support for various databases SQL and NoSQL(mongoDB)
+- Caching with Redis
+- Support with authentication AWS Cognito.
+
+## Installation
+
+You can install the package via pip:
+
+```bash
+pip install authy_package
+```
+
+You can install the package via poetry:
+
+```bash
+poetry add authy_package
+```
+
+## Examples
+
+You can check the examples directory to see the implementations.
+
