@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "types-click-completion"
+version = "0.5.2.post1"
+description = "Type stubs for click-completion"
+authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mahyarmirrashed/types-click-completion"
+packages = [{ include = "click_completion-stubs" }]
+exclude = ["click_completion-stubs/__init__.py"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+click-completion = "0.5.2"
+types-click = "^7.1.8"
+click = "<8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+combine_as_imports = true
