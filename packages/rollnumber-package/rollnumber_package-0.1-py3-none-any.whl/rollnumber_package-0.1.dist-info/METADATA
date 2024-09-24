@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rollnumber-package
+Version: 0.1
+Summary: A simple package to display roll number and name
+Home-page: https://test.pypi.org/project/rollnumber-package/
+Author: Abhiuday Pratap Singh
+Author-email: abhiuday17@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Roll Number Package
+
+<!-- This package contains a simple function `display_info` that prints your roll number and name. -->
+
+## Installation
+<!-- 
+To install the package from TestPyPI:
+
+```bash -->
+pip install -i https://test.pypi.org/simple/ rollnumber-package
