@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cobolt
+Version: 0.1.0
+Summary: An asynchronous API wrapper around cobalt.tools
+Home-page: https://github.com/n6ck/cobolt
+Author: n6ck
+Author-email: n@ermm.rest
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: pydantic
+
