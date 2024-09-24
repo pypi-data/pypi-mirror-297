@@ -1,0 +1,6 @@
+click
+requests
+web3
+pyarrow
+firebase-rest-api
+fastparquet
