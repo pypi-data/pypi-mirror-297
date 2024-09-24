@@ -1,0 +1,11 @@
+stream_source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stream_source/bq_stream_data_source.py,sha256=jvYuUhV_zwnjc73YzPbEh3IJKNEgSpo1nMV3J5hZGRE,1202
+stream_source/bq_stream_reader.py,sha256=3u9aUuF_fCq74HhI3ys1QYaGcF0Gzp167_Qc8oh9Xzo,5810
+stream_source/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streaming_connector/__init__.py,sha256=fchPTo50fuXRZVp3HxbqCcspxFSSCpAtVdoHBEPMukM,214
+streaming_connector/bq_stream_register.py,sha256=nVtyVfZyZDzYWh6XX2xipuePPNpCmo2Xj5beD8rYLXs,365
+bigquery_spark_streaming_connector-0.3.0.dist-info/METADATA,sha256=Nxkrj1YME2-PMGLqHqm1sSZhqlrJYu9-X8tEzilO2i0,1950
+bigquery_spark_streaming_connector-0.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bigquery_spark_streaming_connector-0.3.0.dist-info/entry_points.txt,sha256=--j_Aq9SyYo7SkHr6T2trV4uVbuMVw5xsuQh9PVsJ4M,83
+bigquery_spark_streaming_connector-0.3.0.dist-info/top_level.txt,sha256=s7xCLofLWiHy9fynsdtdtrLoHO9qb19NtaB7oRuvDyY,34
+bigquery_spark_streaming_connector-0.3.0.dist-info/RECORD,,
