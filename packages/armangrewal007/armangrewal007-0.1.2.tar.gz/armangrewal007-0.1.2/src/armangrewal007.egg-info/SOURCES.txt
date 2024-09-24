@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/armangrewal007/__init__.py
+src/armangrewal007/cli.py
+src/armangrewal007.egg-info/PKG-INFO
+src/armangrewal007.egg-info/SOURCES.txt
+src/armangrewal007.egg-info/dependency_links.txt
+src/armangrewal007.egg-info/entry_points.txt
+src/armangrewal007.egg-info/requires.txt
+src/armangrewal007.egg-info/top_level.txt
