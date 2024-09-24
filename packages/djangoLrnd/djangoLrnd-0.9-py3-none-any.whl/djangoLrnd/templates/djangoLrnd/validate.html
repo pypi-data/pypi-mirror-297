@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Aktivasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="container mx-auto p-6 bg-white rounded-lg shadow-lg animate-pulse">
+        <h1 class="text-2xl font-bold text-center text-gray-700 animate-bounce">Halaman Aktivasi</h1>
+        {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+            <div class="text-sm text-{{ message.tags }}-500">{{ message }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <form method="post" class="flex flex-col">
+            {% csrf_token %}
+            <input type="text" name="key" placeholder="Masukkan Kunci Aktivasi Anda" required class="mt-4 p-2 border border-gray-300 rounded animate-pulse">
+            <button type="submit" class="mt-4 p-2 bg-blue-500 text-white rounded animate-pulse">Aktivasi</button>
+        </form>
+        <div class="footer absolute bottom-0 w-full text-center text-gray-500 animate-pulse">
+            &copy; 2024 lrndwy
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+</body>
+</html>
