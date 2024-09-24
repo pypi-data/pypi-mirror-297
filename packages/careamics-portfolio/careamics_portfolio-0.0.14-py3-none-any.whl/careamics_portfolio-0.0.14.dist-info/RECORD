@@ -1,0 +1,15 @@
+careamics_portfolio/__init__.py,sha256=G797FHRq5RAbJDoWs04yVqcXM9AYK6WfpI-v2EWH0no,630
+careamics_portfolio/denoiseg_datasets.py,sha256=-s3q0y9VxOBRKYIPDcW03SnyoHl0JyuMMy473VEhO9Y,10428
+careamics_portfolio/denoising_datasets.py,sha256=yqEYmcltYqbeOB0Ex2rxC7XZOFoYG0FwYVZ9yqGrBsQ,11429
+careamics_portfolio/portfolio.py,sha256=lyonVLlDc_I4xZf64qVGLzKrY1OIavtk5C4Wr6uN4WA,13807
+careamics_portfolio/portfolio_entry.py,sha256=fhmmBEozQZW-M_yevEto5cN-WDV3kQ9mH2ff2ZOV55c,6042
+careamics_portfolio/py.typed,sha256=esB4cHc6c07uVkGtqf8at7ttEnprwRxwk8obY8Qumq4,187
+careamics_portfolio/registry/registry.txt,sha256=S2c4JFPbX2lzTIiiaV3EPMVO2po49JB_yBxyAzGwGio,2751
+careamics_portfolio/utils/__init__.py,sha256=b-ee_MoocATLB6LHZ_ue4xniyBu6Rbutc2y3TK1GCdM,137
+careamics_portfolio/utils/download_utils.py,sha256=JHGA83zLyUM9jQKslp8YacwWw1WI7ab5mEw_580ySq4,1096
+careamics_portfolio/utils/pale_blue_dot.py,sha256=by27l7wB1LyQnG-yKRN2m8xX3cm4cBMw9mJ32RLSYfg,2486
+careamics_portfolio/utils/pale_blue_dot_zip.py,sha256=vOYueqqM9-AYYpXH2TL8qc6j4za5PAslUsNftxxguxc,2505
+careamics_portfolio-0.0.14.dist-info/METADATA,sha256=YoXzKuUsWjrNW3rs-A0OAR0E0hve9Y7nssxEpuEwJnU,7021
+careamics_portfolio-0.0.14.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+careamics_portfolio-0.0.14.dist-info/licenses/LICENSE,sha256=Z480AO8HAdEmGTx1UsPwIT_iAmieuoFZr47YH1Pi0Aw,1505
+careamics_portfolio-0.0.14.dist-info/RECORD,,
