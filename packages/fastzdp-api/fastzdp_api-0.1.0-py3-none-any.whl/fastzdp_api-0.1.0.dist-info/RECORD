@@ -1,0 +1,7 @@
+fastzdp_api/__init__.py,sha256=_J6qQxyI8O0UV3r60pE3GHiotWhaC1Vrcdg9WVLeRbc,61
+fastzdp_api/api.py,sha256=SIPnqUp5uB4CfoKxzv6VjLvJqjpzAzaFsgwqpS4mGnk,238
+fastzdp_api/crud_router.py,sha256=5jhpu99jMq9Vrm_q24ZAOBs8hxbfRyoe6TLLYu_hQ2M,1388
+fastzdp_api-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastzdp_api-0.1.0.dist-info/METADATA,sha256=hf7DUTtUfHFF2OI5xSbsR9GQEK626izdBHxBlzzku_Y,574
+fastzdp_api-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastzdp_api-0.1.0.dist-info/RECORD,,
