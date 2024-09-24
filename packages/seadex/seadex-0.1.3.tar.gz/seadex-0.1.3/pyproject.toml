@@ -1,0 +1,76 @@
+[project]
+name = "seadex"
+version = "0.1.3"
+description = "Python wrapper for the SeaDex API"
+authors = [{ name = "Ravencentric", email = "me@ravencentric.cc" }]
+readme = "README.md"
+license = { text = "Unlicense" }
+requires-python = ">=3.10"
+keywords = ["seadex"]
+classifiers = [
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+dependencies = [
+    "pocketbase>=0.12.1 ; python_full_version < '4'",
+    "pydantic>=2.9.2",
+    "typing-extensions>=4.12.2",
+]
+
+[project.optional-dependencies]
+cli = ["cyclopts>=2.9.9", "rich>=13.8.1"]
+
+[project.scripts]
+seadex = "seadex.__main__:app"
+
+[project.urls]
+Homepage = "https://seadex.ravencentric.cc"
+Documentation = "https://seadex.ravencentric.cc"
+Repository = "https://github.com/Ravencentric/seadex"
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.6.1",
+    "mkdocs-autorefs>=1.2.0",
+    "mkdocs-material>=9.5.36",
+    "mkdocstrings[python]>=0.26.1",
+    "mypy>=1.11.2",
+    "pytest>=8.3.3",
+    "ruff>=0.6.7",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = ["I"]
+fixable = ["ALL"]
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
+
+[tool.mypy]
+strict = true
+pretty = true
+exclude = "tests/"
+
+[[tool.mypy.overrides]]
+module = ["pocketbase", "pocketbase.*"]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+omit = ["src/seadex/_version.py", "tests/*"]
+
+[tool.coverage.report]
+exclude_also = [
+    "if TYPE_CHECKING:", # Only used for type-hints
+]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
