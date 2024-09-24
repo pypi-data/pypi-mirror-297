@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: prometheus_logging
+Version: 0.1.0
+Summary: A simple logging library for ML projects using Prometheus
+Home-page: https://github.com/yourusername/prometheus_logging
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prometheus_client
+Requires-Dist: psutil
+
+# Prometheus Logging
+
+A simple logging library for ML projects using Prometheus.
+
+## Installation
+
+```bash
+pip install prometheus_logging
+```
+
+## Usage
+```python
+from prometheus_logging import init_logging, log_model_loss, start_metrics_server
+import threading
+
+# Initialize logging
+init_logging(
+project="my_project",
+config={"batch_size": 32, "learning_rate": 0.001},
+notes="Training run",
+name="experiment_1",
+fake_gpu=True
+)
+
+# Start metrics server in a separate thread
+threading.Thread(target=start_metrics_server, daemon=True).start()
+
+# In your training loop
+for epoch in range(num_epochs):
+for batch in dataloader:
+# ... training logic ...
+loss = model(batch)
+log_model_loss(loss.item())
+
+# Make sure Prometheus is configured to scrape metrics from `localhost:8000`.
+```
+
+

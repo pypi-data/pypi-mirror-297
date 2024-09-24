@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/prometheus_logging/__init__.py
+src/prometheus_logging/logging.py
+src/prometheus_logging.egg-info/PKG-INFO
+src/prometheus_logging.egg-info/SOURCES.txt
+src/prometheus_logging.egg-info/dependency_links.txt
+src/prometheus_logging.egg-info/requires.txt
+src/prometheus_logging.egg-info/top_level.txt
+tests/test_logging.py
