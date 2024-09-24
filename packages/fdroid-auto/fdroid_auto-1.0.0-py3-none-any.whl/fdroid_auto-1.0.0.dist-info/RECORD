@@ -1,0 +1,13 @@
+fdroid_auto/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+fdroid_auto/defaults.py,sha256=alFqV_bwpwsI6ACQzuWFIZRKtm-LJyOYYbtH9eieYLc,265
+fdroid_auto/fdroid_auto.py,sha256=YdmS0uqKNeVHYslT04vT76lYKtjmmh9t3ymeNVPIxwA,3362
+fdroid_auto/packages.py,sha256=DnZdmILrvVo3n4_eoHmmxlcQK2D0c16EWz3A_6UUlE0,15908
+fdroid_auto/term_args.py,sha256=x6i89-CQvCvkoA2iTGdUDlHm7I1NhzP_kC96NlI2SLE,2889
+fdroid_auto/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+fdroid_auto-1.0.0.dist-info/COPYING,sha256=-JHhLXXB2RRUeojKiRRTDHyJ1QiOCtrDfwbahUOb6Yc,35150
+fdroid_auto-1.0.0.dist-info/LICENSE,sha256=1Iv9hPfFRADBwftDffppd5tsWBe2GfjdN6-87qZjx5s,686
+fdroid_auto-1.0.0.dist-info/METADATA,sha256=tz-kEp_3frgLrZCETb2Bp_fVBD7Wctjiiyud9IOWxmo,7554
+fdroid_auto-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fdroid_auto-1.0.0.dist-info/entry_points.txt,sha256=vZ1Yq3xCSU_70-lthLfzR4bKyM3hre1yggOhEMpS810,61
+fdroid_auto-1.0.0.dist-info/top_level.txt,sha256=dZINytTFpqr4HlnDK9jeAQBAo9pjyIOS2Z3z5JhgW64,12
+fdroid_auto-1.0.0.dist-info/RECORD,,
