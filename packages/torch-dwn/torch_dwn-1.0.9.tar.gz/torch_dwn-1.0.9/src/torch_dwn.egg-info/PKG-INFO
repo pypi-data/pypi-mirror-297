@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: torch_dwn
+Version: 1.0.9
+Summary: Differentiable Weightless Neural Networks (DWN) PyTorch Module
+Home-page: https://github.com/alanbacellar/DWN
+Author: Alan T. L. Bacellar
+Author-email: alanbacellar@gmail.com
+Requires-Dist: torch
