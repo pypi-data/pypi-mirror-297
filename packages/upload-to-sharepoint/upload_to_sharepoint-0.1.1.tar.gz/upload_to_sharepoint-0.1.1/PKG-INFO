@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: upload_to_sharepoint
+Version: 0.1.1
+Summary: A library to upload files to SharePoint.
+Home-page: https://your-repository-url-or-pypi-url
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Upload to SharePoint
+
+A Python library to upload files to SharePoint.
+
+## Installation
+
+You can install this package using pip:
+
+```bash
+pip install upload_to_sharepoint
+```
+
+## Usage
+
+To upload a file to SharePoint, you can use the `upload_file_to_sharepoint` function. Here's how to do it:
+
+### Example
+
+```python
+from upload_to_sharepoint.sharepoint_upload import upload_file_to_sharepoint
+
+# User credentials
+username = 'your_username'
+password = 'your_password'  # Consider using a more secure method for password management
+
+# SharePoint site details
+sharepoint_site = 'https://your-sharepoint-site-url'
+target_folder_relative_url_base = '/sites/your_site_name/Shared Documents/target_folder'
+
+# Local file to upload
+file_name = 'path_to_your_file.txt'
+
+# Upload the file
+upload_file_to_sharepoint(username, password, sharepoint_site, target_folder_relative_url_base, file_name)
+```
+
+### Parameters
+
+- `username`: Your SharePoint username.
+- `password`: Your SharePoint password.
+- `sharepoint_site`: The URL of your SharePoint site (e.g., `https://your-organization.sharepoint.com/sites/your_site_name`).
+- `target_folder_relative_url_base`: The relative URL to the target folder in SharePoint (e.g., `/sites/your_site_name/Shared Documents/target_folder`).
+- `file_name`: The path to the local file you want to upload.

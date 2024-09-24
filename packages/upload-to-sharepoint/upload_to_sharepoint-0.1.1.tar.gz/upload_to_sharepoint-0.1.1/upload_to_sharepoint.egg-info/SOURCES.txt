@@ -1,0 +1,9 @@
+README.md
+setup.py
+upload_to_sharepoint/__init__.py
+upload_to_sharepoint/sharepoint_upload.py
+upload_to_sharepoint.egg-info/PKG-INFO
+upload_to_sharepoint.egg-info/SOURCES.txt
+upload_to_sharepoint.egg-info/dependency_links.txt
+upload_to_sharepoint.egg-info/requires.txt
+upload_to_sharepoint.egg-info/top_level.txt
