@@ -1,0 +1,9 @@
+_plibflac.pyd,sha256=8sF6714lxBAzT0nPFTssKUYueBy4imvtxHFnr1UMLYU,176128
+plibflac/__init__.py,sha256=moD-dLiGnatmgk7A2PQCzo2Z6Txpvzy0Nu4LdVuDNNA,274
+plibflac/_decoder.py,sha256=IwENsYKFIyKt1Wfkfg6t_6dv4HLpcxoerYvyOOiCPvw,10045
+plibflac/_encoder.py,sha256=bTa2K7VvklhBH0py4pL1VRJ7Q-ErgWVq3j1HhicH1MA,15714
+plibflac-0.1.0.dist-info/LICENSE,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+plibflac-0.1.0.dist-info/METADATA,sha256=SMO1JsFB0k4dEW4VBQnwWX9d0_djRGlKZHR01W28S54,2299
+plibflac-0.1.0.dist-info/WHEEL,sha256=Xq6oRwImntaXYfLDw4Ic2TuD_a3vLJA4SKMBdG7CBto,99
+plibflac-0.1.0.dist-info/top_level.txt,sha256=Ekfy2QRYtfDD7vSTnYXnRhuMs2E_Z5KCmJXZofQbHio,19
+plibflac-0.1.0.dist-info/RECORD,,
