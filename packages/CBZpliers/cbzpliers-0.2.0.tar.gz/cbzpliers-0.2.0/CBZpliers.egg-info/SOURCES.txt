@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+CBZpliers.egg-info/PKG-INFO
+CBZpliers.egg-info/SOURCES.txt
+CBZpliers.egg-info/dependency_links.txt
+CBZpliers.egg-info/entry_points.txt
+CBZpliers.egg-info/requires.txt
+CBZpliers.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/pliers.py

@@ -1,0 +1,2 @@
+[console_scripts]
+combine_cbz = src.main:main
