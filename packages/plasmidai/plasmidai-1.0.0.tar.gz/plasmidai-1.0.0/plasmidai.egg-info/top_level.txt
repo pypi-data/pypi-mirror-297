@@ -1,0 +1,6 @@
+build
+dist
+evo
+plasmidai
+slurm
+valid
