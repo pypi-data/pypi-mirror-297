@@ -1,0 +1,10 @@
+elaina_triehard/__init__.py,sha256=vMUeENun2OyNWLu4tAb7NUFsXvZNDnnlU7wbDR21VEU,229
+elaina_triehard/impl_c.cp39-win_amd64.pyd,sha256=6q1GXcGVGbAvQdq3cD0t2nPd8WcDOQsNXwkBWR1G7tE,74752
+elaina_triehard/impl_c.pyi,sha256=2TOnD4LrA5jlDahQOOtXeWgyWE-b94wzGn_3t9dWoHY,791
+elaina_triehard/impl_c.pyx,sha256=gFejcUZs0KmOObhPVDn7je6b95gNjD3oFuy6H6yLKhg,14146
+elaina_triehard/impl_py.py,sha256=mEn0QJOZ09bAOvYOLbKnaD8mhtM-E4HdBT8xqHBTUcI,4489
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elaina_triehard-0.2.0.dist-info/METADATA,sha256=1KqssDe3eGGyiwpZ79nzUSnKBxTDz1eWQqyR66aAvBc,253
+elaina_triehard-0.2.0.dist-info/WHEEL,sha256=vq7bX_I37ZJK2gZz_HGA8eCPjBDKQSfb_9FNjesTNkk,99
+elaina_triehard-0.2.0.dist-info/top_level.txt,sha256=lK1-6Cc0aJ1tPgQhXjXi6lhILrumwONqfCLIb4JCux4,22
+elaina_triehard-0.2.0.dist-info/RECORD,,
