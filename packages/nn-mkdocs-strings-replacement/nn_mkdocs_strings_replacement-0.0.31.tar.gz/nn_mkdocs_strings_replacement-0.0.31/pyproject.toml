@@ -1,0 +1,34 @@
+[project]
+name = "nn-mkdocs-strings-replacement"
+version = "0.0.31"
+description = "Novo Nordisk Mkdocs string replacement."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+keywords = ["markdown", "mkdocs", "replacement", "plugin"]
+dependencies = [
+  "mkdocs>=1.6"
+]
+
+[project.entry-points."mkdocs.plugins"]
+nn-mkdocs-strings-replacement = "nn_mkdocs_strings_replacement.plugin:StringsMarkdownReplacementPlugin"
+
+[tool.hatch.build]
+include = ["/src"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nn-mkdocs-strings-replacement"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
