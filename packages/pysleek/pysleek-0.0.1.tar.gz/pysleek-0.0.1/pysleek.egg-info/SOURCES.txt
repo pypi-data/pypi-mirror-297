@@ -1,0 +1,7 @@
+setup.py
+pysleek/__init__.py
+pysleek/pysleek.py
+pysleek.egg-info/PKG-INFO
+pysleek.egg-info/SOURCES.txt
+pysleek.egg-info/dependency_links.txt
+pysleek.egg-info/top_level.txt
