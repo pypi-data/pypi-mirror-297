@@ -1,0 +1,8 @@
+systemd_service_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+systemd_service_generator/sdg.py,sha256=8JTGYSapUGE7CTFXUck8e1NqfnhP56rqQ-9BL4EbM_U,2833
+systemd_service_generator-1.0.0.dist-info/LICENSE,sha256=jWtrRq0ieUh7dwRa_vrHIeP0gkRKC_R-UFRKu8pCM4g,1117
+systemd_service_generator-1.0.0.dist-info/METADATA,sha256=7VK1dyXNv2vbImKMg2TzG_Q5xlzA8VhOqtqyKlpjqAM,1091
+systemd_service_generator-1.0.0.dist-info/WHEEL,sha256=HiCZjzuy6Dw0hdX5R3LCFPDmFS4BWl8H-8W39XfmgX4,91
+systemd_service_generator-1.0.0.dist-info/entry_points.txt,sha256=kgIgVy-ef05bXZJlVveSUvwI6oGnUlTViDabbqLGbF4,65
+systemd_service_generator-1.0.0.dist-info/top_level.txt,sha256=O_EDSO4F-sgIE2wmfb1_7x2PfUeRx7pFaurv0BRk6jc,26
+systemd_service_generator-1.0.0.dist-info/RECORD,,
