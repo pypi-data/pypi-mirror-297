@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dodam-api"
+version = "1.0.4"
+description = ""
+authors = ["이슬아 <rheeseula@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
