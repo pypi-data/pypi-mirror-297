@@ -1,0 +1,15 @@
+dice_roller/__init__.py,sha256=A6qEzJGS9j3_E2jDHQPW-iAXovL6b24s1C0ln96JBIQ,1022
+dice_roller/callback.py,sha256=xXPykiHmJ1UFxCpoD3ZfG-xYo18h67u_vYvP8rEx4Ek,1240
+dice_roller/compare.py,sha256=-yQVotbkF9-H0uC4y_WtHYF4NjXiF-9TpK--0Ta6S64,5102
+dice_roller/core.py,sha256=LlvUbIBCdXpaBCAzKLLstftyR10qBl7VgOJr2HqQT9o,9393
+dice_roller/explode.py,sha256=t2YajrATwFJSKn07KWa5QvzvsuWCAk1--AsRIF7fNEw,6315
+dice_roller/math.py,sha256=Kn_xHuRsMaIuta52AEVO7Hc4RHqL8F2NqCVjLkw_3_Y,4532
+dice_roller/misc.py,sha256=aVzFdeXtb-pym6nCejfaCIMVGljLLmo1ZTt7W5y0WaA,355
+dice_roller/random.py,sha256=7B5irJISnd5EdGYaLwAemvEMGQX_Gw3CGvzWiW9bK6k,1075
+dice_roller/reroll.py,sha256=m3YlZNSK1VaEgHHF7snT8fdRrVacks09v6Z8gRdYD9c,5903
+dice_roller/transformations.py,sha256=-PKBXp4R9a9cuCwIRJvfqTmWExmQTqN51ANLN3q38MI,8483
+pydiceroll-0.4.2.dist-info/LICENSE.md,sha256=8GbEnwNXE6MpKlZ9m2oR9tb7PDcS6OYG3Gun5448zYc,1073
+pydiceroll-0.4.2.dist-info/METADATA,sha256=1sOVOTzp2Tqqc3BpwlI7mBom4mojEJBMhqK6WqK-F3s,36951
+pydiceroll-0.4.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pydiceroll-0.4.2.dist-info/top_level.txt,sha256=W3B2Ay0fic6sFCRJhjpnEp4bRAwFEfGd9FZEqStSjfk,12
+pydiceroll-0.4.2.dist-info/RECORD,,
