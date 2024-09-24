@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+caption2text/__init__.py
+caption2text/converter.py
+caption2text.egg-info/PKG-INFO
+caption2text.egg-info/SOURCES.txt
+caption2text.egg-info/dependency_links.txt
+caption2text.egg-info/entry_points.txt
+caption2text.egg-info/top_level.txt
+tests/test_converter.py
