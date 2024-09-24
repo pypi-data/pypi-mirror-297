@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dino/__init__.py
+dino/dino.py
+dinocore.egg-info/PKG-INFO
+dinocore.egg-info/SOURCES.txt
+dinocore.egg-info/dependency_links.txt
+dinocore.egg-info/requires.txt
+dinocore.egg-info/top_level.txt
