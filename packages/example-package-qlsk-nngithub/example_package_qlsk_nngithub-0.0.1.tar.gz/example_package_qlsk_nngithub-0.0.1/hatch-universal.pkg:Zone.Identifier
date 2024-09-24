@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://hatch.pypa.io/
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/92997800/4f59680e-729a-4c83-a90b-5dcf220f79c9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240920%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240920T070315Z&X-Amz-Expires=300&X-Amz-Signature=87e5d0421b82801ad821d602adb793985a0f1221ce069901c16569aa3adcb0b9&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dhatch-universal.pkg&response-content-type=application%2Foctet-stream
