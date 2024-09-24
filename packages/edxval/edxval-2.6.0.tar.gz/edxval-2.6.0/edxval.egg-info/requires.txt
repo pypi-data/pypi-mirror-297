@@ -1,0 +1,9 @@
+Django
+edx-toggles>=2.0.0
+lxml
+edx-drf-extensions
+edx-django-release-util
+django-model-utils
+django-storages
+pysrt
+pillow
