@@ -1,0 +1,9 @@
+onyxgenai/__init__.py,sha256=CAdaCTsSPEeL0p6IH8ODBf-nAltaJlGz5t1JNQ6bH2A,40
+onyxgenai/embed.py,sha256=sNxTdVRdfnsiMZc0s20-a4MFiroaceIFjbOejF8Uyqc,6891
+onyxgenai/extract.py,sha256=i0wRY1Rudfuywhdk9nWzKJ_jOC3WHa5waczCgWCWMmU,3255
+onyxgenai/model.py,sha256=LlSwcVfLjppAOk0UPKlTrMIyheNwzTQ2BJxdUymwaGY,9015
+onyxgenai-1.0.3.dist-info/LICENSE,sha256=L5tpp22vF3MEeWwODk6PNp-srO1T1oK-E-bhztqGOVg,10935
+onyxgenai-1.0.3.dist-info/METADATA,sha256=R4WPamzxdLWlZWtglpF1VurAQUvDLog3uIFn4w6snL8,14714
+onyxgenai-1.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+onyxgenai-1.0.3.dist-info/top_level.txt,sha256=Lw4yg2im5ybt_45XpdrXJEzXIPpLTD46d9LCqz6nGIM,10
+onyxgenai-1.0.3.dist-info/RECORD,,
