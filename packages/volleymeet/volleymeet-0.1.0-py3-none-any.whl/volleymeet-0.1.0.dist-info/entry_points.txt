@@ -1,0 +1,3 @@
+[console_scripts]
+volleyball-meetings=volleymeet.cli:main
+
