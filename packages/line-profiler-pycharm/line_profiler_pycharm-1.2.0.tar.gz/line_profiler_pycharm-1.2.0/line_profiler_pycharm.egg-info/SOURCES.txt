@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+line_profiler_pycharm/__init__.py
+line_profiler_pycharm/_profile.py
+line_profiler_pycharm.egg-info/PKG-INFO
+line_profiler_pycharm.egg-info/SOURCES.txt
+line_profiler_pycharm.egg-info/dependency_links.txt
+line_profiler_pycharm.egg-info/requires.txt
+line_profiler_pycharm.egg-info/top_level.txt
