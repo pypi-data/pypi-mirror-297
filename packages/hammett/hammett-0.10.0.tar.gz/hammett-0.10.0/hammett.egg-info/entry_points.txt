@@ -1,0 +1,2 @@
+[console_scripts]
+hammett = hammett:main_cli
