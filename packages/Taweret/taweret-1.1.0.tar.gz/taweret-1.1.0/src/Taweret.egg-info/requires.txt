@@ -1,0 +1,6 @@
+numpy>=1.20.3
+matplotlib
+scipy>=1.7.0
+bilby
+pytest
+openbtmixing
