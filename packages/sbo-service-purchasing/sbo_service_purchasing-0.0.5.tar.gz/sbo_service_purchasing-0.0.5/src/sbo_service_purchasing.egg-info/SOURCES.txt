@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/sbo-service-purchasing/purchasing.py
+src/sbo_service_purchasing.egg-info/PKG-INFO
+src/sbo_service_purchasing.egg-info/SOURCES.txt
+src/sbo_service_purchasing.egg-info/dependency_links.txt
+src/sbo_service_purchasing.egg-info/requires.txt
+src/sbo_service_purchasing.egg-info/top_level.txt
+test/test_00_orders.py
