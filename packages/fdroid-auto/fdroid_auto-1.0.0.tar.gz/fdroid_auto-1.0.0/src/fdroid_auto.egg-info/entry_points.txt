@@ -1,0 +1,2 @@
+[console_scripts]
+fdroid_auto = fdroid_auto.fdroid_auto:main

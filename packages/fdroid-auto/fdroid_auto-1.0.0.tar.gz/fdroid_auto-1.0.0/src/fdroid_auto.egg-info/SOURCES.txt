@@ -1,0 +1,16 @@
+COPYING
+LICENSE
+README.md
+pyproject.toml
+src/fdroid_auto/__init__.py
+src/fdroid_auto/defaults.py
+src/fdroid_auto/fdroid_auto.py
+src/fdroid_auto/packages.py
+src/fdroid_auto/term_args.py
+src/fdroid_auto/version.py
+src/fdroid_auto.egg-info/PKG-INFO
+src/fdroid_auto.egg-info/SOURCES.txt
+src/fdroid_auto.egg-info/dependency_links.txt
+src/fdroid_auto.egg-info/entry_points.txt
+src/fdroid_auto.egg-info/requires.txt
+src/fdroid_auto.egg-info/top_level.txt
