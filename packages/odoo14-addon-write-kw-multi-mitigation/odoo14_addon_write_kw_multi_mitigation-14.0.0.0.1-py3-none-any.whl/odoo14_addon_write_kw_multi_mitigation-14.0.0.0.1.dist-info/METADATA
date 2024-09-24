@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-write_kw_multi_mitigation
+Version: 14.0.0.0.1
+Summary: Solves bug in v14.0 when API call to write is with 3 parameters (ID first) like KW Multi call api. The module adapt the call to the right API
+Home-page: https://coopdevs.org
+Author: Coopdevs Treball SCCL
+License: AGPL-3
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+Requires-Dist: odoo<14.1dev,>=14.0a
+
