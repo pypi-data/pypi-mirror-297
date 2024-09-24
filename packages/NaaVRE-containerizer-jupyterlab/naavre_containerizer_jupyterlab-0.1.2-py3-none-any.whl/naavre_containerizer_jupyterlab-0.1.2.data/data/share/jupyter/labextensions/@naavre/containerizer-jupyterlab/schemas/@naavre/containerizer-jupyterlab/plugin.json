@@ -1,0 +1,15 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "@naavre/containerizer-jupyterlab",
+  "description": "@naavre/containerizer-jupyterlab settings.",
+  "type": "object",
+  "properties": {
+    "containerizerServiceUrl": {
+      "type": ["string"],
+      "title": "Containerizer service URL",
+      "description": "URL of the containerizer service (example: https://my-naavre.example.com/NaaVRE-containerizer-service)",
+      "default": "/NaaVRE-containerizer-service"
+    }
+  },
+  "additionalProperties": false
+}
