@@ -1,0 +1,15 @@
+finufft>=2.2
+torch>=2
+numpy
+scipy
+
+[cuda]
+cufinufft>=2.2.0
+
+[dev]
+black
+mypy
+isort
+ruff
+pytest
+pytest-cov
