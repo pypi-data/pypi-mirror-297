@@ -1,0 +1,160 @@
+[project]
+name = "invenio-record-importer-kcworks"
+version = "0.2.20-alpha7"
+description = "Bulk import records into a InvenioRDM instance configured for Knowledge Commons Works"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Mesh Research", email = "scottia4@msu.edu" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+keywords = [
+  "invenio",
+  "invenio-rdm",
+  "knowledge-commons-works",
+  "bulk-import",
+  "record-importer",
+  ]
+
+requires-python = ">=3.9"
+dependencies = [
+  'click',
+  'halo',
+  'invenio-app-rdm[opensearch2]<13.0.0',
+  'invenio-communities',
+  'invenio-group-collections',
+  'invenio-rdm-records',
+  'invenio-records-resources',
+  'invenio-remote-user-data-kcworks',
+  'invenio-saml',
+  'invenio-utilities-tuw',
+  'isbnlib',
+  'jsonlines',
+  'langdetect ',
+  'pytest',
+  'python-dateutil',
+  'python-iso639',
+  'python-stdnum',
+  'pytz',
+  'requests',
+  'timefhuman',
+  'titlecase',
+  'unidecode',
+  'validators',
+  ]
+
+[project.urls]
+"Homepage" = "https://github.com/Knowledge-Commons-Works/invenio-record-importer-kcworks"
+
+[project.optional-dependencies]
+dev = [
+  "bumpver",
+  "check-manifest",
+  "coverage",
+  "docker-services-cli",
+  "ipykernel",
+  "pip-tools",
+  "pytest-invenio",
+  "selenium",
+  ]
+test = ["coverage"]
+
+[project.scripts]
+importer = "invenio_record_importer_kcworks.main:cli"
+
+[project.entry-points."invenio_base.apps"]
+importer = "invenio_record_importer_kcworks.ext:InvenioRecordImporter"
+
+[project.entry-points."invenio_base.api_apps"]
+importer = "invenio_record_importer_kcworks.ext:InvenioRecordImporter"
+
+[project.entry-points."flask.commands"]
+importer = "invenio_record_importer_kcworks.main:cli"
+
+[project.entry-points."invenio_celery.tasks"]
+importer = "invenio_record_importer_kcworks.tasks"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-glob='*.rst' --doctest-modules --ignore=tests/helpers"
+testpaths = ["tests", "invenio_record_importer_kcworks"]
+plugins = [
+  "tests.fixtures.communities",
+  "tests.fixtures.metadata_fields",
+  "tests.fixtures.custom_fields",
+  "tests.fixtures.identifiers",
+  "tests.fixtures.records",
+  "tests.fixtures.saml",
+  "tests.fixtures.stats",
+  "tests.fixtures.users",
+  "tests.fixtures.vocabularies.affiliations",
+  "tests.fixtures.vocabularies.community_types",
+  "tests.fixtures.vocabularies.date_types",
+  "tests.fixtures.vocabularies.descriptions",
+  "tests.fixtures.vocabularies.languages",
+  "tests.fixtures.vocabularies.licenses",
+  "tests.fixtures.vocabularies.resource_types",
+  "tests.fixtures.vocabularies.roles",
+  "tests.fixtures.vocabularies.subjects",
+]
+
+[tool.check-manifest]
+ignore = [
+  "PKG-INFO",
+  ".egg-info",
+  ".egg-info/*",
+  "setup.cfg",
+  ".DS_Store",
+  ".hgtags",
+  ".hgsigs",
+  ".hgignore",
+  ".gitignore",
+  ".bzrignore",
+  ".gitattributes",
+  ".github/*",
+  ".travis.yml",
+  "Jenkinsfile",
+  "* .mo",
+]
+
+# [tool.setuptools]
+# If there are data files included in your packages that need to be
+# installed, specify them here.
+# package-data = {"sample" = ["*.dat"]}
+
+[tool.bumpver]
+current_version = "0.2.20-alpha7"
+version_pattern = "MAJOR.MINOR.PATCH[-TAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+"VERSION" = [
+    "{version}",
+]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
