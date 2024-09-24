@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gs-visual-tool
+Version: 0.1.1
+Summary: A tool for visualizing data with GraphScope Engine
+Author-email: pomelo-nwu <czynwu@outlook.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: ipython>=8.27.0
+Requires-Dist: flask>=3.0.3
+
+## init step
+
+- python -m venv .venv
+
+- source .venv/bin/activate
+
+- pip install -e .
+
+## example
+
+- python example/app.py
+
+## Deploy
+
+```bash
+pip install build
+python -m build
+twine upload dist/*
+```
