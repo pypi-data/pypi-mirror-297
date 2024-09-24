@@ -1,0 +1,8 @@
+setup.py
+killer4444.egg-info/PKG-INFO
+killer4444.egg-info/SOURCES.txt
+killer4444.egg-info/dependency_links.txt
+killer4444.egg-info/entry_points.txt
+killer4444.egg-info/top_level.txt
+your_package/__init__.py
+your_package/your_script.py
