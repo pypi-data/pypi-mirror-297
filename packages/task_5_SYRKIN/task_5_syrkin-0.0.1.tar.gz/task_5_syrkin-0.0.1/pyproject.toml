@@ -1,0 +1,16 @@
+
+module = "src"
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "task_5_SYRKIN"
+authors = [{ name = "Andrii Syrkin", email = "avvaan1981@gmail.com" }]
+readme = "README.md"
+requires-python = '>=3.12'
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]  # Указано, что version и description динамические
+
+[project.urls]
+Home = "https://git.foxminded.ua/andrii-syrkin-py_ment/task_5.git"
