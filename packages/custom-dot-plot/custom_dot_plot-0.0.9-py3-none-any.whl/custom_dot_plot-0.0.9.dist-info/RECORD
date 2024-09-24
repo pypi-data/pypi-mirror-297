@@ -1,0 +1,17 @@
+custom_dot_plot/__init__.py,sha256=_HtrJfO7RV-AaO2muHQhIkTTCkiYklnb2eUqcZtgXMk,772
+custom_dot_plot/data.py,sha256=Az0JYeVo18dUU1ILp5UNTahiAV5tNPT-3LkAwU_Mkb8,11111
+custom_dot_plot/example.py,sha256=-gTYhRTgoWlY3vjp4w_X3N03e3CR8Klezd45ogQc4HI,734
+custom_dot_plot/frontend/build/asset-manifest.json,sha256=4q3qhSKGfRePimohS-HmVM1L5ZccS1kR2gP6tqu6Ut4,374
+custom_dot_plot/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+custom_dot_plot/frontend/build/bootstrap.min.css.map,sha256=8SM4U2NQpCLGTQLW5D_x3qSTwxVq2CP-GXYc3V1WwFs,589892
+custom_dot_plot/frontend/build/index.html,sha256=KuqLiXfMppm0k5_XMtZy3JqrxMQAVLoj7pANZWVUzQM,553
+custom_dot_plot/frontend/build/static/css/main.8ccff0f8.css,sha256=GB2Iollvi6CZieumZezZnDGtxRzUJsh0qMH5GuQ3JJE,1927
+custom_dot_plot/frontend/build/static/css/main.8ccff0f8.css.map,sha256=ZOXN76NG_kVYyHeTAcznaTaTMrq5UeoBkHH0Hg46360,4570
+custom_dot_plot/frontend/build/static/js/main.42d71871.js,sha256=gDrmmAL1ZtkXPPDxflJL1Xir3QQ0hS2M_lzMlsUQPjA,343880
+custom_dot_plot/frontend/build/static/js/main.42d71871.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+custom_dot_plot/frontend/build/static/js/main.42d71871.js.map,sha256=zs9l6uyGc3fJmB12v6lbPRPbCFtEP-hNQnzmRYCEIxQ,1373129
+custom_dot_plot-0.0.9.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+custom_dot_plot-0.0.9.dist-info/METADATA,sha256=ElyXcK72Zzs0NtE5EIwOpPoZN2wa906uXrqmHHCAVn0,536
+custom_dot_plot-0.0.9.dist-info/WHEEL,sha256=cpQTJ5IWu9CdaPViMhC9YzF8gZuS5-vlfoFihTBC86A,91
+custom_dot_plot-0.0.9.dist-info/top_level.txt,sha256=qp-w7zvG3zNul0ugf7IsgOxVzC7EzYI6tQLVzmPjKNg,16
+custom_dot_plot-0.0.9.dist-info/RECORD,,
