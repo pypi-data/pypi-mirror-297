@@ -1,0 +1,6 @@
+[console_scripts]
+pysshpass = pysshpass.__main__:main
+simplenet = simplenet.cli.simplenet:main
+simplenet-gui = simplenet.main:main
+simplenet-runner = simplenet.cli.runner:main
+vsndebug = simplenet.gui.vsndebug:main
