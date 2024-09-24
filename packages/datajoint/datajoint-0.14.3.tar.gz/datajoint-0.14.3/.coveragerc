@@ -1,0 +1,6 @@
+[run]
+branch = False
+source = datajoint
+
+[report]
+show_missing = True
