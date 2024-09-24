@@ -1,0 +1,9 @@
+echowuhao/__init__.py,sha256=DoTgKzcSZWD0vM-mi1AdceXalwr7jO-Yy8RbRjQwB8A,55
+echowuhao/auto_commit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echowuhao/auto_commit/command_line.py,sha256=zW0kVtD2X4k_TDj3MiUIF8xfhIEEnphPD2K9OUl2Clg,3196
+echowuhao/chat/chat.py,sha256=ihgzLcDD5wXV5Qw1gJEHZDqtstueiY13kxfVH79lkRk,5481
+echowuhao/chat/choose_model.py,sha256=KoJePhVctdaSPJptH5APWQS5_8Hhjqto5YfLY47Y2aE,2164
+echowuhao-0.4.7.dist-info/METADATA,sha256=yE_J8I_ssc4fjfqPT_Xwvrp0h-V-yrRKWtKz_82xrjw,1493
+echowuhao-0.4.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+echowuhao-0.4.7.dist-info/entry_points.txt,sha256=Me8P8WyAOo3AJZtaliRUVVcyRGK6N3zY-KgUIRzvU5I,176
+echowuhao-0.4.7.dist-info/RECORD,,
