@@ -1,0 +1,7 @@
+setup.py
+botnetv2/__init__.py
+botnetv2.egg-info/PKG-INFO
+botnetv2.egg-info/SOURCES.txt
+botnetv2.egg-info/dependency_links.txt
+botnetv2.egg-info/entry_points.txt
+botnetv2.egg-info/top_level.txt
