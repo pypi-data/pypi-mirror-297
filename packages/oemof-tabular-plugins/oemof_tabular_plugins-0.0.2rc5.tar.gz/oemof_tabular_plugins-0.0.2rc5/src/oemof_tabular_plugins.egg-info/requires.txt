@@ -1,0 +1,5 @@
+numpy==1.26.0
+oemof.tabular
+oemof-industry==0.1.1rc2
+dash
+Werkzeug==2.2.2
