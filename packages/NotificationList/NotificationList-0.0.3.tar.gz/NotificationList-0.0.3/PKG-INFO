@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: NotificationList
+Version: 0.0.3
+Summary: A Python package for consolidating breach response notification lists efficiently.
+Author: Ranjeet Aloriya
+Author-email: ranjeet.aloriya@gmail.com
+Keywords: breach response,notification lists,data consolidation,unique identifiers,affected parties,data merging,efficiency tools,duplicate notifications
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: polars
+
+
+        The Breach Response Notification List package is designed to streamline the process of consolidating 
+        notification lists for affected parties based on unique identifiers. This package addresses the challenges 
+        of generating accurate notifications while handling variations in names and ensuring no affected parties 
+        are notified twice. With this tool, you can reduce the time spent on creating notification lists from 
+        weeks to under a minute, even for large datasets. It generates a merging ID for all unique parties, 
+        making the notification process efficient and reliable.
+    
