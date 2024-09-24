@@ -1,0 +1,15 @@
+jupyterbook_patches/__init__.py,sha256=l2pabsa_Jn9DoQflrHeRk-hvS5isuULkXf9-4Cfp4W8,1764
+jupyterbook_patches/_version.py,sha256=CqDGE4B1ZqZ-56mxeOFcXRTmlxrdOh4ayrjbcPjziE4,411
+jupyterbook_patches/utils.py,sha256=rzOhJr26nyn6j2Y6g-GKV-VxgftRMkcKDhSkPgMuRGI,630
+jupyterbook_patches/patches/__init__.py,sha256=dxa2BD-XfaVbC9pWB19HY1WAkQLDgX5iNxGawmbAojw,322
+jupyterbook_patches/patches/dark_mode.py,sha256=Rkg0JY1rG7nozBrBI3yJEPi3_CZAu1jRhl1pJ5jB0VQ,316
+jupyterbook_patches/patches/layout.py,sha256=3X-akZEHTgdohUOxjtw2thu8Gap7pTf7fB4DRYlglNo,255
+jupyterbook_patches/patches/scroll.py,sha256=UK-2w4GesBjM1EiZxY7rdDgvyJ8FZI7KviVmt1xm-ug,261
+jupyterbook_patches/patches/_static/fix_admonition_style.css,sha256=-dpVSdr-IcALAaXWZ5RBp9QK-5npJrL3GNTbECo6D6A,69
+jupyterbook_patches/patches/_static/fix_alert_dark_mode.css,sha256=WMhIW_KlG9PNDY-vZteUc8hwqEYs5zzxSXBh5FhfIjE,90
+jupyterbook_patches/patches/_static/image_dark_mode.css,sha256=DZ1jARjtrRGoTJYnPrlS5vEdsnObhhDYOEoCDcM9t2U,183
+jupyterbook_patches/patches/_static/scroll.js,sha256=BPPlE9ynYUhdk9LccXH4UMs6Z1AUxoVhh77WKlLcZvg,1048
+jupyterbook_patches-1.1.0.dist-info/METADATA,sha256=ob3bYW3rT7PMVfirSFVgQBQTnC2rNJ30jDLky-1RoIo,298
+jupyterbook_patches-1.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+jupyterbook_patches-1.1.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jupyterbook_patches-1.1.0.dist-info/RECORD,,
