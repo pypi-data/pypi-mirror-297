@@ -1,0 +1,14 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+docs/example.jpg
+img/logo.jpg
+pysell/__init__.py
+pysell/sell.py
+pysell.egg-info/PKG-INFO
+pysell.egg-info/SOURCES.txt
+pysell.egg-info/dependency_links.txt
+pysell.egg-info/entry_points.txt
+pysell.egg-info/top_level.txt

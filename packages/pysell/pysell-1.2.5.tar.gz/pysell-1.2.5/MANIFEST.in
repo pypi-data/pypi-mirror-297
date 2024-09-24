@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include CHANGELOG
+
+include img/logo.jpg
+include docs/example.jpg
+
+exclude *.pyc
+exclude __pycache__/
