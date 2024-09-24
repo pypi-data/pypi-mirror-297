@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: test-lib-fact
+Version: 0.0.1
+Summary: factorial of a number
+Author: Deblina Ghosh
+Author-email: deblina.ghosh.kolkata@gmail.com
+License-File: License.txt
+
