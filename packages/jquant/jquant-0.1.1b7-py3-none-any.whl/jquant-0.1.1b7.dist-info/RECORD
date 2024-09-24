@@ -1,0 +1,10 @@
+jquant-0.1.1b7.dist-info/METADATA,sha256=LUJ_Yz5xvyizpxdEZjY4fArUVE8UzqAS_e23wNk94oQ,521
+jquant-0.1.1b7.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+jquant-0.1.1b7.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+jquant/.DS_Store,sha256=rH8r-_jR7JSBAv1MFZ4SyTbRBlkgtteAObCxY5prMCA,6148
+jquant/__init__.py,sha256=KW9Z6-48jhTZIlK5lE6flv696kna1qnMOnJXGta_oQM,886
+jquant/client.py,sha256=1MwBnycYOf-L5cSPsUlnr4Xsd3BxstRuksTeWTwimyk,26567
+jquant/platform_pb2.py,sha256=qLcBeGU30zn_OXA-jSyhpJgIOa0Y75cYCLIGeCAH5UI,26118
+jquant/platform_pb2.pyi,sha256=cY66LoyLbqStk45SGKRZPTFrEGRQgkaJhVaDAxiQ6LU,36080
+jquant/platform_pb2_grpc.py,sha256=sOjWnokinrh_2muXGJGSZ1l1LY3EuTKUciSAqyEYh0w,28612
+jquant-0.1.1b7.dist-info/RECORD,,
