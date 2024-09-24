@@ -1,0 +1,8 @@
+django_elastipymemcache/__init__.py,sha256=4zraIUDa5L3LScxr581Qr-o3d-pKNneX1Um5hRJLCCw,62
+django_elastipymemcache/backend.py,sha256=AuucL03LkObQy8FjoMPXUX4N9f5UrsOJzOGwzGYIYNo,4067
+django_elastipymemcache/client.py,sha256=rckHSed_5WszbxBv37DO1uHK3ywzXxe76rZR0xoM63k,2684
+django_elastipymemcache-2.0.5.dist-info/LICENSE,sha256=3JurSTgos83eIKjfXS8kW-GP7G5RwuUywkJMYsc2v4o,1079
+django_elastipymemcache-2.0.5.dist-info/METADATA,sha256=kNC1LpexSwcDbqfQO_mgWNhWC8N2L-E4SeHsmpLO81I,2542
+django_elastipymemcache-2.0.5.dist-info/WHEEL,sha256=qUzzGenXXuJTzyjFah76kDVqDvnk-YDzY00svnrl84w,109
+django_elastipymemcache-2.0.5.dist-info/top_level.txt,sha256=PvCN25h3EjM_62VnAzOi3OqiWXfWZtX2lP20QgL8--8,24
+django_elastipymemcache-2.0.5.dist-info/RECORD,,
