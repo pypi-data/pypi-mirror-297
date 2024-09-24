@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sop-infra
+Version: 1.0.2
+Summary: Manage infrastructure informations of each site.
+Author: Leorevoir
+Author-email: leo.quinzler@epitech.eu
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: sop-utils==1.0.6
+
