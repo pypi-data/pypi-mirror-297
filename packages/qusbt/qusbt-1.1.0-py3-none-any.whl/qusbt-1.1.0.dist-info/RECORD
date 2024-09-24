@@ -1,0 +1,14 @@
+demos/IQ.py,sha256=_weAe5RTJXrLTJ0TZ0KYnF1Oaz5JfU2JMaYAhKFY1Js,1015
+demos/__init__.py,sha256=gQuMePF5hCj3BvbBl9Hy_LRswA13cpFUdR-budL6Ffo,2325
+demos/qusbt_test.py,sha256=jpUrc4apS6flqLsx3LrOSJgKV8IDbpnScunmxXRk__E,95
+qusbt/TestingProblem.py,sha256=zejxaVrfxeeZbxV1BYWwRCDeFA39hQWvs4ZCK7zskOs,1669
+qusbt/__init__.py,sha256=K_Wv_3jpFxuiMiXIzXjy8WGBBkcuKSuNDAB-0Bqc5jQ,3411
+qusbt/qusbt_search.py,sha256=6UQMmMeZaDJHtpwBuR5pG3llHwiYNs-5xfDGeZVdeJY,13057
+qusbt/search_method.py,sha256=Lp5pappGTTCnkdpn6VZ-2WPUSP46iAY8Hw10ayEVQdU,4212
+qusbt/testing.py,sha256=8oU1tIPe_BGtxyyF2CGacc1CIUk3p9RRvVzV80rOuA4,5126
+qusbt-1.1.0.dist-info/LICENSE.py,sha256=7_6I14pUM8DOT-3d4h5P6dYf9z3kjW1x1sjBJ_S9TD4,1048
+qusbt-1.1.0.dist-info/METADATA,sha256=lOKEYJADvt1msY5FktLTG7T4onvjb8pvgC7KbkFLfuA,5997
+qusbt-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qusbt-1.1.0.dist-info/entry_points.txt,sha256=_fKjOkAJcc2WlNBluUJIci6Fd0WDdT9OQRV_mQLl41A,37
+qusbt-1.1.0.dist-info/top_level.txt,sha256=q3FC6xHJK_QFdp0v3JliId9jsnJg_ru5tZkNwIqYbm0,12
+qusbt-1.1.0.dist-info/RECORD,,
