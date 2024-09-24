@@ -1,0 +1,17 @@
+pypci/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypci/__main__.py,sha256=356hsHZcYJTChKeCbd3G6BSy-F9Fz6Po--zv7aa6CPY,117
+pypci/backend/__init__.py,sha256=rH1sMVQU5XvhTJAeq3YKU26NIbFS3hj0JriPq_ke0bA,41
+pypci/backend/pci.py,sha256=8sIxNbnB43RELAjKOFTUZ4HK_YEEx3IQuJakh0aNpZM,5027
+pypci/data/pci.class,sha256=0q_gkhMHh942VYgozOKDJLpojSrKjj_gSFF3JYn-Fl8,5312
+pypci/data/pci.class.json,sha256=Z6S3IH6YEEtS5xwBHn7AQJUolSlSHZFw7fQZdTpaB1w,14865
+pypci/data/pci.data,sha256=ZEtcDRvL3gcBhNCje-uZRxlIilkR07JyYVYu6vBjusQ,1463047
+pypci/data/pci.data.json,sha256=jS1m4ZtIFUt0kNO1diLi3o3BDYEeo6CI3cGK7Nfb0IY,2354311
+pypci/data/pci.ids,sha256=ABXliCl8hBTNAb1z4PEsnOCiaBPCkMca_TO5RvTU96M,1468359
+pypci/pypciException/__init__.py,sha256=PZDM3xw2--Z-1RN2NdDpnovTR2S9lbcGjSDOldKqWYQ,127
+pypci/pypciException/pypciException.py,sha256=yKRtHEYjhd0pP7AeEfHxD9Dy6UXGYuhYQ25hcs3KShk,97
+pypci_ng-0.0.1b0.dist-info/LICENSE,sha256=hJs6RBqSVCexbTsalkMLNFI5t06kekQEsSVaOt_-yLs,1497
+pypci_ng-0.0.1b0.dist-info/METADATA,sha256=qm3jR_KGnNitKqeHKd7Rg-VL9fGIblmGG75b9UdKzFw,1881
+pypci_ng-0.0.1b0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pypci_ng-0.0.1b0.dist-info/entry_points.txt,sha256=kngeHGkXJ8lgZaUzW5zkkq8btqA25n23zI6kcQkCeOE,46
+pypci_ng-0.0.1b0.dist-info/top_level.txt,sha256=vOx-pcnWKAOLyLbbwVT3U7y-rYWGKWpazzLuysrb_JI,6
+pypci_ng-0.0.1b0.dist-info/RECORD,,
