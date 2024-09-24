@@ -1,0 +1,2 @@
+[console_scripts]
+botnetv2 = botnetv2:main
