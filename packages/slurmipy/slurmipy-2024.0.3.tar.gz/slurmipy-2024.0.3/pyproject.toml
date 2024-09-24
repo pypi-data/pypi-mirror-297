@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "slurmipy"
+version = "2024.0.3"
+authors = [
+  {name = "Dennis Noll", email = "github@nollde.de"},
+]
+description = "A package to manage Dask clusters on SLURM systems and execute functions with Dask parallelization."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "dask>=2021.6.0",
+  "dask-jobqueue",
+  "distributed>=2021.6.0",
+]
+license = {text = "MIT License"}
+keywords = ["slurm", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+Homepage = "https://github.com/nollde/slurmipy"
+Issues = "https://github.com/nollde/slurmipy/issues"
