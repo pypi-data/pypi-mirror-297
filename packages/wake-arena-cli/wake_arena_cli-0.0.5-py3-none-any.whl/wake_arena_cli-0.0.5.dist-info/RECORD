@@ -1,0 +1,15 @@
+api/__init__.py,sha256=es6icQxACGUyPLs-X01-JaosLMIzcBodZRSoqRHEXxc,35
+api/project_api.py,sha256=URFfgxNk0BqvllCtfq4B49x87O1qu0QbtdUkLTDtcWY,2606
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/__main__.py,sha256=vi3HwVWgYt4HtI5WQgH3F4F3bI29sT7ha_zaeu_9SIk,965
+cli/check.py,sha256=aJyBp-Pq8jNTphRoqT9lZWHpNrOQr232Z9bLVUmVXB4,7791
+cli/config.py,sha256=ZrbhG0BiM0pGymMkLoAMDqaUT3FqkzmmNpyanZ4RZIc,912
+cli/init.py,sha256=LvkvJkj4cEXrt255ikPLTEkMUIVLHgKqZJq_8QYMfWQ,1822
+cli/ui/__init__.py,sha256=T9mKoxxBrhZ9KJx1t9qMuAGxThWjjhOb8BbEiBxpivw,28
+cli/ui/console.py,sha256=9wzqgTzJ7lWHukjRyNk33QLQbe2gpgrpsG7qyyCPPRE,2507
+config/__init__.py,sha256=vF-VTqYsZLogqLkYmJrtjjC_HV_vgZ7HXjmRRBGqRdE,33
+config/config.py,sha256=c1cTC2URyWP3BnYUsji1bWNC9PjTy17aWYl_ZylPSXg,3026
+wake_arena_cli-0.0.5.dist-info/METADATA,sha256=WOsTDpb9BDkWFVLtpitC1lk6Mvd1ygJlGEo_FYUbjq4,1101
+wake_arena_cli-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+wake_arena_cli-0.0.5.dist-info/entry_points.txt,sha256=u4wumPyzRLRtkpU05_5vO6S6ilQKLG1ee03ArtRgsjs,48
+wake_arena_cli-0.0.5.dist-info/RECORD,,
