@@ -1,0 +1,11 @@
+ai-models>=0.7.0
+onnx
+
+[:sys_platform == "darwin"]
+onnxruntime-silicon
+
+[:sys_platform == "linux"]
+onnxruntime-gpu
+
+[dev]
+pre-commit
