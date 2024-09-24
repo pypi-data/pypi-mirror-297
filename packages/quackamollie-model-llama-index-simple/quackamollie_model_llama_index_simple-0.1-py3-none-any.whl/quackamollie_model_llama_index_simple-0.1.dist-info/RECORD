@@ -1,0 +1,10 @@
+quackamollie/model/llama_index_simple/__init__.py,sha256=N5U8oFMHmACzJwgF1e0W9HYLrrAQsRS88zzLqM1hQ14,300
+quackamollie/model/llama_index_simple/model_llama_index_simple.py,sha256=ZKfvGzBFcAFcgM87lMscRU5-Z7xDpOQrSAurEWhauOo,4294
+quackamollie/model/llama_index_simple/prompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quackamollie/model/llama_index_simple/prompt/llama_index_simple_prompt.py,sha256=gYua-DINrqkK-beGUXvgUjzCGTH7p0X6BI_b4_TrYsg,874
+quackamollie_model_llama_index_simple-0.1.dist-info/LICENSE,sha256=ZmTL3gq8BCTkTcRnvuvjJLUsDMPZ2Eh9tJYYu9LY3_k,1080
+quackamollie_model_llama_index_simple-0.1.dist-info/METADATA,sha256=K-24pPX7LJeGnRolk6VBhYJkNpVeWIr6WZkXk-yAcxc,10110
+quackamollie_model_llama_index_simple-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+quackamollie_model_llama_index_simple-0.1.dist-info/entry_points.txt,sha256=Gld9cL_DfwR9bupmsPeRWNLjFF962DUHt-_HSJ6TtI4,151
+quackamollie_model_llama_index_simple-0.1.dist-info/top_level.txt,sha256=ghu2DK87bSVbaEfok-jisDE8Ux3VC6m8LH3HaeoRy90,13
+quackamollie_model_llama_index_simple-0.1.dist-info/RECORD,,
