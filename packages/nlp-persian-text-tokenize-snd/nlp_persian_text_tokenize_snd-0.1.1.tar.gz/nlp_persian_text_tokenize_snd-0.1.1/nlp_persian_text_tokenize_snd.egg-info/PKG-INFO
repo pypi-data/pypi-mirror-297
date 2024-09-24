@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nlp_persian_text_tokenize_snd
+Version: 0.1.1
+Summary: This library is designed to tokenize Persian texts.
+Home-page: https://github.com/7cloner/NLP-Persian-Text-Tokenize-SND
+Author: Nasser Khaledi
+Author-email: foray00227@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nlp_date_normalization_snd
+
+# کتابخانه Tokenize برای زبان فارسی
+
+این کتابخانه بخشی از پروژه NLP است که با استفاده از آن میتوان یک متن فارسی را به جملات خاص تقسیم و جملات را به کلمات تقسیم کرد..
+
+## نصب
+
+برای نصب این کتابخانه کافیه از دستور زیر استفاده کنید: 
+
+```bash
+pip install nlp-persian-text-tokenize-snd==0.1.1
+```
+
+## نحوه پیاده‌سازی
+
+برای استفاده از کتابخانه، می‌توانید از کد نمونه زیر استفاده کنید:
+
+```python
+# -*- coding: utf-8 -*-
+from pht.tokenizer.TokenizerManager import TokenizerManager
+
+content = 'این یک متن تست فارسی است. آیا درست کار میکند؟ بیاید ببینیم!'
+sen = TokenizerManager(content)
+print(sen.tokenizing())
+```
