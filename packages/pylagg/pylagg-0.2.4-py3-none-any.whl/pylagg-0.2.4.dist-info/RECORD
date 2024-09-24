@@ -1,0 +1,11 @@
+pylagg/bulk.py,sha256=BkYVVkBb6I81CDMH8lBaMoayToTVb1jIoEyVx4H8aQ4,992
+pylagg/cgr.py,sha256=AMj31mdh0qbOnWqc7CDNp9XCu9FTBM6BMslBhamo0bE,4203
+pylagg/cut_adapt.py,sha256=xPFmpMrEJqdmczkIaH5Ta24ALnMTo0iGMib7rt2tDH0,1491
+pylagg/ena_download.py,sha256=uv6pTg2v9mE9n_mtOohTNaYqPTGtMMlDHtDiMe_70SM,3688
+pylagg/kmer_counting.py,sha256=yU_yv4YSwC7cFKMFhPsSh0BzzweSXTLU6H701i5Shu0,3327
+pylagg/main.py,sha256=KFV5K9peH9Sw0JnXNK33P0DXmfuyW0SRoYGlYlcW8e0,5119
+pylagg-0.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylagg-0.2.4.dist-info/METADATA,sha256=_A6hpuV9NvbgD00z3liA-DWX8PKbghDD9-slOjNrE9E,1824
+pylagg-0.2.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pylagg-0.2.4.dist-info/entry_points.txt,sha256=jTHBOk0MJeRC4LFYe3HlXjc3paowOOXnrGpPyH1k-7o,40
+pylagg-0.2.4.dist-info/RECORD,,
