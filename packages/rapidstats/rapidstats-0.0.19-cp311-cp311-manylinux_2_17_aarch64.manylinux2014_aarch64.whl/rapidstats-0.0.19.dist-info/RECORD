@@ -1,0 +1,13 @@
+rapidstats-0.0.19.dist-info/METADATA,sha256=BpL1nqHt0rQ861I1E4_moP5XckzoctCFy1wTI0RRyT4,3041
+rapidstats-0.0.19.dist-info/WHEEL,sha256=8djTTLlmsQQAWq4FjpqYdEnWESxPUJ7xizommrmEAaE,131
+rapidstats-0.0.19.dist-info/licenses/LICENSE,sha256=ScKgn3WFwtFBKLBmm2vibIG2Oi4foB8qxew1B0Ro5v8,1078
+rapidstats/_metrics.py,sha256=6OcEom1OjhrWHEkXVMCtS6lieqtrpliYE4H7fy2qAQM,8934
+rapidstats/_distributions.py,sha256=_VG4vffd55Rtqz5VhypBhOTvBs1AxUDj1yxZX9rQORo,1169
+rapidstats/_utils.py,sha256=bDRfq6Olz4oSbdEKInVFkwZOwE0iAa7--jaZf_15o_Q,2504
+rapidstats/_corr.py,sha256=-l8A72T_iEjySwitKx86oACMGA2TWri8V_1Zl7hK9OE,5063
+rapidstats/_bootstrap.py,sha256=49CLfU2ZuJvIri29D1ZSEDeSmNHPfd4gSf89k1m8Svk,16137
+rapidstats/__init__.py,sha256=utqvulRm_EmIu5FwBbw8JbFW7VxRg_94qJ4Qo2bpgyA,283
+rapidstats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rapidstats/_rustystats.pyi,sha256=dvDRDXpAcsfy_fAmh4LvqAX--f77XhyQI_Ul7XmabdQ,2544
+rapidstats/_rustystats.cpython-311-aarch64-linux-gnu.so,sha256=VQzwO9W0sojiCLTjg3lkxMfCbycXDX8s0ciab5ZqAwc,44682872
+rapidstats-0.0.19.dist-info/RECORD,,
