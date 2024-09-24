@@ -1,0 +1,3 @@
+[console_scripts]
+feynmagi = feynmagi.feynmagi:main
+
