@@ -1,0 +1,11 @@
+_libvips.pyd,sha256=NgcGVkr70GBQooujT32oW3Fqt9uXa9SQnfxR06fNe9c,65024
+pyvips_binary-8.15.3.data/platlib/.load-order-pyvips_binary-8.15.3,sha256=_MRd5LtyrOgAQiFiz620gOYEzSRMcY0oJE8RKpTS4dQ,153
+pyvips_binary-8.15.3.data/platlib/libglib-2.0-0-5d8d49589d3d0d57bfe607aaf53912e9.dll,sha256=ibT3JjZfxlegtlPHeD9cOi450XGDfnjqoH7jkDigTpQ,930304
+pyvips_binary-8.15.3.data/platlib/libgobject-2.0-0-2a026a4f6e878f5aa09656f5efb4135c.dll,sha256=-jrJTptrxhfaXBXkrSb1LOacOzeG_VqhTksg1f6gOQs,188416
+pyvips_binary-8.15.3.data/platlib/libvips-42-8cba0006a37d668e61d5072ae0c77c6f.dll,sha256=XZtPyaGwGASNg2Z4jxEq7ecMARk5Ajej1reXtrABkRo,17306624
+pyvips_binary-8.15.3.dist-info/DELVEWHEEL,sha256=vrqFmyeIFrrvvFWnIEF0lX2bsS4MywhM250T3wwkYD8,15
+pyvips_binary-8.15.3.dist-info/LICENSE,sha256=c9WJfY3lUyIuXwswV8rJQaCfVkhCUcauunR1iTo2M1w,1107
+pyvips_binary-8.15.3.dist-info/METADATA,sha256=jz9VHiDIJ97i8THHcKfipPkQMNfMpkVbCqEy9pjoP_U,2285
+pyvips_binary-8.15.3.dist-info/RECORD,,
+pyvips_binary-8.15.3.dist-info/top_level.txt,sha256=CBZrjxhTaI8Vt8nKn76Qt9Hf5WY-x-6hRsTQ4OveUeU,24
+pyvips_binary-8.15.3.dist-info/WHEEL,sha256=0gG2dsQKvt2gI6DFhDvF0uaFTGq8u3uWxI-mKQFzTEg,96
