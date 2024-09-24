@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+greetings/__init__.py
+greetings/greetings.py
+greetings_package.egg-info/PKG-INFO
+greetings_package.egg-info/SOURCES.txt
+greetings_package.egg-info/dependency_links.txt
+greetings_package.egg-info/top_level.txt
