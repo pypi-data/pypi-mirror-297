@@ -1,0 +1,28 @@
+# OS files
+*.DS_Store
+
+# Python
+*.pyc
+
+# Notebook
+.ipynb_checkpoints
+
+# Other
+*.pdf
+.coverage
+*.npz
+*.lcov
+*.xml
+*.json
+
+# Distribution
+*.egg-info
+dist
+
+# VSCode
+.vscode
+
+build
+docs/source/**/api/*.rst
+html
+jupyter_execute
