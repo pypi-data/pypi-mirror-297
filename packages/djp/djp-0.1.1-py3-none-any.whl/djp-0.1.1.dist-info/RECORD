@@ -1,0 +1,10 @@
+djp/__init__.py,sha256=EHk2dqfBLfQ3yG99-hU5Ju12Xa4E1-3jCM334L_nf14,2880
+djp/hookspecs.py,sha256=U9R5uqcHMiBeZC9Kd93xe4mshk68mv-vesk4UZIMQCg,663
+djp/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djp/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djp/management/commands/showplugins.py,sha256=RYvUgP-5j0ooEb0n-u3b_BzBfXRLHVI5dWlgI282TQ0,276
+djp-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+djp-0.1.1.dist-info/METADATA,sha256=bSlp6ifCe6Cbn3vsxrg4DaRTSyUxUmpEDk2w16z78rI,2200
+djp-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+djp-0.1.1.dist-info/top_level.txt,sha256=jAlA9uNHsGvewPEItiDFOKbETWqbFXs1QLe_YG7-tSw,4
+djp-0.1.1.dist-info/RECORD,,
