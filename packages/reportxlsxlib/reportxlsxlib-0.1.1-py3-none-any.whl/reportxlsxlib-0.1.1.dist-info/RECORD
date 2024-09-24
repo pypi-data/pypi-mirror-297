@@ -1,0 +1,9 @@
+reportxlsxlib/__init__.py,sha256=ua5czoUVg8rDbma-l3F1CiPzjxkUzyMAr6YAL_eRpl0,168
+reportxlsxlib/to_excel.py,sha256=Hz_yBWq1sT1i5z-oR1hU3V5F4zJDxKP_xu4tddTKOFU,36198
+reportxlsxlib/resources/linux/SkiaSharp.dll,sha256=sxVI3xzdxniVobgslMXMUAu699K46nh2KnzPiWAXT5w,294464
+reportxlsxlib/resources/linux/Spire.XLS.dll,sha256=ZAwU6ex_N7uJcJaJpj4LiEy8WnkyoqGkixKS3zZl8a8,22812400
+reportxlsxlib/resources/windows/Spire.XLS.dll,sha256=uBss2yy4tdlZZdetYzK-PldyyPY7IsTM_mk-f1SviNU,22963952
+reportxlsxlib-0.1.1.dist-info/METADATA,sha256=YKDN5vLzreyPHVf7mSmEhYLDz7yJ9pBPxAZouCz_Uxo,460
+reportxlsxlib-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+reportxlsxlib-0.1.1.dist-info/top_level.txt,sha256=21lG1uT5IEPL92Vlx-m_mLqlypS4RHqIRPkanpwDWzE,14
+reportxlsxlib-0.1.1.dist-info/RECORD,,
