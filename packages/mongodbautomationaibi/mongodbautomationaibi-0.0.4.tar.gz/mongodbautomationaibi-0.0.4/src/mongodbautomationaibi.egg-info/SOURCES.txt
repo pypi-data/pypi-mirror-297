@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/mongodbautomationaibi/__init__.py
+src/mongodbautomationaibi/crud.py
+src/mongodbautomationaibi.egg-info/PKG-INFO
+src/mongodbautomationaibi.egg-info/SOURCES.txt
+src/mongodbautomationaibi.egg-info/dependency_links.txt
+src/mongodbautomationaibi.egg-info/top_level.txt
