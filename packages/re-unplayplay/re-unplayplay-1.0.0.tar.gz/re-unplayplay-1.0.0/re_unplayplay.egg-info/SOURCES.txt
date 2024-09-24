@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+re_unplayplay.egg-info/PKG-INFO
+re_unplayplay.egg-info/SOURCES.txt
+re_unplayplay.egg-info/dependency_links.txt
+re_unplayplay.egg-info/not-zip-safe
+re_unplayplay.egg-info/requires.txt
+re_unplayplay.egg-info/top_level.txt
