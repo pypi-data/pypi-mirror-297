@@ -1,0 +1,13 @@
+slurmtop/__about__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+slurmtop/__init__.py,sha256=hW1RPyHPOHxk0uzmvhL44cCNpMm8Vn1rris_wG9ndug,90
+slurmtop/_data.py,sha256=O2Wgf_Rj_PZXYsQXTaZ33qY0Qum4SMwXsE-4X0fS50I,5318
+slurmtop/_info_widget.py,sha256=WMmLfdkb6kwbqrqu88KANma7s6f_RVu6gM0yW5F-HDI,3268
+slurmtop/_sinfo_widget.py,sha256=QxRcKMQd5AVJdJ4-P3bGXBIadl25peajzP3aLGLLM60,2746
+slurmtop/_squeue_widget.py,sha256=X8Ls2bW6CNGzi77Pe6pXkSkAVNk76XhZYlqGWY63kik,6901
+slurmtop/app.py,sha256=EFq6qZRRi7IoS-VfFC6NpdQQh6T5v3s8EnVMhiamTuI,1834
+slurmtop-0.0.4.dist-info/LICENSE,sha256=EX1Oeul9_U_3VDNNa-Ee2MdeRDMs5Sa0772lN_VArH8,1090
+slurmtop-0.0.4.dist-info/METADATA,sha256=0zQ7lvuz9RsXqUVaM8oxMAx_ceg4bHDxxBx6pyB3Jqw,3280
+slurmtop-0.0.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+slurmtop-0.0.4.dist-info/entry_points.txt,sha256=VZSIZvhXdy9CGugVQcM1f3YcjTXL4UAEYYR9DFTZmt8,46
+slurmtop-0.0.4.dist-info/top_level.txt,sha256=o5F_LmLQYFMMH8zFhHHoWt52muQkbUJY-8na43uTWSw,9
+slurmtop-0.0.4.dist-info/RECORD,,
