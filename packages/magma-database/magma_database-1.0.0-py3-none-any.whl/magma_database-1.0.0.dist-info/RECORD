@@ -1,0 +1,9 @@
+magma_database/__init__.py,sha256=mkF_Hlyk_ALnYD8m4vuAyAWYFMsIHgAHJK1Zt02lthQ,499
+magma_database/config.py,sha256=Y9HiDQkwGjztwYejbjCd36RO5knPoHDJTZu6_K60m7M,650
+magma_database/database.py,sha256=j8oi_CetwADT6hRtFGl4kOyb1iF25gM4yMvBJAzSs0I,8959
+magma_database/resources/__init__.py,sha256=qqbYtZ1cfhgU_aD1_Gyr32N1mvbaFc-t0JaR3icvwao,214
+magma_database/resources/volcanoes.xlsx,sha256=F6Y0I9HSCth52qPOitKwvDeJHc58T4kZexHYM6Nuz9w,212604
+magma_database-1.0.0.dist-info/LICENSE,sha256=pE1O25Tsk65Je-IPi1aWBUnI9S4T2wgabc-qYqe4xuM,1084
+magma_database-1.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+magma_database-1.0.0.dist-info/METADATA,sha256=MOuKqAbDuzY4JmUNc3Wqrmz8Bvo7-vceg3TuGJbp33U,1009
+magma_database-1.0.0.dist-info/RECORD,,
