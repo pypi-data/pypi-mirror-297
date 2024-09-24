@@ -1,0 +1,2 @@
+[console_scripts]
+goes_ortho_test = goes_ortho_test.cli:main

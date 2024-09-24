@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: goes-ortho-test
+Version: 0.0.2
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Author-email: Steven Pestana <spestana@uw.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/spestana/goes-ortho-test
+Keywords: goes-ortho-test
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: goes-ortho-test[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# goes-ortho-test
+
+
+[![image](https://img.shields.io/pypi/v/goes-ortho-test.svg)](https://pypi.python.org/pypi/goes-ortho-test)
+[![image](https://img.shields.io/conda/vn/conda-forge/goes-ortho-test.svg)](https://anaconda.org/conda-forge/goes-ortho-test)
+
+test
+
+**Python Boilerplate contains all the boilerplate you need to create a Python package.**
+
+
+-   Free software: MIT License
+-   Documentation: https://spestana.github.io/goes-ortho-test
+    
+
+## Features
+
+-   TODO
