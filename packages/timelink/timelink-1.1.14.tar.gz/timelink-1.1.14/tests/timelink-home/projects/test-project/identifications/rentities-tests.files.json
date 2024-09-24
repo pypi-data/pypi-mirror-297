@@ -1,0 +1,11 @@
+{
+  "errors":0,
+  "kleio_file":"/kleio-home/identifications/rentities-tests.cli",
+  "kleio_original":"/kleio-home/identifications/rentities-tests.org",
+  "kleio_previous":"/kleio-home/identifications/rentities-tests.old",
+  "kleio_rpt":"/kleio-home/identifications/rentities-tests.rpt",
+  "stru":"/usr/local/timelink/clio/src/gacto2.str",
+  "stru_json":"/usr/local/timelink/clio/src/gacto2.str.json",
+  "stru_rpt":"/usr/local/timelink/clio/src/gacto2.srpt",
+  "warnings":0
+}

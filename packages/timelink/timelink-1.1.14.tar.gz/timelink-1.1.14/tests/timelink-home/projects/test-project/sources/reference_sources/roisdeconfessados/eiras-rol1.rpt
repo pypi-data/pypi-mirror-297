@@ -1,0 +1,33 @@
+KleioTranslator - server version 12.6 - build 576 2024-09-09 17:57:03
+23-9-2024 9-18
+
+Processing data file eiras-rol1.cli
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+** New document: kleio
+=========================
+kleio translation started
+=========================
+Structure: gacto2.str
+Prefix: 
+Autorel: 
+Translation count: 21
+Obs: 
+** Processing source fonte$eiras-rol1
+6: rol$r1775
+*** End of File
+
+
+Structure file: /kleio-home/structures/sources.str
+Structure processing report: /kleio-home/structures/sources.srpt
+Structure in JSON: /kleio-home/structures/sources.str.json
+
+Kleio file: /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.cli
+Original file: /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.org
+Previous version: /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.old
+Temp file with ids: /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.ids
+** - /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.cli-renamed to- /kleio-home/sources/reference_sources/roisdeconfessados/eiras-rol1.old
+0  errors. 
+0  warnings.
+Translation finished.
