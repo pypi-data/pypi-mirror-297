@@ -1,0 +1,13 @@
+candies/__init__.py,sha256=lMADH8Z8onzcI-MYSvoG_ekvZfrPrEEPdEqfTjNY6dc,127
+candies/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+candies/app.py,sha256=1Upr8d_A3wUoRE4ZvCGmeYzYiK-qS-Fx1jSb_ETsWK8,4323
+candies/base.py,sha256=hoUJE2_FqCZFWNA64TpsJEGYfGytdYq1tYDKc_ovIsU,21008
+candies/features.py,sha256=BUv5mPlgs_5dWzAbXMeTy2u1rj88QZOuI5cOFyqmovQ,10032
+candies/interfaces.py,sha256=2DJDBmcy0aWdAyz2eifGtcxCoyL6D_Gu8IonEDLFbAQ,3901
+candies/utilities.py,sha256=A3hdkd3BgL5RjJcrPvgg9AOvd-32s9LmtnfBBAgoNaA,1598
+candies-0.1.1.dist-info/LICENSE,sha256=2uggDnu0ld_LYn2Q4vTm47XrDWb6v_6SwNBW550spR0,1095
+candies-0.1.1.dist-info/METADATA,sha256=ATZGq9AcR6isPI5y6ChByy6JVpgeAwuAkxyWFhbCZKQ,9188
+candies-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+candies-0.1.1.dist-info/entry_points.txt,sha256=2OjSMQxxQkGnWNkDgB4XaTHCoQcJN0zJpJ90KPhrmF8,44
+candies-0.1.1.dist-info/top_level.txt,sha256=Jj7zj4rfzjTLJwc1uUro6NdGB9fdtoXQ-uHID0Q7Lm4,8
+candies-0.1.1.dist-info/RECORD,,
