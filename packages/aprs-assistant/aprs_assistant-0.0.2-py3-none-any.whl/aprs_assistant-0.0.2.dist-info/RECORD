@@ -1,0 +1,16 @@
+aprs_assistant/__about__.py,sha256=ul44e-L9y_fJ378YKCKl0Uczh6lm64CwIjysgk-4jZ0,132
+aprs_assistant/__init__.py,sha256=gqtzKIegIyP3xSQ1zXMB0un7qWE-Te6smO3gAZOzwjo,178
+aprs_assistant/__main__.py,sha256=IqQjvfJG6hvu-x1LzP2CsDg3FsluJZjV-8fKYSLjC-o,1195
+aprs_assistant/_bandcond.py,sha256=kunkW5k_n-BnyzmLkpcP5R-Y2bu-nQE9b3BYn1-ezEg,1790
+aprs_assistant/_bing.py,sha256=9Fp_DmVIZBBl24sY4C283JkPVFc6jFCJ4TlCKkWkuAk,6988
+aprs_assistant/_bot.py,sha256=KLj18AhDwtYLJ_71vZ-Yk5wPUt5NzwdxkJAK6B0Fx1g,7806
+aprs_assistant/_cache.py,sha256=1QXwmAtj7xumR9rqx5FtwOpqNqKSnIxmbpyGqz2Qzno,1152
+aprs_assistant/_constants.py,sha256=32oojsIAFqI7M0rH7epjwpJc7I0SH13X95QxbFZPlK0,675
+aprs_assistant/_gpt.py,sha256=A1QOcEFbto1T0LVRXV1CLrMvZ0cbwGbjHxJ6sa9pn3Y,851
+aprs_assistant/_location.py,sha256=Hn9L8c49o4MxmFM8Yfevvgs7FlxRJdLHtgleRzVq-hI,3236
+aprs_assistant/_tool_definitions.py,sha256=e37QLlSC5v6ejWoZvUWYsX6SIZSUrepCl_EbA0Rf01k,1251
+aprs_assistant/_weather.py,sha256=EX9RE7QcTb0BnZUoiCvMkJBg8WiAFgOcWCo5bvOHnsA,5050
+aprs_assistant-0.0.2.dist-info/METADATA,sha256=iy6TYkZxJgi0BQryuHOrz_MhveZq4RyFIOF9aFNF3Ow,2970
+aprs_assistant-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+aprs_assistant-0.0.2.dist-info/licenses/LICENSE.txt,sha256=D4YP96TRWZX1jRIIQS9ficE-8dCUdj2qVVVx9IYuGjc,1065
+aprs_assistant-0.0.2.dist-info/RECORD,,
