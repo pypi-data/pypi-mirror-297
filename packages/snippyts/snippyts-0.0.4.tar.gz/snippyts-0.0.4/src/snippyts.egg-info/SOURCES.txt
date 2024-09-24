@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/snippyts/__init__.py
+src/snippyts.egg-info/PKG-INFO
+src/snippyts.egg-info/SOURCES.txt
+src/snippyts.egg-info/dependency_links.txt
+src/snippyts.egg-info/top_level.txt
