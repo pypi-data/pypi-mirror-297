@@ -1,0 +1,16 @@
+findiff
+pynxtools>=0.7.1
+
+[dev]
+mypy
+ruff==0.3.4
+pytest
+pip-tools
+cffconvert
+
+[docs]
+mkdocs
+mkdocs-mermaid2-plugin
+mkdocstrings
+mkdocs-material
+mkdocs-macros-plugin
