@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: pysonde
+Version: 0.0.6
+Summary: Post-processing tool for atmospheric sounding data
+Author-Email: Hauke Schulz <43613877+observingClouds@users.noreply.github.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Homepage, https://github.com/observingClouds/pysonde
+Requires-Python: >=3.9
+Requires-Dist: cartopy
+Requires-Dist: coverage
+Requires-Dist: bottleneck
+Requires-Dist: dask
+Requires-Dist: metpy
+Requires-Dist: netCDF4
+Requires-Dist: numpy
+Requires-Dist: omegaconf
+Requires-Dist: pandas
+Requires-Dist: pdm-backend
+Requires-Dist: Pint
+Requires-Dist: Pint-Pandas
+Requires-Dist: pint-xarray
+Requires-Dist: PyYAML
+Requires-Dist: regex
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Requires-Dist: geopy
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-lazy-fixture; extra == "dev"
+Requires-Dist: yapf; extra == "dev"
+Description-Content-Type: text/markdown
+
+# pySonde: converting radiosonde files to netcdf
+
+pySonde converts Vaisala's radiosonde files (mwx) to netCDF4 and interpolates them if needed to a common height grid for easier processing.
+
+## Setup
+```
+pip install pysonde
+```
+
+For development
+```sh
+# Install dependencies
+pipenv install --dev
+
+# Setup pre-commit and pre-push hooks
+pipenv run pre-commit install -t pre-commit
+pipenv run pre-commit install -t pre-push
+```
+
+## Usage
+
+A few example files are automatically installed and can be used to test if the installation was successful
+
+Unix:
+```sh
+sounding_converter -i examples/level0/BCO_20200126_224454.mwx -o "test_{direction}.nc" -c config/main.yaml
+```
+
+Windows:
+```sh
+sounding_converter.exe -i examples/level0/BCO_20200126_224454.mwx -o "test_{direction}.nc" -c config/main.yaml
+```
+
+The configuration of attributes, variable names and units of the input and output is done via yaml files in the `config` folder.
+
+To post-process radiosoundings with pysonde and track the processing steps, a new repository should be created that only contains the `config` folder and its scripts. An additional bash script with the `sounding_converter` calls tracks the processing steps. The version used of pysonde is automatically inserted into the output files.
+
+The [repository containing the processing setup for the circBrazil campaign](https://github.com/observingClouds/soundings_circbrazil) can serve as a template.
