@@ -1,0 +1,16 @@
+goes_ortho/Downloader.py,sha256=Sh11uwmsUve0ZrlxMR88F7OghtB84uWoMy94r8kkE3E,10959
+goes_ortho/__init__.py,sha256=MSy1reAD3BOXH9l_baDGDKZOGgac0T_dsqcm6NB4y54,378
+goes_ortho/checkData.py,sha256=vVy9jV9TWweDwqelDrHZpONAcnJZMIvt7rJJzZdT4Aw,4269
+goes_ortho/clip.py,sha256=Y_JvocoeQd4clKN5G1ltB4rFvTGM9Ofu4eTqvNG41hY,3550
+goes_ortho/geometry.py,sha256=TMmjTCXQ59DHy6_z2r5DdEN9f3KwmD-T8MpscOqWTJs,10031
+goes_ortho/get_data.py,sha256=nNJ4ZjLWSQzy7qpJ3NugBH_ODt2ro5JpmLYqMv2tFqw,15338
+goes_ortho/io.py,sha256=2e23VbbxsfsHYukUEFWAl-WQ1AB3ZOou626WjywS94I,15708
+goes_ortho/orthorectify.py,sha256=8WrVis8qN2DmwqfJrrVtlz1G8lZxuev7vVwu9xenEIE,15371
+goes_ortho/rad.py,sha256=mvVBuC0FMSTpj0xaLxEebgYhEhGvHfp1AyFhBr5rth0,5372
+goes_ortho/timeseries.py,sha256=GL68wZY7YjVJHLa5_OMD4hrVdga3ljWbywwkAk3H07M,21271
+goes_ortho/utils.py,sha256=4DNbsdHF4ATE0WCBZlIXEIYIF8qXOJJMFo8SMfc0Dng,3780
+goes_ortho/version.py,sha256=EFp-1IuygeRkhu9JYdZbOGzZZHXd11yyaeLXSy_YlcA,416
+goes_ortho-0.2.1.5.dist-info/METADATA,sha256=W548EHo3L-clW147kvQB5pDwZEgX_a_gn4CX4e1cg5s,52804
+goes_ortho-0.2.1.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+goes_ortho-0.2.1.5.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+goes_ortho-0.2.1.5.dist-info/RECORD,,
