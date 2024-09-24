@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/sbo_service_purchasing/__init__.py
+src/sbo_service_purchasing/purchasing.py
+src/sbo_service_purchasing.egg-info/PKG-INFO
+src/sbo_service_purchasing.egg-info/SOURCES.txt
+src/sbo_service_purchasing.egg-info/dependency_links.txt
+src/sbo_service_purchasing.egg-info/requires.txt
+src/sbo_service_purchasing.egg-info/top_level.txt
+src/sbo_service_purchasing/__pycache__/__init__.cpython-310.pyc
+src/sbo_service_purchasing/__pycache__/purchasing.cpython-310.pyc
+test/test_00_orders.py
