@@ -1,0 +1,7 @@
+pandas
+numpy
+scipy
+joblib
+scikit-learn>=1.3.0
+statsmodels
+h2o
