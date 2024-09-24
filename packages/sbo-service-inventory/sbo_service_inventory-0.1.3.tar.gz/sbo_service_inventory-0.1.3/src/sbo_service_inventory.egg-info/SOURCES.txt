@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sbo_service_inventory/__init__.py
+src/sbo_service_inventory/inventory.py
+src/sbo_service_inventory.egg-info/PKG-INFO
+src/sbo_service_inventory.egg-info/SOURCES.txt
+src/sbo_service_inventory.egg-info/dependency_links.txt
+src/sbo_service_inventory.egg-info/requires.txt
+src/sbo_service_inventory.egg-info/top_level.txt
+test/test_00_item.py
+test/test_10_transfer.py
+test/test_20_item_group.py
+test/test_30_sublevel.py
+test/test_40_bin.py

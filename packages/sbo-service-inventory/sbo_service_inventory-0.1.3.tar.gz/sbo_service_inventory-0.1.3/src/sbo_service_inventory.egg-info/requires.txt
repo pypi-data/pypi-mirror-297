@@ -1,0 +1,4 @@
+requests>=2.28
+urllib3>=1.26
+python-dotenv>=1
+sbo-service-layer>=0.1.1
