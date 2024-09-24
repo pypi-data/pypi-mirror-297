@@ -1,0 +1,12 @@
+freeqdsk/__init__.py,sha256=JUFy7wL_UlUlsoieVrUe-JcWx7npbmcExsVLxjxJ7gE,283
+freeqdsk/_fileutils.py,sha256=pLXlrGz-fT_SnKG7jcB7HGKC6ZFSXgoVtNo-m7AByms,10929
+freeqdsk/_typing.py,sha256=XVawVgFNsJdBcXgpwX3Pr_RHc8A9TIYYHyT2222EdrU,548
+freeqdsk/_version.py,sha256=aeBju2l8GTMwAhIRG_c2Q_oVPFacRkZZwGtxmvFCGPQ,411
+freeqdsk/aeqdsk.py,sha256=TbpS0nHNstX54uAKT97fUQSExGzkm5-JEehO_EaogcQ,31619
+freeqdsk/geqdsk.py,sha256=FaiOBGfis-FGFtQ5bw3kO36gxXlsFh8M8NIr6e0bEPw,22340
+freeqdsk/peqdsk.py,sha256=40yBxywKe1z80FECrkK05s2ecW6tYMRVvbu0KiJ9pEI,7130
+freeqdsk-0.5.0.dist-info/LICENSE,sha256=Dg_L6Q7FwjGD7OWJMu3-2IFLshrz3PmeCx86brIYeuA,1050
+freeqdsk-0.5.0.dist-info/METADATA,sha256=o2AleopMAJqOq_WFKa0Zeo4oi9RP4-je8Fi7dIOEL1s,4299
+freeqdsk-0.5.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+freeqdsk-0.5.0.dist-info/top_level.txt,sha256=c46lSIGjhc8_W_EaRKoQM_RnhfCMw87F0Y7KSN05kHY,9
+freeqdsk-0.5.0.dist-info/RECORD,,
