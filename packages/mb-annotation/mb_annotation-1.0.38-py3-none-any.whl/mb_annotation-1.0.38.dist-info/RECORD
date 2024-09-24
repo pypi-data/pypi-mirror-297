@@ -1,0 +1,10 @@
+mb_annotation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mb_annotation/bounding_box.py,sha256=THpd1siYPMKJ5GUE8w0COX8hEQuZHSIwhFWR4C_M-N4,3832
+mb_annotation/florencefile.py,sha256=ctzimf7i7h6KVdCKc9-RO4K0tdapj2dTbCieUARnjFM,19599
+mb_annotation/segsam2.py,sha256=myEXxHmF7Mzw--j0WRGCxfylYiBHRAOmv5nC7zgrhBk,15886
+mb_annotation/utils.py,sha256=G1PEQDguwqGADto4m3AsoR23PZrckq87-9a5X-5wgUU,2190
+mb_annotation/version.py,sha256=sFp1JDLCX70lDvR-mozWBPbTH-UYf_-0s50DTCl9eQM,207
+mb_annotation-1.0.38.dist-info/METADATA,sha256=LD8FEaQ7eNVPvNRtB81CUUDtMSz1SJgzGJoDrpa-qAc,178
+mb_annotation-1.0.38.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mb_annotation-1.0.38.dist-info/top_level.txt,sha256=9RnzO_lhtz_xZJmzDG-K94Uoa_qAAXcaoh1jRpDKDzM,14
+mb_annotation-1.0.38.dist-info/RECORD,,
