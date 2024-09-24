@@ -1,0 +1,6 @@
+setup.py
+asdf12344321fdsa.egg-info/PKG-INFO
+asdf12344321fdsa.egg-info/SOURCES.txt
+asdf12344321fdsa.egg-info/dependency_links.txt
+asdf12344321fdsa.egg-info/requires.txt
+asdf12344321fdsa.egg-info/top_level.txt
