@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+kracked/kraken_test.py
+kracked/kraken_tick.py
+kracked.egg-info/PKG-INFO
+kracked.egg-info/SOURCES.txt
+kracked.egg-info/dependency_links.txt
+kracked.egg-info/entry_points.txt
+kracked.egg-info/requires.txt
+kracked.egg-info/top_level.txt
