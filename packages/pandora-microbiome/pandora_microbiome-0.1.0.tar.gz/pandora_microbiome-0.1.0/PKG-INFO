@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pandora-microbiome
+Version: 0.1.0
+Summary: pandora, a collection of functions.
+Home-page: https://github.com/lijierr/pandora
+Author: Jie Li
+Author-email: jeveylijie@163.com
+Keywords: biology bioinformatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Requires-Dist: hellokit>=0.1.0

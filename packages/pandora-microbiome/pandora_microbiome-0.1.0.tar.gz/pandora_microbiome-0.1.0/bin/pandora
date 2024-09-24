@@ -1,0 +1,118 @@
+#!/usr/bin/env python
+
+
+import sys
+import os
+
+try:
+	from loguru import logger
+except ModuleNotFoundError:
+	sys.exit(f'<pandora> requires <loguru>, try <pip install loguru>.')
+
+sys.path = [os.path.join(os.path.dirname(os.path.realpath(__file__)),'..')] + sys.path
+
+try:
+	import argparse as ap
+except ModuleNotFoundError:
+	logger.error(f'<pandora> requires <argparse>, try <pip install argparse>.')
+	sys.exit()
+
+from pandora import version
+
+__author__ = 'Jie Li'
+__email__  = 'jeveylijie near 163.com'
+__version__ = version.__version__
+
+
+def read_args(args):
+	parent_parser = ap.ArgumentParser(add_help=False)
+	parent_parser.add_argument('-v', '--version', action='version',
+							version=__version__,
+							help='Print version information')
+
+	p = ap.ArgumentParser(prog='magicbox', parents=[parent_parser])
+	# create subparsers
+	subp = p.add_subparsers(dest='subparser_name')
+	# create parser for 'fq2fa' command
+	p_fq2fa = subp.add_parser('fq2fa', parents=[parent_parser],
+						help='transforming fastq to fasta.')
+	p_fq2fa.add_argument('-i', '--fq', required=True,
+						help='Input fastq file (.gz).')
+
+	# create parser for 'fxlength' command
+	p_fxlength = subp.add_parser('fxlength', parents=[parent_parser],
+						help='count sequence length.')
+	p_fxlength.add_argument('-s', '--seq', required=True,
+						help='Input sequence file.')
+	p_fxlength.add_argument('-p', '--plot', action='store_true',
+						help='Set to plot a histogram for length.')
+
+	# create parser for 'avglength' command
+	p_avglength = subp.add_parser('avglength', parents=[parent_parser],
+						help='average sequence length of input sequences.')
+	p_avglength.add_argument('-s', '--seq', required=True,
+						help='Input sequence file.')
+	p_avglength.add_argument('-p', '--plot', action='store_true',
+						help='Set to plot a histogram for length')
+
+
+	# create parser for check_phred command
+	p_phred = subp.add_parser('check_phred', parents=[parent_parser],
+						help='check fastq phred vaule.')
+	p_phred.add_argument('-i', '--fq', required=True,
+						help='Input fastq file.')
+	p_phred.add_argument('-n', '--num', type=int, default=1000,
+						help='Number of sequences for Phred check.')
+
+	# create parser for extract_seq command
+	p_extract = subp.add_parser('extract_seq', parents=[parent_parser],
+						help='extract sequences using id.')
+	p_extract_id = p_extract.add_mutually_exclusive_group()
+	p_extract_id.add_argument('-i', '--seqid', help='Sequence id to extract.')
+	p_extract_id.add_argument('-l', '--idlist', help='Id list file to extract.')
+	p_extract.add_argument('-s', '--seq', required=True, help='Input sequence.')
+	p_extract.add_argument('-q', '--fastq', action='store_true',
+						help='Set if input is fastq.')
+
+	p_summary_mag = subp.add_parser('summary_mag', parents=[parent_parser],
+						help='summary mag quality.')
+	p_summary_mag.add_argument('-i', '--input', nargs='+', required=True,
+						help='input stats file from CheckM, seperate by " ".')
+	p_summary_mag.add_argument('-cp', '--completeness', type=int, default=80,
+						help='Stat genomes with completeness above this value.')
+	p_summary_mag.add_argument('-ct', '--comtamination', type=int, default=20,
+						help='Stat genomes with comtamination below this value.')
+
+
+
+
+	if len(args) == 1:
+		sys.exit(p.print_help())
+
+	return p.parse_args()
+
+
+if __name__ == '__main__':
+
+	arg = read_args(sys.argv)
+	# print(arg)
+	if arg.subparser_name == 'fq2fa':
+		from pandora.fq2fa import FQ2FA
+		FA2FA.fq2fa(arg.fq)
+	elif arg.subparser_name == 'fxlength':
+		from pandora.fxlength import fxLength
+		fxLength.fxlength(arg.seq, arg.plot)
+	elif arg.subparser_name == 'avglength':
+		from pandora.fxlength import fxLength
+		fxLength.fxlength(arg.seq, arg.plot, True)
+	elif arg.subparser_name == 'check_phred':
+		from pandora.check_phred import Phred
+		Phred.check_phred(arg.fq, arg.num)
+	elif arg.subparser_name == 'extract_seq':
+		from pandora.extract_seq import Extract_Seq
+		Extract_Seq.extract_seq(arg.seqid, arg.idlist, arg.seqin, arg.fastq)
+	elif arg.subparser_name == 'summary_mag':
+		from pandora.summary_mag import SummaryMAG
+		SummaryMAG.summary_mag(arg.input, arg.completeness, arg.comtamination)
+	else:
+		raise Exception('Unrecognized command.')

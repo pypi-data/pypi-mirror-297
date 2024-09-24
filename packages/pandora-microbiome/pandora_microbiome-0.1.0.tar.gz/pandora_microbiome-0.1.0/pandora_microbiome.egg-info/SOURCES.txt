@@ -1,0 +1,16 @@
+README.md
+setup.py
+bin/pandora
+pandora/__init__.py
+pandora/check_phred.py
+pandora/extract_seq.py
+pandora/fq2fa.py
+pandora/fxlength.py
+pandora/readseq.py
+pandora/summary_mag.py
+pandora/version.py
+pandora_microbiome.egg-info/PKG-INFO
+pandora_microbiome.egg-info/SOURCES.txt
+pandora_microbiome.egg-info/dependency_links.txt
+pandora_microbiome.egg-info/requires.txt
+pandora_microbiome.egg-info/top_level.txt
