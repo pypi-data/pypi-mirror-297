@@ -1,0 +1,19 @@
+[package]
+name = "cap_gen"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "cap_gen"
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+opt-level = "z"
+strip = "symbols"
+
+[dependencies]
+rand = "0.8.5"
+image = "0.25.2"
+pyo3 = "0.22.3"
