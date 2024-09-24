@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: xtensor_pp
+Version: 0.0.2
+Summary: A gdb pretty printer for xtensor 
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Eugène Sanscartier <eugene.sanscartier@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# xtensor_pp
+GDB c++ [Xtensor](https://xtensor.readthedocs.io/en/latest/) containers. slices, etc..
+
+Execute code.
+`(gdb) p $xt2np("ar2")`
+
+The
+![Eclipse debugging session with the gdb_xt2np helper](gdb_xt2np_example.png)
+
+### Version 0.1
+
+### FAQ
+* For
+### AUTHORS
+Eugène Sanscartier
+
+### Dependencies & Setup
+Well
+`alias `
+
+Starting  `(gdb) show version` reports
+```
+(gdb) py
+>import sys
+>print(sys.version)
+>end
+2.7.5 (default, Nov 16 2020, 22:23:17)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+```
+
+### TODOs
+* Add
+* How
