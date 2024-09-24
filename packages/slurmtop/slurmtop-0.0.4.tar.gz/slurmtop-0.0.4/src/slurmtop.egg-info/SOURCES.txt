@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/slurmtop/__about__.py
+src/slurmtop/__init__.py
+src/slurmtop/_data.py
+src/slurmtop/_info_widget.py
+src/slurmtop/_sinfo_widget.py
+src/slurmtop/_squeue_widget.py
+src/slurmtop/app.py
+src/slurmtop.egg-info/PKG-INFO
+src/slurmtop.egg-info/SOURCES.txt
+src/slurmtop.egg-info/dependency_links.txt
+src/slurmtop.egg-info/entry_points.txt
+src/slurmtop.egg-info/requires.txt
+src/slurmtop.egg-info/top_level.txt
