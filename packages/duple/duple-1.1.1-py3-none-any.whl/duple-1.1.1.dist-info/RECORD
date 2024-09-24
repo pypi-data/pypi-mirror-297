@@ -1,0 +1,9 @@
+duple/__version__.py,sha256=53GVpdbXWKClDfDcMCbYGRJD9bu0Au5mGW3n_hBqP3w,21
+duple/duple.py,sha256=g2xSveNh7fsMThkxuiB_IDhwXACulUZP51xlJKGPqVo,20630
+duple/info.py,sha256=TCO84BzhARzxk--SgUGq4HMSXvD4dYMuReK_YcwHTBw,572
+duple/publish_actions.py,sha256=50YEFHDD5HViOlq7Y3t0pUdM94h6pEBfV9E3u0lkIuM,238
+duple-1.1.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+duple-1.1.1.dist-info/METADATA,sha256=380aDJjEHqESmlMX1xAaEWKaboh2UikN9du0PePKOqc,4352
+duple-1.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+duple-1.1.1.dist-info/entry_points.txt,sha256=F87itxppXMucP2Eh6AHs7I4ShJjGmH4G_qJaJhTLGts,89
+duple-1.1.1.dist-info/RECORD,,
