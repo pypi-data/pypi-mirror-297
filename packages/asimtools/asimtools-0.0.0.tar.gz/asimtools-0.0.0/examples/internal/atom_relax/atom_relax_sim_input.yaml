@@ -1,0 +1,14 @@
+asimmodule: geometry_optimization.atom_relax
+env_id: 
+workdir: relax_results
+args:
+  calc_id: lj_Ar
+  image:
+    name: Ar
+    builder: bulk
+    crystalstructure: fcc
+    a: 5.3
+    rattle_stdev: 0.03
+    repeat: [4,4,4]
+  fmax: 0.01
+  optimizer: GPMin

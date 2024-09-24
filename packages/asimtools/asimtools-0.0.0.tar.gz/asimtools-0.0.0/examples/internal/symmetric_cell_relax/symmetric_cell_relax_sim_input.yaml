@@ -1,0 +1,19 @@
+asimmodule: geometry_optimization.symmetric_cell_relax
+workdir: symmetric_cell_relax_results
+args:
+  calc_id: lj_Ar
+  image:
+    name: Ar
+    crystalstructure: sc
+    a: 3
+    cubic: true
+  optimizer: BFGS
+  fixsymmetry_args:
+    symprec: 0.01
+    adjust_positions: true
+    adjust_cell: true
+  expcellfilter_args:
+    mask: null
+    hydrostatic_strain: false
+    constant_volume: false
+    scalar_pressure: 0.05
