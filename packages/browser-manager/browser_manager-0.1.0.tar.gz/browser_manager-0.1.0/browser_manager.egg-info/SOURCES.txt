@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+browser/__init__.py
+browser/browser.py
+browser/chrome.py
+browser/chromium.py
+browser/firefox.py
+browser/iexplore.py
+browser/msedge.py
+browser/opera.py
+browser/safari.py
+browser_manager.egg-info/PKG-INFO
+browser_manager.egg-info/SOURCES.txt
+browser_manager.egg-info/dependency_links.txt
+browser_manager.egg-info/requires.txt
+browser_manager.egg-info/top_level.txt
