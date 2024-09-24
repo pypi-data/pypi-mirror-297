@@ -1,0 +1,8 @@
+zhinst-toolkit
+numpy
+click
+Jinja2
+natsort
+black
+autoflake
+jsonschema
