@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: image_processing-Desafio_DIO_2024_v2
+Version: 0.0.1
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/gutembergue-martins/image-processing-package
+Author: Gutembergue
+Author-email: gutemberguemartins@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-image==0.24.0
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: matplotlib
+
+# image_processing
+
+Description. 
+The package image_processing-Desafio_DIO_2024 is used to:
+	Processing:
+ 		- Histogram matching
+   		- Structural similarity
+     		- Resize image
+	Utills:
+ 		- Read image
+   		- Save image
+     		- Plot image
+       		- Plot result
+	 	- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing-Desafio_DIO_2024
+
+```bash
+pip install image_processing-Desafio_DIO_2024
+```
+
+## Author
+Gutembergue
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
