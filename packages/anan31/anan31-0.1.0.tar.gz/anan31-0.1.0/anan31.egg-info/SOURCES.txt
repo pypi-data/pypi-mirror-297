@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Packages/__init__.py
+Packages/my_module.py
+Tests/Test_mymodule.py
+Tests/__init__.py
+anan31.egg-info/PKG-INFO
+anan31.egg-info/SOURCES.txt
+anan31.egg-info/dependency_links.txt
+anan31.egg-info/requires.txt
+anan31.egg-info/top_level.txt
