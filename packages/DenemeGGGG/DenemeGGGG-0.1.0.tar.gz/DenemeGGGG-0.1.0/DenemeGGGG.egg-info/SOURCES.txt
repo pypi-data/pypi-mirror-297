@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DenemeGGGG.egg-info/PKG-INFO
+DenemeGGGG.egg-info/SOURCES.txt
+DenemeGGGG.egg-info/dependency_links.txt
+DenemeGGGG.egg-info/requires.txt
+DenemeGGGG.egg-info/top_level.txt
+Packages/__init__.py
+Packages/my_module.py
+Tests/Test_mymodule.py
+Tests/__init__.py
