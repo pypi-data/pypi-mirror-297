@@ -1,0 +1,4 @@
+qiskit==1.2.1
+qiskit_aer==0.15.1
+jmetalpy==1.7.0
+openpyxl
