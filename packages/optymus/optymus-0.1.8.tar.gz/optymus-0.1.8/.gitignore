@@ -1,0 +1,12 @@
+dist/
+old-dist/
+playground/
+build/
+__pycache__/
+
+docs/_build
+docs/.generated
+docs/source/reference/.generated
+
+**/.generated/
+.generated/
