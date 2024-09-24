@@ -1,0 +1,47 @@
+[project]
+name = "lib-search-service"
+version = "1.0.1"
+authors = [
+  { name="Lib-Go Author", email="admin@lib-go.com" },
+]
+description = "A search service enables efficient querying and retrieval of data, integrating with Elasticsearch to provide fast, scalable, and accurate search results across large datasets or systems."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+
+    # Indicate who your project is intended for
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+
+    # Specify the Python versions you support here. In particular, ensure
+    # that you indicate you support Python 3. These classifiers are *not*
+    # checked by "pip install". See instead "requires-python" key in this file.
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+
+    # Pick your license as you wish
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/Lib-Go-Website/Search-Service"
+
+[project.scripts]
+sample = "app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
