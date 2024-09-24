@@ -1,0 +1,5 @@
+jira-assistant>=0.1.38
+
+[dev]
+pip-tools
+pytest
