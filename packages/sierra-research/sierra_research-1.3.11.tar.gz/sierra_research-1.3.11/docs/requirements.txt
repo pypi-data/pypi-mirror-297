@@ -1,0 +1,12 @@
+-e .
+
+sphinx==6.0.0
+docutils==0.19
+sphinx-rtd-theme
+sphinx-argparse
+sphinx-tabs
+sphinxcontrib-napoleon
+autoapi
+psutil
+sphinx-last-updated-by-git
+graphviz
