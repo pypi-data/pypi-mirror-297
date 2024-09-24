@@ -1,0 +1,7 @@
+jax
+
+[demo]
+matplotlib
+tqdm
+ratinabox
+pykalman
