@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+setup.py
+serto/__init__.py
+serto.egg-info/PKG-INFO
+serto.egg-info/SOURCES.txt
+serto.egg-info/dependency_links.txt
+serto.egg-info/entry_points.txt
+serto.egg-info/requires.txt
+serto.egg-info/top_level.txt

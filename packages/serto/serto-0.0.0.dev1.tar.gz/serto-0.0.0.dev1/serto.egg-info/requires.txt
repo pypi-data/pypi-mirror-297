@@ -1,0 +1,13 @@
+pandas>=2.2.2
+pyyaml>=6.0.1
+pyswmm>=2.0.1
+mpi4py>=3.1.6
+shapely>=2.0.5
+fiona>=1.9.6
+pyproj>=3.6.1
+geopandas>=1.0.1
+matplotlib>=3.9.1
+plotly>=5.23.0
+numpy>=1.23.0
+chama>=0.3.0
+getmac>=0.9.5
