@@ -1,0 +1,2 @@
+[console_scripts]
+candies = candies.app:app

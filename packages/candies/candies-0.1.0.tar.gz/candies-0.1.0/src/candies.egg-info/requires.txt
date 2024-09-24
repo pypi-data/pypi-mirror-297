@@ -1,0 +1,11 @@
+rich
+h5py
+numba
+numpy
+priwo
+pandas
+cyclopts
+generalimport
+
+[:python_version < "3.11"]
+typing_extensions
