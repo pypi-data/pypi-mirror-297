@@ -1,0 +1,15 @@
+__paths__.py,sha256=pFtz6awd9_6a3mx0EmaRP2TpWOjEocC1I7bNujcTGJI,639
+notebooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/pos_statistics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/pos_statistics/pos_statistics.ipynb,sha256=rAfYeaXSd6GM_VQLYi6qXXlrbL-1mjPCxjIwqNCkimo,2307
+notebooks/pos_statistics/pos_statistics.py,sha256=JEfItcfunffSYQgY0vJ_jkHOniUFYgIrOuEjEZSM59Q,1916
+notebooks/source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/source/state_on_load.py,sha256=PtuiJJuhDOEDAkTe8noJcYJw1CQ8YH7vbiiOUQPp7rk,763
+notebooks/topic_modelling/explore.ipynb,sha256=g4Qgn5zWm9EEew-vXMJIcN4SzHxMU-FRkJFf3R-vZ88,9177
+notebooks/topic_modelling/explore.py,sha256=v_H8vaghMpf9KSVSn78pMFdJj6u_DfHlwMQkhudjXKs,5402
+notebooks/word_trends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/word_trends/word_trends.ipynb,sha256=oOuGOoZBsUhBKZs7_D5pZ9TozCfHbzrUXyioNypIZyc,6379
+notebooks/word_trends/word_trends.py,sha256=jb8eKgFkjIjt9pXWghM9gDtQmufUDoQKmmx1cKfYxYc,5569
+humlab_disutrano-0.1.6.dist-info/METADATA,sha256=3R8Uo6pmBkhqpCa2Fy6kEkhFR4HI2vLX4KjZZEqPGhY,1612
+humlab_disutrano-0.1.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+humlab_disutrano-0.1.6.dist-info/RECORD,,
