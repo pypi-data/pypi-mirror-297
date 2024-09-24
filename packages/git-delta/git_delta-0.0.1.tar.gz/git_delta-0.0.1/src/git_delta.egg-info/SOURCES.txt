@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/git_delta/__init__.py
+src/git_delta.egg-info/PKG-INFO
+src/git_delta.egg-info/SOURCES.txt
+src/git_delta.egg-info/dependency_links.txt
+src/git_delta.egg-info/top_level.txt

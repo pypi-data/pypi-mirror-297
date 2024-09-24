@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-delta"
+version = "0.0.1"
+authors = [
+  { name="Thomas Otto", email="th1000s-2020@posteo.net" },
+]
+description = "A syntax-highlighting pager for git"
+readme = "README.md"
+requires-python = ">=3.3"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/dandavison/delta"
