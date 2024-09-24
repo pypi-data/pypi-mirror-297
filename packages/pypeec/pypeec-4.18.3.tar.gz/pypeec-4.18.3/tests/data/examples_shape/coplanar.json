@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "name": "examples_shape/coplanar",
+        "timestamp": "2024-08-11 23:17:15.193402"
+    },
+    "mesher": {
+        "n_total": 19200,
+        "n_used": 12632
+    },
+    "solver": {
+        "sim_default": {
+            "freq": 1000000.0,
+            "has_converged": true,
+            "P_total": 4.590712799475785,
+            "W_total": 2.087028762716996e-06
+        }
+    }
+}
