@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gan-art"
+version = "0.1.0"
+description = "This package assists user to transfer style of images by training a GAN model."
+authors = ["Elijah Yuan <elijah.yuan6009@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tensorflow = "^2.10.0"  # TensorFlow for building and training models
+tensorflow-hub = "^0.12.0"  # TensorFlow Hub for loading pre-trained models
+matplotlib = "^3.5.1"  # Matplotlib for image visualization
+Pillow = "^9.2.0"  # Pillow (PIL) for image processing
+numpy = "^1.21.0"  # NumPy for numerical operations
+IPython = "^8.0.0"  # IPython for interactive display support in notebooks
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

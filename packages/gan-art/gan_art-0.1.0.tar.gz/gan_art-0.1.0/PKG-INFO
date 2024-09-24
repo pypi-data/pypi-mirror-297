@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gan-art
+Version: 0.1.0
+Summary: This package assists user to transfer style of images by training a GAN model.
+Author: Elijah Yuan
+Author-email: elijah.yuan6009@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: IPython (>=8.0.0,<9.0.0)
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: tensorflow (>=2.10.0,<3.0.0)
+Requires-Dist: tensorflow-hub (>=0.12.0,<0.13.0)
+Description-Content-Type: text/markdown
+
+
