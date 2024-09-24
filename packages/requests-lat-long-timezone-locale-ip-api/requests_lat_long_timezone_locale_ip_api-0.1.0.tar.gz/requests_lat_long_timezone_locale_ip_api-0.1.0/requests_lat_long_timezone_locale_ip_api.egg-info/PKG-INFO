@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: requests-lat-long-timezone-locale-ip-api
+Version: 0.1.0
+Summary: Get timezone, locale, and location from IP address to use in your requests
+Home-page: https://github.com/pim97/requests-lat-long-timezone-locale-ip-api.git
+Author: dormic97
+Author-email: crozz-boy@hotmail.com
+Keywords: ip,ip-api,ip-geolocation,ip-location,ip-address,ip-locator,ip-tracker,ip-geocoding,ip-api-geolocation,ip-api-location,ip-api-address,ip-api-locator,ip-api-tracker,ip-api-geocoding,ip-api-geolocation,ip-api-location,ip-api-address,ip-api-locator,ip-api-tracker,ip-api-geocoding
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Your Package Name
+
+A short description of your package.
+
+## Installation
