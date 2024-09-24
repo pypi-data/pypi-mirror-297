@@ -1,0 +1,9 @@
+freezcord/Cog.py,sha256=u9DEK9dFDbI8jxOK3RG5PKsk3dBKksMlsQHJsHqsnzY,215
+freezcord/__init__.py,sha256=cQUNeWSVe3VupK0tu4jwGz9Hk5PIW6N3tlFJUra6RD0,194
+freezcord/bot.py,sha256=xmIPLeQSIPxBizFyzdgTYeMCwaQP817d_oJdz86Epw4,6307
+freezcord/load_cogs.py,sha256=psmY-6Et9p4zWDnCE7--P6A8pDDwbkWnGmh6bX8lmcQ,825
+freezcord/localize_command.py,sha256=5y72FynYVQ0OWSxB2cVzxDoiDpQ5vJCzv3RQXiigDek,3400
+freezcord-0.2.8.dist-info/METADATA,sha256=39yr7Ikfo_lFg7ryVstjOAI4VwA8rX1tBzvVruu5H7k,785
+freezcord-0.2.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+freezcord-0.2.8.dist-info/top_level.txt,sha256=o53DM9yS-SvHSDji0P1xjqgcoCPHQeYtuJjLDkNry6E,10
+freezcord-0.2.8.dist-info/RECORD,,
