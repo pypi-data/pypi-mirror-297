@@ -1,0 +1,2 @@
+recursive-include sop_utils/templates/ *
+recursive-include sop_utils/static/ *
