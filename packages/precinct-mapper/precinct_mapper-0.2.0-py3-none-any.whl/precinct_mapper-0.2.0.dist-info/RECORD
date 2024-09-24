@@ -1,0 +1,12 @@
+precinct_mapper/__init__.py,sha256=FYaiqpmyfaUKOoyED3buZ_YSdLtbX0VYixPb7-Hy9_Y,318
+precinct_mapper/data/__init__.py,sha256=ent6Lsmdx__LVX28OPG6tSddYoGmSLC9tWtKHJAnz-A,414
+precinct_mapper/data/containers/__init__.py,sha256=ZVqCSbywcP-D0k7KPr6RleQyAXNGXdUWsRIgF7gH-G8,180
+precinct_mapper/data/containers/region.py,sha256=uMCpIW4hjIAc_7XqAaeKrAjbMjTdvSQXLAY9JkPZOgc,3031
+precinct_mapper/data/containers/state.py,sha256=WQ0avbBgVGLSPInifHSqb2LJzD3u4CHO7ampmxz_aMI,7278
+precinct_mapper/data/fetcher.py,sha256=JmE2rt7iRMTxNnIx_MsB36v8Fmk0DiHN3uzBvJ9oI8A,20368
+precinct_mapper/data/parser.py,sha256=UhKoZ-ciMyLSLepvG7pIGcRcp4rF2I8j1CFh7sEPgZ0,9070
+precinct_mapper/mapper.py,sha256=3pAakkR2mojU-IZfezmPBWjd5tfJwoRGmNoFFTEhEnY,523
+precinct_mapper-0.2.0.dist-info/LICENSE,sha256=_CDHogbxUUYrjyX1pVjRsjZI-pAB9YdinLlqT0xAMoc,1066
+precinct_mapper-0.2.0.dist-info/METADATA,sha256=muAwqMhzCmJxw8dmA8-1iGMbkCvaNQZGIVZPDziShWA,4004
+precinct_mapper-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+precinct_mapper-0.2.0.dist-info/RECORD,,
