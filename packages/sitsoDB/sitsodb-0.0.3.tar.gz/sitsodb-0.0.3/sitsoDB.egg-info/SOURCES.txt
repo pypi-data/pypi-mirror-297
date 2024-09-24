@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sitsoDB/__init__.py
+sitsoDB/main.py
+sitsoDB/seriesDB.csv
+sitsoDB/shelfDB.csv
+sitsoDB/standardDB.csv
+sitsoDB.egg-info/PKG-INFO
+sitsoDB.egg-info/SOURCES.txt
+sitsoDB.egg-info/dependency_links.txt
+sitsoDB.egg-info/requires.txt
+sitsoDB.egg-info/top_level.txt
+test/test-run.py
