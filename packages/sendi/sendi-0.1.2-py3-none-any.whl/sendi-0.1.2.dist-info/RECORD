@@ -1,0 +1,12 @@
+sendi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sendi/__main__.py,sha256=E8XoepLufY-CgAKM_brBXYf4BBBhmHs39r-BJKZgKjU,45
+sendi/bot.py,sha256=VPLBreJKBq21l4IKcBmmaDVFDdgtkyUHF2q6EhZfzuk,9767
+sendi/cli.py,sha256=Wn84NI6YH3PHNPrPUaEiLxKDsGbiOoobuNoE_gSS2KQ,2018
+sendi/common.py,sha256=_fVKAPlJ0sFkeh9Eg9Kcfj2KSSu8sh2eYwSj2qLd3uI,277
+sendi/lib.py,sha256=GxHA5QDKdiTHhW0sROCz638WVLSLNoEMGn9avki8Qtk,1897
+sendi/omemo.py,sha256=NF4LEKpu2CgTNG7z-nSdTBcMEy2sRZImY0WJWVH17_g,3463
+sendi-0.1.2.dist-info/METADATA,sha256=J_EgABc4OdJ0DGkrbhgJhybhtDEKnyLj9LfSc28JQ0k,2634
+sendi-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+sendi-0.1.2.dist-info/entry_points.txt,sha256=gbnnA5-m5WZdgOdtUe7d-p8FCskRu3jl7xmn6XnkUdc,40
+sendi-0.1.2.dist-info/licenses/LICENSE,sha256=fxYldfT081qDaQ1ArFZHW9Hv15asB0XUjElN7n8ytC8,34511
+sendi-0.1.2.dist-info/RECORD,,
