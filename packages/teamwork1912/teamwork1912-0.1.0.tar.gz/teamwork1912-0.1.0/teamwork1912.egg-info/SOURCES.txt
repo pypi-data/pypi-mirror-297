@@ -1,0 +1,9 @@
+README.md
+setup.py
+teamwork1912/__init__.py
+teamwork1912/autoclaim.py
+teamwork1912.egg-info/PKG-INFO
+teamwork1912.egg-info/SOURCES.txt
+teamwork1912.egg-info/dependency_links.txt
+teamwork1912.egg-info/requires.txt
+teamwork1912.egg-info/top_level.txt

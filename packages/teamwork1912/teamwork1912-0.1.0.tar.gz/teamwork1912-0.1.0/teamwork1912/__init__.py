@@ -1,0 +1,1 @@
+from autoclaim import Base
