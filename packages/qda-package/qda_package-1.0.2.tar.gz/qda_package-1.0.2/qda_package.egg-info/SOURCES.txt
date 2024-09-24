@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+qda_package/MachineLogAnalytics.py
+qda_package/ParentMachineInterface.py
+qda_package/SystemInfo.py
+qda_package/__init__.py
+qda_package.egg-info/PKG-INFO
+qda_package.egg-info/SOURCES.txt
+qda_package.egg-info/dependency_links.txt
+qda_package.egg-info/requires.txt
+qda_package.egg-info/top_level.txt
+qda_package/pytransform/__init__.py
+qda_package/pytransform/_pytransform.dll
+qda_package/pytransform/_pytransform.so
