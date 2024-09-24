@@ -1,0 +1,9 @@
+typed_args/__init__.py,sha256=e9ekAb60bvBYDQ-s4Oy_ab7LFU3W1tZeZCadLjIxuyg,824
+typed_args/_assigner.py,sha256=unsZPUvuWk0vR6gfhlJQ8vCpqDgiQGS016PrGS9qjXg,1340
+typed_args/_core.py,sha256=GwNglSQlBBEeHIEmcBn1c8CAXg7jE9P284D7Jd2Uw3g,3149
+typed_args/_parser.py,sha256=YJPjJfrZmQUqN6QKsfCrMUqtTTGaPovaFLbjC8VEvEc,4715
+typed_args/_utils.py,sha256=YgtWLw8tEmSJdp6XWZq-34LkxNPryWGWYtckXsvlWiY,1987
+typed_args-0.6.5.dist-info/METADATA,sha256=JJ73NYNbJ6w1VqILJL-hcsGrMml6C5NgF_NknZCQ7uY,6246
+typed_args-0.6.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+typed_args-0.6.5.dist-info/licenses/LICENSE,sha256=CquxWGlgjvPjDfYjFMHepiLsvZWqGPiJwNfmw7tB6dY,1506
+typed_args-0.6.5.dist-info/RECORD,,
